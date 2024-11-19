@@ -15,7 +15,6 @@ export const env = createEnv({
    */
   server: {
     POSTGRES_URL: z.string().url(),
-    HUGGINGFACE_ACCESS_TOKEN: z.string().min(1),
   },
   /**
    * Specify your client-side environment variables schema here.

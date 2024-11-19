@@ -8,12 +8,23 @@ export default defineConfig({
     format: "prettier",
     // lint: "eslint",
   },
-  types: {
-    dates: "types+transform",
-    enums: "javascript",
-  },
-  services: {
-    asClass: false, // flat
-  },
-  plugins: ["@tanstack/react-query"],
+  plugins: [
+    "@tanstack/react-query",
+    {
+      asClass: false, // default, flat
+      name: "@hey-api/services",
+    },
+    {
+      name: "@hey-api/schemas",
+      type: "json",
+    },
+    {
+      dates: true,
+      name: "@hey-api/transformers",
+    },
+    {
+      enums: false, // default
+      name: "@hey-api/types",
+    },
+  ],
 });

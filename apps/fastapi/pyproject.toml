@@ -1,10 +1,9 @@
 [project]
-name = "fastapi-epitope-prediction"
+name = "fastapi-lampstand"
 version = "0.1.0"
-description = "FastAPI for B-cell and T-cell epitope prediction."
+description = "FastAPI for Lampstand."
 authors = [
     {name = "trevorpfiz", email = "elektrikspark@gmail.com"},
-    {name = "zacharypfiz", email = "ztpfizcode@gmail.com"},
 ]
 readme = "README.md"
 requires-python = ">=3.12"

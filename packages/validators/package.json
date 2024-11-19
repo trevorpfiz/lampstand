@@ -11,10 +11,6 @@
     "./auth": {
       "types": "./dist/auth/index.d.ts",
       "default": "./src/auth/index.ts"
-    },
-    "./epitopes": {
-      "types": "./dist/epitopes/index.d.ts",
-      "default": "./src/epitopes/index.ts"
     }
   },
   "license": "MIT",

@@ -59,8 +59,8 @@ class Settings(BaseSettings):
 
     # Project details
     API_VERSION: str = "/api/v1"
-    PROJECT_NAME: str = "B-cell and T-cell Epitope Prediction FastAPI"
-    PROJECT_DESCRIPTION: str = "B-cell and T-cell Epitope Prediction"
+    PROJECT_NAME: str = "Lampstand FastAPI"
+    PROJECT_DESCRIPTION: str = "Lampstand FastAPI"
 
     # Pydantic configuration to load environment variables from .env
     model_config = SettingsConfigDict(env_file=".env")

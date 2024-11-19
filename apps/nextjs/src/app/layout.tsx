@@ -17,13 +17,13 @@ export const metadata: Metadata = {
       ? env.NEXT_PUBLIC_SITE_URL
       : "http://localhost:3000",
   ),
-  title: "BioxML Epitope Prediction",
-  description: "B-cell and T-cell epitope prediction platform.",
+  title: "Lampstand",
+  description: "The Simplest Bible Study Platform.",
   openGraph: {
-    title: "BioxML Epitope Prediction",
-    description: "B-cell and T-cell epitope prediction platform.",
+    title: "Lampstand",
+    description: "The Simplest Bible Study Platform.",
     url: env.NEXT_PUBLIC_SITE_URL,
-    siteName: "BioxML Epitope Prediction",
+    siteName: "Lampstand",
   },
   twitter: {
     card: "summary_large_image",
@@ -56,7 +56,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
           disableTransitionOnChange
         >
           <TRPCReactProvider>{props.children}</TRPCReactProvider>
-          <Toaster />
+          <Toaster richColors />
         </ThemeProvider>
       </body>
     </html>

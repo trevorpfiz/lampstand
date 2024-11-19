@@ -1,3 +1,3 @@
-# Epitope Prediction Web Platform
+# Lampstand - The Simplest Bible Study Platform
 
-This is the web platform for B-cell and T-cell epitope prediction.
+This is the web platform for Lampstand.

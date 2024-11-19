@@ -1,1 +1,1 @@
-BioxML Epitope Prediction
+Lampstand

@@ -11,12 +11,10 @@ export const publicRoutes = [];
  * @type {string[]} protectedRoutes - The protected routes.
  */
 export const protectedRoutes = [
-  "/",
   "/onboarding",
   "/dashboard",
   "/settings",
   "/account",
-  "/job",
 ];
 
 /**

@@ -21,7 +21,7 @@ def custom_generate_unique_id(route: APIRoute):
     """Generates a custom ID when using the TypeScript Generator Client
 
     Args:
-        route (APIRoute): The route to be customised
+        route (APIRoute): The route to be customized
 
     Returns:
         str: tag-route_name, e.g. items-CreateItem

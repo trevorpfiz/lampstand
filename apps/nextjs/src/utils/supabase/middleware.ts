@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-argument */
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 import { createServerClient } from "@supabase/ssr";
@@ -39,38 +38,18 @@ export async function updateSession(request: NextRequest) {
     },
   );
 
-  // IMPORTANT: Avoid writing any logic between createServerClient and
-  // supabase.auth.getUser(). A simple mistake could make it very hard to debug
-  // issues with users being randomly logged out.
-
-  let {
+  const {
     data: { user },
   } = await supabase.auth.getUser();
 
-  // If protected route and user is not authenticated, redirect to signin
-  const isProtectedRoute = protectedRoutes.includes(request.nextUrl.pathname);
-
-  // If user is not authenticated, sign in anonymously
-  if (!user && isProtectedRoute) {
-    console.log("User is not authenticated, signing in anonymously");
-    const { data, error } = await supabase.auth.signInAnonymously();
-    if (error) {
-      console.error("Error signing in anonymously:", error);
-    } else {
-      console.log("Anonymous user signed in:", data.user);
-      user = data.user;
-    }
-  }
-
-  if (isProtectedRoute && !user) {
+  // If accessing protected route without auth, redirect to signin
+  if (protectedRoutes.includes(request.nextUrl.pathname) && !user) {
     const url = new URL(DEFAULT_AUTH_ROUTE, request.url);
     return NextResponse.redirect(url);
   }
 
-  // Forward authed user to DEFAULT_LOGIN_REDIRECT if auth route
-  const isAuthRoute = authRoutes.includes(request.nextUrl.pathname);
-
-  if (isAuthRoute && !user?.is_anonymous) {
+  // If accessing auth routes while logged in, redirect to dashboard
+  if (authRoutes.includes(request.nextUrl.pathname) && user) {
     const url = new URL(DEFAULT_LOGIN_REDIRECT, request.url);
     return NextResponse.redirect(url);
   }

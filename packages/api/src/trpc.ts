@@ -13,8 +13,6 @@ import { ZodError } from "zod";
 
 import { db } from "@lamp/db/client";
 
-import { client } from "./lib/api/client";
-
 /**
  * 1. CONTEXT
  *
@@ -46,19 +44,9 @@ export const createTRPCContext = async (opts: {
   const source = opts.headers.get("x-trpc-source") ?? "unknown";
   console.log(">>> tRPC Request from", source, "by", user.data.user?.email);
 
-  const apiUrl =
-    process.env.NEXT_PUBLIC_USE_LAMBDA_API === "true"
-      ? process.env.NEXT_PUBLIC_FASTAPI_STAGE_URL
-      : process.env.NEXT_PUBLIC_FASTAPI_URL;
-
-  client.setConfig({
-    baseUrl: apiUrl,
-  });
-
   return {
     user: user.data.user,
     db,
-    heyClient: client,
   };
 };
 

@@ -128,11 +128,12 @@ tooling
 #### 1. Clone the repo and navigate to notebooks
 
 ```
-git clone https://github.com/trevorpfiz/BioxML-allergen-epitopes.git
-cd BioxML-allergen-epitopes/notebooks
+git clone https://github.com/trevorpfiz/lampstand.git
+cd lampstand/notebooks
 ```
 
 #### 2. VS Code-GitHub-Google Colab
+
 https://peter-jp-xie.medium.com/develop-colab-notebooks-with-visual-studio-code-de830dde9baa
 
 ### For Web Developers
@@ -232,7 +233,7 @@ REVOKE USAGE ON SCHEMA public FROM anon, authenticated;
 
 ## Feedback
 
-Share your thoughts in [Discussions](https://github.com/trevorpfiz/BioxML-allergen-epitopes/discussions)
+Share your thoughts in [Discussions](https://github.com/trevorpfiz/lampstand/discussions)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,11 +241,11 @@ Share your thoughts in [Discussions](https://github.com/trevorpfiz/BioxML-allerg
 
 ## Contributing
 
-We welcome contributions! Find out how you can contribute to the project in `CONTRIBUTING.md`: [Contributing Guidelines](https://github.com/trevorpfiz/BioxML-allergen-epitopes/blob/main/CONTRIBUTING.md)
+We welcome contributions! Find out how you can contribute to the project in `CONTRIBUTING.md`: [Contributing Guidelines](https://github.com/trevorpfiz/lampstand/blob/main/CONTRIBUTING.md)
 
-<a href="https://github.com/trevorpfiz/BioxML-allergen-epitopes/graphs/contributors">
+<a href="https://github.com/trevorpfiz/lampstand/graphs/contributors">
   <p align="center">
-    <img src="https://contrib.rocks/image?repo=trevorpfiz/BioxML-allergen-epitopes" alt="A table of avatars from the project's contributors" />
+    <img src="https://contrib.rocks/image?repo=trevorpfiz/lampstand" alt="A table of avatars from the project's contributors" />
   </p>
 </a>
 
@@ -258,7 +259,7 @@ We welcome contributions! Find out how you can contribute to the project in `CON
 
 ## License
 
-Distributed under the [MIT License](https://github.com/trevorpfiz/BioxML-allergen-epitopes/blob/main/LICENSE). See `LICENSE` for more information.
+Distributed under the [MIT License](https://github.com/trevorpfiz/lampstand/blob/main/LICENSE). See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

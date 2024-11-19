@@ -1,16 +1,16 @@
 # Contribution Guidelines
 
-When contributing to `BioxML Allergen Epitopes`, whether on GitHub or in other community spaces:
+When contributing to `Lampstand`, whether on GitHub or in other community spaces:
 
 - Be respectful, civil, and open-minded.
-- Before opening a new pull request, try searching through the [issue tracker](https://github.com/trevorpfiz/BioxML-allergen-epitopes/issues) for known issues or fixes.
+- Before opening a new pull request, try searching through the [issue tracker](https://github.com/trevorpfiz/lampstand/issues) for known issues or fixes.
 - If you want to make code changes based on your personal opinion(s), make sure you open an issue first describing the changes you want to make, and open a pull request only when your suggestions get approved by maintainers.
 
 ## How to Contribute
 
 ### Prerequisites
 
-To not waste your time implementing a change that has already been declined, or is generally not needed, start by [opening an issue](https://github.com/trevorpfiz/BioxML-allergen-epitopes/issues/new/choose) describing the problem you would like to solve.
+To not waste your time implementing a change that has already been declined, or is generally not needed, start by [opening an issue](https://github.com/trevorpfiz/lampstand/issues/new/choose) describing the problem you would like to solve.
 
 ### Setup your environment locally
 
@@ -19,13 +19,13 @@ _Some commands will assume you have the Github CLI installed, if you haven't, co
 To contribute to this project, you will need to fork the repository:
 
 ```bash
-gh repo fork trevorpfiz/BioxML-allergen-epitopes
+gh repo fork trevorpfiz/lampstand
 ```
 
 then, clone it to your local machine:
 
 ```bash
-gh repo clone <your-github-name>/BioxML-allergen-epitopes
+gh repo clone <your-github-name>/lampstand
 ```
 
 This project uses [pnpm](https://pnpm.io) as its package manager. Install it if you haven't already:
