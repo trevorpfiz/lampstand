@@ -4,9 +4,9 @@ import type { Metadata, Viewport } from "next";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 
-import { cn } from "@epi/ui";
-import { Toaster } from "@epi/ui/sonner";
-import { ThemeProvider } from "@epi/ui/theme";
+import { cn } from "@lamp/ui";
+import { Toaster } from "@lamp/ui/sonner";
+import { ThemeProvider } from "@lamp/ui/theme";
 
 import { env } from "~/env";
 import { TRPCReactProvider } from "~/trpc/react";

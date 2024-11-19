@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ChevronLeftIcon } from "lucide-react";
 
-import { Button } from "@epi/ui/button";
+import { Button } from "@lamp/ui/button";
 
 export function useBackPath(currentResource: string) {
   const pathname = usePathname();

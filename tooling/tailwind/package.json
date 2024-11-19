@@ -1,5 +1,5 @@
 {
-  "name": "@epi/tailwind-config",
+  "name": "@lamp/tailwind-config",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -15,18 +15,18 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "postcss": "^8.4.47",
+    "postcss": "^8.4.49",
     "tailwindcss": "catalog:tailwind",
     "tailwindcss-animate": "catalog:tailwind"
   },
   "devDependencies": {
-    "@epi/eslint-config": "workspace:*",
-    "@epi/prettier-config": "workspace:*",
-    "@epi/tsconfig": "workspace:*",
+    "@lamp/eslint-config": "workspace:*",
+    "@lamp/prettier-config": "workspace:*",
+    "@lamp/tsconfig": "workspace:*",
     "@tailwindcss/typography": "^0.5.14",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@epi/prettier-config"
+  "prettier": "@lamp/prettier-config"
 }

@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { useAction } from "next-safe-action/hooks";
 
-import type { SignIn } from "@epi/validators/auth";
-import { Button } from "@epi/ui/button";
+import type { SignIn } from "@lamp/validators/auth";
+import { Button } from "@lamp/ui/button";
 import {
   Form,
   FormControl,
@@ -13,9 +13,9 @@ import {
   FormLabel,
   FormMessage,
   useForm,
-} from "@epi/ui/form";
-import { Input } from "@epi/ui/input";
-import { SignInSchema } from "@epi/validators/auth";
+} from "@lamp/ui/form";
+import { Input } from "@lamp/ui/input";
+import { SignInSchema } from "@lamp/validators/auth";
 
 import { FormError } from "~/components/auth/form-error";
 import { signInWithPassword } from "~/lib/actions/auth";

@@ -1,6 +1,6 @@
-import baseConfig, { restrictEnvAccess } from "@epi/eslint-config/base";
-import nextjsConfig from "@epi/eslint-config/nextjs";
-import reactConfig from "@epi/eslint-config/react";
+import baseConfig, { restrictEnvAccess } from "@lamp/eslint-config/base";
+import nextjsConfig from "@lamp/eslint-config/nextjs";
+import reactConfig from "@lamp/eslint-config/react";
 
 /** @type {import('typescript-eslint').Config} */
 export default [

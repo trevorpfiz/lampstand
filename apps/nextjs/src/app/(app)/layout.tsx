@@ -1,4 +1,4 @@
-import { Toaster } from "@epi/ui/sonner";
+import { Toaster } from "@lamp/ui/sonner";
 
 import Header from "~/components/header";
 import { ShareDialog } from "~/components/jobs/share-job";

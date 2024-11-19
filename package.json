@@ -1,21 +1,22 @@
 {
-  "name": "bioxml-allergen-epitopes",
+  "name": "lampstand",
   "private": true,
   "engines": {
-    "node": ">=20.16.0"
+    "node": ">=20.16.0",
+    "pnpm": "^9.6.0"
   },
-  "packageManager": "pnpm@9.12.2+sha256.2ef6e547b0b07d841d605240dce4d635677831148cd30f6d564b8f4f928f73d2",
+  "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a",
   "scripts": {
-    "api:openapi-ts": "turbo -F @epi/api openapi-ts",
+    "api:openapi-ts": "turbo -F @lamp/api openapi-ts",
     "build": "turbo run build",
     "clean": "git clean -xdf node_modules",
     "clean:workspaces": "turbo run clean",
     "daemon:clean": "turbo daemon clean",
     "daemon:restart": "turbo daemon restart",
-    "db:generate": "turbo -F @epi/db dk-generate",
-    "db:migrate": "turbo -F @epi/db migrate",
-    "db:push": "turbo -F @epi/db push",
-    "db:studio": "turbo -F @epi/db studio",
+    "db:generate": "turbo -F @lamp/db dk-generate",
+    "db:migrate": "turbo -F @lamp/db migrate",
+    "db:push": "turbo -F @lamp/db push",
+    "db:studio": "turbo -F @lamp/db studio",
     "dev": "turbo watch dev --continue",
     "format": "turbo run format --continue -- --cache --cache-location .cache/.prettiercache",
     "format:fix": "turbo run format --continue -- --write --cache --cache-location .cache/.prettiercache",
@@ -23,14 +24,14 @@
     "lint:fix": "turbo run lint --continue -- --fix --cache --cache-location .cache/.eslintcache",
     "lint:ws": "pnpm dlx sherif@latest",
     "typecheck": "turbo run typecheck",
-    "ui:ui-add": "turbo -F @epi/ui ui-add"
+    "ui:ui-add": "turbo -F @lamp/ui ui-add"
   },
   "devDependencies": {
-    "@epi/prettier-config": "workspace:*",
-    "@turbo/gen": "^2.1.3",
+    "@lamp/prettier-config": "workspace:*",
+    "@turbo/gen": "^2.3.0",
     "prettier": "catalog:",
-    "turbo": "^2.1.3",
+    "turbo": "^2.3.0",
     "typescript": "catalog:"
   },
-  "prettier": "@epi/prettier-config"
+  "prettier": "@lamp/prettier-config"
 }

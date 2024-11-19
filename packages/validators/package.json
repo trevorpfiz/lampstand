@@ -1,5 +1,5 @@
 {
-  "name": "@epi/validators",
+  "name": "@lamp/validators",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -30,12 +30,12 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@epi/eslint-config": "workspace:*",
-    "@epi/prettier-config": "workspace:*",
-    "@epi/tsconfig": "workspace:*",
+    "@lamp/eslint-config": "workspace:*",
+    "@lamp/prettier-config": "workspace:*",
+    "@lamp/tsconfig": "workspace:*",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@epi/prettier-config"
+  "prettier": "@lamp/prettier-config"
 }

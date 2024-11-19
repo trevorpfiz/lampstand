@@ -1,4 +1,4 @@
-import { cn } from ".";
+import { cn } from "@lamp/ui";
 
 function Skeleton({
   className,

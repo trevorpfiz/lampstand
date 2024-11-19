@@ -2,11 +2,11 @@ import type { TRPCRouterRecord } from "@trpc/server";
 import { TRPCError } from "@trpc/server";
 import { z } from "zod";
 
-import { eq } from "@epi/db";
+import { eq } from "@lamp/db";
 import {
   insertLinearBPredictionParams,
   LinearBPrediction,
-} from "@epi/db/schema";
+} from "@lamp/db/schema";
 
 import { protectedProcedure, publicProcedure } from "../trpc";
 

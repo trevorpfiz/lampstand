@@ -4,8 +4,8 @@ import type { User } from "@supabase/supabase-js";
 import { useRouter } from "next/navigation";
 import { Settings } from "lucide-react";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@epi/ui/avatar";
-import { Button } from "@epi/ui/button";
+import { Avatar, AvatarFallback, AvatarImage } from "@lamp/ui/avatar";
+import { Button } from "@lamp/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -14,7 +14,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@epi/ui/dropdown-menu";
+} from "@lamp/ui/dropdown-menu";
 
 // import { signOut } from "~/lib/actions/auth";
 import { getNameFromUser } from "~/lib/utils";

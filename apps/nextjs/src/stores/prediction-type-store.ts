@@ -1,6 +1,6 @@
 import { createStore } from "zustand/vanilla";
 
-import type { PredictionType } from "@epi/db/schema";
+import type { PredictionType } from "@lamp/db/schema";
 
 export interface PredictionTypeState {
   selectedType: PredictionType;

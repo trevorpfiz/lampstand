@@ -3,14 +3,14 @@
 <!-- PROJECT LOGO -->
 <br>
 <div align="center">
-  <a href="https://github.com/trevorpfiz/BioxML-allergen-epitopes">
+  <a href="https://github.com/trevorpfiz/lampstand">
     <img src="https://github.com/user-attachments/assets/75fa5507-721d-4c0a-92ee-92a9002aff0c" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Epitope Prediction Platform - B-cell and T-cell Epitope Prediction Powered by ESM-3</h3>
+<h3 align="center">Lampstand - The Simplest Bible Study Platform</h3>
 
   <p align="center">
-    This is an open source web platform powered by ESM-3 to advance B-cell and T-cell epitope prediction. One of our aims is to discover new allergen epitopes not listed in the IEDB and advance allergy research.
+    This is the simplest and most powerful Bible study platform. Use it to grow in your relationship with Christ and others.
   </p>
 </div>
 
@@ -33,7 +33,7 @@
 
 ## Demo
 
-https://devpost.com/software/epitope-prediction-web-platform
+Coming soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,7 +115,7 @@ tooling
       └─ shared tsconfig you can extend from
 ```
 
-> In this project, we use `@epi` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@epi` to something like `@my-company` or `@project-name`.
+> In this project, we use `@lamp` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@lamp` to something like `@my-company` or `@project-name`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

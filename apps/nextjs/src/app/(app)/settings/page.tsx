@@ -2,7 +2,7 @@
 
 import { useTheme } from "next-themes";
 
-import { Button } from "@epi/ui/button";
+import { Button } from "@lamp/ui/button";
 
 export default function SettingsPage() {
   const { setTheme } = useTheme();

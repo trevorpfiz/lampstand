@@ -2,8 +2,8 @@ import { cache } from "react";
 import { headers } from "next/headers";
 import { createHydrationHelpers } from "@trpc/react-query/rsc";
 
-import type { AppRouter } from "@epi/api";
-import { createCaller, createTRPCContext } from "@epi/api";
+import type { AppRouter } from "@lamp/api";
+import { createCaller, createTRPCContext } from "@lamp/api";
 
 import { createQueryClient } from "~/trpc/query-client";
 import { createClient } from "~/utils/supabase/server";

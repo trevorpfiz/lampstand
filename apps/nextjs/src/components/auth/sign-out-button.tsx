@@ -1,4 +1,4 @@
-import { Button } from "@epi/ui/button";
+import { Button } from "@lamp/ui/button";
 
 import { signOut } from "~/lib/actions/auth";
 

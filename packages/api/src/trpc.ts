@@ -11,7 +11,7 @@ import { initTRPC, TRPCError } from "@trpc/server";
 import superjson from "superjson";
 import { ZodError } from "zod";
 
-import { db } from "@epi/db/client";
+import { db } from "@lamp/db/client";
 
 import { client } from "./lib/api/client";
 

@@ -2,8 +2,8 @@ import type { TRPCRouterRecord } from "@trpc/server";
 import { TRPCError } from "@trpc/server";
 import { z } from "zod";
 
-import { eq } from "@epi/db";
-import { insertMhcIIPredictionParams, MhcIIPrediction } from "@epi/db/schema";
+import { eq } from "@lamp/db";
+import { insertMhcIIPredictionParams, MhcIIPrediction } from "@lamp/db/schema";
 
 import { protectedProcedure, publicProcedure } from "../trpc";
 

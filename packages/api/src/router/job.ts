@@ -2,8 +2,8 @@ import type { TRPCRouterRecord } from "@trpc/server";
 import { TRPCError } from "@trpc/server";
 import { z } from "zod";
 
-import { and, desc, eq } from "@epi/db";
-import { insertJobParams, Job, updateJobParams } from "@epi/db/schema";
+import { and, desc, eq } from "@lamp/db";
+import { insertJobParams, Job, updateJobParams } from "@lamp/db/schema";
 
 import { protectedProcedure, publicProcedure } from "../trpc";
 

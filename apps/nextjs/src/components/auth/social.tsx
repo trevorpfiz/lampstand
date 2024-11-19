@@ -1,6 +1,6 @@
 import { FcGoogle } from "react-icons/fc";
 
-import { Button } from "@epi/ui/button";
+import { Button } from "@lamp/ui/button";
 
 import { signInWithGoogle } from "~/lib/actions/auth";
 

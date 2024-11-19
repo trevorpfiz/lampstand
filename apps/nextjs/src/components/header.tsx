@@ -10,8 +10,8 @@ import {
 } from "next/navigation";
 import { Upload } from "lucide-react";
 
-import type { PredictionType } from "@epi/db/schema";
-import { Button } from "@epi/ui/button";
+import type { PredictionType } from "@lamp/db/schema";
+import { Button } from "@lamp/ui/button";
 import {
   Select,
   SelectContent,
@@ -20,7 +20,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@epi/ui/select";
+} from "@lamp/ui/select";
 
 import { UserButton } from "~/components/auth/user-button";
 import { usePredictionTypeStore } from "~/providers/prediction-type-store-provider";

@@ -1,5 +1,5 @@
 {
-  "name": "@epi/api",
+  "name": "@lamp/api",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -29,24 +29,24 @@
   },
   "dependencies": {
     "@date-fns/tz": "catalog:dates",
-    "@epi/db": "workspace:*",
-    "@epi/validators": "workspace:*",
-    "@hey-api/client-fetch": "^0.4.0",
+    "@lamp/db": "workspace:*",
+    "@lamp/validators": "workspace:*",
+    "@hey-api/client-fetch": "^0.4.4",
     "@supabase/supabase-js": "catalog:supabase",
     "@trpc/server": "catalog:",
     "date-fns": "catalog:dates",
-    "nanoid": "^5.0.7",
+    "nanoid": "^5.0.8",
     "superjson": "catalog:",
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@epi/eslint-config": "workspace:*",
-    "@epi/prettier-config": "workspace:*",
-    "@epi/tsconfig": "workspace:*",
-    "@hey-api/openapi-ts": "^0.53.7",
+    "@lamp/eslint-config": "workspace:*",
+    "@lamp/prettier-config": "workspace:*",
+    "@lamp/tsconfig": "workspace:*",
+    "@hey-api/openapi-ts": "^0.56.1",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@epi/prettier-config"
+  "prettier": "@lamp/prettier-config"
 }

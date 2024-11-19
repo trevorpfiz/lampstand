@@ -1,5 +1,5 @@
 {
-  "name": "@epi/prettier-config",
+  "name": "@lamp/prettier-config",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -12,13 +12,13 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
     "prettier": "catalog:",
     "prettier-plugin-tailwindcss": "^0.6.8"
   },
   "devDependencies": {
-    "@epi/tsconfig": "workspace:*",
+    "@lamp/tsconfig": "workspace:*",
     "typescript": "catalog:"
   },
-  "prettier": "@epi/prettier-config"
+  "prettier": "@lamp/prettier-config"
 }

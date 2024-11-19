@@ -5,7 +5,7 @@ import {
 } from "@tanstack/react-query";
 import SuperJSON from "superjson";
 
-import { toast } from "@epi/ui/sonner";
+import { toast } from "@lamp/ui/sonner";
 
 export const createQueryClient = () =>
   new QueryClient({

@@ -2,8 +2,8 @@
 
 import { useAction } from "next-safe-action/hooks";
 
-import type { SignUp } from "@epi/validators/auth";
-import { Button } from "@epi/ui/button";
+import type { SignUp } from "@lamp/validators/auth";
+import { Button } from "@lamp/ui/button";
 import {
   Form,
   FormControl,
@@ -12,9 +12,9 @@ import {
   FormLabel,
   FormMessage,
   useForm,
-} from "@epi/ui/form";
-import { Input } from "@epi/ui/input";
-import { SignUpSchema } from "@epi/validators/auth";
+} from "@lamp/ui/form";
+import { Input } from "@lamp/ui/input";
+import { SignUpSchema } from "@lamp/validators/auth";
 
 import { FormError } from "~/components/auth/form-error";
 import { FormSuccess } from "~/components/auth/form-success";

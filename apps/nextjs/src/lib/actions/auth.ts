@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 
-import { SignInSchema, SignUpSchema } from "@epi/validators/auth";
+import { SignInSchema, SignUpSchema } from "@lamp/validators/auth";
 
 import { DEFAULT_LOGIN_REDIRECT } from "~/config/routes";
 import { actionClient } from "~/lib/safe-action";

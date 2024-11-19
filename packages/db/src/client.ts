@@ -14,4 +14,4 @@ export const env = createEnv({
   emptyStringAsUndefined: true,
 });
 
-export const db = drizzle(sql, { schema, casing: "snake_case" });
+export const db = drizzle({ client: sql, schema, casing: "snake_case" });

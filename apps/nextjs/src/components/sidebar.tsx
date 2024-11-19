@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import Link from "next/link";
 import { PlusCircle } from "lucide-react";
 
-import { Button } from "@epi/ui/button";
+import { Button } from "@lamp/ui/button";
 
 import Loading from "~/app/(app)/loading";
 import JobsList from "~/components/jobs/jobs-list";
