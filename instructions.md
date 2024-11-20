@@ -1,3 +1,23 @@
+# Project overview
+
+You are building a Bible study platform, where users can read the bible, take notes, and chat with AI to better understand concepts.
+
+You will be using TypeScript, Next.js 15 App Router, shadcn/ui, Tailwind, and Lucide icons.
+
+# Core functionalities
+
+1. Sidebar that allows user to navigate the dashboard and primarilly lists out the user's studies they have created and allows them to create a new study.
+   1. Users can see the list of studies they have already created, with each one being a SidebarMenuAction component rendering a DropdownMenu with a Rename and Delete option.
+   2. Sidebar footer has buttons for affiliate, feedback, support, and a user button at the bottom.
+   3. Users can create a new study by clicking a square-pen button at the top right in the SidebarHeader, which will .
+2. Main page is the Bible text where users can read.
+   1. A custom text renderer that follows a simpler implementation that focuses on Berean Standard Bible rendering and key user interactions (e.g., highlights, cross-references)
+3. SidebarInset header shows which version of the Bible users are reading, and it has buttons to toggle the shadcn resizable panels for notes or chat. They can both be open at the same time, leading to the sidebar, main Bible view, resizable chat, and resizable notes panel being usable at the same time if a user wanted.
+4. The chat will take inspiration from the Vercel ai-chatbot repo and will use the AI SDK.
+5. The notes will use the Platejs rich-text editor with their new AI commands features.
+
+# Doc
+
 # Current file structure (`tree -L 4 -I 'node_modules|.git'`)
 
 ├── CONTRIBUTING.md
