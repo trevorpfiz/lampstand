@@ -1,6 +1,7 @@
-1. Got inspiration from micro SAAS / indie hackers. bible gpt being listed here was validation. it was this or nutrition.
+1. Got inspiration from micro SAAS / indie hackers.
 
    - How to build a $1M+ Consumer SaaS App (step-by-step guide) - https://youtu.be/tj5PzoqxLCQ?si=CwtRSJbvI7haLlBz&t=2808
+   - bible gpt being listed here was validation. it was this or nutrition.
 
 2. Generated some ideas in the bible gpt space, landed on a simplified Logos.
 

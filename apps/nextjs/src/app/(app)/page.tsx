@@ -1,9 +1,12 @@
 export default function Home() {
   return (
-    <main className="m-auto w-full p-8">
-      <div className="mx-auto flex flex-1 gap-4 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem]">
-        <div className="relative flex w-full min-w-0 flex-col gap-8"></div>
+    <div className="flex flex-1 flex-col gap-4 p-4">
+      <div className="grid auto-rows-min gap-4 md:grid-cols-3">
+        <div className="aspect-video rounded-xl bg-muted/50" />
+        <div className="aspect-video rounded-xl bg-muted/50" />
+        <div className="aspect-video rounded-xl bg-muted/50" />
       </div>
-    </main>
+      <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min" />
+    </div>
   );
 }
