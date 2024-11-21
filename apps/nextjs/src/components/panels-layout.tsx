@@ -9,6 +9,7 @@ import {
   ResizablePanelGroup,
 } from "@lamp/ui/resizable";
 
+import { ChatPanel } from "~/components/chat/chat-panel";
 import { usePanelsStore } from "~/providers/panels-store-provider";
 
 interface PanelsLayoutProps {
@@ -29,7 +30,7 @@ export function PanelsLayout({ children }: PanelsLayoutProps) {
     if (isChatOpen) {
       activePanels.push({
         id: "chat",
-        content: <div className="h-full bg-muted p-4">Chat Panel</div>,
+        content: <ChatPanel />,
         size: 30,
       });
     }
@@ -52,17 +53,18 @@ export function PanelsLayout({ children }: PanelsLayoutProps) {
   }, [children, isChatOpen, isNotesOpen]);
 
   if (panels.length === 1) {
-    return children;
+    return <div className="h-full">{children}</div>;
   }
 
   return (
-    <ResizablePanelGroup direction="horizontal">
+    <ResizablePanelGroup direction="horizontal" className="h-full">
       {panels.map((panel, i) => (
         <Fragment key={panel.id}>
           <ResizablePanel
             id={panel.id}
             order={panel.order}
             defaultSize={panel.size}
+            minSize={15}
           >
             {panel.content}
           </ResizablePanel>
