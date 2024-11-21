@@ -17,13 +17,13 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         <AppSidebar />
         <SidebarInset className="h-screen">
           <header className="sticky top-0 z-50 flex h-14 shrink-0 items-center gap-2 border-b bg-background px-4">
-            <div className="flex flex-1 items-center gap-2 px-3">
+            <div className="flex flex-1 items-center gap-2">
               <SidebarTrigger className="-ml-1" />
               <Separator orientation="vertical" className="mr-2 h-4" />
               <p>Bible</p>
             </div>
 
-            <div className="ml-auto px-3">
+            <div className="px-1">
               <NavActions />
             </div>
           </header>

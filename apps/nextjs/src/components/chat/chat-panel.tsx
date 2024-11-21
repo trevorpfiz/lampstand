@@ -1,77 +1,31 @@
 "use client";
 
-import { useEffect } from "react";
-import { zodResolver } from "@hookform/resolvers/zod";
 import { useChat } from "ai/react";
-import { ArrowUp, SendIcon } from "lucide-react";
-import { useForm } from "react-hook-form";
-import { z } from "zod";
+import { ArrowUp, ChevronDown, Paperclip } from "lucide-react";
 
 import { cn } from "@lamp/ui";
 import { Button } from "@lamp/ui/button";
-import { Form, FormControl, FormField, FormItem } from "@lamp/ui/form";
 import { ScrollArea } from "@lamp/ui/scroll-area";
 import { Textarea } from "@lamp/ui/textarea";
 
-const ChatFormSchema = z.object({
-  message: z
-    .string()
-    .min(1, { message: "Message cannot be empty" })
-    .max(1000, { message: "Message is too long" }),
-});
-
-type ChatFormValues = z.infer<typeof ChatFormSchema>;
-
 export function ChatPanel() {
-  const {
-    messages,
-    input,
-    handleInputChange,
-    handleSubmit: handleChatSubmit,
-    isLoading,
-  } = useChat({
-    api: "/api/chat",
-    initialMessages: [
-      {
-        id: "welcome",
-        role: "assistant",
-        content:
-          "Hello! I'm here to help you study the Bible. What would you like to know?",
-      },
-    ],
-  });
-
-  const form = useForm<ChatFormValues>({
-    resolver: zodResolver(ChatFormSchema),
-    defaultValues: {
-      message: "",
-    },
-  });
-
-  const onSubmit = (data: ChatFormValues) => {
-    // Create a synthetic event to work with vercel/ai's handleSubmit
-    const syntheticEvent = {
-      preventDefault: () => {},
-      target: {
-        message: {
-          value: data.message,
+  const { messages, input, handleInputChange, handleSubmit, isLoading } =
+    useChat({
+      api: "/api/chat",
+      initialMessages: [
+        {
+          id: "welcome",
+          role: "assistant",
+          content:
+            "Hello! I'm here to help you study the Bible. What would you like to know?",
         },
-      },
-    } as unknown as React.FormEvent<HTMLFormElement>;
-
-    handleChatSubmit(syntheticEvent);
-    form.reset();
-  };
-
-  // Sync the input state from useChat with the form
-  useEffect(() => {
-    form.setValue("message", input);
-  }, [input, form]);
+      ],
+    });
 
   return (
-    <div className="flex h-full flex-col">
-      <ScrollArea className="flex-1 p-4">
-        <div className="flex flex-col gap-4">
+    <div className="flex h-full flex-col pr-0.5">
+      <ScrollArea className="flex-1 px-4" type="auto">
+        <div className="flex flex-col gap-4 py-4">
           {messages.map((message) => (
             <div key={message.id} className="flex flex-col gap-1">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -89,65 +43,77 @@ export function ChatPanel() {
         </div>
       </ScrollArea>
 
-      <div className="border-t bg-background p-4">
-        <div className="relative rounded-lg border bg-background shadow-sm">
-          <Form {...form}>
+      <div className="sticky inset-x-0 bottom-0 flex items-center">
+        <div className="relative z-10 mx-auto flex w-full max-w-3xl flex-col bg-background px-2 pb-0 sm:px-3 md:px-4">
+          <div className="rounded-b-xl">
             <form
-              onSubmit={form.handleSubmit(onSubmit)}
-              className="flex flex-col"
+              onSubmit={handleSubmit}
+              className="relative rounded-xl border bg-muted/50 transition-colors focus-within:border-primary"
             >
-              <FormField
-                control={form.control}
-                name="message"
-                render={({ field }) => (
-                  <FormItem className="space-y-0">
-                    <FormControl>
-                      <Textarea
-                        {...field}
-                        onChange={(e) => {
-                          field.onChange(e);
-                          handleInputChange(e);
-                        }}
-                        placeholder="Ask a question..."
-                        className="min-h-[20px] w-full resize-none rounded-lg border-0 bg-transparent px-4 py-[10px] focus-visible:outline-none focus-visible:ring-0"
-                        onKeyDown={(e) => {
-                          if (e.key === "Enter" && !e.shiftKey) {
-                            e.preventDefault();
-                            form.handleSubmit(onSubmit)();
-                          }
-                        }}
-                        rows={1}
-                        style={{
-                          maxHeight: "200px",
-                          height: "auto",
-                          overflowY: "auto",
-                        }}
-                        onInput={(e) => {
-                          const target = e.target as HTMLTextAreaElement;
-                          target.style.height = "auto";
-                          target.style.height = `${Math.min(target.scrollHeight, 200)}px`;
-                        }}
-                      />
-                    </FormControl>
-                  </FormItem>
-                )}
-              />
-              <div className="flex items-center justify-between border-t bg-muted/50 px-3 py-1.5">
-                <div className="flex items-center gap-2">
-                  {/* Add option buttons here */}
-                </div>
+              <div className="absolute inset-x-0 -top-12 z-10 m-auto hidden w-fit items-center justify-center animate-in fade-in slide-in-from-bottom">
                 <Button
-                  type="submit"
-                  variant="default"
+                  type="button"
                   size="icon"
-                  className="rounded-md px-3"
-                  disabled={isLoading || !form.formState.isValid}
+                  variant="outline"
+                  className="animate-slowBounce hidden size-7 items-center justify-center rounded-full bg-background text-muted-foreground shadow-md"
                 >
-                  <ArrowUp className="h-4 w-4" strokeWidth={3} />
+                  <ChevronDown className="size-5" />
                 </Button>
               </div>
+
+              <div className="relative z-10 grid rounded-xl bg-background">
+                <label className="sr-only" htmlFor="chat-input">
+                  Chat Input
+                </label>
+                <div className="relative flex rounded-xl border-0 p-0.5">
+                  <ScrollArea
+                    className="box-border max-h-60 w-full rounded-lg"
+                    type="auto"
+                  >
+                    <Textarea
+                      id="chat-input"
+                      value={input}
+                      onChange={handleInputChange}
+                      placeholder="Ask a question..."
+                      className="box-border resize-none whitespace-pre-wrap break-words border-none p-2 pr-4 [field-sizing:content] focus:ring-0 focus:ring-offset-0"
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter" && !e.shiftKey) {
+                          e.preventDefault();
+                          handleSubmit();
+                        }
+                      }}
+                    />
+                  </ScrollArea>
+                </div>
+
+                <div className="flex items-center gap-2 p-3 pt-1">
+                  <Button
+                    type="button"
+                    variant="outline"
+                    size="icon"
+                    className="size-8 rounded-lg bg-background hover:bg-muted"
+                  >
+                    <Paperclip className="size-4" />
+                    <span className="sr-only">Attach Files</span>
+                  </Button>
+
+                  <div className="ml-auto flex items-center gap-2">
+                    <Button
+                      type="submit"
+                      variant="default"
+                      size="icon"
+                      disabled={isLoading || !input.trim()}
+                      className="size-8"
+                    >
+                      <ArrowUp className="size-4" strokeWidth={2.25} />
+                      <span className="sr-only">Send Message</span>
+                    </Button>
+                  </div>
+                </div>
+              </div>
             </form>
-          </Form>
+          </div>
+          <p className="py-2 text-center text-xs text-muted-foreground"></p>
         </div>
       </div>
     </div>
