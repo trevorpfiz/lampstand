@@ -10,6 +10,7 @@ import {
 } from "@lamp/ui/resizable";
 
 import { ChatPanel } from "~/components/chat/chat-panel";
+import { NotesPanel } from "~/components/notes/notes-panel";
 import { usePanelsStore } from "~/providers/panels-store-provider";
 
 interface PanelsLayoutProps {
@@ -38,7 +39,7 @@ export function PanelsLayout({ children }: PanelsLayoutProps) {
     if (isNotesOpen) {
       activePanels.push({
         id: "notes",
-        content: <div className="h-full bg-muted p-4">Notes Panel</div>,
+        content: <NotesPanel />,
         size: 30,
       });
     }

@@ -72,13 +72,13 @@ export function FixedToolbarButtons() {
             </AIToolbarButton>
           </ToolbarGroup>
 
-          <ToolbarGroup>
+          {/* <ToolbarGroup>
             <InsertDropdownMenu />
             <TurnIntoDropdownMenu />
-          </ToolbarGroup>
+          </ToolbarGroup> */}
 
           <ToolbarGroup>
-            <MarkToolbarButton nodeType={BoldPlugin.key} tooltip="Bold (⌘+B)">
+            {/* <MarkToolbarButton nodeType={BoldPlugin.key} tooltip="Bold (⌘+B)">
               <BoldIcon />
             </MarkToolbarButton>
 
@@ -101,7 +101,7 @@ export function FixedToolbarButtons() {
               tooltip="Strikethrough (⌘+⇧+M)"
             >
               <StrikethroughIcon />
-            </MarkToolbarButton>
+            </MarkToolbarButton> */}
 
             {/* <MarkToolbarButton nodeType={CodePlugin.key} tooltip="Code (⌘+E)">
               <Code2Icon />
@@ -122,14 +122,14 @@ export function FixedToolbarButtons() {
             </ColorDropdownMenu>
           </ToolbarGroup>
 
-          <ToolbarGroup>
+          {/* <ToolbarGroup>
             <AlignDropdownMenu />
 
             <IndentListToolbarButton nodeType={ListStyleType.Disc} />
             <IndentListToolbarButton nodeType={ListStyleType.Decimal} />
             <IndentTodoToolbarButton />
             <ToggleToolbarButton />
-          </ToolbarGroup>
+          </ToolbarGroup> */}
 
           <ToolbarGroup>
             <LinkToolbarButton />
@@ -156,13 +156,13 @@ export function FixedToolbarButtons() {
         </>
       )}
 
-      <div className="grow" />
+      {/* <div className="grow" />
 
       <ToolbarGroup>
         <MarkToolbarButton nodeType={HighlightPlugin.key} tooltip="Highlight">
           <HighlighterIcon />
         </MarkToolbarButton>
-      </ToolbarGroup>
+      </ToolbarGroup> */}
 
       {/* <ToolbarGroup>
         <ModeDropdownMenu />
