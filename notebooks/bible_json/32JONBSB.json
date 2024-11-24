@@ -1,0 +1,1166 @@
+{
+  "type": "USJ",
+  "version": "3.1",
+  "content": [
+    {
+      "type": "book",
+      "marker": "id",
+      "content": [
+        "- Berean Study Bible"
+      ],
+      "code": "JON"
+    },
+    {
+      "type": "para",
+      "marker": "h",
+      "content": [
+        "Jonah\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "toc1",
+      "content": [
+        "Jonah\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "mt1",
+      "content": [
+        "Jonah\n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "1",
+      "sid": "JON 1"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Jonah Flees from the LORD\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Nahum 1:1–15)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "JON 1:1"
+        },
+        "Now the word of the LORD came to Jonah son of Amittai, saying, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "JON 1:2"
+        },
+        "“Get up! Go to the great city of Nineveh and preach against it, because its wickedness has come up before Me.” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "JON 1:3"
+        },
+        "Jonah, however, got up to flee to Tarshish, away from the presence of the LORD. He went down to Joppa and found a ship bound for Tarshish. So he paid the fare and went aboard to sail for Tarshish, away from the presence of the LORD. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "The Great Storm\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Acts 27:13–26)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "JON 1:4"
+        },
+        "Then the LORD hurled a great wind upon the sea, and such a violent storm arose that the ship was in danger of breaking apart. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "JON 1:5"
+        },
+        "The sailors were afraid, and each cried out to his own god. And they threw the ship’s cargo into the sea to lighten the load. But Jonah had gone down to the lowest part of the vessel, where he lay down and fell into a deep sleep. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "JON 1:6"
+        },
+        "The captain approached him and said, “How can you sleep? Get up and call upon your God. Perhaps this God will consider us, so that we may not perish.” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "JON 1:7"
+        },
+        "“Come!” said the sailors to one another. “Let us cast lots to find out who is responsible for this calamity that is upon us.” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "So they cast lots, and the lot fell on Jonah. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "JON 1:8"
+        },
+        "“Tell us now,” they demanded, “who is to blame for this calamity that is upon us? What is your occupation, and where have you come from? What is your country, and who are your people?” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "JON 1:9"
+        },
+        "“I am a Hebrew,” replied Jonah. “I worship the LORD, the God of the heavens, who made the sea and the dry land.” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "JON 1:10"
+        },
+        "Then the men were even more afraid and said to him, “What have you done?” The men knew that he was fleeing from the presence of the LORD, because he had told them. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Jonah Cast into the Sea\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "JON 1:11"
+        },
+        "Now the sea was growing worse and worse, so they said to Jonah, “What must we do to you to calm this sea for us?” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "JON 1:12"
+        },
+        "“Pick me up,” he answered, “and cast me into the sea, so it may quiet down for you. For I know that I am to blame for this violent storm that has come upon you.” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "JON 1:13"
+        },
+        "Nevertheless, the men rowed hard ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:13 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Hebrew the men dug in"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " to get back to dry land, but they could not, for the sea was raging against them more and more. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "JON 1:14"
+        },
+        "So they cried out to the LORD: “Please, O LORD, do not let us perish on account of this man’s life! Do not charge us with innocent blood! For You, O LORD, have done as You pleased.” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "JON 1:15"
+        },
+        "At this, they picked up Jonah and cast him into the sea, and the raging sea grew calm. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "JON 1:16"
+        },
+        "Then the men feared the LORD greatly, and they offered a sacrifice to the LORD and made vows to Him. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "JON 1:17"
+        },
+        "Now the LORD had appointed a great fish to swallow Jonah, and Jonah spent three days and three nights in the belly of the fish. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "2",
+      "sid": "JON 2"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Jonah’s Prayer\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "JON 2:1"
+        },
+        "From inside the fish, Jonah prayed to the LORD his God, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "JON 2:2"
+        },
+        "saying: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“In my distress I called to the LORD, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and He answered me. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "From the belly of Sheol I called for help, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and You heard my voice. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "JON 2:3"
+        },
+        "For You cast me into the deep, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "into the heart of the seas, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "and the current swirled about me; \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "all Your breakers and waves swept over me. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "JON 2:4"
+        },
+        "At this, I said, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "‘I have been banished from Your sight; \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "yet I will look once more \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "toward Your holy temple.’ \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "JON 2:5"
+        },
+        "The waters engulfed me \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "to take my life; \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "the watery depths closed around me; \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "the seaweed wrapped around my head. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "JON 2:6"
+        },
+        "To the roots of the mountains I descended; \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "the earth beneath me barred me in forever! \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "But You raised my life from the pit, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "O LORD my God! \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "JON 2:7"
+        },
+        "As my life was fading away, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "I remembered the LORD. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "My prayer went up to You, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "to Your holy temple. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "JON 2:8"
+        },
+        "Those who cling to worthless idols \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "forsake His loving devotion.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:8 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Forms of the Hebrew chesed are translated here and in most cases throughout the Scriptures as loving devotion; the range of meaning includes love, goodness, kindness, faithfulness, and mercy, as well as loyalty to a covenant."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "JON 2:9"
+        },
+        "But I, with the voice of thanksgiving, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "will sacrifice to You. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "I will fulfill what I have vowed. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "Salvation is from the LORD!” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "JON 2:10"
+        },
+        "And the LORD commanded the fish, and it vomited Jonah onto dry land. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "3",
+      "sid": "JON 3"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "The Ninevites Repent\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Matthew 12:38–42; Luke 11:29–32)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "JON 3:1"
+        },
+        "Then the word of the LORD came to Jonah a second time: \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "JON 3:2"
+        },
+        "“Get up! Go to the great city of Nineveh and proclaim to it the message that I give you.” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "JON 3:3"
+        },
+        "This time Jonah got up and went to Nineveh, in accordance with the word of the LORD. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "Now Nineveh was an exceedingly great city,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:3 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or was a great city to God"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " requiring a three-day journey.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:3 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally great city, a three-day journey"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "JON 3:4"
+        },
+        "On the first day of his journey, Jonah set out into the city and proclaimed, “Forty more days and Nineveh will be overturned!” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "JON 3:5"
+        },
+        "And the Ninevites believed God. They proclaimed a fast and dressed in sackcloth, from the greatest of them to the least. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "JON 3:6"
+        },
+        "When word reached the king of Nineveh, he got up from his throne, took off his royal robe, covered himself with sackcloth, and sat in ashes. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "JON 3:7"
+        },
+        "Then he issued a proclamation in Nineveh: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "pmo",
+      "content": [
+        "“By the decree of the king and his nobles: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "pmo",
+      "content": [
+        "Let no man or beast, herd or flock, taste anything at all. They must not eat or drink. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "JON 3:8"
+        },
+        "Furthermore, let both man and beast be covered with sackcloth, and have everyone call out earnestly to God. Let each one turn from his evil ways and from the violence in his hands. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "JON 3:9"
+        },
+        "Who knows? God may turn and relent; He may turn from His fierce anger, so that we will not perish.” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "JON 3:10"
+        },
+        "When God saw their actions—that they had turned from their evil ways—He relented from the disaster He had threatened to bring upon them. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "4",
+      "sid": "JON 4"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Jonah’s Anger at the LORD’s Compassion\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "JON 4:1"
+        },
+        "Jonah, however, was greatly displeased, and he became angry.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:1 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or It was exceedingly evil to Jonah, and he became angry"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "JON 4:2"
+        },
+        "So he prayed to the LORD, saying, “O LORD, is this not what I said while I was still in my own country? This is why I was so quick to flee toward Tarshish. I knew that You are a gracious and compassionate God, slow to anger, abounding in loving devotion—One who relents from sending disaster. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "JON 4:3"
+        },
+        "And now, O LORD, please take my life from me, for it is better for me to die than to live.” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "JON 4:4"
+        },
+        "But the LORD replied, “Have you any right to be angry?” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "JON 4:5"
+        },
+        "Then Jonah left the city and sat down east of it, where he made himself a shelter and sat in its shade to see what would happen to the city. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "JON 4:6"
+        },
+        "So the LORD God appointed a vine,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:6 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Hebrew qiqayon; that is, possibly the castor oil plant; also in verses 7, 9, and 10 "
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " and it grew up to provide shade over Jonah’s head to ease his discomfort, and Jonah was greatly pleased with the plant. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "JON 4:7"
+        },
+        "When dawn came the next day, God appointed a worm that attacked the plant so that it withered. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "JON 4:8"
+        },
+        "As the sun was rising, God appointed a scorching east wind, and the sun beat down on Jonah’s head so that he grew faint and wished to die, saying, “It is better for me to die than to live.” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "JON 4:9"
+        },
+        "Then God asked Jonah, “Have you any right to be angry about the plant?” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "“I do,” he replied. “I am angry enough to die!” \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "JON 4:10"
+        },
+        "But the LORD said, “You cared about the plant, which you neither tended nor made grow. It sprang up in a night and perished in a night. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "JON 4:11"
+        },
+        "So should I not care about the great city of Nineveh, which has more than 120,000 people who cannot tell their right hand from their left, and many cattle as well?” "
+      ]
+    }
+  ]
+}

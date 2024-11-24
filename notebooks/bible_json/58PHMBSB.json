@@ -1,0 +1,474 @@
+{
+  "type": "USJ",
+  "version": "3.1",
+  "content": [
+    {
+      "type": "book",
+      "marker": "id",
+      "content": [
+        "- Berean Study Bible"
+      ],
+      "code": "PHM"
+    },
+    {
+      "type": "para",
+      "marker": "h",
+      "content": [
+        "Philemon\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "toc1",
+      "content": [
+        "Philemon\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "mt1",
+      "content": [
+        "Philemon\n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "1",
+      "sid": "PHM 1"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Greetings from Paul and Timothy\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Philippians 1:1–2; Colossians 1:1–2)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "PHM 1:1"
+        },
+        "Paul, a prisoner of Christ Jesus, and Timothy our brother, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "To Philemon our beloved fellow worker, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "PHM 1:2"
+        },
+        "to Apphia our sister, to Archippus our fellow soldier, and to the church that meets at your ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:2 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "You and Your are singular throughout this letter, except in verses 3, 22, and 25."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " house: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "PHM 1:3"
+        },
+        "Grace and peace to you from God our Father and the Lord Jesus Christ. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Philemon’s Faith and Love\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "PHM 1:4"
+        },
+        "I always thank my God, remembering you in my prayers, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "PHM 1:5"
+        },
+        "because I hear about your faith in the Lord Jesus and your love for all the saints. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "PHM 1:6"
+        },
+        "I pray that your partnership in the faith may become effective as you fully acknowledge every good thing that is ours in Christ. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "PHM 1:7"
+        },
+        "I take great joy and encouragement in your love, because you, brother, have refreshed the hearts of the saints. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul’s Appeal for Onesimus\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "PHM 1:8"
+        },
+        "So although in Christ I am bold enough to order you to do what is proper, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "PHM 1:9"
+        },
+        "I prefer to appeal on the basis of love. For I, Paul, am now aged, and a prisoner of Christ Jesus as well. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "PHM 1:10"
+        },
+        "I appeal to you for my child Onesimus,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:10 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Onesimus means useful (see verse 11) or beneficial (see verse 20)."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " whose father I became while I was in chains. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "PHM 1:11"
+        },
+        "Formerly he was useless to you, but now he has become useful both to you and to me. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "PHM 1:12"
+        },
+        "I am sending back to you him who is my very heart. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "PHM 1:13"
+        },
+        "I would have liked to keep him with me, so that on your behalf he could minister to me in my chains for the gospel. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "PHM 1:14"
+        },
+        "But I did not want to do anything without your consent, so that your goodness will not be out of compulsion, but by your own free will. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "PHM 1:15"
+        },
+        "For perhaps this is why he was separated from you for a while, so that you might have him back for good—\n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "PHM 1:16"
+        },
+        "no longer as a slave, but better than a slave, as a beloved brother. He is especially beloved to me, but even more so to you, both in person and in the Lord. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "PHM 1:17"
+        },
+        "So if you consider me a partner, receive him as you would receive me. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "PHM 1:18"
+        },
+        "But if he has wronged you in any way or owes you anything, charge it to my account. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "PHM 1:19"
+        },
+        "I, Paul, write this with my own hand. I will repay it—not to mention that you owe me your very self. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "PHM 1:20"
+        },
+        "Yes, brother, let me have some benefit ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:20 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Greek onaimēn, a play on the name Onesimus"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " from you in the Lord. Refresh my heart in Christ. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21",
+          "sid": "PHM 1:21"
+        },
+        "Confident of your obedience, I write to you, knowing that you will do even more than I ask. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22",
+          "sid": "PHM 1:22"
+        },
+        "In the meantime, prepare a guest room for me, because I hope that through your prayers I will be restored to you. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Additional Greetings\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23",
+          "sid": "PHM 1:23"
+        },
+        "Epaphras, my fellow prisoner in Christ Jesus, sends you greetings, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24",
+          "sid": "PHM 1:24"
+        },
+        "as do Mark, Aristarchus, Demas, and Luke, my fellow workers. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25",
+          "sid": "PHM 1:25"
+        },
+        "The grace of the Lord Jesus Christ be with your spirit.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:25 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR include Amen."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " "
+      ]
+    }
+  ]
+}

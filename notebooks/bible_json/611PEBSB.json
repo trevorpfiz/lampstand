@@ -1,0 +1,2577 @@
+{
+  "type": "USJ",
+  "version": "3.1",
+  "content": [
+    {
+      "type": "book",
+      "marker": "id",
+      "content": [
+        "- Berean Study Bible"
+      ],
+      "code": "1PE"
+    },
+    {
+      "type": "para",
+      "marker": "h",
+      "content": [
+        "1 Peter\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "toc1",
+      "content": [
+        "1 Peter\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "mt1",
+      "content": [
+        "1 Peter\n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "1",
+      "sid": "1PE 1"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "A Greeting from Peter\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(2 Peter 1:1–2)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1PE 1:1"
+        },
+        "Peter, an apostle of Jesus Christ, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "To the elect who are exiles of the Dispersion throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia, chosen ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:1 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally To the elect sojourners of the Diaspora of Pontus, Galatia, Cappadocia, Asia, and Bithynia. These provinces were located in what is now Turkey."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1PE 1:2"
+        },
+        "according to the foreknowledge of God the Father and sanctified by the Spirit for obedience to Jesus Christ and sprinkling by His blood: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "Grace and peace be yours in abundance. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "A Living Hope\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1PE 1:3"
+        },
+        "Blessed be the God and Father of our Lord Jesus Christ! By His great mercy He has given us new birth ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:3 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or has caused us to be born again or has begotten us again"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " into a living hope through the resurrection of Jesus Christ from the dead, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1PE 1:4"
+        },
+        "and into an inheritance that is imperishable, undefiled, and unfading, reserved in heaven for you, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1PE 1:5"
+        },
+        "who through faith are shielded by God’s power for the salvation that is ready to be revealed in the last time. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1PE 1:6"
+        },
+        "In this you greatly rejoice, though now for a little while you may have had to suffer grief in various trials \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1PE 1:7"
+        },
+        "so that the proven character of your faith—more precious than gold, which perishes even though refined by fire—may result in praise, glory, and honor at the revelation of Jesus Christ. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1PE 1:8"
+        },
+        "Though you have not seen Him, you love Him; and though you do not see Him now, you believe in Him and rejoice with an inexpressible and glorious joy, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1PE 1:9"
+        },
+        "now that you are receiving the goal of your faith, the salvation of your souls. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1PE 1:10"
+        },
+        "Concerning this salvation, the prophets who foretold the grace to come to you searched and investigated carefully, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1PE 1:11"
+        },
+        "trying to determine the time and setting to which the Spirit of Christ in them was pointing when He predicted the sufferings of Christ and the glories to follow. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1PE 1:12"
+        },
+        "It was revealed to them that they were not serving themselves, but you, when they foretold the things now announced by those who preached the gospel to you by the Holy Spirit sent from heaven. Even angels long to look into these things. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "A Call to Holiness\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Hebrews 12:14–17)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1PE 1:13"
+        },
+        "Therefore prepare your minds for action.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:13 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally Wherefore gird up the loins of your mind"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " Be sober-minded. Set your hope fully on the grace to be given you at the revelation of Jesus Christ. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1PE 1:14"
+        },
+        "As obedient children, do not conform to the passions of your former ignorance. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1PE 1:15"
+        },
+        "But just as He who called you is holy, so be holy in all you do, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "1PE 1:16"
+        },
+        "for it is written: “Be holy, because I am holy.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:16 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Leviticus 11:44–45; Leviticus 19:2"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "1PE 1:17"
+        },
+        "Since you call on a Father who judges each one’s work impartially, conduct yourselves in reverent fear during your stay as foreigners. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "1PE 1:18"
+        },
+        "For you know that it was not with perishable things such as silver or gold that you were redeemed from the empty way of life you inherited from your forefathers, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "1PE 1:19"
+        },
+        "but with the precious blood of Christ, a lamb without blemish or spot. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "1PE 1:20"
+        },
+        "He was known before the foundation of the world, but was revealed in the last times for your sake. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21",
+          "sid": "1PE 1:21"
+        },
+        "Through Him you believe in God, who raised Him from the dead and glorified Him; and so your faith and hope are in God. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "The Enduring Word\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Isaiah 40:6–8)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22",
+          "sid": "1PE 1:22"
+        },
+        "Since you have purified your souls by obedience to the truth so that you have a genuine love for your brothers, love one another deeply, from a pure heart.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:22 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "SBL, NE, and WH from the heart"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23",
+          "sid": "1PE 1:23"
+        },
+        "For you have been born again, not of perishable seed, but of imperishable, through the living and enduring word of God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24",
+          "sid": "1PE 1:24"
+        },
+        "For, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“All flesh is like grass, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and all its glory like the flowers of the field; \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "the grass withers and the flowers fall, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25",
+          "sid": "1PE 1:25"
+        },
+        "but the word of the Lord stands forever.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:25 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Isaiah 40:6–8"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "And this is the word that was proclaimed to you. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "2",
+      "sid": "1PE 2"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "The Living Stone and Chosen People\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Isaiah 28:14–22; 1 Corinthians 3:10–15; Ephesians 2:19–22)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1PE 2:1"
+        },
+        "Rid yourselves, therefore, of all malice, deceit, hypocrisy, envy, and slander. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1PE 2:2"
+        },
+        "Like newborn babies, crave pure spiritual milk, so that by it you may grow up in your salvation, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1PE 2:3"
+        },
+        "now that you have tasted that the Lord is good. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1PE 2:4"
+        },
+        "As you come to Him, the living stone, rejected by men but chosen and precious in God’s sight, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1PE 2:5"
+        },
+        "you also, like living stones, are being built into a spiritual house to be a holy priesthood, offering spiritual sacrifices acceptable to God through Jesus Christ. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1PE 2:6"
+        },
+        "For it stands in Scripture: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“See, I lay in Zion a stone, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "a chosen and precious cornerstone; \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "and the one who believes in Him \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "will never be put to shame.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:6 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Isaiah 28:16 (see also LXX)"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1PE 2:7"
+        },
+        "To you who believe, then, this stone is precious. But to those who do not believe, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“The stone the builders rejected \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "has become the cornerstone,”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:7 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Psalm 118:22"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1PE 2:8"
+        },
+        "and, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“A stone of stumbling \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and a rock of offense.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:8 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Isaiah 8:14"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "They stumble because they disobey the word—and to this they were appointed. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1PE 2:9"
+        },
+        "But you are a chosen people, a royal priesthood, a holy nation, a people for God’s own possession, to proclaim the virtues of Him who called you out of darkness into His marvelous light. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1PE 2:10"
+        },
+        "Once you were not a people, but now you are the people of God; once you had not received mercy, but now you have received mercy.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:10 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Hosea 2:23"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1PE 2:11"
+        },
+        "Beloved, I urge you, as foreigners and exiles, to abstain from the desires of the flesh, which war against your soul. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1PE 2:12"
+        },
+        "Conduct yourselves with such honor among the Gentiles that, though they slander you as evildoers, they may see your good deeds and glorify God on the day He visits us. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Submission to Authorities\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Romans 13:1–7)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1PE 2:13"
+        },
+        "Submit yourselves for the Lord’s sake to every human institution, whether to the king as the supreme authority, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1PE 2:14"
+        },
+        "or to governors as those sent by him to punish those who do wrong and to praise those who do right. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1PE 2:15"
+        },
+        "For it is God’s will that by doing good you should silence the ignorance of foolish men. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "1PE 2:16"
+        },
+        "Live in freedom, but do not use your freedom as a cover-up for evil; live as servants of God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "1PE 2:17"
+        },
+        "Treat everyone with high regard: Love the brotherhood of believers,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:17 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally Love the brotherhood"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " fear God, honor the king. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "1PE 2:18"
+        },
+        "Servants, submit yourselves to your masters with all respect,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:18 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or in all fear"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " not only to those who are good and gentle, but even to those who are unreasonable. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "1PE 2:19"
+        },
+        "For if anyone endures the pain of unjust suffering because he is conscious of God, this is to be commended. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "1PE 2:20"
+        },
+        "How is it to your credit if you are beaten for doing wrong and you endure it? But if you suffer for doing good and you endure it, this is commendable before God. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Christ’s Example of Suffering\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Isaiah 53:1–8)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21",
+          "sid": "1PE 2:21"
+        },
+        "For to this you were called, because Christ also suffered for you, leaving you an example, that you should follow in His footsteps: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22",
+          "sid": "1PE 2:22"
+        },
+        "“He committed no sin, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and no deceit was found in His mouth.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:22 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Isaiah 53:9"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23",
+          "sid": "1PE 2:23"
+        },
+        "When they heaped abuse on Him, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "He did not retaliate; \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "when He suffered, He made no threats, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "but entrusted Himself to Him who judges justly. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24",
+          "sid": "1PE 2:24"
+        },
+        "He Himself bore our sins ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:24 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Isaiah 53:4 (see also LXX)"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "in His body on the tree, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "so that we might die to sin \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and live to righteousness. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“By His stripes you are healed.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:24 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Isaiah 53:5"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25",
+          "sid": "1PE 2:25"
+        },
+        "For “you were like sheep going astray,”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:25 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Isaiah 53:6"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " but now you have returned to the Shepherd and Overseer of your souls. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "3",
+      "sid": "1PE 3"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Wives and Husbands\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Song of Solomon 1:1–17; Ephesians 5:22–33)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1PE 3:1"
+        },
+        "Wives, in the same way, submit yourselves to your husbands, so that even if they refuse to believe the word, they will be won over without words by the behavior of their wives \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1PE 3:2"
+        },
+        "when they see your pure and reverent demeanor. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1PE 3:3"
+        },
+        "Your beauty should not come from outward adornment, such as braided hair or gold jewelry or fine clothes, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1PE 3:4"
+        },
+        "but from the inner disposition of your heart, the unfading beauty of a gentle and quiet spirit, which is precious in God’s sight. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1PE 3:5"
+        },
+        "For this is how the holy women of the past adorned themselves. They put their hope in God and were submissive to their husbands, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1PE 3:6"
+        },
+        "just as Sarah obeyed Abraham and called him lord. And you are her children if you do what is right and refuse to give way to fear. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1PE 3:7"
+        },
+        "Husbands, in the same way, treat your wives with consideration as a delicate vessel, and with honor as fellow heirs of the gracious gift of life, so that your prayers will not be hindered. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Turning from Evil\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1PE 3:8"
+        },
+        "Finally, all of you, be like-minded and sympathetic, love as brothers, be tenderhearted and humble. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1PE 3:9"
+        },
+        "Do not repay evil with evil or insult with insult, but with blessing, because to this you were called so that you may inherit a blessing. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1PE 3:10"
+        },
+        "For, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“Whoever would love life \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and see good days \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "must keep his tongue from evil \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and his lips from deceitful speech. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1PE 3:11"
+        },
+        "He must turn from evil and do good; \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "he must seek peace and pursue it. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1PE 3:12"
+        },
+        "For the eyes of the Lord are on the righteous, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and His ears are inclined to their prayer. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "But the face of the Lord is against \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "those who do evil.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:12 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Psalm 34:12–16 (see also LXX)"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1PE 3:13"
+        },
+        "Who can harm you if you are zealous for what is good? \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Suffering for Righteousness\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1PE 3:14"
+        },
+        "But even if you should suffer for what is right, you are blessed. “Do not fear what they fear; do not be shaken.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:14 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or “Do not fear their threats; do not be shaken.” Isaiah 8:12"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1PE 3:15"
+        },
+        "But in your hearts sanctify Christ as Lord.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:15 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR But sanctify the Lord God in your hearts. This sentence may also be included with the quotation from the previous verse; see Isaiah 8:13."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " Always be prepared to give a defense to everyone who asks you the reason for the hope that is in you. But respond with gentleness and respect, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "1PE 3:16"
+        },
+        "keeping a clear conscience, so that those who slander you may be put to shame by your good behavior in Christ. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "1PE 3:17"
+        },
+        "For it is better, if it is God’s will, to suffer for doing good than for doing evil. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "1PE 3:18"
+        },
+        "For Christ also suffered ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:18 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "NE and WH died"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " for sins once for all, the righteous for the unrighteous, to bring you to God. He was put to death in the body but made alive in the Spirit, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "1PE 3:19"
+        },
+        "in whom ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:19 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or in the spirit, 19 in which"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " He also went and preached to the spirits in prison \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "1PE 3:20"
+        },
+        "who disobeyed long ago when God waited patiently in the days of Noah while the ark was being built. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "In the ark a few people, only eight souls, were saved through water. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21",
+          "sid": "1PE 3:21"
+        },
+        "And this water symbolizes the baptism that now saves you also—not the removal of dirt from the body, but the pledge of ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:21 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or appeal for"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " a clear conscience toward God—through the resurrection of Jesus Christ, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22",
+          "sid": "1PE 3:22"
+        },
+        "who has gone into heaven and is at the right hand of God, with angels, authorities, and powers subject to Him. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "4",
+      "sid": "1PE 4"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Living for God’s Glory\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(1 Corinthians 10:23–33)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1PE 4:1"
+        },
+        "Therefore, since Christ suffered ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:1 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR include for us."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " in His body, arm yourselves with the same resolve, because anyone who has suffered in his body is done with sin. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1PE 4:2"
+        },
+        "Consequently, he does not live out his remaining time on earth for human passions, but for the will of God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1PE 4:3"
+        },
+        "For you have spent enough time in the past carrying out the same desires as the Gentiles: living in debauchery, lust, drunkenness, orgies, carousing, and detestable idolatry. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1PE 4:4"
+        },
+        "Because of this, they consider it strange of you not to plunge with them into the same flood of reckless indiscretion, and they heap abuse on you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1PE 4:5"
+        },
+        "But they will have to give an account to Him who is ready to judge the living and the dead. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1PE 4:6"
+        },
+        "That is why the gospel was preached even to those who are now dead,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:6 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or to those who are dead"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " so that they might be judged as men in the flesh, but live according to God in the spirit. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1PE 4:7"
+        },
+        "The end of all things is near. Therefore be clear-minded and sober, so that you can pray. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1PE 4:8"
+        },
+        "Above all, love one another deeply, because love covers over a multitude of sins.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:8 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "See Proverbs 10:12"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1PE 4:9"
+        },
+        "Show hospitality to one another without complaining. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1PE 4:10"
+        },
+        "As good stewards of the manifold grace of God, each of you should use whatever gift he has received to serve one another. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1PE 4:11"
+        },
+        "If anyone speaks, he should speak as one conveying the words of God. If anyone serves, he should serve with the strength God provides, so that in all things God may be glorified through Jesus Christ, to whom be the glory and the power forever and ever. Amen. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Suffering as Christians\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1PE 4:12"
+        },
+        "Beloved, do not be surprised at the fiery trial that has come upon you, as though something strange were happening to you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1PE 4:13"
+        },
+        "But rejoice that you share in the sufferings of Christ, so that you may be overjoyed at the revelation of His glory. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1PE 4:14"
+        },
+        "If you are insulted for the name of Christ, you are blessed, because the Spirit of glory and of God rests on you.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:14 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR include On their part He is spoken of as evil, but on your part He is glorified."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1PE 4:15"
+        },
+        "Indeed, none of you should suffer as a murderer or thief or wrongdoer, or even as a meddler. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "1PE 4:16"
+        },
+        "But if you suffer as a Christian, do not be ashamed, but glorify God that you bear that name.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:16 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally glorify God in that name; NA glorify God in this matter"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "1PE 4:17"
+        },
+        "For it is time for judgment to begin with the family of God; and if it begins with us, what will the outcome be for those who disobey the gospel of God? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "1PE 4:18"
+        },
+        "And, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“If it is hard for the righteous to be saved, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "what will become of the ungodly and the sinner?”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:18 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Proverbs 11:31 (see also LXX)"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "1PE 4:19"
+        },
+        "So then, those who suffer according to God’s will should entrust their souls to their faithful Creator and continue to do good. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "5",
+      "sid": "1PE 5"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Instructions to Elders\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(1 Timothy 3:1–7; Titus 1:5–9)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1PE 5:1"
+        },
+        "As a fellow elder, a witness of Christ’s sufferings, and a partaker of the glory to be revealed, I appeal to the elders ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:1 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "SBL, NE, and WH I appeal therefore to the elders"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " among you: \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1PE 5:2"
+        },
+        "Be shepherds of God’s flock that is among you, watching over them ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:2 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "NE and WH do not include watching over them."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " not out of compulsion, but because it is God’s will;",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:2 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "WH, BYZ, and TR but willingly"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " not out of greed, but out of eagerness; \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1PE 5:3"
+        },
+        "not lording it over those entrusted to you, but being examples to the flock. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1PE 5:4"
+        },
+        "And when the Chief Shepherd appears, you will receive the crown of glory that will never fade away. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Cast Your Cares on Him\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1PE 5:5"
+        },
+        "Young men, in the same way, submit yourselves to your elders. And all of you, clothe yourselves with humility toward one another, because, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“God opposes the proud, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "but gives grace to the humble.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:5 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Proverbs 3:34 (see also LXX)"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1PE 5:6"
+        },
+        "Humble yourselves, therefore, under God’s mighty hand, so that in due time He may exalt you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1PE 5:7"
+        },
+        "Cast all your anxiety on Him, because He cares for you. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1PE 5:8"
+        },
+        "Be sober-minded and alert. Your adversary the devil prowls around like a roaring lion, seeking someone to devour. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1PE 5:9"
+        },
+        "Resist him, standing firm in your faith and in the knowledge that your brothers throughout the world are undergoing the same kinds of suffering. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Benediction and Farewell\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1PE 5:10"
+        },
+        "And after you have suffered for a little while, the God of all grace, who has called you to His eternal glory in Christ,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:10 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR in Christ Jesus"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " will Himself restore you, secure you, strengthen you, and establish you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1PE 5:11"
+        },
+        "To Him be the power forever and ever. Amen. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1PE 5:12"
+        },
+        "Through Silvanus,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:12 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "That is, Silas"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " whom I regard as a faithful brother, I have written to you briefly, encouraging you and testifying that this is the true grace of God. Stand firm in it. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1PE 5:13"
+        },
+        "The church in Babylon,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:13 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally She in Babylon"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " chosen together with you, sends you greetings, as does my son Mark. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1PE 5:14"
+        },
+        "Greet one another with a kiss of love. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "Peace to all of you who are in Christ.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:14 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR include Amen."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " "
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1965 @@
+{
+  "type": "USJ",
+  "version": "3.1",
+  "content": [
+    {
+      "type": "book",
+      "marker": "id",
+      "content": [
+        "- Berean Study Bible"
+      ],
+      "code": "1TI"
+    },
+    {
+      "type": "para",
+      "marker": "h",
+      "content": [
+        "1 Timothy\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "toc1",
+      "content": [
+        "1 Timothy\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "mt1",
+      "content": [
+        "1 Timothy\n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "1",
+      "sid": "1TI 1"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul’s Greeting to Timothy\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(2 Timothy 1:1–2)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1TI 1:1"
+        },
+        "Paul, an apostle of Christ Jesus by the command of God our Savior and of Christ Jesus our hope, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1TI 1:2"
+        },
+        "To Timothy, my true child in the faith: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "Grace, mercy, and peace from God the Father and Christ Jesus our Lord. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Correcting False Teachers\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Titus 1:10–16)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1TI 1:3"
+        },
+        "As I urged you on my departure to Macedonia, you should stay on at Ephesus to instruct certain men not to teach false doctrines \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1TI 1:4"
+        },
+        "or devote themselves to myths and endless genealogies, which promote speculation rather than the stewardship of God’s work, which is by faith.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:4 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally rather than the stewardship of God in faith"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1TI 1:5"
+        },
+        "The goal of our instruction is the love that comes from a pure heart, a clear conscience, and a sincere faith. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1TI 1:6"
+        },
+        "Some have strayed from these ways and turned aside to empty talk. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1TI 1:7"
+        },
+        "They want to be teachers of the law, but they do not understand what they are saying or that which they so confidently assert. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1TI 1:8"
+        },
+        "Now we know that the law is good, if one uses it legitimately. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1TI 1:9"
+        },
+        "We realize that law is not enacted for the righteous, but for the lawless and rebellious, for the ungodly and sinful, for the unholy and profane, for killers of father or mother, for murderers, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1TI 1:10"
+        },
+        "for the sexually immoral, for homosexuals, for slave traders ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:10 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or for kidnappers"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " and liars and perjurers, and for anyone else who is averse to sound teaching \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1TI 1:11"
+        },
+        "that agrees with the glorious gospel of the blessed God, with which I have been entrusted. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "God’s Grace to Paul\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1TI 1:12"
+        },
+        "I thank Christ Jesus our Lord, who has strengthened me, that He considered me faithful and appointed me to service. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1TI 1:13"
+        },
+        "I was formerly a blasphemer, a persecutor, and a violent man; yet because I had acted in ignorance and unbelief, I was shown mercy. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1TI 1:14"
+        },
+        "And the grace of our Lord overflowed to me, along with the faith and love that are in Christ Jesus. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1TI 1:15"
+        },
+        "This is a trustworthy saying, worthy of full acceptance: Christ Jesus came into the world to save sinners, of whom I am the worst. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "1TI 1:16"
+        },
+        "But for this very reason I was shown mercy, so that in me, the worst of sinners, Christ Jesus might display His perfect patience as an example to those who would believe in Him for eternal life. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "1TI 1:17"
+        },
+        "Now to the King eternal, immortal, and invisible, the only God, be honor and glory forever and ever. Amen. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "1TI 1:18"
+        },
+        "Timothy, my child, I entrust you with this command in keeping with the previous prophecies about you, so that by them you may fight the good fight, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "1TI 1:19"
+        },
+        "holding on to faith and a good conscience, which some have rejected and thereby shipwrecked their faith. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "1TI 1:20"
+        },
+        "Among them are Hymenaeus and Alexander, whom I have handed over to Satan to be taught not to blaspheme. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "2",
+      "sid": "1TI 2"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "A Call to Prayer\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1TI 2:1"
+        },
+        "First of all, then, I urge that petitions, prayers, intercessions, and thanksgiving be offered for everyone—\n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1TI 2:2"
+        },
+        "for kings and all those in authority—so that we may lead tranquil and quiet lives in all godliness and dignity. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1TI 2:3"
+        },
+        "This is good and pleasing in the sight of God our Savior, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1TI 2:4"
+        },
+        "who wants everyone to be saved and to come to the knowledge of the truth. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1TI 2:5"
+        },
+        "For there is one God, and there is one mediator between God and men, the man Christ Jesus, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1TI 2:6"
+        },
+        "who gave Himself as a ransom for all—the testimony that was given at just the right time. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1TI 2:7"
+        },
+        "For this reason I was appointed as a preacher, an apostle, and a faithful and true teacher of the Gentiles. I am telling the truth; I am not lying about anything. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1TI 2:8"
+        },
+        "Therefore I want the men everywhere ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:8 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or in every place (of worship)"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " to pray, lifting up holy hands, without anger or dissension. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Instructions to Women\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1TI 2:9"
+        },
+        "Likewise, I want the women to adorn themselves with respectable apparel, with modesty, and with self-control, not with braided hair or gold or pearls or expensive clothes, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1TI 2:10"
+        },
+        "but with good deeds, as is proper for women who profess to worship God. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1TI 2:11"
+        },
+        "A woman ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:11 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or wife; also in verse 12"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " must learn in quietness and full submissiveness. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1TI 2:12"
+        },
+        "I do not permit a woman to teach or to exercise authority over a man;",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:12 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or over her husband"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " she is to remain quiet. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1TI 2:13"
+        },
+        "For Adam was formed first, and then Eve. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1TI 2:14"
+        },
+        "And it was not Adam who was deceived, but the woman who was deceived and fell into transgression. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1TI 2:15"
+        },
+        "Women, however, will be saved through childbearing, if they continue in faith, love, and holiness, with self-control. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "3",
+      "sid": "1TI 3"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Qualifications for Overseers\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Titus 1:5–9; 1 Peter 5:1–4)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1TI 3:1"
+        },
+        "This is a trustworthy saying: If anyone aspires to be an overseer, he desires a noble task. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1TI 3:2"
+        },
+        "An overseer, then, must be above reproach, the husband of but one wife,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:2 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or faithful to his wife; also in verse 12"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " temperate, self-controlled, respectable, hospitable, able to teach, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1TI 3:3"
+        },
+        "not dependent on wine, not violent but gentle, peaceable, and free of the love of money. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1TI 3:4"
+        },
+        "An overseer must manage his own household well and keep his children under control, with complete dignity. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1TI 3:5"
+        },
+        "For if someone does not know how to manage his own household, how can he care for the church of God? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1TI 3:6"
+        },
+        "He must not be a recent convert, or he may become conceited and fall under the same condemnation as the devil. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1TI 3:7"
+        },
+        "Furthermore, he must have a good reputation with outsiders, so that he will not fall into disgrace and into the snare of the devil. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Qualifications for Deacons\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Acts 6:1–7)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1TI 3:8"
+        },
+        "Deacons likewise must be dignified, not double-tongued or given to much wine or greedy for money. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1TI 3:9"
+        },
+        "They must hold to the mystery of the faith with a clear conscience. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1TI 3:10"
+        },
+        "Additionally, they must first be tested. Then, if they are above reproach, let them serve as deacons. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1TI 3:11"
+        },
+        "In the same way, the women ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:11 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or their wives"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " must be dignified, not slanderers, but temperate and faithful in all things. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1TI 3:12"
+        },
+        "A deacon must be the husband of but one wife, a good manager of his children and of his own household. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1TI 3:13"
+        },
+        "For those who have served well as deacons acquire for themselves a high standing and great confidence in the faith that is in Christ Jesus. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "The Mystery of Godliness\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1TI 3:14"
+        },
+        "Although I hope to come to you soon, I am writing you these things \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1TI 3:15"
+        },
+        "in case I am delayed, so that you will know how each one must conduct himself in God’s household, which is the church of the living God, the pillar and foundation of the truth. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "1TI 3:16"
+        },
+        "By common confession, the mystery of godliness is great: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "He appeared ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:16 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally He who appeared; BYZ and TR God appeared"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " in the flesh, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "was vindicated by the Spirit,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:16 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or vindicated in spirit"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "was seen by angels, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "was proclaimed among the nations, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "was believed in throughout the world, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "was taken up in glory. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "4",
+      "sid": "1TI 4"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "A Warning against Apostasy\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1TI 4:1"
+        },
+        "Now the Spirit expressly states that in later times some will abandon the faith to follow deceitful spirits and the teachings of demons, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1TI 4:2"
+        },
+        "influenced by the hypocrisy of liars, whose consciences are seared with a hot iron. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1TI 4:3"
+        },
+        "They will prohibit marriage and require abstinence from certain foods that God has created to be received with thanksgiving by those who believe and know the truth. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1TI 4:4"
+        },
+        "For every creation of God is good, and nothing that is received with thanksgiving should be rejected, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1TI 4:5"
+        },
+        "because it is sanctified by the word of God and prayer. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "A Good Servant of Jesus Christ\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1TI 4:6"
+        },
+        "By pointing out these things to the brothers, you will be a good servant of Christ Jesus, nourished by the words of faith and sound instruction that you have followed. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1TI 4:7"
+        },
+        "But reject irreverent, silly myths. Instead, train yourself for godliness. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1TI 4:8"
+        },
+        "For physical exercise is of limited value, but godliness is valuable in every way, holding promise for the present life and for the one to come. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1TI 4:9"
+        },
+        "This is a trustworthy saying, worthy of full acceptance. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1TI 4:10"
+        },
+        "To this end we labor and strive,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:10 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "SBL, BYZ, and TR and suffer reproach"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " because we have set our hope on the living God, who is the Savior of everyone, and especially of those who believe. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1TI 4:11"
+        },
+        "Command and teach these things. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1TI 4:12"
+        },
+        "Let no one despise your youth, but set an example for the believers in speech, in conduct, in love, in faith, in purity. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1TI 4:13"
+        },
+        "Until I come, devote yourself to the public reading of Scripture, to exhortation, and to teaching. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1TI 4:14"
+        },
+        "Do not neglect the gift that is in you, which was given you through the prophecy spoken over you at the laying on of the hands of the elders. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1TI 4:15"
+        },
+        "Be diligent in these matters and absorbed in them, so that your progress will be evident to all. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "1TI 4:16"
+        },
+        "Pay close attention to your life and to your teaching. Persevere in these things, for by so doing you will save both yourself and those who hear you. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "5",
+      "sid": "1TI 5"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Reproof and Respect\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1TI 5:1"
+        },
+        "Do not rebuke an older man, but appeal to him as to a father. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "Treat younger men as brothers, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1TI 5:2"
+        },
+        "older women as mothers, and younger women as sisters, with absolute purity. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Honoring True Widows\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Ruth 1:1–5)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1TI 5:3"
+        },
+        "Honor the widows who are truly widows. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1TI 5:4"
+        },
+        "But if a widow has children or grandchildren, they must first learn to show godliness to their own family and repay their parents, for this is pleasing in the sight of God. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1TI 5:5"
+        },
+        "The widow who is truly in need and left all alone puts her hope in God and continues night and day in her petitions and prayers. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1TI 5:6"
+        },
+        "But she who lives for pleasure is dead even while she is still alive. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1TI 5:7"
+        },
+        "Give these instructions to the believers, so that they will be above reproach. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1TI 5:8"
+        },
+        "If anyone does not provide for his own, and especially his own household, he has denied the faith and is worse than an unbeliever. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1TI 5:9"
+        },
+        "A widow should be enrolled if she is at least sixty years old, the wife of one man, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1TI 5:10"
+        },
+        "and well known for good deeds such as bringing up children, entertaining strangers, washing the feet of the saints, imparting relief to the afflicted, and devoting herself to every good work. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1TI 5:11"
+        },
+        "But refuse to enroll younger widows. For when their passions draw them away from Christ, they will want to marry, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1TI 5:12"
+        },
+        "and thus will incur judgment because they are setting aside their first faith. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1TI 5:13"
+        },
+        "At the same time they will also learn to be idle, going from house to house and being not only idle, but also gossips and busybodies, discussing things they should not mention. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1TI 5:14"
+        },
+        "So I advise the younger widows to marry, have children, and manage their households, denying the adversary occasion for slander. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1TI 5:15"
+        },
+        "For some have already turned aside to follow Satan. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "1TI 5:16"
+        },
+        "If any believing woman has dependent widows, she must assist them and not allow the church to be burdened, so that it can help the widows who are truly in need. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Honoring Elders\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "1TI 5:17"
+        },
+        "Elders who lead effectively are worthy of double honor, especially those who work hard at preaching and teaching. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "1TI 5:18"
+        },
+        "For the Scripture says, “Do not muzzle an ox while it is treading out the grain,”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:18 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Deuteronomy 25:4"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " and, “The worker is worthy of his wages.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:18 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Luke 10:7; see also Leviticus 19:13 and Deuteronomy 24:14–15."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "1TI 5:19"
+        },
+        "Do not entertain an accusation against an elder, except on the testimony of two or three witnesses. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "1TI 5:20"
+        },
+        "But those who persist in sin should be rebuked in front of everyone, so that the others will stand in fear of sin. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "A Charge to Timothy\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21",
+          "sid": "1TI 5:21"
+        },
+        "I solemnly charge you before God and Christ Jesus and the elect angels to maintain these principles without bias, and to do nothing out of partiality. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22",
+          "sid": "1TI 5:22"
+        },
+        "Do not be too quick in the laying on of hands and thereby share in the sins of others. Keep yourself pure. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23",
+          "sid": "1TI 5:23"
+        },
+        "Stop drinking only water and use a little wine instead, because of your stomach and your frequent ailments. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24",
+          "sid": "1TI 5:24"
+        },
+        "The sins of some men are obvious, going ahead of them to judgment; but the sins of others do not surface until later. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25",
+          "sid": "1TI 5:25"
+        },
+        "In the same way, good deeds are obvious, and even the ones that are inconspicuous cannot remain hidden. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "6",
+      "sid": "1TI 6"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Serving with Honor\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Ephesians 6:5–9; Colossians 3:22–25)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1TI 6:1"
+        },
+        "All who are under the yoke of slavery should regard their masters as fully worthy of honor, so that God’s name and our teaching will not be discredited. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1TI 6:2"
+        },
+        "Those who have believing masters should not show disrespect because they are brothers, but should serve them all the more, since those receiving their good service are beloved believers. Teach and encourage these principles. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Reject False Doctrines\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1TI 6:3"
+        },
+        "If anyone teaches another doctrine and disagrees with the sound words of our Lord Jesus Christ and with godly teaching, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1TI 6:4"
+        },
+        "he is conceited and understands nothing. Instead, he has an unhealthy interest in controversies and semantics, out of which come envy, strife, abusive talk, evil suspicions, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1TI 6:5"
+        },
+        "and constant friction between men of depraved mind who are devoid of the truth. These men regard godliness as a means of gain.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "6:5 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR include Withdraw yourself from such."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Godliness with Contentment\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1TI 6:6"
+        },
+        "Of course, godliness with contentment is great gain. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1TI 6:7"
+        },
+        "For we brought nothing into the world, so ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "6:7 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR so certainly"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " we cannot carry anything out of it. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1TI 6:8"
+        },
+        "But if we have food and clothing, we will be content with these. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1TI 6:9"
+        },
+        "Those who want to be rich, however, fall into temptation and become ensnared by many foolish and harmful desires that plunge them into ruin and destruction. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1TI 6:10"
+        },
+        "For the love of money is the root of all kinds of evil. By craving it, some have wandered away from the faith and pierced themselves with many sorrows. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Fight the Good Fight\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1TI 6:11"
+        },
+        "But you, O man of God, flee from these things and pursue righteousness, godliness, faith, love, perseverance, and gentleness. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1TI 6:12"
+        },
+        "Fight the good fight of the faith. Take hold of the eternal life to which you were called when you made the good confession before many witnesses. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1TI 6:13"
+        },
+        "I charge you in the presence of God, who gives life to all things, and of Christ Jesus, who made the good confession in His testimony before Pontius Pilate: \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1TI 6:14"
+        },
+        "Keep this commandment without stain or reproach until the appearance of our Lord Jesus Christ, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1TI 6:15"
+        },
+        "which the blessed and only Sovereign One—the King of kings and Lord of lords—will bring about in His own time. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "1TI 6:16"
+        },
+        "He alone is immortal and dwells in unapproachable light. No one has ever seen Him, nor can anyone see Him. To Him be honor and eternal dominion! Amen. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "A Charge to the Rich\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Proverbs 23:1–5; James 5:1–6)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "1TI 6:17"
+        },
+        "Instruct those who are rich in the present age not to be conceited and not to put their hope in the uncertainty of wealth, but in God, who richly provides all things for us to enjoy. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "1TI 6:18"
+        },
+        "Instruct them to do good, to be rich in good works, and to be generous and ready to share, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "1TI 6:19"
+        },
+        "treasuring up for themselves a firm foundation for the future, so that they may take hold of that which is truly life. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Guard the Faith\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "1TI 6:20"
+        },
+        "O Timothy, guard what has been entrusted to you. Avoid irreverent, empty chatter and the opposing arguments of so-called “knowledge,” \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21",
+          "sid": "1TI 6:21"
+        },
+        "which some have professed and thus swerved away from the faith. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "Grace be with you all.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "6:21 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR include Amen."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " "
+      ]
+    }
+  ]
+}

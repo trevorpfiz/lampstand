@@ -1,0 +1,1387 @@
+{
+  "type": "USJ",
+  "version": "3.1",
+  "content": [
+    {
+      "type": "book",
+      "marker": "id",
+      "content": [
+        "- Berean Study Bible"
+      ],
+      "code": "1TH"
+    },
+    {
+      "type": "para",
+      "marker": "h",
+      "content": [
+        "1 Thessalonians\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "toc1",
+      "content": [
+        "1 Thessalonians\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "mt1",
+      "content": [
+        "1 Thessalonians\n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "1",
+      "sid": "1TH 1"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Greetings to the Thessalonians\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(2 Thessalonians 1:1–4)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1TH 1:1"
+        },
+        "Paul, Silvanus,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:1 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "That is, Silas"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " and Timothy, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "To the church of the Thessalonians in God the Father and the Lord Jesus Christ: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "Grace and peace to you.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:1 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR include from God our Father and the Lord Jesus Christ."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1TH 1:2"
+        },
+        "We always thank God for all of you, remembering you in our prayers \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1TH 1:3"
+        },
+        "and continually recalling before our God and Father your work of faith, your labor of love, and your enduring hope in our Lord Jesus Christ. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1TH 1:4"
+        },
+        "Brothers who are beloved by God, we know that He has chosen you, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1TH 1:5"
+        },
+        "because our gospel came to you not only in word, but also in power, in the Holy Spirit, and with great conviction—just as you know we lived among you for your sake. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1TH 1:6"
+        },
+        "And you became imitators of us and of the Lord when you welcomed the message with the joy of the Holy Spirit, in spite of your great suffering. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1TH 1:7"
+        },
+        "As a result, you have become an example to all the believers in Macedonia and Achaia. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1TH 1:8"
+        },
+        "For not only did the message of the Lord ring out from you to Macedonia and Achaia, but your faith in God has gone out to every place, so that we have no need to say anything more. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1TH 1:9"
+        },
+        "For they themselves report what kind of welcome you gave us, and how you turned to God from idols to serve the living and true God \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1TH 1:10"
+        },
+        "and to await His Son from heaven, whom He raised from the dead—Jesus our deliverer from the coming wrath. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "2",
+      "sid": "1TH 2"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul’s Ministry\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1TH 2:1"
+        },
+        "You yourselves know, brothers, that our visit to you was not in vain. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1TH 2:2"
+        },
+        "As you are aware, we had already endured suffering and shameful treatment in Philippi. But in the face of strong opposition, we were bold in our God to speak to you the gospel of God. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1TH 2:3"
+        },
+        "For our appeal does not arise from deceit or ulterior motives or trickery. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1TH 2:4"
+        },
+        "Instead, we speak as those approved by God to be entrusted with the gospel, not in order to please men but God, who examines our hearts. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1TH 2:5"
+        },
+        "As you know, we never used words of flattery or any pretext for greed. God is our witness! \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1TH 2:6"
+        },
+        "Nor did we seek praise from you or from anyone else, although as apostles of Christ we had authority to demand it.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:6 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or although as apostles of Christ we could have been a burden to you; SBL, NE, and WH include this phrase with verse 7."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1TH 2:7"
+        },
+        "On the contrary, we were gentle among you,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:7 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "WH and NA we were like young children among you"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " like a nursing mother caring for her children. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1TH 2:8"
+        },
+        "We cared so deeply that we were delighted to share with you not only the gospel of God, but our own lives as well. That is how beloved you have become to us. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1TH 2:9"
+        },
+        "Surely you recall, brothers, our labor and toil. We worked night and day so that we would not be a burden to anyone while we proclaimed to you the gospel of God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1TH 2:10"
+        },
+        "You are witnesses, and so is God, of how holy, righteous, and blameless our conduct was among you who believed. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1TH 2:11"
+        },
+        "For you know that we treated each of you as a father treats his own children—\n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1TH 2:12"
+        },
+        "encouraging you, comforting you, and urging you to walk in a manner worthy of God, who calls you into His own kingdom and glory. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1TH 2:13"
+        },
+        "And we continually thank God because, when you received the word of God that you heard from us, you accepted it not as the word of men, but as the true word of God—the word which is now at work in you who believe. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1TH 2:14"
+        },
+        "For you, brothers, became imitators of the churches of God in Judea that are in Christ Jesus. You suffered from your own countrymen the very things they suffered from the Jews, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1TH 2:15"
+        },
+        "who killed both the Lord Jesus and their own prophets, and drove us out as well. They are displeasing to God and hostile to all men, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "1TH 2:16"
+        },
+        "hindering us from telling the Gentiles how they may be saved. As a result, they continue to heap up their sins to full capacity; the utmost wrath has come upon them.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:16 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or at last the wrath (of God) has come upon them."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul’s Longing to Visit\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "1TH 2:17"
+        },
+        "Brothers, although we were torn away from you for a short time (in person, not in heart), our desire to see you face to face was even more intense. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "1TH 2:18"
+        },
+        "For we wanted to come to you—indeed I, Paul, tried again and again—but Satan obstructed us. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "1TH 2:19"
+        },
+        "After all, who is our hope, our joy, our crown of boasting, if it is not you yourselves in the presence of our Lord Jesus at His coming? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "1TH 2:20"
+        },
+        "You are indeed our glory and our joy. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "3",
+      "sid": "1TH 3"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Timothy’s Visit\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1TH 3:1"
+        },
+        "So when we could bear it no longer, we were willing to be left on our own in Athens. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1TH 3:2"
+        },
+        "We sent Timothy, our brother and fellow worker for God ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "3:2 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or our brother and God’s fellow worker; NE, WH, BYZ, and TR our brother and minister of God"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " in the gospel of Christ, to strengthen and encourage you in your faith, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1TH 3:3"
+        },
+        "so that none of you would be shaken by these trials. For you know that we are destined for this. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1TH 3:4"
+        },
+        "Indeed, when we were with you, we kept warning you that we would suffer persecution; and as you know, it has come to pass. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1TH 3:5"
+        },
+        "For this reason, when I could bear it no longer, I sent to find out about your faith, for fear that the tempter had somehow tempted you and caused our labor to be in vain. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Timothy’s Encouraging Report\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1TH 3:6"
+        },
+        "But just now, Timothy has returned from his visit with the good news about your faith, your love, and the fond memories you have preserved, longing to see us just as we long to see you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1TH 3:7"
+        },
+        "For this reason, brothers, in all our distress and persecution, we have been reassured about you, because of your faith. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1TH 3:8"
+        },
+        "For now we can go on living, as long as you are standing firm in the Lord. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1TH 3:9"
+        },
+        "How can we adequately thank God for you in return for our great joy over you in His presence? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1TH 3:10"
+        },
+        "Night and day we pray most earnestly that we may see you face to face and supply what is lacking from your faith. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1TH 3:11"
+        },
+        "Now may our God and Father Himself, and our Lord Jesus, direct our way to you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1TH 3:12"
+        },
+        "And may the Lord cause you to increase and overflow with love for one another and for everyone else, just as our love for you overflows, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1TH 3:13"
+        },
+        "so that He may establish your hearts in blamelessness and holiness before our God and Father at the coming of our Lord Jesus with all His saints. Amen. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "4",
+      "sid": "1TH 4"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Living to Please God\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1TH 4:1"
+        },
+        "Finally, brothers, we ask and encourage you in the Lord Jesus to live in a way that is pleasing to God, just as you have received from us. This is how you already live, so you should do so all the more. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1TH 4:2"
+        },
+        "For you know the instructions we gave you by the authority of the Lord Jesus. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1TH 4:3"
+        },
+        "For it is God’s will that you should be holy: You must abstain from sexual immorality; \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1TH 4:4"
+        },
+        "each of you must know how to control his own body ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:4 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally know how to possess his own vessel"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " in holiness and honor, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1TH 4:5"
+        },
+        "not in lustful passion like the Gentiles who do not know God; \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1TH 4:6"
+        },
+        "and no one should ever violate or exploit his brother in this regard,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:6 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or no one should ever harm or cheat his brother in this matter"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " because the Lord will avenge all such acts, as we have already told you and solemnly warned you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1TH 4:7"
+        },
+        "For God has not called us to impurity, but to holiness. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1TH 4:8"
+        },
+        "Anyone, then, who rejects this command does not reject man but God, the very One who gives you His Holy Spirit. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1TH 4:9"
+        },
+        "Now about brotherly love, you do not need anyone to write to you, because you yourselves have been taught by God to love one another. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1TH 4:10"
+        },
+        "And you are indeed showing this love to all the brothers throughout Macedonia. But we urge you, brothers, to excel more and more \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1TH 4:11"
+        },
+        "and to aspire to live quietly, to attend to your own matters, and to work with your own hands, as we instructed you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1TH 4:12"
+        },
+        "Then you will behave properly toward outsiders, without being dependent on anyone. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "The Return of the Lord\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1TH 4:13"
+        },
+        "Brothers, we do not want you to be uninformed about those who sleep in death,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:13 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally those who have fallen asleep, as in verses 14 and 15"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " so that you will not grieve like the rest, who are without hope. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1TH 4:14"
+        },
+        "For since we believe that Jesus died and rose again, we also believe that God will bring with Jesus those who have fallen asleep in Him. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1TH 4:15"
+        },
+        "By the word of the Lord, we declare to you that we who are alive and remain until the coming of the Lord will by no means precede those who have fallen asleep. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "1TH 4:16"
+        },
+        "For the Lord Himself will descend from heaven with a loud command, with the voice of an archangel, and with the trumpet of God, and the dead in Christ will be the first to rise. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "1TH 4:17"
+        },
+        "After that, we who are alive and remain will be caught up together with them in the clouds to meet the Lord in the air. And so we will always be with the Lord. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "1TH 4:18"
+        },
+        "Therefore encourage one another with these words. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "5",
+      "sid": "1TH 5"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "The Day of the Lord\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Zephaniah 1:7–18; Malachi 4:1–6; 2 Peter 3:8–13)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "1TH 5:1"
+        },
+        "Now about the times and seasons, brothers, we do not need to write to you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "1TH 5:2"
+        },
+        "For you are fully aware that the Day of the Lord will come like a thief in the night. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "1TH 5:3"
+        },
+        "While people are saying, “Peace and security,” destruction will come upon them suddenly, like labor pains on a pregnant woman, and they will not escape. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "1TH 5:4"
+        },
+        "But you, brothers, are not in the darkness so that this day should overtake you like a thief. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "1TH 5:5"
+        },
+        "For you are all sons of the light and sons of the day; we do not belong to the night or to the darkness. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "1TH 5:6"
+        },
+        "So then, let us not sleep as the others do, but let us remain awake and sober. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "1TH 5:7"
+        },
+        "For those who sleep, sleep at night; and those who get drunk, get drunk at night. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "1TH 5:8"
+        },
+        "But since we belong to the day, let us be sober, putting on the breastplate of faith and love, and the helmet of our hope of salvation. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "1TH 5:9"
+        },
+        "For God has not appointed us to suffer wrath, but to obtain salvation through our Lord Jesus Christ. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "1TH 5:10"
+        },
+        "He died for us so that, whether we are awake or asleep, we may live together with Him. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "1TH 5:11"
+        },
+        "Therefore encourage and build one another up, just as you are already doing. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Christian Living\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "1TH 5:12"
+        },
+        "But we ask you, brothers, to acknowledge those who work diligently among you, who preside over you in the Lord and give you instruction. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "1TH 5:13"
+        },
+        "In love, hold them in highest regard because of their work. Live in peace with one another. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "1TH 5:14"
+        },
+        "And we urge you, brothers, to admonish the unruly, encourage the fainthearted, help the weak, and be patient with everyone. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "1TH 5:15"
+        },
+        "Make sure that no one repays evil for evil. Always pursue what is good for one another and for all people. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "1TH 5:16"
+        },
+        "Rejoice at all times. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "1TH 5:17"
+        },
+        "Pray without ceasing. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "1TH 5:18"
+        },
+        "Give thanks in every circumstance, for this is God’s will for you in Christ Jesus. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "1TH 5:19"
+        },
+        "Do not extinguish the Spirit. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "1TH 5:20"
+        },
+        "Do not treat prophecies with contempt, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21",
+          "sid": "1TH 5:21"
+        },
+        "but test all things. Hold fast to what is good. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22",
+          "sid": "1TH 5:22"
+        },
+        "Abstain from every form of evil. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Final Blessings and Instructions\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23",
+          "sid": "1TH 5:23"
+        },
+        "Now may the God of peace Himself sanctify you completely, and may your entire spirit, soul, and body be kept blameless ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:23 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or may your spirit, soul, and body be kept entirely blameless"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " at the coming of our Lord Jesus Christ. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24",
+          "sid": "1TH 5:24"
+        },
+        "The One who calls you is faithful, and He will do it. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25",
+          "sid": "1TH 5:25"
+        },
+        "Brothers, pray for us as well. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26",
+          "sid": "1TH 5:26"
+        },
+        "Greet all the brothers with a holy kiss. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27",
+          "sid": "1TH 5:27"
+        },
+        "I charge you before the Lord to have this letter read to all the brothers. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28",
+          "sid": "1TH 5:28"
+        },
+        "The grace of our Lord Jesus Christ be with you.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:28 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR include Amen."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " "
+      ]
+    }
+  ]
+}

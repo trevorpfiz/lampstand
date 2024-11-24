@@ -1,0 +1,14 @@
+[project]
+name = "notebook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "usfm-grammar>=3.0.0b16",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]

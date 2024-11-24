@@ -1,0 +1,331 @@
+{
+  "type": "USJ",
+  "version": "3.1",
+  "content": [
+    {
+      "type": "book",
+      "marker": "id",
+      "content": [
+        "- Berean Study Bible"
+      ],
+      "code": "2JN"
+    },
+    {
+      "type": "para",
+      "marker": "h",
+      "content": [
+        "2 John\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "toc1",
+      "content": [
+        "2 John\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "mt1",
+      "content": [
+        "2 John\n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "1",
+      "sid": "2JN 1"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "A Greeting from the Elder\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(3 John 1:1–4)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2JN 1:1"
+        },
+        "The elder, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "To the chosen lady and her children, whom I love in the truth—and not I alone, but also all who know the truth—\n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2JN 1:2"
+        },
+        "because of the truth that abides in us and will be with us forever: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2JN 1:3"
+        },
+        "Grace, mercy, and peace from God the Father and from Jesus Christ, the Son of the Father, will be with us in truth and love. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Walking in the Truth\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(John 8:30–47)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2JN 1:4"
+        },
+        "I was overjoyed to find some of your children walking in the truth, just as the Father has commanded us. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2JN 1:5"
+        },
+        "And now I urge you, dear lady—not as a new commandment to you, but one we have had from the beginning—that we love one another. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2JN 1:6"
+        },
+        "And this is love, that we walk according to His commandments. This is the very commandment you have heard from the beginning, that you must walk in love. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Beware of Deceivers\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2JN 1:7"
+        },
+        "For many deceivers have gone out into the world, refusing to confess the coming of Jesus Christ in the flesh. Any such person is the deceiver and the antichrist. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2JN 1:8"
+        },
+        "Watch yourselves, so that you do not lose what we have worked for,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:8 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "NE and WH what you have worked for"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " but that you may be fully rewarded. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2JN 1:9"
+        },
+        "Anyone who runs ahead without remaining in the teaching of Christ does not have God. Whoever remains in His teaching has both the Father and the Son. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2JN 1:10"
+        },
+        "If anyone comes to you but does not bring this teaching, do not receive him into your home or even greet him. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2JN 1:11"
+        },
+        "Whoever greets such a person shares in his evil deeds. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Conclusion\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(3 John 1:13–14)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2JN 1:12"
+        },
+        "I have many things to write to you, but I would prefer not to do so with paper and ink. Instead, I hope to come and speak with you face to face,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:12 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally mouth to mouth"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " so that our joy may be complete. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2JN 1:13"
+        },
+        "The children of your elect sister send you greetings.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:13 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR include Amen."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " "
+      ]
+    }
+  ]
+}

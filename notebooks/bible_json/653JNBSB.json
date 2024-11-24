@@ -1,0 +1,341 @@
+{
+  "type": "USJ",
+  "version": "3.1",
+  "content": [
+    {
+      "type": "book",
+      "marker": "id",
+      "content": [
+        "- Berean Study Bible"
+      ],
+      "code": "3JN"
+    },
+    {
+      "type": "para",
+      "marker": "h",
+      "content": [
+        "3 John\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "toc1",
+      "content": [
+        "3 John\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "mt1",
+      "content": [
+        "3 John\n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "1",
+      "sid": "3JN 1"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "A Greeting from the Elder\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(2 John 1:1–3)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "3JN 1:1"
+        },
+        "The elder, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "To the beloved Gaius, whom I love in the truth: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "3JN 1:2"
+        },
+        "Beloved, I pray that in every way you may prosper and enjoy good health, as your soul also prospers. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "3JN 1:3"
+        },
+        "For I was overjoyed when the brothers came and testified about your devotion to the truth, in which you continue to walk. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "3JN 1:4"
+        },
+        "I have no greater joy than to hear that my children are walking in the truth. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Gaius Commended for Hospitality\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "3JN 1:5"
+        },
+        "Beloved, you are faithful in what you are doing for the brothers, and especially since they are strangers to you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "3JN 1:6"
+        },
+        "They have testified to the church about your love. You will do well to send them on their way in a manner worthy of God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "3JN 1:7"
+        },
+        "For they went out on behalf of the Name, accepting nothing from the Gentiles. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "3JN 1:8"
+        },
+        "Therefore we ought to support such men, so that we may be fellow workers for the truth. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Diotrephes and Demetrius\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "3JN 1:9"
+        },
+        "I have written to the church about this,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:9 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally I have written something to the church"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " but Diotrephes, who loves to be first, will not accept our instruction. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "3JN 1:10"
+        },
+        "So if I come, I will call attention to his malicious slander against us. And unsatisfied with that, he refuses to welcome the brothers and forbids those who want to do so, even putting them out of the church. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "3JN 1:11"
+        },
+        "Beloved, do not imitate what is evil, but what is good. The one who does good is of God; the one who does evil has not seen God. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "3JN 1:12"
+        },
+        "Demetrius has received a good testimony from everyone, and from the truth itself. We also testify for him, and you know that our testimony is true. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Conclusion\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(2 John 1:12–13)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "3JN 1:13"
+        },
+        "I have many things to write to you, but I would prefer not to do so with pen and ink. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "3JN 1:14"
+        },
+        "Instead, I hope to see you soon and speak with you face to face.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:14 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally and we will speak mouth to mouth; some translators begin a new verse (15) after face to face."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "Peace to you. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "The friends here send you greetings. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "Greet each of our friends there by name. "
+      ]
+    }
+  ]
+}

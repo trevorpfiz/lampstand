@@ -1,0 +1,3953 @@
+{
+  "type": "USJ",
+  "version": "3.1",
+  "content": [
+    {
+      "type": "book",
+      "marker": "id",
+      "content": [
+        "- Berean Study Bible"
+      ],
+      "code": "2CO"
+    },
+    {
+      "type": "para",
+      "marker": "h",
+      "content": [
+        "2 Corinthians\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "toc1",
+      "content": [
+        "2 Corinthians\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "mt1",
+      "content": [
+        "2 Corinthians\n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "1",
+      "sid": "2CO 1"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul Greets the Corinthians\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Acts 18:1–11; 1 Corinthians 1:1–3)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 1:1"
+        },
+        "Paul, an apostle of Christ Jesus by the will of God, and Timothy our brother, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "To the church of God in Corinth, together with all the saints throughout Achaia: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 1:2"
+        },
+        "Grace and peace to you from God our Father and the Lord Jesus Christ. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "The God of All Comfort\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 1:3"
+        },
+        "Blessed be the God and Father of our Lord Jesus Christ, the Father of compassion and the God of all comfort, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 1:4"
+        },
+        "who comforts us in all our troubles, so that we can comfort those in any trouble with the comfort we ourselves have received from God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 1:5"
+        },
+        "For just as the sufferings of Christ overflow to us, so also through Christ our comfort overflows. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 1:6"
+        },
+        "If we are afflicted, it is for your comfort and salvation; if we are comforted, it is for your comfort, which accomplishes in you patient endurance of the same sufferings we experience. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 1:7"
+        },
+        "And our hope for you is sure, because we know that just as you share in our sufferings, so also you will share in our comfort. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 1:8"
+        },
+        "We do not want you to be unaware, brothers, of the hardships we encountered in the province of Asia.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:8 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally in Asia; Asia was a Roman province in what is now western Turkey. "
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " We were under a burden far beyond our ability to endure, so that we despaired even of life. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 1:9"
+        },
+        "Indeed, we felt we were under the sentence of death, in order that we would not trust in ourselves, but in God, who raises the dead. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 1:10"
+        },
+        "He has delivered us from such a deadly peril, and He will deliver us. In Him we have placed our hope that He will yet again deliver us, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 1:11"
+        },
+        "as you help us by your prayers. Then many will give thanks on our behalf for the favor shown us in answer to their prayers. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul’s Change of Plans\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 1:12"
+        },
+        "And this is our boast: Our conscience testifies that we have conducted ourselves in the world, and especially in relation to you, in the holiness and sincerity that are from God—not in worldly ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:12 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally fleshly"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " wisdom, but in the grace of God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 1:13"
+        },
+        "For we do not write you anything that is beyond your ability to read and understand. And I hope that you will understand us completely, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 1:14"
+        },
+        "as you have already understood us in part, so that you may boast of us just as we will boast of you in the day of our Lord Jesus.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:14 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "BYZ and TR the Lord Jesus"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "2CO 1:15"
+        },
+        "Confident of this, I planned to visit you first, so that you might receive a double blessing. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "2CO 1:16"
+        },
+        "I wanted to visit you on my way to Macedonia, and to return to you from Macedonia, and then to have you help me on my way to Judea. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "2CO 1:17"
+        },
+        "When I planned this, did I do it carelessly? Or do I make my plans by human standards, so as to say “Yes, yes” when I really mean “No, no”? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "2CO 1:18"
+        },
+        "But as surely as God is faithful, our message to you is not “Yes” and “No.” \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "2CO 1:19"
+        },
+        "For the Son of God, Jesus Christ, who was proclaimed among you by me and Silvanus ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "1:19 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "That is, Silas"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " and Timothy, was not “Yes” and “No,” but in Him it has always been “Yes.” \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "2CO 1:20"
+        },
+        "For all the promises of God are “Yes” in Christ. And so through Him, our “Amen” is spoken to the glory of God. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21",
+          "sid": "2CO 1:21"
+        },
+        "Now it is God who establishes both us and you in Christ. He anointed us, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22",
+          "sid": "2CO 1:22"
+        },
+        "placed His seal on us, and put His Spirit in our hearts as a pledge of what is to come. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23",
+          "sid": "2CO 1:23"
+        },
+        "I call God as my witness that it was in order to spare you that I did not return to Corinth. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24",
+          "sid": "2CO 1:24"
+        },
+        "Not that we lord it over your faith, but we are fellow workers with you for your joy, because it is by faith that you stand firm. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "2",
+      "sid": "2CO 2"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Reaffirm Your Love\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 2:1"
+        },
+        "So I made up my mind not to make another painful visit to you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 2:2"
+        },
+        "For if I grieve you, who is left to cheer me but those whom I have grieved? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 2:3"
+        },
+        "I wrote as I did so that on my arrival I would not be saddened by those who ought to make me rejoice. I had confidence in all of you, that you would share my joy. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 2:4"
+        },
+        "For through many tears I wrote you out of great distress and anguish of heart, not to grieve you but to let you know how much I love you. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 2:5"
+        },
+        "Now if anyone has caused grief, he has not grieved me but all of you—to some degree, not to overstate it. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 2:6"
+        },
+        "The punishment imposed on him by the majority is sufficient for him. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 2:7"
+        },
+        "So instead, you ought to forgive and comfort him, so that he will not be overwhelmed by excessive sorrow. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 2:8"
+        },
+        "Therefore I urge you to reaffirm your love for him. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 2:9"
+        },
+        "My purpose in writing you was to see if you would stand the test and be obedient in everything. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 2:10"
+        },
+        "If you forgive anyone, I also forgive him. And if I have forgiven anything, I have forgiven it in the presence of Christ for your sake, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 2:11"
+        },
+        "in order that Satan should not outwit us. For we are not unaware of his schemes. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Triumph in Christ\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 2:12"
+        },
+        "Now when I went to Troas to preach the gospel of Christ and a door stood open for me in the Lord, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 2:13"
+        },
+        "I had no peace in my spirit, because I did not find my brother Titus there. So I said goodbye to them and went on to Macedonia. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 2:14"
+        },
+        "But thanks be to God, who always leads us triumphantly as captives in Christ and through us spreads everywhere the fragrance of the knowledge of Him. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "2CO 2:15"
+        },
+        "For we are to God the sweet aroma of Christ among those who are being saved and those who are perishing. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "2CO 2:16"
+        },
+        "To the one, we are an odor of death and demise; to the other, a fragrance that brings life.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "2:16 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally To the one, indeed, an aroma from death to death; but to the other, an aroma from life to life."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " And who is qualified for such a task? \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "2CO 2:17"
+        },
+        "For we are not like so many others, who peddle the word of God for profit. On the contrary, in Christ we speak before God with sincerity, as men sent from God. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "3",
+      "sid": "2CO 3"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Ministers of a New Covenant\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 3:1"
+        },
+        "Are we beginning to commend ourselves again? Or do we need, like some people, letters of recommendation to you or from you? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 3:2"
+        },
+        "You yourselves are our letter, inscribed on our hearts, known and read by everyone. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 3:3"
+        },
+        "It is clear that you are a letter from Christ, the result of our ministry, written not with ink but with the Spirit of the living God, not on tablets of stone but on tablets of human hearts. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 3:4"
+        },
+        "Such confidence before God is ours through Christ. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 3:5"
+        },
+        "Not that we are competent in ourselves to claim that anything comes from us, but our competence comes from God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 3:6"
+        },
+        "And He has qualified us as ministers of a new covenant, not of the letter but of the Spirit; for the letter kills, but the Spirit gives life. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "The Glory of the New Covenant\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Exodus 34:10–35)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 3:7"
+        },
+        "Now if the ministry of death, which was engraved in letters on stone, came with such glory that the Israelites could not gaze at the face of Moses because of its fleeting glory, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 3:8"
+        },
+        "will not the ministry of the Spirit be even more glorious? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 3:9"
+        },
+        "For if the ministry of condemnation was glorious, how much more glorious is the ministry of righteousness! \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 3:10"
+        },
+        "Indeed, what was once glorious has no glory now in comparison to the glory that surpasses it. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 3:11"
+        },
+        "For if what was fading away came with glory, how much greater is the glory of that which endures! \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 3:12"
+        },
+        "Therefore, since we have such a hope, we are very bold. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 3:13"
+        },
+        "We are not like Moses, who would put a veil over his face to keep the Israelites from gazing at the end of what was fading away. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 3:14"
+        },
+        "But their minds were closed. For to this day the same veil remains at the reading of the old covenant. It has not been lifted, because only in Christ can it be removed. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "2CO 3:15"
+        },
+        "And even to this day when Moses is read, a veil covers their hearts. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "2CO 3:16"
+        },
+        "But whenever anyone turns to the Lord, the veil is taken away. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "2CO 3:17"
+        },
+        "Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "2CO 3:18"
+        },
+        "And we, who with unveiled faces all reflect the glory of the Lord, are being transformed into His image with intensifying glory, which comes from the Lord, who is the Spirit. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "4",
+      "sid": "2CO 4"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "The Light of the Gospel\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 4:1"
+        },
+        "Therefore, since God in His mercy has given us this ministry,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:1 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally Therefore, having this ministry, as we have received mercy,"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " we do not lose heart. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 4:2"
+        },
+        "Instead, we have renounced secret and shameful ways. We do not practice deceit, nor do we distort the word of God. On the contrary, by open proclamation of the truth, we commend ourselves to every man’s conscience in the sight of God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 4:3"
+        },
+        "And even if our gospel is veiled, it is veiled to those who are perishing. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 4:4"
+        },
+        "The god of this age has blinded the minds of unbelievers so they cannot see the light of the gospel of the glory of Christ, who is the image of God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 4:5"
+        },
+        "For we do not proclaim ourselves, but Jesus Christ as Lord, and ourselves as your servants for Jesus’ sake. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 4:6"
+        },
+        "For God, who said, “Let light shine out of darkness,”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:6 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Genesis 1:3"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " made His light shine in our hearts to give us the light of the knowledge of the glory of God in the face of Jesus Christ.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:6 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "SBL, NE, and WH in the face of Christ"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Treasure in Jars of Clay\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Romans 6:1–14)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 4:7"
+        },
+        "Now we have this treasure in jars of clay to show that this surpassingly great power is from God and not from us. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 4:8"
+        },
+        "We are hard pressed on all sides, but not crushed; perplexed, but not in despair; \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 4:9"
+        },
+        "persecuted, but not forsaken; struck down, but not destroyed. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 4:10"
+        },
+        "We always carry around in our body the death of Jesus, so that the life of Jesus may also be revealed in our body. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 4:11"
+        },
+        "For we who are alive are always consigned to death for Jesus’ sake, so that the life of Jesus may also be revealed in our mortal body. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 4:12"
+        },
+        "So then, death is at work in us, but life is at work in you. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 4:13"
+        },
+        "And in keeping with what is written: “I believed, therefore I have spoken,”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:13 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Psalm 116:10 (see also LXX)"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " we who have the same spirit of faith also believe and therefore speak, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 4:14"
+        },
+        "knowing that the One who raised the Lord Jesus ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "4:14 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "SBL who raised Jesus"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " will also raise us with Jesus and present us with you in His presence. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "2CO 4:15"
+        },
+        "All this is for your benefit, so that the grace that is extending to more and more people may overflow in thanksgiving, to the glory of God. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "2CO 4:16"
+        },
+        "Therefore we do not lose heart. Though our outer self is wasting away, yet our inner self is being renewed day by day. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "2CO 4:17"
+        },
+        "For our light and momentary affliction is producing for us an eternal weight of glory that is far beyond comparison. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "2CO 4:18"
+        },
+        "So we fix our eyes not on what is seen, but on what is unseen. For what is seen is temporary, but what is unseen is eternal. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "5",
+      "sid": "2CO 5"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Our Eternal Dwelling\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Romans 8:18–27)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 5:1"
+        },
+        "Now we know that if the earthly tent we live in is dismantled, we have a building from God, an eternal house in heaven, not built by human hands. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 5:2"
+        },
+        "For in this tent we groan, longing to be clothed with our heavenly dwelling, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 5:3"
+        },
+        "because when we are clothed, we will not be found naked. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 5:4"
+        },
+        "So while we are in this tent, we groan under our burdens, because we do not wish to be unclothed but clothed, so that our mortality may be swallowed up by life. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 5:5"
+        },
+        "And God has prepared us for this very purpose and has given us the Spirit as a pledge of what is to come. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 5:6"
+        },
+        "Therefore we are always confident, although we know that while we are at home in the body, we are away from the Lord. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 5:7"
+        },
+        "For we walk by faith, not by sight. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 5:8"
+        },
+        "We are confident, then, and would prefer to be away from the body and at home with the Lord. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 5:9"
+        },
+        "So we aspire to please Him, whether we are here in this body or away from it. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 5:10"
+        },
+        "For we must all appear before the judgment seat of Christ, that each one may receive his due for the things done in the body, whether good or bad. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Ambassadors for Christ\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 5:11"
+        },
+        "Therefore, since we know what it means to fear the Lord, we try to persuade men. What we are is clear to God, and I hope it is clear to your conscience as well. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 5:12"
+        },
+        "We are not commending ourselves to you again. Instead, we are giving you an occasion to be proud of us, so that you can answer those who take pride in appearances rather than in the heart. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 5:13"
+        },
+        "If we are out of our mind, it is for God; if we are of sound mind, it is for you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 5:14"
+        },
+        "For Christ’s love compels us, because we are convinced that One died for all, therefore all died. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "2CO 5:15"
+        },
+        "And He died for all, that those who live should no longer live for themselves, but for Him who died for them and was raised again. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "2CO 5:16"
+        },
+        "So from now on we regard no one according to the flesh. Although we once regarded Christ in this way, we do so no longer. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "2CO 5:17"
+        },
+        "Therefore if anyone is in Christ, he is a new creation.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:17 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or a new creature"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " The old has passed away. Behold, the new has come! \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "2CO 5:18"
+        },
+        "All this is from God, who reconciled us to Himself through Christ and gave us the ministry of reconciliation: \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "2CO 5:19"
+        },
+        "that God was reconciling the world to Himself in Christ, not counting men’s trespasses against them. And He has committed to us the message of reconciliation. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "2CO 5:20"
+        },
+        "Therefore we are ambassadors for Christ, as though God were making His appeal through us. We implore you on behalf of Christ: Be reconciled to God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21",
+          "sid": "2CO 5:21"
+        },
+        "God made Him who knew no sin to be sin ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "5:21 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or a sin offering"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " on our behalf, so that in Him we might become the righteousness of God. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "6",
+      "sid": "2CO 6"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul’s Hardships and God’s Grace\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 6:1"
+        },
+        "As God’s fellow workers,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "6:1 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally Now working together"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " then, we urge you not to receive God’s grace in vain. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 6:2"
+        },
+        "For He says: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“In the time of favor I heard you, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and in the day of salvation I helped you.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "6:2 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Isaiah 49:8 (see also LXX)"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "Behold, now is the time of favor; now is the day of salvation! \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 6:3"
+        },
+        "We put no obstacle in anyone’s way, so that no one can discredit our ministry. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 6:4"
+        },
+        "Rather, as servants of God we commend ourselves in every way: in great endurance; in troubles, hardships, and calamities; \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 6:5"
+        },
+        "in beatings, imprisonments, and riots; in labor, sleepless nights, and hunger; \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 6:6"
+        },
+        "in purity, knowledge, patience, and kindness; in the Holy Spirit and in sincere love; \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 6:7"
+        },
+        "in truthful speech and in the power of God; with the weapons of righteousness in the right hand and in the left; \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 6:8"
+        },
+        "through glory and dishonor, slander and praise; viewed as imposters, yet genuine; \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 6:9"
+        },
+        "as unknown, yet well-known; dying, and yet we live on; punished, yet not killed; \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 6:10"
+        },
+        "sorrowful, yet always rejoicing; poor, yet making many rich; having nothing, and yet possessing everything. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 6:11"
+        },
+        "We have spoken freely to you, Corinthians. Our hearts are open wide. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 6:12"
+        },
+        "It is not our affection, but yours, that is restrained. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 6:13"
+        },
+        "As a fair exchange, I ask you as my children: Open wide your hearts also. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Do Not Be Unequally Yoked\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 6:14"
+        },
+        "Do not be unequally yoked with unbelievers. For what partnership can righteousness have with wickedness? Or what fellowship does light have with darkness? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "2CO 6:15"
+        },
+        "What harmony is there between Christ and Belial?",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "6:15 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Scrivener’s TR and GOC; many Greek sources Beliar"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " Or what does a believer have in common with an unbeliever? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "2CO 6:16"
+        },
+        "What agreement can exist between the temple of God and idols? For we are the temple of the living God. As God has said: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“I will dwell with them \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and walk among them, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "and I will be their God, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and they will be My people.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "6:16 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Leviticus 26:12; Jeremiah 32:38; Ezekiel 37:27"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "2CO 6:17"
+        },
+        "“Therefore come out from among them \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and be separate, says the Lord. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "Touch no unclean thing, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and I will receive you.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "6:17 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Isaiah 52:11; see also Ezekiel 20:34, including LXX."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "2CO 6:18"
+        },
+        "And: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“I will be a Father to you, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and you will be My sons and daughters, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "says the Lord Almighty.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "6:18 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "See 2 Samuel 7:14."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "7",
+      "sid": "2CO 7"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul’s Joy in the Corinthians\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 7:1"
+        },
+        "Therefore, beloved, since we have these promises, let us cleanse ourselves from everything that defiles body and spirit, perfecting holiness in the fear of God. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 7:2"
+        },
+        "Make room for us in your hearts. We have wronged no one, we have corrupted no one, we have exploited no one. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 7:3"
+        },
+        "I do not say this to condemn you. I have said before that you so occupy our hearts that we live and die together with you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 7:4"
+        },
+        "Great is my confidence in you; great is my pride in you; I am filled with encouragement; in all our troubles my joy overflows. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 7:5"
+        },
+        "For when we arrived in Macedonia, our bodies had no rest, but we were pressed from every direction—conflicts on the outside, fears within. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 7:6"
+        },
+        "But God, who comforts the downcast, comforted us by the arrival of Titus, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 7:7"
+        },
+        "and not only by his arrival, but also by the comfort he had received from you. He told us about your longing, your mourning, and your zeal for me, so that I rejoiced all the more. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 7:8"
+        },
+        "Even if I caused you sorrow by my letter, I do not regret it. Although I did regret it, I now see that my letter caused you sorrow, but only for a short time. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 7:9"
+        },
+        "And now I rejoice, not because you were made sorrowful, but because your sorrow led you to repentance. For you felt the sorrow that God had intended, and so were not harmed in any way by us. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 7:10"
+        },
+        "Godly sorrow brings repentance that leads to salvation without regret, but worldly sorrow brings death. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 7:11"
+        },
+        "Consider what this godly sorrow has produced in you: what earnestness, what eagerness to clear yourselves, what indignation, what alarm, what longing, what zeal, what vindication! In every way you have proved yourselves to be innocent in this matter. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 7:12"
+        },
+        "So even though I wrote to you, it was not on account of the one who did wrong or the one who was harmed, but rather that your earnestness on our behalf would be made clear to you in the sight of God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 7:13"
+        },
+        "On account of this, we are encouraged. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "In addition to our own encouragement, we were even more delighted by the joy of Titus. For his spirit has been refreshed by all of you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 7:14"
+        },
+        "Indeed, I was not embarrassed by anything I had boasted to him about you. But just as everything we said to you was true, so our boasting to Titus has proved to be true as well. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "2CO 7:15"
+        },
+        "And his affection for you is even greater when he remembers that you were all obedient as you welcomed him with fear and trembling. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "2CO 7:16"
+        },
+        "I rejoice that I can have complete confidence in you. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "8",
+      "sid": "2CO 8"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Generosity Commended\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Philippians 4:10–20)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 8:1"
+        },
+        "Now, brothers, we want you to know about the grace that God has given the churches of Macedonia. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 8:2"
+        },
+        "In the terrible ordeal they suffered, their abundant joy and deep poverty overflowed into rich generosity. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 8:3"
+        },
+        "For I testify that they gave according to their ability and even beyond it. Of their own accord, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 8:4"
+        },
+        "they earnestly pleaded with us for the privilege of sharing in this service to the saints. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 8:5"
+        },
+        "And not only did they do as we expected, but they gave themselves first to the Lord and then to us, because it was the will of God. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 8:6"
+        },
+        "So we urged Titus to help complete your act of grace, just as he had started it. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 8:7"
+        },
+        "But just as you excel in everything—in faith, in speech, in knowledge, in complete earnestness, and in the love we inspired in you ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "8:7 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or in your love for us"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        "—see that you also excel in this grace of giving. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 8:8"
+        },
+        "I am not making a demand, but I am testing the sincerity of your love in comparison to the earnestness of others. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 8:9"
+        },
+        "For you know the grace of our Lord Jesus Christ, that though He was rich, yet for your sakes He became poor, so that you through His poverty might become rich. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 8:10"
+        },
+        "And this is my opinion about what is helpful for you in this matter: Last year you were the first not only to give, but even to have such a desire. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 8:11"
+        },
+        "Now finish the work, so that you may complete it just as eagerly as you began, according to your means. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 8:12"
+        },
+        "For if the eagerness is there, the gift is acceptable according to what one has, not according to what he does not have. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 8:13"
+        },
+        "It is not our intention that others may be relieved while you are burdened, but that there may be equality. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 8:14"
+        },
+        "At the present time, your surplus will meet their need, so that in turn their surplus will meet your need. Then there will be equality. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "2CO 8:15"
+        },
+        "As it is written: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“He who gathered much had no excess, \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "and he who gathered little had no shortfall.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "8:15 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Exodus 16:18"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Titus Commended\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Titus 1:1–4)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "2CO 8:16"
+        },
+        "But thanks be to God, who put into the heart of Titus the same devotion I have for you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "2CO 8:17"
+        },
+        "For not only did he welcome our appeal, but he is eagerly coming to you of his own volition. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "2CO 8:18"
+        },
+        "Along with Titus we are sending the brother who is praised by all the churches for his work in the gospel. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "2CO 8:19"
+        },
+        "More than that, this brother was chosen by the churches to accompany us with the offering ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "8:19 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "See 1 Corinthians 16:3–4."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        "—the gracious gift we administer to honor the Lord Himself and to show our eagerness to help. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "2CO 8:20"
+        },
+        "We hope to avoid any criticism of the way we administer this generous gift. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21",
+          "sid": "2CO 8:21"
+        },
+        "For we are taking great care to do what is right, not only in the eyes of the Lord, but also in the eyes of men. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22",
+          "sid": "2CO 8:22"
+        },
+        "And we are sending along with them our brother whose earnestness has been proven many times and in many ways, and now even more so by his great confidence in you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23",
+          "sid": "2CO 8:23"
+        },
+        "As for Titus, he is my partner and fellow worker among you. As for our brothers, they are messengers ",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "8:23 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or apostles"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " of the churches, to the glory of Christ. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24",
+          "sid": "2CO 8:24"
+        },
+        "In full view of the churches, then, show these men the proof of your love and the reason for our boasting about you. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "9",
+      "sid": "2CO 9"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "God Loves a Cheerful Giver\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(1 Corinthians 16:1–4)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 9:1"
+        },
+        "Now about the service to the saints, there is no need for me to write to you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 9:2"
+        },
+        "For I know your eagerness to help, and I have been boasting to the Macedonians that since last year you in Achaia were prepared to give. And your zeal has stirred most of them to do likewise. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 9:3"
+        },
+        "But I am sending the brothers in order that our boasting about you in this matter should not prove empty, but that you will be prepared, just as I said. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 9:4"
+        },
+        "Otherwise, if any Macedonians come with me and find you unprepared, we—to say nothing of you—would be ashamed of having been so confident. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 9:5"
+        },
+        "So I thought it necessary to urge the brothers to visit you beforehand and make arrangements for the bountiful gift you had promised. This way, your gift will be prepared generously and not begrudgingly. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 9:6"
+        },
+        "Remember this: Whoever sows sparingly will also reap sparingly, and whoever sows generously will also reap generously. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 9:7"
+        },
+        "Each one should give what he has decided in his heart to give, not out of regret or compulsion. For God loves a cheerful giver.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "9:7 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "See Proverbs 22:8, LXX addition."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 9:8"
+        },
+        "And God is able to make all grace abound to you, so that in all things, at all times, having all that you need, you will abound in every good work. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 9:9"
+        },
+        "As it is written: \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "q1",
+      "content": [
+        "“He has scattered abroad His gifts to the poor; \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "q2",
+      "content": [
+        "His righteousness endures forever.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "9:9 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Psalm 112:9"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 9:10"
+        },
+        "Now He who supplies seed to the sower and bread for food will supply and multiply your store of seed and will increase the harvest of your righteousness. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 9:11"
+        },
+        "You will be enriched in every way to be generous on every occasion, so that through us your giving will produce thanksgiving to God. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 9:12"
+        },
+        "For this ministry of service is not only supplying the needs of the saints, but is also overflowing in many expressions of thanksgiving to God. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 9:13"
+        },
+        "Because of the proof this ministry provides, the saints will glorify God for your obedient confession of the gospel of Christ, and for the generosity of your contribution to them and to all the others. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 9:14"
+        },
+        "And their prayers for you will express their affection for you, because of the surpassing grace God has given you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "2CO 9:15"
+        },
+        "Thanks be to God for His indescribable gift! \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "10",
+      "sid": "2CO 10"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul’s Apostolic Authority\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 10:1"
+        },
+        "Now by the mildness and gentleness of Christ, I appeal to you—I, Paul, who am humble when face to face with you, but bold when away. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 10:2"
+        },
+        "I beg you that when I come I may not need to be as bold as I expect toward those who presume that we live according to the flesh. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 10:3"
+        },
+        "For though we live in the flesh, we do not wage war according to the flesh. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 10:4"
+        },
+        "The weapons of our warfare are not the weapons of the world. Instead, they have divine power to demolish strongholds. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 10:5"
+        },
+        "We tear down arguments and every presumption set up against the knowledge of God; and we take captive every thought to make it obedient to Christ. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 10:6"
+        },
+        "And we will be ready to punish every act of disobedience, as soon as your obedience is complete. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 10:7"
+        },
+        "You are looking at outward appearances. If anyone is confident that he belongs to Christ, he should remind himself that we belong to Christ just as much as he does. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 10:8"
+        },
+        "For even if I boast somewhat excessively about the authority the Lord gave us for building you up rather than tearing you down, I will not be ashamed. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 10:9"
+        },
+        "I do not want to seem to be trying to frighten you by my letters. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 10:10"
+        },
+        "For some say, “His letters are weighty and forceful, but his physical presence is unimpressive, and his speaking is of no account.” \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 10:11"
+        },
+        "Such people should consider that what we are in our letters when absent, we will be in our actions when present. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 10:12"
+        },
+        "We do not dare to classify or compare ourselves with some who commend themselves. When they measure themselves by themselves and compare themselves with themselves, they show their ignorance. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 10:13"
+        },
+        "We, however, will not boast beyond our limits, but only within the field of influence that God has assigned to us—a field that reaches even to you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 10:14"
+        },
+        "We are not overstepping our bounds, as if we had not come to you. Indeed, we were the first to reach you with the gospel of Christ. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "2CO 10:15"
+        },
+        "Neither do we boast beyond our limits in the labors of others. But we hope that as your faith increases, our area of influence among you will greatly increase as well, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "2CO 10:16"
+        },
+        "so that we can preach the gospel in the regions beyond you. Then we will not be boasting in the work already done in another man’s territory. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "2CO 10:17"
+        },
+        "Rather, “Let him who boasts boast in the Lord.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "10:17 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Jeremiah 9:24"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "2CO 10:18"
+        },
+        "For it is not the one who commends himself who is approved, but the one whom the Lord commends. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "11",
+      "sid": "2CO 11"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul and the False Apostles\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 11:1"
+        },
+        "I hope you will bear with a little of my foolishness, but you are already doing that. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 11:2"
+        },
+        "I am jealous for you with a godly jealousy. For I promised you to one husband, to present you as a pure virgin to Christ. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 11:3"
+        },
+        "I am afraid, however, that just as Eve was deceived by the serpent’s cunning, your minds may be led astray from your simple and pure devotion to Christ. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 11:4"
+        },
+        "For if someone comes and proclaims a Jesus other than the One we proclaimed, or if you receive a different spirit than the One you received, or a different gospel than the one you accepted, you put up with it way too easily. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 11:5"
+        },
+        "I consider myself in no way inferior to those “super-apostles.” \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 11:6"
+        },
+        "Although I am not a polished speaker, I am certainly not lacking in knowledge. We have made this clear to you in every way possible. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 11:7"
+        },
+        "Was it a sin for me to humble myself in order to exalt you, because I preached the gospel of God to you free of charge? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 11:8"
+        },
+        "I robbed other churches by accepting their support in order to serve you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 11:9"
+        },
+        "And when I was with you and in need, I was not a burden to anyone; for the brothers who came from Macedonia supplied my needs. I have refrained from being a burden to you in any way, and I will continue to do so. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 11:10"
+        },
+        "As surely as the truth of Christ is in me, this boasting of mine will not be silenced in the regions of Achaia. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 11:11"
+        },
+        "Why? Because I do not love you? God knows I do! \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 11:12"
+        },
+        "But I will keep on doing what I am doing, in order to undercut those who want an opportunity to be regarded as our equals in the things of which they boast. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 11:13"
+        },
+        "For such men are false apostles, deceitful workers, masquerading as apostles of Christ. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 11:14"
+        },
+        "And no wonder, for Satan himself masquerades as an angel of light. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "2CO 11:15"
+        },
+        "It is not surprising, then, if his servants masquerade as servants of righteousness. Their end will correspond to their actions. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul’s Suffering and Service\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "r",
+      "content": [
+        "(Colossians 1:24–29)\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "2CO 11:16"
+        },
+        "I repeat: Let no one take me for a fool. But if you do, then receive me as a fool, so that I too may boast a little. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "2CO 11:17"
+        },
+        "In this confident boasting of mine, I am not speaking as the Lord would, but as a fool. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "2CO 11:18"
+        },
+        "Since many are boasting according to the flesh, I too will boast. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "2CO 11:19"
+        },
+        "For you gladly tolerate fools, since you are so wise. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "2CO 11:20"
+        },
+        "In fact, you even put up with anyone who enslaves you or exploits you or takes advantage of you or exalts himself or strikes you in the face. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21",
+          "sid": "2CO 11:21"
+        },
+        "To my shame I concede that we were too weak for that! \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "Speaking as a fool, however, I can match what anyone else dares to boast about. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22",
+          "sid": "2CO 11:22"
+        },
+        "Are they Hebrews? So am I. Are they Israelites? So am I. Are they descendants of Abraham? So am I. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23",
+          "sid": "2CO 11:23"
+        },
+        "Are they servants of Christ? I am speaking like I am out of my mind, but I am so much more: in harder labor, in more imprisonments, in worse beatings, in frequent danger of death. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24",
+          "sid": "2CO 11:24"
+        },
+        "Five times I received from the Jews the forty lashes minus one. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25",
+          "sid": "2CO 11:25"
+        },
+        "Three times I was beaten with rods, once I was stoned, three times I was shipwrecked. I spent a night and a day in the open sea. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26",
+          "sid": "2CO 11:26"
+        },
+        "In my frequent journeys, I have been in danger from rivers and from bandits, in danger from my countrymen and from the Gentiles, in danger in the city and in the country, in danger on the sea and among false brothers, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27",
+          "sid": "2CO 11:27"
+        },
+        "in labor and toil and often without sleep, in hunger and thirst and often without food, in cold and exposure. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28",
+          "sid": "2CO 11:28"
+        },
+        "Apart from these external trials, I face daily the pressure of my concern for all the churches. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29",
+          "sid": "2CO 11:29"
+        },
+        "Who is weak, and I am not weak? Who is led into sin, and I do not burn with grief? \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30",
+          "sid": "2CO 11:30"
+        },
+        "If I must boast, I will boast of the things that show my weakness. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "31",
+          "sid": "2CO 11:31"
+        },
+        "The God and Father of the Lord Jesus, who is forever worthy of praise,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "11:31 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or forever blessed"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " knows that I am not lying. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32",
+          "sid": "2CO 11:32"
+        },
+        "In Damascus, the governor under King Aretas secured the city of the Damascenes in order to arrest me. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "33",
+          "sid": "2CO 11:33"
+        },
+        "But I was lowered in a basket through a window in the wall and escaped his grasp. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "12",
+      "sid": "2CO 12"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul’s Revelation\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 12:1"
+        },
+        "I must go on boasting. Although there is nothing to gain, I will go on to visions and revelations from the Lord. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 12:2"
+        },
+        "I know a man in Christ who fourteen years ago was caught up to the third heaven. Whether it was in the body or out of it I do not know, but God knows. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 12:3"
+        },
+        "And I know that this man—whether in the body or out of it I do not know, but God knows—\n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 12:4"
+        },
+        "was caught up to Paradise. The things he heard were too sacred for words, things that man is not permitted to tell. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul’s Thorn and God’s Grace\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 12:5"
+        },
+        "I will boast about such a man, but I will not boast about myself, except in my weaknesses. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 12:6"
+        },
+        "Even if I wanted to boast, I would not be a fool, because I would be speaking the truth. But I refrain, so no one will credit me with more than he sees in me or hears from me, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 12:7"
+        },
+        "or because of these surpassingly great revelations. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        "So to keep me from becoming conceited,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "12:7 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Some translators end the previous paragraph after verse 6, and begin verse 7 with So to keep me from becoming conceited because of these surpassingly great revelations,"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " I was given a thorn in my flesh, a messenger of Satan, to torment me. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 12:8"
+        },
+        "Three times I pleaded with the Lord to take it away from me. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 12:9"
+        },
+        "But He said to me, “My grace is sufficient for you, for My power is perfected in weakness.” Therefore I will boast all the more gladly in my weaknesses, so that the power of Christ may rest on me. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 12:10"
+        },
+        "That is why, for the sake of Christ, I delight in weaknesses, in insults, in hardships, in persecutions, in difficulties. For when I am weak, then I am strong. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Paul’s Concern for the Corinthians\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 12:11"
+        },
+        "I have become a fool, but you drove me to it. In fact, you should have commended me, since I am in no way inferior to those “super-apostles,” even though I am nothing. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 12:12"
+        },
+        "The true marks of an apostle—signs, wonders, and miracles—were performed among you with great perseverance. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 12:13"
+        },
+        "In what way were you inferior to the other churches, except that I was not a burden to you? Forgive me this wrong! \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 12:14"
+        },
+        "See, I am ready to come to you a third time, and I will not be a burden, because I am not seeking your possessions, but you. For children should not have to save up for their parents, but parents for their children. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15",
+          "sid": "2CO 12:15"
+        },
+        "And for the sake of your souls, I will most gladly spend my money and myself. If I love you more, will you love me less? \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16",
+          "sid": "2CO 12:16"
+        },
+        "Be that as it may, I was not a burden to you; but crafty as I am, I caught you by trickery. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17",
+          "sid": "2CO 12:17"
+        },
+        "Did I exploit you by anyone I sent you? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18",
+          "sid": "2CO 12:18"
+        },
+        "I urged Titus to visit you, and I sent our brother with him. Did Titus exploit you in any way? Did we not walk in the same Spirit and follow in the same footsteps?",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "12:18 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Literally Did we not walk in the same Spirit? Not in the same footsteps?"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19",
+          "sid": "2CO 12:19"
+        },
+        "Have you been thinking all along that we were making a defense to you? We speak before God in Christ, and all of this, beloved, is to build you up. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20",
+          "sid": "2CO 12:20"
+        },
+        "For I am afraid that when I come, I may not find you as I wish, and you may not find me as you wish. I fear that there may be quarreling, jealousy, rage, rivalry, slander, gossip, arrogance, and disorder. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21",
+          "sid": "2CO 12:21"
+        },
+        "I am afraid that when I come again, my God will humble me before you, and I will be grieved over many who have sinned earlier and have not repented of their acts of impurity, sexual immorality, and debauchery. \n"
+      ]
+    },
+    {
+      "type": "chapter",
+      "marker": "c",
+      "number": "13",
+      "sid": "2CO 13"
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Examine Yourselves\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1",
+          "sid": "2CO 13:1"
+        },
+        "This is the third time I am coming to you. “Every matter must be established by the testimony of two or three witnesses.”",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "13:1 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Deuteronomy 19:15"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2",
+          "sid": "2CO 13:2"
+        },
+        "I already warned you the second time I was with you. So now in my absence I warn those who sinned earlier and everyone else: If I return, I will not spare anyone, \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3",
+          "sid": "2CO 13:3"
+        },
+        "since you are demanding proof that Christ is speaking through me. He is not weak in dealing with you, but is powerful among you. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4",
+          "sid": "2CO 13:4"
+        },
+        "For He was indeed crucified in weakness, yet He lives by God’s power. And though we are weak in Him, yet by God’s power we will live with Him to serve you. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5",
+          "sid": "2CO 13:5"
+        },
+        "Examine yourselves to see whether you are in the faith; test yourselves. Can’t you see for yourselves that Jesus Christ is in you—unless you actually fail the test? \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6",
+          "sid": "2CO 13:6"
+        },
+        "And I hope you will realize that we have not failed the test. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7",
+          "sid": "2CO 13:7"
+        },
+        "Now we pray to God that you will not do anything wrong—not that we will appear to have stood the test, but that you will do what is right, even if we appear to have failed. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8",
+          "sid": "2CO 13:8"
+        },
+        "For we cannot do anything against the truth, but only for the truth. \n",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9",
+          "sid": "2CO 13:9"
+        },
+        "In fact, we rejoice when we are weak but you are strong, and our prayer is for your perfection. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10",
+          "sid": "2CO 13:10"
+        },
+        "This is why I write these things while absent, so that when I am present I will not need to be severe in my use of the authority that the Lord gave me for building you up, not for tearing you down. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "s1",
+      "content": [
+        "Benediction and Farewell\n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11",
+          "sid": "2CO 13:11"
+        },
+        "Finally, brothers, rejoice! Aim for perfect harmony, encourage one another,",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "13:11 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Or listen to my appeal"
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " be of one mind, live in peace. And the God of love and peace will be with you. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12",
+          "sid": "2CO 13:12"
+        },
+        "Greet one another with a holy kiss. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13",
+          "sid": "2CO 13:13"
+        },
+        "All the saints send you greetings. \n"
+      ]
+    },
+    {
+      "type": "para",
+      "marker": "b"
+    },
+    {
+      "type": "para",
+      "marker": "m",
+      "content": [
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14",
+          "sid": "2CO 13:14"
+        },
+        "The grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with all of you.",
+        {
+          "type": "note",
+          "marker": "f",
+          "content": [
+            " ",
+            {
+              "type": "char",
+              "marker": "fr",
+              "content": [
+                "13:14 "
+              ]
+            },
+            {
+              "type": "char",
+              "marker": "ft",
+              "content": [
+                "Texts vary in verse numbering for the last three verses of this chapter. BYZ and TR end with Amen."
+              ]
+            }
+          ],
+          "caller": "+"
+        },
+        " "
+      ]
+    }
+  ]
+}
