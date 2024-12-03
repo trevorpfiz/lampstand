@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 
-import bibleData from "~/public/WEB.json";
+import bibleData from "~/public/web.json";
 
 // Define types based on the JSON Bible Format
 interface BibleVerse {
