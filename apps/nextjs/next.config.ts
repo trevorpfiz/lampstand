@@ -1,11 +1,9 @@
-import { fileURLToPath } from "url";
-import { createJiti } from "jiti";
+import type { NextConfig } from "next";
 
-// Import env files to validate at build time. Use jiti so we can load .ts files in here.
-await createJiti(fileURLToPath(import.meta.url)).import("./src/env");
+// Import env files to validate at build time
+import "./src/env";
 
-/** @type {import("next").NextConfig} */
-const config = {
+const nextConfig: NextConfig = {
   reactStrictMode: true,
   experimental: {
     taint: true,
@@ -29,4 +27,4 @@ const config = {
   typescript: { ignoreBuildErrors: true },
 };
 
-export default config;
+export default nextConfig;
