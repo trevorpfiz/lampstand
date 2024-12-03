@@ -8,23 +8,21 @@ import { cn } from "@lamp/ui";
 import { Toaster } from "@lamp/ui/sonner";
 import { ThemeProvider } from "@lamp/ui/theme";
 
-// import { env } from "~/env";
+import { env } from "~/env";
 import { TRPCReactProvider } from "~/trpc/react";
 
 export const metadata: Metadata = {
-  // metadataBase: new URL(
-  //   env.NODE_ENV === "production"
-  //     ? env.NEXT_PUBLIC_SITE_URL
-  //     : "http://localhost:3000",
-  // ),
-  metadataBase: new URL("https://getlampstand.com"),
+  metadataBase: new URL(
+    env.NODE_ENV === "production"
+      ? env.NEXT_PUBLIC_SITE_URL
+      : "http://localhost:3000",
+  ),
   title: "Lampstand",
   description: "The Simplest Bible Study Platform.",
   openGraph: {
     title: "Lampstand",
     description: "The Simplest Bible Study Platform.",
-    // url: env.NEXT_PUBLIC_SITE_URL,
-    url: "https://getlampstand.com",
+    url: env.NEXT_PUBLIC_SITE_URL,
     siteName: "Lampstand",
   },
   twitter: {
