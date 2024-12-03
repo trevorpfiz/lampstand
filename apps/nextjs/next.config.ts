@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 // Import env files to validate at build time
-// import "./src/env";
+import "./src/env";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
