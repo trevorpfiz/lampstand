@@ -222,15 +222,15 @@
     "@lamp/prettier-config": "workspace:*",
     "@lamp/tailwind-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
-    "@types/react": "catalog:react18",
+    "@types/react": "catalog:react19",
     "eslint": "catalog:",
     "prettier": "catalog:",
-    "react": "catalog:react18",
+    "react": "catalog:react19",
     "typescript": "catalog:",
     "zod": "catalog:"
   },
   "peerDependencies": {
-    "react": "catalog:react18",
+    "react": "catalog:react19",
     "zod": "catalog:"
   },
   "prettier": "@lamp/prettier-config"
