@@ -15,7 +15,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <PanelsStoreProvider>
       <SidebarProvider>
-        <TooltipProvider>
+        <TooltipProvider delayDuration={100} skipDelayDuration={300}>
           <AppSidebar />
           <SidebarInset className="h-screen">
             <header className="sticky top-0 flex h-14 shrink-0 items-center gap-2 border-b bg-background px-4">
