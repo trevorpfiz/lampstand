@@ -91,6 +91,7 @@
     "lucide-react": "^0.464.0",
     "next": "^15.0.4",
     "next-safe-action": "^7.9.9",
+    "nuqs": "^2.2.3",
     "prismjs": "^1.29.0",
     "react": "catalog:react19",
     "react-dnd": "^16.0.1",

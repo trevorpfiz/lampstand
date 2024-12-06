@@ -53,10 +53,6 @@ export function PanelsLayout({ children }: PanelsLayoutProps) {
     }));
   }, [children, isChatOpen, isNotesOpen]);
 
-  if (panels.length === 1) {
-    return <div className="h-full">{children}</div>;
-  }
-
   return (
     <ResizablePanelGroup direction="horizontal" className="h-full">
       {panels.map((panel, i) => (

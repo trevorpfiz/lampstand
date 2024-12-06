@@ -22,7 +22,7 @@ export function PanelsStoreProvider({
   children,
   initialState,
 }: PanelsStoreProviderProps) {
-  const storeRef = useRef<PanelsStoreApi>();
+  const storeRef = useRef<PanelsStoreApi>(null);
 
   if (!storeRef.current) {
     storeRef.current = createPanelsStore(initialState);

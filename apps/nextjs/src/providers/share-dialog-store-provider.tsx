@@ -25,7 +25,7 @@ export const ShareDialogStoreProvider = ({
   children,
   initialState,
 }: ShareDialogStoreProviderProps) => {
-  const storeRef = useRef<ShareDialogStoreApi>();
+  const storeRef = useRef<ShareDialogStoreApi>(null);
 
   if (!storeRef.current) {
     storeRef.current = createShareDialogStore(initialState);

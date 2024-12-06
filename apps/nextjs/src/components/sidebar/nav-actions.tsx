@@ -17,11 +17,11 @@ export function NavActions() {
 
   return (
     <div className="flex items-center gap-2">
-      <Button variant="secondary" size="sm" onClick={toggleChat}>
+      <Button variant="secondary" size="sm" onMouseDown={toggleChat}>
         <Sparkle className="h-4 w-4" />
         Chat
       </Button>
-      <Button variant="secondary" size="sm" onClick={toggleNotes}>
+      <Button variant="secondary" size="sm" onMouseDown={toggleNotes}>
         <PencilLine className="h-4 w-4" />
         Notes
       </Button>
