@@ -28,6 +28,17 @@ export const BIBLE_VERSES: BibleBook[] = bibleMetadata.map((book) => ({
   }),
 }));
 
+export const BIBLE_VERSESS: BibleVerseReference[] = bibleMetadata.flatMap(
+  (book) =>
+    book.chapters.flatMap((chapter) => {
+      const chapterRef = `${book.book} ${chapter.chapter}`;
+      const verses = Array.from({ length: chapter.verses }, (_, i) => ({
+        value: `${book.book} ${chapter.chapter}:${i + 1}`,
+      }));
+      return [{ value: chapterRef }, ...verses];
+    }),
+);
+
 export const BIBLE_VERSIONS = [
   { value: "BSB", label: "Berean Study Bible", disabled: false },
   { value: "KJV", label: "King James Version", disabled: true },

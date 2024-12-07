@@ -1,7 +1,7 @@
 "use client";
 
+import { BibleSelect } from "~/components/bible/bible-select";
 import { ReferenceSelect } from "~/components/bible/reference-select";
-import { BibleSelect } from "./bible-select";
 
 interface VerseNavigationBarProps {
   getChapterIndex: (book: string, chapter: number) => number;
