@@ -9,6 +9,8 @@ import React, {
 } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 
+import { cn } from "@lamp/ui";
+import { useTheme } from "@lamp/ui/theme";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@lamp/ui/tooltip";
 
 import type { ChapterData } from "~/utils/bible/parse-usj";
@@ -57,6 +59,7 @@ function renderPoetryLines(
   lines: ParagraphItem[],
   marker: string,
   keyStart: number,
+  resolvedTheme: string,
 ) {
   const indentation = marker === "q2" ? "2em" : "1em";
   return (
@@ -76,11 +79,14 @@ function renderPoetryLines(
           return (
             <Tooltip key={`poetry-note-${i}`}>
               <TooltipTrigger>
-                <sup className="inline-block cursor-pointer text-xs font-semibold text-blue-500">
+                <sup className="inline-block cursor-pointer text-xs font-semibold italic text-blue-500">
                   {item.letter}
                 </sup>
               </TooltipTrigger>
-              <TooltipContent>
+              <TooltipContent
+                showArrow={true}
+                className={cn("", resolvedTheme === "light" && "dark")}
+              >
                 <p className="max-w-48">{item.text}</p>
               </TooltipContent>
             </Tooltip>
@@ -98,6 +104,7 @@ function renderParagraphLines(
   chapter: ChapterData,
   chapterNumberPrintedRef: { printed: boolean },
   elementKey: number,
+  resolvedTheme: string,
 ) {
   return (
     <p key={`paragraph-${elementKey}`} className="text-justify">
@@ -108,11 +115,14 @@ function renderParagraphLines(
           return (
             <Tooltip key={`note-${i}`}>
               <TooltipTrigger>
-                <sup className="inline-block cursor-pointer text-xs font-semibold text-blue-500">
+                <sup className="inline-block cursor-pointer text-xs font-semibold italic text-blue-500">
                   {item.letter}
                 </sup>
               </TooltipTrigger>
-              <TooltipContent>
+              <TooltipContent
+                showArrow={true}
+                className={cn("", resolvedTheme === "light" && "dark")}
+              >
                 <p className="max-w-48">{item.text}</p>
               </TooltipContent>
             </Tooltip>
@@ -163,12 +173,16 @@ function renderParagraphLines(
                 } else if (seg.type === "note") {
                   return (
                     <Tooltip key={`note-${i}-${j}`}>
-                      <TooltipTrigger>
-                        <sup className="inline-block cursor-pointer text-xs font-semibold text-blue-500">
+                      <TooltipTrigger asChild>
+                        <sup className="inline-block cursor-pointer text-xs font-semibold italic text-blue-500">
+                          {/* TODO: fix trailing space on elements before, ideally in data cleaning step */}
                           {seg.letter}
                         </sup>
                       </TooltipTrigger>
-                      <TooltipContent>
+                      <TooltipContent
+                        showArrow={true}
+                        className={cn("", resolvedTheme === "light" && "dark")}
+                      >
                         <p className="max-w-48">{seg.text}</p>
                       </TooltipContent>
                     </Tooltip>
@@ -186,6 +200,7 @@ function renderParagraphLines(
 }
 
 const BibleViewer: React.FC = () => {
+  const { resolvedTheme } = useTheme();
   const parentRef = useRef<HTMLDivElement>(null);
   const hasScrolledRef = useRef(false);
   const [enabled] = useState(true);
@@ -315,9 +330,15 @@ const BibleViewer: React.FC = () => {
                         chapter,
                         chapterNumberPrintedRef,
                         idx,
+                        resolvedTheme ?? "light",
                       );
                     } else if (el.type === "poetry") {
-                      return renderPoetryLines(el.lines, el.marker, idx * 1000);
+                      return renderPoetryLines(
+                        el.lines,
+                        el.marker,
+                        idx * 1000,
+                        resolvedTheme ?? "light",
+                      );
                     } else if (el.type === "blank") {
                       return <div key={`blank-${idx}`} className="mb-4" />;
                     } else {

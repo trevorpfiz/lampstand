@@ -23,15 +23,6 @@ wheels = [
 ]
 
 [[package]]
-name = "attrs"
-version = "24.2.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/fc/0f/aafca9af9315aee06a89ffde799a10a582fe8de76c563ee80bbcdc08b3fb/attrs-24.2.0.tar.gz", hash = "sha256:5cfb1b9148b5b086569baec03f20d7b6bf3bcacc9a42bebf87ffaaca362f6346", size = 792678 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/6a/21/5b6702a7f963e95456c0de2d495f67bf5fd62840ac655dc451586d23d39a/attrs-24.2.0-py3-none-any.whl", hash = "sha256:81921eb96de3191c8258c199618104dd27ac608d9366f5e35d011eae1867ede2", size = 63001 },
-]
-
-[[package]]
 name = "cffi"
 version = "1.17.1"
 source = { registry = "https://pypi.org/simple" }
@@ -162,33 +153,6 @@ wheels = [
 ]
 
 [[package]]
-name = "jsonschema"
-version = "4.23.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "attrs" },
-    { name = "jsonschema-specifications" },
-    { name = "referencing" },
-    { name = "rpds-py" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/38/2e/03362ee4034a4c917f697890ccd4aec0800ccf9ded7f511971c75451deec/jsonschema-4.23.0.tar.gz", hash = "sha256:d71497fef26351a33265337fa77ffeb82423f3ea21283cd9467bb03999266bc4", size = 325778 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/69/4a/4f9dbeb84e8850557c02365a0eee0649abe5eb1d84af92a25731c6c0f922/jsonschema-4.23.0-py3-none-any.whl", hash = "sha256:fbadb6f8b144a8f8cf9f0b89ba94501d143e50411a1278633f56a7acf7fd5566", size = 88462 },
-]
-
-[[package]]
-name = "jsonschema-specifications"
-version = "2024.10.1"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "referencing" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/10/db/58f950c996c793472e336ff3655b13fbcf1e3b359dcf52dcf3ed3b52c352/jsonschema_specifications-2024.10.1.tar.gz", hash = "sha256:0f38b83639958ce1152d02a7f062902c41c8fd20d558b0c34344292d417ae272", size = 15561 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/d1/0f/8910b19ac0670a0f80ce1008e5e751c4a57e14d2c4c13a482aa6079fa9d6/jsonschema_specifications-2024.10.1-py3-none-any.whl", hash = "sha256:a09a0680616357d9a0ecf05c12ad234479f549239d0f5b55f3deea67475da9bf", size = 18459 },
-]
-
-[[package]]
 name = "jupyter-client"
 version = "8.6.3"
 source = { registry = "https://pypi.org/simple" }
@@ -219,12 +183,6 @@ wheels = [
 ]
 
 [[package]]
-name = "lxml"
-version = "5.2.2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/63/f7/ffbb6d2eb67b80a45b8a0834baa5557a14a5ffce0979439e7cd7f0c4055b/lxml-5.2.2.tar.gz", hash = "sha256:bb2dc4898180bea79863d5487e5f9c7c34297414bad54bcd0f0852aee9cfdb87", size = 3678631 }
-
-[[package]]
 name = "matplotlib-inline"
 version = "0.1.7"
 source = { registry = "https://pypi.org/simple" }
@@ -249,9 +207,6 @@ wheels = [
 name = "notebook"
 version = "0.1.0"
 source = { virtual = "." }
-dependencies = [
-    { name = "usfm-grammar" },
-]
 
 [package.dev-dependencies]
 dev = [
@@ -259,7 +214,6 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "usfm-grammar", specifier = ">=3.0.0b16" }]
 
 [package.metadata.requires-dev]
 dev = [{ name = "ipykernel", specifier = ">=6.29.5" }]
@@ -421,40 +375,6 @@ wheels = [
 ]
 
 [[package]]
-name = "referencing"
-version = "0.35.1"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "attrs" },
-    { name = "rpds-py" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/99/5b/73ca1f8e72fff6fa52119dbd185f73a907b1989428917b24cff660129b6d/referencing-0.35.1.tar.gz", hash = "sha256:25b42124a6c8b632a425174f24087783efb348a6f1e0008e63cd4466fedf703c", size = 62991 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/b7/59/2056f61236782a2c86b33906c025d4f4a0b17be0161b63b70fd9e8775d36/referencing-0.35.1-py3-none-any.whl", hash = "sha256:eda6d3234d62814d1c64e305c1331c9a3a6132da475ab6382eaa997b21ee75de", size = 26684 },
-]
-
-[[package]]
-name = "rpds-py"
-version = "0.21.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/23/80/afdf96daf9b27d61483ef05b38f282121db0e38f5fd4e89f40f5c86c2a4f/rpds_py-0.21.0.tar.gz", hash = "sha256:ed6378c9d66d0de903763e7706383d60c33829581f0adff47b6535f1802fa6db", size = 26335 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/32/3a/e69ec108eefb9b1f19ee00dde7a800b485942e62b123f01d9156a6d8569c/rpds_py-0.21.0-cp313-cp313-macosx_10_12_x86_64.whl", hash = "sha256:ee4eafd77cc98d355a0d02f263efc0d3ae3ce4a7c24740010a8b4012bbb24937", size = 329206 },
-    { url = "https://files.pythonhosted.org/packages/f6/c0/fa689498fa3415565306398c8d2a596207c2a13d3cc03724f32514bddfbc/rpds_py-0.21.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:688c93b77e468d72579351a84b95f976bd7b3e84aa6686be6497045ba84be560", size = 320245 },
-    { url = "https://files.pythonhosted.org/packages/68/d0/466b61007005f1b2fd8501f23e4bdee4d71c7381b61358750920d1882ac9/rpds_py-0.21.0-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c38dbf31c57032667dd5a2f0568ccde66e868e8f78d5a0d27dcc56d70f3fcd3b", size = 363585 },
-    { url = "https://files.pythonhosted.org/packages/1e/e2/787ea3a0f4b197893c62c254e6f14929c40bbcff86922928ac4eafaa8edf/rpds_py-0.21.0-cp313-cp313-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:2d6129137f43f7fa02d41542ffff4871d4aefa724a5fe38e2c31a4e0fd343fb0", size = 372302 },
-    { url = "https://files.pythonhosted.org/packages/b5/ef/99f2cfe6aa128c21f1b30c66ecd348cbd59792953ca35eeb6efa38b88aa1/rpds_py-0.21.0-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:520ed8b99b0bf86a176271f6fe23024323862ac674b1ce5b02a72bfeff3fff44", size = 405344 },
-    { url = "https://files.pythonhosted.org/packages/30/3c/9d12d0b76ecfe80a7ba4770459828dda495d72b18cafd6dfd54c67b2e282/rpds_py-0.21.0-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:aaeb25ccfb9b9014a10eaf70904ebf3f79faaa8e60e99e19eef9f478651b9b74", size = 422322 },
-    { url = "https://files.pythonhosted.org/packages/f9/22/387aec1cd6e124adbc3b1f40c4e4152c3963ae47d78d3ca650102ea72c4f/rpds_py-0.21.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:af04ac89c738e0f0f1b913918024c3eab6e3ace989518ea838807177d38a2e94", size = 363739 },
-    { url = "https://files.pythonhosted.org/packages/d1/3e/0ad65b776db13d13f002ab363fe3821cd1adec500d8e05e0a81047a75f9d/rpds_py-0.21.0-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.whl", hash = "sha256:b9b76e2afd585803c53c5b29e992ecd183f68285b62fe2668383a18e74abe7a3", size = 386579 },
-    { url = "https://files.pythonhosted.org/packages/4f/3b/c68c1067b24a7df47edcc0325a825908601aba399e2d372a156edc631ad1/rpds_py-0.21.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:5afb5efde74c54724e1a01118c6e5c15e54e642c42a1ba588ab1f03544ac8c7a", size = 548924 },
-    { url = "https://files.pythonhosted.org/packages/ab/1c/35f1a5cce4bca71c49664f00140010a96b126e5f443ebaf6db741c25b9b7/rpds_py-0.21.0-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:52c041802a6efa625ea18027a0723676a778869481d16803481ef6cc02ea8cb3", size = 554217 },
-    { url = "https://files.pythonhosted.org/packages/c8/d0/48154c152f9adb8304b21d867d28e79be3b352633fb195c03c7107a4da9a/rpds_py-0.21.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:ee1e4fc267b437bb89990b2f2abf6c25765b89b72dd4a11e21934df449e0c976", size = 530540 },
-    { url = "https://files.pythonhosted.org/packages/50/e8/78847f4e112e99fd5b7bc30fea3e4a44c20b811473d6755f944c5bf0aec7/rpds_py-0.21.0-cp313-none-win32.whl", hash = "sha256:0c025820b78817db6a76413fff6866790786c38f95ea3f3d3c93dbb73b632202", size = 202604 },
-    { url = "https://files.pythonhosted.org/packages/60/31/083e6337775e133fb0217ed0ab0752380efa6e5112f2250d592d4135a228/rpds_py-0.21.0-cp313-none-win_amd64.whl", hash = "sha256:320c808df533695326610a1b6a0a6e98f033e49de55d7dc36a13c8a30cfa756e", size = 220448 },
-]
-
-[[package]]
 name = "six"
 version = "1.16.0"
 source = { registry = "https://pypi.org/simple" }
@@ -503,30 +423,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/eb/79/72064e6a701c21830
 wheels = [
     { url = "https://files.pythonhosted.org/packages/00/c0/8f5d070730d7836adc9c9b6408dec68c6ced86b304a9b26a14df072a6e8c/traitlets-5.14.3-py3-none-any.whl", hash = "sha256:b74e89e397b1ed28cc831db7aea759ba6640cb3de13090ca145426688ff1ac4f", size = 85359 },
 ]
-
-[[package]]
-name = "tree-sitter"
-version = "0.22.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/3c/b9/2caef40823773a8a7deede8b32f22cd2afc13e3e94da045c2f09b2e32ec4/tree-sitter-0.22.3.tar.gz", hash = "sha256:6516bcef5d36e0365670b97c91a169c8b1aa82ea4b60946b879020820718ce3d", size = 161828 }
-
-[[package]]
-name = "tree-sitter-usfm3"
-version = "3.0.0b16"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/95/45/03bc991154fd6d9627b065c183f5ce602329509abc495ccb41d73ee074b4/tree_sitter_usfm3-3.0.0b16.tar.gz", hash = "sha256:1802fa3f580789488ced6e21fd1719f509c9eab9b2fd2866dd6a6eb99b1cf846", size = 374741 }
-
-[[package]]
-name = "usfm-grammar"
-version = "3.0.0b16"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "jsonschema" },
-    { name = "lxml" },
-    { name = "tree-sitter" },
-    { name = "tree-sitter-usfm3" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/f9/65/3fa6696ebbc0c7a1a822421ec6132bcb49060aa4a55d8ab754532b438e40/usfm_grammar-3.0.0b16.tar.gz", hash = "sha256:77e3a9d4c7eaa57277a0fb33e11bd96a48bbcbf3123af834f8be5143b396c261", size = 29192 }
 
 [[package]]
 name = "wcwidth"
