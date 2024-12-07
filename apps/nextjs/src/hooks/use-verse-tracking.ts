@@ -15,7 +15,7 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
   const lastVisibleVerseRef = useRef<VerseReference | null>(null);
 
   // Debounce so that it doesn't update too frequently while scrolling
-  const debouncedVerse = useDebounce(lastVisibleVerseRef.current, 500);
+  const debouncedVerse = useDebounce(lastVisibleVerseRef.current, 300);
 
   useEffect(() => {
     if (debouncedVerse) {
@@ -46,8 +46,16 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
     if (!verseId) return;
 
     const [book, chapter, verse] = verseId.split("-");
+    if (!book || !chapter) return;
+
+    // Properly capitalize the book name
+    const capitalizedBook = book
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(" ");
+
     const newVerse: VerseReference = {
-      book: book.charAt(0) + book.slice(1).toLowerCase(),
+      book: capitalizedBook,
       chapter: parseInt(chapter, 10),
       verse: verse ? parseInt(verse, 10) : undefined,
     };

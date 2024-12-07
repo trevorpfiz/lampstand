@@ -223,6 +223,7 @@ const BibleViewer: React.FC = () => {
   const scrollToChapterAndVerse = useCallback(
     (chapterIndex: number, verse?: string) => {
       virtualizer.scrollToIndex(chapterIndex, { align: "start" });
+      console.log("scrollToChapterAndVerse:", chapterIndex, verse);
       setTimeout(() => {
         if (verse && parentRef.current) {
           const el = document.querySelector(`[data-verse-id='${verse}']`);
@@ -231,10 +232,11 @@ const BibleViewer: React.FC = () => {
             const elRect = el.getBoundingClientRect();
             const offset =
               elRect.top - parentRect.top + parentRef.current.scrollTop;
+            console.log("offset:", offset);
             parentRef.current.scrollTo({ top: offset, behavior: "instant" });
           }
         }
-      }, 100);
+      }, 200);
     },
     [virtualizer],
   );

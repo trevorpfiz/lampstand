@@ -17,7 +17,7 @@ export function BibleSelect() {
       defaultValue="BSB"
       onValueChange={(value) => setBibleVersion(value as "BSB" | "KJV")}
     >
-      <SelectTrigger aria-label="Select Bible version">
+      <SelectTrigger aria-label="Select Bible version" className="pl-2 pr-1">
         <SelectValue placeholder="Select version" />
       </SelectTrigger>
       <SelectContent>
@@ -27,7 +27,7 @@ export function BibleSelect() {
             value={version.value}
             disabled={version.disabled}
           >
-            {version.label}
+            {version.value}
           </SelectItem>
         ))}
       </SelectContent>

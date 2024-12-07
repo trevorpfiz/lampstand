@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
-import { Check, ChevronDown } from "lucide-react";
+import { Check, Quote } from "lucide-react";
 
 import { Button } from "@lamp/ui/button";
 import {
@@ -17,7 +17,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@lamp/ui/popover";
 
 import { BIBLE_VERSESS } from "~/lib/constants";
 import { useBibleStore } from "~/providers/bible-store-provider";
-import { parseReference } from "~/utils/bible/verse";
+import { parseReference, verseId } from "~/utils/bible/verse";
 
 interface ReferenceSelectProps {
   getChapterIndex: (book: string, chapter: number) => number;
@@ -44,21 +44,26 @@ function ReferenceSelect({
   const [searchValue, setSearchValue] = useState<string>("");
 
   const handleSelect = (value: string) => {
+    console.log("1. Selected value:", value);
     const reference = parseReference(value);
     if (!reference) {
-      console.log("Failed to parse reference");
+      console.log("Failed to parse reference:", value);
       return;
     }
 
+    console.log("2. Parsed reference:", reference);
     setCurrentVerse(reference);
+    console.log("3. After setCurrentVerse:", currentVerse);
 
     const chapterIndex = getChapterIndex(reference.book, reference.chapter);
-    if (chapterIndex === -1) return;
+    if (chapterIndex === -1) {
+      console.log("Failed to find chapter index for:", reference);
+      return;
+    }
 
-    const verseId = reference.verse
-      ? `${reference.book}-${reference.chapter}-${reference.verse}`
-      : undefined;
-    scrollToChapterAndVerse(chapterIndex, verseId);
+    const verse = verseId(reference);
+    console.log("4. Generated verseId:", verse);
+    scrollToChapterAndVerse(chapterIndex, verse);
     setOpen(false);
   };
 
@@ -136,7 +141,7 @@ function ReferenceSelect({
           ) : (
             <span className="text-muted-foreground">Reference</span>
           )}
-          <ChevronDown
+          <Quote
             size={16}
             strokeWidth={2}
             className="shrink-0 text-muted-foreground/80"

@@ -14,11 +14,15 @@ export function VerseNavigationBar({
 }: VerseNavigationBarProps) {
   return (
     <div className="flex items-center gap-2 border-b border-gray-200 p-2">
-      <BibleSelect />
-      <ReferenceSelect
-        getChapterIndex={getChapterIndex}
-        scrollToChapterAndVerse={scrollToChapterAndVerse}
-      />
+      <div className="w-16">
+        <BibleSelect />
+      </div>
+      <div className="w-full max-w-48">
+        <ReferenceSelect
+          getChapterIndex={getChapterIndex}
+          scrollToChapterAndVerse={scrollToChapterAndVerse}
+        />
+      </div>
     </div>
   );
 }

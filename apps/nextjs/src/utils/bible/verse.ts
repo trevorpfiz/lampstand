@@ -1,3 +1,8 @@
+interface BibleChapter {
+  bookName: string;
+  chapterNumber: string;
+}
+
 export interface VerseReference {
   book: string;
   chapter: number;
@@ -5,37 +10,37 @@ export interface VerseReference {
 }
 
 // Maps a string like "Genesis 1:25" or "Genesis 1" or "Genesis" to a VerseReference
-export function parseReference(ref: string): VerseReference | null {
-  const parts = ref.trim().split(/\s+/);
-  if (parts.length < 1) return null;
+export function parseReference(reference: string): VerseReference | null {
+  // Handle book names with spaces (e.g. "1 Samuel", "2 Kings")
+  const regex = /^(\d*\s*[A-Za-z]+)\s+(\d+)(?::(\d+))?$/;
+  const match = regex.exec(reference);
 
-  const book = parts[0];
-  let chapter: number | undefined;
-  let verse: number | undefined;
-
-  if (parts.length > 1) {
-    const chapterPart = parts[1];
-    if (!chapterPart) return null;
-
-    const chVerse = chapterPart.split(":");
-    const parsedChapter = parseInt(chVerse[0], 10);
-    if (isNaN(parsedChapter)) return null;
-
-    chapter = parsedChapter;
-    if (chVerse.length > 1 && chVerse[1]) {
-      const parsedVerse = parseInt(chVerse[1], 10);
-      if (!isNaN(parsedVerse)) {
-        verse = parsedVerse;
-      }
-    }
+  if (!match?.[1] || !match[2]) {
+    console.log("Reference failed to match regex:", reference);
+    return null;
   }
 
-  if (!chapter) {
-    // Just a book reference, default to chapter 1
-    return { book, chapter: 1 };
-  }
+  const [, bookPart, chapterPart, versePart] = match;
 
-  return { book, chapter, verse };
+  // Properly capitalize book name
+  const capitalizedBook = bookPart
+    .trim()
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(" ");
+
+  // Log the parsed components
+  console.log("Parsed components:", {
+    book: capitalizedBook,
+    chapter: chapterPart,
+    verse: versePart,
+  });
+
+  return {
+    book: capitalizedBook,
+    chapter: parseInt(chapterPart, 10),
+    verse: versePart ? parseInt(versePart, 10) : undefined,
+  };
 }
 
 // Convert a VerseReference to a string ID to attach to HTML elements.
@@ -50,7 +55,10 @@ export function verseId(ref: VerseReference): string {
 }
 
 // Simple helper to find the chapter index in the chapters array
-export function findChapterIndex(chapters: any[], ref: VerseReference): number {
+export function findChapterIndex(
+  chapters: BibleChapter[],
+  ref: VerseReference,
+): number {
   const idx = chapters.findIndex(
     (ch) =>
       ch.bookName.toLowerCase() === ref.book.toLowerCase() &&
