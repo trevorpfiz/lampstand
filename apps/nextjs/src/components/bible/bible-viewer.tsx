@@ -206,6 +206,7 @@ const BibleViewer: React.FC = () => {
   const [enabled] = useState(true);
 
   const chapters = useMemo(() => parseBibleData(bibleData), []);
+  console.log(chapters[0]);
 
   const virtualizer = useVirtualizer({
     count: chapters.length,

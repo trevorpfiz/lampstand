@@ -351,13 +351,46 @@ const BibleViewer: React.FC = () => {
         </p>
         <div className="mb-4"></div>
         <p className="text-justify">
-          And there was evening, and there was morning—the first day.
-          <button data-state="closed">
-            <sup className="inline-block cursor-pointer text-xs font-semibold italic text-blue-500">
-              b
-            </sup>
-          </button>
+          <span data-verse-id="GENESIS-1-5">
+            And there was evening, and there was morning—the first day.
+            <button data-state="closed">
+              <sup className="inline-block cursor-pointer text-xs font-semibold italic text-blue-500">
+                b
+              </sup>
+            </button>
+          </span>
         </p>
+        <div className="mb-4"></div>
+
+        <p className="text-justify">
+          <span data-verse-id="GENESIS-1-27">
+            <span className="align-text-top text-[11px] font-medium">27 </span>
+            So God created man in His own image;
+          </span>
+        </p>
+        <p
+          className="text-justify"
+          style={{ textAlign: "justify", textIndent: "2em" }}
+        >
+          <span data-verse-id="GENESIS-1-27">
+            in the image of God He created him;
+          </span>
+        </p>
+        <p
+          className="text-justify"
+          style={{ textAlign: "justify", textIndent: "2em" }}
+        >
+          <span data-verse-id="GENESIS-1-27">
+            male and female He created them.
+            <button data-state="closed">
+              <sup className="inline-block cursor-pointer text-xs font-semibold italic text-blue-500">
+                e
+              </sup>
+            </button>
+          </span>
+        </p>
+
+        <div className="mb-4"></div>
       </div>
     </div>
   );

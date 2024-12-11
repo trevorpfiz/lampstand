@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className="h-full">
       {/* <BibleViewer /> */}
-      {/* <BibleViewerIr /> */}
-      <BibleViewerManny />
+      <BibleViewerIr />
+      {/* <BibleViewerManny /> */}
     </div>
   );
 }
