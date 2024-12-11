@@ -27,7 +27,7 @@ export function BibleSelect() {
             value={version.value}
             disabled={version.disabled}
           >
-            {version.value}
+            {version.label}
           </SelectItem>
         ))}
       </SelectContent>

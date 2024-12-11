@@ -40,8 +40,8 @@ export const BIBLE_VERSESS: BibleVerseReference[] = bibleMetadata.flatMap(
 );
 
 export const BIBLE_VERSIONS = [
-  { value: "BSB", label: "Berean Study Bible", disabled: false },
-  { value: "KJV", label: "King James Version", disabled: true },
+  { value: "BSB", label: "BSB", disabled: false },
+  { value: "KJV", label: "KJV (Coming Soon)", disabled: true },
 ] as const;
 
 export const BIBLE_BOOKS = [

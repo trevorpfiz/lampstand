@@ -145,9 +145,9 @@ function renderParagraphLines(
             prefix = (
               <span
                 key={`verseNum-${i}`}
-                className="pr-1 align-text-top text-[11px] font-medium"
+                className="align-text-top text-[11px] font-medium"
               >
-                {verseNumber}
+                {verseNumber}{" "}
               </span>
             );
           }
