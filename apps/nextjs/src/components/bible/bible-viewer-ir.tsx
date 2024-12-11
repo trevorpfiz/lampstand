@@ -184,7 +184,6 @@ const BibleViewer: React.FC = () => {
   }, []);
 
   const virtualItems = virtualizer.getVirtualItems();
-  let lastBookCode: string | null = null;
 
   return (
     <div className="flex h-full flex-col">
@@ -213,11 +212,6 @@ const BibleViewer: React.FC = () => {
               const chapter = chapters[virtualRow.index];
               if (!chapter) return null;
 
-              const isNewBook = chapter.bookCode !== lastBookCode;
-              lastBookCode = chapter.bookCode;
-
-              const showBookName = isNewBook && chapter.chapterNumber === "1";
-
               return (
                 <div
                   key={virtualRow.key}
@@ -225,14 +219,6 @@ const BibleViewer: React.FC = () => {
                   ref={virtualizer.measureElement}
                   className="p-2"
                 >
-                  {showBookName && (
-                    <h1
-                      key="bookname"
-                      className="my-6 text-center text-4xl font-bold"
-                    >
-                      {chapter.bookName.toUpperCase()}
-                    </h1>
-                  )}
                   {renderChapter(chapter)}
                 </div>
               );

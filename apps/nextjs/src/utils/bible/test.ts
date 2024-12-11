@@ -9,12 +9,14 @@ export function parseUSJToIR(usjData) {
   let currentVerse = null;
   let currentVerseBlock = null;
   let textBuffer = "";
+  let currentFootnotes = [];
 
   let verseContinuing = false;
   let currentVerseNumber = null;
   let currentVerseSid = null;
 
-  let footnoteIndex = 0; // reset each chapter
+  // We'll track footnotes per chapter
+  let footnoteIndex = 0; // Resets each chapter
 
   function startBook(code) {
     currentBook = {
@@ -30,7 +32,7 @@ export function parseUSJToIR(usjData) {
     verseContinuing = false;
     currentVerseNumber = null;
     currentVerseSid = null;
-    footnoteIndex = 0;
+    footnoteIndex = 0; // reset footnote letters each chapter
 
     currentChapter = {
       number: parseInt(number, 10),
@@ -38,8 +40,11 @@ export function parseUSJToIR(usjData) {
     };
     currentBook.chapters.push(currentChapter);
 
+    // Insert book_title at the start of the first chapter
     if (currentChapter.number === 1) {
-      const bookTitle = currentBook.title || currentBook.code;
+      const bookTitle = currentBook.title
+        ? currentBook.title
+        : currentBook.code;
       currentChapter.elements.push({
         type: "book_title",
         text: bookTitle,
@@ -79,12 +84,13 @@ export function parseUSJToIR(usjData) {
 
   function finalizeOpenVerseAndBlock() {
     if (currentVerse) {
-      finalizePartIfNeeded();
+      pushTextPart();
       if (currentVerseBlock) {
         currentVerseBlock.verses.push(currentVerse);
       }
       currentVerse = null;
       textBuffer = "";
+      currentFootnotes = [];
     }
 
     if (currentVerseBlock) {
@@ -92,18 +98,6 @@ export function parseUSJToIR(usjData) {
         currentChapter.elements.push(currentVerseBlock);
       }
       currentVerseBlock = null;
-    }
-  }
-
-  function finalizePartIfNeeded() {
-    if (!currentVerse) return;
-    if (textBuffer.length > 0) {
-      // No footnotes here, just push as-is
-      currentVerse.parts.push({
-        text: textBuffer,
-        footnotes: [],
-      });
-      textBuffer = "";
     }
   }
 
@@ -117,16 +111,34 @@ export function parseUSJToIR(usjData) {
     currentVerseBlock = { type: "continued_verse_block", style, verses: [] };
   }
 
+  function pushTextPart() {
+    if (!currentVerse) return;
+
+    // If this part has footnotes, we remove trailing whitespace.
+    if (currentFootnotes.length > 0) {
+      textBuffer = textBuffer.trimEnd();
+    }
+
+    if (textBuffer.length > 0 || currentFootnotes.length > 0) {
+      currentVerse.parts.push({
+        text: textBuffer,
+        footnotes: currentFootnotes,
+      });
+      textBuffer = "";
+      currentFootnotes = [];
+    }
+  }
+
   function startVerse(number, sid) {
     if (currentVerse && currentVerse.verseNumber !== parseInt(number, 10)) {
-      finalizePartIfNeeded();
+      pushTextPart();
       currentVerseBlock.verses.push(currentVerse);
       currentVerse = null;
-      textBuffer = "";
     }
 
     const verseNum = parseInt(number, 10);
-    const bookName = currentBook.title || currentBook.code;
+    // Build a verseId using the full book title if available, else code
+    const bookName = currentBook.title ? currentBook.title : currentBook.code;
     const ref = {
       book: bookName,
       chapter: currentChapter.number,
@@ -137,7 +149,7 @@ export function parseUSJToIR(usjData) {
     currentVerse = {
       verseNumber: verseNum,
       sid,
-      verseId: vId,
+      verseId: vId, // store the verseId in the IR
       parts: [],
     };
     verseContinuing = true;
@@ -146,28 +158,21 @@ export function parseUSJToIR(usjData) {
   }
 
   function attachFootnote(noteObj) {
-    // If we have no current verse, footnote is out of verse context. Skip it.
-    if (!currentVerse) {
-      return;
-    }
-
-    const extractedFootnotes = extractFootnoteText(noteObj);
-    for (const fn of extractedFootnotes) {
-      fn.letter = String.fromCharCode(97 + footnoteIndex);
+    pushTextPart();
+    const footnotes = extractFootnoteText(noteObj);
+    // Assign letters to footnotes
+    for (const fn of footnotes) {
+      fn.letter = String.fromCharCode(97 + footnoteIndex); // 'a' + footnoteIndex
       footnoteIndex++;
     }
 
-    // Trim trailing whitespace from current text since we have footnotes
-    textBuffer = textBuffer.trimEnd();
-
-    // Create a part from current text + these footnotes
-    currentVerse.parts.push({
-      text: textBuffer,
-      footnotes: extractedFootnotes,
-    });
-
-    // Clear textBuffer for next segment
-    textBuffer = "";
+    // Attach footnotes to the last created part if possible
+    if (currentVerse && currentVerse.parts.length > 0) {
+      const lastPart = currentVerse.parts[currentVerse.parts.length - 1];
+      lastPart.footnotes = lastPart.footnotes.concat(footnotes);
+    } else {
+      currentFootnotes = currentFootnotes.concat(footnotes);
+    }
   }
 
   function handleVerseContent(contentArray) {
@@ -222,11 +227,11 @@ export function parseUSJToIR(usjData) {
     } else if (marker === "b") {
       addBlank();
     } else {
-      // Paragraph may or may not have verses
+      // Paragraph that may or may not have verses
       if (hasVerse) {
+        // Paragraph with verses
         startVerseBlock(marker);
         handleVerseContent(node.content);
-        finalizePartIfNeeded();
         finalizeOpenVerseAndBlock();
       } else {
         // No verse marker here
@@ -235,7 +240,9 @@ export function parseUSJToIR(usjData) {
           currentVerseNumber !== null &&
           currentVerseSid !== null
         ) {
+          // Continuing the same verse in a new block
           startContinuedVerseBlock(marker);
+
           currentVerse = {
             verseNumber: currentVerseNumber,
             sid: currentVerseSid,
@@ -255,7 +262,7 @@ export function parseUSJToIR(usjData) {
             }
           }
 
-          finalizePartIfNeeded();
+          pushTextPart();
           currentVerseBlock.verses.push(currentVerse);
           currentVerse = null;
           finalizeOpenVerseAndBlock();
