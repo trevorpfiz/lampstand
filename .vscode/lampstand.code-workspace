@@ -1,12 +1,12 @@
 {
   "folders": [
     {
-      "name": "Next.js",
-      "path": "../apps/nextjs",
+      "name": "App",
+      "path": "../apps/app",
     },
     {
-      "name": "FastAPI",
-      "path": "../apps/fastapi",
+      "name": "Web",
+      "path": "../apps/web",
     },
     {
       "name": "Root",
@@ -31,12 +31,9 @@
     "configurations": [],
     "compounds": [
       {
-        "name": "Launch Next.js, and FastAPI",
-        // from apps/nextjs/.vscode/launch.json and apps/fastapi/.vscode/launch.json
-        "configurations": [
-          "Debug Next.js",
-          "Python: FastAPI",
-        ],
+        "name": "Launch App and Web",
+        // from apps/app/.vscode/launch.json and apps/web/.vscode/launch.json
+        "configurations": ["Debug App", "Debug Web"],
       },
     ],
   },

@@ -10,6 +10,6 @@ export default {
   out: "./migrations",
   dialect: "postgresql",
   dbCredentials: { url: nonPoolingUrl },
-  tablesFilter: ["epi_*"],
+  tablesFilter: ["lamp_*"],
   casing: "snake_case",
 } satisfies Config;

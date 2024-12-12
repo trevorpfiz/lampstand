@@ -2,11 +2,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Next.js",
+      "name": "App",
       "type": "node-terminal",
       "request": "launch",
       "command": "pnpm dev",
-      "cwd": "${workspaceFolder}/apps/nextjs",
+      "cwd": "${workspaceFolder}/apps/app",
       "skipFiles": ["<node_internals>/**"],
       "sourceMaps": true,
       "sourceMapPathOverrides": {
@@ -16,8 +16,8 @@
   ],
   "compounds": [
     {
-      "name": "Launch Next.js",
-      "configurations": ["Next.js"]
+      "name": "Launch App",
+      "configurations": ["App"]
     }
   ]
 }

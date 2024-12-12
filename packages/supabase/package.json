@@ -1,0 +1,55 @@
+{
+  "name": "@lamp/supabase",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    "./server": {
+      "types": "./dist/clients/server.d.ts",
+      "default": "./src/clients/server.ts"
+    },
+    "./client": {
+      "types": "./dist/clients/client.d.ts",
+      "default": "./src/clients/client.ts"
+    },
+    "./middleware": {
+      "types": "./dist/clients/middleware.d.ts",
+      "default": "./src/clients/middleware.ts"
+    },
+    "./types": {
+      "types": "./dist/types/index.d.ts",
+      "default": "./src/types/index.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "git clean -xdf .cache .turbo dist node_modules",
+    "dev": "tsc",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "_generate:types": "supabase gen types typescript --project-id \"$NEXT_PUBLIC_SUPABASE_PROJECT_REF\" --schema public > src/types/db.ts",
+    "generate:types": "pnpm with-env pnpm run _generate:types",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false",
+    "with-env": "dotenv -e ../../.env --"
+  },
+  "dependencies": {
+    "@lamp/logger": "workspace:*",
+    "@supabase/ssr": "catalog:supabase",
+    "@supabase/supabase-js": "catalog:supabase",
+    "@t3-oss/env-core": "^0.11.1",
+    "react": "catalog:react19",
+    "server-only": "^0.0.1",
+    "supabase": "catalog:supabase",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@lamp/eslint-config": "workspace:*",
+    "@lamp/prettier-config": "workspace:*",
+    "@lamp/tsconfig": "workspace:*",
+    "dotenv-cli": "^7.4.4",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:"
+  },
+  "prettier": "@lamp/prettier-config"
+}

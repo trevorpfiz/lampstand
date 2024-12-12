@@ -24,6 +24,7 @@ catalogs:
     "@types/react": ^19.0.0
     "@types/react-dom": ^19.0.0
   supabase:
+    supabase: ^2.0.0
     "@supabase/supabase-js": ^2.46.2
     "@supabase/ssr": ^0.5.2
   tailwind:
