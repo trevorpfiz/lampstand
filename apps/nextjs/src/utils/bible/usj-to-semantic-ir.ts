@@ -1,22 +1,94 @@
+import type {
+  BookNode,
+  ChapterNode,
+  ContentNode,
+  NoteNode,
+  ParaNode,
+  Root,
+  VerseNode,
+} from "~/types/bible";
+import type {
+  Blank,
+  BookTitle,
+  ChapterElement,
+  Heading,
+  IR,
+  IRBook,
+  IRChapter,
+  VerseBlock as IRVerseBlock,
+  Paragraph,
+  ReferenceLine,
+} from "~/utils/bible/formatting-assembly";
 import { verseId } from "~/utils/bible/verse";
 
-export function parseUSJToIR(usjData) {
-  const ir = { books: [] };
+interface USJVerse {
+  type: "verse";
+  number: string;
+  sid: string;
+}
 
-  let currentBook = null;
-  let currentChapter = null;
+interface USJCharNode {
+  type: "char";
+  marker: string;
+  content: string[];
+}
 
-  let currentVerse = null;
-  let currentVerseBlock = null;
+interface USJNote {
+  type: "note";
+  // Note content can be either strings or char objects
+  content: (string | USJCharNode)[];
+}
+
+// Extend IRBook to add code & title
+interface CurrentBook extends IRBook {
+  code: string;
+  title: string | null;
+  chapters: IRChapter[];
+}
+
+// Extend IRChapter to ensure number and elements are defined
+interface CurrentChapter extends IRChapter {
+  bookName: string;
+  number: number;
+  elements: ChapterElement[];
+}
+
+interface CurrentVerse {
+  verseNumber: number;
+  sid: string;
+  verseId: string;
+  parts: {
+    text: string;
+    footnotes: {
+      ref: string;
+      text: string;
+      letter?: string;
+    }[];
+  }[];
+}
+
+interface VerseBlock {
+  type: "verse_block" | "continued_verse_block";
+  style: string;
+  verses: CurrentVerse[];
+}
+
+export function parseUSJToIR(usjData: Root): IR {
+  const ir: IR = { books: [] };
+
+  let currentBook: CurrentBook | null = null;
+  let currentChapter: CurrentChapter | null = null;
+  let currentVerse: CurrentVerse | null = null;
+  let currentVerseBlock: VerseBlock | null = null;
   let textBuffer = "";
 
   let verseContinuing = false;
-  let currentVerseNumber = null;
-  let currentVerseSid = null;
+  let currentVerseNumber: number | null = null;
+  let currentVerseSid: string | null = null;
 
-  let footnoteIndex = 0; // reset each chapter
+  let footnoteIndex = 0;
 
-  function startBook(code) {
+  function startBook(code: string): void {
     currentBook = {
       code,
       title: null,
@@ -25,59 +97,68 @@ export function parseUSJToIR(usjData) {
     ir.books.push(currentBook);
   }
 
-  function startChapter(number) {
+  function startChapter(number: string): void {
     finalizeOpenVerseAndBlock();
     verseContinuing = false;
     currentVerseNumber = null;
     currentVerseSid = null;
     footnoteIndex = 0;
 
+    if (!currentBook) return;
+
     currentChapter = {
+      bookName: currentBook.title ?? currentBook.code,
       number: parseInt(number, 10),
       elements: [],
     };
     currentBook.chapters.push(currentChapter);
 
-    if (currentChapter.number === 1) {
-      const bookTitle = currentBook.title || currentBook.code;
+    if (parseInt(number, 10) === 1) {
+      const bookTitle = currentBook.title ?? currentBook.code;
       currentChapter.elements.push({
         type: "book_title",
         text: bookTitle,
-      });
+      } as BookTitle);
     }
   }
 
-  function addHeading(text, level) {
+  function addHeading(text: string, level: string): void {
+    if (!currentChapter) return;
     finalizeOpenVerseAndBlock();
     verseContinuing = false;
     currentVerseNumber = null;
     currentVerseSid = null;
 
-    currentChapter.elements.push({
+    const heading: Heading = {
       type: "heading",
       level,
       text: text.trim(),
-    });
+    };
+    currentChapter.elements.push(heading);
   }
 
-  function addReferenceLine(text) {
+  function addReferenceLine(text: string): void {
+    if (!currentChapter) return;
     finalizeOpenVerseAndBlock();
     verseContinuing = false;
     currentVerseNumber = null;
     currentVerseSid = null;
 
-    currentChapter.elements.push({
+    const refLine: ReferenceLine = {
       type: "reference_line",
       text: text.trim(),
-    });
+    };
+    currentChapter.elements.push(refLine);
   }
 
-  function addBlank() {
+  function addBlank(): void {
+    if (!currentChapter) return;
     finalizeOpenVerseAndBlock();
-    currentChapter.elements.push({ type: "blank" });
+    const blank: Blank = { type: "blank" };
+    currentChapter.elements.push(blank);
   }
 
-  function finalizeOpenVerseAndBlock() {
+  function finalizeOpenVerseAndBlock(): void {
     if (currentVerse) {
       finalizePartIfNeeded();
       if (currentVerseBlock) {
@@ -88,17 +169,16 @@ export function parseUSJToIR(usjData) {
     }
 
     if (currentVerseBlock) {
-      if (currentVerseBlock.verses.length > 0) {
+      if (currentVerseBlock.verses.length > 0 && currentChapter) {
         currentChapter.elements.push(currentVerseBlock);
       }
       currentVerseBlock = null;
     }
   }
 
-  function finalizePartIfNeeded() {
+  function finalizePartIfNeeded(): void {
     if (!currentVerse) return;
     if (textBuffer.length > 0) {
-      // No footnotes here, just push as-is
       currentVerse.parts.push({
         text: textBuffer,
         footnotes: [],
@@ -107,17 +187,19 @@ export function parseUSJToIR(usjData) {
     }
   }
 
-  function startVerseBlock(style) {
+  function startVerseBlock(style: string): void {
     finalizeOpenVerseAndBlock();
     currentVerseBlock = { type: "verse_block", style, verses: [] };
   }
 
-  function startContinuedVerseBlock(style) {
+  function startContinuedVerseBlock(style: string): void {
     finalizeOpenVerseAndBlock();
     currentVerseBlock = { type: "continued_verse_block", style, verses: [] };
   }
 
-  function startVerse(number, sid) {
+  function startVerse(number: string, sid: string): void {
+    if (!currentBook || !currentChapter || !currentVerseBlock) return;
+
     if (currentVerse && currentVerse.verseNumber !== parseInt(number, 10)) {
       finalizePartIfNeeded();
       currentVerseBlock.verses.push(currentVerse);
@@ -126,7 +208,7 @@ export function parseUSJToIR(usjData) {
     }
 
     const verseNum = parseInt(number, 10);
-    const bookName = currentBook.title || currentBook.code;
+    const bookName = currentBook.title ?? currentBook.code;
     const ref = {
       book: bookName,
       chapter: currentChapter.number,
@@ -145,8 +227,7 @@ export function parseUSJToIR(usjData) {
     currentVerseSid = sid;
   }
 
-  function attachFootnote(noteObj) {
-    // If we have no current verse, footnote is out of verse context. Skip it.
+  function attachFootnote(noteObj: USJNote): void {
     if (!currentVerse) {
       return;
     }
@@ -157,32 +238,33 @@ export function parseUSJToIR(usjData) {
       footnoteIndex++;
     }
 
-    // Trim trailing whitespace from current text since we have footnotes
     textBuffer = textBuffer.trimEnd();
 
-    // Create a part from current text + these footnotes
     currentVerse.parts.push({
       text: textBuffer,
       footnotes: extractedFootnotes,
     });
 
-    // Clear textBuffer for next segment
     textBuffer = "";
   }
 
-  function handleVerseContent(contentArray) {
+  function handleVerseContent(
+    contentArray: (string | VerseNode | NoteNode)[],
+  ): void {
     for (const item of contentArray) {
       if (typeof item === "string") {
         textBuffer += item;
       } else if (item.type === "verse") {
         startVerse(item.number, item.sid);
       } else if (item.type === "note") {
-        attachFootnote(item);
+        attachFootnote(item as USJNote);
       }
     }
   }
 
-  function extractFootnoteText(noteObj) {
+  function extractFootnoteText(
+    noteObj: USJNote,
+  ): { ref: string; text: string }[] {
     let ref = "";
     let text = "";
     for (const c of noteObj.content) {
@@ -199,15 +281,26 @@ export function parseUSJToIR(usjData) {
     return [{ ref: ref.trim(), text: text.trim() }];
   }
 
-  function handleParagraphNode(node) {
+  function handleParagraphNode(node: ParaNode): void {
+    if (
+      !currentBook ||
+      (!currentChapter &&
+        node.marker !== "h" &&
+        node.marker !== "toc1" &&
+        node.marker !== "mt1")
+    )
+      return;
+
     const marker = node.marker;
     const rawContent = node.content || [];
     const rawText = rawContent
       .map((c) => (typeof c === "string" ? c : ""))
       .join("");
     const text = rawText.trim();
-    const hasVerse =
-      node.content && node.content.some((x) => x.type === "verse");
+
+    const hasVerse = node.content?.some(
+      (x) => typeof x === "object" && x !== null && x.type === "verse",
+    );
 
     if (marker === "h" || marker === "toc1" || marker === "mt1") {
       if (!currentBook.title && text) {
@@ -225,7 +318,7 @@ export function parseUSJToIR(usjData) {
       // Paragraph may or may not have verses
       if (hasVerse) {
         startVerseBlock(marker);
-        handleVerseContent(node.content);
+        handleVerseContent(node.content as (string | VerseNode | NoteNode)[]);
         finalizePartIfNeeded();
         finalizeOpenVerseAndBlock();
       } else {
@@ -240,7 +333,7 @@ export function parseUSJToIR(usjData) {
             verseNumber: currentVerseNumber,
             sid: currentVerseSid,
             verseId: verseId({
-              book: currentBook.title || currentBook.code,
+              book: currentBook.title ?? currentBook.code,
               chapter: currentChapter.number,
               verse: currentVerseNumber,
             }),
@@ -251,15 +344,16 @@ export function parseUSJToIR(usjData) {
             if (typeof item === "string") {
               textBuffer += item;
             } else if (item.type === "note") {
-              attachFootnote(item);
+              attachFootnote(item as USJNote);
             }
           }
 
           finalizePartIfNeeded();
-          currentVerseBlock.verses.push(currentVerse);
+          if (currentVerseBlock && currentVerse) {
+            currentVerseBlock.verses.push(currentVerse);
+          }
           currentVerse = null;
           finalizeOpenVerseAndBlock();
-          // Keep verseContinuing = true
         } else {
           // Normal paragraph, not continuing a verse
           finalizeOpenVerseAndBlock();
@@ -268,20 +362,22 @@ export function parseUSJToIR(usjData) {
           currentVerseSid = null;
 
           if (text) {
-            currentChapter.elements.push({
+            const paragraph: Paragraph = {
               type: "paragraph",
               style: marker,
               text: rawText,
-            });
+            };
+            currentChapter.elements.push(paragraph);
           } else {
             if (rawText === "") {
               addBlank();
             } else {
-              currentChapter.elements.push({
+              const paragraph: Paragraph = {
                 type: "paragraph",
                 style: marker,
                 text: rawText,
-              });
+              };
+              currentChapter.elements.push(paragraph);
             }
           }
         }
@@ -292,15 +388,17 @@ export function parseUSJToIR(usjData) {
   const bookKeys = Object.keys(usjData);
   for (const bkKey of bookKeys) {
     const bookData = usjData[bkKey];
-    if (bookData.type !== "USJ") continue;
+    if (!bookData || bookData.type !== "USJ") continue;
+
     const content = bookData.content;
+    if (!content) continue;
 
     for (const node of content) {
-      if (node.type === "book") {
+      if (node.type === "book" && "code" in node) {
         startBook(node.code);
       } else if (node.type === "para") {
         handleParagraphNode(node);
-      } else if (node.type === "chapter") {
+      } else if (node.type === "chapter" && "number" in node) {
         startChapter(node.number);
       }
     }

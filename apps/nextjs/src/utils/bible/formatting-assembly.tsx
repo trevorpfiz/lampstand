@@ -4,24 +4,56 @@ import { cn } from "@lamp/ui";
 import { useTheme } from "@lamp/ui/theme";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@lamp/ui/tooltip";
 
-type Footnote = { ref: string; text: string; letter?: string };
-type Part = { text: string; footnotes: Footnote[] };
-type Verse = {
+interface Footnote {
+  ref: string;
+  text: string;
+  letter?: string;
+}
+
+interface Part {
+  text: string;
+  footnotes: Footnote[];
+}
+
+interface Verse {
   verseNumber: number;
   sid: string;
   verseId: string;
   parts: Part[];
-};
-type VerseBlock = {
+}
+
+interface VerseBlock {
   type: "verse_block" | "continued_verse_block";
   style: string;
   verses: Verse[];
-};
-type Paragraph = { type: "paragraph"; style: string; text: string };
-type Heading = { type: "heading"; level: string; text: string };
-type ReferenceLine = { type: "reference_line"; text: string };
-type Blank = { type: "blank" };
-type BookTitle = { type: "book_title"; text: string };
+}
+
+interface Paragraph {
+  type: "paragraph";
+  style: string;
+  text: string;
+}
+
+interface Heading {
+  type: "heading";
+  level: string;
+  text: string;
+}
+
+interface ReferenceLine {
+  type: "reference_line";
+  text: string;
+}
+
+interface Blank {
+  type: "blank";
+}
+
+interface BookTitle {
+  type: "book_title";
+  text: string;
+}
+
 type ChapterElement =
   | VerseBlock
   | Paragraph
@@ -33,6 +65,17 @@ type ChapterElement =
 export interface IRChapter {
   number: number;
   elements: ChapterElement[];
+  bookName: string;
+}
+
+export interface IRBook {
+  code: string;
+  title: string | null;
+  chapters: IRChapter[];
+}
+
+export interface IR {
+  books: IRBook[];
 }
 
 const BibleHeading: React.FC<{ heading: Heading }> = ({ heading }) => {
@@ -143,7 +186,6 @@ const ParagraphBlock: React.FC<{ paragraph: Paragraph }> = ({ paragraph }) => {
 
 // Renders a single chapter
 export function renderChapter(chap: IRChapter) {
-  const firstVerseRenderedRef = { rendered: false };
   return (
     <React.Fragment>
       {chap.elements.map((el, idx) => {
@@ -162,7 +204,6 @@ export function renderChapter(chap: IRChapter) {
               <VerseBlockComp
                 key={idx}
                 block={el}
-                firstVerseRenderedRef={firstVerseRenderedRef}
                 chapterNumber={chap.number}
               />
             );
