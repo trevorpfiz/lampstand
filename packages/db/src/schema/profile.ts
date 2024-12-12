@@ -1,7 +1,7 @@
 import { index, uniqueIndex } from "drizzle-orm/pg-core";
+import { authUsers } from "drizzle-orm/supabase";
 
 import { createTable } from "./_table";
-import { Users } from "./auth";
 
 export const Profile = createTable(
   "profile",
@@ -10,7 +10,7 @@ export const Profile = createTable(
     id: t
       .uuid()
       .primaryKey()
-      .references(() => Users.id, { onDelete: "cascade" }),
+      .references(() => authUsers.id, { onDelete: "cascade" }),
     name: t.varchar({ length: 256 }).notNull(),
     image: t.varchar({ length: 256 }),
     email: t.varchar({ length: 256 }),

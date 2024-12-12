@@ -1,0 +1,44 @@
+{
+  "name": "@lamp/email",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./src/index.ts"
+    },
+    "./contact": {
+      "types": "./dist/src/templates/contact.d.ts",
+      "default": "./src/templates/contact.tsx"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "git clean -xdf .cache .turbo dist node_modules",
+    "dev": "tsc",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "@react-email/components": "0.0.31",
+    "@t3-oss/env-core": "^0.11.1",
+    "react": "catalog:react19",
+    "react-dom": "catalog:react19",
+    "resend": "^4.0.1",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@lamp/eslint-config": "workspace:*",
+    "@lamp/prettier-config": "workspace:*",
+    "@lamp/tsconfig": "workspace:*",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:react19",
+    "@types/react-dom": "catalog:react19",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:"
+  },
+  "prettier": "@lamp/prettier-config"
+}

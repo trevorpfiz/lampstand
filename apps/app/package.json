@@ -125,7 +125,7 @@
     "@lamp/prettier-config": "workspace:*",
     "@lamp/tailwind-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
-    "@types/node": "^20.17.7",
+    "@types/node": "catalog:",
     "@types/prismjs": "^1.26.5",
     "@types/react": "catalog:react19",
     "@types/react-dom": "catalog:react19",
