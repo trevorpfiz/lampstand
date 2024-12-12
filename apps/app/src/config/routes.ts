@@ -40,3 +40,9 @@ export const DEFAULT_LOGIN_REDIRECT = "/";
  * @type {string} DEFAULT_AUTH_ROUTE - The default auth route.
  */
 export const DEFAULT_AUTH_ROUTE = "/signin";
+
+/**
+ * The route to which users are redirected to reset their password.
+ * @type {string} RESET_PASSWORD_ROUTE - The reset password route.
+ */
+export const RESET_PASSWORD_ROUTE = "/account/update-password";

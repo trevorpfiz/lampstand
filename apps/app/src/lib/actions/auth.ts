@@ -5,15 +5,20 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 
 import { createClient } from "@lamp/supabase/server";
-import { SignInSchema, SignUpSchema } from "@lamp/validators/auth";
+import {
+  RequestPasswordResetSchema,
+  SignInSchema,
+  SignUpSchema,
+  UpdatePasswordSchema,
+} from "@lamp/validators/auth";
 
-import { DEFAULT_LOGIN_REDIRECT } from "~/config/routes";
+import { DEFAULT_LOGIN_REDIRECT, RESET_PASSWORD_ROUTE } from "~/config/routes";
 import { actionClient } from "~/lib/safe-action";
 
 export const signInWithPassword = actionClient
   .schema(SignInSchema)
   .action(async ({ parsedInput: { email, password } }) => {
-    const supabase = createClient();
+    const supabase = await createClient();
 
     const { error } = await supabase.auth.signInWithPassword({
       email,
@@ -25,18 +30,18 @@ export const signInWithPassword = actionClient
     }
 
     revalidatePath("/", "layout");
-    // redirect(DEFAULT_LOGIN_REDIRECT);
   });
 
 export const signUp = actionClient
   .schema(SignUpSchema)
   .action(async ({ parsedInput: { email, password } }) => {
-    const origin = headers().get("origin");
-    const supabase = createClient();
+    const supabase = await createClient();
+    const headersList = await headers();
 
+    const origin = headersList.get("origin");
     const redirectUrl = `${origin}/auth/confirm?next=${encodeURIComponent(DEFAULT_LOGIN_REDIRECT)}`;
 
-    const { error, data } = await supabase.auth.signUp({
+    const { data, error } = await supabase.auth.signUp({
       email,
       password,
       options: {
@@ -57,87 +62,83 @@ export const signUp = actionClient
     return data.user;
   });
 
-export const signInWithGithub = async () => {
-  const origin = headers().get("origin");
-  const supabase = createClient();
+export const resetPassword = actionClient
+  .schema(RequestPasswordResetSchema)
+  .action(async ({ parsedInput: { email } }) => {
+    const supabase = await createClient();
 
-  const res = await supabase.auth.signInWithOAuth({
+    const { data, error } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${origin}/auth/confirm?next=${encodeURIComponent(RESET_PASSWORD_ROUTE)}`,
+    });
+
+    if (error) {
+      throw error;
+    }
+
+    revalidatePath("/", "layout");
+    return data;
+  });
+
+export const updatePassword = actionClient
+  .schema(UpdatePasswordSchema)
+  .action(async ({ parsedInput: { confirmPassword } }) => {
+    const supabase = await createClient();
+
+    const { data, error } = await supabase.auth.updateUser({
+      password: confirmPassword,
+    });
+
+    if (error) {
+      throw error;
+    }
+
+    revalidatePath("/", "layout");
+    return data.user;
+  });
+
+export const signInWithGithub = async () => {
+  const supabase = await createClient();
+  const headersList = await headers();
+
+  const origin = headersList.get("origin");
+  const { data, error } = await supabase.auth.signInWithOAuth({
     provider: "github",
     options: { redirectTo: `${origin}/auth/callback` },
   });
 
-  if (res.data.url) {
-    redirect(res.data.url);
+  if (data.url) {
+    redirect(data.url);
   }
-  if (res.error) {
-    console.error(res.error.message);
+  if (error) {
+    console.error(error.message);
     redirect("/auth/error");
   }
 };
 
 export const signInWithGoogle = async () => {
-  const supabase = createClient();
-  const { data: anonUserData } = await supabase.auth.getUser();
+  const supabase = await createClient();
+  const headersList = await headers();
 
-  const origin = headers().get("origin");
+  const origin = headersList.get("origin");
   const redirectUrl = `${origin}/auth/callback?next=${encodeURIComponent(DEFAULT_LOGIN_REDIRECT)}`;
 
-  // @link - https://github.com/supabase/auth/issues/1525#issuecomment-2318541461
-  // Check if user is currently anonymous
-  if (anonUserData.user?.is_anonymous) {
-    // Attempt to link Google OAuth to the anonymous user
-    const { data, error } = await supabase.auth.linkIdentity({
-      provider: "google",
-    });
+  const { data, error } = await supabase.auth.signInWithOAuth({
+    provider: "google",
+    options: { redirectTo: redirectUrl },
+  });
 
-    console.log("data", data, "error", error);
-
-    if (error && error.status === 422) {
-      // Handle the case where the identity is already linked to another user
-      console.error(
-        "Identity is already linked to another user. Signing in...",
-      );
-
-      // Sign in the user with their Google account (they already have an existing account)
-      const { data: user, error: signInError } =
-        await supabase.auth.signInWithOAuth({
-          provider: "google",
-          options: { redirectTo: redirectUrl },
-        });
-
-      if (signInError) {
-        console.error(
-          "Error signing in with existing Google account:",
-          signInError.message,
-        );
-        redirect("/auth/error");
-      } else if (user.url) {
-        redirect(user.url);
-      }
-    } else if (data.url) {
-      // If successful, redirect to Google OAuth
-      redirect(data.url);
-    }
-  } else {
-    // If not anonymous, proceed with regular Google OAuth sign-in
-    const res = await supabase.auth.signInWithOAuth({
-      provider: "google",
-      options: { redirectTo: redirectUrl },
-    });
-
-    if (res.data.url) {
-      redirect(res.data.url);
-    }
-    if (res.error) {
-      console.error(res.error.message);
-      redirect("/auth/error");
-    }
+  if (data.url) {
+    redirect(data.url);
+  }
+  if (error) {
+    console.error(error.message);
+    redirect("/auth/error");
   }
 };
 
 export const signOut = async () => {
-  const supabase = createClient();
+  const supabase = await createClient();
   await supabase.auth.signOut();
   revalidatePath("/", "layout");
-  redirect("/");
+  // redirect("/");
 };

@@ -26,7 +26,7 @@ export function OPTIONS() {
 }
 
 const handler = async (req: NextRequest) => {
-  const supabase = createClient();
+  const supabase = await createClient();
 
   const response = await fetchRequestHandler({
     endpoint: "/api/trpc",

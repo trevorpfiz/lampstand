@@ -6,7 +6,8 @@ import { Social } from "~/components/auth/social";
 
 interface CardWrapperProps {
   children: React.ReactNode;
-  headerLabel: string;
+  headerTitle: string;
+  headerSubtitle: string;
   backButtonLabel: string;
   backButtonLinkLabel: string;
   backButtonHref: string;
@@ -16,7 +17,8 @@ interface CardWrapperProps {
 
 export const CardWrapper = ({
   children,
-  headerLabel,
+  headerTitle,
+  headerSubtitle,
   backButtonLabel,
   backButtonLinkLabel,
   backButtonHref,
@@ -24,9 +26,9 @@ export const CardWrapper = ({
   showCredentials,
 }: CardWrapperProps) => {
   return (
-    <Card className="w-[400px] p-4 shadow-md">
+    <Card className="rounded-lg p-4 shadow-md">
       <CardHeader>
-        <Header label={headerLabel} />
+        <Header headerTitle={headerTitle} headerSubtitle={headerSubtitle} />
       </CardHeader>
 
       {showSocial && (
@@ -38,14 +40,16 @@ export const CardWrapper = ({
       {showCredentials && (
         <>
           <div className="flex items-center justify-center px-6 pb-4 pt-0">
-            <div className="flex-grow border-t border-muted-foreground" />
-            <span className="px-3 text-muted-foreground">or</span>
-            <div className="flex-grow border-t border-muted-foreground" />
+            <div className="flex-grow border-t" />
+            <p className="px-4 text-[13px] leading-snug text-muted-foreground">
+              or
+            </p>
+            <div className="flex-grow border-t" />
           </div>
           <CardContent>{children}</CardContent>
         </>
       )}
-      <CardFooter>
+      <CardFooter className="flex justify-center pb-0">
         <BackButton
           label={backButtonLabel}
           linkLabel={backButtonLinkLabel}

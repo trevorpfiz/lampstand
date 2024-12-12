@@ -10,9 +10,18 @@ export const FormSuccess = ({ message }: FormSuccessProps) => {
   }
 
   return (
-    <div className="flex items-center gap-x-2 rounded-md bg-emerald-500/15 p-3 text-sm text-emerald-500">
-      <CheckCircle size={16} />
-      <p>{message}</p>
+    <div className="rounded-lg bg-emerald-500/15 px-4 py-3 text-sm text-emerald-500">
+      <div className="flex gap-3">
+        <CheckCircle
+          className="mt-0.5 shrink-0 opacity-60"
+          size={16}
+          strokeWidth={2}
+          aria-hidden="true"
+        />
+      </div>
+      <div className="grow space-y-1">
+        <p className="text-sm">{message}</p>
+      </div>
     </div>
   );
 };

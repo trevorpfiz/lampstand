@@ -9,7 +9,7 @@ export const Social = () => {
     <form className="flex w-full flex-col items-center gap-2">
       <Button
         size="lg"
-        className="flex w-full flex-row items-center justify-center gap-2"
+        className="flex h-9 w-full flex-row items-center justify-center gap-2"
         variant="outline"
         formAction={signInWithGoogle}
       >

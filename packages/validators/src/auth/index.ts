@@ -38,6 +38,13 @@ export const RequestPasswordResetSchema = z.object({
 });
 export type RequestPasswordReset = z.infer<typeof RequestPasswordResetSchema>;
 
+export const UpdatePasswordSchema = z.object({
+  newPassword: z.string().min(8, {
+    message: "Password must be at least 8 characters",
+  }),
+});
+export type UpdatePassword = z.infer<typeof UpdatePasswordSchema>;
+
 export const ResetPasswordSchema = z.object({
   password: z.string().min(8, {
     message: "Password must be at least 8 characters",
