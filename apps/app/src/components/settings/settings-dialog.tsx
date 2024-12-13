@@ -10,10 +10,10 @@ import {
   DialogClose,
   DialogContent,
   DialogDescription,
+  DialogFooter,
   DialogHeader,
   DialogTitle,
 } from "@lamp/ui/dialog";
-import { Label } from "@lamp/ui/label";
 import {
   Select,
   SelectContent,
@@ -21,7 +21,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@lamp/ui/select";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@lamp/ui/tabs";
 
 import { useSettingsDialogStore } from "~/providers/settings-dialog-store-provider";
 
@@ -44,49 +43,27 @@ export function SettingsDialog() {
           <DialogTitle className="border-b border-border px-6 py-4 text-base">
             Settings
           </DialogTitle>
-        </DialogHeader>
-        <DialogDescription className="sr-only">
-          Make changes to your settings here.
-        </DialogDescription>
-        <div className="flex flex-col gap-6 md:flex-row">
-          <Tabs
-            defaultValue="general"
-            className="flex-1"
-            orientation="vertical"
-          >
-            <TabsList className="m-2 flex flex-shrink-0 flex-col gap-2 md:m-0 md:min-w-[180px] md:max-w-[200px] md:px-4 md:pl-6 md:pt-4">
-              <TabsTrigger
-                value="general"
-                className="flex w-full items-center justify-start gap-2 px-2 py-1.5 text-sm"
-              >
-                <Settings className="h-4 w-4" />
-                <span>General</span>
-              </TabsTrigger>
-            </TabsList>
-            <TabsContent
-              value="general"
-              className="max-h-[calc(100vh-150px)] w-full overflow-y-auto md:min-h-[380px]"
-            >
-              <div className="flex flex-col gap-3 px-4 pb-6 text-sm sm:px-6 md:ps-0 md:pt-5">
-                <div className="border-b border-border pb-3 last-of-type:border-b-0">
-                  <div className="flex items-center justify-between">
-                    <div>Theme</div>
-                    <Select value={theme} onValueChange={setTheme}>
-                      <SelectTrigger className="w-auto min-w-[100px]">
-                        <SelectValue placeholder="Select theme" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="system">System</SelectItem>
-                        <SelectItem value="light">Light</SelectItem>
-                        <SelectItem value="dark">Dark</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
+
+          <div className="overflow-y-auto">
+            <DialogDescription asChild>
+              <div className="min-h-52 px-6 py-4">
+                <div className="flex items-center justify-between">
+                  <div className="text-foreground">Theme</div>
+                  <Select value={theme} onValueChange={setTheme}>
+                    <SelectTrigger className="w-auto min-w-[100px]">
+                      <SelectValue placeholder="Select theme" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="system">System</SelectItem>
+                      <SelectItem value="light">Light</SelectItem>
+                      <SelectItem value="dark">Dark</SelectItem>
+                    </SelectContent>
+                  </Select>
                 </div>
               </div>
-            </TabsContent>
-          </Tabs>
-        </div>
+            </DialogDescription>
+          </div>
+        </DialogHeader>
       </DialogContent>
     </Dialog>
   );

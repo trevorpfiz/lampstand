@@ -80,7 +80,7 @@
     "@udecode/plate-toggle": "^40.0.0",
     "@udecode/plate-trailing-block": "^40.0.0",
     "@uploadthing/react": "^7.1.1",
-    "ai": "^4.0.13",
+    "ai": "^4.0.18",
     "bible-converter": "^1.1.0",
     "class-variance-authority": "^0.7.1",
     "cmdk": "^1.0.0",

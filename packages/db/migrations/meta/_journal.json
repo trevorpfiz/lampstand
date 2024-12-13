@@ -8,6 +8,13 @@
       "when": 1733993075807,
       "tag": "0000_cloudy_boom_boom",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1734131802960,
+      "tag": "0001_glossy_golden_guardian",
+      "breakpoints": true
     }
   ]
 }

@@ -4,6 +4,10 @@ import { revalidatePath } from "next/cache";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 
+import {
+  DEFAULT_LOGIN_REDIRECT,
+  RESET_PASSWORD_ROUTE,
+} from "@lamp/supabase/config/routes";
 import { createClient } from "@lamp/supabase/server";
 import {
   RequestPasswordResetSchema,
@@ -12,7 +16,6 @@ import {
   UpdatePasswordSchema,
 } from "@lamp/validators/auth";
 
-import { DEFAULT_LOGIN_REDIRECT, RESET_PASSWORD_ROUTE } from "~/config/routes";
 import { actionClient } from "~/lib/safe-action";
 
 export const signInWithPassword = actionClient
@@ -40,7 +43,9 @@ export const signUp = actionClient
     const headersList = await headers();
 
     const origin = headersList.get("origin");
-    const redirectUrl = `${origin}/auth/confirm?next=${encodeURIComponent(DEFAULT_LOGIN_REDIRECT)}`;
+    const redirectUrl = `${origin}/auth/confirm?next=${encodeURIComponent(
+      DEFAULT_LOGIN_REDIRECT,
+    )}`;
 
     const { data, error } = await supabase.auth.signUp({
       email,
@@ -63,13 +68,19 @@ export const signUp = actionClient
     return data.user;
   });
 
-export const resetPassword = actionClient
+export const requestResetPassword = actionClient
   .schema(RequestPasswordResetSchema)
   .action(async ({ parsedInput: { email } }) => {
     const supabase = await createClient();
+    const headersList = await headers();
+
+    const origin = headersList.get("origin");
+    const redirectUrl = `${origin}/auth/confirm?next=${encodeURIComponent(
+      RESET_PASSWORD_ROUTE,
+    )}`;
 
     const { data, error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: `${origin}/auth/confirm?next=${encodeURIComponent(RESET_PASSWORD_ROUTE)}`,
+      redirectTo: redirectUrl,
     });
 
     if (error) {
@@ -85,7 +96,7 @@ export const updatePassword = actionClient
   .action(async ({ parsedInput: { newPassword } }) => {
     const supabase = await createClient();
 
-    const { data, error } = await supabase.auth.updateUser({
+    const { error } = await supabase.auth.updateUser({
       password: newPassword,
     });
 
@@ -94,7 +105,7 @@ export const updatePassword = actionClient
     }
 
     revalidatePath("/", "layout");
-    return data.user;
+    redirect("/");
   });
 
 export const signInWithGithub = async () => {

@@ -19,6 +19,10 @@
     "./types": {
       "types": "./dist/types/index.d.ts",
       "default": "./src/types/index.ts"
+    },
+    "./config/routes": {
+      "types": "./dist/config/routes.d.ts",
+      "default": "./src/config/routes.ts"
     }
   },
   "scripts": {

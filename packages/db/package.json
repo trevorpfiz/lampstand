@@ -45,6 +45,7 @@
     "@lamp/eslint-config": "workspace:*",
     "@lamp/prettier-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
+    "ai": "^4.0.18",
     "dotenv-cli": "^7.4.4",
     "drizzle-kit": "^0.30.0",
     "eslint": "catalog:",

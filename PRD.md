@@ -8,70 +8,58 @@ You will be using TypeScript, Next.js 15 App Router, shadcn/ui, Tailwind, and Lu
 
 1. Sidebar that allows user to navigate the dashboard and primarilly lists out the user's studies they have created and allows them to create a new study.
    1. Users can see the list of studies they have already created, with each one being a SidebarMenuAction component rendering a DropdownMenu with a Rename and Delete option.
-   2. Sidebar footer has buttons for affiliate, feedback, support, and a user button at the bottom.
+   2. Sidebar footer has buttons for affiliate, feedback, and support.
    3. Users can create a new study by clicking a square-pen button at the top right in the SidebarHeader.
 2. Main page is the Bible text where users can read.
-   1. A custom text renderer that follows a simpler implementation that focuses on Berean Standard Bible rendering and key user interactions (e.g., highlights, cross-references)
-3. SidebarInset header shows which version of the Bible users are reading, and it has buttons to toggle the shadcn resizable panels for notes or chat. They can both be open at the same time, leading to the sidebar, main Bible view, resizable chat, and resizable notes panel being usable at the same time if a user wanted.
-4. The chat will take inspiration from the Vercel ai-chatbot repo and will use the AI SDK.
+   1. A custom text renderer that follows a simpler implementation that focuses on Berean Standard Bible rendering and key user interactions (e.g., copy, cross-references)
+3. SidebarInset header shows which version of the Bible users are reading, and it has buttons to toggle the shadcn resizable panels for notes or chat. They can both be open at the same time, leading to the sidebar, main Bible view, resizable chat, and resizable notes panel being usable at the same time if a user wanted. There is also a user button at the far right of the header.
+4. The chat will take inspiration from the Vercel ai-chatbot repo and will use the AI SDK. Each chat is tied to the study it is started in. A user can have multiple chats per study.
 5. The notes will use the Platejs rich-text editor with their new AI commands features.
 
 # Doc
 
-# Current file structure (`tree -L 4 -I 'node_modules|.git'`)
+# Current file structure (`tree -L 4 -I 'node_modules|.git|notebooks'`)
 
 Our file names should primarily follow kebab case.
 
 ├── CONTRIBUTING.md
 ├── LICENSE
+├── PRD.md
 ├── README.md
 ├── apps
-│ ├── fastapi
-│ │ ├── Dockerfile
+│ ├── api
+│ ├── app
 │ │ ├── README.md
-│ │ ├── compose.lambda.yaml
-│ │ ├── compose.yaml
-│ │ ├── lambda.Dockerfile
+│ │ ├── components.json
+│ │ ├── eslint.config.js
+│ │ ├── next-env.d.ts
+│ │ ├── next.config.ts
 │ │ ├── package.json
-│ │ ├── pyproject.toml
-│ │ ├── requirements.txt
-│ │ ├── scripts
-│ │ │ ├── deploy.sh
-│ │ │ ├── run.sh
-│ │ │ └── teardown.sh
+│ │ ├── postcss.config.cjs
 │ │ ├── src
-│ │ │ └── app
-│ │ ├── tests
-│ │ │ ├── **init**.py
-│ │ │ ├── api
-│ │ │ ├── conftest.py
-│ │ │ ├── crud
-│ │ │ └── utils.py
-│ │ └── uv.lock
-│ └── nextjs
-│ ├── README.md
-│ ├── eslint.config.js
-│ ├── next-env.d.ts
-│ ├── next.config.js
-│ ├── package.json
-│ ├── postcss.config.cjs
-│ ├── src
-│ │ ├── app
-│ │ ├── components
-│ │ ├── config
-│ │ ├── env.ts
-│ │ ├── lib
-│ │ ├── middleware.ts
-│ │ ├── providers
-│ │ ├── stores
-│ │ ├── styles
-│ │ ├── trpc
-│ │ ├── types
-│ │ └── utils
-│ ├── tailwind.config.ts
-│ ├── tsconfig.json
-│ └── turbo.json
-├── instructions.md
+│ │ │ ├── app
+│ │ │ ├── components
+│ │ │ ├── env.ts
+│ │ │ ├── hooks
+│ │ │ ├── lib
+│ │ │ ├── middleware.ts
+│ │ │ ├── providers
+│ │ │ ├── public
+│ │ │ ├── scripts
+│ │ │ ├── stores
+│ │ │ ├── styles
+│ │ │ ├── trpc
+│ │ │ ├── types
+│ │ │ └── utils
+│ │ ├── tailwind.config.ts
+│ │ ├── tsconfig.json
+│ │ └── turbo.json
+│ ├── email
+│ │ ├── emails
+│ │ │ └── contact.tsx
+│ │ ├── package.json
+│ │ └── tsconfig.json
+│ └── web
 ├── package.json
 ├── packages
 │ ├── api
@@ -107,7 +95,7 @@ Our file names should primarily follow kebab case.
 │ │ ├── drizzle.config.ts
 │ │ ├── eslint.config.js
 │ │ ├── migrations
-│ │ │ ├── 0000_lean_magma.sql
+│ │ │ ├── 0000_cloudy_boom_boom.sql
 │ │ │ └── meta
 │ │ ├── package.json
 │ │ ├── src
@@ -116,6 +104,39 @@ Our file names should primarily follow kebab case.
 │ │ │ ├── lib
 │ │ │ ├── migrate.ts
 │ │ │ └── schema
+│ │ └── tsconfig.json
+│ ├── email
+│ │ ├── dist
+│ │ │ ├── auth
+│ │ │ ├── index.d.ts
+│ │ │ ├── index.d.ts.map
+│ │ │ └── templates
+│ │ ├── eslint.config.js
+│ │ ├── package.json
+│ │ ├── src
+│ │ │ ├── index.ts
+│ │ │ └── templates
+│ │ └── tsconfig.json
+│ ├── logger
+│ │ ├── dist
+│ │ │ ├── index.d.ts
+│ │ │ └── index.d.ts.map
+│ │ ├── eslint.config.js
+│ │ ├── package.json
+│ │ ├── src
+│ │ │ └── index.ts
+│ │ └── tsconfig.json
+│ ├── supabase
+│ │ ├── dist
+│ │ │ ├── clients
+│ │ │ ├── config
+│ │ │ └── types
+│ │ ├── eslint.config.js
+│ │ ├── package.json
+│ │ ├── src
+│ │ │ ├── clients
+│ │ │ ├── config
+│ │ │ └── types
 │ │ └── tsconfig.json
 │ ├── ui
 │ │ ├── components.json
@@ -170,7 +191,8 @@ Our file names should primarily follow kebab case.
 │ │ │ ├── theme.tsx
 │ │ │ ├── toggle-group.tsx
 │ │ │ ├── toggle.tsx
-│ │ │ └── tooltip.tsx
+│ │ │ ├── tooltip.tsx
+│ │ │ └── virtualized-combobox.tsx
 │ │ ├── tsconfig.json
 │ │ └── unused.css
 │ └── validators
@@ -225,4 +247,4 @@ Our file names should primarily follow kebab case.
 ├── turbo.json
 └── vercel.json
 
-59 directories, 144 files
+76 directories, 149 files

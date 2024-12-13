@@ -47,7 +47,8 @@ function UserButton({ user }: { user: User | null }) {
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" className="relative h-10 w-10 rounded-full p-0">
           <Avatar className="h-8 w-8">
-            <AvatarImage src={user?.user_metadata?.avatar_url} />
+            {/* <AvatarImage src={user.user_metadata.avatar_url} /> */}
+            <AvatarImage className="border-2 border-border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white" />
             <AvatarFallback className="border-2 border-border bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white">
               {/* {initials || ""} */}
             </AvatarFallback>
@@ -62,7 +63,9 @@ function UserButton({ user }: { user: User | null }) {
       >
         <DropdownMenuLabel>
           <div className="flex flex-col space-y-1">
-            <p className="truncate text-sm font-medium leading-none">{name}</p>
+            <p className="truncate text-sm font-medium leading-none text-foreground">
+              {name}
+            </p>
             <p className="truncate text-xs leading-none text-muted-foreground">
               {displayEmail}
             </p>

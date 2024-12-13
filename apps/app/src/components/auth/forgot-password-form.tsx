@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { ArrowRight, CircleCheck } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useAction } from "next-safe-action/hooks";
 import { useForm } from "react-hook-form";
 
@@ -20,7 +20,8 @@ import { Input } from "@lamp/ui/input";
 import { RequestPasswordResetSchema } from "@lamp/validators/auth";
 
 import { FormError } from "~/components/auth/form-error";
-import { resetPassword } from "~/lib/actions/auth";
+import { FormSuccess } from "~/components/auth/form-success";
+import { requestResetPassword } from "~/lib/actions/auth";
 
 export const ForgotPasswordForm = () => {
   const [success, setSuccess] = useState<boolean>(false);
@@ -32,7 +33,7 @@ export const ForgotPasswordForm = () => {
     },
   });
 
-  const { execute, result, isExecuting } = useAction(resetPassword, {
+  const { execute, result, isExecuting } = useAction(requestResetPassword, {
     onSuccess: () => {
       setSuccess(true);
     },
@@ -44,22 +45,6 @@ export const ForgotPasswordForm = () => {
   const onSubmit = (values: RequestPasswordReset) => {
     execute(values);
   };
-
-  if (success) {
-    return (
-      <div className="border-eborder rounded-lg border px-4 py-3">
-        <p className="text-sm">
-          <CircleCheck
-            className="-mt-0.5 me-3 inline-flex text-emerald-500"
-            size={16}
-            strokeWidth={2}
-            aria-hidden="true"
-          />
-          Check your email for a password reset link.
-        </p>
-      </div>
-    );
-  }
 
   return (
     <Form {...form}>
@@ -89,6 +74,9 @@ export const ForgotPasswordForm = () => {
           />
         </div>
 
+        {success && (
+          <FormSuccess message="Check your email for a password reset link." />
+        )}
         <FormError message={result.serverError} />
 
         <Button
