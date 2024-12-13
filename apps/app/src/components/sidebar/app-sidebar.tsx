@@ -22,9 +22,9 @@ import {
   SidebarRail,
 } from "@lamp/ui/sidebar";
 
+import { NavFooter } from "~/components/sidebar/nav-footer";
 import { NavMain } from "~/components/sidebar/nav-main";
 import { NavStudies } from "~/components/sidebar/nav-studies";
-import { NavUser } from "~/components/sidebar/nav-user";
 
 export const mockMainNavItems = [
   { title: "Home", url: "#", icon: Home, isActive: true },
@@ -90,7 +90,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             </form>
           </Card>
         </div>
-        <NavUser user={mockUser} />
+        <NavFooter />
       </SidebarFooter>
       <SidebarRail />
     </Sidebar>

@@ -1,5 +1,15 @@
 import type { Message } from "ai";
 
+import type { User } from "@lamp/supabase/types";
+
+export function getNameFromUser(user: User) {
+  const meta = user.user_metadata;
+  if (typeof meta.name === "string") return meta.name;
+  if (typeof meta.full_name === "string") return meta.full_name;
+  if (typeof meta.user_name === "string") return meta.user_name;
+  return "User";
+}
+
 export function sanitizeUIMessages(messages: Message[]): Message[] {
   const messagesBySanitizedToolInvocations = messages.map((message) => {
     if (message.role !== "assistant") return message;
