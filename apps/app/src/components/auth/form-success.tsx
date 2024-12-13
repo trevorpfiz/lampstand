@@ -18,9 +18,9 @@ export const FormSuccess = ({ message }: FormSuccessProps) => {
           strokeWidth={2}
           aria-hidden="true"
         />
-      </div>
-      <div className="grow space-y-1">
-        <p className="text-sm">{message}</p>
+        <div className="grow space-y-1">
+          <p className="text-sm">{message}</p>
+        </div>
       </div>
     </div>
   );

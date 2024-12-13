@@ -1,5 +1,8 @@
+"use client";
+
 import { useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { ArrowRight, CircleCheck } from "lucide-react";
 import { useAction } from "next-safe-action/hooks";
 import { useForm } from "react-hook-form";
 
@@ -16,6 +19,7 @@ import {
 import { Input } from "@lamp/ui/input";
 import { RequestPasswordResetSchema } from "@lamp/validators/auth";
 
+import { FormError } from "~/components/auth/form-error";
 import { resetPassword } from "~/lib/actions/auth";
 
 export const ForgotPasswordForm = () => {
@@ -28,7 +32,7 @@ export const ForgotPasswordForm = () => {
     },
   });
 
-  const { execute, status } = useAction(resetPassword, {
+  const { execute, result, isExecuting } = useAction(resetPassword, {
     onSuccess: () => {
       setSuccess(true);
     },
@@ -43,8 +47,14 @@ export const ForgotPasswordForm = () => {
 
   if (success) {
     return (
-      <div className="flex w-full items-center justify-center">
-        <p className="text-sm text-muted-foreground">
+      <div className="border-eborder rounded-lg border px-4 py-3">
+        <p className="text-sm">
+          <CircleCheck
+            className="-mt-0.5 me-3 inline-flex text-emerald-500"
+            size={16}
+            strokeWidth={2}
+            aria-hidden="true"
+          />
           Check your email for a password reset link.
         </p>
       </div>
@@ -60,13 +70,17 @@ export const ForgotPasswordForm = () => {
             name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Email</FormLabel>
+                <div className="flex items-center justify-between">
+                  <FormLabel className="text-[13px] leading-snug">
+                    Email address
+                  </FormLabel>
+                </div>
                 <FormControl>
                   <Input
                     {...field}
-                    disabled={status === "executing"}
-                    placeholder="john.doe@example.com"
+                    disabled={isExecuting}
                     type="email"
+                    className="h-8"
                   />
                 </FormControl>
                 <FormMessage />
@@ -74,12 +88,22 @@ export const ForgotPasswordForm = () => {
             )}
           />
         </div>
+
+        <FormError message={result.serverError} />
+
         <Button
+          className="group w-full text-[13px] leading-snug"
+          size="sm"
           type="submit"
-          className="w-full"
-          disabled={status === "executing"}
+          disabled={isExecuting}
         >
           Send reset link
+          <ArrowRight
+            className="-me-1 ms-2 opacity-60 transition-transform group-hover:translate-x-0.5"
+            size={13}
+            strokeWidth={2}
+            aria-hidden="true"
+          />
         </Button>
       </form>
     </Form>

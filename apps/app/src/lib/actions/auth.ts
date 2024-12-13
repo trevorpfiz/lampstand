@@ -81,11 +81,11 @@ export const resetPassword = actionClient
 
 export const updatePassword = actionClient
   .schema(UpdatePasswordSchema)
-  .action(async ({ parsedInput: { confirmPassword } }) => {
+  .action(async ({ parsedInput: { newPassword } }) => {
     const supabase = await createClient();
 
     const { data, error } = await supabase.auth.updateUser({
-      password: confirmPassword,
+      password: newPassword,
     });
 
     if (error) {

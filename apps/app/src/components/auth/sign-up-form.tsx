@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ArrowRight, Eye, EyeOff } from "lucide-react";
 import { useAction } from "next-safe-action/hooks";
 
@@ -34,6 +34,12 @@ export const SignUpForm = () => {
   });
 
   const { execute, result, isExecuting, hasSucceeded } = useAction(signUp);
+
+  useEffect(() => {
+    if (hasSucceeded) {
+      form.reset();
+    }
+  }, [hasSucceeded, form]);
 
   const onSubmit = (values: SignUp) => {
     execute(values);

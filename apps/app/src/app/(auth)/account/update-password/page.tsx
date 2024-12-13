@@ -5,11 +5,8 @@ export default function UpdatePasswordPage() {
   return (
     <CardWrapper
       headerTitle="Update Password"
-      headerSubtitle="Enter your new password below"
-      backButtonLabel="Back to account"
-      backButtonLinkLabel="Account"
-      backButtonHref="/account"
-      showCredentials
+      headerSubtitle="Enter your new password below."
+      showContent
     >
       <UpdatePasswordForm />
     </CardWrapper>

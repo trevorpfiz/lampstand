@@ -5,11 +5,8 @@ export default function ForgotPasswordPage() {
   return (
     <CardWrapper
       headerTitle="Forgot Password"
-      headerSubtitle="Enter your email to reset your password"
-      backButtonLabel="Remember your password?"
-      backButtonLinkLabel="Sign in"
-      backButtonHref="/signin"
-      showCredentials
+      headerSubtitle="Enter your email and we'll send you a link to reset your password."
+      showContent
     >
       <ForgotPasswordForm />
     </CardWrapper>

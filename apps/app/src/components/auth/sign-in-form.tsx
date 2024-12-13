@@ -76,7 +76,7 @@ export const SignInForm = () => {
                     Password
                   </FormLabel>
                   <Link
-                    href="#"
+                    href="/forgot-password"
                     className="inline-block text-[13px] leading-snug underline"
                   >
                     Forgot your password?
