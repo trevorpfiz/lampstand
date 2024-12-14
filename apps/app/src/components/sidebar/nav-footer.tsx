@@ -45,7 +45,7 @@ export function NavFooter() {
         <Popover open={open} onOpenChange={setOpen}>
           <PopoverTrigger asChild>
             <SidebarMenuButton>
-              <MessageCircle />
+              <MessageCircle size={16} strokeWidth={2} />
               <span>Feedback</span>
             </SidebarMenuButton>
           </PopoverTrigger>
@@ -103,7 +103,7 @@ export function NavFooter() {
       <SidebarMenuItem>
         <SidebarMenuButton asChild>
           <a href="mailto:trevor@getlampstand.com">
-            <HelpCircle />
+            <HelpCircle size={16} strokeWidth={2} />
             <span>Support</span>
           </a>
         </SidebarMenuButton>

@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { Check, Quote } from "lucide-react";
 
+import { cn } from "@lamp/ui";
 import { Button } from "@lamp/ui/button";
 import {
   Command,
@@ -188,11 +189,14 @@ function ReferenceSelect({
                       }}
                     >
                       <Check
-                        className={`mr-2 h-4 w-4 ${
+                        size={16}
+                        strokeWidth={2}
+                        className={cn(
+                          "",
                           currentValue === option.value
                             ? "opacity-100"
-                            : "opacity-0"
-                        }`}
+                            : "opacity-0",
+                        )}
                       />
                       {option.label}
                     </CommandItem>

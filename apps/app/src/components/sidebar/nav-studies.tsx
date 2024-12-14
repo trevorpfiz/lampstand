@@ -104,7 +104,7 @@ export function NavStudies() {
                       <SidebarMenuAction
                         showOnHover={pathname !== `/study/${study.id}`}
                       >
-                        <MoreHorizontal />
+                        <MoreHorizontal size={16} strokeWidth={2} />
                         <span className="sr-only">Options</span>
                       </SidebarMenuAction>
                     </DropdownMenuTrigger>
@@ -145,6 +145,7 @@ export function NavStudies() {
                           className="text-destructive"
                           size={16}
                           strokeWidth={2}
+                          aria-hidden="true"
                         />
                         <span>Delete</span>
                       </DropdownMenuItem>

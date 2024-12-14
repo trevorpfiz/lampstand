@@ -57,7 +57,7 @@ export function ChatInput({
             size="icon"
             className="size-8 rounded-lg bg-background hover:bg-muted"
           >
-            <Paperclip className="size-4" />
+            <Paperclip size={16} strokeWidth={2} />
             <span className="sr-only">Attach Files</span>
           </Button>
 
@@ -69,7 +69,7 @@ export function ChatInput({
               disabled={isLoading || !input.trim()}
               className="size-8"
             >
-              <ArrowUp className="size-4" strokeWidth={2.25} />
+              <ArrowUp size={16} strokeWidth={2.25} />
               <span className="sr-only">Send Message</span>
             </Button>
           </div>

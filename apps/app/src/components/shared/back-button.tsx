@@ -26,7 +26,7 @@ export function BackButton({
   return (
     <Button variant={"ghost"} asChild>
       <Link href={backPath}>
-        <ChevronLeftIcon />
+        <ChevronLeftIcon size={16} strokeWidth={2} />
       </Link>
     </Button>
   );

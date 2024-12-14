@@ -86,7 +86,12 @@ function UserButton() {
 
         <DropdownMenuGroup>
           <DropdownMenuItem>
-            <Sparkles className="mr-2 h-4 w-4" />
+            <Sparkles
+              size={16}
+              strokeWidth={2}
+              className="opacity-60"
+              aria-hidden="true"
+            />
             <span>Upgrade to Pro</span>
           </DropdownMenuItem>
         </DropdownMenuGroup>
@@ -95,7 +100,12 @@ function UserButton() {
 
         <DropdownMenuGroup>
           <DropdownMenuItem onSelect={handleSettings}>
-            <Settings className="mr-2 h-4 w-4" />
+            <Settings
+              size={16}
+              strokeWidth={2}
+              className="opacity-60"
+              aria-hidden="true"
+            />
             <span>Settings</span>
           </DropdownMenuItem>
         </DropdownMenuGroup>
@@ -103,7 +113,12 @@ function UserButton() {
         <DropdownMenuSeparator />
 
         <DropdownMenuItem onSelect={handleSignOut}>
-          <LogOut className="mr-2 h-4 w-4" />
+          <LogOut
+            size={16}
+            strokeWidth={2}
+            className="opacity-60"
+            aria-hidden="true"
+          />
           <span>Sign out</span>
         </DropdownMenuItem>
       </DropdownMenuContent>

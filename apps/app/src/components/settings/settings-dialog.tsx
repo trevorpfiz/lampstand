@@ -7,10 +7,8 @@ import { useShallow } from "zustand/react/shallow";
 import { Button } from "@lamp/ui/button";
 import {
   Dialog,
-  DialogClose,
   DialogContent,
   DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
 } from "@lamp/ui/dialog";
@@ -81,7 +79,7 @@ export function SettingsButton() {
       onClick={() => openSettingsDialog()}
       className="h-9 w-9"
     >
-      <Settings className="h-4 w-4" />
+      <Settings size={16} strokeWidth={2} />
       <span className="sr-only">Open settings</span>
     </Button>
   );

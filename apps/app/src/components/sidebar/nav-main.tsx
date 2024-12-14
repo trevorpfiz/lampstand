@@ -23,7 +23,7 @@ export function NavMain() {
           <SidebarMenuItem key={item.title}>
             <SidebarMenuButton asChild isActive={pathname === item.url}>
               <Link href={item.url}>
-                <item.icon />
+                <item.icon size={16} strokeWidth={2} />
                 <span>{item.title}</span>
               </Link>
             </SidebarMenuButton>
