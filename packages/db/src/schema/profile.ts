@@ -6,6 +6,7 @@ import { createInsertSchema, createSelectSchema } from "drizzle-zod";
 
 import { createTable } from "./_table";
 import { Chat } from "./chat";
+import { Feedback } from "./feedback";
 import { Note } from "./note";
 import { Study } from "./study";
 
@@ -31,6 +32,7 @@ export const ProfileRelations = relations(Profile, ({ many }) => ({
   studies: many(Study),
   chats: many(Chat),
   notes: many(Note),
+  feedback: many(Feedback),
 }));
 
 // Schemas for validation

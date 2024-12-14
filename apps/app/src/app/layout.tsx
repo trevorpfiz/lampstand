@@ -59,7 +59,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
           <TRPCReactProvider>
             <NuqsAdapter>{props.children}</NuqsAdapter>
           </TRPCReactProvider>
-          <Toaster richColors />
+          <Toaster richColors duration={5000} />
         </ThemeProvider>
       </body>
     </html>

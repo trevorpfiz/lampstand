@@ -21,6 +21,7 @@ import {
   SidebarMenuItem,
   SidebarRail,
 } from "@lamp/ui/sidebar";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@lamp/ui/tooltip";
 
 import { NavFooter } from "~/components/sidebar/nav-footer";
 import { NavMain } from "~/components/sidebar/nav-main";
@@ -37,33 +38,38 @@ export const mockStudies = [
   { id: "3", name: "Revelation Study", url: "#", icon: FilePen },
 ];
 
-export const mockUser = {
-  name: "John Doe",
-  email: "john@example.com",
-  avatar: "/placeholder.svg?height=32&width=32",
-};
-
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar className="border-r-0" {...props}>
-      <SidebarHeader>
-        <SidebarMenu>
+      <SidebarHeader className="mb-[1px] py-3">
+        <SidebarMenu className="h-8">
           <SidebarMenuItem>
             <div className="flex w-full items-center justify-between">
               <div className="flex flex-col gap-0.5 pl-2 leading-none">
                 <span className="font-semibold">Lampstand</span>
               </div>
 
-              <Button variant="ghost" size="icon">
-                <SquarePen />
-                <span className="sr-only">New Study</span>
-              </Button>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    aria-label="Add new study"
+                    className="h-8 w-8"
+                  >
+                    <SquarePen size={16} strokeWidth={2} aria-hidden="true" />
+                  </Button>
+                </TooltipTrigger>
+                <TooltipContent className="px-2 py-1 text-xs">
+                  New Study
+                </TooltipContent>
+              </Tooltip>
             </div>
           </SidebarMenuItem>
         </SidebarMenu>
-        <NavMain items={mockMainNavItems} />
       </SidebarHeader>
       <SidebarContent>
+        <NavMain items={mockMainNavItems} />
         <NavStudies studies={mockStudies} />
       </SidebarContent>
       <SidebarFooter>

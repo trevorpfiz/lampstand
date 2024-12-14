@@ -34,7 +34,7 @@ export default async function AppLayout({
             <TooltipProvider delayDuration={100} skipDelayDuration={300}>
               <AppSidebar />
               <SidebarInset className="h-screen">
-                <header className="sticky top-0 flex h-14 shrink-0 items-center gap-2 border-b bg-background px-4">
+                <header className="sticky top-0 flex h-[57px] shrink-0 items-center gap-2 border-b bg-background px-4 py-3">
                   <div className="flex flex-1 items-center gap-2">
                     <SidebarTrigger className="-ml-1" />
                     <Separator orientation="vertical" className="mr-2 h-4" />

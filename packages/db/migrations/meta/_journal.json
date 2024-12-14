@@ -15,6 +15,13 @@
       "when": 1734131802960,
       "tag": "0001_glossy_golden_guardian",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1734132116725,
+      "tag": "0002_dizzy_brood",
+      "breakpoints": true
     }
   ]
 }
