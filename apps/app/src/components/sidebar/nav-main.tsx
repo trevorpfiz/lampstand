@@ -1,35 +1,35 @@
 "use client";
 
-import type { LucideIcon } from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Home } from "lucide-react";
 
 import {
+  SidebarGroup,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@lamp/ui/sidebar";
 
-export const mockMainNavItems = [
-  { title: "Home", url: "#", icon: Home, isActive: true },
-];
+export const mockMainNavItems = [{ title: "Home", url: "/", icon: Home }];
 
-export function NavMain({
-  items,
-}: {
-  items: { title: string; url: string; icon: LucideIcon; isActive?: boolean }[];
-}) {
+export function NavMain() {
+  const pathname = usePathname();
+
   return (
-    <SidebarMenu>
-      {items.map((item) => (
-        <SidebarMenuItem key={item.title}>
-          <SidebarMenuButton asChild isActive={item.isActive}>
-            <a href={item.url}>
-              <item.icon />
-              <span>{item.title}</span>
-            </a>
-          </SidebarMenuButton>
-        </SidebarMenuItem>
-      ))}
-    </SidebarMenu>
+    <SidebarGroup>
+      <SidebarMenu>
+        {mockMainNavItems.map((item) => (
+          <SidebarMenuItem key={item.title}>
+            <SidebarMenuButton asChild isActive={pathname === item.url}>
+              <Link href={item.url}>
+                <item.icon />
+                <span>{item.title}</span>
+              </Link>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+        ))}
+      </SidebarMenu>
+    </SidebarGroup>
   );
 }

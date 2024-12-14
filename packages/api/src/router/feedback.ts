@@ -1,3 +1,5 @@
+import type { TRPCRouterRecord } from "@trpc/server";
+
 import { Feedback, insertFeedbackParams } from "@lamp/db/schema";
 
 import { protectedProcedure } from "../trpc";
@@ -16,4 +18,4 @@ export const feedbackRouter = {
 
       return feedback;
     }),
-};
+} satisfies TRPCRouterRecord;

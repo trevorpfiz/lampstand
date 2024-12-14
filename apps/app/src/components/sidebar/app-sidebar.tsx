@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { FilePen, Home, SquarePen } from "lucide-react";
+import { SquarePen } from "lucide-react";
 
 import { Button } from "@lamp/ui/button";
 import {
@@ -21,24 +21,26 @@ import {
   SidebarMenuItem,
   SidebarRail,
 } from "@lamp/ui/sidebar";
+import { toast } from "@lamp/ui/sonner";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@lamp/ui/tooltip";
 
 import { NavFooter } from "~/components/sidebar/nav-footer";
 import { NavMain } from "~/components/sidebar/nav-main";
 import { NavStudies } from "~/components/sidebar/nav-studies";
-
-export const mockMainNavItems = [
-  { title: "Home", url: "#", icon: Home, isActive: true },
-];
-
-// Sample data for studies (this would come from your backend in production)
-export const mockStudies = [
-  { id: "1", name: "Genesis Study", url: "#", icon: FilePen },
-  { id: "2", name: "Psalms Notes", url: "#", icon: FilePen },
-  { id: "3", name: "Revelation Study", url: "#", icon: FilePen },
-];
+import { api } from "~/trpc/react";
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+  const utils = api.useUtils();
+
+  const createMutation = api.study.create.useMutation({
+    onSuccess: () => {
+      void utils.study.byUser.invalidate();
+    },
+    onError: () => {
+      toast.error("Failed to create study");
+    },
+  });
+
   return (
     <Sidebar className="border-r-0" {...props}>
       <SidebarHeader className="mb-[1px] py-3">
@@ -56,6 +58,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                     size="icon"
                     aria-label="Add new study"
                     className="h-8 w-8"
+                    onClick={() => {
+                      createMutation.mutate({
+                        title: "New study",
+                      });
+                    }}
                   >
                     <SquarePen size={16} strokeWidth={2} aria-hidden="true" />
                   </Button>
@@ -69,8 +76,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         </SidebarMenu>
       </SidebarHeader>
       <SidebarContent>
-        <NavMain items={mockMainNavItems} />
-        <NavStudies studies={mockStudies} />
+        <NavMain />
+        <NavStudies />
       </SidebarContent>
       <SidebarFooter>
         <div className="p-1">

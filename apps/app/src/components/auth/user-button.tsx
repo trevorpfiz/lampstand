@@ -1,9 +1,10 @@
 "use client";
 
-import type { User } from "@supabase/supabase-js";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { LogOut, Settings, Sparkles } from "lucide-react";
 
+import type { User } from "@lamp/supabase/types";
+import { createClient } from "@lamp/supabase/client";
 import { Avatar, AvatarFallback, AvatarImage } from "@lamp/ui/avatar";
 import { Button } from "@lamp/ui/button";
 import {
@@ -20,18 +21,27 @@ import { signOut } from "~/lib/actions/auth";
 import { getNameFromUser } from "~/lib/utils";
 import { useSettingsDialogStore } from "~/providers/settings-dialog-store-provider";
 
-function UserButton({ user }: { user: User | null }) {
+function UserButton() {
   const openSettingsDialog = useSettingsDialogStore(
     (state) => state.openSettingsDialog,
   );
   const [open, setOpen] = useState(false);
+  const [user, setUser] = useState<User | null>(null);
 
-  if (!user) {
-    return null;
-  }
+  useEffect(() => {
+    const supabase = createClient();
+    const fetchUser = async () => {
+      const {
+        data: { user },
+      } = await supabase.auth.getUser();
+      setUser(user);
+    };
 
-  const name = getNameFromUser(user);
-  const displayEmail = user.email ?? "User";
+    void fetchUser();
+  }, []);
+
+  const name = user ? getNameFromUser(user) : "User";
+  const displayEmail = user?.email ?? "email";
 
   const handleSettings = () => {
     setOpen(false);
