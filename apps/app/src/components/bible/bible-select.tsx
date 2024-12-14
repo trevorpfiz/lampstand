@@ -11,20 +11,24 @@ import { useBibleStore } from "~/providers/bible-store-provider";
 
 export function BibleSelect() {
   const setBibleVersion = useBibleStore((state) => state.setBibleVersion);
+  const bibleVersion = useBibleStore((state) => state.bibleVersion);
 
   return (
     <Select
-      defaultValue="BSB"
+      value={bibleVersion.toString()}
       onValueChange={(value) => setBibleVersion(value as "BSB" | "KJV")}
     >
-      <SelectTrigger aria-label="Select Bible version" className="pl-2 pr-1">
-        <SelectValue placeholder="Select version" />
+      <SelectTrigger
+        aria-label="Select Bible version"
+        className="h-8 pl-2 pr-1"
+      >
+        <SelectValue />
       </SelectTrigger>
       <SelectContent>
         {BIBLE_VERSIONS.map((version) => (
           <SelectItem
             key={version.value}
-            value={version.value}
+            value={version.value.toString()}
             disabled={version.disabled}
           >
             {version.label}

@@ -17,7 +17,7 @@ export function VerseNavigationBar({
       <div className="w-16">
         <BibleSelect />
       </div>
-      <div className="w-full max-w-48">
+      <div className="w-full max-w-44">
         <ReferenceSelect
           getChapterIndex={getChapterIndex}
           scrollToChapterAndVerse={scrollToChapterAndVerse}

@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { Check, Quote } from "lucide-react";
+import { matchSorter } from "match-sorter";
 
 import { cn } from "@lamp/ui";
 import { Button } from "@lamp/ui/button";
@@ -34,7 +35,7 @@ function ReferenceSelect({
   getChapterIndex,
   scrollToChapterAndVerse,
 }: ReferenceSelectProps) {
-  const [open, setOpen] = useState<boolean>(false);
+  const [open, setOpen] = useState(false);
   const currentVerse = useBibleStore((state) => state.currentVerse);
   const setCurrentVerse = useBibleStore((state) => state.setCurrentVerse);
 
@@ -42,59 +43,16 @@ function ReferenceSelect({
     currentVerse.verse ? `:${currentVerse.verse}` : ""
   }`;
 
-  const [searchValue, setSearchValue] = useState<string>("");
+  const [searchValue, setSearchValue] = useState("");
+  const options: Option[] = useMemo(
+    () =>
+      BIBLE_VERSESS.map((item) => ({ value: item.value, label: item.value })),
+    [],
+  );
 
-  const handleSelect = (value: string) => {
-    console.log("1. Selected value:", value);
-    const reference = parseReference(value);
-    if (!reference) {
-      console.log("Failed to parse reference:", value);
-      return;
-    }
-
-    console.log("2. Parsed reference:", reference);
-    setCurrentVerse(reference);
-    console.log("3. After setCurrentVerse:", currentVerse);
-
-    const chapterIndex = getChapterIndex(reference.book, reference.chapter);
-    if (chapterIndex === -1) {
-      console.log("Failed to find chapter index for:", reference);
-      return;
-    }
-
-    const verse = verseId(reference);
-    console.log("4. Generated verseId:", verse);
-    scrollToChapterAndVerse(chapterIndex, verse);
-    setOpen(false);
-  };
-
-  // Flatten BIBLE_VERSES into a single list of options
-  const options: Option[] = useMemo(() => {
-    return BIBLE_VERSESS.map((item) => ({
-      value: item.value,
-      label: item.value, // Customize the label if needed
-    }));
-  }, []);
-
-  // Reference to the scrolling container
+  const [filteredOptions, setFilteredOptions] = useState(options);
   const parentRef = useRef<HTMLDivElement>(null);
 
-  // Handle search/filtering
-  const [filteredOptions, setFilteredOptions] = useState<Option[]>(options);
-
-  const handleSearch = (search: string) => {
-    setSearchValue(search);
-    const lowerSearch = search.toLowerCase();
-    const newFilteredOptions = options.filter((option) =>
-      option.value.toLowerCase().includes(lowerSearch),
-    );
-    setFilteredOptions(newFilteredOptions);
-
-    // Scroll to the top of the list
-    virtualizer.scrollToOffset(0);
-  };
-
-  // Initialize the virtualizer
   const virtualizer = useVirtualizer({
     count: filteredOptions.length,
     getScrollElement: () => parentRef.current,
@@ -102,29 +60,71 @@ function ReferenceSelect({
     overscan: 5,
   });
 
-  const virtualItems = virtualizer.getVirtualItems();
+  const handleSelect = (value: string) => {
+    const reference = parseReference(value);
+    if (!reference) return;
 
-  // Set the initial value when the popover opens
-  useEffect(() => {
-    if (open) {
-      setTimeout(() => {
-        virtualizer.measure();
-      }, 0);
+    setCurrentVerse(reference);
+
+    const chapterIndex = getChapterIndex(reference.book, reference.chapter);
+    if (chapterIndex === -1) return;
+
+    scrollToChapterAndVerse(chapterIndex, verseId(reference));
+    setOpen(false);
+  };
+
+  const handleSearch = (search: string) => {
+    setSearchValue(search);
+    if (!search) {
+      setFilteredOptions(options);
+    } else {
+      const newFilteredOptions = matchSorter(options, search, {
+        keys: ["label"],
+        threshold: matchSorter.rankings.MATCHES,
+      });
+      setFilteredOptions(newFilteredOptions);
     }
+  };
 
-    if (open && currentValue) {
-      const index = filteredOptions.findIndex(
-        (option) => option.value === currentValue,
-      );
-      console.log("index:", index);
+  // State to know when the virtualizer has been measured after popover opens
+  const [hasMeasured, setHasMeasured] = useState(false);
+
+  // 1. On open, measure layout
+  useLayoutEffect(() => {
+    if (!open || hasMeasured) return;
+
+    requestAnimationFrame(() => {
+      console.log("measuring");
+      virtualizer.measure();
+      setHasMeasured(true);
+    });
+  }, [open, virtualizer, hasMeasured]);
+
+  // 2. After measurement, scroll accordingly
+  // Use useLayoutEffect to avoid flicker since we're adjusting layout
+  useEffect(() => {
+    if (!open || !hasMeasured) return;
+
+    // If searching, scroll to top
+    // If not searching, scroll to currentValue if found, else top
+    if (searchValue) {
+      virtualizer.scrollToOffset(0);
+    } else {
+      const index = filteredOptions.findIndex((o) => o.value === currentValue);
       if (index >= 0) {
-        setTimeout(() => {
-          virtualizer.scrollToIndex(index, { align: "start" });
-        }, 50);
+        virtualizer.scrollToIndex(index, { align: "start" });
+      } else {
+        virtualizer.scrollToOffset(0);
       }
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [open]);
+  }, [
+    open,
+    hasMeasured,
+    searchValue,
+    filteredOptions,
+    currentValue,
+    virtualizer,
+  ]);
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
@@ -133,7 +133,7 @@ function ReferenceSelect({
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-full justify-between bg-background px-3 font-normal outline-offset-0 hover:bg-background focus-visible:border-ring focus-visible:outline-[3px] focus-visible:outline-ring/20"
+          className="h-8 w-full justify-between bg-background px-3 font-normal outline-offset-0 hover:bg-background focus-visible:border-ring focus-visible:outline-[3px] focus-visible:outline-ring/20"
         >
           {currentValue ? (
             <span className="flex min-w-0 items-center gap-2">
@@ -153,6 +153,12 @@ function ReferenceSelect({
       <PopoverContent
         className="w-full min-w-[var(--radix-popper-anchor-width)] border-input p-0"
         align="start"
+        onCloseAutoFocus={(e) => {
+          e.preventDefault();
+          setSearchValue("");
+          setFilteredOptions(options);
+          setHasMeasured(false);
+        }}
       >
         <Command shouldFilter={false}>
           <CommandInput
@@ -170,9 +176,9 @@ function ReferenceSelect({
                   position: "relative",
                 }}
               >
-                {virtualItems.map((virtualItem) => {
+                {virtualizer.getVirtualItems().map((virtualItem) => {
                   const option = filteredOptions[virtualItem.index];
-                  if (!option) return null; // Safety check
+                  if (!option) return null;
 
                   return (
                     <CommandItem

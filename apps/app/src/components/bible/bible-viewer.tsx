@@ -3,9 +3,9 @@
 import React, {
   useCallback,
   useEffect,
+  useLayoutEffect,
   useMemo,
   useRef,
-  useState,
 } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 
@@ -13,6 +13,7 @@ import type { Root } from "~/types/bible";
 import { VerseNavigationBar } from "~/components/bible/verse-navigation-bar";
 import { useVerseTracking } from "~/hooks/use-verse-tracking";
 import { useBibleStore } from "~/providers/bible-store-provider";
+import { useLayoutStore } from "~/providers/layout-store-provider";
 import bibleData from "~/public/ordered_bible.json";
 import { renderChapter } from "~/utils/bible/formatting-assembly";
 import { parseBibleData } from "~/utils/bible/parse-bible-data";
@@ -20,22 +21,24 @@ import { verseId } from "~/utils/bible/verse";
 
 const BibleViewer: React.FC = () => {
   const parentRef = useRef<HTMLDivElement>(null);
-  const hasScrolledRef = useRef(false);
-  const [enabled] = useState(true);
-
   const chapters = useMemo(() => parseBibleData(bibleData as Root), []);
+  const currentVerse = useBibleStore((state) => state.currentVerse);
+
+  const isHydrated = useLayoutStore((state) => state.isHydrated);
+  const initialScrollDone = useLayoutStore((state) => state.initialScrollDone);
+  const setInitialScrollDone = useLayoutStore(
+    (state) => state.setInitialScrollDone,
+  );
+
   const virtualizer = useVirtualizer({
     count: chapters.length,
     getScrollElement: () => parentRef.current,
     estimateSize: () => 1800,
     overscan: 1,
-    enabled,
+    enabled: true,
   });
 
   useVerseTracking({ containerRef: parentRef });
-
-  const currentVerse = useBibleStore((state) => state.currentVerse);
-  const isHydrated = useBibleStore((state) => state.isHydrated);
 
   const scrollToChapterAndVerse = useCallback(
     (chapterIndex: number, verse?: string) => {
@@ -57,21 +60,33 @@ const BibleViewer: React.FC = () => {
     [virtualizer],
   );
 
-  useEffect(() => {
-    if (!isHydrated || hasScrolledRef.current) return;
+  // Perform initial scroll after hydration and only if not done already
+  useLayoutEffect(() => {
+    if (initialScrollDone || !isHydrated) return;
+    console.log("running initial scroll", initialScrollDone);
+    requestAnimationFrame(() => {
+      const chapterIndex = chapters.findIndex(
+        (ch) =>
+          ch.bookName.toLowerCase() === currentVerse.book.toLowerCase() &&
+          ch.number === currentVerse.chapter,
+      );
 
-    const chapterIndex = chapters.findIndex(
-      (ch) =>
-        ch.bookName.toLowerCase() === currentVerse.book.toLowerCase() &&
-        ch.number === currentVerse.chapter,
-    );
-
-    if (chapterIndex !== -1) {
-      const verse = verseId(currentVerse);
-      scrollToChapterAndVerse(chapterIndex, verse);
-      hasScrolledRef.current = true;
-    }
-  }, [currentVerse, chapters, scrollToChapterAndVerse, isHydrated]);
+      if (chapterIndex !== -1) {
+        const verse = verseId(currentVerse);
+        scrollToChapterAndVerse(chapterIndex, verse);
+      } else {
+        // If we can't find the desired verse, still mark initialScrollDone
+        setInitialScrollDone(true);
+      }
+    });
+  }, [
+    chapters,
+    currentVerse,
+    initialScrollDone,
+    isHydrated,
+    scrollToChapterAndVerse,
+    setInitialScrollDone,
+  ]);
 
   useEffect(() => {
     const handleCopy = (e: ClipboardEvent) => {
@@ -84,31 +99,23 @@ const BibleViewer: React.FC = () => {
         parentRef.current?.querySelectorAll("[data-verse-id]") ?? [],
       );
 
-      const selectedVerseEls = verseEls.filter((el) => {
-        const intersects = range.intersectsNode(el);
-
-        return intersects;
-      });
-
+      const selectedVerseEls = verseEls.filter((el) =>
+        range.intersectsNode(el),
+      );
       if (selectedVerseEls.length === 0) {
-        return; // Allow default copy if no verses are selected
+        return;
       }
 
       e.preventDefault();
 
-      // Handle single verse case
+      // Single verse case
       if (selectedVerseEls.length === 1) {
         const verseEl = selectedVerseEls[0];
-
-        // Determine if it's a partial selection
         const isPartial =
           range.startContainer !== verseEl && range.endContainer !== verseEl;
 
         if (isPartial) {
-          // Use the cloned content from the range for partial selection
           const partialFragment = range.cloneContents();
-
-          // Remove footnotes
           Array.from(partialFragment.querySelectorAll("sup")).forEach((fn) =>
             fn.remove(),
           );
@@ -124,11 +131,9 @@ const BibleViewer: React.FC = () => {
           const referenceLine = `— ${bookName} ${chapterStr}:${verseNum}`;
 
           const finalText = `${partialText}\n${referenceLine}`;
-
           e.clipboardData?.setData("text/plain", finalText);
           return;
         } else {
-          // Full single verse selection
           const verseClone = verseEl.cloneNode(true) as HTMLElement;
           Array.from(verseClone.querySelectorAll("sup")).forEach((fn) =>
             fn.remove(),
@@ -151,13 +156,10 @@ const BibleViewer: React.FC = () => {
         }
       }
 
-      // Handle multiple verses or partial selection across verses
+      // Multiple verses or partial selection across verses
       const selectedRangeFragment = range.cloneContents();
-
-      Array.from(selectedRangeFragment.querySelectorAll("sup")).forEach(
-        (fn) => {
-          fn.remove();
-        },
+      Array.from(selectedRangeFragment.querySelectorAll("sup")).forEach((fn) =>
+        fn.remove(),
       );
 
       const fragmentVerseEls = Array.from(
@@ -166,12 +168,10 @@ const BibleViewer: React.FC = () => {
 
       if (fragmentVerseEls.length === 0) {
         const rawSelectedText = selection.toString().trim();
-
         e.clipboardData?.setData("text/plain", rawSelectedText);
         return;
       }
 
-      // Construct text and reference for multiple verses
       const verseTexts: string[] = [];
       let startVerse = Infinity;
       let endVerse = -Infinity;

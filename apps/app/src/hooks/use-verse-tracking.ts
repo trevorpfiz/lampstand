@@ -5,6 +5,7 @@ import { useCallback, useEffect, useRef } from "react";
 import type { VerseReference } from "~/utils/bible/verse";
 import { useDebounce } from "~/hooks/use-debounce";
 import { useBibleStore } from "~/providers/bible-store-provider";
+import { useLayoutStore } from "~/providers/layout-store-provider";
 
 interface UseVerseTrackingProps {
   containerRef: React.RefObject<HTMLDivElement | null>;
@@ -12,26 +13,29 @@ interface UseVerseTrackingProps {
 
 export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
   const setCurrentVerse = useBibleStore((state) => state.setCurrentVerse);
-  const lastVisibleVerseRef = useRef<VerseReference | null>(null);
+  const isHydrated = useLayoutStore((state) => state.isHydrated);
+  const initialScrollDone = useLayoutStore((state) => state.initialScrollDone);
 
-  // Debounce so that it doesn't update too frequently while scrolling
+  const lastVisibleVerseRef = useRef<VerseReference | null>(null);
   const debouncedVerse = useDebounce(lastVisibleVerseRef.current, 300);
 
   useEffect(() => {
-    if (debouncedVerse) {
+    console.log("debouncedVerse", debouncedVerse);
+    console.log("isHydrated", isHydrated);
+    console.log("initialScrollDone", initialScrollDone);
+    if (debouncedVerse && isHydrated && initialScrollDone) {
       setCurrentVerse(debouncedVerse);
     }
-  }, [debouncedVerse, setCurrentVerse]);
+  }, [debouncedVerse, setCurrentVerse, isHydrated, initialScrollDone]);
 
   const updateCurrentVerse = useCallback(() => {
     const container = containerRef.current;
-    if (!container) return;
+    if (!container || !isHydrated || !initialScrollDone) return;
 
     const containerRect = container.getBoundingClientRect();
     const verseElements = container.querySelectorAll("[data-verse-id]");
     let topVerse: HTMLElement | null = null;
 
-    // Find the first verse whose top is below or right at the container's top edge
     for (const el of verseElements) {
       const rect = el.getBoundingClientRect();
       if (rect.top >= containerRect.top) {
@@ -48,7 +52,6 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
     const [book, chapter, verse] = verseId.split("-");
     if (!book || !chapter) return;
 
-    // Properly capitalize the book name
     const capitalizedBook = book
       .split(" ")
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
@@ -60,13 +63,12 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
       verse: verse ? parseInt(verse, 10) : undefined,
     };
 
-    // Only set if different from the last one
     if (
       JSON.stringify(lastVisibleVerseRef.current) !== JSON.stringify(newVerse)
     ) {
       lastVisibleVerseRef.current = newVerse;
     }
-  }, [containerRef]);
+  }, [containerRef, isHydrated, initialScrollDone]);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -76,7 +78,7 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
       updateCurrentVerse();
     };
 
-    // Run once on mount to initialize current verse
+    // Run once on mount to initialize
     updateCurrentVerse();
 
     container.addEventListener("scroll", handleScroll, { passive: true });

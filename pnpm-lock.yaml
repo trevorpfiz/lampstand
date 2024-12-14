@@ -321,6 +321,9 @@ importers:
       lucide-react:
         specifier: ^0.468.0
         version: 0.468.0(react@19.0.0)
+      match-sorter:
+        specifier: ^8.0.0
+        version: 8.0.0
       motion:
         specifier: 12.0.0-alpha.2
         version: 12.0.0-alpha.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -6260,6 +6263,9 @@ packages:
     engines: {node: '>= 16'}
     hasBin: true
 
+  match-sorter@8.0.0:
+    resolution: {integrity: sha512-bGJ6Zb+OhzXe+ptP5d80OLVx7AkqfRbtGEh30vNSfjNwllu+hHI+tcbMIT/fbkx/FKN1PmKuDb65+Oofg+XUxw==}
+
   md-to-react-email@5.0.5:
     resolution: {integrity: sha512-OvAXqwq57uOk+WZqFFNCMZz8yDp8BD3WazW1wAKHUrPbbdr89K9DWS6JXY09vd9xNdPNeurI8DU/X4flcfaD8A==}
     peerDependencies:
@@ -7508,6 +7514,9 @@ packages:
 
   remark-stringify@11.0.0:
     resolution: {integrity: sha512-1OSmLd3awB/t8qdoEOMazZkNsfVTeY4fTsgzcQFdXNq8ToTN4ZGwrMnlda4K6smTFKD+GRV6O48i6Z4iKgPPpw==}
+
+  remove-accents@0.5.0:
+    resolution: {integrity: sha512-8g3/Otx1eJaVD12e31UbJj1YzdtVvzH85HV7t+9MJYk/u3XmkOUJ5Ys9wQrf9PCPK8+xn4ymzqYCiZl6QWKn+A==}
 
   require-from-string@2.0.2:
     resolution: {integrity: sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==}
@@ -10956,7 +10965,7 @@ snapshots:
       jotai-optics: 0.4.0(jotai@2.8.4(@types/react@19.0.1)(react@19.0.0))(optics-ts@2.4.1)
       jotai-x: 1.2.4(@types/react@19.0.1)(jotai@2.8.4(@types/react@19.0.1)(react@19.0.0))(react@19.0.0)
       lodash: 4.17.21
-      nanoid: 3.3.7
+      nanoid: 3.3.8
       optics-ts: 2.4.1
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
@@ -13986,6 +13995,11 @@ snapshots:
 
   marked@7.0.4: {}
 
+  match-sorter@8.0.0:
+    dependencies:
+      '@babel/runtime': 7.25.6
+      remove-accents: 0.5.0
+
   md-to-react-email@5.0.5(react@19.0.0):
     dependencies:
       marked: 7.0.4
@@ -15476,6 +15490,8 @@ snapshots:
       '@types/mdast': 4.0.4
       mdast-util-to-markdown: 2.1.2
       unified: 11.0.5
+
+  remove-accents@0.5.0: {}
 
   require-from-string@2.0.2:
     optional: true

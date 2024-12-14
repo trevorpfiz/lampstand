@@ -1,7 +1,7 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { createContext, useContext, useEffect, useRef } from "react";
+import { createContext, useContext, useRef } from "react";
 import { useStore } from "zustand";
 
 import type { BibleState, BibleStore } from "~/stores/bible-store";
@@ -27,11 +27,6 @@ export function BibleStoreProvider({
   if (!storeRef.current) {
     storeRef.current = createBibleStore(initialState);
   }
-
-  useEffect(() => {
-    storeRef.current?.setState({ isHydrated: true });
-    console.log("BibleStoreProvider: Hydrated");
-  }, []);
 
   return (
     <BibleStoreContext.Provider value={storeRef.current}>
