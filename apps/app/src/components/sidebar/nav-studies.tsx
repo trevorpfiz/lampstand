@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Check, LoaderCircle, MoreHorizontal, Pen, Trash2 } from "lucide-react";
 
 import {
@@ -26,9 +28,10 @@ import { api } from "~/trpc/react";
 
 export function NavStudies() {
   const { isMobile } = useSidebar();
+  const pathname = usePathname();
 
   const utils = api.useUtils();
-  const { data, isPending } = api.study.byUser.useQuery();
+  const [{ studies }] = api.study.byUser.useSuspenseQuery();
 
   const [open, setOpen] = useState(false);
 
@@ -68,24 +71,11 @@ export function NavStudies() {
     },
   });
 
-  const studies = data?.studies;
-
-  if (isPending) {
-    return (
-      <SidebarGroup>
-        <SidebarGroupLabel>Studies</SidebarGroupLabel>
-        <div className="flex justify-center py-2">
-          <LoaderCircle className="h-4 w-4 animate-spin" />
-        </div>
-      </SidebarGroup>
-    );
-  }
-
   return (
     <SidebarGroup className="group-data-[collapsible=icon]:hidden">
       <SidebarGroupLabel>Studies</SidebarGroupLabel>
       <SidebarMenu>
-        {studies && studies.length > 0
+        {studies.length > 0
           ? studies.map((study) => (
               <SidebarMenuItem key={study.id}>
                 <Popover
@@ -98,16 +88,22 @@ export function NavStudies() {
                   }}
                 >
                   <PopoverAnchor asChild>
-                    <SidebarMenuButton asChild tooltip={study.title}>
-                      <a href={`/study/${study.id}`}>
+                    <SidebarMenuButton
+                      asChild
+                      tooltip={study.title}
+                      isActive={pathname === `/study/${study.id}`}
+                    >
+                      <Link href={`/study/${study.id}`}>
                         <span>{study.title}</span>
-                      </a>
+                      </Link>
                     </SidebarMenuButton>
                   </PopoverAnchor>
 
                   <DropdownMenu>
                     <DropdownMenuTrigger asChild>
-                      <SidebarMenuAction showOnHover>
+                      <SidebarMenuAction
+                        showOnHover={pathname !== `/study/${study.id}`}
+                      >
                         <MoreHorizontal />
                         <span className="sr-only">Options</span>
                       </SidebarMenuAction>
@@ -201,3 +197,14 @@ export function NavStudies() {
     </SidebarGroup>
   );
 }
+
+export const NavStudiesSkeleton = () => {
+  return (
+    <SidebarGroup className="group-data-[collapsible=icon]:hidden">
+      <SidebarGroupLabel>Studies</SidebarGroupLabel>
+      <div className="flex justify-center py-2">
+        <LoaderCircle className="h-4 w-4 animate-spin" />
+      </div>
+    </SidebarGroup>
+  );
+};

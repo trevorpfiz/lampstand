@@ -26,7 +26,10 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "@lamp/ui/tooltip";
 
 import { NavFooter } from "~/components/sidebar/nav-footer";
 import { NavMain } from "~/components/sidebar/nav-main";
-import { NavStudies } from "~/components/sidebar/nav-studies";
+import {
+  NavStudies,
+  NavStudiesSkeleton,
+} from "~/components/sidebar/nav-studies";
 import { api } from "~/trpc/react";
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
@@ -77,7 +80,9 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         <NavMain />
-        <NavStudies />
+        <React.Suspense fallback={<NavStudiesSkeleton />}>
+          <NavStudies />
+        </React.Suspense>
       </SidebarContent>
       <SidebarFooter>
         <div className="p-1">

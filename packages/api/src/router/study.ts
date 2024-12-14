@@ -18,6 +18,19 @@ export const studyRouter = {
     return { studies };
   }),
 
+  byId: protectedProcedure
+    .input(z.object({ id: z.string() }))
+    .query(async ({ ctx, input }) => {
+      const { db, user } = ctx;
+      const { id } = input;
+
+      const study = await db.query.Study.findFirst({
+        where: and(eq(Study.id, id), eq(Study.profileId, user.id)),
+      });
+
+      return { study };
+    }),
+
   create: protectedProcedure
     .input(insertStudyParams)
     .mutation(async ({ ctx, input }) => {
