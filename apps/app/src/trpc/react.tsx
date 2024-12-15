@@ -8,8 +8,8 @@ import { createTRPCReact } from "@trpc/react-query";
 import SuperJSON from "superjson";
 
 import type { AppRouter } from "@lamp/api";
+import { env } from "@lamp/env";
 
-import { env } from "~/env";
 import { createQueryClient } from "~/trpc/query-client";
 
 let clientQueryClientSingleton: QueryClient | undefined = undefined;

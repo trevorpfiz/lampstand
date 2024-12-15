@@ -12,9 +12,9 @@ interface ChatMessagesProps {
 export function ChatMessages({ messages }: ChatMessagesProps) {
   return (
     <ScrollArea className="flex-1 px-4" type="auto">
-      <div className="flex flex-col gap-4 py-4">
-        {messages.map((message) => (
-          <div key={message.id} className="flex flex-col gap-1">
+      <div className="flex flex-col gap-4 pb-16 pt-4">
+        {messages.map((message, index) => (
+          <div key={index} className="flex flex-col gap-1">
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <div
                 className={cn(

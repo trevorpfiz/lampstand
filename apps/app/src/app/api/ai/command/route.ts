@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import { createOpenAI } from "@ai-sdk/openai";
 import { convertToCoreMessages, streamText } from "ai";
 
-import { env } from "~/env";
+import { env } from "@lamp/env";
 
 export async function POST(req: NextRequest) {
   const { messages, model = "gpt-4o-mini", system } = await req.json();

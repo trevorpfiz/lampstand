@@ -1,8 +1,7 @@
 import { NextResponse } from "next/server";
 
+import { env } from "@lamp/env";
 import { createClient } from "@lamp/supabase/server";
-
-import { env } from "~/env";
 
 export async function GET(request: Request) {
   const { searchParams, origin } = new URL(request.url);

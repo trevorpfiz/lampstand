@@ -33,8 +33,8 @@
     "with-env": "dotenv -e ../../.env --"
   },
   "dependencies": {
+    "@lamp/env": "workspace:*",
     "@lamp/validators": "workspace:*",
-    "@t3-oss/env-core": "^0.11.1",
     "@vercel/postgres": "^0.10.0",
     "drizzle-orm": "^0.38.0",
     "drizzle-zod": "^0.6.0",
@@ -45,7 +45,7 @@
     "@lamp/eslint-config": "workspace:*",
     "@lamp/prettier-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
-    "ai": "^4.0.18",
+    "ai": "catalog:",
     "dotenv-cli": "^7.4.4",
     "drizzle-kit": "^0.30.0",
     "eslint": "catalog:",

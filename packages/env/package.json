@@ -1,16 +1,20 @@
 {
-  "name": "@lamp/email",
+  "name": "@lamp/env",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./src/index.ts"
+      "types": "./dist/env.d.ts",
+      "default": "./src/env.ts"
     },
-    "./contact": {
-      "types": "./dist/src/templates/contact.d.ts",
-      "default": "./src/templates/contact.tsx"
+    "./db": {
+      "types": "./dist/db/env.d.ts",
+      "default": "./src/db/env.ts"
+    },
+    "./email": {
+      "types": "./dist/email/env.d.ts",
+      "default": "./src/email/env.ts"
     }
   },
   "scripts": {
@@ -22,19 +26,15 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@lamp/env": "workspace:*",
-    "@react-email/components": "0.0.31",
-    "react": "catalog:react19",
-    "react-dom": "catalog:react19",
-    "resend": "^4.0.1"
+    "@t3-oss/env-core": "^0.11.1",
+    "@t3-oss/env-nextjs": "^0.11.1",
+    "zod": "catalog:"
   },
   "devDependencies": {
     "@lamp/eslint-config": "workspace:*",
     "@lamp/prettier-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
     "@types/node": "catalog:",
-    "@types/react": "catalog:react19",
-    "@types/react-dom": "catalog:react19",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"

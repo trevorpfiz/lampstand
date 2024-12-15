@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 import type { VerseReference } from "~/utils/bible/verse";
 import { useDebounce } from "~/hooks/use-debounce";
@@ -16,13 +16,11 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
   const isHydrated = useLayoutStore((state) => state.isHydrated);
   const initialScrollDone = useLayoutStore((state) => state.initialScrollDone);
 
-  const lastVisibleVerseRef = useRef<VerseReference | null>(null);
-  const debouncedVerse = useDebounce(lastVisibleVerseRef.current, 300);
+  const [lastVisibleVerse, setLastVisibleVerse] =
+    useState<VerseReference | null>(null);
+  const debouncedVerse = useDebounce(lastVisibleVerse, 200);
 
   useEffect(() => {
-    console.log("debouncedVerse", debouncedVerse);
-    console.log("isHydrated", isHydrated);
-    console.log("initialScrollDone", initialScrollDone);
     if (debouncedVerse && isHydrated && initialScrollDone) {
       setCurrentVerse(debouncedVerse);
     }
@@ -63,12 +61,10 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
       verse: verse ? parseInt(verse, 10) : undefined,
     };
 
-    if (
-      JSON.stringify(lastVisibleVerseRef.current) !== JSON.stringify(newVerse)
-    ) {
-      lastVisibleVerseRef.current = newVerse;
+    if (JSON.stringify(lastVisibleVerse) !== JSON.stringify(newVerse)) {
+      setLastVisibleVerse(newVerse);
     }
-  }, [containerRef, isHydrated, initialScrollDone]);
+  }, [containerRef, isHydrated, initialScrollDone, lastVisibleVerse]);
 
   useEffect(() => {
     const container = containerRef.current;

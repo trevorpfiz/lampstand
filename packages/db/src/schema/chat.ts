@@ -1,11 +1,11 @@
-import type { CoreMessage } from "ai";
 import type { z } from "zod";
-import { relations, sql } from "drizzle-orm";
+import { relations } from "drizzle-orm";
 import { index } from "drizzle-orm/pg-core";
 import { createInsertSchema, createSelectSchema } from "drizzle-zod";
 
 import { timestamps } from "../lib/utils";
 import { createTable } from "./_table";
+import { Message } from "./message";
 import { Profile } from "./profile";
 import { Study } from "./study";
 
@@ -21,12 +21,11 @@ export const Chat = createTable(
       .uuid()
       .notNull()
       .references(() => Study.id, { onDelete: "cascade" }),
-    messages: t
-      .jsonb()
-      .array()
-      .$type<CoreMessage[]>()
+    title: t.varchar({ length: 256 }).notNull(),
+    visibility: t
+      .varchar({ enum: ["public", "private"] })
       .notNull()
-      .default(sql`'{}'::jsonb[]`),
+      .default("private"),
 
     createdAt: t.timestamp().defaultNow().notNull(),
     updatedAt: t
@@ -43,7 +42,7 @@ export const Chat = createTable(
   ],
 );
 
-export const ChatRelations = relations(Chat, ({ one }) => ({
+export const ChatRelations = relations(Chat, ({ one, many }) => ({
   profile: one(Profile, {
     fields: [Chat.profileId],
     references: [Profile.id],
@@ -52,6 +51,7 @@ export const ChatRelations = relations(Chat, ({ one }) => ({
     fields: [Chat.studyId],
     references: [Study.id],
   }),
+  messages: many(Message),
 }));
 
 // Schemas for validation
@@ -61,7 +61,6 @@ export const insertChatSchema = createInsertSchema(Chat).omit(timestamps);
 export const insertChatParams = insertChatSchema.omit({
   id: true,
   profileId: true,
-  studyId: true,
 });
 
 export const updateChatSchema = baseSchema;

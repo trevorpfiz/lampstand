@@ -30,7 +30,7 @@ export function LayoutStoreProvider({
 
   useEffect(() => {
     storeRef.current?.setState({ isHydrated: true });
-    console.log("BibleStoreProvider: Hydrated");
+    console.log("LayoutStoreProvider: Hydrated");
   }, []);
 
   return (

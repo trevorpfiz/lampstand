@@ -5,11 +5,11 @@ import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 
+import { env } from "@lamp/env";
 import { cn } from "@lamp/ui";
 import { Toaster } from "@lamp/ui/sonner";
 import { ThemeProvider } from "@lamp/ui/theme";
 
-import { env } from "~/env";
 import { TRPCReactProvider } from "~/trpc/react";
 
 export const metadata: Metadata = {

@@ -2,7 +2,7 @@ import { sql } from "@vercel/postgres";
 import { drizzle } from "drizzle-orm/vercel-postgres";
 import { migrate } from "drizzle-orm/vercel-postgres/migrator";
 
-import { env } from "./client";
+import { env } from "@lamp/env/db";
 
 const runMigrate = async () => {
   if (!env.POSTGRES_URL) {

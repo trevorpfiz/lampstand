@@ -1,13 +1,9 @@
 {
-  "name": "@lamp/supabase",
+  "name": "@lamp/ai",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./src/index.ts"
-    },
     "./server": {
       "types": "./dist/clients/server.d.ts",
       "default": "./src/clients/server.ts"
@@ -34,20 +30,19 @@
     "clean": "git clean -xdf .cache .turbo dist node_modules",
     "dev": "tsc",
     "format": "prettier --check . --ignore-path ../../.gitignore",
-    "_generate:types": "supabase gen types typescript --project-id \"$NEXT_PUBLIC_SUPABASE_PROJECT_REF\" --schema public > src/types/db.ts",
-    "generate:types": "pnpm with-env pnpm run _generate:types",
     "lint": "eslint",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false",
     "with-env": "dotenv -e ../../.env --"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^1.0.8",
     "@lamp/env": "workspace:*",
     "@lamp/logger": "workspace:*",
-    "@supabase/ssr": "catalog:supabase",
-    "@supabase/supabase-js": "catalog:supabase",
+    "ai": "^4.0.18",
     "react": "catalog:react19",
-    "server-only": "^0.0.1",
-    "supabase": "catalog:supabase"
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0",
+    "tailwind-merge": "^2.5.5"
   },
   "devDependencies": {
     "@lamp/eslint-config": "workspace:*",
@@ -57,6 +52,9 @@
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
+  },
+  "peerDependencies": {
+    "next": ">=15.1.0"
   },
   "prettier": "@lamp/prettier-config"
 }

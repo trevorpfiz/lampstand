@@ -1,9 +1,9 @@
-import { AuthApiError } from "@supabase/supabase-js";
 import {
   createSafeActionClient,
   DEFAULT_SERVER_ERROR_MESSAGE,
 } from "next-safe-action";
 
+import { AuthApiError } from "@lamp/supabase";
 import { createClient } from "@lamp/supabase/server";
 
 // Base client

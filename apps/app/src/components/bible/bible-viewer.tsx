@@ -40,8 +40,9 @@ const BibleViewer: React.FC = () => {
 
   useVerseTracking({ containerRef: parentRef });
 
+  // TODO: improve this
   const scrollToChapterAndVerse = useCallback(
-    (chapterIndex: number, verse?: string) => {
+    (chapterIndex: number, verse?: string, initial?: boolean) => {
       virtualizer.scrollToIndex(chapterIndex, { align: "start" });
 
       setTimeout(() => {
@@ -56,8 +57,12 @@ const BibleViewer: React.FC = () => {
           }
         }
       }, 200);
+
+      if (initial) {
+        setInitialScrollDone(true);
+      }
     },
-    [virtualizer],
+    [setInitialScrollDone, virtualizer],
   );
 
   // Perform initial scroll after hydration and only if not done already
@@ -73,7 +78,7 @@ const BibleViewer: React.FC = () => {
 
       if (chapterIndex !== -1) {
         const verse = verseId(currentVerse);
-        scrollToChapterAndVerse(chapterIndex, verse);
+        scrollToChapterAndVerse(chapterIndex, verse, true);
       } else {
         // If we can't find the desired verse, still mark initialScrollDone
         setInitialScrollDone(true);

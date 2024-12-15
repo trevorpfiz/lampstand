@@ -1,14 +1,37 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { usePathname } from "next/navigation";
 import { useChat } from "ai/react";
 import { AnimatePresence } from "motion/react";
 
 import { ChatInput } from "~/components/chat/chat-input";
 import { ChatMessages } from "~/components/chat/chat-messages";
 import { Toolbar } from "~/components/chat/toolbar";
+import { convertToUIMessages } from "~/lib/utils";
+import { api } from "~/trpc/react";
 
 export function ChatPanel() {
+  const pathname = usePathname();
+  const studyId = pathname.split("/").pop();
+
+  // Query existing chats and messages
+  const { data: chatData } = api.chat.byStudy.useQuery(
+    { studyId: studyId ?? "" },
+    { enabled: !!studyId },
+  );
+
+  // Get the most recent chat if it exists
+  const latestChat = chatData?.chats[0] ?? null;
+
+  // Query messages for the latest chat
+  const { data: messageData } = api.message.byChatId.useQuery(
+    { chatId: latestChat?.id ?? "" },
+    { enabled: !!latestChat?.id },
+  );
+
+  const uiMessages = convertToUIMessages(messageData?.messages ?? []);
+
   const {
     messages,
     setMessages,
@@ -20,7 +43,11 @@ export function ChatPanel() {
     stop,
   } = useChat({
     api: "/api/chat",
-    initialMessages: [
+    body: {
+      studyId,
+      chatId: latestChat?.id,
+    },
+    initialMessages: uiMessages ?? [
       {
         id: "welcome",
         role: "assistant",
