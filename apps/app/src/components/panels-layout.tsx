@@ -3,6 +3,7 @@
 import { Fragment, useMemo } from "react";
 import { useShallow } from "zustand/react/shallow";
 
+import type { Chat, MinimalNote } from "@lamp/db/schema";
 import {
   ResizableHandle,
   ResizablePanel,
@@ -15,9 +16,11 @@ import { usePanelsStore } from "~/providers/panels-store-provider";
 
 interface PanelsLayoutProps {
   children: React.ReactNode;
+  chats?: Chat[];
+  notes?: MinimalNote[];
 }
 
-export function PanelsLayout({ children }: PanelsLayoutProps) {
+export function PanelsLayout({ children, chats, notes }: PanelsLayoutProps) {
   const { isChatOpen, isNotesOpen } = usePanelsStore(
     useShallow((state) => ({
       isChatOpen: state.isChatOpen,
@@ -31,7 +34,8 @@ export function PanelsLayout({ children }: PanelsLayoutProps) {
     if (isChatOpen) {
       activePanels.push({
         id: "chat",
-        content: <ChatPanel />,
+        // Pass chats to ChatPanel
+        content: <ChatPanel initialChats={chats} />,
         size: 30,
       });
     }
@@ -39,19 +43,20 @@ export function PanelsLayout({ children }: PanelsLayoutProps) {
     if (isNotesOpen) {
       activePanels.push({
         id: "notes",
-        content: <NotesPanel />,
+        // Pass notes to NotesPanel
+        content: <NotesPanel initialNotes={notes} />,
         size: 30,
       });
     }
 
-    // Adjust sizes based on number of panels
+    // Adjust sizes
     const size = Math.floor(100 / activePanels.length);
     return activePanels.map((panel, i) => ({
       ...panel,
       size: i === 0 ? 100 - size * (activePanels.length - 1) : size,
       order: i,
     }));
-  }, [children, isChatOpen, isNotesOpen]);
+  }, [children, isChatOpen, isNotesOpen, chats, notes]);
 
   return (
     <ResizablePanelGroup direction="horizontal" className="h-full">

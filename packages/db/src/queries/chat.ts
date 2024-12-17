@@ -18,9 +18,6 @@ export async function getChatsByStudyId({
   const chats = await db.query.Chat.findMany({
     where: and(eq(Chat.studyId, studyId), eq(Chat.profileId, userId)),
     orderBy: desc(Chat.createdAt),
-    with: {
-      messages: true,
-    },
   });
 
   return { chats };

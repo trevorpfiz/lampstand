@@ -1,4 +1,3 @@
-import type { InferSelectModel } from "drizzle-orm";
 import type { z } from "zod";
 import { relations, sql } from "drizzle-orm";
 import { index } from "drizzle-orm/pg-core";
@@ -39,8 +38,6 @@ export const Note = createTable(
   ],
 );
 
-export type SelectNote = InferSelectModel<typeof Note>;
-
 export const NoteRelations = relations(Note, ({ one }) => ({
   profile: one(Profile, {
     fields: [Note.profileId],
@@ -59,7 +56,6 @@ export const insertNoteSchema = createInsertSchema(Note).omit(timestamps);
 export const insertNoteParams = insertNoteSchema.omit({
   id: true,
   profileId: true,
-  studyId: true,
 });
 
 export const updateNoteSchema = baseSchema;
@@ -72,6 +68,12 @@ export const updateNoteParams = baseSchema
   .partial()
   .extend({ id: baseSchema.shape.id });
 export const noteIdSchema = baseSchema.pick({ id: true });
+export const minimalNoteSchema = baseSchema.pick({
+  id: true,
+  title: true,
+  createdAt: true,
+  updatedAt: true,
+});
 
 // Types for API
 export type Note = typeof Note.$inferSelect;
@@ -79,3 +81,4 @@ export type NewNote = z.infer<typeof insertNoteSchema>;
 export type NewNoteParams = z.infer<typeof insertNoteParams>;
 export type UpdateNoteParams = z.infer<typeof updateNoteParams>;
 export type NoteId = z.infer<typeof noteIdSchema>["id"];
+export type MinimalNote = z.infer<typeof minimalNoteSchema>;

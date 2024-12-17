@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { usePathname } from "next/navigation";
+import { useParams } from "next/navigation";
 import { AnimatePresence } from "motion/react";
 
+import type { Chat } from "@lamp/db/schema";
 import { useChat } from "@lamp/ai/react";
 
 import { ChatInput } from "~/components/chat/chat-input";
@@ -12,21 +13,17 @@ import { Toolbar } from "~/components/chat/toolbar";
 import { convertToUIMessages } from "~/lib/utils";
 import { api } from "~/trpc/react";
 
-export function ChatPanel() {
-  const pathname = usePathname();
-  const studyId = pathname.split("/").pop();
+interface ChatPanelProps {
+  initialChats?: Chat[];
+}
 
-  // Query existing chats and messages
-  const { data: chatData, isLoading: isLoadingChats } =
-    api.chat.byStudy.useQuery(
-      { studyId: studyId ?? "" },
-      { enabled: !!studyId },
-    );
+export function ChatPanel({ initialChats }: ChatPanelProps) {
+  const { studyId } = useParams<{ studyId: string }>();
 
-  // Get the most recent chat if it exists
-  const latestChat = chatData?.chats[0];
+  // If initialChats is available, we know the latest chat right away.
+  const latestChat = initialChats?.[0];
 
-  // Query messages for the latest chat
+  // Fetch messages for the latest chat
   const { data: messageData, isLoading: isLoadingMessages } =
     api.message.byChatId.useQuery(
       { chatId: latestChat?.id ?? "" },
@@ -67,7 +64,8 @@ export function ChatPanel() {
     }
   }, [input]);
 
-  const isLoadingAny = isLoadingChats || isLoadingMessages;
+  const isLoadingAny = !initialChats || isLoadingMessages;
+
   const hasNoMessages = messages.length === 0 && !isLoadingAny;
 
   return (
@@ -81,7 +79,6 @@ export function ChatPanel() {
       <div className="sticky inset-x-0 bottom-0">
         <div className="relative z-10 mx-auto w-full max-w-3xl bg-background px-2 pb-0 sm:px-3 md:px-4">
           <div className="relative">
-            {/* TODO: Add scroll button */}
             <AnimatePresence>
               <Toolbar
                 isToolbarVisible={isToolbarVisible}
@@ -96,7 +93,7 @@ export function ChatPanel() {
             <div ref={chatInputRef} className="rounded-b-xl">
               <ChatInput
                 input={input}
-                isLoading={isLoading || isLoadingChats || isLoadingMessages}
+                isLoading={isLoading || isLoadingAny}
                 onChange={handleInputChange}
                 onSubmit={handleSubmit}
               />

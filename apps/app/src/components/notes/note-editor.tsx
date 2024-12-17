@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import { ArrowLeft, MoreHorizontal } from "lucide-react";
 
+import type { NoteId } from "@lamp/db/schema";
 import { Button } from "@lamp/ui/button";
 import {
   DropdownMenu,
@@ -11,7 +12,7 @@ import {
   DropdownMenuTrigger,
 } from "@lamp/ui/dropdown-menu";
 
-import type { Note } from "~/types/notes";
+// import { api } from "~/trpc/react";
 
 const PlateEditor = dynamic(
   () =>
@@ -20,11 +21,13 @@ const PlateEditor = dynamic(
 );
 
 interface NoteEditorProps {
-  note: Note;
+  noteId: NoteId;
   onBack: () => void;
 }
 
-export function NoteEditor({ note: _note, onBack }: NoteEditorProps) {
+export function NoteEditor({ noteId: _noteId, onBack }: NoteEditorProps) {
+  // const { data, isLoading } = api.note.byId.useQuery({ id: noteId });
+
   return (
     <div className="flex h-full w-full flex-col overflow-hidden">
       <div className="sticky top-0 z-50 flex items-center justify-between border-b bg-background px-2 py-1">

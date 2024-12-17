@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { LogOut, Settings, Sparkles } from "lucide-react";
 
-import type { User } from "@lamp/supabase/types";
+import type { User } from "@lamp/supabase";
 import { createClient } from "@lamp/supabase/client";
 import { Avatar, AvatarFallback, AvatarImage } from "@lamp/ui/avatar";
 import { Button } from "@lamp/ui/button";

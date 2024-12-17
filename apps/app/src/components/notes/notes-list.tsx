@@ -2,6 +2,7 @@
 
 import { MoreHorizontal, Plus } from "lucide-react";
 
+import type { MinimalNote } from "@lamp/db/schema";
 import { Button } from "@lamp/ui/button";
 import {
   DropdownMenu,
@@ -10,19 +11,17 @@ import {
   DropdownMenuTrigger,
 } from "@lamp/ui/dropdown-menu";
 
-import type { Note } from "~/types/notes";
-
 interface NotesListProps {
-  onNoteSelect: (note: Note) => void;
+  notes: MinimalNote[];
+  onNoteSelect: (note: MinimalNote) => void;
 }
 
 export function NotesList({ onNoteSelect }: NotesListProps) {
   // This would normally come from your database/state management
-  const notes: Note[] = [
+  const notes: MinimalNote[] = [
     {
       id: "1",
       title: "First Note",
-      content: "This is my first note",
       createdAt: new Date(),
       updatedAt: new Date(),
     },
@@ -30,10 +29,9 @@ export function NotesList({ onNoteSelect }: NotesListProps) {
   ];
 
   const handleNewNote = () => {
-    const newNote: Note = {
+    const newNote: MinimalNote = {
       id: Date.now().toString(),
       title: "Untitled Note",
-      content: "",
       createdAt: new Date(),
       updatedAt: new Date(),
     };
@@ -65,7 +63,7 @@ export function NotesList({ onNoteSelect }: NotesListProps) {
             <div>
               <h3 className="font-medium">{note.title}</h3>
               <p className="text-sm text-muted-foreground">
-                {new Date(note.updatedAt).toLocaleDateString()}
+                {note.updatedAt?.toLocaleDateString()}
               </p>
             </div>
             <DropdownMenu>
