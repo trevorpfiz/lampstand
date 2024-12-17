@@ -1,27 +1,22 @@
 "use client";
 
-import React, {
-  useCallback,
-  useEffect,
-  useLayoutEffect,
-  useMemo,
-  useRef,
-} from "react";
+import React, { useCallback, useEffect, useLayoutEffect, useRef } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 
-import type { Root } from "~/types/bible";
+import type { IRChapter } from "~/utils/bible/formatting-assembly";
 import { VerseNavigationBar } from "~/components/bible/verse-navigation-bar";
 import { useVerseTracking } from "~/hooks/use-verse-tracking";
 import { useBibleStore } from "~/providers/bible-store-provider";
 import { useLayoutStore } from "~/providers/layout-store-provider";
-import bibleData from "~/public/ordered_bible.json";
 import { renderChapter } from "~/utils/bible/formatting-assembly";
-import { parseBibleData } from "~/utils/bible/parse-bible-data";
 import { verseId } from "~/utils/bible/verse";
 
-const BibleViewer: React.FC = () => {
+interface BibleViewerClientProps {
+  chapters: IRChapter[];
+}
+
+function BibleViewerClient({ chapters }: BibleViewerClientProps) {
   const parentRef = useRef<HTMLDivElement>(null);
-  const chapters = useMemo(() => parseBibleData(bibleData as Root), []);
   const currentVerse = useBibleStore((state) => state.currentVerse);
 
   const isHydrated = useLayoutStore((state) => state.isHydrated);
@@ -40,14 +35,15 @@ const BibleViewer: React.FC = () => {
 
   useVerseTracking({ containerRef: parentRef });
 
-  // TODO: improve this
   const scrollToChapterAndVerse = useCallback(
     (chapterIndex: number, verse?: string, initial?: boolean) => {
       virtualizer.scrollToIndex(chapterIndex, { align: "start" });
 
       setTimeout(() => {
         if (verse && parentRef.current) {
-          const el = document.querySelector(`[data-verse-id='${verse}']`);
+          const el = parentRef.current.querySelector(
+            `[data-verse-id='${verse}']`,
+          );
           if (el instanceof HTMLElement) {
             const parentRect = parentRef.current.getBoundingClientRect();
             const elRect = el.getBoundingClientRect();
@@ -68,7 +64,6 @@ const BibleViewer: React.FC = () => {
   // Perform initial scroll after hydration and only if not done already
   useLayoutEffect(() => {
     if (initialScrollDone || !isHydrated) return;
-    console.log("running initial scroll", initialScrollDone);
     requestAnimationFrame(() => {
       const chapterIndex = chapters.findIndex(
         (ch) =>
@@ -80,7 +75,6 @@ const BibleViewer: React.FC = () => {
         const verse = verseId(currentVerse);
         scrollToChapterAndVerse(chapterIndex, verse, true);
       } else {
-        // If we can't find the desired verse, still mark initialScrollDone
         setInitialScrollDone(true);
       }
     });
@@ -274,6 +268,6 @@ const BibleViewer: React.FC = () => {
       </div>
     </div>
   );
-};
+}
 
-export default BibleViewer;
+export { BibleViewerClient };
