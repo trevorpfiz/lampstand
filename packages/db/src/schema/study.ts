@@ -20,7 +20,9 @@ export const Study = createTable(
     title: t.varchar({ length: 256 }).notNull(),
 
     createdAt: t.timestamp().defaultNow().notNull(),
-    updatedAt: t.timestamp().defaultNow().notNull(),
+    updatedAt: t
+      .timestamp({ mode: "date", withTimezone: true })
+      .$onUpdateFn(() => new Date()),
   }),
   (table) => [
     index("study_profile_id_idx").on(table.profileId),

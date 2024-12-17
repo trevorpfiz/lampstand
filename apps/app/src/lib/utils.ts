@@ -1,12 +1,12 @@
 import type {
   CoreAssistantMessage,
+  CoreMessage,
   CoreToolMessage,
   Message,
   ToolInvocation,
-} from "ai";
-
+} from "@lamp/ai";
 import type { Message as DBMessage } from "@lamp/db/schema";
-import type { User } from "@lamp/supabase/types";
+import type { User } from "@lamp/supabase";
 
 export function getNameFromUser(user: User) {
   const meta = user.user_metadata;
@@ -169,6 +169,7 @@ export function sanitizeUIMessages(messages: Message[]): Message[] {
   );
 }
 
-export function getMostRecentUserMessage(messages: Message[]) {
-  return messages.filter((message) => message.role === "user").pop();
+export function getMostRecentUserMessage(messages: CoreMessage[]) {
+  const userMessages = messages.filter((message) => message.role === "user");
+  return userMessages.at(-1);
 }

@@ -21,7 +21,7 @@ export const Chat = createTable(
       .uuid()
       .notNull()
       .references(() => Study.id, { onDelete: "cascade" }),
-    title: t.varchar({ length: 256 }).notNull(),
+    title: t.varchar({ length: 256 }).notNull().default("New Chat"),
     visibility: t
       .varchar({ enum: ["public", "private"] })
       .notNull()
@@ -75,6 +75,7 @@ export const updateChatParams = baseSchema
     id: baseSchema.shape.id,
   });
 export const chatIdSchema = baseSchema.pick({ id: true });
+export const chatVisibilitySchema = baseSchema.pick({ visibility: true });
 
 // Types for API
 export type Chat = typeof Chat.$inferSelect;
@@ -82,3 +83,4 @@ export type NewChat = z.infer<typeof insertChatSchema>;
 export type NewChatParams = z.infer<typeof insertChatParams>;
 export type UpdateChatParams = z.infer<typeof updateChatParams>;
 export type ChatId = z.infer<typeof chatIdSchema>["id"];
+export type ChatVisibility = z.infer<typeof chatVisibilitySchema>["visibility"];

@@ -2,8 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
-import { useChat } from "ai/react";
 import { AnimatePresence } from "motion/react";
+
+import { useChat } from "@lamp/ai/react";
 
 import { ChatInput } from "~/components/chat/chat-input";
 import { ChatMessages } from "~/components/chat/chat-messages";
@@ -16,21 +17,25 @@ export function ChatPanel() {
   const studyId = pathname.split("/").pop();
 
   // Query existing chats and messages
-  const { data: chatData } = api.chat.byStudy.useQuery(
-    { studyId: studyId ?? "" },
-    { enabled: !!studyId },
-  );
+  const { data: chatData, isLoading: isLoadingChats } =
+    api.chat.byStudy.useQuery(
+      { studyId: studyId ?? "" },
+      { enabled: !!studyId },
+    );
 
   // Get the most recent chat if it exists
-  const latestChat = chatData?.chats[0] ?? null;
+  const latestChat = chatData?.chats[0];
 
   // Query messages for the latest chat
-  const { data: messageData } = api.message.byChatId.useQuery(
-    { chatId: latestChat?.id ?? "" },
-    { enabled: !!latestChat?.id },
-  );
+  const { data: messageData, isLoading: isLoadingMessages } =
+    api.message.byChatId.useQuery(
+      { chatId: latestChat?.id ?? "" },
+      { enabled: !!latestChat?.id },
+    );
 
-  const uiMessages = convertToUIMessages(messageData?.messages ?? []);
+  const initialMessages = messageData?.messages
+    ? convertToUIMessages(messageData.messages)
+    : undefined;
 
   const {
     messages,
@@ -47,14 +52,7 @@ export function ChatPanel() {
       studyId,
       chatId: latestChat?.id,
     },
-    initialMessages: uiMessages ?? [
-      {
-        id: "welcome",
-        role: "assistant",
-        content:
-          "Hello! I'm here to help you study the Bible. What would you like to know?",
-      },
-    ],
+    initialMessages: initialMessages,
   });
 
   const [isToolbarVisible, setIsToolbarVisible] = useState(false);
@@ -69,13 +67,21 @@ export function ChatPanel() {
     }
   }, [input]);
 
+  const isLoadingAny = isLoadingChats || isLoadingMessages;
+  const hasNoMessages = messages.length === 0 && !isLoadingAny;
+
   return (
     <div className="flex h-full flex-col pr-0.5">
-      <ChatMessages messages={messages} />
+      <ChatMessages
+        messages={messages}
+        isLoading={isLoadingAny}
+        showWatermark={hasNoMessages}
+      />
 
       <div className="sticky inset-x-0 bottom-0">
         <div className="relative z-10 mx-auto w-full max-w-3xl bg-background px-2 pb-0 sm:px-3 md:px-4">
           <div className="relative">
+            {/* TODO: Add scroll button */}
             <AnimatePresence>
               <Toolbar
                 isToolbarVisible={isToolbarVisible}
@@ -87,11 +93,10 @@ export function ChatPanel() {
                 chatInputHeight={chatInputHeight}
               />
             </AnimatePresence>
-
             <div ref={chatInputRef} className="rounded-b-xl">
               <ChatInput
                 input={input}
-                isLoading={isLoading}
+                isLoading={isLoading || isLoadingChats || isLoadingMessages}
                 onChange={handleInputChange}
                 onSubmit={handleSubmit}
               />

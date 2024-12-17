@@ -4,25 +4,25 @@
   "version": "0.1.0",
   "type": "module",
   "exports": {
-    "./server": {
-      "types": "./dist/clients/server.d.ts",
-      "default": "./src/clients/server.ts"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./src/index.ts"
     },
-    "./client": {
-      "types": "./dist/clients/client.d.ts",
-      "default": "./src/clients/client.ts"
+    "./react": {
+      "types": "./dist/lib/react.d.ts",
+      "default": "./src/lib/react.ts"
     },
-    "./middleware": {
-      "types": "./dist/clients/middleware.d.ts",
-      "default": "./src/clients/middleware.ts"
+    "./components": {
+      "types": "./dist/components/index.d.ts",
+      "default": "./src/components/index.ts"
     },
-    "./types": {
-      "types": "./dist/types/index.d.ts",
-      "default": "./src/types/index.ts"
+    "./models": {
+      "types": "./dist/config/models.d.ts",
+      "default": "./src/config/models.ts"
     },
-    "./config/routes": {
-      "types": "./dist/config/routes.d.ts",
-      "default": "./src/config/routes.ts"
+    "./prompts": {
+      "types": "./dist/config/prompts.d.ts",
+      "default": "./src/config/prompts.ts"
     }
   },
   "scripts": {

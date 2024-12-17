@@ -58,7 +58,6 @@ export const studyRouter = {
         .update(Study)
         .set({
           title,
-          updatedAt: new Date(),
         })
         .where(and(eq(Study.id, id), eq(Study.profileId, user.id)))
         .returning();

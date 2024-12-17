@@ -1,9 +1,8 @@
 import type { TRPCRouterRecord } from "@trpc/server";
-import type { CoreMessage } from "ai";
 import { and, desc, eq } from "drizzle-orm";
 import { z } from "zod";
 
-import { Chat, insertChatParams, updateChatParams } from "@lamp/db/schema";
+import { Chat, chatVisibilitySchema, insertChatParams } from "@lamp/db/schema";
 
 import { protectedProcedure } from "../trpc";
 
@@ -30,22 +29,37 @@ export const chatRouter = {
 
       const chat = await db.query.Chat.findFirst({
         where: and(eq(Chat.id, id), eq(Chat.profileId, user.id)),
+        with: {
+          messages: true,
+        },
       });
 
       return { chat };
     }),
 
+  byUser: protectedProcedure.query(async ({ ctx }) => {
+    const { db, user } = ctx;
+
+    const chats = await db.query.Chat.findMany({
+      where: eq(Chat.profileId, user.id),
+      orderBy: desc(Chat.createdAt),
+    });
+
+    return { chats };
+  }),
+
   create: protectedProcedure
     .input(insertChatParams)
     .mutation(async ({ ctx, input }) => {
       const { db, user } = ctx;
-      const { studyId, messages } = input;
+      const { studyId, title, visibility } = input;
 
       const [chat] = await db
         .insert(Chat)
         .values({
           studyId,
-          messages: messages as CoreMessage[], // TODO: fix this
+          title,
+          visibility,
           profileId: user.id,
         })
         .returning();
@@ -53,17 +67,16 @@ export const chatRouter = {
       return { chat };
     }),
 
-  update: protectedProcedure
-    .input(updateChatParams)
+  updateVisibility: protectedProcedure
+    .input(chatVisibilitySchema.extend({ id: z.string() }))
     .mutation(async ({ ctx, input }) => {
       const { db, user } = ctx;
-      const { id, messages } = input;
+      const { id, visibility } = input;
 
       const [chat] = await db
         .update(Chat)
         .set({
-          messages: messages as CoreMessage[], // TODO: fix this
-          updatedAt: new Date(),
+          visibility,
         })
         .where(and(eq(Chat.id, id), eq(Chat.profileId, user.id)))
         .returning();

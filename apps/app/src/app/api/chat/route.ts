@@ -1,44 +1,196 @@
-import type { Message } from "ai";
-import { openai } from "@ai-sdk/openai";
-import { convertToCoreMessages, streamText } from "ai";
+import type { Message } from "@lamp/ai";
+import type { Chat } from "@lamp/db/schema";
+import {
+  convertToCoreMessages,
+  customModel,
+  StreamData,
+  streamText,
+} from "@lamp/ai";
+import { DEFAULT_MODEL_NAME, models } from "@lamp/ai/models";
+import { systemPrompt } from "@lamp/ai/prompts";
+import {
+  createChat,
+  deleteChatById,
+  getChatById,
+  saveMessages,
+} from "@lamp/db/queries";
+import { createClient } from "@lamp/supabase/server";
 
-import { createChat, updateChat } from "~/lib/actions/chat";
+import { generateTitleFromUserMessage } from "~/lib/actions/chat";
+import {
+  generateUUID,
+  getMostRecentUserMessage,
+  sanitizeResponseMessages,
+} from "~/lib/utils";
 
-// Allow streaming responses up to 30 seconds
 export const maxDuration = 30;
 
 export async function POST(req: Request) {
-  const { messages, studyId, chatId } = (await req.json()) as {
+  const {
+    messages,
+    studyId,
+    chatId,
+    modelId = DEFAULT_MODEL_NAME,
+  } = (await req.json()) as {
     messages: Message[];
     studyId: string;
     chatId?: string;
+    modelId?: string;
   };
 
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) {
+    return new Response("Unauthorized", { status: 401 });
+  }
+
+  const model = models.find((m) => m.id === modelId);
+
+  if (!model) {
+    return new Response("Model not found", { status: 404 });
+  }
+
   const coreMessages = convertToCoreMessages(messages);
+  const userMessage = getMostRecentUserMessage(coreMessages);
+
+  if (!userMessage) {
+    console.log("No user message found");
+    return new Response("No user message found", { status: 400 });
+  }
+
+  interface ChatResponse {
+    chat: Chat | undefined;
+  }
+
+  let chatData: ChatResponse = { chat: undefined };
+
+  if (chatId) {
+    // If chatId provided, try to get existing chat
+    chatData = await getChatById({ chatId, userId: user.id });
+  }
+
+  // Create new chat if either no chatId was provided or chat lookup failed
+  if (!chatId || !chatData.chat) {
+    const title = await generateTitleFromUserMessage({ message: userMessage });
+    chatData = await createChat({
+      newChat: { studyId, title },
+      userId: user.id,
+    });
+
+    if (!chatData.chat) {
+      return new Response("Failed to create chat", { status: 500 });
+    }
+  }
+
+  const chat = chatData.chat;
+
+  const userMessageId = generateUUID();
+
+  console.log("chatData", chatData);
+
+  await saveMessages({
+    messages: [
+      {
+        ...userMessage,
+        content: userMessage.content,
+        id: userMessageId,
+        chatId: chat.id,
+      },
+    ],
+  });
+
+  const streamingData = new StreamData();
+
+  streamingData.append({
+    type: "user-message-id",
+    content: userMessageId,
+  });
 
   const result = streamText({
-    model: openai("gpt-4o-mini"),
-    system:
-      "You are a helpful Bible study assistant. Help users understand Biblical concepts, passages, and their historical context. Always strive to be accurate and respectful.",
+    model: customModel(model.apiIdentifier),
+    system: systemPrompt,
     messages: coreMessages,
+    maxSteps: 5,
+    // experimental_activeTools: [],
+    // tools: {},
     onFinish: async ({ response }) => {
-      const newMessages = response.messages;
+      if (user.id) {
+        try {
+          const responseMessagesWithoutIncompleteToolCalls =
+            sanitizeResponseMessages(response.messages);
 
-      if (chatId) {
-        // Update existing chat with new messages
-        await updateChat({
-          id: chatId,
-          messages: newMessages,
-        });
-      } else {
-        // Create new chat with all messages
-        await createChat({
-          studyId,
-          messages: [...messages, ...newMessages],
-        });
+          await saveMessages({
+            messages: responseMessagesWithoutIncompleteToolCalls.map(
+              (message) => {
+                const messageId = generateUUID();
+
+                if (message.role === "assistant") {
+                  streamingData.appendMessageAnnotation({
+                    messageIdFromServer: messageId,
+                  });
+                }
+
+                return {
+                  id: messageId,
+                  chatId: chat.id,
+                  role: message.role,
+                  content: message.content,
+                };
+              },
+            ),
+          });
+        } catch (error) {
+          console.error("Failed to save chat", error);
+        }
       }
+
+      void streamingData.close();
+    },
+    experimental_telemetry: {
+      isEnabled: true,
+      functionId: "stream-text",
     },
   });
 
-  return result.toDataStreamResponse();
+  return result.toDataStreamResponse({
+    data: streamingData,
+  });
+}
+
+export async function DELETE(request: Request) {
+  const { searchParams } = new URL(request.url);
+  const id = searchParams.get("id");
+
+  if (!id) {
+    return new Response("Not Found", { status: 404 });
+  }
+
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) {
+    return new Response("Unauthorized", { status: 401 });
+  }
+
+  try {
+    const { chat } = await getChatById({ chatId: id, userId: user.id });
+
+    if (!chat) {
+      return new Response("Chat not found", { status: 404 });
+    }
+
+    // Delete chat will cascade delete messages due to foreign key constraint
+    await deleteChatById({ chatId: id, userId: user.id });
+
+    return new Response("Chat deleted", { status: 200 });
+  } catch (error) {
+    return new Response("An error occurred while processing your request", {
+      status: 500,
+    });
+  }
 }

@@ -15,6 +15,10 @@
     "./schema": {
       "types": "./dist/schema/index.d.ts",
       "default": "./src/schema/index.ts"
+    },
+    "./queries": {
+      "types": "./dist/queries/index.d.ts",
+      "default": "./src/queries/index.ts"
     }
   },
   "license": "MIT",
@@ -39,6 +43,7 @@
     "drizzle-orm": "^0.38.0",
     "drizzle-zod": "^0.6.0",
     "pg": "^8.13.1",
+    "server-only": "^0.0.1",
     "zod": "catalog:"
   },
   "devDependencies": {

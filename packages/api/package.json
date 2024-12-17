@@ -38,11 +38,11 @@
     "zod": "catalog:"
   },
   "devDependencies": {
+    "@lamp/ai": "workspace:*",
     "@lamp/eslint-config": "workspace:*",
     "@lamp/prettier-config": "workspace:*",
     "@lamp/supabase": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
-    "ai": "catalog:",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"

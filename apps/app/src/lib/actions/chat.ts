@@ -1,130 +1,56 @@
 "use server";
 
-import type { Message } from "ai";
-import { auth } from "@/auth";
-import { and, desc, eq } from "drizzle-orm";
+import { cookies } from "next/headers";
 import { z } from "zod";
 
-import { db } from "~/db";
-import { Chat, Message as DbMessage } from "~/db/schema";
-import { generateUUID } from "~/lib/utils";
+import type { CoreUserMessage } from "@lamp/ai";
+import { customModel, generateText } from "@lamp/ai";
+import { updateChatVisiblityById } from "@lamp/db/queries";
+import { chatIdSchema, chatVisibilitySchema } from "@lamp/db/schema";
+import { createClient } from "@lamp/supabase/server";
 
-export async function createChat({
-  studyId,
-  messages,
-}: {
-  studyId: string;
-  messages: Message[];
-}) {
-  const session = await auth();
+import { actionClient } from "~/lib/safe-action";
 
-  if (!session?.user?.id) {
-    throw new Error("Unauthorized");
-  }
-
-  const chatId = generateUUID();
-
-  // Create chat
-  await db.insert(Chat).values({
-    id: chatId,
-    profileId: session.user.id,
-    studyId,
-    title: messages[0]?.content ?? "New Chat",
-    visibility: "private",
+export const saveModelId = actionClient
+  .schema(z.object({ model: z.string() }))
+  .action(async ({ parsedInput: { model } }) => {
+    const cookieStore = await cookies();
+    cookieStore.set("model-id", model);
   });
 
-  // Create messages
-  await db.insert(DbMessage).values(
-    messages.map((message) => ({
-      id: generateUUID(),
-      chatId,
-      role: message.role,
-      content: message.content,
-      createdAt: new Date(),
-    })),
-  );
+export async function generateTitleFromUserMessage({
+  message,
+}: {
+  message: CoreUserMessage;
+}) {
+  const { text: title } = await generateText({
+    model: customModel("gpt-4o-mini"),
+    system: `\n
+      - you will generate a short title based on the first message a user begins a conversation with
+      - ensure it is not more than 80 characters long
+      - the title should be a summary of the user's message
+      - do not use quotes or colons`,
+    prompt: JSON.stringify(message),
+  });
 
-  return chatId;
+  return title;
 }
 
-export async function updateChat({
-  id,
-  messages,
-}: {
-  id: string;
-  messages: Message[];
-}) {
-  const session = await auth();
+export const updateChatVisibility = actionClient
+  .schema(z.intersection(chatIdSchema, chatVisibilitySchema))
+  .action(async ({ parsedInput: { id, visibility } }) => {
+    const supabase = await createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
 
-  if (!session?.user?.id) {
-    throw new Error("Unauthorized");
-  }
+    if (!user) {
+      throw new Error("Unauthorized");
+    }
 
-  // Create new messages
-  await db.insert(DbMessage).values(
-    messages.map((message) => ({
-      id: generateUUID(),
+    await updateChatVisiblityById({
       chatId: id,
-      role: message.role,
-      content: message.content,
-      createdAt: new Date(),
-    })),
-  );
-
-  return id;
-}
-
-export async function deleteChat(id: string) {
-  const session = await auth();
-
-  if (!session?.user?.id) {
-    throw new Error("Unauthorized");
-  }
-
-  await db.delete(Chat).where(eq(Chat.id, id));
-}
-
-export async function updateChatVisibility({
-  id,
-  visibility,
-}: {
-  id: string;
-  visibility: "public" | "private";
-}) {
-  const session = await auth();
-
-  if (!session?.user?.id) {
-    throw new Error("Unauthorized");
-  }
-
-  await db.update(Chat).set({ visibility }).where(eq(Chat.id, id));
-}
-
-export async function getChatsByStudy(studyId: string) {
-  const session = await auth();
-
-  if (!session?.user?.id) {
-    throw new Error("Unauthorized");
-  }
-
-  const chats = await db.query.Chat.findMany({
-    where: and(eq(Chat.studyId, studyId), eq(Chat.profileId, session.user.id)),
-    orderBy: desc(Chat.createdAt),
+      visibility,
+      userId: user.id,
+    });
   });
-
-  return { chats };
-}
-
-export async function getChatById(id: string) {
-  const session = await auth();
-
-  if (!session?.user?.id) {
-    throw new Error("Unauthorized");
-  }
-
-  const chat = await db.query.Chat.findFirst({
-    where: and(eq(Chat.id, id), eq(Chat.profileId, session.user.id)),
-  });
-
-  return { chat };
-}

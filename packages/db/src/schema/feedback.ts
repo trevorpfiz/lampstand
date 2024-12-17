@@ -18,7 +18,9 @@ export const Feedback = createTable(
     content: t.text().notNull(),
 
     createdAt: t.timestamp().defaultNow().notNull(),
-    updatedAt: t.timestamp().defaultNow().notNull(),
+    updatedAt: t
+      .timestamp({ mode: "date", withTimezone: true })
+      .$onUpdateFn(() => new Date()),
   }),
   (table) => [
     index("feedback_profile_id_idx").on(table.profileId),

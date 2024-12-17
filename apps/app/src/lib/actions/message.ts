@@ -1,59 +1,23 @@
-import { auth } from "@/auth";
-import { and, asc, eq } from "drizzle-orm";
+import { z } from "zod";
 
-import { db } from "~/db";
-import { Message } from "~/db/schema";
+import {
+  deleteMessagesByChatIdAfterTimestamp,
+  getMessageById,
+} from "@lamp/db/queries";
 
-export async function getMessagesByChatId(chatId: string) {
-  const session = await auth();
+import { actionClient } from "~/lib/safe-action";
 
-  if (!session?.user?.id) {
-    throw new Error("Unauthorized");
-  }
+export const deleteTrailingMessages = actionClient
+  .schema(z.object({ id: z.string() }))
+  .action(async ({ parsedInput: { id } }) => {
+    const { message } = await getMessageById({ id });
 
-  const messages = await db
-    .select()
-    .from(Message)
-    .where(eq(Message.chatId, chatId))
-    .orderBy(asc(Message.createdAt));
+    if (!message) {
+      throw new Error("Message not found");
+    }
 
-  return { messages };
-}
-
-export async function deleteMessagesByChatId(chatId: string) {
-  const session = await auth();
-
-  if (!session?.user?.id) {
-    throw new Error("Unauthorized");
-  }
-
-  await db.delete(Message).where(eq(Message.chatId, chatId));
-}
-
-export async function createMessage({
-  chatId,
-  role,
-  content,
-}: {
-  chatId: string;
-  role: string;
-  content: any;
-}) {
-  const session = await auth();
-
-  if (!session?.user?.id) {
-    throw new Error("Unauthorized");
-  }
-
-  const [message] = await db
-    .insert(Message)
-    .values({
-      chatId,
-      role,
-      content,
-      createdAt: new Date(),
-    })
-    .returning();
-
-  return message;
-}
+    await deleteMessagesByChatIdAfterTimestamp({
+      chatId: message.chatId,
+      timestamp: message.createdAt,
+    });
+  });
