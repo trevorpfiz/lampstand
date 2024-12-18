@@ -71,7 +71,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                   </Button>
                 </TooltipTrigger>
                 <TooltipContent className="px-2 py-1 text-xs">
-                  New Study
+                  New study
                 </TooltipContent>
               </Tooltip>
             </div>
