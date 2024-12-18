@@ -111,6 +111,29 @@ export async function updateChatVisiblityById({
   }
 }
 
+export async function updateChatTitleById({
+  chatId,
+  title,
+  userId,
+}: {
+  chatId: ChatId;
+  title: string;
+  userId: ProfileId;
+}) {
+  try {
+    const [chat] = await db
+      .update(Chat)
+      .set({ title })
+      .where(and(eq(Chat.id, chatId), eq(Chat.profileId, userId)))
+      .returning();
+
+    return { chat };
+  } catch (error) {
+    console.error("Failed to update chat title in database");
+    throw error;
+  }
+}
+
 // delete
 export async function deleteChatById({
   chatId,

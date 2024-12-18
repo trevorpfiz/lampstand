@@ -34,6 +34,22 @@ export async function getMessagesByChatId({ id }: { id: string }) {
   }
 }
 
+export async function getFirstMessageByChatId({ id }: { id: string }) {
+  try {
+    const message = await db.query.Message.findFirst({
+      where: eq(Message.chatId, id),
+      orderBy: asc(Message.createdAt),
+    });
+    return { message };
+  } catch (error) {
+    console.error(
+      "Failed to get first message by chat id from database",
+      error,
+    );
+    throw error;
+  }
+}
+
 // create
 export async function saveMessages({ messages }: { messages: NewMessage[] }) {
   try {

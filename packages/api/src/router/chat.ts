@@ -84,6 +84,26 @@ export const chatRouter = {
       return { chat };
     }),
 
+  updateTitle: protectedProcedure
+    .input(
+      z.object({
+        id: z.string(),
+        title: z.string(),
+      }),
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { db, user } = ctx;
+      const { id, title } = input;
+
+      const [chat] = await db
+        .update(Chat)
+        .set({ title })
+        .where(and(eq(Chat.id, id), eq(Chat.profileId, user.id)))
+        .returning();
+
+      return { chat };
+    }),
+
   delete: protectedProcedure
     .input(z.object({ id: z.string() }))
     .mutation(async ({ ctx, input }) => {

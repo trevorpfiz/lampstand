@@ -6,6 +6,7 @@ import { AnimatePresence } from "motion/react";
 
 import type { Chat } from "@lamp/db/schema";
 import { useChat } from "@lamp/ai/react";
+import { toast } from "@lamp/ui/sonner";
 
 import { ChatHeader } from "~/components/chat/chat-header";
 import { ChatInput } from "~/components/chat/chat-input";
@@ -20,23 +21,29 @@ interface ChatPanelProps {
 
 export function ChatPanel({ initialChats }: ChatPanelProps) {
   const { studyId } = useParams<{ studyId: string }>();
-  const [selectedChatId, setSelectedChatId] = useState<string | undefined>(
-    initialChats?.[0]?.id,
+  const utils = api.useUtils();
+
+  // Fetch chats dynamically so we always have updated list
+  const { data: chatsData } = api.chat.byStudy.useQuery(
+    { studyId },
+    { initialData: { chats: initialChats ?? [] } },
   );
 
-  // Fetch messages for the currently selected chat
+  const chats = chatsData.chats;
+
+  const [selectedChatId, setSelectedChatId] = useState<string | undefined>(
+    chats[0]?.id,
+  );
+
+  // Use onSuccess to handle message updates rather than a useEffect
   const { data: messageData, isLoading: isLoadingMessages } =
     api.message.byChatId.useQuery(
       { chatId: selectedChatId ?? "" },
-      { enabled: !!selectedChatId },
+      {
+        enabled: !!selectedChatId,
+      },
     );
 
-  // Convert fetched messages to UI format
-  const initialMessages = messageData?.messages
-    ? convertToUIMessages(messageData.messages)
-    : [];
-
-  // useChat initialization
   const {
     messages,
     setMessages,
@@ -52,15 +59,26 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
       studyId,
       chatId: selectedChatId,
     },
-    initialMessages: [],
+    onFinish() {
+      void utils.message.byChatId.invalidate({
+        chatId: selectedChatId ?? "",
+      });
+      void utils.chat.byStudy.invalidate({ studyId });
+    },
   });
 
-  // Update messages on chat switch
   useEffect(() => {
-    if (initialMessages) {
-      setMessages(initialMessages);
+    if (!isLoadingMessages && messageData?.messages && selectedChatId) {
+      const newMsgs = convertToUIMessages(messageData.messages);
+      setMessages(newMsgs);
     }
-  }, [initialMessages, setMessages]);
+  }, [
+    isLoadingMessages,
+    messageData,
+    messageData?.messages,
+    selectedChatId,
+    setMessages,
+  ]);
 
   const [isToolbarVisible, setIsToolbarVisible] = useState(false);
   const [chatInputHeight, setChatInputHeight] = useState(0);
@@ -72,33 +90,84 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
     }
   }, [input]);
 
-  const isLoadingAny = (!initialChats && !selectedChatId) || isLoadingMessages;
+  const isLoadingAny = isLoadingMessages;
   const hasNoMessages = messages.length === 0 && !isLoadingAny;
+
+  // Add create chat mutation
+  const createChatMutation = api.chat.create.useMutation({
+    onSuccess: (data) => {
+      // Invalidate the chat list query to refresh the data
+      void utils.chat.byStudy.invalidate();
+      // Select the newly created chat
+      setSelectedChatId(data.chat?.id);
+      // Reset messages for the new chat
+      setMessages([]);
+    },
+    onError: () => {
+      toast.error("Failed to create new chat");
+    },
+  });
+
+  // Add delete chat mutation
+  const deleteChatMutation = api.chat.delete.useMutation({
+    onSuccess: async () => {
+      await utils.chat.byStudy.invalidate({ studyId });
+      // After deletion, pick the next chat
+      const updatedChats = utils.chat.byStudy.getData({ studyId })?.chats ?? [];
+      if (updatedChats.length > 0) {
+        // Find the closest chat to the deleted one, or default to first
+        const idx = updatedChats.findIndex((c) => c.id === selectedChatId);
+        // If not found, selectedChatId was deleted, pick next one
+        const nextChat =
+          idx >= 0 && idx < updatedChats.length
+            ? updatedChats[idx]
+            : updatedChats[0];
+        setSelectedChatId(nextChat?.id);
+      } else {
+        setSelectedChatId(undefined);
+        setMessages([]);
+      }
+    },
+    onError: () => {
+      toast.error("Failed to delete chat");
+    },
+  });
 
   // Handlers for new chat and delete chat
   const handleNewChat = () => {
-    // Implement logic to create a new chat
-    // e.g. call a mutation, then add it to initialChats and update selectedChatId
+    createChatMutation.mutate({
+      studyId,
+      title: "New Chat",
+    });
   };
 
   const handleDeleteChat = () => {
-    // Implement logic to delete the currently selected chat
-    // e.g. call a mutation, then remove it from initialChats and update selectedChatId
+    if (!selectedChatId) return;
+
+    if (
+      window.confirm(
+        "Are you sure you want to delete this chat? This action cannot be undone.",
+      )
+    ) {
+      deleteChatMutation.mutate({ id: selectedChatId });
+    }
   };
 
   return (
     <div className="flex h-full flex-col">
-      <ChatHeader
-        initialChats={initialChats}
-        selectedChatId={selectedChatId}
-        onSelectChat={(chatId) => setSelectedChatId(chatId)}
-        onNewChat={handleNewChat}
-        onDeleteChat={handleDeleteChat}
-      />
+      {selectedChatId && (
+        <ChatHeader
+          initialChats={chats}
+          selectedChatId={selectedChatId}
+          onSelectChat={(chatId) => setSelectedChatId(chatId)}
+          onNewChat={handleNewChat}
+          onDeleteChat={handleDeleteChat}
+        />
+      )}
 
       <ChatMessages
         messages={messages}
-        isLoading={isLoadingAny || isLoading}
+        isLoading={isLoadingAny}
         showWatermark={hasNoMessages}
       />
 

@@ -12,7 +12,9 @@ import {
   createChat,
   deleteChatById,
   getChatById,
+  getFirstMessageByChatId,
   saveMessages,
+  updateChatTitleById,
 } from "@lamp/db/queries";
 import { createClient } from "@lamp/supabase/server";
 
@@ -88,6 +90,22 @@ export async function POST(req: Request) {
   const chat = chatData.chat;
 
   const userMessageId = generateUUID();
+
+  // Check if this is the first message using our query function
+  const { message: firstMessage } = await getFirstMessageByChatId({
+    id: chat.id,
+  });
+  const isFirstMessage = !firstMessage;
+
+  // If this is first message, generate and update title
+  if (isFirstMessage) {
+    const title = await generateTitleFromUserMessage({ message: userMessage });
+    await updateChatTitleById({
+      chatId: chat.id,
+      title,
+      userId: user.id,
+    });
+  }
 
   console.log("chatData", chatData);
 

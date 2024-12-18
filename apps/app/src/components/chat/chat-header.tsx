@@ -113,6 +113,7 @@ export function ChatHeader({
               variant="ghost"
               className="h-6 w-6 rounded-lg shadow-none"
               aria-label="Open menu"
+              disabled={!selectedChatId}
             >
               <EllipsisVertical size={16} strokeWidth={2} aria-hidden="true" />
             </Button>
