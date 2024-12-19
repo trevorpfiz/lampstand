@@ -152,7 +152,7 @@ const VerseBlockComp: React.FC<VerseBlockProps> = ({
             {verse.parts.map((part, pi) => {
               const footnoteSups = part.footnotes.map((fn, fi) => (
                 <Tooltip key={fi}>
-                  <TooltipTrigger>
+                  <TooltipTrigger className="pl-[1px]">
                     <sup className="inline-block cursor-pointer text-xs font-semibold italic text-blue-500">
                       {fn.letter ?? fn.ref}
                     </sup>
