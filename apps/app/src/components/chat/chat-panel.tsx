@@ -59,6 +59,7 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
       studyId,
       chatId: selectedChatId,
     },
+    initialMessages: [],
     onFinish() {
       void utils.message.byChatId.invalidate({
         chatId: selectedChatId ?? "",
@@ -153,21 +154,25 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
     }
   };
 
+  useEffect(() => {
+    if (chats.length > 0 && !selectedChatId) {
+      setSelectedChatId(chats[0]?.id);
+    }
+  }, [chats, selectedChatId]);
+
   return (
     <div className="flex h-full flex-col">
-      {selectedChatId && (
-        <ChatHeader
-          initialChats={chats}
-          selectedChatId={selectedChatId}
-          onSelectChat={(chatId) => setSelectedChatId(chatId)}
-          onNewChat={handleNewChat}
-          onDeleteChat={handleDeleteChat}
-        />
-      )}
+      <ChatHeader
+        initialChats={chats}
+        selectedChatId={selectedChatId}
+        onSelectChat={(chatId) => setSelectedChatId(chatId)}
+        onNewChat={handleNewChat}
+        onDeleteChat={handleDeleteChat}
+      />
 
       <ChatMessages
         messages={messages}
-        isLoading={isLoadingAny}
+        isLoading={isLoadingAny && !messages.length}
         showWatermark={hasNoMessages}
       />
 

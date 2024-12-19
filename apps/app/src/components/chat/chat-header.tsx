@@ -18,7 +18,7 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "@lamp/ui/tooltip";
 
 interface ChatHeaderProps {
   initialChats?: Chat[];
-  selectedChatId?: string;
+  selectedChatId?: string | undefined;
   onSelectChat: (chatId: string) => void;
   onNewChat: () => void;
   onDeleteChat: () => void;
@@ -62,78 +62,86 @@ export function ChatHeader({
   }, [onWheel]);
 
   return (
-    <div className="flex w-full flex-row items-center gap-0">
-      <div className="min-w-0 flex-1">
-        <Tabs value={selectedChatId ?? ""} onValueChange={onSelectChat}>
-          <ScrollArea viewportRef={viewportRef}>
-            <TabsList className="h-auto gap-0 rounded-none border-none bg-transparent py-0 pl-0 pr-0.5 text-foreground">
-              {initialChats?.map((chat) => (
-                <TabsTrigger
-                  key={chat.id}
-                  value={chat.id}
-                  className={cn(
-                    "relative min-w-20 max-w-40 flex-shrink-0 rounded-none border-r border-border bg-muted transition-none hover:bg-background hover:text-foreground data-[state=active]:bg-background data-[state=active]:shadow-none data-[state=active]:hover:bg-background",
-                    initialChats.length === 1 &&
-                      "max-w-3xl border-r-0 border-none",
-                  )}
-                  title={chat.title}
+    <div className="flex min-h-0 w-full flex-row items-center gap-0">
+      {selectedChatId && (
+        <>
+          <div className="min-w-0 flex-1">
+            <Tabs value={selectedChatId} onValueChange={onSelectChat}>
+              <ScrollArea viewportRef={viewportRef}>
+                <TabsList className="h-auto gap-0 rounded-none border-none bg-transparent py-0 pl-0 pr-0.5 text-foreground">
+                  {initialChats?.map((chat) => (
+                    <TabsTrigger
+                      key={chat.id}
+                      value={chat.id}
+                      className={cn(
+                        "relative min-w-20 max-w-40 flex-shrink-0 rounded-none border-r border-border bg-muted transition-none hover:bg-background hover:text-foreground data-[state=active]:bg-background data-[state=active]:shadow-none data-[state=active]:hover:bg-background",
+                        initialChats.length === 1 &&
+                          "max-w-3xl border-r-0 border-none",
+                      )}
+                      title={chat.title}
+                    >
+                      <span className="truncate">{chat.title}</span>
+                    </TabsTrigger>
+                  ))}
+                </TabsList>
+                <ScrollBar orientation="horizontal" className="pt-1" />
+              </ScrollArea>
+            </Tabs>
+          </div>
+
+          {/* Action buttons */}
+          <div className="flex flex-shrink-0 flex-row items-center gap-0 pl-1 pr-1">
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  aria-label="Add new chat"
+                  onClick={onNewChat}
+                  className="h-6 w-6 rounded-lg shadow-none"
                 >
-                  <span className="truncate">{chat.title}</span>
-                </TabsTrigger>
-              ))}
-            </TabsList>
-            <ScrollBar orientation="horizontal" className="pt-1" />
-          </ScrollArea>
-        </Tabs>
-      </div>
+                  <Plus size={16} strokeWidth={2} aria-hidden="true" />
+                </Button>
+              </TooltipTrigger>
+              <TooltipContent className="px-2 py-1 text-xs">
+                New chat
+              </TooltipContent>
+            </Tooltip>
 
-      {/* Action buttons */}
-      <div className="flex flex-shrink-0 flex-row items-center gap-0 pl-1 pr-1">
-        <Tooltip>
-          <TooltipTrigger asChild>
-            <Button
-              variant="ghost"
-              size="icon"
-              aria-label="Add new chat"
-              onClick={onNewChat}
-              className="h-6 w-6 rounded-lg shadow-none"
-            >
-              <Plus size={16} strokeWidth={2} aria-hidden="true" />
-            </Button>
-          </TooltipTrigger>
-          <TooltipContent className="px-2 py-1 text-xs">
-            New chat
-          </TooltipContent>
-        </Tooltip>
-
-        <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button
-              size="icon"
-              variant="ghost"
-              className="h-6 w-6 rounded-lg shadow-none"
-              aria-label="Open menu"
-              disabled={!selectedChatId}
-            >
-              <EllipsisVertical size={16} strokeWidth={2} aria-hidden="true" />
-            </Button>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent>
-            <DropdownMenuItem
-              className="text-destructive focus:text-destructive"
-              onSelect={onDeleteChat}
-            >
-              <Trash2
-                className="text-destructive"
-                size={16}
-                strokeWidth={2}
-                aria-hidden="true"
-              />
-              <span>Delete chat</span>
-            </DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
-      </div>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button
+                  size="icon"
+                  variant="ghost"
+                  className="h-6 w-6 rounded-lg shadow-none"
+                  aria-label="Open menu"
+                  disabled={!selectedChatId}
+                >
+                  <EllipsisVertical
+                    size={16}
+                    strokeWidth={2}
+                    aria-hidden="true"
+                  />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuItem
+                  className="text-destructive focus:text-destructive"
+                  onSelect={onDeleteChat}
+                >
+                  <Trash2
+                    className="text-destructive"
+                    size={16}
+                    strokeWidth={2}
+                    aria-hidden="true"
+                  />
+                  <span>Delete chat</span>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
+        </>
+      )}
     </div>
   );
 }
