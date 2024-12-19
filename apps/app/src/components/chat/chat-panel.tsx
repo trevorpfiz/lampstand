@@ -13,6 +13,7 @@ import { ChatInput } from "~/components/chat/chat-input";
 import { ChatMessages } from "~/components/chat/chat-messages";
 import { Toolbar } from "~/components/chat/toolbar";
 import { convertToUIMessages } from "~/lib/utils";
+import { useChatStore } from "~/providers/chat-store-provider";
 import { api } from "~/trpc/react";
 
 interface ChatPanelProps {
@@ -22,6 +23,7 @@ interface ChatPanelProps {
 export function ChatPanel({ initialChats }: ChatPanelProps) {
   const { studyId } = useParams<{ studyId: string }>();
   const utils = api.useUtils();
+  const modelId = useChatStore((state) => state.modelId);
 
   // Fetch chats dynamically so we always have updated list
   const { data: chatsData } = api.chat.byStudy.useQuery(
@@ -58,6 +60,7 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
     body: {
       studyId,
       chatId: selectedChatId,
+      modelId,
     },
     initialMessages: [],
     onFinish() {

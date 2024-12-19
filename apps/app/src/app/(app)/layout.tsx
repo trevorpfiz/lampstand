@@ -4,6 +4,7 @@ import { TooltipProvider } from "@lamp/ui/tooltip";
 import { SettingsDialog } from "~/components/settings/settings-dialog";
 import { AppSidebar } from "~/components/sidebar/app-sidebar";
 import { BibleStoreProvider } from "~/providers/bible-store-provider";
+import { ChatStoreProvider } from "~/providers/chat-store-provider";
 import { LayoutStoreProvider } from "~/providers/layout-store-provider";
 import { PanelsStoreProvider } from "~/providers/panels-store-provider";
 import { SettingsDialogStoreProvider } from "~/providers/settings-dialog-store-provider";
@@ -19,13 +20,15 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <PanelsStoreProvider>
             <LayoutStoreProvider>
               <BibleStoreProvider>
-                <TooltipProvider delayDuration={100} skipDelayDuration={300}>
-                  <AppSidebar />
-                  <SidebarInset className="h-screen">
-                    {children}
-                    <SettingsDialog />
-                  </SidebarInset>
-                </TooltipProvider>
+                <ChatStoreProvider>
+                  <TooltipProvider delayDuration={100} skipDelayDuration={300}>
+                    <AppSidebar />
+                    <SidebarInset className="h-screen">
+                      {children}
+                      <SettingsDialog />
+                    </SidebarInset>
+                  </TooltipProvider>
+                </ChatStoreProvider>
               </BibleStoreProvider>
             </LayoutStoreProvider>
           </PanelsStoreProvider>

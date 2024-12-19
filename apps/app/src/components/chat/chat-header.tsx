@@ -74,7 +74,7 @@ export function ChatHeader({
                       key={chat.id}
                       value={chat.id}
                       className={cn(
-                        "relative min-w-20 max-w-40 flex-shrink-0 rounded-none border-r border-border bg-muted transition-none hover:bg-background hover:text-foreground data-[state=active]:bg-background data-[state=active]:shadow-none data-[state=active]:hover:bg-background",
+                        "relative min-w-20 max-w-80 flex-shrink-0 rounded-none border-r border-border bg-muted transition-none hover:bg-background hover:text-foreground data-[state=active]:bg-background data-[state=active]:shadow-none data-[state=active]:hover:bg-background",
                         initialChats.length === 1 &&
                           "max-w-3xl border-r-0 border-none",
                       )}
