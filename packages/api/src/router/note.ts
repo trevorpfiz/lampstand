@@ -89,6 +89,26 @@ export const noteRouter = {
       return { note };
     }),
 
+  rename: protectedProcedure
+    .input(
+      z.object({
+        id: z.string(),
+        title: z.string(),
+      }),
+    )
+    .mutation(async ({ ctx, input }) => {
+      const { db, user } = ctx;
+      const { id, title } = input;
+
+      const [note] = await db
+        .update(Note)
+        .set({ title })
+        .where(and(eq(Note.id, id), eq(Note.profileId, user.id)))
+        .returning();
+
+      return { note };
+    }),
+
   delete: protectedProcedure
     .input(z.object({ id: z.string() }))
     .mutation(async ({ ctx, input }) => {

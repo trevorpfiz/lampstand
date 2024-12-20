@@ -43,7 +43,7 @@ export function NotesList(props: NotesListProps) {
   const handleNewNote = () => {
     createNoteMutation.mutate({
       studyId,
-      title: "Untitled Note",
+      title: "Untitled",
     });
   };
 

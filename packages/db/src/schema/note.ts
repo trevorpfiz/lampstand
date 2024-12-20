@@ -20,7 +20,7 @@ export const Note = createTable(
       .uuid()
       .notNull()
       .references(() => Study.id, { onDelete: "cascade" }),
-    title: t.varchar({ length: 256 }).notNull(),
+    title: t.varchar({ length: 256 }).notNull().default("Untitled"),
     content: t
       .jsonb()
       .notNull()
