@@ -53,7 +53,15 @@ export async function getFirstMessageByChatId({ id }: { id: string }) {
 // create
 export async function saveMessages({ messages }: { messages: NewMessage[] }) {
   try {
-    const savedMessages = await db.insert(Message).values(messages).returning();
+    const savedMessages = await db
+      .insert(Message)
+      .values(
+        messages.map((msg) => ({
+          ...msg,
+          content: msg.content as any, // TODO: update drizzle-zod when stable
+        })),
+      )
+      .returning();
 
     return { messages: savedMessages };
   } catch (error) {

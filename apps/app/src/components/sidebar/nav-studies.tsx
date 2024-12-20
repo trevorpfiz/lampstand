@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Check, LoaderCircle, MoreHorizontal, Pen, Trash2 } from "lucide-react";
+import { Check, MoreHorizontal, Pen, Trash2 } from "lucide-react";
 
 import {
   DropdownMenu,
@@ -23,6 +23,7 @@ import {
   useSidebar,
 } from "@lamp/ui/sidebar";
 import { toast } from "@lamp/ui/sonner";
+import { Spinner } from "@lamp/ui/spinner";
 
 import { api } from "~/trpc/react";
 
@@ -178,7 +179,7 @@ export function NavStudies() {
                           aria-label="Rename"
                         >
                           {renameMutation.isPending ? (
-                            <LoaderCircle className="h-4 w-4 animate-spin" />
+                            <Spinner />
                           ) : (
                             <Check
                               size={16}
@@ -204,7 +205,7 @@ export const NavStudiesSkeleton = () => {
     <SidebarGroup className="group-data-[collapsible=icon]:hidden">
       <SidebarGroupLabel>Studies</SidebarGroupLabel>
       <div className="flex justify-center py-2">
-        <LoaderCircle className="h-4 w-4 animate-spin" />
+        <Spinner />
       </div>
     </SidebarGroup>
   );

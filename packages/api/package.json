@@ -7,14 +7,6 @@
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./src/index.ts"
-    },
-    "./client": {
-      "types": "./dist/lib/api/client/index.d.ts",
-      "default": "./src/lib/api/client/index.ts"
-    },
-    "./client/react-query": {
-      "types": "./dist/lib/api/client/@tanstack/react-query.gen.d.ts",
-      "default": "./src/lib/api/client/@tanstack/react-query.gen.ts"
     }
   },
   "license": "MIT",

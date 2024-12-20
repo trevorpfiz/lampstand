@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "postcss": "^8.4.49",
-    "tailwind-scrollbar-hide": "^1.1.7",
+    "tailwind-scrollbar-hide": "^2.0.0",
     "tailwindcss": "catalog:tailwind",
     "tailwindcss-animate": "catalog:tailwind"
   },

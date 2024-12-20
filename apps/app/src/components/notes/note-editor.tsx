@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { ArrowLeft, MoreHorizontal } from "lucide-react";
+import { ArrowLeft, Ellipsis, Trash2 } from "lucide-react";
 
 import type { NoteId } from "@lamp/db/schema";
 import { Button } from "@lamp/ui/button";
@@ -11,12 +11,13 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@lamp/ui/dropdown-menu";
+import { toast } from "@lamp/ui/sonner";
+import { Spinner } from "@lamp/ui/spinner";
 
-// import { api } from "~/trpc/react";
+import { api } from "~/trpc/react";
 
 const PlateEditor = dynamic(
-  () =>
-    import("~/components/editor/plate-editor").then((mod) => mod.PlateEditor),
+  () => import("@lamp/plate").then((mod) => mod.PlateEditor),
   { ssr: false },
 );
 
@@ -25,36 +26,84 @@ interface NoteEditorProps {
   onBack: () => void;
 }
 
-export function NoteEditor({ noteId: _noteId, onBack }: NoteEditorProps) {
-  // const { data, isLoading } = api.note.byId.useQuery({ id: noteId });
+export function NoteEditor(props: NoteEditorProps) {
+  const { noteId, onBack } = props;
+  const utils = api.useUtils();
+
+  // Fetch note content
+  const { data, isPending } = api.note.byId.useQuery({ id: noteId });
+
+  // Delete note mutation
+  const deleteNoteMutation = api.note.delete.useMutation({
+    onSuccess: () => {
+      // Invalidate the notes list and go back
+      void utils.note.byStudy.invalidate();
+      onBack();
+    },
+    onError: () => {
+      toast.error("Failed to delete note");
+    },
+  });
+
+  const handleDeleteNote = () => {
+    deleteNoteMutation.mutate({ id: noteId });
+  };
 
   return (
     <div className="flex h-full w-full flex-col overflow-hidden">
-      <div className="sticky top-0 z-50 flex items-center justify-between border-b bg-background px-2 py-1">
+      <div className="sticky top-0 z-50 flex items-center justify-between border-b border-border bg-background px-2 py-1">
         <Button
-          onClick={onBack}
           variant="ghost"
           size="icon"
-          className="h-8 w-8"
+          aria-label="Go back"
+          onClick={onBack}
+          className="h-6 w-6 rounded-lg shadow-none"
         >
-          <ArrowLeft className="h-5 w-5" />
+          <ArrowLeft size={16} strokeWidth={2} aria-hidden="true" />
         </Button>
+
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="ghost" size="icon" className="h-8 w-8">
-              <MoreHorizontal className="h-4 w-4" />
+            <Button
+              size="icon"
+              variant="ghost"
+              className="h-6 w-6 rounded-lg shadow-none"
+              aria-label="Open menu"
+              disabled={!noteId || deleteNoteMutation.isPending}
+            >
+              {deleteNoteMutation.isPending ? (
+                <Spinner />
+              ) : (
+                <Ellipsis size={16} strokeWidth={2} aria-hidden="true" />
+              )}
             </Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent align="end">
-            <DropdownMenuItem>Delete</DropdownMenuItem>
-            <DropdownMenuItem>Share</DropdownMenuItem>
-            <DropdownMenuItem>Export</DropdownMenuItem>
+          <DropdownMenuContent>
+            <DropdownMenuItem
+              className="text-destructive focus:text-destructive"
+              onSelect={handleDeleteNote}
+              disabled={deleteNoteMutation.isPending}
+            >
+              <Trash2
+                className="text-destructive"
+                size={16}
+                strokeWidth={2}
+                aria-hidden="true"
+              />
+              <span>Delete note</span>
+            </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
 
       <div className="flex-1 overflow-auto" data-registry="plate">
-        <PlateEditor />
+        {isPending ? (
+          <div className="flex h-full items-center justify-center">
+            <Spinner />
+          </div>
+        ) : (
+          <PlateEditor initialContent={data?.note?.content} />
+        )}
       </div>
     </div>
   );

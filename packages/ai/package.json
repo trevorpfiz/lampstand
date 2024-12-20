@@ -35,10 +35,10 @@
     "with-env": "dotenv -e ../../.env --"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^1.0.8",
+    "@ai-sdk/openai": "^1.0.10",
     "@lamp/env": "workspace:*",
     "@lamp/logger": "workspace:*",
-    "ai": "^4.0.18",
+    "ai": "catalog:",
     "react": "catalog:react19",
     "react-markdown": "^9.0.1",
     "remark-gfm": "^4.0.0",

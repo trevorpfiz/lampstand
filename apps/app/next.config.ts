@@ -10,7 +10,13 @@ const nextConfig: NextConfig = {
   },
 
   /** Enables hot reloading for local packages without a build step */
-  transpilePackages: ["@lamp/api", "@lamp/db", "@lamp/ui", "@lamp/validators"],
+  transpilePackages: [
+    "@lamp/api",
+    "@lamp/db",
+    "@lamp/ui",
+    "@lamp/validators",
+    "@lamp/plate",
+  ],
 
   // Allow optimizing avatar images from GitHub
   images: {

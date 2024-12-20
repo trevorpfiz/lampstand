@@ -2,12 +2,12 @@
 
 import { useEffect } from "react";
 import Image from "next/image";
-import { LoaderCircle } from "lucide-react";
 
 import type { Message } from "@lamp/ai";
 import { Markdown } from "@lamp/ai/components";
 import { cn } from "@lamp/ui";
 import { ScrollArea } from "@lamp/ui/scroll-area";
+import { Spinner } from "@lamp/ui/spinner";
 
 import { useScrollToBottom } from "~/hooks/use-scroll-to-bottom";
 
@@ -47,7 +47,7 @@ export function ChatMessages({
         >
           {isLoading ? (
             <div className="absolute inset-0 flex items-center justify-center">
-              <LoaderCircle className="h-4 w-4 animate-spin text-muted-foreground" />
+              <Spinner />
             </div>
           ) : showWatermark ? (
             <div className="absolute inset-0 flex items-center justify-center">

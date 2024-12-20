@@ -66,7 +66,7 @@ export function PanelsLayout({ children, chats, notes }: PanelsLayoutProps) {
             id={panel.id}
             order={panel.order}
             defaultSize={panel.size}
-            minSize={15}
+            minSize={10}
           >
             {panel.content}
           </ResizablePanel>

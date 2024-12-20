@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { HelpCircle, LoaderCircle, MessageCircle } from "lucide-react";
+import { HelpCircle, MessageCircle } from "lucide-react";
 
 import { Button } from "@lamp/ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "@lamp/ui/popover";
@@ -11,6 +11,7 @@ import {
   SidebarMenuItem,
 } from "@lamp/ui/sidebar";
 import { toast } from "@lamp/ui/sonner";
+import { Spinner } from "@lamp/ui/spinner";
 import { Textarea } from "@lamp/ui/textarea";
 
 import { api } from "~/trpc/react";
@@ -83,12 +84,7 @@ export function NavFooter() {
                 >
                   {createMutation.isPending ? (
                     <>
-                      <LoaderCircle
-                        className="-ms-1 me-2 animate-spin"
-                        size={16}
-                        strokeWidth={2}
-                        aria-hidden="true"
-                      />
+                      <Spinner className="-ms-1 me-2" />
                       Submitting...
                     </>
                   ) : (

@@ -1,17 +1,35 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
+import type { Message } from "@lamp/ai";
 import { convertToCoreMessages, customModel, streamText } from "@lamp/ai";
+import { DEFAULT_MODEL_NAME, models } from "@lamp/ai/models";
 
 export async function POST(req: NextRequest) {
-  const { messages, model = "gpt-4o-mini", system } = await req.json();
+  const {
+    messages,
+    modelId = DEFAULT_MODEL_NAME,
+    system,
+  } = (await req.json()) as {
+    messages: Message[];
+    modelId?: string;
+    system?: string;
+  };
+
+  const model = models.find((m) => m.id === modelId);
+
+  if (!model) {
+    return new Response("Model not found", { status: 404 });
+  }
+
+  const coreMessages = convertToCoreMessages(messages);
 
   try {
-    const result = await streamText({
-      maxTokens: 2048,
-      messages: convertToCoreMessages(messages),
-      model: customModel(model),
+    const result = streamText({
+      model: customModel(modelId),
       system: system,
+      messages: coreMessages,
+      maxTokens: 2048,
     });
 
     return result.toDataStreamResponse();

@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef } from "react";
-import { EllipsisVertical, Plus, Trash2 } from "lucide-react";
+import { Ellipsis, Plus, Trash2 } from "lucide-react";
 
 import type { Chat } from "@lamp/db/schema";
 import { cn } from "@lamp/ui";
@@ -13,6 +13,7 @@ import {
   DropdownMenuTrigger,
 } from "@lamp/ui/dropdown-menu";
 import { ScrollArea, ScrollBar } from "@lamp/ui/scroll-area";
+import { Spinner } from "@lamp/ui/spinner";
 import { Tabs, TabsList, TabsTrigger } from "@lamp/ui/tabs";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@lamp/ui/tooltip";
 
@@ -22,6 +23,7 @@ interface ChatHeaderProps {
   onSelectChat: (chatId: string) => void;
   onNewChat: () => void;
   onDeleteChat: () => void;
+  isNewChatPending: boolean;
 }
 
 export function ChatHeader({
@@ -30,6 +32,7 @@ export function ChatHeader({
   onSelectChat,
   onNewChat,
   onDeleteChat,
+  isNewChatPending,
 }: ChatHeaderProps) {
   const viewportRef = useRef<HTMLDivElement | null>(null);
 
@@ -84,7 +87,10 @@ export function ChatHeader({
                     </TabsTrigger>
                   ))}
                 </TabsList>
-                <ScrollBar orientation="horizontal" className="pt-1" />
+                <ScrollBar
+                  orientation="horizontal"
+                  className="m-0 h-1 border-none p-0"
+                />
               </ScrollArea>
             </Tabs>
           </div>
@@ -99,8 +105,13 @@ export function ChatHeader({
                   aria-label="Add new chat"
                   onClick={onNewChat}
                   className="h-6 w-6 rounded-lg shadow-none"
+                  disabled={isNewChatPending}
                 >
-                  <Plus size={16} strokeWidth={2} aria-hidden="true" />
+                  {isNewChatPending ? (
+                    <Spinner />
+                  ) : (
+                    <Plus size={16} strokeWidth={2} aria-hidden="true" />
+                  )}
                 </Button>
               </TooltipTrigger>
               <TooltipContent className="px-2 py-1 text-xs">
@@ -117,11 +128,7 @@ export function ChatHeader({
                   aria-label="Open menu"
                   disabled={!selectedChatId}
                 >
-                  <EllipsisVertical
-                    size={16}
-                    strokeWidth={2}
-                    aria-hidden="true"
-                  />
+                  <Ellipsis size={16} strokeWidth={2} aria-hidden="true" />
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent>

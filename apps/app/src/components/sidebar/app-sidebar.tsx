@@ -22,6 +22,7 @@ import {
   SidebarRail,
 } from "@lamp/ui/sidebar";
 import { toast } from "@lamp/ui/sonner";
+import { Spinner } from "@lamp/ui/spinner";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@lamp/ui/tooltip";
 
 import { NavFooter } from "~/components/sidebar/nav-footer";
@@ -66,8 +67,13 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                         title: "New study",
                       });
                     }}
+                    disabled={createMutation.isPending}
                   >
-                    <SquarePen size={16} strokeWidth={2} aria-hidden="true" />
+                    {createMutation.isPending ? (
+                      <Spinner />
+                    ) : (
+                      <SquarePen size={16} strokeWidth={2} aria-hidden="true" />
+                    )}
                   </Button>
                 </TooltipTrigger>
                 <TooltipContent className="px-2 py-1 text-xs">

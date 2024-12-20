@@ -171,6 +171,7 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
         onSelectChat={(chatId) => setSelectedChatId(chatId)}
         onNewChat={handleNewChat}
         onDeleteChat={handleDeleteChat}
+        isNewChatPending={createChatMutation.isPending}
       />
 
       <ChatMessages

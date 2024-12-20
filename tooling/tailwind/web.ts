@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import typography from "@tailwindcss/typography";
+import scrollbar from "tailwind-scrollbar-hide";
 import animate from "tailwindcss-animate";
 
 import base from "./base";
@@ -76,6 +77,5 @@ export default {
       },
     },
   },
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  plugins: [animate, typography, require("tailwind-scrollbar-hide")],
+  plugins: [animate, typography, scrollbar],
 } satisfies Config;

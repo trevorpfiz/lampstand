@@ -157,6 +157,7 @@
 @layer base {
   * {
     @apply border-border;
+    @apply min-w-0; /* @link https://youtu.be/cH8VbLM1958?si=_FsKJTM2r2wFam3u */
   }
   body {
     @apply bg-background text-foreground;

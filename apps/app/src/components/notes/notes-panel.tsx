@@ -13,7 +13,7 @@ interface NotesPanelProps {
 
 // We only have `id` and `title` for each note at this stage.
 // Content is fetched only when a note is selected.
-export function NotesPanel({ initialNotes }: NotesPanelProps) {
+export function NotesPanel({ initialNotes = [] }: NotesPanelProps) {
   const [selectedNote, setSelectedNote] = useState<MinimalNote | null>(null);
 
   if (selectedNote) {
@@ -25,7 +25,5 @@ export function NotesPanel({ initialNotes }: NotesPanelProps) {
     );
   }
 
-  return (
-    <NotesList notes={initialNotes ?? []} onNoteSelect={setSelectedNote} />
-  );
+  return <NotesList notes={initialNotes} onNoteSelect={setSelectedNote} />;
 }

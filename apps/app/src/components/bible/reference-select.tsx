@@ -17,7 +17,7 @@ import {
 } from "@lamp/ui/command";
 import { Popover, PopoverContent, PopoverTrigger } from "@lamp/ui/popover";
 
-import { BIBLE_VERSESS } from "~/lib/constants";
+import { BIBLE_VERSE_REFERENCES } from "~/lib/constants";
 import { useBibleStore } from "~/providers/bible-store-provider";
 import { parseReference, verseId } from "~/utils/bible/verse";
 
@@ -46,7 +46,10 @@ function ReferenceSelect({
   const [searchValue, setSearchValue] = useState("");
   const options: Option[] = useMemo(
     () =>
-      BIBLE_VERSESS.map((item) => ({ value: item.value, label: item.value })),
+      BIBLE_VERSE_REFERENCES.map((item) => ({
+        value: item.value,
+        label: item.value,
+      })),
     [],
   );
 
