@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback } from "react";
+import { useRef } from "react";
 import dynamic from "next/dynamic";
 import { ArrowLeft, Ellipsis, Trash2 } from "lucide-react";
 import { useDebouncedCallback } from "use-debounce";
@@ -13,11 +13,11 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@lamp/ui/dropdown-menu";
-import { Input } from "@lamp/ui/input";
 import { toast } from "@lamp/ui/sonner";
 import { Spinner } from "@lamp/ui/spinner";
 
 import { api } from "~/trpc/react";
+import { EditorTitle } from "./editor-title";
 
 const PlateEditor = dynamic(
   () => import("@lamp/plate").then((mod) => mod.PlateEditor),
@@ -32,6 +32,7 @@ interface NoteEditorProps {
 export function NoteEditor(props: NoteEditorProps) {
   const { noteId, onBack } = props;
   const utils = api.useUtils();
+  const titleRef = useRef<HTMLTextAreaElement>(null);
 
   // Fetch note content
   const { data, isPending } = api.note.byId.useQuery({ id: noteId });
@@ -49,7 +50,7 @@ export function NoteEditor(props: NoteEditorProps) {
 
   // Use useDebouncedCallback instead
   const handleTitleChange = useDebouncedCallback(
-    (e: React.ChangeEvent<HTMLInputElement>) => {
+    (e: React.ChangeEvent<HTMLTextAreaElement>) => {
       const newTitle = e.target.value;
       if (newTitle !== data?.note?.title) {
         renameMutation.mutate({ id: noteId, title: newTitle });
@@ -130,16 +131,19 @@ export function NoteEditor(props: NoteEditorProps) {
             <Spinner />
           </div>
         ) : (
-          <div className="flex flex-col gap-2">
-            <div className="px-4 pt-4">
-              <Input
-                variant="title"
-                placeholder="Untitled"
-                defaultValue={data?.note?.title}
-                onChange={handleTitleChange}
-              />
+          <div className="flex flex-col gap-0">
+            <div className="px-16 pt-4 sm:px-[max(64px,calc(50%-350px))]">
+              <div className="relative flex">
+                <EditorTitle
+                  ref={titleRef}
+                  defaultValue={data?.note?.title}
+                  onChange={handleTitleChange}
+                />
+              </div>
             </div>
-            <PlateEditor initialContent={data?.note?.content} />
+            <div className="flex-1 pt-2">
+              <PlateEditor initialContent={data?.note?.content} />
+            </div>
           </div>
         )}
       </div>

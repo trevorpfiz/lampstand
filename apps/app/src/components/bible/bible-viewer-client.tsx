@@ -229,7 +229,7 @@ function BibleViewerClient({ chapters }: BibleViewerClientProps) {
       />
       <div
         ref={parentRef}
-        className="flex-1 overflow-auto px-3"
+        className="default-scrollbar flex-1 overflow-auto px-3"
         style={{ contain: "strict" }}
       >
         <div

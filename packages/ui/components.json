@@ -9,9 +9,12 @@
     "baseColor": "zinc",
     "cssVariables": true
   },
+  "iconLibrary": "lucide",
   "aliases": {
-    "utils": "@lamp/ui",
-    "components": "/src",
-    "ui": "/src"
+    "components": "@lamp/ui/components",
+    "utils": "@lamp/ui/lib/utils",
+    "hooks": "@lamp/ui/hooks",
+    "lib": "@lamp/ui/lib",
+    "ui": "@lamp/ui/components"
   }
 }

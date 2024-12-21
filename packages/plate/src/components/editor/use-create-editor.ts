@@ -89,10 +89,7 @@ import { TableRowElement } from "../plate-ui/table-row-element";
 import { TocElement } from "../plate-ui/toc-element";
 import { ToggleElement } from "../plate-ui/toggle-element";
 import { withDraggables } from "../plate-ui/with-draggables";
-import { copilotPlugins } from "./plugins/copilot-plugins";
 import { editorPlugins } from "./plugins/editor-plugins";
-import { FixedToolbarPlugin } from "./plugins/fixed-toolbar-plugin";
-import { FloatingToolbarPlugin } from "./plugins/floating-toolbar-plugin";
 
 export const useCreateEditor = () => {
   return usePlateEditor({
@@ -146,12 +143,7 @@ export const useCreateEditor = () => {
         }),
       ),
     },
-    plugins: [
-      ...copilotPlugins,
-      ...editorPlugins,
-      FixedToolbarPlugin,
-      FloatingToolbarPlugin,
-    ],
+    plugins: [...editorPlugins],
     value: [
       {
         children: [{ text: "Playground" }],

@@ -390,7 +390,7 @@ const PureToolbar = ({
   return (
     <TooltipProvider delayDuration={0}>
       <motion.div
-        className="absolute right-2 z-20 flex cursor-pointer flex-col justify-end rounded-full border bg-background p-1.5 shadow-lg"
+        className="absolute right-2 z-20 flex cursor-pointer flex-col justify-end rounded-full border bg-background p-1.5 shadow"
         style={{
           bottom: chatInputHeight + 12,
         }}

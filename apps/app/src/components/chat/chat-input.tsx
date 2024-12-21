@@ -4,7 +4,6 @@ import { ArrowUp } from "lucide-react";
 import { models } from "@lamp/ai/models";
 import { cn } from "@lamp/ui";
 import { Button } from "@lamp/ui/button";
-import { ScrollArea } from "@lamp/ui/scroll-area";
 import {
   Select,
   SelectContent,
@@ -12,16 +11,14 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@lamp/ui/select";
-import { Textarea } from "@lamp/ui/textarea";
+import { TextareaAutosize } from "@lamp/ui/textarea-autosize";
 
 import { useChatStore } from "~/providers/chat-store-provider";
 
 interface ChatInputProps {
   input: string;
   isLoading: boolean;
-  onChange: (
-    e: ChangeEvent<HTMLTextAreaElement> | ChangeEvent<HTMLInputElement>,
-  ) => void;
+  onChange: (e: ChangeEvent<HTMLTextAreaElement>) => void;
   onSubmit: (e: FormEvent) => void;
 }
 
@@ -43,25 +40,26 @@ export function ChatInput({
         <label className="sr-only" htmlFor="chat-input">
           Chat Input
         </label>
-        <div className="relative flex rounded-xl border-0 p-0.5 focus-within:border-primary">
-          <ScrollArea
-            className="box-border max-h-60 w-full rounded-lg"
-            type="auto"
-          >
-            <Textarea
-              id="chat-input"
-              value={input}
-              onChange={onChange}
-              placeholder="Ask a question..."
-              className="box-border resize-none whitespace-pre-wrap break-words border-none p-2 pr-4 [field-sizing:content] focus:ring-0 focus:ring-offset-0 focus-visible:border-primary"
-              onKeyDown={(e) => {
-                if (e.key === "Enter" && !e.shiftKey) {
-                  e.preventDefault();
-                  onSubmit(e);
-                }
-              }}
-            />
-          </ScrollArea>
+        <div className="relative flex rounded-xl border-0">
+          <TextareaAutosize
+            id="chat-input"
+            value={input}
+            onChange={onChange}
+            placeholder="Ask a question..."
+            className={cn(
+              "w-full grow overflow-auto",
+              "max-h-96 min-h-[42px]",
+              "p-3 pb-1.5 text-sm text-foreground",
+              "placeholder:truncate placeholder:text-muted-foreground/80",
+            )}
+            spellCheck={false}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && !e.shiftKey) {
+                e.preventDefault();
+                onSubmit(e);
+              }
+            }}
+          />
         </div>
 
         <div className="flex items-center gap-2 p-3 pb-2 pt-1">

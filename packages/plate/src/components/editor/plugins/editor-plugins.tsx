@@ -30,6 +30,7 @@ import { autoformatPlugin } from "./autoformat-plugin";
 import { basicNodesPlugins } from "./basic-nodes-plugins";
 import { blockMenuPlugins } from "./block-menu-plugins";
 import { commentsPlugin } from "./comments-plugin";
+import { copilotPlugins } from "./copilot-plugins";
 import { cursorOverlayPlugin } from "./cursor-overlay-plugin";
 import { deletePlugins } from "./delete-plugins";
 import { dndPlugins } from "./dnd-plugins";
@@ -103,6 +104,6 @@ export const editorPlugins = [
   JuicePlugin,
 
   // UI
-  FixedToolbarPlugin,
+  // FixedToolbarPlugin,
   FloatingToolbarPlugin,
 ];

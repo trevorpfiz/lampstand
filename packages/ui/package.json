@@ -148,6 +148,10 @@
       "types": "./dist/src/textarea.d.ts",
       "default": "./src/textarea.tsx"
     },
+    "./textarea-autosize": {
+      "types": "./dist/src/textarea-autosize.d.ts",
+      "default": "./src/textarea-autosize.tsx"
+    },
     "./theme": {
       "types": "./dist/src/theme.d.ts",
       "default": "./src/theme.tsx"
@@ -220,6 +224,7 @@
     "react-day-picker": "8.10.1",
     "react-hook-form": "^7.54.1",
     "react-resizable-panels": "^2.1.7",
+    "react-textarea-autosize": "^8.5.6",
     "recharts": "^2.15.0",
     "sonner": "^1.7.1",
     "tailwind-merge": "^2.5.5",
