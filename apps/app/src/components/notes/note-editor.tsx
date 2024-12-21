@@ -1,11 +1,12 @@
 "use client";
 
 import { useRef } from "react";
-import dynamic from "next/dynamic";
+import _ from "lodash";
 import { ArrowLeft, Ellipsis, Trash2 } from "lucide-react";
 import { useDebouncedCallback } from "use-debounce";
 
 import type { NoteId } from "@lamp/db/schema";
+import { PlateEditor } from "@lamp/plate";
 import { Button } from "@lamp/ui/button";
 import {
   DropdownMenu,
@@ -16,13 +17,8 @@ import {
 import { toast } from "@lamp/ui/sonner";
 import { Spinner } from "@lamp/ui/spinner";
 
+import { EditorTitle } from "~/components/notes/editor-title";
 import { api } from "~/trpc/react";
-import { EditorTitle } from "./editor-title";
-
-const PlateEditor = dynamic(
-  () => import("@lamp/plate").then((mod) => mod.PlateEditor),
-  { ssr: false },
-);
 
 interface NoteEditorProps {
   noteId: NoteId;
@@ -37,7 +33,7 @@ export function NoteEditor(props: NoteEditorProps) {
   // Fetch note content
   const { data, isPending } = api.note.byId.useQuery({ id: noteId });
 
-  // Add rename mutation
+  // Title mutation
   const renameMutation = api.note.rename.useMutation({
     onSuccess: () => {
       void utils.note.byId.invalidate({ id: noteId });
@@ -48,7 +44,7 @@ export function NoteEditor(props: NoteEditorProps) {
     },
   });
 
-  // Use useDebouncedCallback instead
+  // Debounced handler for the title
   const handleTitleChange = useDebouncedCallback(
     (e: React.ChangeEvent<HTMLTextAreaElement>) => {
       const newTitle = e.target.value;
@@ -59,10 +55,27 @@ export function NoteEditor(props: NoteEditorProps) {
     500,
   );
 
+  // Body mutation
+  const updateBodyMutation = api.note.update.useMutation({
+    onSuccess: () => {
+      void utils.note.byId.invalidate({ id: noteId });
+    },
+    onError: () => {
+      toast.error("Failed to update note body");
+    },
+  });
+
+  // Debounced handler for the body content
+  const handleBodyChange = useDebouncedCallback((newContent: any) => {
+    // Optional: compare old vs new content to avoid redundant requests
+    if (!_.isEqual(newContent, data?.note?.content)) {
+      updateBodyMutation.mutate({ id: noteId, content: newContent });
+    }
+  }, 750);
+
   // Delete note mutation
   const deleteNoteMutation = api.note.delete.useMutation({
     onSuccess: () => {
-      // Invalidate the notes list and go back
       void utils.note.byStudy.invalidate();
       onBack();
     },
@@ -75,8 +88,11 @@ export function NoteEditor(props: NoteEditorProps) {
     deleteNoteMutation.mutate({ id: noteId });
   };
 
+  const isSaving = renameMutation.isPending || updateBodyMutation.isPending;
+
   return (
     <div className="flex h-full w-full flex-col overflow-hidden">
+      {/* Header */}
       <div className="sticky top-0 z-50 flex items-center justify-between border-b border-border bg-background px-2 py-1">
         <Button
           variant="ghost"
@@ -89,7 +105,7 @@ export function NoteEditor(props: NoteEditorProps) {
         </Button>
 
         <div className="flex items-center gap-1">
-          {renameMutation.isPending && <Spinner className="opacity-60" />}
+          {isSaving && <Spinner className="opacity-60" />}
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button
@@ -125,6 +141,7 @@ export function NoteEditor(props: NoteEditorProps) {
         </div>
       </div>
 
+      {/* Body */}
       <div className="flex-1 overflow-auto" data-registry="plate">
         {isPending ? (
           <div className="flex h-full items-center justify-center">
@@ -132,7 +149,8 @@ export function NoteEditor(props: NoteEditorProps) {
           </div>
         ) : (
           <div className="flex flex-col gap-0">
-            <div className="px-16 pt-4 sm:px-[max(64px,calc(50%-350px))]">
+            {/* Title */}
+            <div className="px-6 pt-4 sm:px-[max(24px,calc(50%-350px))]">
               <div className="relative flex">
                 <EditorTitle
                   ref={titleRef}
@@ -141,8 +159,13 @@ export function NoteEditor(props: NoteEditorProps) {
                 />
               </div>
             </div>
+
+            {/* Editable content */}
             <div className="flex-1 pt-2">
-              <PlateEditor initialContent={data?.note?.content} />
+              <PlateEditor
+                initialContent={data?.note?.content}
+                onChange={handleBodyChange}
+              />
             </div>
           </div>
         )}

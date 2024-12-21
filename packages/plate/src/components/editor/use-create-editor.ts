@@ -1,3 +1,4 @@
+import type { TNodeEntry } from "@udecode/plate-common";
 import { withProps } from "@udecode/cn";
 import { AIPlugin } from "@udecode/plate-ai/react";
 import {
@@ -91,26 +92,26 @@ import { ToggleElement } from "../plate-ui/toggle-element";
 import { withDraggables } from "../plate-ui/with-draggables";
 import { editorPlugins } from "./plugins/editor-plugins";
 
-export const useCreateEditor = () => {
+export const useCreateEditor = (props: { value: any }) => {
   return usePlateEditor({
     override: {
       components: withDraggables(
         withPlaceholders({
-          [AIPlugin.key]: AILeaf,
-          [AudioPlugin.key]: MediaAudioElement,
+          // [AIPlugin.key]: AILeaf,
+          // [AudioPlugin.key]: MediaAudioElement,
           [BlockquotePlugin.key]: BlockquoteElement,
           [BoldPlugin.key]: withProps(PlateLeaf, { as: "strong" }),
           [CodeBlockPlugin.key]: CodeBlockElement,
           [CodeLinePlugin.key]: CodeLineElement,
           [CodePlugin.key]: CodeLeaf,
           [CodeSyntaxPlugin.key]: CodeSyntaxLeaf,
-          [ColumnItemPlugin.key]: ColumnElement,
-          [ColumnPlugin.key]: ColumnGroupElement,
-          [CommentsPlugin.key]: CommentLeaf,
-          [DatePlugin.key]: DateElement,
-          [EmojiInputPlugin.key]: EmojiInputElement,
-          [ExcalidrawPlugin.key]: ExcalidrawElement,
-          [FilePlugin.key]: MediaFileElement,
+          // [ColumnItemPlugin.key]: ColumnElement,
+          // [ColumnPlugin.key]: ColumnGroupElement,
+          // [CommentsPlugin.key]: CommentLeaf,
+          // [DatePlugin.key]: DateElement,
+          // [EmojiInputPlugin.key]: EmojiInputElement,
+          // [ExcalidrawPlugin.key]: ExcalidrawElement,
+          // [FilePlugin.key]: MediaFileElement,
           [HEADING_KEYS.h1]: withProps(HeadingElement, { variant: "h1" }),
           [HEADING_KEYS.h2]: withProps(HeadingElement, { variant: "h2" }),
           [HEADING_KEYS.h3]: withProps(HeadingElement, { variant: "h3" }),
@@ -119,46 +120,31 @@ export const useCreateEditor = () => {
           [HEADING_KEYS.h6]: withProps(HeadingElement, { variant: "h6" }),
           [HighlightPlugin.key]: HighlightLeaf,
           [HorizontalRulePlugin.key]: HrElement,
-          [ImagePlugin.key]: ImageElement,
+          // [ImagePlugin.key]: ImageElement,
           [ItalicPlugin.key]: withProps(PlateLeaf, { as: "em" }),
           [KbdPlugin.key]: KbdLeaf,
           [LinkPlugin.key]: LinkElement,
-          [MediaEmbedPlugin.key]: MediaEmbedElement,
-          [MentionInputPlugin.key]: MentionInputElement,
-          [MentionPlugin.key]: MentionElement,
+          // [MediaEmbedPlugin.key]: MediaEmbedElement,
+          // [MentionInputPlugin.key]: MentionInputElement,
+          // [MentionPlugin.key]: MentionElement,
           [ParagraphPlugin.key]: ParagraphElement,
           [PlaceholderPlugin.key]: MediaPlaceholderElement,
           [SlashInputPlugin.key]: SlashInputElement,
           [StrikethroughPlugin.key]: withProps(PlateLeaf, { as: "s" }),
           [SubscriptPlugin.key]: withProps(PlateLeaf, { as: "sub" }),
           [SuperscriptPlugin.key]: withProps(PlateLeaf, { as: "sup" }),
-          [TableCellHeaderPlugin.key]: TableCellHeaderElement,
-          [TableCellPlugin.key]: TableCellElement,
-          [TablePlugin.key]: TableElement,
-          [TableRowPlugin.key]: TableRowElement,
+          // [TableCellHeaderPlugin.key]: TableCellHeaderElement,
+          // [TableCellPlugin.key]: TableCellElement,
+          // [TablePlugin.key]: TableElement,
+          // [TableRowPlugin.key]: TableRowElement,
           [TocPlugin.key]: TocElement,
-          [TogglePlugin.key]: ToggleElement,
+          // [TogglePlugin.key]: ToggleElement,
           [UnderlinePlugin.key]: withProps(PlateLeaf, { as: "u" }),
-          [VideoPlugin.key]: MediaVideoElement,
+          // [VideoPlugin.key]: MediaVideoElement,
         }),
       ),
     },
     plugins: [...editorPlugins],
-    value: [
-      {
-        children: [{ text: "Playground" }],
-        type: "h1",
-      },
-      {
-        children: [
-          { text: "A rich-text editor with AI capabilities. Try the " },
-          { bold: true, text: "AI commands" },
-          { text: " or use " },
-          { kbd: true, text: "Cmd+J" },
-          { text: " to open the AI menu." },
-        ],
-        type: ParagraphPlugin.key,
-      },
-    ],
+    value: props.value,
   });
 };

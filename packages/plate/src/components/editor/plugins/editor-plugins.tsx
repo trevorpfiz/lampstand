@@ -51,16 +51,16 @@ export const viewPlugins = [
   ...basicNodesPlugins,
   HorizontalRulePlugin,
   linkPlugin,
-  DatePlugin,
-  mentionPlugin,
-  tablePlugin,
-  TogglePlugin,
+  // DatePlugin,
+  // mentionPlugin,
+  // tablePlugin,
+  // TogglePlugin,
   tocPlugin,
-  ...mediaPlugins,
-  InlineEquationPlugin,
-  EquationPlugin,
-  CalloutPlugin,
-  ColumnPlugin,
+  // ...mediaPlugins,
+  // InlineEquationPlugin,
+  // EquationPlugin,
+  // CalloutPlugin,
+  // ColumnPlugin,
 
   // Marks
   FontColorPlugin,
@@ -75,12 +75,12 @@ export const viewPlugins = [
   lineHeightPlugin,
 
   // Collaboration
-  commentsPlugin,
+  // commentsPlugin,
 ] as const;
 
 export const editorPlugins = [
   // AI
-  ...aiPlugins,
+  // ...aiPlugins,
 
   // Nodes
   ...viewPlugins,
@@ -91,7 +91,7 @@ export const editorPlugins = [
   cursorOverlayPlugin,
   ...blockMenuPlugins,
   ...dndPlugins,
-  EmojiPlugin,
+  // EmojiPlugin,
   exitBreakPlugin,
   resetBlockTypePlugin,
   ...deletePlugins,

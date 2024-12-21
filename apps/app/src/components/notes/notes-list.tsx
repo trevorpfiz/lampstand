@@ -43,7 +43,6 @@ export function NotesList(props: NotesListProps) {
   const handleNewNote = () => {
     createNoteMutation.mutate({
       studyId,
-      title: "Untitled",
     });
   };
 
@@ -89,7 +88,7 @@ export function NotesList(props: NotesListProps) {
               strokeWidth={2}
               aria-hidden="true"
             />
-            <p className="truncate">{note.title}</p>
+            <p className="truncate">{note.title || "Untitled"}</p>
           </Button>
         ))}
       </div>

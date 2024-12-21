@@ -85,29 +85,29 @@ const turnIntoItems = [
     label: "To-do list",
     value: INDENT_LIST_KEYS.todo,
   },
-  {
-    icon: <ChevronRightIcon />,
-    keywords: ["collapsible", "expandable"],
-    label: "Toggle list",
-    value: TogglePlugin.key,
-  },
-  {
-    icon: <FileCodeIcon />,
-    keywords: ["```"],
-    label: "Code",
-    value: CodeBlockPlugin.key,
-  },
+  // {
+  //   icon: <ChevronRightIcon />,
+  //   keywords: ["collapsible", "expandable"],
+  //   label: "Toggle list",
+  //   value: TogglePlugin.key,
+  // },
+  // {
+  //   icon: <FileCodeIcon />,
+  //   keywords: ["```"],
+  //   label: "Code",
+  //   value: CodeBlockPlugin.key,
+  // },
   {
     icon: <QuoteIcon />,
     keywords: ["citation", "blockquote", ">"],
     label: "Quote",
     value: BlockquotePlugin.key,
   },
-  {
-    icon: <Columns3Icon />,
-    label: "3 columns",
-    value: "action_three_columns",
-  },
+  // {
+  //   icon: <Columns3Icon />,
+  //   label: "3 columns",
+  //   value: "action_three_columns",
+  // },
 ];
 
 export function TurnIntoDropdownMenu(props: DropdownMenuProps) {

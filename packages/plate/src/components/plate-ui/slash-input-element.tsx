@@ -64,19 +64,19 @@ interface Item {
 }
 
 const groups: Group[] = [
-  {
-    group: "AI",
-    items: [
-      {
-        focusEditor: false,
-        icon: <SparklesIcon />,
-        value: "AI",
-        onSelect: (editor) => {
-          editor.getApi(AIChatPlugin).aiChat.show();
-        },
-      },
-    ],
-  },
+  // {
+  //   group: "AI",
+  //   items: [
+  //     {
+  //       focusEditor: false,
+  //       icon: <SparklesIcon />,
+  //       value: "AI",
+  //       onSelect: (editor) => {
+  //         editor.getApi(AIChatPlugin).aiChat.show();
+  //       },
+  //     },
+  //   ],
+  // },
   {
     group: "Basic blocks",
     items: [
@@ -122,23 +122,23 @@ const groups: Group[] = [
         label: "To-do list",
         value: INDENT_LIST_KEYS.todo,
       },
-      {
-        icon: <ChevronRightIcon />,
-        keywords: ["collapsible", "expandable"],
-        label: "Toggle",
-        value: TogglePlugin.key,
-      },
-      {
-        icon: <Code2 />,
-        keywords: ["```"],
-        label: "Code Block",
-        value: CodeBlockPlugin.key,
-      },
-      {
-        icon: <Table />,
-        label: "Table",
-        value: TablePlugin.key,
-      },
+      // {
+      //   icon: <ChevronRightIcon />,
+      //   keywords: ["collapsible", "expandable"],
+      //   label: "Toggle",
+      //   value: TogglePlugin.key,
+      // },
+      // {
+      //   icon: <Code2 />,
+      //   keywords: ["```"],
+      //   label: "Code Block",
+      //   value: CodeBlockPlugin.key,
+      // },
+      // {
+      //   icon: <Table />,
+      //   label: "Table",
+      //   value: TablePlugin.key,
+      // },
       {
         icon: <Quote />,
         keywords: ["citation", "blockquote", "quote", ">"],
@@ -161,11 +161,11 @@ const groups: Group[] = [
         label: "Table of contents",
         value: TocPlugin.key,
       },
-      {
-        icon: <Columns3Icon />,
-        label: "3 columns",
-        value: "action_three_columns",
-      },
+      // {
+      //   icon: <Columns3Icon />,
+      //   label: "3 columns",
+      //   value: "action_three_columns",
+      // },
     ].map((item) => ({
       ...item,
       onSelect: (editor, value) => {
@@ -173,23 +173,23 @@ const groups: Group[] = [
       },
     })),
   },
-  {
-    group: "Inline",
-    items: [
-      {
-        focusEditor: true,
-        icon: <CalendarIcon />,
-        keywords: ["time"],
-        label: "Date",
-        value: DatePlugin.key,
-      },
-    ].map((item) => ({
-      ...item,
-      onSelect: (editor, value) => {
-        insertInlineElement(editor, value);
-      },
-    })),
-  },
+  // {
+  //   group: "Inline",
+  //   items: [
+  //     {
+  //       focusEditor: true,
+  //       icon: <CalendarIcon />,
+  //       keywords: ["time"],
+  //       label: "Date",
+  //       value: DatePlugin.key,
+  //     },
+  //   ].map((item) => ({
+  //     ...item,
+  //     onSelect: (editor, value) => {
+  //       insertInlineElement(editor, value);
+  //     },
+  //   })),
+  // },
 ];
 
 export const SlashInputElement = withRef<typeof PlateElement>(

@@ -18,6 +18,8 @@ export const EditorTitle = forwardRef(
   ) => {
     const isComposingRef = useRef(false);
 
+    console.log("defaultValue", defaultValue);
+
     const handleKeyDown = (event: KeyboardEvent<HTMLTextAreaElement>) => {
       if (event.key === "Enter" && !isComposingRef.current) {
         event.preventDefault();

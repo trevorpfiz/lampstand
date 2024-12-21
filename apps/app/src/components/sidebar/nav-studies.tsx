@@ -25,6 +25,7 @@ import {
 import { toast } from "@lamp/ui/sonner";
 import { Spinner } from "@lamp/ui/spinner";
 
+import { revalidateStudy } from "~/lib/actions/study";
 import { api } from "~/trpc/react";
 
 export function NavStudies() {
@@ -43,8 +44,9 @@ export function NavStudies() {
   const [name, setName] = useState("");
 
   const renameMutation = api.study.rename.useMutation({
-    onSuccess: () => {
+    onSuccess: async (data) => {
       void utils.study.byUser.invalidate();
+      await revalidateStudy(data.study?.id);
       setOpen(false);
       setSelectedStudy(null);
     },

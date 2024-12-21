@@ -9,7 +9,164 @@ export type Json =
 export type Database = {
   public: {
     Tables: {
-      epi_profile: {
+      lamp_chat: {
+        Row: {
+          created_at: string
+          id: string
+          profile_id: string
+          study_id: string
+          title: string
+          updated_at: string | null
+          visibility: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          profile_id: string
+          study_id: string
+          title?: string
+          updated_at?: string | null
+          visibility?: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          profile_id?: string
+          study_id?: string
+          title?: string
+          updated_at?: string | null
+          visibility?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "lamp_chat_profile_id_lamp_profile_id_fk"
+            columns: ["profile_id"]
+            isOneToOne: false
+            referencedRelation: "lamp_profile"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "lamp_chat_study_id_lamp_study_id_fk"
+            columns: ["study_id"]
+            isOneToOne: false
+            referencedRelation: "lamp_study"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      lamp_feedback: {
+        Row: {
+          content: string
+          created_at: string
+          id: string
+          profile_id: string
+          updated_at: string | null
+        }
+        Insert: {
+          content: string
+          created_at?: string
+          id?: string
+          profile_id: string
+          updated_at?: string | null
+        }
+        Update: {
+          content?: string
+          created_at?: string
+          id?: string
+          profile_id?: string
+          updated_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "lamp_feedback_profile_id_lamp_profile_id_fk"
+            columns: ["profile_id"]
+            isOneToOne: false
+            referencedRelation: "lamp_profile"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      lamp_message: {
+        Row: {
+          chat_id: string
+          content: Json
+          created_at: string
+          id: string
+          role: string
+          updated_at: string | null
+        }
+        Insert: {
+          chat_id: string
+          content?: Json
+          created_at?: string
+          id?: string
+          role: string
+          updated_at?: string | null
+        }
+        Update: {
+          chat_id?: string
+          content?: Json
+          created_at?: string
+          id?: string
+          role?: string
+          updated_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "lamp_message_chat_id_lamp_chat_id_fk"
+            columns: ["chat_id"]
+            isOneToOne: false
+            referencedRelation: "lamp_chat"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      lamp_note: {
+        Row: {
+          content: Json
+          created_at: string
+          id: string
+          profile_id: string
+          study_id: string
+          title: string
+          updated_at: string | null
+        }
+        Insert: {
+          content?: Json
+          created_at?: string
+          id?: string
+          profile_id: string
+          study_id: string
+          title?: string
+          updated_at?: string | null
+        }
+        Update: {
+          content?: Json
+          created_at?: string
+          id?: string
+          profile_id?: string
+          study_id?: string
+          title?: string
+          updated_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "lamp_note_profile_id_lamp_profile_id_fk"
+            columns: ["profile_id"]
+            isOneToOne: false
+            referencedRelation: "lamp_profile"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "lamp_note_study_id_lamp_study_id_fk"
+            columns: ["study_id"]
+            isOneToOne: false
+            referencedRelation: "lamp_study"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      lamp_profile: {
         Row: {
           email: string | null
           id: string
@@ -29,6 +186,38 @@ export type Database = {
           name?: string
         }
         Relationships: []
+      }
+      lamp_study: {
+        Row: {
+          created_at: string
+          id: string
+          profile_id: string
+          title: string
+          updated_at: string | null
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          profile_id: string
+          title: string
+          updated_at?: string | null
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          profile_id?: string
+          title?: string
+          updated_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "lamp_study_profile_id_lamp_profile_id_fk"
+            columns: ["profile_id"]
+            isOneToOne: false
+            referencedRelation: "lamp_profile"
+            referencedColumns: ["id"]
+          },
+        ]
       }
     }
     Views: {
