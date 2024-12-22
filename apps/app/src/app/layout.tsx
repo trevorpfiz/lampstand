@@ -6,32 +6,22 @@ import { GeistSans } from "geist/font/sans";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 
 import { env } from "@lamp/env";
+import { createMetadata } from "@lamp/seo/metadata";
 import { cn } from "@lamp/ui";
 import { Toaster } from "@lamp/ui/sonner";
 import { ThemeProvider } from "@lamp/ui/theme";
 
 import { TRPCReactProvider } from "~/trpc/react";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = createMetadata({
   metadataBase: new URL(
     env.NODE_ENV === "production"
-      ? env.NEXT_PUBLIC_SITE_URL
+      ? env.NEXT_PUBLIC_APP_URL
       : "http://localhost:3000",
   ),
-  title: "Lampstand",
-  description: "The Simplest Bible Study Platform.",
-  openGraph: {
-    title: "Lampstand",
-    description: "The Simplest Bible Study Platform.",
-    url: env.NEXT_PUBLIC_SITE_URL,
-    siteName: "Lampstand",
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@trevorpfiz",
-    creator: "@trevorpfiz",
-  },
-};
+  title: "Dashboard",
+  description: "Shine light on your Bible study.",
+});
 
 export const viewport: Viewport = {
   themeColor: [

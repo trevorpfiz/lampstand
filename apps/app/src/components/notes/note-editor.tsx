@@ -1,12 +1,12 @@
 "use client";
 
 import { useRef } from "react";
-import _ from "lodash";
+import dynamic from "next/dynamic";
+import isEqual from "lodash.isequal";
 import { ArrowLeft, Ellipsis, Trash2 } from "lucide-react";
 import { useDebouncedCallback } from "use-debounce";
 
 import type { NoteId } from "@lamp/db/schema";
-import { PlateEditor } from "@lamp/plate";
 import { Button } from "@lamp/ui/button";
 import {
   DropdownMenu,
@@ -19,6 +19,13 @@ import { Spinner } from "@lamp/ui/spinner";
 
 import { EditorTitle } from "~/components/notes/editor-title";
 import { api } from "~/trpc/react";
+
+const PlateEditor = dynamic(
+  () => import("@lamp/plate").then((mod) => mod.PlateEditor),
+  {
+    ssr: false,
+  },
+);
 
 interface NoteEditorProps {
   noteId: NoteId;
@@ -68,7 +75,7 @@ export function NoteEditor(props: NoteEditorProps) {
   // Debounced handler for the body content
   const handleBodyChange = useDebouncedCallback((newContent: any) => {
     // Optional: compare old vs new content to avoid redundant requests
-    if (!_.isEqual(newContent, data?.note?.content)) {
+    if (!isEqual(newContent, data?.note?.content)) {
       updateBodyMutation.mutate({ id: noteId, content: newContent });
     }
   }, 750);

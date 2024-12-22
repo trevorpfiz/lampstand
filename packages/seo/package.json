@@ -1,12 +1,22 @@
 {
-  "name": "@lamp/{{ name }}",
+  "name": "@lamp/seo",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "exports": {
-    ".": "./src/index.ts"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./src/index.ts"
+    },
+    "./json-ld": {
+      "types": "./dist/json-ld.d.ts",
+      "default": "./src/json-ld.ts"
+    },
+    "./metadata": {
+      "types": "./dist/metadata.d.ts",
+      "default": "./src/metadata.ts"
+    }
   },
-  
   "scripts": {
     "build": "tsc",
     "clean": "git clean -xdf .cache .turbo dist node_modules",
@@ -15,11 +25,21 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
+  "dependencies": {
+    "lodash.merge": "^4.6.2",
+    "react": "catalog:react19",
+    "schema-dts": "^1.1.2"
+  },
   "devDependencies": {
     "@lamp/eslint-config": "workspace:*",
     "@lamp/prettier-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
+    "@types/lodash.merge": "^4.6.9",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:react19",
+    "@types/react-dom": "catalog:react19",
     "eslint": "catalog:",
+    "next": "catalog:nextjs",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },

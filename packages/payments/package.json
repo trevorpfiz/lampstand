@@ -1,12 +1,14 @@
 {
-  "name": "@lamp/{{ name }}",
+  "name": "@lamp/payments",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "exports": {
-    ".": "./src/index.ts"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./src/index.ts"
+    }
   },
-  
   "scripts": {
     "build": "tsc",
     "clean": "git clean -xdf .cache .turbo dist node_modules",
@@ -14,6 +16,10 @@
     "format": "prettier --check . --ignore-path ../../.gitignore",
     "lint": "eslint",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "@lamp/env": "workspace:*",
+    "stripe": "^17.5.0"
   },
   "devDependencies": {
     "@lamp/eslint-config": "workspace:*",

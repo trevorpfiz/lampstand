@@ -16,6 +16,7 @@ export const env = createEnv({
   server: {
     POSTGRES_URL: z.string().url(),
     OPENAI_API_KEY: z.string().min(1),
+    STRIPE_SECRET_KEY: z.string().min(1),
   },
   /**
    * Specify your client-side environment variables schema here.
@@ -23,7 +24,9 @@ export const env = createEnv({
    */
   client: {
     NEXT_PUBLIC_ROOT_DOMAIN: z.string().min(1),
+    NEXT_PUBLIC_APP_DOMAIN: z.string().min(1),
     NEXT_PUBLIC_SITE_URL: z.string().min(1),
+    NEXT_PUBLIC_APP_URL: z.string().min(1),
     NEXT_PUBLIC_USE_LAMBDA_API: z.string().min(1),
     NEXT_PUBLIC_SUPABASE_ANON_KEY: z.string().min(1),
     NEXT_PUBLIC_SUPABASE_URL: z.string().min(1),
@@ -35,7 +38,9 @@ export const env = createEnv({
   experimental__runtimeEnv: {
     NODE_ENV: process.env.NODE_ENV,
     NEXT_PUBLIC_ROOT_DOMAIN: process.env.NEXT_PUBLIC_ROOT_DOMAIN,
+    NEXT_PUBLIC_APP_DOMAIN: process.env.NEXT_PUBLIC_APP_DOMAIN,
     NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL,
+    NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
     NEXT_PUBLIC_USE_LAMBDA_API: process.env.NEXT_PUBLIC_USE_LAMBDA_API,
     NEXT_PUBLIC_SUPABASE_ANON_KEY: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
     NEXT_PUBLIC_SUPABASE_URL: process.env.NEXT_PUBLIC_SUPABASE_URL,

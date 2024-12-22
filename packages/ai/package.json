@@ -54,7 +54,7 @@
     "typescript": "catalog:"
   },
   "peerDependencies": {
-    "next": ">=15.1.0"
+    "next": "catalog:nextjs"
   },
   "prettier": "@lamp/prettier-config"
 }

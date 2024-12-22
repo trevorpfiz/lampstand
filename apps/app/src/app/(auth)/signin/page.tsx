@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
+
+import { createMetadata } from "@lamp/seo/metadata";
+
 import { CardWrapper } from "~/components/auth/card-wrapper";
 import { SignInForm } from "~/components/auth/sign-in-form";
+
+export const metadata: Metadata = createMetadata({
+  title: "Welcome back",
+  description: "Welcome back! Please sign in to continue.",
+});
 
 export default function SignInPage() {
   return (

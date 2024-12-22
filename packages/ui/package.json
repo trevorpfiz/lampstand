@@ -173,7 +173,6 @@
       "default": "./src/virtualized-combobox.tsx"
     }
   },
-  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "clean": "git clean -xdf .cache .turbo dist node_modules",
