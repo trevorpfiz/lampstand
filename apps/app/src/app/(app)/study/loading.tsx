@@ -1,4 +1,4 @@
-import { Spinner } from "@lamp/ui/spinner";
+import { Spinner } from "@lamp/ui/components/spinner";
 
 import { AppHeader } from "~/components/app-header";
 

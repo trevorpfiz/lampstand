@@ -7,15 +7,15 @@ import { ArrowLeft, Ellipsis, Trash2 } from "lucide-react";
 import { useDebouncedCallback } from "use-debounce";
 
 import type { NoteId } from "@lamp/db/schema";
-import { Button } from "@lamp/ui/button";
+import { Button } from "@lamp/ui/components/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@lamp/ui/dropdown-menu";
-import { toast } from "@lamp/ui/sonner";
-import { Spinner } from "@lamp/ui/spinner";
+} from "@lamp/ui/components/dropdown-menu";
+import { Spinner } from "@lamp/ui/components/spinner";
+import { handleError } from "@lamp/ui/lib/utils";
 
 import { EditorTitle } from "~/components/notes/editor-title";
 import { api } from "~/trpc/react";
@@ -46,8 +46,8 @@ export function NoteEditor(props: NoteEditorProps) {
       void utils.note.byId.invalidate({ id: noteId });
       void utils.note.byStudy.invalidate();
     },
-    onError: () => {
-      toast.error("Failed to rename note");
+    onError: (error) => {
+      handleError(error);
     },
   });
 
@@ -67,8 +67,8 @@ export function NoteEditor(props: NoteEditorProps) {
     onSuccess: () => {
       void utils.note.byId.invalidate({ id: noteId });
     },
-    onError: () => {
-      toast.error("Failed to update note body");
+    onError: (error) => {
+      handleError(error);
     },
   });
 
@@ -86,8 +86,8 @@ export function NoteEditor(props: NoteEditorProps) {
       void utils.note.byStudy.invalidate();
       onBack();
     },
-    onError: () => {
-      toast.error("Failed to delete note");
+    onError: (error) => {
+      handleError(error);
     },
   });
 

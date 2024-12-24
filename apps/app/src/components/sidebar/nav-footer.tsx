@@ -3,16 +3,21 @@
 import { useState } from "react";
 import { HelpCircle, MessageCircle } from "lucide-react";
 
-import { Button } from "@lamp/ui/button";
-import { Popover, PopoverContent, PopoverTrigger } from "@lamp/ui/popover";
+import { Button } from "@lamp/ui/components/button";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@lamp/ui/components/popover";
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@lamp/ui/sidebar";
-import { toast } from "@lamp/ui/sonner";
-import { Spinner } from "@lamp/ui/spinner";
-import { Textarea } from "@lamp/ui/textarea";
+} from "@lamp/ui/components/sidebar";
+import { toast } from "@lamp/ui/components/sonner";
+import { Spinner } from "@lamp/ui/components/spinner";
+import { Textarea } from "@lamp/ui/components/textarea";
+import { handleError } from "@lamp/ui/lib/utils";
 
 import { api } from "~/trpc/react";
 
@@ -26,8 +31,8 @@ export function NavFooter() {
       setContent("");
       setOpen(false);
     },
-    onError: () => {
-      toast.error("Failed to submit feedback. Please try again.");
+    onError: (error) => {
+      handleError(error);
     },
   });
 

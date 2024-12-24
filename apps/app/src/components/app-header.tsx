@@ -1,5 +1,5 @@
-import { Separator } from "@lamp/ui/separator";
-import { SidebarTrigger } from "@lamp/ui/sidebar";
+import { Separator } from "@lamp/ui/components/separator";
+import { SidebarTrigger } from "@lamp/ui/components/sidebar";
 
 import { UserButton } from "~/components/auth/user-button";
 import { NavActions } from "~/components/sidebar/nav-actions";

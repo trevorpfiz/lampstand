@@ -5,9 +5,9 @@ import Image from "next/image";
 
 import type { Message } from "@lamp/ai";
 import { Markdown } from "@lamp/ai/components";
-import { cn } from "@lamp/ui";
-import { ScrollArea } from "@lamp/ui/scroll-area";
-import { Spinner } from "@lamp/ui/spinner";
+import { ScrollArea } from "@lamp/ui/components/scroll-area";
+import { Spinner } from "@lamp/ui/components/spinner";
+import { cn } from "@lamp/ui/lib/utils";
 
 import { useScrollToBottom } from "~/hooks/use-scroll-to-bottom";
 

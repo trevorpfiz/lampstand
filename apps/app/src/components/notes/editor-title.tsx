@@ -1,8 +1,8 @@
 import type { ChangeEvent, KeyboardEvent, Ref } from "react";
 import { forwardRef, useRef } from "react";
 
-import { cn } from "@lamp/ui";
-import { TextareaAutosize } from "@lamp/ui/textarea-autosize";
+import { TextareaAutosize } from "@lamp/ui/components/textarea-autosize";
+import { cn } from "@lamp/ui/lib/utils";
 
 export interface EditorTitleProps {
   defaultValue?: string;

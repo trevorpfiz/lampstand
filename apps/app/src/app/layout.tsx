@@ -1,15 +1,12 @@
 import "~/app/globals.css";
 
 import type { Metadata, Viewport } from "next";
-import { GeistMono } from "geist/font/mono";
-import { GeistSans } from "geist/font/sans";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 
 import { env } from "@lamp/env";
 import { createMetadata } from "@lamp/seo/metadata";
-import { cn } from "@lamp/ui";
-import { Toaster } from "@lamp/ui/sonner";
-import { ThemeProvider } from "@lamp/ui/theme";
+import { DesignSystemProvider } from "@lamp/ui";
+import { fonts } from "@lamp/ui/lib/fonts";
 
 import { TRPCReactProvider } from "~/trpc/react";
 
@@ -32,25 +29,13 @@ export const viewport: Viewport = {
 
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={cn(
-          "h-screen w-full bg-background font-sans text-foreground antialiased",
-          GeistSans.variable,
-          GeistMono.variable,
-        )}
-      >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-          disableTransitionOnChange
-        >
+    <html lang="en" className={fonts} suppressHydrationWarning>
+      <body className="h-screen w-full bg-background text-foreground">
+        <DesignSystemProvider>
           <TRPCReactProvider>
             <NuqsAdapter>{props.children}</NuqsAdapter>
           </TRPCReactProvider>
-          <Toaster richColors duration={5000} />
-        </ThemeProvider>
+        </DesignSystemProvider>
       </body>
     </html>
   );

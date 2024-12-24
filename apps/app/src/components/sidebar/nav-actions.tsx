@@ -3,7 +3,7 @@
 import { PencilLine, Sparkle } from "lucide-react";
 import { useShallow } from "zustand/react/shallow";
 
-import { Button } from "@lamp/ui/button";
+import { Button } from "@lamp/ui/components/button";
 
 import { usePanelsStore } from "~/providers/panels-store-provider";
 

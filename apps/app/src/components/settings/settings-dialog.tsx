@@ -4,22 +4,27 @@ import { BadgePlus, Settings, User } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useShallow } from "zustand/react/shallow";
 
-import { Button } from "@lamp/ui/button";
+import { Button } from "@lamp/ui/components/button";
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from "@lamp/ui/dialog";
+} from "@lamp/ui/components/dialog";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@lamp/ui/select";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@lamp/ui/tabs";
+} from "@lamp/ui/components/select";
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "@lamp/ui/components/tabs";
 
 import { useSettingsDialogStore } from "~/providers/settings-dialog-store-provider";
 

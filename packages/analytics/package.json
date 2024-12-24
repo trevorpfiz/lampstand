@@ -1,0 +1,45 @@
+{
+  "name": "@lamp/analytics",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./src/index.tsx"
+    },
+    "./posthog/server": {
+      "types": "./dist/posthog/server.d.ts",
+      "default": "./src/posthog/server.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "git clean -xdf .cache .turbo dist node_modules",
+    "dev": "tsc",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "@lamp/env": "workspace:*",
+    "@next/third-parties": "catalog:nextjs",
+    "@vercel/analytics": "^1.4.1",
+    "posthog-js": "^1.203.1",
+    "posthog-node": "^4.3.2",
+    "react": "catalog:react19",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@lamp/eslint-config": "workspace:*",
+    "@lamp/prettier-config": "workspace:*",
+    "@lamp/tsconfig": "workspace:*",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:react19",
+    "@types/react-dom": "catalog:react19",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:"
+  },
+  "prettier": "@lamp/prettier-config"
+}

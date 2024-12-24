@@ -5,8 +5,7 @@ import { useVirtualizer } from "@tanstack/react-virtual";
 import { Check, Quote } from "lucide-react";
 import { matchSorter } from "match-sorter";
 
-import { cn } from "@lamp/ui";
-import { Button } from "@lamp/ui/button";
+import { Button } from "@lamp/ui/components/button";
 import {
   Command,
   CommandEmpty,
@@ -14,8 +13,13 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@lamp/ui/command";
-import { Popover, PopoverContent, PopoverTrigger } from "@lamp/ui/popover";
+} from "@lamp/ui/components/command";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@lamp/ui/components/popover";
+import { cn } from "@lamp/ui/lib/utils";
 
 import { BIBLE_VERSE_REFERENCES } from "~/lib/constants";
 import { useBibleStore } from "~/providers/bible-store-provider";

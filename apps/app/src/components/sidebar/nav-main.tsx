@@ -9,7 +9,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@lamp/ui/sidebar";
+} from "@lamp/ui/components/sidebar";
 
 export const mockMainNavItems = [{ title: "Home", url: "/", icon: Home }];
 

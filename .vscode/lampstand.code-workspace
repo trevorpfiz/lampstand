@@ -9,6 +9,10 @@
       "path": "../apps/web",
     },
     {
+      "name": "API",
+      "path": "../apps/api",
+    },
+    {
       "name": "Root",
       "path": "../",
     },
@@ -31,9 +35,9 @@
     "configurations": [],
     "compounds": [
       {
-        "name": "Launch App and Web",
-        // from apps/app/.vscode/launch.json and apps/web/.vscode/launch.json
-        "configurations": ["Debug App", "Debug Web"],
+        "name": "Launch App, Web, and API",
+        // from apps/app/.vscode/launch.json, apps/web/.vscode/launch.json, and apps/api/.vscode/launch.json
+        "configurations": ["Debug App", "Debug Web", "Debug API"],
       },
     ],
   },

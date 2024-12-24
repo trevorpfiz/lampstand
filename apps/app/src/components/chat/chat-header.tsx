@@ -4,18 +4,22 @@ import { useCallback, useEffect, useRef } from "react";
 import { Ellipsis, Plus, Trash2 } from "lucide-react";
 
 import type { Chat } from "@lamp/db/schema";
-import { cn } from "@lamp/ui";
-import { Button } from "@lamp/ui/button";
+import { Button } from "@lamp/ui/components/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@lamp/ui/dropdown-menu";
-import { ScrollArea, ScrollBar } from "@lamp/ui/scroll-area";
-import { Spinner } from "@lamp/ui/spinner";
-import { Tabs, TabsList, TabsTrigger } from "@lamp/ui/tabs";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@lamp/ui/tooltip";
+} from "@lamp/ui/components/dropdown-menu";
+import { ScrollArea, ScrollBar } from "@lamp/ui/components/scroll-area";
+import { Spinner } from "@lamp/ui/components/spinner";
+import { Tabs, TabsList, TabsTrigger } from "@lamp/ui/components/tabs";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@lamp/ui/components/tooltip";
+import { cn } from "@lamp/ui/lib/utils";
 
 interface ChatHeaderProps {
   initialChats?: Chat[];

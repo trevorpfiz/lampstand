@@ -4,10 +4,14 @@ import { useParams } from "next/navigation";
 import { FilePen, Plus } from "lucide-react";
 
 import type { MinimalNote } from "@lamp/db/schema";
-import { Button } from "@lamp/ui/button";
-import { toast } from "@lamp/ui/sonner";
-import { Spinner } from "@lamp/ui/spinner";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@lamp/ui/tooltip";
+import { Button } from "@lamp/ui/components/button";
+import { Spinner } from "@lamp/ui/components/spinner";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@lamp/ui/components/tooltip";
+import { handleError } from "@lamp/ui/lib/utils";
 
 import { api } from "~/trpc/react";
 
@@ -35,8 +39,8 @@ export function NotesList(props: NotesListProps) {
         void utils.note.byStudy.invalidate({ studyId });
       }
     },
-    onError: () => {
-      toast.error("Failed to create new note");
+    onError: (error) => {
+      handleError(error);
     },
   });
 

@@ -2,16 +2,16 @@ import type { ChangeEvent, FormEvent } from "react";
 import { ArrowUp } from "lucide-react";
 
 import { models } from "@lamp/ai/models";
-import { cn } from "@lamp/ui";
-import { Button } from "@lamp/ui/button";
+import { Button } from "@lamp/ui/components/button";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@lamp/ui/select";
-import { TextareaAutosize } from "@lamp/ui/textarea-autosize";
+} from "@lamp/ui/components/select";
+import { TextareaAutosize } from "@lamp/ui/components/textarea-autosize";
+import { cn } from "@lamp/ui/lib/utils";
 
 import { useChatStore } from "~/providers/chat-store-provider";
 

@@ -8,7 +8,7 @@ import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@lamp/ui/resizable";
+} from "@lamp/ui/components/resizable";
 
 import { ChatPanel } from "~/components/chat/chat-panel";
 import { NotesPanel } from "~/components/notes/notes-panel";

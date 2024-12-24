@@ -5,7 +5,7 @@ import {
 } from "@tanstack/react-query";
 import SuperJSON from "superjson";
 
-import { toast } from "@lamp/ui/sonner";
+import { handleError } from "@lamp/ui/lib/utils";
 
 export const createQueryClient = () =>
   new QueryClient({
@@ -28,7 +28,7 @@ export const createQueryClient = () =>
     },
     queryCache: new QueryCache({
       onError: (error) => {
-        toast.error(error.message);
+        handleError(error);
       },
     }),
   });

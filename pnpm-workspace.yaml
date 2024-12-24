@@ -23,11 +23,15 @@ catalogs:
     "@date-fns/tz": ^1.2.0
   nextjs:
     next: ^15.1.2
+    "@next/bundle-analyzer": ^15.1.2
+    "@next/third-parties": ^15.1.2
   react19:
     react: ^19.0.0
     react-dom: ^19.0.0
     "@types/react": ^19.0.2
     "@types/react-dom": ^19.0.2
+  sentry:
+    "@sentry/nextjs": ^8.47.0
   supabase:
     supabase: ^2.1.1
     "@supabase/supabase-js": ^2.47.10
@@ -35,3 +39,5 @@ catalogs:
   tailwind:
     tailwindcss: ^3.4.17
     tailwindcss-animate: ^1.0.7
+  vercel:
+    "@vercel/toolbar": ^0.1.30

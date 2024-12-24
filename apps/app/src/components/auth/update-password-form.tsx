@@ -7,7 +7,7 @@ import { useAction } from "next-safe-action/hooks";
 import { useForm } from "react-hook-form";
 
 import type { UpdatePassword } from "@lamp/validators/auth";
-import { Button } from "@lamp/ui/button";
+import { Button } from "@lamp/ui/components/button";
 import {
   Form,
   FormControl,
@@ -15,8 +15,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@lamp/ui/form";
-import { Input } from "@lamp/ui/input";
+} from "@lamp/ui/components/form";
+import { Input } from "@lamp/ui/components/input";
 import { UpdatePasswordSchema } from "@lamp/validators/auth";
 
 import { FormError } from "~/components/auth/form-error";

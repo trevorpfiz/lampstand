@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
-import { Button } from "@lamp/ui/button";
+import { Button } from "@lamp/ui/components/button";
 
 export default function AuthLayout({
   children,

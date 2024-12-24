@@ -5,173 +5,15 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/src/index.d.ts",
-      "default": "./src/index.ts"
+      "types": "./dist/index.d.ts",
+      "default": "./src/index.tsx"
     },
-    "./accordion": {
-      "types": "./dist/src/accordion.d.ts",
-      "default": "./src/accordion.tsx"
-    },
-    "./alert-dialog": {
-      "types": "./dist/src/alert-dialog.d.ts",
-      "default": "./src/alert-dialog.tsx"
-    },
-    "./aspect-ratio": {
-      "types": "./dist/src/aspect-ratio.d.ts",
-      "default": "./src/aspect-ratio.tsx"
-    },
-    "./avatar": {
-      "types": "./dist/src/avatar.d.ts",
-      "default": "./src/avatar.tsx"
-    },
-    "./badge": {
-      "types": "./dist/src/badge.d.ts",
-      "default": "./src/badge.tsx"
-    },
-    "./breadcrumb": {
-      "types": "./dist/src/breadcrumb.d.ts",
-      "default": "./src/breadcrumb.tsx"
-    },
-    "./button": {
-      "types": "./dist/src/button.d.ts",
-      "default": "./src/button.tsx"
-    },
-    "./card": {
-      "types": "./dist/src/card.d.ts",
-      "default": "./src/card.tsx"
-    },
-    "./checkbox": {
-      "types": "./dist/src/checkbox.d.ts",
-      "default": "./src/checkbox.tsx"
-    },
-    "./command": {
-      "types": "./dist/src/command.d.ts",
-      "default": "./src/command.tsx"
-    },
-    "./context-menu": {
-      "types": "./dist/src/context-menu.d.ts",
-      "default": "./src/context-menu.tsx"
-    },
-    "./dialog": {
-      "types": "./dist/src/dialog.d.ts",
-      "default": "./src/dialog.tsx"
-    },
-    "./drawer": {
-      "types": "./dist/src/drawer.d.ts",
-      "default": "./src/drawer.tsx"
-    },
-    "./dropdown-menu": {
-      "types": "./dist/src/dropdown-menu.d.ts",
-      "default": "./src/dropdown-menu.tsx"
-    },
-    "./form": {
-      "types": "./dist/src/form.d.ts",
-      "default": "./src/form.tsx"
-    },
-    "./hover-card": {
-      "types": "./dist/src/hover-card.d.ts",
-      "default": "./src/hover-card.tsx"
-    },
-    "./input-otp": {
-      "types": "./dist/src/input-otp.d.ts",
-      "default": "./src/input-otp.tsx"
-    },
-    "./input": {
-      "types": "./dist/src/input.d.ts",
-      "default": "./src/input.tsx"
-    },
-    "./label": {
-      "types": "./dist/src/label.d.ts",
-      "default": "./src/label.tsx"
-    },
-    "./popover": {
-      "types": "./dist/src/popover.d.ts",
-      "default": "./src/popover.tsx"
-    },
-    "./progress": {
-      "types": "./dist/src/progress.d.ts",
-      "default": "./src/progress.tsx"
-    },
-    "./radio-group": {
-      "types": "./dist/src/radio-group.d.ts",
-      "default": "./src/radio-group.tsx"
-    },
-    "./resizable": {
-      "types": "./dist/src/resizable.d.ts",
-      "default": "./src/resizable.tsx"
-    },
-    "./scroll-area": {
-      "types": "./dist/src/scroll-area.d.ts",
-      "default": "./src/scroll-area.tsx"
-    },
-    "./select": {
-      "types": "./dist/src/select.d.ts",
-      "default": "./src/select.tsx"
-    },
-    "./separator": {
-      "types": "./dist/src/separator.d.ts",
-      "default": "./src/separator.tsx"
-    },
-    "./sidebar": {
-      "types": "./dist/src/sidebar.d.ts",
-      "default": "./src/sidebar.tsx"
-    },
-    "./skeleton": {
-      "types": "./dist/src/skeleton.d.ts",
-      "default": "./src/skeleton.tsx"
-    },
-    "./slider": {
-      "types": "./dist/src/slider.d.ts",
-      "default": "./src/slider.tsx"
-    },
-    "./sonner": {
-      "types": "./dist/src/sonner.d.ts",
-      "default": "./src/sonner.tsx"
-    },
-    "./spinner": {
-      "types": "./dist/src/spinner.d.ts",
-      "default": "./src/spinner.tsx"
-    },
-    "./switch": {
-      "types": "./dist/src/switch.d.ts",
-      "default": "./src/switch.tsx"
-    },
-    "./table": {
-      "types": "./dist/src/table.d.ts",
-      "default": "./src/table.tsx"
-    },
-    "./tabs": {
-      "types": "./dist/src/tabs.d.ts",
-      "default": "./src/tabs.tsx"
-    },
-    "./textarea": {
-      "types": "./dist/src/textarea.d.ts",
-      "default": "./src/textarea.tsx"
-    },
-    "./textarea-autosize": {
-      "types": "./dist/src/textarea-autosize.d.ts",
-      "default": "./src/textarea-autosize.tsx"
-    },
-    "./theme": {
-      "types": "./dist/src/theme.d.ts",
-      "default": "./src/theme.tsx"
-    },
-    "./toggle-group": {
-      "types": "./dist/src/toggle-group.d.ts",
-      "default": "./src/toggle-group.tsx"
-    },
-    "./toggle": {
-      "types": "./dist/src/toggle.d.ts",
-      "default": "./src/toggle.tsx"
-    },
-    "./tooltip": {
-      "types": "./dist/src/tooltip.d.ts",
-      "default": "./src/tooltip.tsx"
-    },
-    "./virtualized-combobox": {
-      "types": "./dist/src/virtualized-combobox.d.ts",
-      "default": "./src/virtualized-combobox.tsx"
-    }
+    "./globals.css": "./src/styles/globals.css",
+    "./postcss.config": "./postcss.config.mjs",
+    "./tailwind.config": "./tailwind.config.ts",
+    "./lib/*": "./src/lib/*.ts",
+    "./components/*": "./src/components/*.tsx",
+    "./hooks/*": "./src/hooks/*.ts"
   },
   "scripts": {
     "build": "tsc",
@@ -184,6 +26,9 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
+    "@lamp/analytics": "workspace:*",
+    "@lamp/env": "workspace:*",
+    "@lamp/observability": "workspace:*",
     "@radix-ui/react-accordion": "^1.2.2",
     "@radix-ui/react-alert-dialog": "^1.1.4",
     "@radix-ui/react-aspect-ratio": "^1.1.1",
@@ -213,10 +58,12 @@
     "@radix-ui/react-toggle-group": "^1.1.1",
     "@radix-ui/react-tooltip": "^1.1.6",
     "@tanstack/react-virtual": "^3.11.2",
+    "@vercel/toolbar": "catalog:vercel",
     "class-variance-authority": "^0.7.1",
     "cmdk": "^1.0.4",
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.5.1",
+    "geist": "^1.3.1",
     "input-otp": "^1.4.1",
     "lucide-react": "catalog:",
     "next-themes": "^0.4.4",

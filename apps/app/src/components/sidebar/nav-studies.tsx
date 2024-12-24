@@ -10,9 +10,13 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@lamp/ui/dropdown-menu";
-import { Input } from "@lamp/ui/input";
-import { Popover, PopoverAnchor, PopoverContent } from "@lamp/ui/popover";
+} from "@lamp/ui/components/dropdown-menu";
+import { Input } from "@lamp/ui/components/input";
+import {
+  Popover,
+  PopoverAnchor,
+  PopoverContent,
+} from "@lamp/ui/components/popover";
 import {
   SidebarGroup,
   SidebarGroupLabel,
@@ -21,9 +25,9 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@lamp/ui/sidebar";
-import { toast } from "@lamp/ui/sonner";
-import { Spinner } from "@lamp/ui/spinner";
+} from "@lamp/ui/components/sidebar";
+import { Spinner } from "@lamp/ui/components/spinner";
+import { handleError } from "@lamp/ui/lib/utils";
 
 import { revalidateStudy } from "~/lib/actions/study";
 import { api } from "~/trpc/react";
@@ -50,8 +54,8 @@ export function NavStudies() {
       setOpen(false);
       setSelectedStudy(null);
     },
-    onError: () => {
-      toast.error("Failed to rename study");
+    onError: (error) => {
+      handleError(error);
     },
   });
 
@@ -69,8 +73,8 @@ export function NavStudies() {
     onSuccess: () => {
       void utils.study.byUser.invalidate();
     },
-    onError: () => {
-      toast.error("Failed to delete study");
+    onError: (error) => {
+      handleError(error);
     },
   });
 

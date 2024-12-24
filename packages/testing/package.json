@@ -1,0 +1,23 @@
+{
+  "name": "@lamp/testing",
+  "private": true,
+  "version": "0.0.0",
+  "main": "./src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "clean": "git clean -xdf .cache .turbo dist node_modules",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "devDependencies": {
+    "@lamp/eslint-config": "workspace:*",
+    "@lamp/prettier-config": "workspace:*",
+    "@lamp/tsconfig": "workspace:*",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "vitest": "^2.1.8"
+  },
+  "prettier": "@lamp/prettier-config"
+}

@@ -1,3 +1,4 @@
+import { captureException } from "@sentry/nextjs";
 import {
   createSafeActionClient,
   DEFAULT_SERVER_ERROR_MESSAGE,
@@ -9,6 +10,9 @@ import { createClient } from "@lamp/supabase/server";
 // Base client
 export const actionClient = createSafeActionClient({
   handleServerError(e) {
+    // Manually log to Sentry
+    captureException(e);
+
     console.error("Action error:", e.message);
 
     // Convert AuthApiError to MyCustomError

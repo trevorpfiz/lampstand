@@ -1,4 +1,9 @@
-import { Card, CardContent, CardFooter, CardHeader } from "@lamp/ui/card";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+} from "@lamp/ui/components/card";
 
 import { BackButton } from "~/components/auth/back-button";
 import { Header } from "~/components/auth/header";

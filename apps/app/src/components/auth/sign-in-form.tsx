@@ -6,7 +6,7 @@ import { ArrowRight, Eye, EyeOff } from "lucide-react";
 import { useAction } from "next-safe-action/hooks";
 
 import type { SignIn } from "@lamp/validators/auth";
-import { Button } from "@lamp/ui/button";
+import { Button } from "@lamp/ui/components/button";
 import {
   Form,
   FormControl,
@@ -15,8 +15,8 @@ import {
   FormLabel,
   FormMessage,
   useForm,
-} from "@lamp/ui/form";
-import { Input } from "@lamp/ui/input";
+} from "@lamp/ui/components/form";
+import { Input } from "@lamp/ui/components/input";
 import { SignInSchema } from "@lamp/validators/auth";
 
 import { FormError } from "~/components/auth/form-error";

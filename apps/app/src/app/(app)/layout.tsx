@@ -1,5 +1,4 @@
-import { SidebarInset, SidebarProvider } from "@lamp/ui/sidebar";
-import { TooltipProvider } from "@lamp/ui/tooltip";
+import { SidebarInset, SidebarProvider } from "@lamp/ui/components/sidebar";
 
 import { SettingsDialog } from "~/components/settings/settings-dialog";
 import { AppSidebar } from "~/components/sidebar/app-sidebar";
@@ -21,13 +20,11 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             <LayoutStoreProvider>
               <BibleStoreProvider>
                 <ChatStoreProvider>
-                  <TooltipProvider delayDuration={100} skipDelayDuration={300}>
-                    <AppSidebar />
-                    <SidebarInset className="h-screen">
-                      {children}
-                      <SettingsDialog />
-                    </SidebarInset>
-                  </TooltipProvider>
+                  <AppSidebar />
+                  <SidebarInset className="h-screen">
+                    {children}
+                    <SettingsDialog />
+                  </SidebarInset>
                 </ChatStoreProvider>
               </BibleStoreProvider>
             </LayoutStoreProvider>

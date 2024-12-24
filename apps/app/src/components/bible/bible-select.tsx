@@ -4,7 +4,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@lamp/ui/select";
+} from "@lamp/ui/components/select";
 
 import { BIBLE_VERSIONS } from "~/lib/constants";
 import { useBibleStore } from "~/providers/bible-store-provider";

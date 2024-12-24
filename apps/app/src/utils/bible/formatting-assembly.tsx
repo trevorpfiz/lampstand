@@ -1,8 +1,12 @@
 import React from "react";
 
-import { cn } from "@lamp/ui";
-import { useTheme } from "@lamp/ui/theme";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@lamp/ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@lamp/ui/components/tooltip";
+import { cn } from "@lamp/ui/lib/utils";
+import { useTheme } from "@lamp/ui/providers/theme";
 
 interface Footnote {
   ref: string;

@@ -3,14 +3,14 @@
 import * as React from "react";
 import { SquarePen } from "lucide-react";
 
-import { Button } from "@lamp/ui/button";
+import { Button } from "@lamp/ui/components/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@lamp/ui/card";
+} from "@lamp/ui/components/card";
 import {
   Sidebar,
   SidebarContent,
@@ -20,10 +20,14 @@ import {
   SidebarMenu,
   SidebarMenuItem,
   SidebarRail,
-} from "@lamp/ui/sidebar";
-import { toast } from "@lamp/ui/sonner";
-import { Spinner } from "@lamp/ui/spinner";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@lamp/ui/tooltip";
+} from "@lamp/ui/components/sidebar";
+import { Spinner } from "@lamp/ui/components/spinner";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@lamp/ui/components/tooltip";
+import { handleError } from "@lamp/ui/lib/utils";
 
 import { NavFooter } from "~/components/sidebar/nav-footer";
 import { NavMain } from "~/components/sidebar/nav-main";
@@ -40,8 +44,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     onSuccess: () => {
       void utils.study.byUser.invalidate();
     },
-    onError: () => {
-      toast.error("Failed to create study");
+    onError: (error) => {
+      handleError(error);
     },
   });
 

@@ -1,0 +1,40 @@
+{
+  "name": "@lamp/next-config",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./src/index.ts"
+    },
+    "./instrumentation": {
+      "types": "./dist/instrumentation.d.ts",
+      "default": "./src/instrumentation.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "git clean -xdf .cache .turbo dist node_modules",
+    "dev": "tsc",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "@lamp/env": "workspace:*",
+    "@next/bundle-analyzer": "catalog:nextjs",
+    "@sentry/nextjs": "catalog:sentry",
+    "@vercel/toolbar": "catalog:vercel"
+  },
+  "devDependencies": {
+    "@lamp/eslint-config": "workspace:*",
+    "@lamp/prettier-config": "workspace:*",
+    "@lamp/tsconfig": "workspace:*",
+    "eslint": "catalog:",
+    "next": "catalog:nextjs",
+    "prettier": "catalog:",
+    "typescript": "catalog:"
+  },
+  "prettier": "@lamp/prettier-config"
+}

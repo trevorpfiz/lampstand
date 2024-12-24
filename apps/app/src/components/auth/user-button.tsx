@@ -5,8 +5,12 @@ import { LogOut, Settings, Sparkles } from "lucide-react";
 
 import type { User } from "@lamp/supabase";
 import { createClient } from "@lamp/supabase/client";
-import { Avatar, AvatarFallback, AvatarImage } from "@lamp/ui/avatar";
-import { Button } from "@lamp/ui/button";
+import {
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+} from "@lamp/ui/components/avatar";
+import { Button } from "@lamp/ui/components/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -15,7 +19,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@lamp/ui/dropdown-menu";
+} from "@lamp/ui/components/dropdown-menu";
 
 import { signOut } from "~/lib/actions/auth";
 import { getNameFromUser } from "~/lib/utils";

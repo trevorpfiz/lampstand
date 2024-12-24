@@ -20,13 +20,13 @@ import {
 import { nanoid } from "nanoid";
 import { useOnClickOutside } from "usehooks-ts";
 
-import { cn } from "@lamp/ui";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@lamp/ui/tooltip";
+} from "@lamp/ui/components/tooltip";
+import { cn } from "@lamp/ui/lib/utils";
 
 import { sanitizeUIMessages } from "~/lib/utils";
 

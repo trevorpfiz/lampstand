@@ -6,7 +6,7 @@ import { AnimatePresence } from "motion/react";
 
 import type { Chat } from "@lamp/db/schema";
 import { useChat } from "@lamp/ai/react";
-import { toast } from "@lamp/ui/sonner";
+import { handleError } from "@lamp/ui/lib/utils";
 
 import { ChatHeader } from "~/components/chat/chat-header";
 import { ChatInput } from "~/components/chat/chat-input";
@@ -107,8 +107,8 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
       // Reset messages for the new chat
       setMessages([]);
     },
-    onError: () => {
-      toast.error("Failed to create new chat");
+    onError: (error) => {
+      handleError(error);
     },
   });
 
@@ -132,8 +132,8 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
         setMessages([]);
       }
     },
-    onError: () => {
-      toast.error("Failed to delete chat");
+    onError: (error) => {
+      handleError(error);
     },
   });
 
