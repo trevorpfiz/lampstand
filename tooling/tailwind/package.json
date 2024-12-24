@@ -9,8 +9,6 @@
   },
   "scripts": {
     "clean": "git clean -xdf .cache .turbo node_modules",
-    "format": "prettier --check . --ignore-path ../../.gitignore",
-    "lint": "eslint",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -20,13 +18,8 @@
     "tailwindcss-animate": "catalog:tailwind"
   },
   "devDependencies": {
-    "@lamp/eslint-config": "workspace:*",
-    "@lamp/prettier-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
     "@tailwindcss/typography": "^0.5.15",
-    "eslint": "catalog:",
-    "prettier": "catalog:",
     "typescript": "catalog:"
-  },
-  "prettier": "@lamp/prettier-config"
+  }
 }

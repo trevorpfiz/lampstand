@@ -1,12 +1,12 @@
-import "server-only";
+import 'server-only';
 
-import { cache } from "react";
+import { cache } from 'react';
 
-import type { Root } from "~/types/bible";
-import type { IRChapter } from "~/utils/bible/formatting-assembly";
 // Import the JSON file on the server
-import bibleData from "~/public/ordered_bible.json";
-import { parseBibleData } from "~/utils/bible/parse-bible-data";
+import bibleData from '~/public/ordered_bible.json';
+import type { Root } from '~/types/bible';
+import type { IRChapter } from '~/utils/bible/formatting-assembly';
+import { parseBibleData } from '~/utils/bible/parse-bible-data';
 
 // Cache the result to avoid re-parsing on every request
 export const getParsedChapters = cache((): IRChapter[] => {

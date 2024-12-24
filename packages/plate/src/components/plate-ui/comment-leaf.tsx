@@ -1,7 +1,5 @@
 'use client';
 
-import React from 'react';
-
 import type { TCommentText } from '@udecode/plate-comments';
 
 import { cn } from '@udecode/cn';
@@ -9,7 +7,7 @@ import {
   useCommentLeaf,
   useCommentLeafState,
 } from '@udecode/plate-comments/react';
-import { type PlateLeafProps, PlateLeaf } from '@udecode/plate-common/react';
+import { PlateLeaf, type PlateLeafProps } from '@udecode/plate-common/react';
 
 export function CommentLeaf({
   className,
@@ -20,7 +18,9 @@ export function CommentLeaf({
   const state = useCommentLeafState({ leaf });
   const { props: rootProps } = useCommentLeaf(state);
 
-  if (!state.commentCount) return <>{children}</>;
+  if (!state.commentCount) {
+    return <>{children}</>;
+  }
 
   let aboveChildren = <>{children}</>;
 

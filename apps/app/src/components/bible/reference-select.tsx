@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
-import { useVirtualizer } from "@tanstack/react-virtual";
-import { Check, Quote } from "lucide-react";
-import { matchSorter } from "match-sorter";
+import { useVirtualizer } from '@tanstack/react-virtual';
+import { Check, Quote } from 'lucide-react';
+import { matchSorter } from 'match-sorter';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 
-import { Button } from "@lamp/ui/components/button";
+import { Button } from '@lamp/ui/components/button';
 import {
   Command,
   CommandEmpty,
@@ -13,17 +13,17 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@lamp/ui/components/command";
+} from '@lamp/ui/components/command';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@lamp/ui/components/popover";
-import { cn } from "@lamp/ui/lib/utils";
+} from '@lamp/ui/components/popover';
+import { cn } from '@lamp/ui/lib/utils';
 
-import { BIBLE_VERSE_REFERENCES } from "~/lib/constants";
-import { useBibleStore } from "~/providers/bible-store-provider";
-import { parseReference, verseId } from "~/utils/bible/verse";
+import { BIBLE_VERSE_REFERENCES } from '~/lib/constants';
+import { useBibleStore } from '~/providers/bible-store-provider';
+import { parseReference, verseId } from '~/utils/bible/verse';
 
 interface ReferenceSelectProps {
   getChapterIndex: (book: string, chapter: number) => number;
@@ -44,17 +44,17 @@ function ReferenceSelect({
   const setCurrentVerse = useBibleStore((state) => state.setCurrentVerse);
 
   const currentValue = `${currentVerse.book} ${currentVerse.chapter}${
-    currentVerse.verse ? `:${currentVerse.verse}` : ""
+    currentVerse.verse ? `:${currentVerse.verse}` : ''
   }`;
 
-  const [searchValue, setSearchValue] = useState("");
+  const [searchValue, setSearchValue] = useState('');
   const options: Option[] = useMemo(
     () =>
       BIBLE_VERSE_REFERENCES.map((item) => ({
         value: item.value,
         label: item.value,
       })),
-    [],
+    []
   );
 
   const [filteredOptions, setFilteredOptions] = useState(options);
@@ -69,12 +69,16 @@ function ReferenceSelect({
 
   const handleSelect = (value: string) => {
     const reference = parseReference(value);
-    if (!reference) return;
+    if (!reference) {
+      return;
+    }
 
     setCurrentVerse(reference);
 
     const chapterIndex = getChapterIndex(reference.book, reference.chapter);
-    if (chapterIndex === -1) return;
+    if (chapterIndex === -1) {
+      return;
+    }
 
     scrollToChapterAndVerse(chapterIndex, verseId(reference));
     setOpen(false);
@@ -82,14 +86,14 @@ function ReferenceSelect({
 
   const handleSearch = (search: string) => {
     setSearchValue(search);
-    if (!search) {
-      setFilteredOptions(options);
-    } else {
+    if (search) {
       const newFilteredOptions = matchSorter(options, search, {
-        keys: ["label"],
+        keys: ['label'],
         threshold: matchSorter.rankings.MATCHES,
       });
       setFilteredOptions(newFilteredOptions);
+    } else {
+      setFilteredOptions(options);
     }
   };
 
@@ -98,10 +102,11 @@ function ReferenceSelect({
 
   // 1. On open, measure layout
   useLayoutEffect(() => {
-    if (!open || hasMeasured) return;
+    if (!open || hasMeasured) {
+      return;
+    }
 
     requestAnimationFrame(() => {
-      console.log("measuring");
       virtualizer.measure();
       setHasMeasured(true);
     });
@@ -110,7 +115,9 @@ function ReferenceSelect({
   // 2. After measurement, scroll accordingly
   // Use useLayoutEffect to avoid flicker since we're adjusting layout
   useEffect(() => {
-    if (!open || !hasMeasured) return;
+    if (!open || !hasMeasured) {
+      return;
+    }
 
     // If searching, scroll to top
     // If not searching, scroll to currentValue if found, else top
@@ -119,7 +126,7 @@ function ReferenceSelect({
     } else {
       const index = filteredOptions.findIndex((o) => o.value === currentValue);
       if (index >= 0) {
-        virtualizer.scrollToIndex(index, { align: "start" });
+        virtualizer.scrollToIndex(index, { align: 'start' });
       } else {
         virtualizer.scrollToOffset(0);
       }
@@ -138,6 +145,7 @@ function ReferenceSelect({
       <PopoverTrigger asChild>
         <Button
           variant="outline"
+          // biome-ignore lint/a11y/useSemanticElements: <explanation>
           role="combobox"
           aria-expanded={open}
           className="h-8 w-full justify-between bg-background px-3 font-normal outline-offset-0 hover:bg-background focus-visible:border-ring focus-visible:outline-[3px] focus-visible:outline-ring/20"
@@ -162,7 +170,7 @@ function ReferenceSelect({
         align="start"
         onCloseAutoFocus={(e) => {
           e.preventDefault();
-          setSearchValue("");
+          setSearchValue('');
           setFilteredOptions(options);
           setHasMeasured(false);
         }}
@@ -179,13 +187,15 @@ function ReferenceSelect({
               <div
                 style={{
                   height: `${virtualizer.getTotalSize()}px`,
-                  width: "100%",
-                  position: "relative",
+                  width: '100%',
+                  position: 'relative',
                 }}
               >
                 {virtualizer.getVirtualItems().map((virtualItem) => {
                   const option = filteredOptions[virtualItem.index];
-                  if (!option) return null;
+                  if (!option) {
+                    return null;
+                  }
 
                   return (
                     <CommandItem
@@ -193,10 +203,10 @@ function ReferenceSelect({
                       value={option.value}
                       onSelect={handleSelect}
                       style={{
-                        position: "absolute",
+                        position: 'absolute',
                         top: 0,
                         left: 0,
-                        width: "100%",
+                        width: '100%',
                         height: `${virtualItem.size}px`,
                         transform: `translateY(${virtualItem.start}px)`,
                       }}
@@ -205,10 +215,10 @@ function ReferenceSelect({
                         size={16}
                         strokeWidth={2}
                         className={cn(
-                          "",
+                          '',
                           currentValue === option.value
-                            ? "opacity-100"
-                            : "opacity-0",
+                            ? 'opacity-100'
+                            : 'opacity-0'
                         )}
                       />
                       {option.label}

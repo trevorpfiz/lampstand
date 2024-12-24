@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "JOS"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Joshua\n"
-      ]
+      "content": ["Joshua\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Joshua\n"
-      ]
+      "content": ["Joshua\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Joshua\n"
-      ]
+      "content": ["Joshua\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God Instructs Joshua\n"
-      ]
+      "content": ["God Instructs Joshua\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 11:8–17)\n"
-      ]
+      "content": ["(Deuteronomy 11:8–17)\n"]
     },
     {
       "type": "para",
@@ -105,16 +93,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:4 "
-              ]
+              "content": ["1:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Mediterranean Sea"
-              ]
+              "content": ["That is, the Mediterranean Sea"]
             }
           ],
           "caller": "+"
@@ -145,16 +129,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:5 "
-              ]
+              "content": ["1:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in Hebrews 13:5"
-              ]
+              "content": ["Cited in Hebrews 13:5"]
             }
           ],
           "caller": "+"
@@ -223,9 +203,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Joshua Takes Charge\n"
-      ]
+      "content": ["Joshua Takes Charge\n"]
     },
     {
       "type": "para",
@@ -329,16 +307,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Rahab Welcomes the Spies\n"
-      ]
+      "content": ["Rahab Welcomes the Spies\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Hebrews 11:30–31)\n"
-      ]
+      "content": ["(Hebrews 11:30–31)\n"]
     },
     {
       "type": "para",
@@ -363,16 +337,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:1 "
-              ]
+              "content": ["2:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Acacia Grove"
-              ]
+              "content": ["Or Acacia Grove"]
             }
           ],
           "caller": "+"
@@ -465,9 +435,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Promise to Rahab\n"
-      ]
+      "content": ["The Promise to Rahab\n"]
     },
     {
       "type": "para",
@@ -506,16 +474,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:10 "
-              ]
+              "content": ["2:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the Sea of Reeds"
-              ]
+              "content": ["Or the Sea of Reeds"]
             }
           ],
           "caller": "+"
@@ -529,9 +493,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:10 "
-              ]
+              "content": ["2:10 "]
             },
             {
               "type": "char",
@@ -723,9 +685,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Crossing the Jordan\n"
-      ]
+      "content": ["Crossing the Jordan\n"]
     },
     {
       "type": "para",
@@ -750,16 +710,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:1 "
-              ]
+              "content": ["3:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Acacia Grove"
-              ]
+              "content": ["Or Acacia Grove"]
             }
           ],
           "caller": "+"
@@ -804,9 +760,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:4 "
-              ]
+              "content": ["3:4 "]
             },
             {
               "type": "char",
@@ -971,16 +925,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:16 "
-              ]
+              "content": ["3:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Dead Sea"
-              ]
+              "content": ["That is, the Dead Sea"]
             }
           ],
           "caller": "+"
@@ -1004,9 +954,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Twelve Stones from the Jordan\n"
-      ]
+      "content": ["Twelve Stones from the Jordan\n"]
     },
     {
       "type": "para",
@@ -1117,9 +1065,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:9 "
-              ]
+              "content": ["4:9 "]
             },
             {
               "type": "char",
@@ -1219,16 +1165,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:16 "
-              ]
+              "content": ["4:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the ark of the covenant"
-              ]
+              "content": ["That is, the ark of the covenant"]
             }
           ],
           "caller": "+"
@@ -1273,9 +1215,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Camp at Gilgal\n"
-      ]
+      "content": ["The Camp at Gilgal\n"]
     },
     {
       "type": "para",
@@ -1338,16 +1278,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:23 "
-              ]
+              "content": ["4:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the Sea of Reeds"
-              ]
+              "content": ["Or the Sea of Reeds"]
             }
           ],
           "caller": "+"
@@ -1371,9 +1307,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Circumcision and Passover at Gilgal\n"
-      ]
+      "content": ["The Circumcision and Passover at Gilgal\n"]
     },
     {
       "type": "para",
@@ -1398,9 +1332,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:1 "
-              ]
+              "content": ["5:1 "]
             },
             {
               "type": "char",
@@ -1421,16 +1353,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:1 "
-              ]
+              "content": ["5:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or until we had crossed over"
-              ]
+              "content": ["Or until we had crossed over"]
             }
           ],
           "caller": "+"
@@ -1461,16 +1389,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:2 "
-              ]
+              "content": ["5:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally again the second time"
-              ]
+              "content": ["Literally again the second time"]
             }
           ],
           "caller": "+"
@@ -1491,16 +1415,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:3 "
-              ]
+              "content": ["5:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Gibeath-haaraloth means the hill of the foreskins."
-              ]
+              "content": ["Gibeath-haaraloth means the hill of the foreskins."]
             }
           ],
           "caller": "+"
@@ -1596,16 +1516,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:9 "
-              ]
+              "content": ["5:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Gilgal sounds like the Hebrew for roll."
-              ]
+              "content": ["Gilgal sounds like the Hebrew for roll."]
             }
           ],
           "caller": "+"
@@ -1657,9 +1573,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Commander of the LORD’s Army\n"
-      ]
+      "content": ["The Commander of the LORD’s Army\n"]
     },
     {
       "type": "para",
@@ -1712,16 +1626,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:14 "
-              ]
+              "content": ["5:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or and paid homage or and worshiped"
-              ]
+              "content": ["Or and paid homage or and worshiped"]
             }
           ],
           "caller": "+"
@@ -1753,9 +1663,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "And Joshua did so. \n"
-      ]
+      "content": ["And Joshua did so. \n"]
     },
     {
       "type": "chapter",
@@ -1766,9 +1674,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Walls of Jericho\n"
-      ]
+      "content": ["The Walls of Jericho\n"]
     },
     {
       "type": "para",
@@ -1831,9 +1737,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:5 "
-              ]
+              "content": ["6:5 "]
             },
             {
               "type": "char",
@@ -1854,9 +1758,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:5 "
-              ]
+              "content": ["6:5 "]
             },
             {
               "type": "char",
@@ -2021,9 +1923,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:17 "
-              ]
+              "content": ["6:17 "]
             },
             {
               "type": "char",
@@ -2148,37 +2048,27 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Cursed before the LORD is the man who rises up \n"
-      ]
+      "content": ["“Cursed before the LORD is the man who rises up \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and rebuilds this city, Jericho; \n"
-      ]
+      "content": ["and rebuilds this city, Jericho; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "at the cost of his firstborn \n"
-      ]
+      "content": ["at the cost of his firstborn \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "he will lay its foundations; \n"
-      ]
+      "content": ["he will lay its foundations; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "at the cost of his youngest \n"
-      ]
+      "content": ["at the cost of his youngest \n"]
     },
     {
       "type": "para",
@@ -2193,16 +2083,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:26 "
-              ]
+              "content": ["6:26 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See 1 Kings 16:34."
-              ]
+              "content": ["See 1 Kings 16:34."]
             }
           ],
           "caller": "+"
@@ -2236,9 +2122,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Defeat at Ai\n"
-      ]
+      "content": ["The Defeat at Ai\n"]
     },
     {
       "type": "para",
@@ -2263,9 +2147,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:1 "
-              ]
+              "content": ["7:1 "]
             },
             {
               "type": "char",
@@ -2286,9 +2168,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:1 "
-              ]
+              "content": ["7:1 "]
             },
             {
               "type": "char",
@@ -2309,9 +2189,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:1 "
-              ]
+              "content": ["7:1 "]
             },
             {
               "type": "char",
@@ -2390,16 +2268,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:5 "
-              ]
+              "content": ["7:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or as far as Shebarim"
-              ]
+              "content": ["Or as far as Shebarim"]
             }
           ],
           "caller": "+"
@@ -2520,9 +2394,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Sin of Achan\n"
-      ]
+      "content": ["The Sin of Achan\n"]
     },
     {
       "type": "para",
@@ -2602,16 +2474,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:21 "
-              ]
+              "content": ["7:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, Babylonia "
-              ]
+              "content": ["That is, Babylonia "]
             }
           ],
           "caller": "+"
@@ -2625,9 +2493,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:21 "
-              ]
+              "content": ["7:21 "]
             },
             {
               "type": "char",
@@ -2648,9 +2514,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:21 "
-              ]
+              "content": ["7:21 "]
             },
             {
               "type": "char",
@@ -2736,16 +2600,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:26 "
-              ]
+              "content": ["7:26 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Achor means trouble."
-              ]
+              "content": ["Achor means trouble."]
             }
           ],
           "caller": "+"
@@ -2762,9 +2622,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Conquest of Ai\n"
-      ]
+      "content": ["The Conquest of Ai\n"]
     },
     {
       "type": "para",
@@ -2968,9 +2826,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:18 "
-              ]
+              "content": ["8:18 "]
             },
             {
               "type": "char",
@@ -3067,9 +2923,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:26 "
-              ]
+              "content": ["8:26 "]
             },
             {
               "type": "char",
@@ -3114,16 +2968,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:28 "
-              ]
+              "content": ["8:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Ai means ruin."
-              ]
+              "content": ["Ai means ruin."]
             }
           ],
           "caller": "+"
@@ -3144,16 +2994,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:29 "
-              ]
+              "content": ["8:29 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or He impaled the king of Ai on a pole"
-              ]
+              "content": ["Or He impaled the king of Ai on a pole"]
             }
           ],
           "caller": "+"
@@ -3164,16 +3010,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Joshua Renews the Covenant\n"
-      ]
+      "content": ["Joshua Renews the Covenant\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 27:1–10)\n"
-      ]
+      "content": ["(Deuteronomy 27:1–10)\n"]
     },
     {
       "type": "para",
@@ -3205,16 +3047,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:31 "
-              ]
+              "content": ["8:31 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 20:25; Deuteronomy 27:5"
-              ]
+              "content": ["Exodus 20:25; Deuteronomy 27:5"]
             }
           ],
           "caller": "+"
@@ -3279,9 +3117,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Deceit of the Gibeonites\n"
-      ]
+      "content": ["The Deceit of the Gibeonites\n"]
     },
     {
       "type": "para",
@@ -3306,9 +3142,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:1 "
-              ]
+              "content": ["9:1 "]
             },
             {
               "type": "char",
@@ -3329,16 +3163,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:1 "
-              ]
+              "content": ["9:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Mediterranean Sea"
-              ]
+              "content": ["That is, the Mediterranean Sea"]
             }
           ],
           "caller": "+"
@@ -3383,16 +3213,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:4 "
-              ]
+              "content": ["9:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or set out with provisions"
-              ]
+              "content": ["Or set out with provisions"]
             }
           ],
           "caller": "+"
@@ -3420,9 +3246,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:6 "
-              ]
+              "content": ["9:6 "]
             },
             {
               "type": "char",
@@ -3704,9 +3528,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Day the Sun Stood Still\n"
-      ]
+      "content": ["The Day the Sun Stood Still\n"]
     },
     {
       "type": "para",
@@ -3731,9 +3553,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:1 "
-              ]
+              "content": ["10:1 "]
             },
             {
               "type": "char",
@@ -3902,9 +3722,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“O sun, stand still over Gibeon, \n"
-      ]
+      "content": ["“O sun, stand still over Gibeon, \n"]
     },
     {
       "type": "para",
@@ -3919,16 +3737,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:12 "
-              ]
+              "content": ["10:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Jasher 88:63."
-              ]
+              "content": ["See Jasher 88:63."]
             }
           ],
           "caller": "+"
@@ -3956,16 +3770,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the moon stopped \n"
-      ]
+      "content": ["and the moon stopped \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "until the nation took vengeance \n"
-      ]
+      "content": ["until the nation took vengeance \n"]
     },
     {
       "type": "para",
@@ -3980,16 +3790,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:13 "
-              ]
+              "content": ["10:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or triumphed over its enemies"
-              ]
+              "content": ["Or triumphed over its enemies"]
             }
           ],
           "caller": "+"
@@ -4014,9 +3820,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:13 "
-              ]
+              "content": ["10:13 "]
             },
             {
               "type": "char",
@@ -4038,23 +3842,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“So the sun stopped \n"
-      ]
+      "content": ["“So the sun stopped \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the middle of the sky \n"
-      ]
+      "content": ["in the middle of the sky \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and delayed going down \n"
-      ]
+      "content": ["and delayed going down \n"]
     },
     {
       "type": "para",
@@ -4069,16 +3867,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:13 "
-              ]
+              "content": ["10:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Jasher 88:64."
-              ]
+              "content": ["See Jasher 88:64."]
             }
           ],
           "caller": "+"
@@ -4123,9 +3917,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Victory at Makkedah\n"
-      ]
+      "content": ["The Victory at Makkedah\n"]
     },
     {
       "type": "para",
@@ -4291,9 +4083,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:26 "
-              ]
+              "content": ["10:26 "]
             },
             {
               "type": "char",
@@ -4335,9 +4125,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Conquest of the Southern Cities\n"
-      ]
+      "content": ["Conquest of the Southern Cities\n"]
     },
     {
       "type": "para",
@@ -4499,9 +4287,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:40 "
-              ]
+              "content": ["10:40 "]
             },
             {
               "type": "char",
@@ -4556,9 +4342,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Conquest of the Northern Cities\n"
-      ]
+      "content": ["Conquest of the Northern Cities\n"]
     },
     {
       "type": "para",
@@ -4590,9 +4374,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:2 "
-              ]
+              "content": ["11:2 "]
             },
             {
               "type": "char",
@@ -4613,9 +4395,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:2 "
-              ]
+              "content": ["11:2 "]
             },
             {
               "type": "char",
@@ -4739,9 +4519,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:11 "
-              ]
+              "content": ["11:11 "]
             },
             {
               "type": "char",
@@ -4807,9 +4585,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Joshua Takes the Whole Land\n"
-      ]
+      "content": ["Joshua Takes the Whole Land\n"]
     },
     {
       "type": "para",
@@ -4872,16 +4648,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:20 "
-              ]
+              "content": ["11:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or stiffen or strengthen"
-              ]
+              "content": ["Or stiffen or strengthen"]
             }
           ],
           "caller": "+"
@@ -4939,9 +4711,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Kings Defeated East of the Jordan\n"
-      ]
+      "content": ["The Kings Defeated East of the Jordan\n"]
     },
     {
       "type": "para",
@@ -4990,16 +4760,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:3 "
-              ]
+              "content": ["12:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Sea of Galilee"
-              ]
+              "content": ["That is, the Sea of Galilee"]
             }
           ],
           "caller": "+"
@@ -5013,16 +4779,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:3 "
-              ]
+              "content": ["12:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Dead Sea"
-              ]
+              "content": ["That is, the Dead Sea"]
             }
           ],
           "caller": "+"
@@ -5053,16 +4815,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:4 "
-              ]
+              "content": ["12:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX; Hebrew And the territory of Og king of Bashan"
-              ]
+              "content": ["LXX; Hebrew And the territory of Og king of Bashan"]
             }
           ],
           "caller": "+"
@@ -5097,9 +4855,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Kings Defeated West of the Jordan\n"
-      ]
+      "content": ["The Kings Defeated West of the Jordan\n"]
     },
     {
       "type": "para",
@@ -5131,9 +4887,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:8 "
-              ]
+              "content": ["12:8 "]
             },
             {
               "type": "char",
@@ -5172,9 +4926,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Ai, which is near Bethel, one; \n"
-      ]
+      "content": ["the king of Ai, which is near Bethel, one; \n"]
     },
     {
       "type": "para",
@@ -5200,9 +4952,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Hebron, one; \n"
-      ]
+      "content": ["the king of Hebron, one; \n"]
     },
     {
       "type": "para",
@@ -5228,9 +4978,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Lachish, one; \n"
-      ]
+      "content": ["the king of Lachish, one; \n"]
     },
     {
       "type": "para",
@@ -5256,9 +5004,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Gezer, one; \n"
-      ]
+      "content": ["the king of Gezer, one; \n"]
     },
     {
       "type": "para",
@@ -5284,9 +5030,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Geder, one; \n"
-      ]
+      "content": ["the king of Geder, one; \n"]
     },
     {
       "type": "para",
@@ -5312,9 +5056,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Arad, one; \n"
-      ]
+      "content": ["the king of Arad, one; \n"]
     },
     {
       "type": "para",
@@ -5340,9 +5082,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Adullam, one; \n"
-      ]
+      "content": ["the king of Adullam, one; \n"]
     },
     {
       "type": "para",
@@ -5368,9 +5108,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Bethel, one; \n"
-      ]
+      "content": ["the king of Bethel, one; \n"]
     },
     {
       "type": "para",
@@ -5396,9 +5134,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Hepher, one; \n"
-      ]
+      "content": ["the king of Hepher, one; \n"]
     },
     {
       "type": "para",
@@ -5424,9 +5160,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Lasharon, one; \n"
-      ]
+      "content": ["the king of Lasharon, one; \n"]
     },
     {
       "type": "para",
@@ -5452,9 +5186,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Hazor, one; \n"
-      ]
+      "content": ["the king of Hazor, one; \n"]
     },
     {
       "type": "para",
@@ -5480,9 +5212,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Achshaph, one; \n"
-      ]
+      "content": ["the king of Achshaph, one; \n"]
     },
     {
       "type": "para",
@@ -5508,9 +5238,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Megiddo, one; \n"
-      ]
+      "content": ["the king of Megiddo, one; \n"]
     },
     {
       "type": "para",
@@ -5536,9 +5264,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the king of Jokneam in Carmel, one; \n"
-      ]
+      "content": ["the king of Jokneam in Carmel, one; \n"]
     },
     {
       "type": "para",
@@ -5563,9 +5289,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:23 "
-              ]
+              "content": ["12:23 "]
             },
             {
               "type": "char",
@@ -5597,16 +5321,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:23 "
-              ]
+              "content": ["12:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew; LXX Goyim in Galilee"
-              ]
+              "content": ["Hebrew; LXX Goyim in Galilee"]
             }
           ],
           "caller": "+"
@@ -5638,9 +5358,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "So there were thirty-one kings in all. \n"
-      ]
+      "content": ["So there were thirty-one kings in all. \n"]
     },
     {
       "type": "chapter",
@@ -5651,16 +5369,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Lands Yet Unconquered\n"
-      ]
+      "content": ["Lands Yet Unconquered\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Judges 1:1–7)\n"
-      ]
+      "content": ["(Judges 1:1–7)\n"]
     },
     {
       "type": "para",
@@ -5727,16 +5441,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:4 "
-              ]
+              "content": ["13:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Arah"
-              ]
+              "content": ["Or Arah"]
             }
           ],
           "caller": "+"
@@ -5767,16 +5477,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:5 "
-              ]
+              "content": ["13:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the area of Byblos"
-              ]
+              "content": ["Or the area of Byblos"]
             }
           ],
           "caller": "+"
@@ -5822,16 +5528,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Inheritance East of the Jordan\n"
-      ]
+      "content": ["The Inheritance East of the Jordan\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 32:1–42; Deuteronomy 3:12–22)\n"
-      ]
+      "content": ["(Numbers 32:1–42; Deuteronomy 3:12–22)\n"]
     },
     {
       "type": "para",
@@ -5936,9 +5638,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Reuben’s Inheritance\n"
-      ]
+      "content": ["Reuben’s Inheritance\n"]
     },
     {
       "type": "para",
@@ -6047,9 +5747,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Gad’s Inheritance\n"
-      ]
+      "content": ["Gad’s Inheritance\n"]
     },
     {
       "type": "para",
@@ -6108,9 +5806,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:26 "
-              ]
+              "content": ["13:26 "]
             },
             {
               "type": "char",
@@ -6148,16 +5844,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:27 "
-              ]
+              "content": ["13:27 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Sea of Galilee"
-              ]
+              "content": ["That is, the Sea of Galilee"]
             }
           ],
           "caller": "+"
@@ -6185,9 +5877,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Manasseh’s Eastern Inheritance\n"
-      ]
+      "content": ["Manasseh’s Eastern Inheritance\n"]
     },
     {
       "type": "para",
@@ -6284,9 +5974,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Land Division West of the Jordan\n"
-      ]
+      "content": ["Land Division West of the Jordan\n"]
     },
     {
       "type": "para",
@@ -6356,9 +6044,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Caleb Requests Hebron\n"
-      ]
+      "content": ["Caleb Requests Hebron\n"]
     },
     {
       "type": "para",
@@ -6487,9 +6173,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Then the land had rest from war. \n"
-      ]
+      "content": ["Then the land had rest from war. \n"]
     },
     {
       "type": "chapter",
@@ -6500,9 +6184,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Judah’s Inheritance\n"
-      ]
+      "content": ["Judah’s Inheritance\n"]
     },
     {
       "type": "para",
@@ -6544,16 +6226,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:2 "
-              ]
+              "content": ["15:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Dead Sea; also in verse 5"
-              ]
+              "content": ["That is, the Dead Sea; also in verse 5"]
             }
           ],
           "caller": "+"
@@ -6574,16 +6252,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:3 "
-              ]
+              "content": ["15:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the Ascent of Scorpions or Scorpion Pass"
-              ]
+              "content": ["Or the Ascent of Scorpions or Scorpion Pass"]
             }
           ],
           "caller": "+"
@@ -6604,9 +6278,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:4 "
-              ]
+              "content": ["15:4 "]
             },
             {
               "type": "char",
@@ -6627,16 +6299,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:4 "
-              ]
+              "content": ["15:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX; Hebrew your"
-              ]
+              "content": ["LXX; Hebrew your"]
             }
           ],
           "caller": "+"
@@ -6745,16 +6413,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Caleb’s Portion and Conquest\n"
-      ]
+      "content": ["Caleb’s Portion and Conquest\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Judges 1:8–26)\n"
-      ]
+      "content": ["(Judges 1:8–26)\n"]
     },
     {
       "type": "para",
@@ -6834,9 +6498,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:18 "
-              ]
+              "content": ["15:18 "]
             },
             {
               "type": "char",
@@ -6875,16 +6537,12 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "So Caleb gave her both the upper and lower springs. \n"
-      ]
+      "content": ["So Caleb gave her both the upper and lower springs. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Cities of Judah\n"
-      ]
+      "content": ["The Cities of Judah\n"]
     },
     {
       "type": "para",
@@ -7021,9 +6679,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:33 "
-              ]
+              "content": ["15:33 "]
             },
             {
               "type": "char",
@@ -7390,9 +7046,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Ephraim’s Inheritance\n"
-      ]
+      "content": ["Ephraim’s Inheritance\n"]
     },
     {
       "type": "para",
@@ -7424,9 +7078,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:2 "
-              ]
+              "content": ["16:2 "]
             },
             {
               "type": "char",
@@ -7454,9 +7106,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:3 "
-              ]
+              "content": ["16:3 "]
             },
             {
               "type": "char",
@@ -7561,9 +7211,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Manasseh’s Western Inheritance\n"
-      ]
+      "content": ["Manasseh’s Western Inheritance\n"]
     },
     {
       "type": "para",
@@ -7595,16 +7243,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:2 "
-              ]
+              "content": ["17:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Abiezer is a variant of Iezer; see Numbers 26:30."
-              ]
+              "content": ["Abiezer is a variant of Iezer; see Numbers 26:30."]
             }
           ],
           "caller": "+"
@@ -7698,9 +7342,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:9 "
-              ]
+              "content": ["17:9 "]
             },
             {
               "type": "char",
@@ -7847,9 +7489,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Remainder Divided\n"
-      ]
+      "content": ["The Remainder Divided\n"]
     },
     {
       "type": "para",
@@ -7984,9 +7624,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Benjamin’s Inheritance\n"
-      ]
+      "content": ["Benjamin’s Inheritance\n"]
     },
     {
       "type": "para",
@@ -8090,16 +7728,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:18 "
-              ]
+              "content": ["18:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX; Hebrew slope facing the Arabah"
-              ]
+              "content": ["LXX; Hebrew slope facing the Arabah"]
             }
           ],
           "caller": "+"
@@ -8120,16 +7754,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:19 "
-              ]
+              "content": ["18:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Dead Sea"
-              ]
+              "content": ["That is, the Dead Sea"]
             }
           ],
           "caller": "+"
@@ -8258,16 +7888,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:28 "
-              ]
+              "content": ["18:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX, Syriac, and Vulgate; Hebrew the Jebusite"
-              ]
+              "content": ["LXX, Syriac, and Vulgate; Hebrew the Jebusite"]
             }
           ],
           "caller": "+"
@@ -8281,16 +7907,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:28 "
-              ]
+              "content": ["18:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew Gibeath "
-              ]
+              "content": ["Hebrew Gibeath "]
             }
           ],
           "caller": "+"
@@ -8304,16 +7926,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:28 "
-              ]
+              "content": ["18:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX; Hebrew Kiriath"
-              ]
+              "content": ["LXX; Hebrew Kiriath"]
             }
           ],
           "caller": "+"
@@ -8341,9 +7959,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Simeon’s Inheritance\n"
-      ]
+      "content": ["Simeon’s Inheritance\n"]
     },
     {
       "type": "para",
@@ -8453,9 +8069,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Zebulun’s Inheritance\n"
-      ]
+      "content": ["Zebulun’s Inheritance\n"]
     },
     {
       "type": "para",
@@ -8540,9 +8154,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Issachar’s Inheritance\n"
-      ]
+      "content": ["Issachar’s Inheritance\n"]
     },
     {
       "type": "para",
@@ -8626,9 +8238,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Asher’s Inheritance\n"
-      ]
+      "content": ["Asher’s Inheritance\n"]
     },
     {
       "type": "para",
@@ -8691,16 +8301,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:28 "
-              ]
+              "content": ["19:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Some Hebrew manuscripts Abdon; see Joshua 21:30."
-              ]
+              "content": ["Some Hebrew manuscripts Abdon; see Joshua 21:30."]
             }
           ],
           "caller": "+"
@@ -8721,9 +8327,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:29 "
-              ]
+              "content": ["19:29 "]
             },
             {
               "type": "char",
@@ -8765,9 +8369,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Naphtali’s Inheritance\n"
-      ]
+      "content": ["Naphtali’s Inheritance\n"]
     },
     {
       "type": "para",
@@ -8816,16 +8418,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:34 "
-              ]
+              "content": ["19:34 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew; LXX west, and the Jordan"
-              ]
+              "content": ["Hebrew; LXX west, and the Jordan"]
             }
           ],
           "caller": "+"
@@ -8881,9 +8479,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Dan’s Inheritance\n"
-      ]
+      "content": ["Dan’s Inheritance\n"]
     },
     {
       "type": "para",
@@ -8991,9 +8587,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Joshua’s Inheritance\n"
-      ]
+      "content": ["Joshua’s Inheritance\n"]
     },
     {
       "type": "para",
@@ -9025,9 +8619,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:50 "
-              ]
+              "content": ["19:50 "]
             },
             {
               "type": "char",
@@ -9068,9 +8660,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Six Cities of Refuge\n"
-      ]
+      "content": ["Six Cities of Refuge\n"]
     },
     {
       "type": "para",
@@ -9201,16 +8791,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Forty-Eight Cities for the Levites\n"
-      ]
+      "content": ["Forty-Eight Cities for the Levites\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 35:1–8; 1 Chronicles 6:54–81)\n"
-      ]
+      "content": ["(Numbers 35:1–8; 1 Chronicles 6:54–81)\n"]
     },
     {
       "type": "para",
@@ -9859,9 +9445,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Eastern Tribes Return Home\n"
-      ]
+      "content": ["The Eastern Tribes Return Home\n"]
     },
     {
       "type": "para",
@@ -9952,9 +9536,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Altar of Witness\n"
-      ]
+      "content": ["The Altar of Witness\n"]
     },
     {
       "type": "para",
@@ -9986,9 +9568,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:10 "
-              ]
+              "content": ["22:10 "]
             },
             {
               "type": "char",
@@ -10139,9 +9719,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:20 "
-              ]
+              "content": ["22:20 "]
             },
             {
               "type": "char",
@@ -10162,9 +9740,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:20 "
-              ]
+              "content": ["22:20 "]
             },
             {
               "type": "char",
@@ -10353,16 +9929,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:34 "
-              ]
+              "content": ["22:34 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally named the altar, for"
-              ]
+              "content": ["Literally named the altar, for"]
             }
           ],
           "caller": "+"
@@ -10379,9 +9951,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Joshua’s Charge to Leaders\n"
-      ]
+      "content": ["Joshua’s Charge to Leaders\n"]
     },
     {
       "type": "para",
@@ -10437,16 +10007,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:4 "
-              ]
+              "content": ["23:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Mediterranean Sea"
-              ]
+              "content": ["That is, the Mediterranean Sea"]
             }
           ],
           "caller": "+"
@@ -10577,9 +10143,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Joshua Reviews Israel’s History\n"
-      ]
+      "content": ["Joshua Reviews Israel’s History\n"]
     },
     {
       "type": "para",
@@ -10621,16 +10185,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:2 "
-              ]
+              "content": ["24:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew the River; also in verses 3, 14, and 15"
-              ]
+              "content": ["Hebrew the River; also in verses 3, 14, and 15"]
             }
           ],
           "caller": "+"
@@ -10682,16 +10242,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:6 "
-              ]
+              "content": ["24:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the Sea of Reeds"
-              ]
+              "content": ["Or the Sea of Reeds"]
             }
           ],
           "caller": "+"
@@ -10771,16 +10327,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Choose Whom You Will Serve\n"
-      ]
+      "content": ["Choose Whom You Will Serve\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 10:12–22)\n"
-      ]
+      "content": ["(Deuteronomy 10:12–22)\n"]
     },
     {
       "type": "para",
@@ -10902,9 +10454,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“We are witnesses!” they said. \n"
-      ]
+      "content": ["“We are witnesses!” they said. \n"]
     },
     {
       "type": "para",
@@ -10970,16 +10520,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:26 "
-              ]
+              "content": ["24:26 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or terebinth"
-              ]
+              "content": ["Or terebinth"]
             }
           ],
           "caller": "+"
@@ -11014,16 +10560,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Joshua’s Death and Burial\n"
-      ]
+      "content": ["Joshua’s Death and Burial\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Judges 2:6–9)\n"
-      ]
+      "content": ["(Judges 2:6–9)\n"]
     },
     {
       "type": "para",
@@ -11055,9 +10597,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:30 "
-              ]
+              "content": ["24:30 "]
             },
             {
               "type": "char",
@@ -11102,9 +10642,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:32 "
-              ]
+              "content": ["24:32 "]
             },
             {
               "type": "char",

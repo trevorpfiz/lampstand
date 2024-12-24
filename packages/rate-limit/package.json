@@ -19,12 +19,7 @@
     "@upstash/redis": "^1.34.3"
   },
   "devDependencies": {
-    "@lamp/eslint-config": "workspace:*",
-    "@lamp/prettier-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
-    "eslint": "catalog:",
-    "prettier": "catalog:",
     "typescript": "catalog:"
-  },
-  "prettier": "@lamp/prettier-config"
+  }
 }

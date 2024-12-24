@@ -1,1 +1,1 @@
-export { default } from "@lamp/testing";
+export { default } from '@lamp/testing';

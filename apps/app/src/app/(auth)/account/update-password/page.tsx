@@ -1,5 +1,5 @@
-import { CardWrapper } from "~/components/auth/card-wrapper";
-import { UpdatePasswordForm } from "~/components/auth/update-password-form";
+import { CardWrapper } from '~/components/auth/card-wrapper';
+import { UpdatePasswordForm } from '~/components/auth/update-password-form';
 
 export default function UpdatePasswordPage() {
   return (

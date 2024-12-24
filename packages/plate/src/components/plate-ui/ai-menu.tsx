@@ -1,46 +1,46 @@
-"use client";
+'use client';
 
-import type { SlateEditor, TElement, TNodeEntry } from "@udecode/plate-common";
-import * as React from "react";
-import { AIChatPlugin, useEditorChat } from "@udecode/plate-ai/react";
+import { AIChatPlugin, useEditorChat } from '@udecode/plate-ai/react';
+import type { SlateEditor, TElement, TNodeEntry } from '@udecode/plate-common';
 import {
   getAncestorNode,
   getBlocks,
   isElementEmpty,
   isHotkey,
   isSelectionAtBlockEnd,
-} from "@udecode/plate-common";
+} from '@udecode/plate-common';
 import {
   toDOMNode,
   useEditorPlugin,
   useHotkeys,
-} from "@udecode/plate-common/react";
+} from '@udecode/plate-common/react';
 import {
   BlockSelectionPlugin,
   useIsSelecting,
-} from "@udecode/plate-selection/react";
-import { Loader2Icon } from "lucide-react";
+} from '@udecode/plate-selection/react';
+import { Loader2Icon } from 'lucide-react';
+import * as React from 'react';
 
-import { useChat } from "../editor/use-chat";
-import { AIChatEditor } from "./ai-chat-editor";
-import { AIMenuItems } from "./ai-menu-items";
-import { Command, CommandList, InputCommand } from "./command";
-import { Popover, PopoverAnchor, PopoverContent } from "./popover";
+import { useChat } from '../editor/use-chat';
+import { AIChatEditor } from './ai-chat-editor';
+import { AIMenuItems } from './ai-menu-items';
+import { Command, CommandList, InputCommand } from './command';
+import { Popover, PopoverAnchor, PopoverContent } from './popover';
 
 export function AIMenu() {
   const { api, editor, useOption } = useEditorPlugin(AIChatPlugin);
-  const open = useOption("open");
-  const mode = useOption("mode");
+  const open = useOption('open');
+  const mode = useOption('mode');
   const isSelecting = useIsSelecting();
 
   const aiEditorRef = React.useRef<SlateEditor | null>(null);
-  const [value, setValue] = React.useState("");
+  const [value, setValue] = React.useState('');
 
   const chat = useChat();
 
   const { input, isLoading, messages, setInput } = chat;
   const [anchorElement, setAnchorElement] = React.useState<HTMLElement | null>(
-    null,
+    null
   );
 
   const setOpen = (open: boolean) => {
@@ -59,12 +59,12 @@ export function AIMenu() {
   useEditorChat({
     chat,
     onOpenBlockSelection: (blocks: TNodeEntry[]) => {
-      show(toDOMNode(editor, blocks.at(-1)![0])!);
+      show(toDOMNode(editor, blocks.at(-1)?.[0])!);
     },
     onOpenChange: (open) => {
       if (!open) {
         setAnchorElement(null);
-        setInput("");
+        setInput('');
       }
     },
     onOpenCursor: () => {
@@ -79,16 +79,16 @@ export function AIMenu() {
       show(toDOMNode(editor, ancestor)!);
     },
     onOpenSelection: () => {
-      show(toDOMNode(editor, getBlocks(editor).at(-1)![0])!);
+      show(toDOMNode(editor, getBlocks(editor).at(-1)?.[0])!);
     },
   });
 
   useHotkeys(
-    "meta+j",
+    'meta+j',
     () => {
       api.aiChat.show();
     },
-    { enableOnContentEditable: true, enableOnFormTags: true },
+    { enableOnContentEditable: true, enableOnFormTags: true }
   );
 
   return (
@@ -118,28 +118,28 @@ export function AIMenu() {
           value={value}
           onValueChange={setValue}
         >
-          {mode === "chat" && isSelecting && messages.length > 0 && (
+          {mode === 'chat' && isSelecting && messages.length > 0 && (
             <AIChatEditor aiEditorRef={aiEditorRef} />
           )}
 
           {isLoading ? (
-            <div className="flex grow select-none items-center gap-2 p-2 text-sm text-muted-foreground">
+            <div className="flex grow select-none items-center gap-2 p-2 text-muted-foreground text-sm">
               <Loader2Icon className="size-4 animate-spin" />
-              {messages.length > 1 ? "Editing..." : "Thinking..."}
+              {messages.length > 1 ? 'Editing...' : 'Thinking...'}
             </div>
           ) : (
             <InputCommand
               variant="ghost"
-              className="rounded-none border-b border-solid border-border [&_svg]:hidden"
+              className="rounded-none border-border border-b border-solid [&_svg]:hidden"
               value={input}
               onKeyDown={(e) => {
-                if (isHotkey("backspace")(e) && input.length === 0) {
+                if (isHotkey('backspace')(e) && input.length === 0) {
                   e.preventDefault();
                   api.aiChat.hide();
                 }
-                if (isHotkey("enter")(e) && !e.shiftKey && !value) {
+                if (isHotkey('enter')(e) && !e.shiftKey && !value) {
                   e.preventDefault();
-                  void api.aiChat.submit();
+                  api.aiChat.submit();
                 }
               }}
               onValueChange={setInput}

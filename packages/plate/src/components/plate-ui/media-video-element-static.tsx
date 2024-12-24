@@ -1,5 +1,3 @@
-import React from 'react';
-
 import type { TCaptionElement } from '@udecode/plate-caption';
 import type { SlateElementProps } from '@udecode/plate-common';
 import type { TVideoElement } from '@udecode/plate-media';

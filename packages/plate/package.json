@@ -11,8 +11,6 @@
   },
   "scripts": {
     "clean": "git clean -xdf .cache .turbo dist node_modules",
-    "format": "prettier --check . --ignore-path ../../.gitignore",
-    "lint": "eslint",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
@@ -106,19 +104,14 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@lamp/eslint-config": "workspace:*",
-    "@lamp/prettier-config": "workspace:*",
     "@lamp/tailwind-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
     "@types/react": "catalog:react19",
-    "eslint": "catalog:",
-    "prettier": "catalog:",
     "react": "catalog:react19",
     "typescript": "catalog:"
   },
   "peerDependencies": {
     "react": "catalog:react19",
     "zod": "catalog:"
-  },
-  "prettier": "@lamp/prettier-config"
+  }
 }

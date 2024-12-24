@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import React, { useMemo, useState } from "react";
-import { withRef } from "@udecode/cn";
-import { EmojiInlineIndexSearch, insertEmoji } from "@udecode/plate-emoji";
+import { withRef } from '@udecode/cn';
+import { EmojiInlineIndexSearch, insertEmoji } from '@udecode/plate-emoji';
+import { useMemo, useState } from 'react';
 
-import { useDebounce } from "../../hooks/use-debounce";
+import { useDebounce } from '../../hooks/use-debounce';
 import {
   InlineCombobox,
   InlineComboboxContent,
@@ -12,21 +12,23 @@ import {
   InlineComboboxGroup,
   InlineComboboxInput,
   InlineComboboxItem,
-} from "./inline-combobox";
-import { PlateElement } from "./plate-element";
+} from './inline-combobox';
+import { PlateElement } from './plate-element';
 
 export const EmojiInputElement = withRef<typeof PlateElement>(
   ({ className, ...props }, ref) => {
     const { children, editor, element } = props;
-    const [value, setValue] = useState("");
+    const [value, setValue] = useState('');
     const debouncedValue = useDebounce(value, 100);
     const isPending = value !== debouncedValue;
 
     const filteredEmojis = useMemo(() => {
-      if (debouncedValue.trim().length === 0) return [];
+      if (debouncedValue.trim().length === 0) {
+        return [];
+      }
 
       return EmojiInlineIndexSearch.getInstance()
-        .search(debouncedValue.replace(/:$/, ""))
+        .search(debouncedValue.replace(/:$/, ''))
         .get();
     }, [debouncedValue]);
 
@@ -70,5 +72,5 @@ export const EmojiInputElement = withRef<typeof PlateElement>(
         {children}
       </PlateElement>
     );
-  },
+  }
 );

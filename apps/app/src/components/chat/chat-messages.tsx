@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import { useEffect } from "react";
-import Image from "next/image";
+import Image from 'next/image';
+import { useEffect } from 'react';
 
-import type { Message } from "@lamp/ai";
-import { Markdown } from "@lamp/ai/components";
-import { ScrollArea } from "@lamp/ui/components/scroll-area";
-import { Spinner } from "@lamp/ui/components/spinner";
-import { cn } from "@lamp/ui/lib/utils";
+import type { Message } from '@lamp/ai';
+import { Markdown } from '@lamp/ai/components';
+import { ScrollArea } from '@lamp/ui/components/scroll-area';
+import { Spinner } from '@lamp/ui/components/spinner';
+import { cn } from '@lamp/ui/lib/utils';
 
-import { useScrollToBottom } from "~/hooks/use-scroll-to-bottom";
+import { useScrollToBottom } from '~/hooks/use-scroll-to-bottom';
 
 interface ChatMessagesProps {
   messages: Message[];
@@ -25,16 +25,18 @@ export function ChatMessages({
   const [containerRef, endRef] = useScrollToBottom<HTMLDivElement>();
 
   // Instantly scroll to bottom when loading cached chats
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     if (messages.length > 0 && !isLoading) {
-      endRef.current?.scrollIntoView({ behavior: "instant", block: "end" });
+      endRef.current?.scrollIntoView({ behavior: 'instant', block: 'end' });
     }
   }, []);
 
   // Smooth scroll to bottom when new messages come in or loading finishes
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     if (messages.length > 0 && !isLoading) {
-      endRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
+      endRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
     }
   }, [isLoading]);
 
@@ -43,13 +45,14 @@ export function ChatMessages({
       <ScrollArea className="flex-1 px-4" type="auto">
         <div
           ref={containerRef}
-          className="flex min-h-full flex-col gap-4 pb-0 pt-4"
+          className="flex min-h-full flex-col gap-4 pt-4 pb-0"
         >
-          {isLoading ? (
+          {isLoading && (
             <div className="absolute inset-0 flex items-center justify-center">
               <Spinner />
             </div>
-          ) : showWatermark ? (
+          )}
+          {!isLoading && showWatermark && (
             <div className="absolute inset-0 flex items-center justify-center">
               <Image
                 src="/icon.png"
@@ -59,29 +62,25 @@ export function ChatMessages({
                 className="opacity-20"
               />
             </div>
-          ) : (
-            // Render messages if not loading and no watermark
-            <>
-              {messages.map((message, index) => (
-                <div key={index} className="flex flex-col gap-1">
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <div
-                      className={cn(
-                        "h-2 w-2 rounded-full",
-                        message.role === "user"
-                          ? "bg-blue-500"
-                          : "bg-orange-500",
-                      )}
-                    />
-                    <span>{message.role === "user" ? "You" : "Lampstand"}</span>
-                  </div>
-                  <div className="flex flex-col gap-4 px-4 py-0 text-sm">
-                    <Markdown>{message.content}</Markdown>
-                  </div>
-                </div>
-              ))}
-            </>
           )}
+          {!isLoading &&
+            !showWatermark &&
+            messages.map((message, index) => (
+              <div key={index} className="flex flex-col gap-1">
+                <div className="flex items-center gap-2 text-muted-foreground text-sm">
+                  <div
+                    className={cn(
+                      'h-2 w-2 rounded-full',
+                      message.role === 'user' ? 'bg-blue-500' : 'bg-orange-500'
+                    )}
+                  />
+                  <span>{message.role === 'user' ? 'You' : 'Lampstand'}</span>
+                </div>
+                <div className="flex flex-col gap-4 px-4 py-0 text-sm">
+                  <Markdown>{message.content}</Markdown>
+                </div>
+              </div>
+            ))}
           {/* Invisible element to scroll to */}
           <div ref={endRef} className="min-h-[56px] min-w-[56px] shrink-0" />
         </div>

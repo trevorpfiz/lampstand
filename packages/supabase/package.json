@@ -30,13 +30,9 @@
     }
   },
   "scripts": {
-    "build": "tsc",
     "clean": "git clean -xdf .cache .turbo dist node_modules",
-    "dev": "tsc",
-    "format": "prettier --check . --ignore-path ../../.gitignore",
     "_generate:types": "supabase gen types typescript --project-id \"$NEXT_PUBLIC_SUPABASE_PROJECT_REF\" --schema public > src/types/db.ts",
     "generate:types": "pnpm with-env pnpm run _generate:types",
-    "lint": "eslint",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false",
     "with-env": "dotenv -e ../../.env --"
   },
@@ -50,13 +46,8 @@
     "supabase": "catalog:supabase"
   },
   "devDependencies": {
-    "@lamp/eslint-config": "workspace:*",
-    "@lamp/prettier-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
     "dotenv-cli": "^7.4.4",
-    "eslint": "catalog:",
-    "prettier": "catalog:",
     "typescript": "catalog:"
-  },
-  "prettier": "@lamp/prettier-config"
+  }
 }

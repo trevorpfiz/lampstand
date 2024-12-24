@@ -1,13 +1,13 @@
-import { createEnv } from "@t3-oss/env-nextjs";
-import { vercel } from "@t3-oss/env-nextjs/presets";
-import { z } from "zod";
+import { createEnv } from '@t3-oss/env-nextjs';
+import { vercel } from '@t3-oss/env-nextjs/presets';
+import { z } from 'zod';
 
 export const env = createEnv({
   extends: [vercel()],
   shared: {
     NODE_ENV: z
-      .enum(["development", "test", "production"])
-      .default("development"),
+      .enum(['development', 'test', 'production'])
+      .default('development'),
   },
   /**
    * Specify your server-side environment variables schema here. This way you can ensure the app isn't
@@ -16,13 +16,13 @@ export const env = createEnv({
   server: {
     POSTGRES_URL: z.string().min(1).url(),
     ANALYZE: z.string().optional(),
-    OPENAI_API_KEY: z.string().min(1).startsWith("sk-").optional(),
-    STRIPE_SECRET_KEY: z.string().min(1).startsWith("sk_"),
-    STRIPE_WEBHOOK_SECRET: z.string().min(1).startsWith("whsec_").optional(),
-    RESEND_TOKEN: z.string().min(1).startsWith("re_"),
+    OPENAI_API_KEY: z.string().min(1).startsWith('sk-').optional(),
+    STRIPE_SECRET_KEY: z.string().min(1).startsWith('sk_'),
+    STRIPE_WEBHOOK_SECRET: z.string().min(1).startsWith('whsec_').optional(),
+    RESEND_TOKEN: z.string().min(1).startsWith('re_'),
     RESEND_FROM: z.string().min(1).email(),
-    ARCJET_KEY: z.string().min(1).startsWith("ajkey_").optional(),
-    BASEHUB_TOKEN: z.string().min(1).startsWith("bshb_pk_"),
+    ARCJET_KEY: z.string().min(1).startsWith('ajkey_').optional(),
+    BASEHUB_TOKEN: z.string().min(1).startsWith('bshb_pk_'),
     UPSTASH_REDIS_REST_URL: z.string().min(1).url().optional(),
     UPSTASH_REDIS_REST_TOKEN: z.string().min(1).optional(),
 
@@ -31,7 +31,7 @@ export const env = createEnv({
     SENTRY_PROJECT: z.string().min(1).optional(),
 
     // Added by Vercel
-    NEXT_RUNTIME: z.enum(["nodejs", "edge"]).optional(),
+    NEXT_RUNTIME: z.enum(['nodejs', 'edge']).optional(),
     FLAGS_SECRET: z.string().min(1).optional(),
   },
   /**
@@ -50,9 +50,9 @@ export const env = createEnv({
     NEXT_PUBLIC_GA_MEASUREMENT_ID: z
       .string()
       .min(1)
-      .startsWith("G-")
+      .startsWith('G-')
       .optional(),
-    NEXT_PUBLIC_POSTHOG_KEY: z.string().min(1).startsWith("phc_"),
+    NEXT_PUBLIC_POSTHOG_KEY: z.string().min(1).startsWith('phc_'),
     NEXT_PUBLIC_POSTHOG_HOST: z.string().min(1).url(),
     NEXT_PUBLIC_SENTRY_DSN: z.string().min(1).url(),
   },
@@ -76,5 +76,5 @@ export const env = createEnv({
     NEXT_PUBLIC_SENTRY_DSN: process.env.NEXT_PUBLIC_SENTRY_DSN,
   },
   skipValidation:
-    !!process.env.CI || process.env.npm_lifecycle_event === "lint",
+    !!process.env.CI || process.env.npm_lifecycle_event === 'lint',
 });

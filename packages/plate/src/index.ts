@@ -1,1 +1,1 @@
-export { PlateEditor } from "./components/editor/plate-editor";
+export { PlateEditor } from './components/editor/plate-editor';

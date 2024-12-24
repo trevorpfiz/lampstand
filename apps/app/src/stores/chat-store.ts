@@ -1,8 +1,6 @@
-import { persist } from "zustand/middleware";
-import { createStore } from "zustand/vanilla";
-
-import type { Model } from "@lamp/ai/models";
-import { DEFAULT_MODEL_NAME } from "@lamp/ai/models";
+import { DEFAULT_MODEL_NAME } from '@lamp/ai/models';
+import { persist } from 'zustand/middleware';
+import { createStore } from 'zustand/vanilla';
 
 export interface ChatState {
   modelId: string;
@@ -32,8 +30,8 @@ export const createChatStore = (initState: ChatState = defaultChatState) => {
           }),
       }),
       {
-        name: "chat-store",
-      },
-    ),
+        name: 'chat-store',
+      }
+    )
   );
 };

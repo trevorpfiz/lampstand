@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "1TH"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "1 Thessalonians\n"
-      ]
+      "content": ["1 Thessalonians\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "1 Thessalonians\n"
-      ]
+      "content": ["1 Thessalonians\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "1 Thessalonians\n"
-      ]
+      "content": ["1 Thessalonians\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Greetings to the Thessalonians\n"
-      ]
+      "content": ["Greetings to the Thessalonians\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Thessalonians 1:1–4)\n"
-      ]
+      "content": ["(2 Thessalonians 1:1–4)\n"]
     },
     {
       "type": "para",
@@ -74,16 +62,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:1 "
-              ]
+              "content": ["1:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, Silas"
-              ]
+              "content": ["That is, Silas"]
             }
           ],
           "caller": "+"
@@ -119,9 +103,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:1 "
-              ]
+              "content": ["1:1 "]
             },
             {
               "type": "char",
@@ -238,9 +220,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paul’s Ministry\n"
-      ]
+      "content": ["Paul’s Ministry\n"]
     },
     {
       "type": "para",
@@ -310,9 +290,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:6 "
-              ]
+              "content": ["2:6 "]
             },
             {
               "type": "char",
@@ -350,16 +328,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:7 "
-              ]
+              "content": ["2:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "WH and NA we were like young children among you"
-              ]
+              "content": ["WH and NA we were like young children among you"]
             }
           ],
           "caller": "+"
@@ -466,16 +440,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:16 "
-              ]
+              "content": ["2:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or at last the wrath (of God) has come upon them."
-              ]
+              "content": ["Or at last the wrath (of God) has come upon them."]
             }
           ],
           "caller": "+"
@@ -486,9 +456,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paul’s Longing to Visit\n"
-      ]
+      "content": ["Paul’s Longing to Visit\n"]
     },
     {
       "type": "para",
@@ -537,9 +505,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Timothy’s Visit\n"
-      ]
+      "content": ["Timothy’s Visit\n"]
     },
     {
       "type": "para",
@@ -571,9 +537,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:2 "
-              ]
+              "content": ["3:2 "]
             },
             {
               "type": "char",
@@ -612,9 +576,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Timothy’s Encouraging Report\n"
-      ]
+      "content": ["Timothy’s Encouraging Report\n"]
     },
     {
       "type": "para",
@@ -711,9 +673,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Living to Please God\n"
-      ]
+      "content": ["Living to Please God\n"]
     },
     {
       "type": "para",
@@ -769,16 +729,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:4 "
-              ]
+              "content": ["4:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally know how to possess his own vessel"
-              ]
+              "content": ["Literally know how to possess his own vessel"]
             }
           ],
           "caller": "+"
@@ -806,9 +762,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:6 "
-              ]
+              "content": ["4:6 "]
             },
             {
               "type": "char",
@@ -878,9 +832,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Return of the Lord\n"
-      ]
+      "content": ["The Return of the Lord\n"]
     },
     {
       "type": "para",
@@ -905,9 +857,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:13 "
-              ]
+              "content": ["4:13 "]
             },
             {
               "type": "char",
@@ -986,16 +936,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Day of the Lord\n"
-      ]
+      "content": ["The Day of the Lord\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Zephaniah 1:7–18; Malachi 4:1–6; 2 Peter 3:8–13)\n"
-      ]
+      "content": ["(Zephaniah 1:7–18; Malachi 4:1–6; 2 Peter 3:8–13)\n"]
     },
     {
       "type": "para",
@@ -1107,9 +1053,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Christian Living\n"
-      ]
+      "content": ["Christian Living\n"]
     },
     {
       "type": "para",
@@ -1241,9 +1185,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Final Blessings and Instructions\n"
-      ]
+      "content": ["Final Blessings and Instructions\n"]
     },
     {
       "type": "para",
@@ -1268,9 +1210,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:23 "
-              ]
+              "content": ["5:23 "]
             },
             {
               "type": "char",
@@ -1366,16 +1306,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:28 "
-              ]
+              "content": ["5:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include Amen."
-              ]
+              "content": ["BYZ and TR include Amen."]
             }
           ],
           "caller": "+"

@@ -1,11 +1,11 @@
-import "server-only";
+import 'server-only';
 
-import { and, desc, eq } from "drizzle-orm";
+import { and, desc, eq } from 'drizzle-orm';
 
-import type { ProfileId, StudyId } from "../schema";
-import type { ChatId, ChatVisibility, NewChatParams } from "../schema/chat";
-import { db } from "../client";
-import { Chat } from "../schema/chat";
+import { db } from '../client';
+import type { ProfileId, StudyId } from '../schema';
+import type { ChatId, ChatVisibility, NewChatParams } from '../schema/chat';
+import { Chat } from '../schema/chat';
 
 // read
 export async function getChatsByStudyId({
@@ -30,33 +30,23 @@ export async function getChatById({
   chatId: ChatId;
   userId: ProfileId;
 }) {
-  try {
-    const chat = await db.query.Chat.findFirst({
-      where: and(eq(Chat.id, chatId), eq(Chat.profileId, userId)),
-      with: {
-        messages: true,
-      },
-    });
+  const chat = await db.query.Chat.findFirst({
+    where: and(eq(Chat.id, chatId), eq(Chat.profileId, userId)),
+    with: {
+      messages: true,
+    },
+  });
 
-    return { chat };
-  } catch (error) {
-    console.error("Failed to get chat by id from database");
-    throw error;
-  }
+  return { chat };
 }
 
 export async function getChatsByUserId({ id }: { id: ProfileId }) {
-  try {
-    const chats = await db.query.Chat.findMany({
-      where: eq(Chat.profileId, id),
-      orderBy: desc(Chat.createdAt),
-    });
+  const chats = await db.query.Chat.findMany({
+    where: eq(Chat.profileId, id),
+    orderBy: desc(Chat.createdAt),
+  });
 
-    return { chats };
-  } catch (error) {
-    console.error("Failed to get chats by user from database");
-    throw error;
-  }
+  return { chats };
 }
 
 // create
@@ -68,23 +58,17 @@ export async function createChat({
   userId: ProfileId;
 }) {
   const { studyId, title, visibility } = newChat;
+  const [chat] = await db
+    .insert(Chat)
+    .values({
+      studyId,
+      title,
+      visibility,
+      profileId: userId,
+    })
+    .returning();
 
-  try {
-    const [chat] = await db
-      .insert(Chat)
-      .values({
-        studyId,
-        title,
-        visibility,
-        profileId: userId,
-      })
-      .returning();
-
-    return { chat };
-  } catch (error) {
-    console.error("Failed to save chat in database");
-    throw error;
-  }
+  return { chat };
 }
 
 // update
@@ -97,18 +81,13 @@ export async function updateChatVisiblityById({
   visibility: ChatVisibility;
   userId: ProfileId;
 }) {
-  try {
-    const [chat] = await db
-      .update(Chat)
-      .set({ visibility })
-      .where(and(eq(Chat.id, chatId), eq(Chat.profileId, userId)))
-      .returning();
+  const [chat] = await db
+    .update(Chat)
+    .set({ visibility })
+    .where(and(eq(Chat.id, chatId), eq(Chat.profileId, userId)))
+    .returning();
 
-    return { chat };
-  } catch (error) {
-    console.error("Failed to update chat visibility in database");
-    throw error;
-  }
+  return { chat };
 }
 
 export async function updateChatTitleById({
@@ -120,18 +99,13 @@ export async function updateChatTitleById({
   title: string;
   userId: ProfileId;
 }) {
-  try {
-    const [chat] = await db
-      .update(Chat)
-      .set({ title })
-      .where(and(eq(Chat.id, chatId), eq(Chat.profileId, userId)))
-      .returning();
+  const [chat] = await db
+    .update(Chat)
+    .set({ title })
+    .where(and(eq(Chat.id, chatId), eq(Chat.profileId, userId)))
+    .returning();
 
-    return { chat };
-  } catch (error) {
-    console.error("Failed to update chat title in database");
-    throw error;
-  }
+  return { chat };
 }
 
 // delete
@@ -142,15 +116,10 @@ export async function deleteChatById({
   chatId: ChatId;
   userId: ProfileId;
 }) {
-  try {
-    const [chat] = await db
-      .delete(Chat)
-      .where(and(eq(Chat.id, chatId), eq(Chat.profileId, userId)))
-      .returning();
+  const [chat] = await db
+    .delete(Chat)
+    .where(and(eq(Chat.id, chatId), eq(Chat.profileId, userId)))
+    .returning();
 
-    return { chat };
-  } catch (error) {
-    console.error("Failed to delete chat by id from database");
-    throw error;
-  }
+  return { chat };
 }

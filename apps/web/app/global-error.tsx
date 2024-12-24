@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import type NextError from "next/error";
-import { useEffect } from "react";
-import { captureException } from "@sentry/nextjs";
+import { captureException } from '@sentry/nextjs';
+import type NextError from 'next/error';
+import { useEffect } from 'react';
 
-import { Button } from "@lamp/design-system/components/ui/button";
-import { fonts } from "@lamp/design-system/lib/fonts";
+import { Button } from '@lamp/design-system/components/ui/button';
+import { fonts } from '@lamp/design-system/lib/fonts';
 
 type GlobalErrorProperties = {
   readonly error: NextError & { digest?: string };

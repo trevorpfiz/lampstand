@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "ECC"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Ecclesiastes\n"
-      ]
+      "content": ["Ecclesiastes\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Ecclesiastes\n"
-      ]
+      "content": ["Ecclesiastes\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Ecclesiastes\n"
-      ]
+      "content": ["Ecclesiastes\n"]
     },
     {
       "type": "chapter",
@@ -40,9 +32,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Everything Is Futile\n"
-      ]
+      "content": ["Everything Is Futile\n"]
     },
     {
       "type": "para",
@@ -67,9 +57,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:1 "
-              ]
+              "content": ["1:1 "]
             },
             {
               "type": "char",
@@ -107,9 +95,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:2 "
-              ]
+              "content": ["1:2 "]
             },
             {
               "type": "char",
@@ -127,23 +113,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "says the Teacher, \n"
-      ]
+      "content": ["says the Teacher, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“futility of futilities! \n"
-      ]
+      "content": ["“futility of futilities! \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Everything is futile!” \n"
-      ]
+      "content": ["Everything is futile!” \n"]
     },
     {
       "type": "para",
@@ -165,9 +145,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "at which he toils under the sun? \n"
-      ]
+      "content": ["at which he toils under the sun? \n"]
     },
     {
       "type": "para",
@@ -185,9 +163,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but the earth remains forever. \n"
-      ]
+      "content": ["but the earth remains forever. \n"]
     },
     {
       "type": "para",
@@ -205,9 +181,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "it hurries back to where it rises. \n"
-      ]
+      "content": ["it hurries back to where it rises. \n"]
     },
     {
       "type": "para",
@@ -225,23 +199,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "then turns northward; \n"
-      ]
+      "content": ["then turns northward; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "round and round it swirls, \n"
-      ]
+      "content": ["round and round it swirls, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "ever returning on its course. \n"
-      ]
+      "content": ["ever returning on its course. \n"]
     },
     {
       "type": "para",
@@ -259,23 +227,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "yet the sea is never full; \n"
-      ]
+      "content": ["yet the sea is never full; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "to the place from which the streams come, \n"
-      ]
+      "content": ["to the place from which the streams come, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "there again they flow. \n"
-      ]
+      "content": ["there again they flow. \n"]
     },
     {
       "type": "para",
@@ -297,23 +259,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "more than one can describe; \n"
-      ]
+      "content": ["more than one can describe; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "the eye is not satisfied with seeing, \n"
-      ]
+      "content": ["the eye is not satisfied with seeing, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "nor the ear content with hearing. \n"
-      ]
+      "content": ["nor the ear content with hearing. \n"]
     },
     {
       "type": "para",
@@ -331,16 +287,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and what has been done will be done again; \n"
-      ]
+      "content": ["and what has been done will be done again; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "there is nothing new under the sun. \n"
-      ]
+      "content": ["there is nothing new under the sun. \n"]
     },
     {
       "type": "para",
@@ -358,23 +310,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "“Look, this is new”? \n"
-      ]
+      "content": ["“Look, this is new”? \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "It has already existed \n"
-      ]
+      "content": ["It has already existed \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the ages before us. \n"
-      ]
+      "content": ["in the ages before us. \n"]
     },
     {
       "type": "para",
@@ -392,30 +338,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "of those who came before, \n"
-      ]
+      "content": ["of those who came before, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and those yet to come will not be remembered \n"
-      ]
+      "content": ["and those yet to come will not be remembered \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "by those who follow after. \n"
-      ]
+      "content": ["by those who follow after. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "With Wisdom Comes Sorrow\n"
-      ]
+      "content": ["With Wisdom Comes Sorrow\n"]
     },
     {
       "type": "para",
@@ -478,9 +416,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and what is lacking cannot be counted. \n"
-      ]
+      "content": ["and what is lacking cannot be counted. \n"]
     },
     {
       "type": "para",
@@ -536,9 +472,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and as knowledge grows, grief increases. \n"
-      ]
+      "content": ["and as knowledge grows, grief increases. \n"]
     },
     {
       "type": "chapter",
@@ -549,9 +483,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Futility of Pleasure\n"
-      ]
+      "content": ["The Futility of Pleasure\n"]
     },
     {
       "type": "para",
@@ -577,9 +509,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "But it proved to be futile. \n"
-      ]
+      "content": ["But it proved to be futile. \n"]
     },
     {
       "type": "para",
@@ -714,9 +644,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Wise and the Foolish\n"
-      ]
+      "content": ["The Wise and the Foolish\n"]
     },
     {
       "type": "para",
@@ -762,9 +690,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but the fool walks in darkness. \n"
-      ]
+      "content": ["but the fool walks in darkness. \n"]
     },
     {
       "type": "para",
@@ -791,9 +717,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "And I said to myself that this too is futile. \n"
-      ]
+      "content": ["And I said to myself that this too is futile. \n"]
     },
     {
       "type": "para",
@@ -822,9 +746,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Futility of Work\n"
-      ]
+      "content": ["The Futility of Work\n"]
     },
     {
       "type": "para",
@@ -918,9 +840,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:25 "
-              ]
+              "content": ["2:25 "]
             },
             {
               "type": "char",
@@ -951,9 +871,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "To Everything There Is a Season\n"
-      ]
+      "content": ["To Everything There Is a Season\n"]
     },
     {
       "type": "para",
@@ -975,9 +893,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and a time for every purpose under heaven: \n"
-      ]
+      "content": ["and a time for every purpose under heaven: \n"]
     },
     {
       "type": "para",
@@ -995,9 +911,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a time to plant and a time to uproot, \n"
-      ]
+      "content": ["a time to plant and a time to uproot, \n"]
     },
     {
       "type": "para",
@@ -1015,9 +929,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a time to break down and a time to build, \n"
-      ]
+      "content": ["a time to break down and a time to build, \n"]
     },
     {
       "type": "para",
@@ -1035,9 +947,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a time to mourn and a time to dance, \n"
-      ]
+      "content": ["a time to mourn and a time to dance, \n"]
     },
     {
       "type": "para",
@@ -1055,9 +965,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a time to embrace and a time to refrain from embracing, \n"
-      ]
+      "content": ["a time to embrace and a time to refrain from embracing, \n"]
     },
     {
       "type": "para",
@@ -1075,9 +983,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a time to keep and a time to discard, \n"
-      ]
+      "content": ["a time to keep and a time to discard, \n"]
     },
     {
       "type": "para",
@@ -1095,9 +1001,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a time to be silent and a time to speak, \n"
-      ]
+      "content": ["a time to be silent and a time to speak, \n"]
     },
     {
       "type": "para",
@@ -1115,16 +1019,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a time for war and a time for peace. \n"
-      ]
+      "content": ["a time for war and a time for peace. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Works Remain Forever\n"
-      ]
+      "content": ["God’s Works Remain Forever\n"]
     },
     {
       "type": "para",
@@ -1198,9 +1098,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "From Dust to Dust\n"
-      ]
+      "content": ["From Dust to Dust\n"]
     },
     {
       "type": "para",
@@ -1256,16 +1154,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:19 "
-              ]
+              "content": ["3:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or spirit"
-              ]
+              "content": ["Or spirit"]
             }
           ],
           "caller": "+"
@@ -1313,9 +1207,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Evil of Oppression\n"
-      ]
+      "content": ["The Evil of Oppression\n"]
     },
     {
       "type": "para",
@@ -1385,9 +1277,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and consumes his own flesh. \n"
-      ]
+      "content": ["and consumes his own flesh. \n"]
     },
     {
       "type": "para",
@@ -1405,9 +1295,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "than two handfuls with toil and pursuit of the wind. \n"
-      ]
+      "content": ["than two handfuls with toil and pursuit of the wind. \n"]
     },
     {
       "type": "para",
@@ -1474,9 +1362,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Futility of Power\n"
-      ]
+      "content": ["The Futility of Power\n"]
     },
     {
       "type": "para",
@@ -1535,9 +1421,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Approaching God with Awe\n"
-      ]
+      "content": ["Approaching God with Awe\n"]
     },
     {
       "type": "para",
@@ -1579,9 +1463,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "so the speech of a fool comes with many words. \n"
-      ]
+      "content": ["so the speech of a fool comes with many words. \n"]
     },
     {
       "type": "para",
@@ -1630,16 +1512,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:6 "
-              ]
+              "content": ["5:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or angel"
-              ]
+              "content": ["Or angel"]
             }
           ],
           "caller": "+"
@@ -1657,16 +1535,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Futility of Wealth\n"
-      ]
+      "content": ["The Futility of Wealth\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 49:1–20)\n"
-      ]
+      "content": ["(Psalm 49:1–20)\n"]
     },
     {
       "type": "para",
@@ -1838,9 +1712,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Futility of Life\n"
-      ]
+      "content": ["The Futility of Life\n"]
     },
     {
       "type": "para",
@@ -1934,16 +1806,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:7 "
-              ]
+              "content": ["6:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew filled"
-              ]
+              "content": ["Hebrew filled"]
             }
           ],
           "caller": "+"
@@ -2015,9 +1883,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Value of Wisdom\n"
-      ]
+      "content": ["The Value of Wisdom\n"]
     },
     {
       "type": "para",
@@ -2039,9 +1905,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and one’s day of death is better than his day of birth. \n"
-      ]
+      "content": ["and one’s day of death is better than his day of birth. \n"]
     },
     {
       "type": "para",
@@ -2059,23 +1923,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "than a house of feasting, \n"
-      ]
+      "content": ["than a house of feasting, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "since death is the end of every man, \n"
-      ]
+      "content": ["since death is the end of every man, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the living should take this to heart. \n"
-      ]
+      "content": ["and the living should take this to heart. \n"]
     },
     {
       "type": "para",
@@ -2097,9 +1955,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for a sad countenance is good for the heart. \n"
-      ]
+      "content": ["for a sad countenance is good for the heart. \n"]
     },
     {
       "type": "para",
@@ -2117,9 +1973,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but the heart of fools is in the house of pleasure. \n"
-      ]
+      "content": ["but the heart of fools is in the house of pleasure. \n"]
     },
     {
       "type": "para",
@@ -2141,9 +1995,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "than to listen to the song of fools. \n"
-      ]
+      "content": ["than to listen to the song of fools. \n"]
     },
     {
       "type": "para",
@@ -2161,9 +2013,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "so is the laughter of the fool. This too is futile. \n"
-      ]
+      "content": ["so is the laughter of the fool. This too is futile. \n"]
     },
     {
       "type": "para",
@@ -2185,9 +2035,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and a bribe corrupts the heart. \n"
-      ]
+      "content": ["and a bribe corrupts the heart. \n"]
     },
     {
       "type": "para",
@@ -2205,9 +2053,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and a patient spirit is better than a proud one. \n"
-      ]
+      "content": ["and a patient spirit is better than a proud one. \n"]
     },
     {
       "type": "para",
@@ -2239,16 +2085,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:9 "
-              ]
+              "content": ["7:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew in the bosom of fools"
-              ]
+              "content": ["Hebrew in the bosom of fools"]
             }
           ],
           "caller": "+"
@@ -2272,9 +2114,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "For it is unwise of you to ask about this. \n"
-      ]
+      "content": ["For it is unwise of you to ask about this. \n"]
     },
     {
       "type": "para",
@@ -2296,9 +2136,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and it benefits those who see the sun. \n"
-      ]
+      "content": ["and it benefits those who see the sun. \n"]
     },
     {
       "type": "para",
@@ -2316,16 +2154,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the advantage of knowledge \n"
-      ]
+      "content": ["and the advantage of knowledge \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "is that wisdom preserves the life of its owner. \n"
-      ]
+      "content": ["is that wisdom preserves the life of its owner. \n"]
     },
     {
       "type": "para",
@@ -2347,9 +2181,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Who can straighten what He has bent? \n"
-      ]
+      "content": ["Who can straighten what He has bent? \n"]
     },
     {
       "type": "para",
@@ -2367,37 +2199,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but in the day of adversity, consider this: \n"
-      ]
+      "content": ["but in the day of adversity, consider this: \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "God has made one of these along with the other, \n"
-      ]
+      "content": ["God has made one of these along with the other, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "so that a man cannot discover \n"
-      ]
+      "content": ["so that a man cannot discover \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "anything that will come after him. \n"
-      ]
+      "content": ["anything that will come after him. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Limits of Human Wisdom\n"
-      ]
+      "content": ["The Limits of Human Wisdom\n"]
     },
     {
       "type": "para",
@@ -2423,9 +2245,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "A righteous man perishing in his righteousness, \n"
-      ]
+      "content": ["A righteous man perishing in his righteousness, \n"]
     },
     {
       "type": "para",
@@ -2434,9 +2254,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and a wicked man living long in his wickedness. \n"
-      ]
+      "content": ["and a wicked man living long in his wickedness. \n"]
     },
     {
       "type": "para",
@@ -2475,16 +2293,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:18 "
-              ]
+              "content": ["7:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or will avoid all extremes"
-              ]
+              "content": ["Or will avoid all extremes"]
             }
           ],
           "caller": "+"
@@ -2512,9 +2326,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "stronger than ten rulers in a city. \n"
-      ]
+      "content": ["stronger than ten rulers in a city. \n"]
     },
     {
       "type": "para",
@@ -2532,9 +2344,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "who does good and never sins. \n"
-      ]
+      "content": ["who does good and never sins. \n"]
     },
     {
       "type": "para",
@@ -2648,9 +2458,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Obey the King\n"
-      ]
+      "content": ["Obey the King\n"]
     },
     {
       "type": "para",
@@ -2758,16 +2566,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Fear God\n"
-      ]
+      "content": ["Fear God\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Isaiah 8:11–15)\n"
-      ]
+      "content": ["(Isaiah 8:11–15)\n"]
     },
     {
       "type": "para",
@@ -2792,9 +2596,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:10 "
-              ]
+              "content": ["8:10 "]
             },
             {
               "type": "char",
@@ -2843,9 +2645,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Ways Are Mysterious\n"
-      ]
+      "content": ["God’s Ways Are Mysterious\n"]
     },
     {
       "type": "para",
@@ -2914,9 +2714,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Death Comes to Good and Bad\n"
-      ]
+      "content": ["Death Comes to Good and Bad\n"]
     },
     {
       "type": "para",
@@ -2958,9 +2756,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:2 "
-              ]
+              "content": ["9:2 "]
             },
             {
               "type": "char",
@@ -3026,9 +2822,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Enjoy Your Portion in This Life\n"
-      ]
+      "content": ["Enjoy Your Portion in This Life\n"]
     },
     {
       "type": "para",
@@ -3063,9 +2857,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and never spare the oil for your head. \n"
-      ]
+      "content": ["and never spare the oil for your head. \n"]
     },
     {
       "type": "para",
@@ -3090,16 +2882,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:9 "
-              ]
+              "content": ["9:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or futile; twice in this verse"
-              ]
+              "content": ["Or futile; twice in this verse"]
             }
           ],
           "caller": "+"
@@ -3141,9 +2929,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Wisdom Is Better than Strength\n"
-      ]
+      "content": ["Wisdom Is Better than Strength\n"]
     },
     {
       "type": "para",
@@ -3213,9 +2999,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "over the shouts of a ruler among fools. \n"
-      ]
+      "content": ["over the shouts of a ruler among fools. \n"]
     },
     {
       "type": "para",
@@ -3233,9 +3017,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but one sinner destroys much good. \n"
-      ]
+      "content": ["but one sinner destroys much good. \n"]
     },
     {
       "type": "chapter",
@@ -3246,9 +3028,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Wisdom and Folly\n"
-      ]
+      "content": ["Wisdom and Folly\n"]
     },
     {
       "type": "para",
@@ -3270,9 +3050,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "so a little folly outweighs wisdom and honor. \n"
-      ]
+      "content": ["so a little folly outweighs wisdom and honor. \n"]
     },
     {
       "type": "para",
@@ -3290,9 +3068,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but the heart of a fool to the left. \n"
-      ]
+      "content": ["but the heart of a fool to the left. \n"]
     },
     {
       "type": "para",
@@ -3310,9 +3086,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and he shows everyone that he is a fool. \n"
-      ]
+      "content": ["and he shows everyone that he is a fool. \n"]
     },
     {
       "type": "para",
@@ -3330,9 +3104,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for calmness lays great offenses to rest. \n"
-      ]
+      "content": ["for calmness lays great offenses to rest. \n"]
     },
     {
       "type": "para",
@@ -3354,9 +3126,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "an error that proceeds from the ruler: \n"
-      ]
+      "content": ["an error that proceeds from the ruler: \n"]
     },
     {
       "type": "para",
@@ -3374,9 +3144,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but the rich sit in lowly positions. \n"
-      ]
+      "content": ["but the rich sit in lowly positions. \n"]
     },
     {
       "type": "para",
@@ -3394,9 +3162,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "while princes go on foot like slaves. \n"
-      ]
+      "content": ["while princes go on foot like slaves. \n"]
     },
     {
       "type": "para",
@@ -3418,9 +3184,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and he who breaches a wall may be bitten by a snake. \n"
-      ]
+      "content": ["and he who breaches a wall may be bitten by a snake. \n"]
     },
     {
       "type": "para",
@@ -3438,9 +3202,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and he who splits logs endangers himself. \n"
-      ]
+      "content": ["and he who splits logs endangers himself. \n"]
     },
     {
       "type": "para",
@@ -3458,16 +3220,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "more strength must be exerted, \n"
-      ]
+      "content": ["more strength must be exerted, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but skill produces success. \n"
-      ]
+      "content": ["but skill produces success. \n"]
     },
     {
       "type": "para",
@@ -3485,9 +3243,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "there is no profit for the charmer. \n"
-      ]
+      "content": ["there is no profit for the charmer. \n"]
     },
     {
       "type": "para",
@@ -3509,9 +3265,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but the lips of a fool consume him. \n"
-      ]
+      "content": ["but the lips of a fool consume him. \n"]
     },
     {
       "type": "para",
@@ -3529,9 +3283,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the end of his speech is evil madness. \n"
-      ]
+      "content": ["and the end of his speech is evil madness. \n"]
     },
     {
       "type": "para",
@@ -3549,16 +3301,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "No one knows what is coming, \n"
-      ]
+      "content": ["No one knows what is coming, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and who can tell him what will come after him? \n"
-      ]
+      "content": ["and who can tell him what will come after him? \n"]
     },
     {
       "type": "para",
@@ -3576,9 +3324,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for he does not know the way to the city. \n"
-      ]
+      "content": ["for he does not know the way to the city. \n"]
     },
     {
       "type": "para",
@@ -3603,16 +3349,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:16 "
-              ]
+              "content": ["10:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or a servant"
-              ]
+              "content": ["Or a servant"]
             }
           ],
           "caller": "+"
@@ -3623,9 +3365,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and whose princes feast in the morning. \n"
-      ]
+      "content": ["and whose princes feast in the morning. \n"]
     },
     {
       "type": "para",
@@ -3643,16 +3383,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and whose princes feast at the proper time—\n"
-      ]
+      "content": ["and whose princes feast at the proper time—\n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for strength and not for drunkenness. \n"
-      ]
+      "content": ["for strength and not for drunkenness. \n"]
     },
     {
       "type": "para",
@@ -3674,9 +3410,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and in the hands of the idle, the house leaks. \n"
-      ]
+      "content": ["and in the hands of the idle, the house leaks. \n"]
     },
     {
       "type": "para",
@@ -3698,9 +3432,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but money is the answer for everything. \n"
-      ]
+      "content": ["but money is the answer for everything. \n"]
     },
     {
       "type": "para",
@@ -3722,23 +3454,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "or curse the rich even in your bedroom, \n"
-      ]
+      "content": ["or curse the rich even in your bedroom, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "for a bird of the air may carry your words, \n"
-      ]
+      "content": ["for a bird of the air may carry your words, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and a winged creature may report your speech. \n"
-      ]
+      "content": ["and a winged creature may report your speech. \n"]
     },
     {
       "type": "chapter",
@@ -3749,9 +3475,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Cast Your Bread upon the Waters\n"
-      ]
+      "content": ["Cast Your Bread upon the Waters\n"]
     },
     {
       "type": "para",
@@ -3773,9 +3497,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for after many days you will find it again. \n"
-      ]
+      "content": ["for after many days you will find it again. \n"]
     },
     {
       "type": "para",
@@ -3793,9 +3515,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for you do not know what disaster may befall the land. \n"
-      ]
+      "content": ["for you do not know what disaster may befall the land. \n"]
     },
     {
       "type": "para",
@@ -3817,23 +3537,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "they will pour out rain upon the earth; \n"
-      ]
+      "content": ["they will pour out rain upon the earth; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "whether a tree falls to the south or to the north, \n"
-      ]
+      "content": ["whether a tree falls to the south or to the north, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the place where it falls, there it will lie. \n"
-      ]
+      "content": ["in the place where it falls, there it will lie. \n"]
     },
     {
       "type": "para",
@@ -3851,9 +3565,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and he who observes the clouds will fail to reap. \n"
-      ]
+      "content": ["and he who observes the clouds will fail to reap. \n"]
     },
     {
       "type": "para",
@@ -3885,9 +3597,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:5 "
-              ]
+              "content": ["11:5 "]
             },
             {
               "type": "char",
@@ -3905,16 +3615,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "so you cannot understand the work of God, \n"
-      ]
+      "content": ["so you cannot understand the work of God, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the Maker of all things. \n"
-      ]
+      "content": ["the Maker of all things. \n"]
     },
     {
       "type": "para",
@@ -3932,30 +3638,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and do not rest your hands in the evening, \n"
-      ]
+      "content": ["and do not rest your hands in the evening, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "for you do not know which will succeed, \n"
-      ]
+      "content": ["for you do not know which will succeed, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "whether this or that, or if both will equally prosper. \n"
-      ]
+      "content": ["whether this or that, or if both will equally prosper. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Enjoy Your Years\n"
-      ]
+      "content": ["Enjoy Your Years\n"]
     },
     {
       "type": "para",
@@ -3977,9 +3675,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and it pleases the eyes to see the sun. \n"
-      ]
+      "content": ["and it pleases the eyes to see the sun. \n"]
     },
     {
       "type": "para",
@@ -3997,30 +3693,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "let him rejoice in them all. \n"
-      ]
+      "content": ["let him rejoice in them all. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "But let him remember the days of darkness, \n"
-      ]
+      "content": ["But let him remember the days of darkness, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for they will be many. \n"
-      ]
+      "content": ["for they will be many. \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Everything to come is futile. \n"
-      ]
+      "content": ["Everything to come is futile. \n"]
     },
     {
       "type": "para",
@@ -4042,37 +3730,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and let your heart be glad in the days of your youth. \n"
-      ]
+      "content": ["and let your heart be glad in the days of your youth. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Walk in the ways of your heart \n"
-      ]
+      "content": ["Walk in the ways of your heart \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and in the sight of your eyes, \n"
-      ]
+      "content": ["and in the sight of your eyes, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "but know that for all these things \n"
-      ]
+      "content": ["but know that for all these things \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "God will bring you to judgment. \n"
-      ]
+      "content": ["God will bring you to judgment. \n"]
     },
     {
       "type": "para",
@@ -4090,9 +3768,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and cast off pain from your body, \n"
-      ]
+      "content": ["and cast off pain from your body, \n"]
     },
     {
       "type": "para",
@@ -4107,16 +3783,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:10 "
-              ]
+              "content": ["11:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or futile"
-              ]
+              "content": ["Or futile"]
             }
           ],
           "caller": "+"
@@ -4133,9 +3805,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Remember Your Creator\n"
-      ]
+      "content": ["Remember Your Creator\n"]
     },
     {
       "type": "para",
@@ -4157,23 +3827,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "before the days of adversity come \n"
-      ]
+      "content": ["before the days of adversity come \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and the years approach of which you will say, \n"
-      ]
+      "content": ["and the years approach of which you will say, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "“I find no pleasure in them,” \n"
-      ]
+      "content": ["“I find no pleasure in them,” \n"]
     },
     {
       "type": "para",
@@ -4191,9 +3855,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the clouds return after the rain, \n"
-      ]
+      "content": ["and the clouds return after the rain, \n"]
     },
     {
       "type": "para",
@@ -4211,23 +3873,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the strong men stoop, \n"
-      ]
+      "content": ["and the strong men stoop, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "when those grinding cease because they are few \n"
-      ]
+      "content": ["when those grinding cease because they are few \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and those watching through windows see dimly, \n"
-      ]
+      "content": ["and those watching through windows see dimly, \n"]
     },
     {
       "type": "para",
@@ -4245,23 +3901,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the sound of the mill fades away, \n"
-      ]
+      "content": ["and the sound of the mill fades away, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "when one rises at the sound of a bird \n"
-      ]
+      "content": ["when one rises at the sound of a bird \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and all the daughters of song grow faint, \n"
-      ]
+      "content": ["and all the daughters of song grow faint, \n"]
     },
     {
       "type": "para",
@@ -4279,37 +3929,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "when the almond tree blossoms, \n"
-      ]
+      "content": ["when the almond tree blossoms, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "the grasshopper loses its spring, \n"
-      ]
+      "content": ["the grasshopper loses its spring, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the caper berry shrivels—\n"
-      ]
+      "content": ["and the caper berry shrivels—\n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "for then man goes to his eternal home \n"
-      ]
+      "content": ["for then man goes to his eternal home \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and mourners walk the streets. \n"
-      ]
+      "content": ["and mourners walk the streets. \n"]
     },
     {
       "type": "para",
@@ -4331,23 +3971,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the golden bowl is crushed, \n"
-      ]
+      "content": ["and the golden bowl is crushed, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "before the pitcher is shattered at the spring \n"
-      ]
+      "content": ["before the pitcher is shattered at the spring \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the wheel is broken at the well, \n"
-      ]
+      "content": ["and the wheel is broken at the well, \n"]
     },
     {
       "type": "para",
@@ -4365,9 +3999,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the spirit returns to God who gave it. \n"
-      ]
+      "content": ["and the spirit returns to God who gave it. \n"]
     },
     {
       "type": "para",
@@ -4389,16 +4021,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "“Everything is futile!” \n"
-      ]
+      "content": ["“Everything is futile!” \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Whole Duty of Man\n"
-      ]
+      "content": ["The Whole Duty of Man\n"]
     },
     {
       "type": "para",
@@ -4430,16 +4058,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:10 "
-              ]
+              "content": ["12:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or and sought to write what was upright and true"
-              ]
+              "content": ["Or and sought to write what was upright and true"]
             }
           ],
           "caller": "+"
@@ -4470,16 +4094,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:11 "
-              ]
+              "content": ["12:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or shepherd"
-              ]
+              "content": ["Or shepherd"]
             }
           ],
           "caller": "+"

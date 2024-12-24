@@ -1,4 +1,4 @@
-import { CircleAlert } from "lucide-react";
+import { CircleAlert } from 'lucide-react';
 
 interface FormErrorProps {
   message?: string;

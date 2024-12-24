@@ -31,15 +31,15 @@ export interface Verse {
 }
 
 export interface VerseSegment {
-  type: "text" | "footnote";
+  type: 'text' | 'footnote';
   content: string;
   letter?: string; // For footnotes
 }
 
-export type HeadingLevel = "heading" | "subheading";
+export type HeadingLevel = 'heading' | 'subheading';
 
 export interface SemanticSegment {
-  type: "heading" | "blank" | "verseLine" | "otherLine";
+  type: 'heading' | 'blank' | 'verseLine' | 'otherLine';
   headingLevel?: HeadingLevel;
   text?: string;
   verseNumber?: number;
@@ -48,7 +48,7 @@ export interface SemanticSegment {
 
 // Formatted structures
 export interface FormattedBlock {
-  type: "heading" | "subheading" | "paragraph" | "poetry" | "blank" | "other";
+  type: 'heading' | 'subheading' | 'paragraph' | 'poetry' | 'blank' | 'other';
   marker: string;
   verses: number[];
   lines?: string[];

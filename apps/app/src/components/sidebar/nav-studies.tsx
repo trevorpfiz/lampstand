@@ -1,22 +1,22 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { Check, MoreHorizontal, Pen, Trash2 } from "lucide-react";
+import { Check, MoreHorizontal, Pen, Trash2 } from 'lucide-react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { type FormEvent, useState } from 'react';
 
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@lamp/ui/components/dropdown-menu";
-import { Input } from "@lamp/ui/components/input";
+} from '@lamp/ui/components/dropdown-menu';
+import { Input } from '@lamp/ui/components/input';
 import {
   Popover,
   PopoverAnchor,
   PopoverContent,
-} from "@lamp/ui/components/popover";
+} from '@lamp/ui/components/popover';
 import {
   SidebarGroup,
   SidebarGroupLabel,
@@ -25,12 +25,12 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@lamp/ui/components/sidebar";
-import { Spinner } from "@lamp/ui/components/spinner";
-import { handleError } from "@lamp/ui/lib/utils";
+} from '@lamp/ui/components/sidebar';
+import { Spinner } from '@lamp/ui/components/spinner';
+import { handleError } from '@lamp/ui/lib/utils';
 
-import { revalidateStudy } from "~/lib/actions/study";
-import { api } from "~/trpc/react";
+import { revalidateStudy } from '~/lib/actions/study';
+import { api } from '~/trpc/react';
 
 export function NavStudies() {
   const { isMobile } = useSidebar();
@@ -45,11 +45,11 @@ export function NavStudies() {
     id: string;
     title: string;
   } | null>(null);
-  const [name, setName] = useState("");
+  const [name, setName] = useState('');
 
   const renameMutation = api.study.rename.useMutation({
     onSuccess: async (data) => {
-      void utils.study.byUser.invalidate();
+      utils.study.byUser.invalidate();
       await revalidateStudy(data.study?.id);
       setOpen(false);
       setSelectedStudy(null);
@@ -59,9 +59,11 @@ export function NavStudies() {
     },
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    if (!selectedStudy || !name.trim()) return;
+    if (!selectedStudy || !name.trim()) {
+      return;
+    }
 
     renameMutation.mutate({
       id: selectedStudy.id,
@@ -71,7 +73,7 @@ export function NavStudies() {
 
   const deleteMutation = api.study.delete.useMutation({
     onSuccess: () => {
-      void utils.study.byUser.invalidate();
+      utils.study.byUser.invalidate();
     },
     onError: (error) => {
       handleError(error);
@@ -117,8 +119,8 @@ export function NavStudies() {
                     </DropdownMenuTrigger>
                     <DropdownMenuContent
                       className="w-48"
-                      side={isMobile ? "bottom" : "right"}
-                      align={isMobile ? "end" : "start"}
+                      side={isMobile ? 'bottom' : 'right'}
+                      align={isMobile ? 'end' : 'start'}
                       onCloseAutoFocus={(e) => {
                         e.preventDefault();
 
@@ -141,7 +143,7 @@ export function NavStudies() {
                         onSelect={() => {
                           if (
                             window.confirm(
-                              "Are you sure you want to delete this study? This action cannot be undone.",
+                              'Are you sure you want to delete this study? This action cannot be undone.'
                             )
                           ) {
                             deleteMutation.mutate({ id: study.id });
@@ -168,7 +170,7 @@ export function NavStudies() {
                       className="flex flex-col gap-3"
                       onSubmit={handleSubmit}
                     >
-                      <div className="flex rounded-lg shadow-sm shadow-black/5">
+                      <div className="flex rounded-lg shadow-black/5 shadow-sm">
                         <Input
                           id="name"
                           value={name}
@@ -180,7 +182,7 @@ export function NavStudies() {
                         />
                         <button
                           type="submit"
-                          className="inline-flex w-9 items-center justify-center rounded-e-lg border border-input bg-background text-sm text-muted-foreground/80 outline-offset-2 transition-colors hover:bg-accent hover:text-accent-foreground focus:z-10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-ring/70 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50"
+                          className="inline-flex w-9 items-center justify-center rounded-e-lg border border-input bg-background text-muted-foreground/80 text-sm outline-offset-2 transition-colors hover:bg-accent hover:text-accent-foreground focus:z-10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-ring/70 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50"
                           disabled={renameMutation.isPending || !name.trim()}
                           aria-label="Rename"
                         >

@@ -6,8 +6,8 @@ import { cn, withRef } from '@udecode/cn';
 import { EraserIcon } from 'lucide-react';
 
 import {
-  type TColor,
   ColorDropdownMenuItems,
+  type TColor,
 } from './color-dropdown-menu-items';
 import { ColorCustom } from './colors-custom';
 import { DropdownMenuGroup, DropdownMenuItem } from './dropdown-menu';

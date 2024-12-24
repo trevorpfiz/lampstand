@@ -1,22 +1,16 @@
-"use client";
+'use client';
 
-import type { DropdownMenuProps } from "@radix-ui/react-dropdown-menu";
-import React from "react";
-import { BlockquotePlugin } from "@udecode/plate-block-quote/react";
-import { CodeBlockPlugin } from "@udecode/plate-code-block/react";
+import type { DropdownMenuProps } from '@radix-ui/react-dropdown-menu';
+import { BlockquotePlugin } from '@udecode/plate-block-quote/react';
 import {
-  focusEditor,
   ParagraphPlugin,
+  focusEditor,
   useEditorRef,
   useSelectionFragmentProp,
-} from "@udecode/plate-common/react";
-import { HEADING_KEYS } from "@udecode/plate-heading";
-import { INDENT_LIST_KEYS, ListStyleType } from "@udecode/plate-indent-list";
-import { TogglePlugin } from "@udecode/plate-toggle/react";
+} from '@udecode/plate-common/react';
+import { HEADING_KEYS } from '@udecode/plate-heading';
+import { INDENT_LIST_KEYS, ListStyleType } from '@udecode/plate-indent-list';
 import {
-  ChevronRightIcon,
-  Columns3Icon,
-  FileCodeIcon,
   Heading1Icon,
   Heading2Icon,
   Heading3Icon,
@@ -25,13 +19,14 @@ import {
   PilcrowIcon,
   QuoteIcon,
   SquareIcon,
-} from "lucide-react";
+} from 'lucide-react';
+import React from 'react';
 
 import {
+  STRUCTURAL_TYPES,
   getBlockType,
   setBlockType,
-  STRUCTURAL_TYPES,
-} from "../../components/editor/transforms";
+} from '../../components/editor/transforms';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -39,50 +34,50 @@ import {
   DropdownMenuRadioItem,
   DropdownMenuTrigger,
   useOpenState,
-} from "./dropdown-menu";
-import { ToolbarButton } from "./toolbar";
+} from './dropdown-menu';
+import { ToolbarButton } from './toolbar';
 
 const turnIntoItems = [
   {
     icon: <PilcrowIcon />,
-    keywords: ["paragraph"],
-    label: "Text",
+    keywords: ['paragraph'],
+    label: 'Text',
     value: ParagraphPlugin.key,
   },
   {
     icon: <Heading1Icon />,
-    keywords: ["title", "h1"],
-    label: "Heading 1",
+    keywords: ['title', 'h1'],
+    label: 'Heading 1',
     value: HEADING_KEYS.h1,
   },
   {
     icon: <Heading2Icon />,
-    keywords: ["subtitle", "h2"],
-    label: "Heading 2",
+    keywords: ['subtitle', 'h2'],
+    label: 'Heading 2',
     value: HEADING_KEYS.h2,
   },
   {
     icon: <Heading3Icon />,
-    keywords: ["subtitle", "h3"],
-    label: "Heading 3",
+    keywords: ['subtitle', 'h3'],
+    label: 'Heading 3',
     value: HEADING_KEYS.h3,
   },
   {
     icon: <ListIcon />,
-    keywords: ["unordered", "ul", "-"],
-    label: "Bulleted list",
+    keywords: ['unordered', 'ul', '-'],
+    label: 'Bulleted list',
     value: ListStyleType.Disc,
   },
   {
     icon: <ListOrderedIcon />,
-    keywords: ["ordered", "ol", "1"],
-    label: "Numbered list",
+    keywords: ['ordered', 'ol', '1'],
+    label: 'Numbered list',
     value: ListStyleType.Decimal,
   },
   {
     icon: <SquareIcon />,
-    keywords: ["checklist", "task", "checkbox", "[]"],
-    label: "To-do list",
+    keywords: ['checklist', 'task', 'checkbox', '[]'],
+    label: 'To-do list',
     value: INDENT_LIST_KEYS.todo,
   },
   // {
@@ -99,8 +94,8 @@ const turnIntoItems = [
   // },
   {
     icon: <QuoteIcon />,
-    keywords: ["citation", "blockquote", ">"],
-    label: "Quote",
+    keywords: ['citation', 'blockquote', '>'],
+    label: 'Quote',
     value: BlockquotePlugin.key,
   },
   // {
@@ -122,9 +117,9 @@ export function TurnIntoDropdownMenu(props: DropdownMenuProps) {
   const selectedItem = React.useMemo(
     () =>
       turnIntoItems.find(
-        (item) => item.value === (value ?? ParagraphPlugin.key),
+        (item) => item.value === (value ?? ParagraphPlugin.key)
       ) ?? turnIntoItems[0],
-    [value],
+    [value]
   );
 
   return (

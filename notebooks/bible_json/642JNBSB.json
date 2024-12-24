@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "2JN"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "2 John\n"
-      ]
+      "content": ["2 John\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "2 John\n"
-      ]
+      "content": ["2 John\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "2 John\n"
-      ]
+      "content": ["2 John\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Greeting from the Elder\n"
-      ]
+      "content": ["A Greeting from the Elder\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(3 John 1:1–4)\n"
-      ]
+      "content": ["(3 John 1:1–4)\n"]
     },
     {
       "type": "para",
@@ -106,16 +94,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Walking in the Truth\n"
-      ]
+      "content": ["Walking in the Truth\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(John 8:30–47)\n"
-      ]
+      "content": ["(John 8:30–47)\n"]
     },
     {
       "type": "para",
@@ -151,9 +135,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Beware of Deceivers\n"
-      ]
+      "content": ["Beware of Deceivers\n"]
     },
     {
       "type": "para",
@@ -185,16 +167,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:8 "
-              ]
+              "content": ["1:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE and WH what you have worked for"
-              ]
+              "content": ["NE and WH what you have worked for"]
             }
           ],
           "caller": "+"
@@ -236,16 +214,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Conclusion\n"
-      ]
+      "content": ["Conclusion\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(3 John 1:13–14)\n"
-      ]
+      "content": ["(3 John 1:13–14)\n"]
     },
     {
       "type": "para",
@@ -270,16 +244,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:12 "
-              ]
+              "content": ["1:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally mouth to mouth"
-              ]
+              "content": ["Literally mouth to mouth"]
             }
           ],
           "caller": "+"
@@ -310,16 +280,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:13 "
-              ]
+              "content": ["1:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include Amen."
-              ]
+              "content": ["BYZ and TR include Amen."]
             }
           ],
           "caller": "+"

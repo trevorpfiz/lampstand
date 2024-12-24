@@ -1,8 +1,8 @@
-import { SidebarInset, SidebarProvider } from "@lamp/ui/components/sidebar";
-import { Spinner } from "@lamp/ui/components/spinner";
+import { SidebarInset, SidebarProvider } from '@lamp/ui/components/sidebar';
+import { Spinner } from '@lamp/ui/components/spinner';
 
-import { AppHeader } from "~/components/app-header";
-import { AppSidebar } from "~/components/sidebar/app-sidebar";
+import { AppHeader } from '~/components/app-header';
+import { AppSidebar } from '~/components/sidebar/app-sidebar';
 
 export default function Loading() {
   return (

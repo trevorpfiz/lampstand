@@ -53,7 +53,7 @@ export function EmojiPickerNavigation({
     <TooltipProvider delayDuration={500}>
       <nav
         id="emoji-nav"
-        className="mb-2.5 border-0 border-b border-solid border-b-border p-1.5"
+        className="mb-2.5 border-0 border-b border-b-border border-solid p-1.5"
       >
         <div className="relative flex items-center justify-evenly">
           {emojiLibrary

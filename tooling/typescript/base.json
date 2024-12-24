@@ -1,5 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Base",
   "compilerOptions": {
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -20,7 +21,9 @@
 
     "module": "Preserve",
     "moduleResolution": "Bundler",
-    "noEmit": true
+    "noEmit": true,
+
+    "strictNullChecks": true
   },
   "exclude": ["node_modules", "build", "dist", ".next", ".expo"]
 }

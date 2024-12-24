@@ -1,11 +1,16 @@
 {
-  "extends": ["@lamp/tsconfig/base.json", "@lamp/cms/typescript-config.json"],
+  "extends": [
+    "@lamp/tsconfig/base.json",
+    "@lamp/cms/src/typescript-config.json"
+  ],
   "compilerOptions": {
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "@lamp/cms/*": ["../../packages/cms/src/*"],
+      "@lamp/ui/*": ["../../packages/ui/src/*"]
     },
     "plugins": [{ "name": "next" }],
     "module": "esnext"

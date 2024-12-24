@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { PencilLine, Sparkle } from "lucide-react";
-import { useShallow } from "zustand/react/shallow";
+import { PencilLine, Sparkle } from 'lucide-react';
+import { useShallow } from 'zustand/react/shallow';
 
-import { Button } from "@lamp/ui/components/button";
+import { Button } from '@lamp/ui/components/button';
 
-import { usePanelsStore } from "~/providers/panels-store-provider";
+import { usePanelsStore } from '~/providers/panels-store-provider';
 
 export function NavActions() {
   const { toggleChat, toggleNotes, isChatOpen, isNotesOpen } = usePanelsStore(
@@ -14,14 +14,14 @@ export function NavActions() {
       toggleNotes: state.toggleNotes,
       isChatOpen: state.isChatOpen,
       isNotesOpen: state.isNotesOpen,
-    })),
+    }))
   );
 
   return (
     <div className="flex items-center gap-2">
       <Button
         className="group"
-        variant={isChatOpen ? "secondary" : "ghost"}
+        variant={isChatOpen ? 'secondary' : 'ghost'}
         size="sm"
         onMouseDown={toggleChat}
       >
@@ -34,7 +34,7 @@ export function NavActions() {
         Chat
       </Button>
       <Button
-        variant={isNotesOpen ? "secondary" : "ghost"}
+        variant={isNotesOpen ? 'secondary' : 'ghost'}
         size="sm"
         onMouseDown={toggleNotes}
       >

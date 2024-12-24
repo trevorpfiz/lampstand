@@ -1,11 +1,11 @@
-import { draftMode } from "next/headers";
-import Link from "next/link";
-import { MoveRight, PhoneCall } from "lucide-react";
+import { MoveRight, PhoneCall } from 'lucide-react';
+import { draftMode } from 'next/headers';
+import Link from 'next/link';
 
-import { blog } from "@lamp/cms";
-import { Feed } from "@lamp/cms/components/feed";
-import { env } from "@lamp/env";
-import { Button } from "@lamp/ui/components/button";
+import { blog } from '@lamp/cms';
+import { Feed } from '@lamp/cms/components/feed';
+import { env } from '@lamp/env';
+import { Button } from '@lamp/ui/components/button';
 
 export const Hero = async () => {
   const draft = await draftMode();
@@ -18,7 +18,7 @@ export const Hero = async () => {
             <Feed queries={[blog.latestPostQuery]} draft={draft.isEnabled}>
               {/* biome-ignore lint/suspicious/useAwait: "Server Actions must be async" */}
               {async ([data]) => {
-                "use server";
+                'use server';
 
                 return (
                   <Button
@@ -36,10 +36,10 @@ export const Hero = async () => {
             </Feed>
           </div>
           <div className="flex flex-col gap-4">
-            <h1 className="font-regular max-w-2xl text-center text-5xl tracking-tighter md:text-7xl">
+            <h1 className="max-w-2xl text-center font-regular text-5xl tracking-tighter md:text-7xl">
               This is the start of something new
             </h1>
-            <p className="max-w-2xl text-center text-lg leading-relaxed tracking-tight text-muted-foreground md:text-xl">
+            <p className="max-w-2xl text-center text-lg text-muted-foreground leading-relaxed tracking-tight md:text-xl">
               Managing a small business today is already tough. Avoid further
               complications by ditching outdated, tedious trade methods. Our
               goal is to streamline SMB trade, making it easier and faster than

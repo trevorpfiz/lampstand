@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "SNG"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Song\n"
-      ]
+      "content": ["Song\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Song\n"
-      ]
+      "content": ["Song\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Song\n"
-      ]
+      "content": ["Song\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Bride Confesses Her Love\n"
-      ]
+      "content": ["The Bride Confesses Her Love\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ephesians 5:22–33; 1 Peter 3:1–7)\n"
-      ]
+      "content": ["(Ephesians 5:22–33; 1 Peter 3:1–7)\n"]
     },
     {
       "type": "para",
@@ -74,9 +62,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:1 "
-              ]
+              "content": ["1:1 "]
             },
             {
               "type": "char",
@@ -94,9 +80,7 @@
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -118,9 +102,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "For your love is more delightful than wine. \n"
-      ]
+      "content": ["For your love is more delightful than wine. \n"]
     },
     {
       "type": "para",
@@ -138,16 +120,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "your name is like perfume poured out. \n"
-      ]
+      "content": ["your name is like perfume poured out. \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "No wonder the maidens adore you. \n"
-      ]
+      "content": ["No wonder the maidens adore you. \n"]
     },
     {
       "type": "para",
@@ -169,16 +147,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "May the king bring me to his chambers. \n"
-      ]
+      "content": ["May the king bring me to his chambers. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Friends\n"
-      ]
+      "content": ["The Friends\n"]
     },
     {
       "type": "para",
@@ -187,23 +161,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "We will rejoice and delight in you; \n"
-      ]
+      "content": ["We will rejoice and delight in you; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "we will praise your love more than wine. \n"
-      ]
+      "content": ["we will praise your love more than wine. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -212,9 +180,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "It is only right that they adore you. \n"
-      ]
+      "content": ["It is only right that they adore you. \n"]
     },
     {
       "type": "para",
@@ -236,9 +202,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "like the tents of Kedar, like the curtains of Solomon. \n"
-      ]
+      "content": ["like the tents of Kedar, like the curtains of Solomon. \n"]
     },
     {
       "type": "para",
@@ -256,30 +220,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for the sun has gazed upon me. \n"
-      ]
+      "content": ["for the sun has gazed upon me. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "My mother’s sons were angry with me; \n"
-      ]
+      "content": ["My mother’s sons were angry with me; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "they made me a keeper of the vineyards, \n"
-      ]
+      "content": ["they made me a keeper of the vineyards, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but my own vineyard I have neglected. \n"
-      ]
+      "content": ["but my own vineyard I have neglected. \n"]
     },
     {
       "type": "para",
@@ -301,37 +257,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "where do you pasture your sheep? \n"
-      ]
+      "content": ["where do you pasture your sheep? \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Where do you rest them at midday? \n"
-      ]
+      "content": ["Where do you rest them at midday? \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Why should I be like a veiled woman \n"
-      ]
+      "content": ["Why should I be like a veiled woman \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "beside the flocks of your companions? \n"
-      ]
+      "content": ["beside the flocks of your companions? \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Friends\n"
-      ]
+      "content": ["The Friends\n"]
     },
     {
       "type": "para",
@@ -353,30 +299,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "follow the tracks of the flock, \n"
-      ]
+      "content": ["follow the tracks of the flock, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and graze your young goats \n"
-      ]
+      "content": ["and graze your young goats \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "near the tents of the shepherds. \n"
-      ]
+      "content": ["near the tents of the shepherds. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bridegroom\n"
-      ]
+      "content": ["The Bridegroom\n"]
     },
     {
       "type": "para",
@@ -398,9 +336,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to a mare among Pharaoh’s chariots. \n"
-      ]
+      "content": ["to a mare among Pharaoh’s chariots. \n"]
     },
     {
       "type": "para",
@@ -418,16 +354,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "your neck with strings of jewels. \n"
-      ]
+      "content": ["your neck with strings of jewels. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Friends\n"
-      ]
+      "content": ["The Friends\n"]
     },
     {
       "type": "para",
@@ -449,16 +381,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "studded with beads of silver. \n"
-      ]
+      "content": ["studded with beads of silver. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -480,9 +408,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "my perfume spread its fragrance. \n"
-      ]
+      "content": ["my perfume spread its fragrance. \n"]
     },
     {
       "type": "para",
@@ -500,9 +426,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "resting between my breasts. \n"
-      ]
+      "content": ["resting between my breasts. \n"]
     },
     {
       "type": "para",
@@ -520,16 +444,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the vineyards of En-gedi. \n"
-      ]
+      "content": ["in the vineyards of En-gedi. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bridegroom\n"
-      ]
+      "content": ["The Bridegroom\n"]
     },
     {
       "type": "para",
@@ -551,23 +471,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Oh, how very beautiful! \n"
-      ]
+      "content": ["Oh, how very beautiful! \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Your eyes are like doves. \n"
-      ]
+      "content": ["Your eyes are like doves. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -589,23 +503,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Oh, how delightful! \n"
-      ]
+      "content": ["Oh, how delightful! \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "The soft grass is our bed. \n"
-      ]
+      "content": ["The soft grass is our bed. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bridegroom\n"
-      ]
+      "content": ["The Bridegroom\n"]
     },
     {
       "type": "para",
@@ -627,9 +535,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "our rafters are fragrant firs. \n"
-      ]
+      "content": ["our rafters are fragrant firs. \n"]
     },
     {
       "type": "chapter",
@@ -640,16 +546,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Bride’s Admiration\n"
-      ]
+      "content": ["The Bride’s Admiration\n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -674,9 +576,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:1 "
-              ]
+              "content": ["2:1 "]
             },
             {
               "type": "char",
@@ -694,16 +594,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a lily of the valley. \n"
-      ]
+      "content": ["a lily of the valley. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bridegroom\n"
-      ]
+      "content": ["The Bridegroom\n"]
     },
     {
       "type": "para",
@@ -725,16 +621,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "is my darling among the maidens. \n"
-      ]
+      "content": ["is my darling among the maidens. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -756,23 +648,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "is my beloved among the young men. \n"
-      ]
+      "content": ["is my beloved among the young men. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "I delight to sit in his shade, \n"
-      ]
+      "content": ["I delight to sit in his shade, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and his fruit is sweet to my taste. \n"
-      ]
+      "content": ["and his fruit is sweet to my taste. \n"]
     },
     {
       "type": "para",
@@ -793,16 +679,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:4 "
-              ]
+              "content": ["2:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the banquet hall"
-              ]
+              "content": ["That is, the banquet hall"]
             }
           ],
           "caller": "+"
@@ -813,9 +695,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and his banner over me is love. \n"
-      ]
+      "content": ["and his banner over me is love. \n"]
     },
     {
       "type": "para",
@@ -837,16 +717,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "refresh me with apples, \n"
-      ]
+      "content": ["refresh me with apples, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for I am faint with love. \n"
-      ]
+      "content": ["for I am faint with love. \n"]
     },
     {
       "type": "para",
@@ -868,9 +744,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and his right arm embraces me. \n"
-      ]
+      "content": ["and his right arm embraces me. \n"]
     },
     {
       "type": "para",
@@ -888,23 +762,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "by the gazelles and does of the field: \n"
-      ]
+      "content": ["by the gazelles and does of the field: \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Do not arouse or awaken love \n"
-      ]
+      "content": ["Do not arouse or awaken love \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "until the time is right. \n"
-      ]
+      "content": ["until the time is right. \n"]
     },
     {
       "type": "para",
@@ -926,23 +794,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Look! Here he comes, \n"
-      ]
+      "content": ["Look! Here he comes, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "leaping across the mountains, \n"
-      ]
+      "content": ["leaping across the mountains, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "bounding over the hills. \n"
-      ]
+      "content": ["bounding over the hills. \n"]
     },
     {
       "type": "para",
@@ -960,23 +822,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Look, he stands behind our wall, \n"
-      ]
+      "content": ["Look, he stands behind our wall, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "gazing through the windows, \n"
-      ]
+      "content": ["gazing through the windows, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "peering through the lattice. \n"
-      ]
+      "content": ["peering through the lattice. \n"]
     },
     {
       "type": "para",
@@ -998,16 +854,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "“Arise, my darling. \n"
-      ]
+      "content": ["“Arise, my darling. \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Come away with me, my beautiful one. \n"
-      ]
+      "content": ["Come away with me, my beautiful one. \n"]
     },
     {
       "type": "para",
@@ -1025,9 +877,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the rain is over and gone. \n"
-      ]
+      "content": ["the rain is over and gone. \n"]
     },
     {
       "type": "para",
@@ -1055,16 +905,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:12 "
-              ]
+              "content": ["2:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or pruning"
-              ]
+              "content": ["Or pruning"]
             }
           ],
           "caller": "+"
@@ -1075,16 +921,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and the cooing of turtledoves \n"
-      ]
+      "content": ["and the cooing of turtledoves \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "is heard in our land. \n"
-      ]
+      "content": ["is heard in our land. \n"]
     },
     {
       "type": "para",
@@ -1102,30 +944,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the blossoming vines spread their fragrance. \n"
-      ]
+      "content": ["the blossoming vines spread their fragrance. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Arise, come away, my darling; \n"
-      ]
+      "content": ["Arise, come away, my darling; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "come away with me, my beautiful one.” \n"
-      ]
+      "content": ["come away with me, my beautiful one.” \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bridegroom\n"
-      ]
+      "content": ["The Bridegroom\n"]
     },
     {
       "type": "para",
@@ -1147,44 +981,32 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the crevices of the cliff, \n"
-      ]
+      "content": ["in the crevices of the cliff, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "let me see your face, \n"
-      ]
+      "content": ["let me see your face, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "let me hear your voice; \n"
-      ]
+      "content": ["let me hear your voice; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "for your voice is sweet, \n"
-      ]
+      "content": ["for your voice is sweet, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and your countenance is lovely. \n"
-      ]
+      "content": ["and your countenance is lovely. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Friends\n"
-      ]
+      "content": ["The Friends\n"]
     },
     {
       "type": "para",
@@ -1206,23 +1028,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the little foxes that ruin the vineyards—\n"
-      ]
+      "content": ["the little foxes that ruin the vineyards—\n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for our vineyards are in bloom. \n"
-      ]
+      "content": ["for our vineyards are in bloom. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -1244,9 +1060,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "he pastures his flock among the lilies. \n"
-      ]
+      "content": ["he pastures his flock among the lilies. \n"]
     },
     {
       "type": "para",
@@ -1264,16 +1078,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "turn, my beloved, \n"
-      ]
+      "content": ["turn, my beloved, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and be like a gazelle \n"
-      ]
+      "content": ["and be like a gazelle \n"]
     },
     {
       "type": "para",
@@ -1288,16 +1098,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:17 "
-              ]
+              "content": ["2:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the rugged mountains"
-              ]
+              "content": ["Or the rugged mountains"]
             }
           ],
           "caller": "+"
@@ -1314,9 +1120,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Bride’s Dream\n"
-      ]
+      "content": ["The Bride’s Dream\n"]
     },
     {
       "type": "para",
@@ -1338,23 +1142,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I sought the one I love; \n"
-      ]
+      "content": ["I sought the one I love; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "I sought him, \n"
-      ]
+      "content": ["I sought him, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but did not find him. \n"
-      ]
+      "content": ["but did not find him. \n"]
     },
     {
       "type": "para",
@@ -1372,23 +1170,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "through the streets and squares. \n"
-      ]
+      "content": ["through the streets and squares. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "I will seek the one I love. \n"
-      ]
+      "content": ["I will seek the one I love. \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "So I sought him but did not find him. \n"
-      ]
+      "content": ["So I sought him but did not find him. \n"]
     },
     {
       "type": "para",
@@ -1410,9 +1202,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "“Have you seen the one I love?” \n"
-      ]
+      "content": ["“Have you seen the one I love?” \n"]
     },
     {
       "type": "para",
@@ -1430,23 +1220,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I held him and would not let go \n"
-      ]
+      "content": ["I held him and would not let go \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "until I had brought him to my mother’s house, \n"
-      ]
+      "content": ["until I had brought him to my mother’s house, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to the chamber of the one who conceived me. \n"
-      ]
+      "content": ["to the chamber of the one who conceived me. \n"]
     },
     {
       "type": "para",
@@ -1468,30 +1252,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "by the gazelles and does of the field: \n"
-      ]
+      "content": ["by the gazelles and does of the field: \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Do not arouse or awaken love \n"
-      ]
+      "content": ["Do not arouse or awaken love \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "until the time is right. \n"
-      ]
+      "content": ["until the time is right. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Solomon Arrives on His Wedding Day\n"
-      ]
+      "content": ["Solomon Arrives on His Wedding Day\n"]
     },
     {
       "type": "para",
@@ -1513,23 +1289,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "like a column of smoke, \n"
-      ]
+      "content": ["like a column of smoke, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "scented with myrrh and frankincense \n"
-      ]
+      "content": ["scented with myrrh and frankincense \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "from all the spices of the merchant? \n"
-      ]
+      "content": ["from all the spices of the merchant? \n"]
     },
     {
       "type": "para",
@@ -1550,16 +1320,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:7 "
-              ]
+              "content": ["3:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the couch on which servants carry a king"
-              ]
+              "content": ["That is, the couch on which servants carry a king"]
             }
           ],
           "caller": "+"
@@ -1570,9 +1336,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "escorted by sixty of the mightiest men of Israel. \n"
-      ]
+      "content": ["escorted by sixty of the mightiest men of Israel. \n"]
     },
     {
       "type": "para",
@@ -1590,23 +1354,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "experienced in warfare. \n"
-      ]
+      "content": ["experienced in warfare. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Each has his sword at his side \n"
-      ]
+      "content": ["Each has his sword at his side \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "prepared for the terror of the night. \n"
-      ]
+      "content": ["prepared for the terror of the night. \n"]
     },
     {
       "type": "para",
@@ -1628,9 +1386,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "out of the timber of Lebanon. \n"
-      ]
+      "content": ["out of the timber of Lebanon. \n"]
     },
     {
       "type": "para",
@@ -1648,23 +1404,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "its base of gold, its seat of purple fabric. \n"
-      ]
+      "content": ["its base of gold, its seat of purple fabric. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Its interior is inlaid with love \n"
-      ]
+      "content": ["Its interior is inlaid with love \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "by the daughters of Jerusalem. \n"
-      ]
+      "content": ["by the daughters of Jerusalem. \n"]
     },
     {
       "type": "para",
@@ -1686,30 +1436,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and gaze at King Solomon, \n"
-      ]
+      "content": ["and gaze at King Solomon, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "wearing the crown his mother bestowed \n"
-      ]
+      "content": ["wearing the crown his mother bestowed \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "on the day of his wedding—\n"
-      ]
+      "content": ["on the day of his wedding—\n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the day of his heart’s rejoicing. \n"
-      ]
+      "content": ["the day of his heart’s rejoicing. \n"]
     },
     {
       "type": "chapter",
@@ -1720,16 +1462,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Solomon Admires His Bride\n"
-      ]
+      "content": ["Solomon Admires His Bride\n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bridegroom\n"
-      ]
+      "content": ["The Bridegroom\n"]
     },
     {
       "type": "para",
@@ -1751,37 +1489,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "how very beautiful! \n"
-      ]
+      "content": ["how very beautiful! \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Your eyes are like doves \n"
-      ]
+      "content": ["Your eyes are like doves \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "behind your veil. \n"
-      ]
+      "content": ["behind your veil. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Your hair is like a flock of goats \n"
-      ]
+      "content": ["Your hair is like a flock of goats \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "streaming down Mount Gilead. \n"
-      ]
+      "content": ["streaming down Mount Gilead. \n"]
     },
     {
       "type": "para",
@@ -1799,23 +1527,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "coming up from the washing; \n"
-      ]
+      "content": ["coming up from the washing; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "each has its twin, \n"
-      ]
+      "content": ["each has its twin, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and not one of them is lost. \n"
-      ]
+      "content": ["and not one of them is lost. \n"]
     },
     {
       "type": "para",
@@ -1833,23 +1555,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and your mouth is lovely. \n"
-      ]
+      "content": ["and your mouth is lovely. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Your brow behind your veil \n"
-      ]
+      "content": ["Your brow behind your veil \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "is like a slice of pomegranate. \n"
-      ]
+      "content": ["is like a slice of pomegranate. \n"]
     },
     {
       "type": "para",
@@ -1867,23 +1583,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "built with rows of stones; \n"
-      ]
+      "content": ["built with rows of stones; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "on it hang a thousand shields, \n"
-      ]
+      "content": ["on it hang a thousand shields, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "all of them shields of warriors. \n"
-      ]
+      "content": ["all of them shields of warriors. \n"]
     },
     {
       "type": "para",
@@ -1901,9 +1611,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "twins of a gazelle grazing among the lilies. \n"
-      ]
+      "content": ["twins of a gazelle grazing among the lilies. \n"]
     },
     {
       "type": "para",
@@ -1925,23 +1633,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I will make my way \n"
-      ]
+      "content": ["I will make my way \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "to the mountain of myrrh \n"
-      ]
+      "content": ["to the mountain of myrrh \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and to the hill of frankincense. \n"
-      ]
+      "content": ["and to the hill of frankincense. \n"]
     },
     {
       "type": "para",
@@ -1959,9 +1661,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in you there is no flaw. \n"
-      ]
+      "content": ["in you there is no flaw. \n"]
     },
     {
       "type": "para",
@@ -1983,9 +1683,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "come with me from Lebanon! \n"
-      ]
+      "content": ["come with me from Lebanon! \n"]
     },
     {
       "type": "para",
@@ -2000,16 +1698,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:8 "
-              ]
+              "content": ["4:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Look down"
-              ]
+              "content": ["Or Look down"]
             }
           ],
           "caller": "+"
@@ -2020,23 +1714,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "from the summits of Senir and Hermon, \n"
-      ]
+      "content": ["from the summits of Senir and Hermon, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "from the dens of the lions, \n"
-      ]
+      "content": ["from the dens of the lions, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "from the mountains of the leopards. \n"
-      ]
+      "content": ["from the mountains of the leopards. \n"]
     },
     {
       "type": "para",
@@ -2054,23 +1742,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "my sister, my bride; \n"
-      ]
+      "content": ["my sister, my bride; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "you have stolen my heart with one glance of your eyes, \n"
-      ]
+      "content": ["you have stolen my heart with one glance of your eyes, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "with one jewel of your neck. \n"
-      ]
+      "content": ["with one jewel of your neck. \n"]
     },
     {
       "type": "para",
@@ -2088,23 +1770,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "my sister, my bride! \n"
-      ]
+      "content": ["my sister, my bride! \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Your love is much better than wine, \n"
-      ]
+      "content": ["Your love is much better than wine, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the fragrance of your perfume than all spices. \n"
-      ]
+      "content": ["and the fragrance of your perfume than all spices. \n"]
     },
     {
       "type": "para",
@@ -2122,30 +1798,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "drip sweetness like the honeycomb; \n"
-      ]
+      "content": ["drip sweetness like the honeycomb; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "honey and milk are under your tongue, \n"
-      ]
+      "content": ["honey and milk are under your tongue, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the fragrance of your garments \n"
-      ]
+      "content": ["and the fragrance of your garments \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "is like the aroma of Lebanon. \n"
-      ]
+      "content": ["is like the aroma of Lebanon. \n"]
     },
     {
       "type": "para",
@@ -2167,9 +1835,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a spring enclosed, a fountain sealed. \n"
-      ]
+      "content": ["a spring enclosed, a fountain sealed. \n"]
     },
     {
       "type": "para",
@@ -2187,9 +1853,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "with the choicest of fruits, with henna and nard, \n"
-      ]
+      "content": ["with the choicest of fruits, with henna and nard, \n"]
     },
     {
       "type": "para",
@@ -2207,23 +1871,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "with every kind of frankincense tree, \n"
-      ]
+      "content": ["with every kind of frankincense tree, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "with myrrh and aloes, \n"
-      ]
+      "content": ["with myrrh and aloes, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "with all the finest spices. \n"
-      ]
+      "content": ["with all the finest spices. \n"]
     },
     {
       "type": "para",
@@ -2251,16 +1909,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:15 "
-              ]
+              "content": ["4:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or flowing water or living water"
-              ]
+              "content": ["Or flowing water or living water"]
             }
           ],
           "caller": "+"
@@ -2271,16 +1925,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "flowing down from Lebanon. \n"
-      ]
+      "content": ["flowing down from Lebanon. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -2302,37 +1952,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and come, O south wind. \n"
-      ]
+      "content": ["and come, O south wind. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Breathe on my garden \n"
-      ]
+      "content": ["Breathe on my garden \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and spread the fragrance of its spices. \n"
-      ]
+      "content": ["and spread the fragrance of its spices. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Let my beloved come into his garden \n"
-      ]
+      "content": ["Let my beloved come into his garden \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and taste its choicest fruits. \n"
-      ]
+      "content": ["and taste its choicest fruits. \n"]
     },
     {
       "type": "chapter",
@@ -2343,16 +1983,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Bride and Her Beloved\n"
-      ]
+      "content": ["The Bride and Her Beloved\n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bridegroom\n"
-      ]
+      "content": ["The Bridegroom\n"]
     },
     {
       "type": "para",
@@ -2374,30 +2010,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I have gathered my myrrh with my spice. \n"
-      ]
+      "content": ["I have gathered my myrrh with my spice. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "I have eaten my honeycomb with my honey; \n"
-      ]
+      "content": ["I have eaten my honeycomb with my honey; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I have drunk my wine with my milk. \n"
-      ]
+      "content": ["I have drunk my wine with my milk. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Friends\n"
-      ]
+      "content": ["The Friends\n"]
     },
     {
       "type": "para",
@@ -2406,23 +2034,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Eat, O friends, and drink; \n"
-      ]
+      "content": ["Eat, O friends, and drink; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "drink freely, O beloved. \n"
-      ]
+      "content": ["drink freely, O beloved. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -2444,37 +2066,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "A sound! My beloved is knocking: \n"
-      ]
+      "content": ["A sound! My beloved is knocking: \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Open to me, my sister, my darling, \n"
-      ]
+      "content": ["“Open to me, my sister, my darling, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "my dove, my flawless one. \n"
-      ]
+      "content": ["my dove, my flawless one. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "My head is drenched with dew, \n"
-      ]
+      "content": ["My head is drenched with dew, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "my hair with the dampness of the night.” \n"
-      ]
+      "content": ["my hair with the dampness of the night.” \n"]
     },
     {
       "type": "para",
@@ -2496,23 +2108,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "must I put it back on? \n"
-      ]
+      "content": ["must I put it back on? \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "I have washed my feet—\n"
-      ]
+      "content": ["I have washed my feet—\n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "must I soil them again? \n"
-      ]
+      "content": ["must I soil them again? \n"]
     },
     {
       "type": "para",
@@ -2530,9 +2136,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "my heart pounded for him. \n"
-      ]
+      "content": ["my heart pounded for him. \n"]
     },
     {
       "type": "para",
@@ -2550,23 +2154,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "My hands dripped with myrrh, \n"
-      ]
+      "content": ["My hands dripped with myrrh, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "my fingers with flowing myrrh \n"
-      ]
+      "content": ["my fingers with flowing myrrh \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "on the handles of the bolt. \n"
-      ]
+      "content": ["on the handles of the bolt. \n"]
     },
     {
       "type": "para",
@@ -2584,30 +2182,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but he had turned and gone. \n"
-      ]
+      "content": ["but he had turned and gone. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "My heart sank at his departure. \n"
-      ]
+      "content": ["My heart sank at his departure. \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I sought him, but did not find him. \n"
-      ]
+      "content": ["I sought him, but did not find him. \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I called, but he did not answer. \n"
-      ]
+      "content": ["I called, but he did not answer. \n"]
     },
     {
       "type": "para",
@@ -2629,23 +2219,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "They beat me and bruised me; \n"
-      ]
+      "content": ["They beat me and bruised me; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "they took away my cloak, \n"
-      ]
+      "content": ["they took away my cloak, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "those guardians of the walls. \n"
-      ]
+      "content": ["those guardians of the walls. \n"]
     },
     {
       "type": "para",
@@ -2663,23 +2247,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "if you find my beloved, \n"
-      ]
+      "content": ["if you find my beloved, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "tell him I am sick with love. \n"
-      ]
+      "content": ["tell him I am sick with love. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Friends\n"
-      ]
+      "content": ["The Friends\n"]
     },
     {
       "type": "para",
@@ -2701,30 +2279,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "O most beautiful among women? \n"
-      ]
+      "content": ["O most beautiful among women? \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "How is your beloved better than another, \n"
-      ]
+      "content": ["How is your beloved better than another, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "that you charge us so? \n"
-      ]
+      "content": ["that you charge us so? \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -2746,9 +2316,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "outstanding among ten thousand. \n"
-      ]
+      "content": ["outstanding among ten thousand. \n"]
     },
     {
       "type": "para",
@@ -2766,9 +2334,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "his hair is wavy and black as a raven. \n"
-      ]
+      "content": ["his hair is wavy and black as a raven. \n"]
     },
     {
       "type": "para",
@@ -2786,23 +2352,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "beside the streams of water, \n"
-      ]
+      "content": ["beside the streams of water, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "bathed in milk \n"
-      ]
+      "content": ["bathed in milk \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and mounted like jewels. \n"
-      ]
+      "content": ["and mounted like jewels. \n"]
     },
     {
       "type": "para",
@@ -2820,23 +2380,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "towers of perfume. \n"
-      ]
+      "content": ["towers of perfume. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "His lips are like lilies, \n"
-      ]
+      "content": ["His lips are like lilies, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "dripping with flowing myrrh. \n"
-      ]
+      "content": ["dripping with flowing myrrh. \n"]
     },
     {
       "type": "para",
@@ -2854,23 +2408,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "set with beryl. \n"
-      ]
+      "content": ["set with beryl. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "His body is an ivory panel \n"
-      ]
+      "content": ["His body is an ivory panel \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "bedecked with sapphires. \n"
-      ]
+      "content": ["bedecked with sapphires. \n"]
     },
     {
       "type": "para",
@@ -2888,23 +2436,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "set on bases of pure gold. \n"
-      ]
+      "content": ["set on bases of pure gold. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "His appearance is like Lebanon, \n"
-      ]
+      "content": ["His appearance is like Lebanon, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "as majestic as the cedars. \n"
-      ]
+      "content": ["as majestic as the cedars. \n"]
     },
     {
       "type": "para",
@@ -2925,16 +2467,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:16 "
-              ]
+              "content": ["5:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew palate"
-              ]
+              "content": ["Hebrew palate"]
             }
           ],
           "caller": "+"
@@ -2945,23 +2483,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "he is altogether lovely. \n"
-      ]
+      "content": ["he is altogether lovely. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "This is my beloved, and this is my friend, \n"
-      ]
+      "content": ["This is my beloved, and this is my friend, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "O daughters of Jerusalem. \n"
-      ]
+      "content": ["O daughters of Jerusalem. \n"]
     },
     {
       "type": "chapter",
@@ -2972,16 +2504,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Together in the Garden\n"
-      ]
+      "content": ["Together in the Garden\n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Friends\n"
-      ]
+      "content": ["The Friends\n"]
     },
     {
       "type": "para",
@@ -3003,30 +2531,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "O most beautiful among women? \n"
-      ]
+      "content": ["O most beautiful among women? \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Which way has he turned? \n"
-      ]
+      "content": ["Which way has he turned? \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "We will seek him with you. \n"
-      ]
+      "content": ["We will seek him with you. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -3048,23 +2568,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to the beds of spices, \n"
-      ]
+      "content": ["to the beds of spices, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "to pasture his flock in the gardens \n"
-      ]
+      "content": ["to pasture his flock in the gardens \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and to gather lilies. \n"
-      ]
+      "content": ["and to gather lilies. \n"]
     },
     {
       "type": "para",
@@ -3082,16 +2596,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "he pastures his flock among the lilies. \n"
-      ]
+      "content": ["he pastures his flock among the lilies. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bridegroom\n"
-      ]
+      "content": ["The Bridegroom\n"]
     },
     {
       "type": "para",
@@ -3113,16 +2623,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "as lovely as Jerusalem, \n"
-      ]
+      "content": ["as lovely as Jerusalem, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "as majestic as troops with banners. \n"
-      ]
+      "content": ["as majestic as troops with banners. \n"]
     },
     {
       "type": "para",
@@ -3140,23 +2646,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for they have overcome me. \n"
-      ]
+      "content": ["for they have overcome me. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Your hair is like a flock of goats \n"
-      ]
+      "content": ["Your hair is like a flock of goats \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "streaming down from Gilead. \n"
-      ]
+      "content": ["streaming down from Gilead. \n"]
     },
     {
       "type": "para",
@@ -3174,23 +2674,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "coming up from the washing; \n"
-      ]
+      "content": ["coming up from the washing; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "each has its twin, \n"
-      ]
+      "content": ["each has its twin, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and not one of them is lost. \n"
-      ]
+      "content": ["and not one of them is lost. \n"]
     },
     {
       "type": "para",
@@ -3208,9 +2702,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "is like a slice of pomegranate. \n"
-      ]
+      "content": ["is like a slice of pomegranate. \n"]
     },
     {
       "type": "para",
@@ -3232,9 +2724,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and maidens without number, \n"
-      ]
+      "content": ["and maidens without number, \n"]
     },
     {
       "type": "para",
@@ -3252,30 +2742,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the favorite of the mother who bore her. \n"
-      ]
+      "content": ["the favorite of the mother who bore her. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "The maidens see her and call her blessed; \n"
-      ]
+      "content": ["The maidens see her and call her blessed; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the queens and concubines sing her praises. \n"
-      ]
+      "content": ["the queens and concubines sing her praises. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Friends\n"
-      ]
+      "content": ["The Friends\n"]
     },
     {
       "type": "para",
@@ -3297,30 +2779,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "as fair as the moon, \n"
-      ]
+      "content": ["as fair as the moon, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "as bright as the sun, \n"
-      ]
+      "content": ["as bright as the sun, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "as majestic as the stars in procession? \n"
-      ]
+      "content": ["as majestic as the stars in procession? \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bridegroom\n"
-      ]
+      "content": ["The Bridegroom\n"]
     },
     {
       "type": "para",
@@ -3342,23 +2816,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to see the blossoms of the valley, \n"
-      ]
+      "content": ["to see the blossoms of the valley, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "to see if the vines were budding \n"
-      ]
+      "content": ["to see if the vines were budding \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "or the pomegranates were in bloom. \n"
-      ]
+      "content": ["or the pomegranates were in bloom. \n"]
     },
     {
       "type": "para",
@@ -3386,16 +2854,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:12 "
-              ]
+              "content": ["6:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or among the chariots of Amminadab"
-              ]
+              "content": ["Or among the chariots of Amminadab"]
             }
           ],
           "caller": "+"
@@ -3406,9 +2870,7 @@
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Friends\n"
-      ]
+      "content": ["The Friends\n"]
     },
     {
       "type": "para",
@@ -3430,16 +2892,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Come back, come back, that we may gaze upon you. \n"
-      ]
+      "content": ["Come back, come back, that we may gaze upon you. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bridegroom\n"
-      ]
+      "content": ["The Bridegroom\n"]
     },
     {
       "type": "para",
@@ -3448,9 +2906,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Why do you look at the Shulammite, \n"
-      ]
+      "content": ["Why do you look at the Shulammite, \n"]
     },
     {
       "type": "para",
@@ -3465,16 +2921,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:13 "
-              ]
+              "content": ["6:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the dance of the two camps"
-              ]
+              "content": ["Or the dance of the two camps"]
             }
           ],
           "caller": "+"
@@ -3491,9 +2943,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Admiration by the Bridegroom\n"
-      ]
+      "content": ["Admiration by the Bridegroom\n"]
     },
     {
       "type": "para",
@@ -3515,23 +2965,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "O daughter of the prince! \n"
-      ]
+      "content": ["O daughter of the prince! \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "The curves of your thighs are like jewels, \n"
-      ]
+      "content": ["The curves of your thighs are like jewels, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the handiwork of a master. \n"
-      ]
+      "content": ["the handiwork of a master. \n"]
     },
     {
       "type": "para",
@@ -3549,23 +2993,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "it never lacks blended wine. \n"
-      ]
+      "content": ["it never lacks blended wine. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Your waist is a mound of wheat \n"
-      ]
+      "content": ["Your waist is a mound of wheat \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "encircled by the lilies. \n"
-      ]
+      "content": ["encircled by the lilies. \n"]
     },
     {
       "type": "para",
@@ -3583,9 +3021,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "twins of a gazelle. \n"
-      ]
+      "content": ["twins of a gazelle. \n"]
     },
     {
       "type": "para",
@@ -3603,37 +3039,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "made of ivory; \n"
-      ]
+      "content": ["made of ivory; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "your eyes are like the pools of Heshbon \n"
-      ]
+      "content": ["your eyes are like the pools of Heshbon \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "by the gate of Bath-rabbim; \n"
-      ]
+      "content": ["by the gate of Bath-rabbim; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "your nose is like the tower of Lebanon, \n"
-      ]
+      "content": ["your nose is like the tower of Lebanon, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "facing toward Damascus. \n"
-      ]
+      "content": ["facing toward Damascus. \n"]
     },
     {
       "type": "para",
@@ -3651,16 +3077,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the hair of your head like purple threads; \n"
-      ]
+      "content": ["the hair of your head like purple threads; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the king is captured in your tresses. \n"
-      ]
+      "content": ["the king is captured in your tresses. \n"]
     },
     {
       "type": "para",
@@ -3682,9 +3104,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "O love, with your delights! \n"
-      ]
+      "content": ["O love, with your delights! \n"]
     },
     {
       "type": "para",
@@ -3702,9 +3122,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "your breasts are clusters of fruit. \n"
-      ]
+      "content": ["your breasts are clusters of fruit. \n"]
     },
     {
       "type": "para",
@@ -3722,23 +3140,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I will take hold of its fruit.” \n"
-      ]
+      "content": ["I will take hold of its fruit.” \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "May your breasts be like clusters of the vine, \n"
-      ]
+      "content": ["May your breasts be like clusters of the vine, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the fragrance of your breath like apples, \n"
-      ]
+      "content": ["the fragrance of your breath like apples, \n"]
     },
     {
       "type": "para",
@@ -3759,16 +3171,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:9 "
-              ]
+              "content": ["7:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew palate "
-              ]
+              "content": ["Hebrew palate "]
             }
           ],
           "caller": "+"
@@ -3779,9 +3187,7 @@
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -3790,9 +3196,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "May it flow smoothly to my beloved, \n"
-      ]
+      "content": ["May it flow smoothly to my beloved, \n"]
     },
     {
       "type": "para",
@@ -3807,9 +3211,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:9 "
-              ]
+              "content": ["7:9 "]
             },
             {
               "type": "char",
@@ -3844,9 +3246,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and his desire is for me. \n"
-      ]
+      "content": ["and his desire is for me. \n"]
     },
     {
       "type": "para",
@@ -3864,9 +3264,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "let us go to the countryside; \n"
-      ]
+      "content": ["let us go to the countryside; \n"]
     },
     {
       "type": "para",
@@ -3881,16 +3279,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:11 "
-              ]
+              "content": ["7:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or among the henna blossoms or in the villages"
-              ]
+              "content": ["Or among the henna blossoms or in the villages"]
             }
           ],
           "caller": "+"
@@ -3918,30 +3312,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to see if the vine has budded, \n"
-      ]
+      "content": ["to see if the vine has budded, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "if the blossom has opened, \n"
-      ]
+      "content": ["if the blossom has opened, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "if the pomegranates are in bloom—\n"
-      ]
+      "content": ["if the pomegranates are in bloom—\n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "there I will give you my love. \n"
-      ]
+      "content": ["there I will give you my love. \n"]
     },
     {
       "type": "para",
@@ -3963,23 +3349,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and at our door is every delicacy, \n"
-      ]
+      "content": ["and at our door is every delicacy, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "new as well as old, \n"
-      ]
+      "content": ["new as well as old, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "that I have treasured up for you, my beloved. \n"
-      ]
+      "content": ["that I have treasured up for you, my beloved. \n"]
     },
     {
       "type": "chapter",
@@ -3990,9 +3370,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Longing for Her Beloved\n"
-      ]
+      "content": ["Longing for Her Beloved\n"]
     },
     {
       "type": "para",
@@ -4014,23 +3392,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "who nursed at my mother’s breasts! \n"
-      ]
+      "content": ["who nursed at my mother’s breasts! \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "If I found you outdoors, I would kiss you, \n"
-      ]
+      "content": ["If I found you outdoors, I would kiss you, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and no one would despise me. \n"
-      ]
+      "content": ["and no one would despise me. \n"]
     },
     {
       "type": "para",
@@ -4048,23 +3420,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to the house of my mother who taught me. \n"
-      ]
+      "content": ["to the house of my mother who taught me. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "I would give you spiced wine to drink, \n"
-      ]
+      "content": ["I would give you spiced wine to drink, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the nectar of my pomegranates. \n"
-      ]
+      "content": ["the nectar of my pomegranates. \n"]
     },
     {
       "type": "para",
@@ -4086,9 +3452,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and his right arm embraces me. \n"
-      ]
+      "content": ["and his right arm embraces me. \n"]
     },
     {
       "type": "para",
@@ -4106,23 +3470,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Do not arouse or awaken love \n"
-      ]
+      "content": ["Do not arouse or awaken love \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "until the time is right. \n"
-      ]
+      "content": ["until the time is right. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Friends\n"
-      ]
+      "content": ["The Friends\n"]
     },
     {
       "type": "para",
@@ -4144,16 +3502,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "leaning on her beloved? \n"
-      ]
+      "content": ["leaning on her beloved? \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -4162,23 +3516,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "I roused you under the apple tree; \n"
-      ]
+      "content": ["I roused you under the apple tree; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "there your mother conceived you; \n"
-      ]
+      "content": ["there your mother conceived you; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "there she travailed and brought you forth. \n"
-      ]
+      "content": ["there she travailed and brought you forth. \n"]
     },
     {
       "type": "para",
@@ -4200,16 +3548,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "as a seal upon your arm. \n"
-      ]
+      "content": ["as a seal upon your arm. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "For love is as strong as death, \n"
-      ]
+      "content": ["For love is as strong as death, \n"]
     },
     {
       "type": "para",
@@ -4224,16 +3568,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:6 "
-              ]
+              "content": ["8:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or passion"
-              ]
+              "content": ["Or passion"]
             }
           ],
           "caller": "+"
@@ -4244,16 +3584,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Its sparks are fiery flames, \n"
-      ]
+      "content": ["Its sparks are fiery flames, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the fiercest blaze of all. \n"
-      ]
+      "content": ["the fiercest blaze of all. \n"]
     },
     {
       "type": "para",
@@ -4271,9 +3607,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "rivers cannot sweep it away. \n"
-      ]
+      "content": ["rivers cannot sweep it away. \n"]
     },
     {
       "type": "para",
@@ -4285,16 +3619,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "his offer would be utterly scorned. \n"
-      ]
+      "content": ["his offer would be utterly scorned. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Friends\n"
-      ]
+      "content": ["The Friends\n"]
     },
     {
       "type": "para",
@@ -4316,23 +3646,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and her breasts are not yet grown. \n"
-      ]
+      "content": ["and her breasts are not yet grown. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "What shall we do for our sister \n"
-      ]
+      "content": ["What shall we do for our sister \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "on the day she is spoken for? \n"
-      ]
+      "content": ["on the day she is spoken for? \n"]
     },
     {
       "type": "para",
@@ -4350,30 +3674,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "we will build a tower of silver upon her. \n"
-      ]
+      "content": ["we will build a tower of silver upon her. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "If she is a door, \n"
-      ]
+      "content": ["If she is a door, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "we will enclose her with panels of cedar. \n"
-      ]
+      "content": ["we will enclose her with panels of cedar. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -4395,23 +3711,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and my breasts are like towers. \n"
-      ]
+      "content": ["and my breasts are like towers. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "So I have become in his eyes \n"
-      ]
+      "content": ["So I have become in his eyes \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "like one who brings peace. \n"
-      ]
+      "content": ["like one who brings peace. \n"]
     },
     {
       "type": "para",
@@ -4429,16 +3739,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He leased it to the tenants. \n"
-      ]
+      "content": ["He leased it to the tenants. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "For its fruit, each was to bring \n"
-      ]
+      "content": ["For its fruit, each was to bring \n"]
     },
     {
       "type": "para",
@@ -4453,9 +3759,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:11 "
-              ]
+              "content": ["8:11 "]
             },
             {
               "type": "char",
@@ -4486,23 +3790,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the thousand shekels are for you, O Solomon, \n"
-      ]
+      "content": ["the thousand shekels are for you, O Solomon, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and two hundred are for those who tend its fruit. \n"
-      ]
+      "content": ["and two hundred are for those who tend its fruit. \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bridegroom\n"
-      ]
+      "content": ["The Bridegroom\n"]
     },
     {
       "type": "para",
@@ -4524,23 +3822,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "my companions are listening for your voice. \n"
-      ]
+      "content": ["my companions are listening for your voice. \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Let me hear it! \n"
-      ]
+      "content": ["Let me hear it! \n"]
     },
     {
       "type": "para",
       "marker": "s2",
-      "content": [
-        "The Bride\n"
-      ]
+      "content": ["The Bride\n"]
     },
     {
       "type": "para",
@@ -4562,23 +3854,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and be like a gazelle \n"
-      ]
+      "content": ["and be like a gazelle \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "or a young stag \n"
-      ]
+      "content": ["or a young stag \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "on the mountains of spices. "
-      ]
+      "content": ["on the mountains of spices. "]
     }
   ]
 }

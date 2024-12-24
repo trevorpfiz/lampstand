@@ -1,21 +1,21 @@
-"use client";
+'use client';
 
-import { Fragment, useMemo } from "react";
-import { useShallow } from "zustand/react/shallow";
+import { Fragment, type ReactNode, useMemo } from 'react';
+import { useShallow } from 'zustand/react/shallow';
 
-import type { Chat, MinimalNote } from "@lamp/db/schema";
+import type { Chat, MinimalNote } from '@lamp/db/schema';
 import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@lamp/ui/components/resizable";
+} from '@lamp/ui/components/resizable';
 
-import { ChatPanel } from "~/components/chat/chat-panel";
-import { NotesPanel } from "~/components/notes/notes-panel";
-import { usePanelsStore } from "~/providers/panels-store-provider";
+import { ChatPanel } from '~/components/chat/chat-panel';
+import { NotesPanel } from '~/components/notes/notes-panel';
+import { usePanelsStore } from '~/providers/panels-store-provider';
 
 interface PanelsLayoutProps {
-  children: React.ReactNode;
+  children: ReactNode;
   chats?: Chat[];
   notes?: MinimalNote[];
 }
@@ -25,15 +25,15 @@ export function PanelsLayout({ children, chats, notes }: PanelsLayoutProps) {
     useShallow((state) => ({
       isChatOpen: state.isChatOpen,
       isNotesOpen: state.isNotesOpen,
-    })),
+    }))
   );
 
   const panels = useMemo(() => {
-    const activePanels = [{ id: "main", content: children, size: 100 }];
+    const activePanels = [{ id: 'main', content: children, size: 100 }];
 
     if (isChatOpen) {
       activePanels.push({
-        id: "chat",
+        id: 'chat',
         // Pass chats to ChatPanel
         content: <ChatPanel initialChats={chats} />,
         size: 30,
@@ -42,7 +42,7 @@ export function PanelsLayout({ children, chats, notes }: PanelsLayoutProps) {
 
     if (isNotesOpen) {
       activePanels.push({
-        id: "notes",
+        id: 'notes',
         // Pass notes to NotesPanel
         content: <NotesPanel initialNotes={notes} />,
         size: 30,

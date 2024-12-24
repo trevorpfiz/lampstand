@@ -53,7 +53,7 @@ export const TocElement = withRef<typeof PlateElement>(
               </Button>
             ))
           ) : (
-            <div className="text-sm text-gray-500">
+            <div className="text-gray-500 text-sm">
               Create a heading to display the table of contents.
             </div>
           )}

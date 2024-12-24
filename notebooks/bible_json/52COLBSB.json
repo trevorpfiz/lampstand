@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "COL"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Colossians\n"
-      ]
+      "content": ["Colossians\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Colossians\n"
-      ]
+      "content": ["Colossians\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Colossians\n"
-      ]
+      "content": ["Colossians\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Greetings from Paul and Timothy\n"
-      ]
+      "content": ["Greetings from Paul and Timothy\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Philippians 1:1–2; Philemon 1:1–3)\n"
-      ]
+      "content": ["(Philippians 1:1–2; Philemon 1:1–3)\n"]
     },
     {
       "type": "para",
@@ -102,16 +90,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:2 "
-              ]
+              "content": ["1:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR God our Father and the Lord Jesus Christ"
-              ]
+              "content": ["BYZ and TR God our Father and the Lord Jesus Christ"]
             }
           ],
           "caller": "+"
@@ -122,16 +106,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Thanksgiving and Prayer\n"
-      ]
+      "content": ["Thanksgiving and Prayer\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Corinthians 1:4–9; Philippians 1:3–11)\n"
-      ]
+      "content": ["(1 Corinthians 1:4–9; Philippians 1:3–11)\n"]
     },
     {
       "type": "para",
@@ -195,16 +175,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:7 "
-              ]
+              "content": ["1:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE, NA, BYZ, and TR your"
-              ]
+              "content": ["NE, NA, BYZ, and TR your"]
             }
           ],
           "caller": "+"
@@ -263,16 +239,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:12 "
-              ]
+              "content": ["1:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR us"
-              ]
+              "content": ["BYZ and TR us"]
             }
           ],
           "caller": "+"
@@ -310,16 +282,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:14 "
-              ]
+              "content": ["1:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "TR redemption through His blood,"
-              ]
+              "content": ["TR redemption through His blood,"]
             }
           ],
           "caller": "+"
@@ -330,16 +298,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Supremacy of the Son\n"
-      ]
+      "content": ["The Supremacy of the Son\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Hebrews 1:1–14)\n"
-      ]
+      "content": ["(Hebrews 1:1–14)\n"]
     },
     {
       "type": "para",
@@ -440,16 +404,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:23 "
-              ]
+              "content": ["1:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or in all creation"
-              ]
+              "content": ["Or in all creation"]
             }
           ],
           "caller": "+"
@@ -460,16 +420,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paul’s Suffering for the Church\n"
-      ]
+      "content": ["Paul’s Suffering for the Church\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Corinthians 11:16–33)\n"
-      ]
+      "content": ["(2 Corinthians 11:16–33)\n"]
     },
     {
       "type": "para",
@@ -532,16 +488,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:28 "
-              ]
+              "content": ["1:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or fully mature"
-              ]
+              "content": ["Or fully mature"]
             }
           ],
           "caller": "+"
@@ -565,16 +517,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Absent in Body, Present in Spirit\n"
-      ]
+      "content": ["Absent in Body, Present in Spirit\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Revelation 3:14–22)\n"
-      ]
+      "content": ["(Revelation 3:14–22)\n"]
     },
     {
       "type": "para",
@@ -606,16 +554,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:2 "
-              ]
+              "content": ["2:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally the mystery of God: Christ"
-              ]
+              "content": ["Literally the mystery of God: Christ"]
             }
           ],
           "caller": "+"
@@ -657,16 +601,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Alive with Christ\n"
-      ]
+      "content": ["Alive with Christ\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ephesians 2:1–10)\n"
-      ]
+      "content": ["(Ephesians 2:1–10)\n"]
     },
     {
       "type": "para",
@@ -746,9 +686,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:11 "
-              ]
+              "content": ["2:11 "]
             },
             {
               "type": "char",
@@ -831,16 +769,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:17 "
-              ]
+              "content": ["2:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally but the body is of the Christ"
-              ]
+              "content": ["Literally but the body is of the Christ"]
             }
           ],
           "caller": "+"
@@ -909,16 +843,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Put On the New Self\n"
-      ]
+      "content": ["Put On the New Self\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ephesians 4:17–32)\n"
-      ]
+      "content": ["(Ephesians 4:17–32)\n"]
     },
     {
       "type": "para",
@@ -964,16 +894,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:4 "
-              ]
+              "content": ["3:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE, WH, BYZ, and TR our"
-              ]
+              "content": ["NE, WH, BYZ, and TR our"]
             }
           ],
           "caller": "+"
@@ -1011,9 +937,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:6 "
-              ]
+              "content": ["3:6 "]
             },
             {
               "type": "char",
@@ -1138,16 +1062,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Christian Households\n"
-      ]
+      "content": ["Christian Households\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ephesians 6:1–4)\n"
-      ]
+      "content": ["(Ephesians 6:1–4)\n"]
     },
     {
       "type": "para",
@@ -1220,16 +1140,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Serving with Honor\n"
-      ]
+      "content": ["Serving with Honor\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ephesians 6:5–9; 1 Timothy 6:1–2)\n"
-      ]
+      "content": ["(Ephesians 6:5–9; 1 Timothy 6:1–2)\n"]
     },
     {
       "type": "para",
@@ -1288,9 +1204,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Prayerful Speech and Actions\n"
-      ]
+      "content": ["Prayerful Speech and Actions\n"]
     },
     {
       "type": "para",
@@ -1367,16 +1281,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Greetings from Paul’s Fellow Workers\n"
-      ]
+      "content": ["Greetings from Paul’s Fellow Workers\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Romans 16:21–23)\n"
-      ]
+      "content": ["(Romans 16:21–23)\n"]
     },
     {
       "type": "para",
@@ -1477,16 +1387,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Signature and Final Instructions\n"
-      ]
+      "content": ["Signature and Final Instructions\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Corinthians 16:19–24; 2 Thessalonians 3:16–18)\n"
-      ]
+      "content": ["(1 Corinthians 16:19–24; 2 Thessalonians 3:16–18)\n"]
     },
     {
       "type": "para",
@@ -1563,9 +1469,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Remember my chains. \n"
-      ]
+      "content": ["Remember my chains. \n"]
     },
     {
       "type": "para",
@@ -1584,16 +1488,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:18 "
-              ]
+              "content": ["4:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include Amen."
-              ]
+              "content": ["BYZ and TR include Amen."]
             }
           ],
           "caller": "+"

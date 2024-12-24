@@ -14,11 +14,7 @@
     }
   },
   "scripts": {
-    "build": "tsc",
     "clean": "git clean -xdf .cache .turbo dist node_modules",
-    "dev": "tsc",
-    "format": "prettier --check . --ignore-path ../../.gitignore",
-    "lint": "eslint",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
@@ -28,13 +24,8 @@
     "@vercel/toolbar": "catalog:vercel"
   },
   "devDependencies": {
-    "@lamp/eslint-config": "workspace:*",
-    "@lamp/prettier-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
-    "eslint": "catalog:",
     "next": "catalog:nextjs",
-    "prettier": "catalog:",
     "typescript": "catalog:"
-  },
-  "prettier": "@lamp/prettier-config"
+  }
 }

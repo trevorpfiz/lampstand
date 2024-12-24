@@ -1,8 +1,8 @@
-import { FcGoogle } from "react-icons/fc";
+import { FcGoogle } from 'react-icons/fc';
 
-import { Button } from "@lamp/ui/components/button";
+import { Button } from '@lamp/ui/components/button';
 
-import { signInWithGoogle } from "~/lib/actions/auth";
+import { signInWithGoogle } from '~/lib/actions/auth';
 
 export const Social = () => {
   return (

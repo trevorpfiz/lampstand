@@ -1,11 +1,11 @@
-import type { TRPCRouterRecord } from "@trpc/server";
-import { and, eq } from "drizzle-orm";
-import { z } from "zod";
+import type { TRPCRouterRecord } from '@trpc/server';
+import { and, eq } from 'drizzle-orm';
+import { z } from 'zod';
 
-import { getMessagesByChatId, saveMessages } from "@lamp/db/queries";
-import { Chat, insertMessageParams, Message } from "@lamp/db/schema";
+import { getMessagesByChatId, saveMessages } from '@lamp/db/queries';
+import { Chat, Message, insertMessageParams } from '@lamp/db/schema';
 
-import { protectedProcedure } from "../trpc";
+import { protectedProcedure } from '../trpc';
 
 export const messageRouter = {
   byChatId: protectedProcedure
@@ -20,7 +20,7 @@ export const messageRouter = {
       });
 
       if (!chat) {
-        throw new Error("Chat not found");
+        throw new Error('Chat not found');
       }
 
       const { messages } = await getMessagesByChatId({ id: chatId });
@@ -31,7 +31,7 @@ export const messageRouter = {
     .input(
       z.object({
         messages: z.array(insertMessageParams),
-      }),
+      })
     )
     .mutation(async ({ ctx, input }) => {
       const { db, user } = ctx;
@@ -43,12 +43,12 @@ export const messageRouter = {
         where: and(
           eq(Chat.profileId, user.id),
           // Using SQL 'in' operator would be better here
-          ...chatIds.map((id) => eq(Chat.id, id)),
+          ...chatIds.map((id) => eq(Chat.id, id))
         ),
       });
 
       if (chats.length !== chatIds.length) {
-        throw new Error("One or more chats not found or unauthorized");
+        throw new Error('One or more chats not found or unauthorized');
       }
 
       const { messages: savedMessages } = await saveMessages({
@@ -73,7 +73,7 @@ export const messageRouter = {
       });
 
       if (!message || message.chat.profileId !== user.id) {
-        throw new Error("Message not found");
+        throw new Error('Message not found');
       }
 
       const [deletedMessage] = await db

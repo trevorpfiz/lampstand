@@ -1,9 +1,9 @@
-import { cookies } from "next/headers";
-import { createServerClient } from "@supabase/ssr";
+import { createServerClient } from '@supabase/ssr';
+import { cookies } from 'next/headers';
 
-import { env } from "@lamp/env";
+import { env } from '@lamp/env';
 
-import type { Database } from "../types";
+import type { Database } from '../types';
 
 export async function createClient() {
   const cookieStore = await cookies();
@@ -18,8 +18,9 @@ export async function createClient() {
         },
         setAll(cookiesToSet) {
           try {
+            // biome-ignore lint/complexity/noForEach: <explanation>
             cookiesToSet.forEach(({ name, value, options }) =>
-              cookieStore.set(name, value, options),
+              cookieStore.set(name, value, options)
             );
           } catch {
             // The `setAll` method was called from a Server Component.
@@ -28,6 +29,6 @@ export async function createClient() {
           }
         },
       },
-    },
+    }
   );
 }

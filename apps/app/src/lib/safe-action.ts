@@ -1,11 +1,11 @@
-import { captureException } from "@sentry/nextjs";
+import { captureException } from '@sentry/nextjs';
 import {
-  createSafeActionClient,
   DEFAULT_SERVER_ERROR_MESSAGE,
-} from "next-safe-action";
+  createSafeActionClient,
+} from 'next-safe-action';
 
-import { AuthApiError } from "@lamp/supabase";
-import { createClient } from "@lamp/supabase/server";
+import { AuthApiError } from '@lamp/supabase';
+import { createClient } from '@lamp/supabase/server';
 
 // Base client
 export const actionClient = createSafeActionClient({
@@ -13,16 +13,14 @@ export const actionClient = createSafeActionClient({
     // Manually log to Sentry
     captureException(e);
 
-    console.error("Action error:", e.message);
-
     // Convert AuthApiError to MyCustomError
     if (e instanceof AuthApiError) {
       switch (e.code) {
-        case "invalid_credentials":
-        case "user_not_found":
-          return "Invalid email or password";
-        case "email_not_confirmed":
-          return "Please verify your email address";
+        case 'invalid_credentials':
+        case 'user_not_found':
+          return 'Invalid email or password';
+        case 'email_not_confirmed':
+          return 'Please verify your email address';
         default:
           return DEFAULT_SERVER_ERROR_MESSAGE;
       }
@@ -39,7 +37,7 @@ export const authActionClient = actionClient.use(async ({ next }) => {
   const { data, error } = await supabase.auth.getUser();
 
   if (error ?? !data.user) {
-    throw new Error("Unauthorized");
+    throw new Error('Unauthorized');
   }
 
   return next({ ctx: { supabase, user: data.user } });

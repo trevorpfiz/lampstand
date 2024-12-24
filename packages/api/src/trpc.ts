@@ -6,12 +6,12 @@
  * tl;dr - this is where all the tRPC server stuff is created and plugged in.
  * The pieces you will need to use are documented accordingly near the end
  */
-import { initTRPC, TRPCError } from "@trpc/server";
-import superjson from "superjson";
-import { ZodError } from "zod";
+import { TRPCError, initTRPC } from '@trpc/server';
+import superjson from 'superjson';
+import { ZodError } from 'zod';
 
-import type { SupabaseClient } from "@lamp/supabase";
-import { db } from "@lamp/db/client";
+import { db } from '@lamp/db/client';
+import type { SupabaseClient } from '@lamp/supabase';
 
 /**
  * 1. CONTEXT
@@ -33,7 +33,7 @@ export const createTRPCContext = async (opts: {
 
   // React Native will pass their token through headers,
   // browsers will have the session cookie set
-  const token = opts.headers.get("Authorization");
+  const token = opts.headers.get('Authorization');
 
   // console.log(">>> tRPC Request with token", token);
 
@@ -41,8 +41,7 @@ export const createTRPCContext = async (opts: {
     ? await supabase.auth.getUser(token)
     : await supabase.auth.getUser();
 
-  const source = opts.headers.get("x-trpc-source") ?? "unknown";
-  console.log(">>> tRPC Request from", source, "by", user.data.user?.email);
+  const _source = opts.headers.get('x-trpc-source') ?? 'unknown';
 
   return {
     user: user.data.user,
@@ -92,8 +91,8 @@ export const createTRPCRouter = t.router;
  * You can remove this if you don't like it, but it can help catch unwanted waterfalls by simulating
  * network latency that would occur in production but not in local development.
  */
-const timingMiddleware = t.middleware(async ({ next, path }) => {
-  const start = Date.now();
+const timingMiddleware = t.middleware(async ({ next }) => {
+  const _start = Date.now();
 
   if (t._config.isDev) {
     // artificial delay in dev 100-500ms
@@ -103,8 +102,7 @@ const timingMiddleware = t.middleware(async ({ next, path }) => {
 
   const result = await next();
 
-  const end = Date.now();
-  console.log(`[TRPC] ${path} took ${end - start}ms to execute`);
+  const _end = Date.now();
 
   return result;
 });
@@ -112,7 +110,7 @@ const timingMiddleware = t.middleware(async ({ next, path }) => {
 /** Reusable middleware that enforces users are logged in before running the procedure. */
 const enforceUserIsAuthed = t.middleware(({ ctx, next }) => {
   if (!ctx.user?.id) {
-    throw new TRPCError({ code: "UNAUTHORIZED" });
+    throw new TRPCError({ code: 'UNAUTHORIZED' });
   }
   return next({
     ctx: {

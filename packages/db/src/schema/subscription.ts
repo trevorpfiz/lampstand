@@ -1,28 +1,28 @@
-import type { z } from "zod";
-import { relations } from "drizzle-orm";
-import { pgEnum } from "drizzle-orm/pg-core";
-import { authUsers } from "drizzle-orm/supabase";
-import { createInsertSchema, createSelectSchema } from "drizzle-zod";
+import { relations } from 'drizzle-orm';
+import { pgEnum } from 'drizzle-orm/pg-core';
+import { authUsers } from 'drizzle-orm/supabase';
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod';
+import type { z } from 'zod';
 
-import { createTable } from "./_table";
-import { Price } from "./price";
+import { createTable } from './_table';
+import { Price } from './price';
 
 export const subscriptionStatus = [
-  "trialing",
-  "active",
-  "canceled",
-  "incomplete",
-  "incomplete_expired",
-  "past_due",
-  "unpaid",
-  "paused",
+  'trialing',
+  'active',
+  'canceled',
+  'incomplete',
+  'incomplete_expired',
+  'past_due',
+  'unpaid',
+  'paused',
 ] as const;
 export const subscriptionStatusEnum = pgEnum(
-  "subscription_status",
-  subscriptionStatus,
+  'subscription_status',
+  subscriptionStatus
 );
 
-export const Subscription = createTable("subscription", (t) => ({
+export const Subscription = createTable('subscription', (t) => ({
   id: t.text().primaryKey(), // Subscription ID from Stripe
   userId: t.uuid().references(() => authUsers.id),
   status: subscriptionStatusEnum(),

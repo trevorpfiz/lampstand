@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { Menu, MoveRight, X } from "lucide-react";
+import { Menu, MoveRight, X } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
 
-import { ModeToggle } from "@lamp/design-system/components/mode-toggle";
-import { Button } from "@lamp/design-system/components/ui/button";
+import { ModeToggle } from '@lamp/design-system/components/mode-toggle';
+import { Button } from '@lamp/design-system/components/ui/button';
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -14,58 +14,58 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@lamp/design-system/components/ui/navigation-menu";
-import { env } from "@lamp/env";
+} from '@lamp/design-system/components/ui/navigation-menu';
+import { env } from '@lamp/env';
 
-import Logo from "./logo.svg";
+import Logo from './logo.svg';
 
 export const Header = () => {
   const navigationItems = [
     {
-      title: "Home",
-      href: "/",
-      description: "",
+      title: 'Home',
+      href: '/',
+      description: '',
     },
     {
-      title: "Product",
-      description: "Managing a small business today is already tough.",
+      title: 'Product',
+      description: 'Managing a small business today is already tough.',
       items: [
         {
-          title: "Pricing",
-          href: "/pricing",
+          title: 'Pricing',
+          href: '/pricing',
         },
         {
-          title: "Pricing",
-          href: "/pricing",
+          title: 'Pricing',
+          href: '/pricing',
         },
         {
-          title: "Pricing",
-          href: "/pricing",
+          title: 'Pricing',
+          href: '/pricing',
         },
         {
-          title: "Pricing",
-          href: "/pricing",
+          title: 'Pricing',
+          href: '/pricing',
         },
       ],
     },
     {
-      title: "Blog",
-      href: "/blog",
-      description: "",
+      title: 'Blog',
+      href: '/blog',
+      description: '',
     },
   ];
 
   if (env.NEXT_PUBLIC_DOCS_URL) {
     navigationItems.push({
-      title: "Docs",
+      title: 'Docs',
       href: env.NEXT_PUBLIC_DOCS_URL,
-      description: "",
+      description: '',
     });
   }
 
   const [isOpen, setOpen] = useState(false);
   return (
-    <header className="sticky left-0 top-0 z-40 w-full border-b bg-background">
+    <header className="sticky top-0 left-0 z-40 w-full border-b bg-background">
       <div className="container relative mx-auto flex min-h-20 flex-row items-center gap-4 lg:grid lg:grid-cols-3">
         <div className="hidden flex-row items-center justify-start gap-4 lg:flex">
           <NavigationMenu className="flex items-start justify-start">
@@ -82,7 +82,7 @@ export const Header = () => {
                     </>
                   ) : (
                     <>
-                      <NavigationMenuTrigger className="text-sm font-medium">
+                      <NavigationMenuTrigger className="font-medium text-sm">
                         {item.title}
                       </NavigationMenuTrigger>
                       <NavigationMenuContent className="!w-[450px] p-4">
@@ -90,7 +90,7 @@ export const Header = () => {
                           <div className="flex h-full flex-col justify-between">
                             <div className="flex flex-col">
                               <p className="text-base">{item.title}</p>
-                              <p className="text-sm text-muted-foreground">
+                              <p className="text-muted-foreground text-sm">
                                 {item.description}
                               </p>
                             </div>
@@ -149,7 +149,7 @@ export const Header = () => {
             {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </Button>
           {isOpen && (
-            <div className="container absolute right-0 top-20 flex w-full flex-col gap-8 border-t bg-background py-4 shadow-lg">
+            <div className="container absolute top-20 right-0 flex w-full flex-col gap-8 border-t bg-background py-4 shadow-lg">
               {navigationItems.map((item) => (
                 <div key={item.title}>
                   <div className="flex flex-col gap-2">
@@ -158,11 +158,11 @@ export const Header = () => {
                         href={item.href}
                         className="flex items-center justify-between"
                         target={
-                          item.href.startsWith("http") ? "_blank" : undefined
+                          item.href.startsWith('http') ? '_blank' : undefined
                         }
                         rel={
-                          item.href.startsWith("http")
-                            ? "noopener noreferrer"
+                          item.href.startsWith('http')
+                            ? 'noopener noreferrer'
                             : undefined
                         }
                       >

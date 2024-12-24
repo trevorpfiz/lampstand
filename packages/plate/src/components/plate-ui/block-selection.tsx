@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import type React from 'react';
 
 import { cn } from '@udecode/cn';
 import { useBlockSelected } from '@udecode/plate-selection/react';
@@ -28,7 +28,9 @@ export function BlockSelection({
   VariantProps<typeof blockSelectionVariants>) {
   const isBlockSelected = useBlockSelected();
 
-  if (!isBlockSelected) return null;
+  if (!isBlockSelected) {
+    return null;
+  }
 
   return (
     <div

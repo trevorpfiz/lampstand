@@ -3,14 +3,15 @@ import {
   CardContent,
   CardFooter,
   CardHeader,
-} from "@lamp/ui/components/card";
+} from '@lamp/ui/components/card';
+import type { ReactNode } from 'react';
 
-import { BackButton } from "~/components/auth/back-button";
-import { Header } from "~/components/auth/header";
-import { Social } from "~/components/auth/social";
+import { BackButton } from '~/components/auth/back-button';
+import { Header } from '~/components/auth/header';
+import { Social } from '~/components/auth/social';
 
 interface CardWrapperProps {
-  children: React.ReactNode;
+  children: ReactNode;
   headerTitle: string;
   headerSubtitle: string;
   backButtonLabel?: string;
@@ -46,9 +47,9 @@ export const CardWrapper = ({
 
       {showCredentials && (
         <>
-          <div className="flex items-center justify-center px-6 pb-4 pt-0">
+          <div className="flex items-center justify-center px-6 pt-0 pb-4">
             <div className="flex-grow border-t" />
-            <p className="px-4 text-[13px] leading-snug text-muted-foreground">
+            <p className="px-4 text-[13px] text-muted-foreground leading-snug">
               or
             </p>
             <div className="flex-grow border-t" />
@@ -62,9 +63,9 @@ export const CardWrapper = ({
       {(backButtonLabel ?? backButtonLinkLabel ?? backButtonHref) && (
         <CardFooter className="flex justify-center pb-0">
           <BackButton
-            label={backButtonLabel ?? ""}
-            linkLabel={backButtonLinkLabel ?? ""}
-            href={backButtonHref ?? ""}
+            label={backButtonLabel ?? ''}
+            linkLabel={backButtonLinkLabel ?? ''}
+            href={backButtonHref ?? ''}
           />
         </CardFooter>
       )}

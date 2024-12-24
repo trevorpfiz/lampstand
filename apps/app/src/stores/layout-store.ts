@@ -1,4 +1,4 @@
-import { createStore } from "zustand/vanilla";
+import { createStore } from 'zustand/vanilla';
 
 export interface LayoutState {
   isHydrated: boolean;
@@ -21,7 +21,7 @@ export const defaultLayoutState: LayoutState = {
 };
 
 export const createLayoutStore = (
-  initState: LayoutState = defaultLayoutState,
+  initState: LayoutState = defaultLayoutState
 ) => {
   return createStore<LayoutStore>((set) => ({
     ...initState,

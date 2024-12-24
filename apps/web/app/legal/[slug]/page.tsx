@@ -1,16 +1,16 @@
-import type { Metadata } from "next";
-import { draftMode } from "next/headers";
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { Sidebar } from "@/components/sidebar";
-import { ArrowLeftIcon } from "@radix-ui/react-icons";
-import Balancer from "react-wrap-balancer";
+import { Sidebar } from '@/components/sidebar';
+import { ArrowLeftIcon } from '@radix-ui/react-icons';
+import type { Metadata } from 'next';
+import { draftMode } from 'next/headers';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import Balancer from 'react-wrap-balancer';
 
-import { legal } from "@lamp/cms";
-import { Body } from "@lamp/cms/components/body";
-import { Feed } from "@lamp/cms/components/feed";
-import { TableOfContents } from "@lamp/cms/components/toc";
-import { createMetadata } from "@lamp/seo/metadata";
+import { legal } from '@lamp/cms';
+import { Body } from '@lamp/cms/components/body';
+import { Feed } from '@lamp/cms/components/feed';
+import { TableOfContents } from '@lamp/cms/components/toc';
+import { createMetadata } from '@lamp/seo/metadata';
 
 type LegalPageProperties = {
   readonly params: Promise<{
@@ -48,7 +48,7 @@ const LegalPage = async ({ params }: LegalPageProperties) => {
     <Feed queries={[legal.postQuery(slug)]} draft={draft.isEnabled}>
       {/* biome-ignore lint/suspicious/useAwait: "Server Actions must be async" */}
       {async ([data]) => {
-        "use server";
+        'use server';
 
         const [page] = data.legalPages.items;
 
@@ -65,7 +65,7 @@ const LegalPage = async ({ params }: LegalPageProperties) => {
               <ArrowLeftIcon className="h-4 w-4" />
               Back to Blog
             </Link>
-            <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+            <h1 className="scroll-m-20 font-extrabold text-4xl tracking-tight lg:text-5xl">
               <Balancer>{page._title}</Balancer>
             </h1>
             <p className="leading-7 [&:not(:first-child)]:mt-6">

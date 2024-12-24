@@ -1,19 +1,19 @@
-import type { Metadata } from "next";
-import { draftMode } from "next/headers";
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { Sidebar } from "@/components/sidebar";
-import { ArrowLeftIcon } from "@radix-ui/react-icons";
-import Balancer from "react-wrap-balancer";
+import { Sidebar } from '@/components/sidebar';
+import { ArrowLeftIcon } from '@radix-ui/react-icons';
+import type { Metadata } from 'next';
+import { draftMode } from 'next/headers';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import Balancer from 'react-wrap-balancer';
 
-import { blog } from "@lamp/cms";
-import { Body } from "@lamp/cms/components/body";
-import { Feed } from "@lamp/cms/components/feed";
-import { Image } from "@lamp/cms/components/image";
-import { TableOfContents } from "@lamp/cms/components/toc";
-import { env } from "@lamp/env";
-import { JsonLd } from "@lamp/seo/json-ld";
-import { createMetadata } from "@lamp/seo/metadata";
+import { blog } from '@lamp/cms';
+import { Body } from '@lamp/cms/components/body';
+import { Feed } from '@lamp/cms/components/feed';
+import { Image } from '@lamp/cms/components/image';
+import { TableOfContents } from '@lamp/cms/components/toc';
+import { env } from '@lamp/env';
+import { JsonLd } from '@lamp/seo/json-ld';
+import { createMetadata } from '@lamp/seo/metadata';
 
 type BlogPostProperties = {
   readonly params: Promise<{
@@ -52,7 +52,7 @@ const BlogPost = async ({ params }: BlogPostProperties) => {
     <Feed queries={[blog.postQuery(slug)]} draft={draft.isEnabled}>
       {/* biome-ignore lint/suspicious/useAwait: "Server Actions must be async" */}
       {async ([data]) => {
-        "use server";
+        'use server';
 
         const [page] = data.blog.posts.items;
 
@@ -64,15 +64,15 @@ const BlogPost = async ({ params }: BlogPostProperties) => {
           <>
             <JsonLd
               code={{
-                "@type": "BlogPosting",
-                "@context": "https://schema.org",
+                '@type': 'BlogPosting',
+                '@context': 'https://schema.org',
                 datePublished: page.date,
                 description: page.description,
                 mainEntityOfPage: {
-                  "@type": "WebPage",
-                  "@id": new URL(
+                  '@type': 'WebPage',
+                  '@id': new URL(
                     `/blog/${slug}`,
-                    env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL,
+                    env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
                   ).toString(),
                 },
                 headline: page._title,
@@ -84,7 +84,7 @@ const BlogPost = async ({ params }: BlogPostProperties) => {
             />
             <div className="container py-16">
               <Link
-                className="mb-4 inline-flex items-center gap-1 text-sm text-muted-foreground focus:underline focus:outline-none"
+                className="mb-4 inline-flex items-center gap-1 text-muted-foreground text-sm focus:underline focus:outline-none"
                 href="/blog"
               >
                 <ArrowLeftIcon className="h-4 w-4" />
@@ -92,8 +92,8 @@ const BlogPost = async ({ params }: BlogPostProperties) => {
               </Link>
               <div className="mt-16 flex flex-col items-start gap-8 sm:flex-row">
                 <div className="sm:flex-1">
-                  <div className="prose prose-neutral max-w-none dark:prose-invert">
-                    <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+                  <div className="prose prose-neutral dark:prose-invert max-w-none">
+                    <h1 className="scroll-m-20 font-extrabold text-4xl tracking-tight lg:text-5xl">
                       <Balancer>{page._title}</Balancer>
                     </h1>
                     <p className="leading-7 [&:not(:first-child)]:mt-6">
@@ -104,7 +104,7 @@ const BlogPost = async ({ params }: BlogPostProperties) => {
                         src={page.image.url}
                         width={page.image.width}
                         height={page.image.height}
-                        alt={page.image.alt ?? ""}
+                        alt={page.image.alt ?? ''}
                         className="my-16 h-full w-full rounded-xl"
                         priority
                       />

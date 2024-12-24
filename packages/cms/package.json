@@ -3,39 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./src/index.ts"
-    },
-    "./components/body": {
-      "types": "./dist/components/body.d.ts",
-      "default": "./src/components/body.tsx"
-    },
-    "./components/feed": {
-      "types": "./dist/components/feed.d.ts",
-      "default": "./src/components/feed.tsx"
-    },
-    "./components/image": {
-      "types": "./dist/components/image.d.ts",
-      "default": "./src/components/image.tsx"
-    },
-    "./components/toc": {
-      "types": "./dist/components/toc.d.ts",
-      "default": "./src/components/toc.tsx"
-    },
-    "./components/toolbar": {
-      "types": "./dist/components/toolbar.d.ts",
-      "default": "./src/components/toolbar.tsx"
-    }
-  },
   "scripts": {
     "dev": "basehub dev",
     "build": "basehub",
     "analyze": "basehub",
     "clean": "git clean -xdf .cache .turbo dist node_modules",
-    "format": "prettier --check . --ignore-path ../../.gitignore",
-    "lint": "eslint",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
@@ -44,16 +16,11 @@
     "react": "catalog:react19"
   },
   "devDependencies": {
-    "@lamp/eslint-config": "workspace:*",
-    "@lamp/prettier-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
     "@types/node": "catalog:",
     "@types/react": "catalog:react19",
     "@types/react-dom": "catalog:react19",
-    "eslint": "catalog:",
     "next": "catalog:nextjs",
-    "prettier": "catalog:",
     "typescript": "catalog:"
-  },
-  "prettier": "@lamp/prettier-config"
+  }
 }

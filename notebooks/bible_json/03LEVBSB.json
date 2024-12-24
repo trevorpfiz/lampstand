@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "LEV"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Leviticus\n"
-      ]
+      "content": ["Leviticus\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Leviticus\n"
-      ]
+      "content": ["Leviticus\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Leviticus\n"
-      ]
+      "content": ["Leviticus\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Laws for Burnt Offerings\n"
-      ]
+      "content": ["Laws for Burnt Offerings\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 6:8–13)\n"
-      ]
+      "content": ["(Leviticus 6:8–13)\n"]
     },
     {
       "type": "para",
@@ -229,16 +217,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:16 "
-              ]
+              "content": ["1:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the crop and feathers"
-              ]
+              "content": ["Or the crop and feathers"]
             }
           ],
           "caller": "+"
@@ -262,16 +246,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Laws for Grain Offerings\n"
-      ]
+      "content": ["Laws for Grain Offerings\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 6:14–23)\n"
-      ]
+      "content": ["(Leviticus 6:14–23)\n"]
     },
     {
       "type": "para",
@@ -344,16 +324,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:5 "
-              ]
+              "content": ["2:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, a shallow pan for baking or frying"
-              ]
+              "content": ["That is, a shallow pan for baking or frying"]
             }
           ],
           "caller": "+"
@@ -391,16 +367,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:7 "
-              ]
+              "content": ["2:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, a deep pan or stew pan"
-              ]
+              "content": ["That is, a deep pan or stew pan"]
             }
           ],
           "caller": "+"
@@ -510,16 +482,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Laws for Peace Offerings\n"
-      ]
+      "content": ["Laws for Peace Offerings\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 7:11–21)\n"
-      ]
+      "content": ["(Leviticus 7:11–21)\n"]
     },
     {
       "type": "para",
@@ -729,16 +697,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Laws for Sin Offerings\n"
-      ]
+      "content": ["Laws for Sin Offerings\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 5:1–13; Leviticus 6:24–30)\n"
-      ]
+      "content": ["(Leviticus 5:1–13; Leviticus 6:24–30)\n"]
     },
     {
       "type": "para",
@@ -787,9 +751,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:3 "
-              ]
+              "content": ["4:3 "]
             },
             {
               "type": "char",
@@ -1077,16 +1039,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Sins Requiring a Sin Offering\n"
-      ]
+      "content": ["Sins Requiring a Sin Offering\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 4:1–35; Leviticus 6:24–30)\n"
-      ]
+      "content": ["(Leviticus 4:1–35; Leviticus 6:24–30)\n"]
     },
     {
       "type": "para",
@@ -1241,9 +1199,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:11 "
-              ]
+              "content": ["5:11 "]
             },
             {
               "type": "char",
@@ -1275,16 +1231,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Laws for Guilt Offerings\n"
-      ]
+      "content": ["Laws for Guilt Offerings\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 6:1–7; Leviticus 7:1–10)\n"
-      ]
+      "content": ["(Leviticus 6:1–7; Leviticus 7:1–10)\n"]
     },
     {
       "type": "para",
@@ -1316,16 +1268,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:15 "
-              ]
+              "content": ["5:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or flock or its equivalence"
-              ]
+              "content": ["Or flock or its equivalence"]
             }
           ],
           "caller": "+"
@@ -1339,9 +1287,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:15 "
-              ]
+              "content": ["5:15 "]
             },
             {
               "type": "char",
@@ -1400,16 +1346,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:19 "
-              ]
+              "content": ["5:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or he has paid full compensation"
-              ]
+              "content": ["Or he has paid full compensation"]
             }
           ],
           "caller": "+"
@@ -1426,16 +1368,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Sins Requiring a Guilt Offering\n"
-      ]
+      "content": ["Sins Requiring a Guilt Offering\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 5:14–19; Leviticus 7:1–10)\n"
-      ]
+      "content": ["(Leviticus 5:14–19; Leviticus 7:1–10)\n"]
     },
     {
       "type": "para",
@@ -1510,16 +1448,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Burnt Offering\n"
-      ]
+      "content": ["The Burnt Offering\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 1:1–17)\n"
-      ]
+      "content": ["(Leviticus 1:1–17)\n"]
     },
     {
       "type": "para",
@@ -1596,16 +1530,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Grain Offering\n"
-      ]
+      "content": ["The Grain Offering\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 2:1–16)\n"
-      ]
+      "content": ["(Leviticus 2:1–16)\n"]
     },
     {
       "type": "para",
@@ -1692,9 +1622,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:20 "
-              ]
+              "content": ["6:20 "]
             },
             {
               "type": "char",
@@ -1722,16 +1650,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:21 "
-              ]
+              "content": ["6:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, a shallow pan for baking or frying"
-              ]
+              "content": ["That is, a shallow pan for baking or frying"]
             }
           ],
           "caller": "+"
@@ -1745,16 +1669,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:21 "
-              ]
+              "content": ["6:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or baked"
-              ]
+              "content": ["Or baked"]
             }
           ],
           "caller": "+"
@@ -1779,16 +1699,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Sin Offering\n"
-      ]
+      "content": ["The Sin Offering\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 4:1–35; Leviticus 5:1–13)\n"
-      ]
+      "content": ["(Leviticus 4:1–35; Leviticus 5:1–13)\n"]
     },
     {
       "type": "para",
@@ -1868,16 +1784,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Guilt Offering\n"
-      ]
+      "content": ["The Guilt Offering\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 5:14–19; Leviticus 6:1–7)\n"
-      ]
+      "content": ["(Leviticus 5:14–19; Leviticus 6:1–7)\n"]
     },
     {
       "type": "para",
@@ -1968,16 +1880,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:9 "
-              ]
+              "content": ["7:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, a deep pan or stew pan"
-              ]
+              "content": ["That is, a deep pan or stew pan"]
             }
           ],
           "caller": "+"
@@ -1991,16 +1899,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:9 "
-              ]
+              "content": ["7:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, a shallow pan for baking or frying"
-              ]
+              "content": ["That is, a shallow pan for baking or frying"]
             }
           ],
           "caller": "+"
@@ -2018,16 +1922,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Peace Offering\n"
-      ]
+      "content": ["The Peace Offering\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 3:1–17)\n"
-      ]
+      "content": ["(Leviticus 3:1–17)\n"]
     },
     {
       "type": "para",
@@ -2149,9 +2049,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Fat and Blood Forbidden\n"
-      ]
+      "content": ["Fat and Blood Forbidden\n"]
     },
     {
       "type": "para",
@@ -2218,9 +2116,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Priests’ Portion\n"
-      ]
+      "content": ["The Priests’ Portion\n"]
     },
     {
       "type": "para",
@@ -2358,16 +2254,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Moses Consecrates Aaron and His Sons\n"
-      ]
+      "content": ["Moses Consecrates Aaron and His Sons\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 29:1–9)\n"
-      ]
+      "content": ["(Exodus 29:1–9)\n"]
     },
     {
       "type": "para",
@@ -2461,16 +2353,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:8 "
-              ]
+              "content": ["8:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally Lights and Perfections"
-              ]
+              "content": ["Literally Lights and Perfections"]
             }
           ],
           "caller": "+"
@@ -2536,9 +2424,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Priests’ Sin Offering\n"
-      ]
+      "content": ["The Priests’ Sin Offering\n"]
     },
     {
       "type": "para",
@@ -2591,9 +2477,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Priests’ Burnt Offering\n"
-      ]
+      "content": ["The Priests’ Burnt Offering\n"]
     },
     {
       "type": "para",
@@ -2636,16 +2520,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Ram of Ordination\n"
-      ]
+      "content": ["The Ram of Ordination\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 29:10–30)\n"
-      ]
+      "content": ["(Exodus 29:10–30)\n"]
     },
     {
       "type": "para",
@@ -2831,9 +2711,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Aaron’s First Offerings\n"
-      ]
+      "content": ["Aaron’s First Offerings\n"]
     },
     {
       "type": "para",
@@ -2879,16 +2757,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:4 "
-              ]
+              "content": ["9:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or a bull or a cow; also in verses 18 and 19"
-              ]
+              "content": ["Or a bull or a cow; also in verses 18 and 19"]
             }
           ],
           "caller": "+"
@@ -3155,16 +3029,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Sin of Nadab and Abihu\n"
-      ]
+      "content": ["The Sin of Nadab and Abihu\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 3:1–4)\n"
-      ]
+      "content": ["(Numbers 3:1–4)\n"]
     },
     {
       "type": "para",
@@ -3189,16 +3059,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:1 "
-              ]
+              "content": ["10:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or strange"
-              ]
+              "content": ["Or strange"]
             }
           ],
           "caller": "+"
@@ -3237,30 +3103,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘To those who come near Me \n"
-      ]
+      "content": ["‘To those who come near Me \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I will show My holiness, \n"
-      ]
+      "content": ["I will show My holiness, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and in the sight of all the people \n"
-      ]
+      "content": ["and in the sight of all the people \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I will reveal My glory.’” \n"
-      ]
+      "content": ["I will reveal My glory.’” \n"]
     },
     {
       "type": "para",
@@ -3269,9 +3127,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "But Aaron remained silent. \n"
-      ]
+      "content": ["But Aaron remained silent. \n"]
     },
     {
       "type": "para",
@@ -3296,9 +3152,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:4 "
-              ]
+              "content": ["10:4 "]
             },
             {
               "type": "char",
@@ -3343,16 +3197,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:6 "
-              ]
+              "content": ["10:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Do not uncover your heads"
-              ]
+              "content": ["Or Do not uncover your heads"]
             }
           ],
           "caller": "+"
@@ -3374,16 +3224,12 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "So they did as Moses instructed. \n"
-      ]
+      "content": ["So they did as Moses instructed. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Restrictions for Priests\n"
-      ]
+      "content": ["Restrictions for Priests\n"]
     },
     {
       "type": "para",
@@ -3545,16 +3391,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Clean and Unclean Animals\n"
-      ]
+      "content": ["Clean and Unclean Animals\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 14:1–21; Acts 10:9–16)\n"
-      ]
+      "content": ["(Deuteronomy 14:1–21; Acts 10:9–16)\n"]
     },
     {
       "type": "para",
@@ -3610,9 +3452,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:4 "
-              ]
+              "content": ["11:4 "]
             },
             {
               "type": "char",
@@ -3661,16 +3501,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:5 "
-              ]
+              "content": ["11:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or The coney or The hyrax"
-              ]
+              "content": ["Or The coney or The hyrax"]
             }
           ],
           "caller": "+"
@@ -3801,9 +3637,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the eagle, the bearded vulture, the black vulture, \n"
-      ]
+      "content": ["the eagle, the bearded vulture, the black vulture, \n"]
     },
     {
       "type": "para",
@@ -3862,9 +3696,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:16 "
-              ]
+              "content": ["11:16 "]
             },
             {
               "type": "char",
@@ -3937,9 +3769,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the hoopoe, and the bat. \n"
-      ]
+      "content": ["the hoopoe, and the bat. \n"]
     },
     {
       "type": "para",
@@ -4026,16 +3856,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:26 "
-              ]
+              "content": ["11:26 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally a split hoof not completely divided"
-              ]
+              "content": ["Literally a split hoof not completely divided"]
             }
           ],
           "caller": "+"
@@ -4245,16 +4071,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:44 "
-              ]
+              "content": ["11:44 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Here and in verse 45; cited in 1 Peter 1:16"
-              ]
+              "content": ["Here and in verse 45; cited in 1 Peter 1:16"]
             }
           ],
           "caller": "+"
@@ -4302,9 +4124,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Purification after Childbirth\n"
-      ]
+      "content": ["Purification after Childbirth\n"]
     },
     {
       "type": "para",
@@ -4418,16 +4238,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:8 "
-              ]
+              "content": ["12:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in Luke 2:24"
-              ]
+              "content": ["Cited in Luke 2:24"]
             }
           ],
           "caller": "+"
@@ -4444,16 +4260,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Laws about Skin Diseases\n"
-      ]
+      "content": ["Laws about Skin Diseases\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 5:1–4)\n"
-      ]
+      "content": ["(Numbers 5:1–4)\n"]
     },
     {
       "type": "para",
@@ -4485,9 +4297,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:2 "
-              ]
+              "content": ["13:2 "]
             },
             {
               "type": "char",
@@ -4979,16 +4789,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:45 "
-              ]
+              "content": ["13:45 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or uncover his head"
-              ]
+              "content": ["Or uncover his head"]
             }
           ],
           "caller": "+"
@@ -5006,9 +4812,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Laws about Mildew\n"
-      ]
+      "content": ["Laws about Mildew\n"]
     },
     {
       "type": "para",
@@ -5033,9 +4837,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:47 "
-              ]
+              "content": ["13:47 "]
             },
             {
               "type": "char",
@@ -5193,16 +4995,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Cleansing from Skin Diseases\n"
-      ]
+      "content": ["Cleansing from Skin Diseases\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Matthew 8:1–4; Mark 1:40–45; Luke 5:12–16)\n"
-      ]
+      "content": ["(Matthew 8:1–4; Mark 1:40–45; Luke 5:12–16)\n"]
     },
     {
       "type": "para",
@@ -5234,9 +5032,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:2 "
-              ]
+              "content": ["14:2 "]
             },
             {
               "type": "char",
@@ -5288,9 +5084,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:5 "
-              ]
+              "content": ["14:5 "]
             },
             {
               "type": "char",
@@ -5366,9 +5160,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:10 "
-              ]
+              "content": ["14:10 "]
             },
             {
               "type": "char",
@@ -5389,9 +5181,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:10 "
-              ]
+              "content": ["14:10 "]
             },
             {
               "type": "char",
@@ -5529,9 +5319,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:21 "
-              ]
+              "content": ["14:21 "]
             },
             {
               "type": "char",
@@ -5652,9 +5440,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:31 "
-              ]
+              "content": ["14:31 "]
             },
             {
               "type": "char",
@@ -5689,9 +5475,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Signs of Home Contamination\n"
-      ]
+      "content": ["Signs of Home Contamination\n"]
     },
     {
       "type": "para",
@@ -5723,9 +5507,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:34 "
-              ]
+              "content": ["14:34 "]
             },
             {
               "type": "char",
@@ -5895,9 +5677,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Cleansing a Home\n"
-      ]
+      "content": ["Cleansing a Home\n"]
     },
     {
       "type": "para",
@@ -6025,9 +5805,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:57 "
-              ]
+              "content": ["14:57 "]
             },
             {
               "type": "char",
@@ -6051,16 +5829,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Uncleanness of Men\n"
-      ]
+      "content": ["The Uncleanness of Men\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 23:9–14)\n"
-      ]
+      "content": ["(Deuteronomy 23:9–14)\n"]
     },
     {
       "type": "para",
@@ -6199,9 +5973,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Cleansing of Men\n"
-      ]
+      "content": ["The Cleansing of Men\n"]
     },
     {
       "type": "para",
@@ -6226,16 +5998,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:13 "
-              ]
+              "content": ["15:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or flowing water or living water"
-              ]
+              "content": ["Or flowing water or living water"]
             }
           ],
           "caller": "+"
@@ -6291,9 +6059,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Uncleanness of Women\n"
-      ]
+      "content": ["The Uncleanness of Women\n"]
     },
     {
       "type": "para",
@@ -6401,9 +6167,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Cleansing of Women\n"
-      ]
+      "content": ["The Cleansing of Women\n"]
     },
     {
       "type": "para",
@@ -6486,16 +6250,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Day of Atonement\n"
-      ]
+      "content": ["The Day of Atonement\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 23:26–32; Numbers 29:7–11)\n"
-      ]
+      "content": ["(Leviticus 23:26–32; Numbers 29:7–11)\n"]
     },
     {
       "type": "para",
@@ -6527,9 +6287,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:2 "
-              ]
+              "content": ["16:2 "]
             },
             {
               "type": "char",
@@ -6550,9 +6308,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:2 "
-              ]
+              "content": ["16:2 "]
             },
             {
               "type": "char",
@@ -6645,9 +6401,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:8 "
-              ]
+              "content": ["16:8 "]
             },
             {
               "type": "char",
@@ -6713,9 +6467,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:13 "
-              ]
+              "content": ["16:13 "]
             },
             {
               "type": "char",
@@ -6928,9 +6680,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:29 "
-              ]
+              "content": ["16:29 "]
             },
             {
               "type": "char",
@@ -6989,16 +6739,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:33 "
-              ]
+              "content": ["16:33 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the Holy Sanctuary"
-              ]
+              "content": ["Or the Holy Sanctuary"]
             }
           ],
           "caller": "+"
@@ -7020,9 +6766,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "And all this was done as the LORD had commanded Moses. \n"
-      ]
+      "content": ["And all this was done as the LORD had commanded Moses. \n"]
     },
     {
       "type": "chapter",
@@ -7033,9 +6777,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Place of Sacrifice\n"
-      ]
+      "content": ["The Place of Sacrifice\n"]
     },
     {
       "type": "para",
@@ -7074,16 +6816,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:3 "
-              ]
+              "content": ["17:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or a bull or a cow"
-              ]
+              "content": ["Or a bull or a cow"]
             }
           ],
           "caller": "+"
@@ -7145,16 +6883,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:7 "
-              ]
+              "content": ["17:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or goat idols"
-              ]
+              "content": ["Or goat idols"]
             }
           ],
           "caller": "+"
@@ -7189,9 +6923,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Laws against Eating Blood\n"
-      ]
+      "content": ["Laws against Eating Blood\n"]
     },
     {
       "type": "para",
@@ -7223,16 +6955,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:11 "
-              ]
+              "content": ["17:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally the soul; also in verse 14"
-              ]
+              "content": ["Literally the soul; also in verse 14"]
             }
           ],
           "caller": "+"
@@ -7304,16 +7032,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Unlawful Sexual Relations\n"
-      ]
+      "content": ["Unlawful Sexual Relations\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Matthew 5:27–30)\n"
-      ]
+      "content": ["(Matthew 5:27–30)\n"]
     },
     {
       "type": "para",
@@ -7376,9 +7100,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:5 "
-              ]
+              "content": ["18:5 "]
             },
             {
               "type": "char",
@@ -7416,9 +7138,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:6 "
-              ]
+              "content": ["18:6 "]
             },
             {
               "type": "char",
@@ -7694,16 +7414,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:21 "
-              ]
+              "content": ["18:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew to make them pass through (the fire)"
-              ]
+              "content": ["Hebrew to make them pass through (the fire)"]
             }
           ],
           "caller": "+"
@@ -7833,9 +7549,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Commandments for Holiness\n"
-      ]
+      "content": ["Commandments for Holiness\n"]
     },
     {
       "type": "para",
@@ -7867,16 +7581,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:2 "
-              ]
+              "content": ["19:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in 1 Peter 1:16"
-              ]
+              "content": ["Cited in 1 Peter 1:16"]
             }
           ],
           "caller": "+"
@@ -7959,16 +7669,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Love Your Neighbor\n"
-      ]
+      "content": ["Love Your Neighbor\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Romans 13:8–10)\n"
-      ]
+      "content": ["(Romans 13:8–10)\n"]
     },
     {
       "type": "para",
@@ -8124,16 +7830,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:16 "
-              ]
+              "content": ["19:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally blood"
-              ]
+              "content": ["Literally blood"]
             }
           ],
           "caller": "+"
@@ -8171,9 +7873,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:18 "
-              ]
+              "content": ["19:18 "]
             },
             {
               "type": "char",
@@ -8191,9 +7891,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Keep My Statutes\n"
-      ]
+      "content": ["Keep My Statutes\n"]
     },
     {
       "type": "para",
@@ -8266,16 +7964,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:23 "
-              ]
+              "content": ["19:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew as uncircumcised; twice in this verse"
-              ]
+              "content": ["Hebrew as uncircumcised; twice in this verse"]
             }
           ],
           "caller": "+"
@@ -8321,9 +8015,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "You must not practice divination or sorcery. \n"
-      ]
+      "content": ["You must not practice divination or sorcery. \n"]
     },
     {
       "type": "para",
@@ -8481,9 +8173,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:36 "
-              ]
+              "content": ["19:36 "]
             },
             {
               "type": "char",
@@ -8504,9 +8194,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:36 "
-              ]
+              "content": ["19:36 "]
             },
             {
               "type": "char",
@@ -8547,16 +8235,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Punishments for Disobedience\n"
-      ]
+      "content": ["Punishments for Disobedience\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 26:14–39; Deuteronomy 28:15–68)\n"
-      ]
+      "content": ["(Leviticus 26:14–39; Deuteronomy 28:15–68)\n"]
     },
     {
       "type": "para",
@@ -8677,9 +8361,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:9 "
-              ]
+              "content": ["20:9 "]
             },
             {
               "type": "char",
@@ -8700,16 +8382,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:9 "
-              ]
+              "content": ["20:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in Matthew 15:4 and Mark 7:10"
-              ]
+              "content": ["Cited in Matthew 15:4 and Mark 7:10"]
             }
           ],
           "caller": "+"
@@ -8720,16 +8398,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Punishments for Sexual Immorality\n"
-      ]
+      "content": ["Punishments for Sexual Immorality\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Proverbs 5:1–23; 1 Corinthians 5:1–8)\n"
-      ]
+      "content": ["(Proverbs 5:1–23; 1 Corinthians 5:1–8)\n"]
     },
     {
       "type": "para",
@@ -8873,9 +8547,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:17 "
-              ]
+              "content": ["20:17 "]
             },
             {
               "type": "char",
@@ -8913,9 +8585,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:18 "
-              ]
+              "content": ["20:18 "]
             },
             {
               "type": "char",
@@ -8984,9 +8654,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Distinguish between Clean and Unclean\n"
-      ]
+      "content": ["Distinguish between Clean and Unclean\n"]
     },
     {
       "type": "para",
@@ -9079,9 +8747,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Holiness Required of Priests\n"
-      ]
+      "content": ["Holiness Required of Priests\n"]
     },
     {
       "type": "para",
@@ -9199,16 +8865,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:10 "
-              ]
+              "content": ["21:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or must not uncover his head"
-              ]
+              "content": ["Or must not uncover his head"]
             }
           ],
           "caller": "+"
@@ -9264,9 +8926,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Restrictions against Those with Blemishes\n"
-      ]
+      "content": ["Restrictions against Those with Blemishes\n"]
     },
     {
       "type": "para",
@@ -9380,9 +9040,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Restrictions against the Unclean\n"
-      ]
+      "content": ["Restrictions against the Unclean\n"]
     },
     {
       "type": "para",
@@ -9448,9 +9106,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:4 "
-              ]
+              "content": ["22:4 "]
             },
             {
               "type": "char",
@@ -9592,9 +9248,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Worthy Offerings\n"
-      ]
+      "content": ["Worthy Offerings\n"]
     },
     {
       "type": "para",
@@ -9681,16 +9335,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:23 "
-              ]
+              "content": ["22:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or a bull or a cow"
-              ]
+              "content": ["Or a bull or a cow"]
             }
           ],
           "caller": "+"
@@ -9742,16 +9392,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:27 "
-              ]
+              "content": ["22:27 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or a calf"
-              ]
+              "content": ["Or a calf"]
             }
           ],
           "caller": "+"
@@ -9772,16 +9418,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:28 "
-              ]
+              "content": ["22:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or a cow"
-              ]
+              "content": ["Or a cow"]
             }
           ],
           "caller": "+"
@@ -9853,16 +9495,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Feasts and Sabbaths\n"
-      ]
+      "content": ["Feasts and Sabbaths\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 23:14–19)\n"
-      ]
+      "content": ["(Exodus 23:14–19)\n"]
     },
     {
       "type": "para",
@@ -9908,16 +9546,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Passover and the Feast of Unleavened Bread\n"
-      ]
+      "content": ["Passover and the Feast of Unleavened Bread\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 12:14–28; Numbers 28:16–25; Deuteronomy 16:1–8)\n"
-      ]
+      "content": ["(Exodus 12:14–28; Numbers 28:16–25; Deuteronomy 16:1–8)\n"]
     },
     {
       "type": "para",
@@ -9949,9 +9583,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:5 "
-              ]
+              "content": ["23:5 "]
             },
             {
               "type": "char",
@@ -9979,9 +9611,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:6 "
-              ]
+              "content": ["23:6 "]
             },
             {
               "type": "char",
@@ -10013,9 +9643,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Feast of Firstfruits\n"
-      ]
+      "content": ["The Feast of Firstfruits\n"]
     },
     {
       "type": "para",
@@ -10078,9 +9706,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:13 "
-              ]
+              "content": ["23:13 "]
             },
             {
               "type": "char",
@@ -10101,9 +9727,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:13 "
-              ]
+              "content": ["23:13 "]
             },
             {
               "type": "char",
@@ -10138,16 +9762,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Feast of Weeks\n"
-      ]
+      "content": ["The Feast of Weeks\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Acts 2:1–13)\n"
-      ]
+      "content": ["(Acts 2:1–13)\n"]
     },
     {
       "type": "para",
@@ -10268,16 +9888,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Feast of Trumpets\n"
-      ]
+      "content": ["The Feast of Trumpets\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 29:1–6)\n"
-      ]
+      "content": ["(Numbers 29:1–6)\n"]
     },
     {
       "type": "para",
@@ -10309,16 +9925,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:24 "
-              ]
+              "content": ["23:24 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or a sacred assembly, a memorial of shouting"
-              ]
+              "content": ["Or a sacred assembly, a memorial of shouting"]
             }
           ],
           "caller": "+"
@@ -10336,16 +9948,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Day of Atonement\n"
-      ]
+      "content": ["The Day of Atonement\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 16:1–34; Numbers 29:7–11)\n"
-      ]
+      "content": ["(Leviticus 16:1–34; Numbers 29:7–11)\n"]
     },
     {
       "type": "para",
@@ -10377,9 +9985,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:27 "
-              ]
+              "content": ["23:27 "]
             },
             {
               "type": "char",
@@ -10452,16 +10058,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Feast of Tabernacles\n"
-      ]
+      "content": ["The Feast of Tabernacles\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Nehemiah 8:13–18; Zechariah 14:16–21)\n"
-      ]
+      "content": ["(Nehemiah 8:13–18; Zechariah 14:16–21)\n"]
     },
     {
       "type": "para",
@@ -10493,9 +10095,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:34 "
-              ]
+              "content": ["23:34 "]
             },
             {
               "type": "char",
@@ -10588,16 +10188,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:40 "
-              ]
+              "content": ["23:40 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or poplars"
-              ]
+              "content": ["Or poplars"]
             }
           ],
           "caller": "+"
@@ -10635,9 +10231,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:42 "
-              ]
+              "content": ["23:42 "]
             },
             {
               "type": "char",
@@ -10685,16 +10279,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Oil for the Lamps\n"
-      ]
+      "content": ["The Oil for the Lamps\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 27:20–21)\n"
-      ]
+      "content": ["(Exodus 27:20–21)\n"]
     },
     {
       "type": "para",
@@ -10743,9 +10333,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:3 "
-              ]
+              "content": ["24:3 "]
             },
             {
               "type": "char",
@@ -10770,16 +10358,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Showbread\n"
-      ]
+      "content": ["The Showbread\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 25:23–30; Exodus 37:10–16)\n"
-      ]
+      "content": ["(Exodus 25:23–30; Exodus 37:10–16)\n"]
     },
     {
       "type": "para",
@@ -10804,9 +10388,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:5 "
-              ]
+              "content": ["24:5 "]
             },
             {
               "type": "char",
@@ -10862,9 +10444,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Punishment for Blasphemy\n"
-      ]
+      "content": ["Punishment for Blasphemy\n"]
     },
     {
       "type": "para",
@@ -10937,16 +10517,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:14 "
-              ]
+              "content": ["24:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally the one who cursed"
-              ]
+              "content": ["Literally the one who cursed"]
             }
           ],
           "caller": "+"
@@ -10981,16 +10557,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "An Eye for an Eye\n"
-      ]
+      "content": ["An Eye for an Eye\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Matthew 5:38–48)\n"
-      ]
+      "content": ["(Matthew 5:38–48)\n"]
     },
     {
       "type": "para",
@@ -11036,16 +10608,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:20 "
-              ]
+              "content": ["24:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in Matthew 5:38"
-              ]
+              "content": ["Cited in Matthew 5:38"]
             }
           ],
           "caller": "+"
@@ -11103,16 +10671,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Seventh Year\n"
-      ]
+      "content": ["The Seventh Year\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 23:10–13; Deuteronomy 15:1–6)\n"
-      ]
+      "content": ["(Exodus 23:10–13; Deuteronomy 15:1–6)\n"]
     },
     {
       "type": "para",
@@ -11197,9 +10761,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Year of Jubilee\n"
-      ]
+      "content": ["The Year of Jubilee\n"]
     },
     {
       "type": "para",
@@ -11269,9 +10831,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Return of Property\n"
-      ]
+      "content": ["Return of Property\n"]
     },
     {
       "type": "para",
@@ -11341,16 +10901,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Blessing of Obedience\n"
-      ]
+      "content": ["The Blessing of Obedience\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 28:1–14)\n"
-      ]
+      "content": ["(Deuteronomy 28:1–14)\n"]
     },
     {
       "type": "para",
@@ -11410,9 +10966,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Law of Redemption\n"
-      ]
+      "content": ["The Law of Redemption\n"]
     },
     {
       "type": "para",
@@ -11541,9 +11095,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Redemption of the Poor\n"
-      ]
+      "content": ["Redemption of the Poor\n"]
     },
     {
       "type": "para",
@@ -11586,9 +11138,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Redemption of Bondmen\n"
-      ]
+      "content": ["Redemption of Bondmen\n"]
     },
     {
       "type": "para",
@@ -11679,9 +11229,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Redemption of Servants\n"
-      ]
+      "content": ["Redemption of Servants\n"]
     },
     {
       "type": "para",
@@ -11785,9 +11333,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Additional Blessings of Obedience\n"
-      ]
+      "content": ["Additional Blessings of Obedience\n"]
     },
     {
       "type": "para",
@@ -11932,16 +11478,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:11 "
-              ]
+              "content": ["26:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or My tabernacle"
-              ]
+              "content": ["Or My tabernacle"]
             }
           ],
           "caller": "+"
@@ -11955,16 +11497,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:11 "
-              ]
+              "content": ["26:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or reject; also in verse 30"
-              ]
+              "content": ["Or reject; also in verse 30"]
             }
           ],
           "caller": "+"
@@ -11985,16 +11523,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:12 "
-              ]
+              "content": ["26:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in 2 Corinthians 6:16"
-              ]
+              "content": ["Cited in 2 Corinthians 6:16"]
             }
           ],
           "caller": "+"
@@ -12012,16 +11546,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Punishments for Disobedience\n"
-      ]
+      "content": ["Punishments for Disobedience\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 20:1–9; Deuteronomy 28:15–68)\n"
-      ]
+      "content": ["(Leviticus 20:1–9; Deuteronomy 28:15–68)\n"]
     },
     {
       "type": "para",
@@ -12160,16 +11690,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:26 "
-              ]
+              "content": ["26:26 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew staff"
-              ]
+              "content": ["Hebrew staff"]
             }
           ],
           "caller": "+"
@@ -12321,9 +11847,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God Remembers Those Who Repent\n"
-      ]
+      "content": ["God Remembers Those Who Repent\n"]
     },
     {
       "type": "para",
@@ -12423,9 +11947,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Rules about Valuations\n"
-      ]
+      "content": ["Rules about Valuations\n"]
     },
     {
       "type": "para",
@@ -12464,9 +11986,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:3 "
-              ]
+              "content": ["27:3 "]
             },
             {
               "type": "char",
@@ -12487,9 +12007,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:3 "
-              ]
+              "content": ["27:3 "]
             },
             {
               "type": "char",
@@ -12517,9 +12035,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:4 "
-              ]
+              "content": ["27:4 "]
             },
             {
               "type": "char",
@@ -12547,9 +12063,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:5 "
-              ]
+              "content": ["27:5 "]
             },
             {
               "type": "char",
@@ -12570,9 +12084,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:5 "
-              ]
+              "content": ["27:5 "]
             },
             {
               "type": "char",
@@ -12610,9 +12122,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:6 "
-              ]
+              "content": ["27:6 "]
             },
             {
               "type": "char",
@@ -12633,9 +12143,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:6 "
-              ]
+              "content": ["27:6 "]
             },
             {
               "type": "char",
@@ -12663,9 +12171,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:7 "
-              ]
+              "content": ["27:7 "]
             },
             {
               "type": "char",
@@ -12693,16 +12199,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:8 "
-              ]
+              "content": ["27:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or present himself"
-              ]
+              "content": ["Or present himself"]
             }
           ],
           "caller": "+"
@@ -12812,9 +12314,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:16 "
-              ]
+              "content": ["27:16 "]
             },
             {
               "type": "char",
@@ -12928,9 +12428,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:25 "
-              ]
+              "content": ["27:25 "]
             },
             {
               "type": "char",
@@ -12992,9 +12490,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:28 "
-              ]
+              "content": ["27:28 "]
             },
             {
               "type": "char",
@@ -13029,9 +12525,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Instruction on Tithes\n"
-      ]
+      "content": ["Instruction on Tithes\n"]
     },
     {
       "type": "para",

@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import type React from 'react';
 
 import type { TColumnElement } from '@udecode/plate-layout';
 
@@ -48,7 +48,9 @@ export function ColumnFloatingToolbar({ children }: React.PropsWithChildren) {
 
   const isOpen = useDebouncePopoverOpen();
 
-  if (readOnly) return <>{children}</>;
+  if (readOnly) {
+    return <>{children}</>;
+  }
 
   return (
     <Popover open={isOpen} modal={false}>

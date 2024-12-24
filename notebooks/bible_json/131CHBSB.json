@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "1CH"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "1 Chronicles\n"
-      ]
+      "content": ["1 Chronicles\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "1 Chronicles\n"
-      ]
+      "content": ["1 Chronicles\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "1 Chronicles\n"
-      ]
+      "content": ["1 Chronicles\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "From Adam to Abraham\n"
-      ]
+      "content": ["From Adam to Abraham\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 5:1–32; Genesis 10:1–32; Genesis 11:10–26)\n"
-      ]
+      "content": ["(Genesis 5:1–32; Genesis 10:1–32; Genesis 11:10–26)\n"]
     },
     {
       "type": "para",
@@ -125,9 +113,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:4 "
-              ]
+              "content": ["1:4 "]
             },
             {
               "type": "char",
@@ -149,9 +135,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Shem, Ham, and Japheth. \n"
-      ]
+      "content": ["Shem, Ham, and Japheth. \n"]
     },
     {
       "type": "para",
@@ -177,9 +161,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras. \n"
-      ]
+      "content": ["Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras. \n"]
     },
     {
       "type": "para",
@@ -204,9 +186,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:6 "
-              ]
+              "content": ["1:6 "]
             },
             {
               "type": "char",
@@ -262,9 +242,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Cush, Mizraim, Put, and Canaan. \n"
-      ]
+      "content": ["Cush, Mizraim, Put, and Canaan. \n"]
     },
     {
       "type": "para",
@@ -289,16 +267,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:9 "
-              ]
+              "content": ["1:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Sabta is a variant of Sabtah; see Genesis 10:7."
-              ]
+              "content": ["Sabta is a variant of Sabtah; see Genesis 10:7."]
             }
           ],
           "caller": "+"
@@ -313,9 +287,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "The sons of Raamah: Sheba and Dedan. \n"
-      ]
+      "content": ["The sons of Raamah: Sheba and Dedan. \n"]
     },
     {
       "type": "para",
@@ -340,16 +312,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:10 "
-              ]
+              "content": ["1:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or who established himself as a mighty warrior"
-              ]
+              "content": ["Or who established himself as a mighty warrior"]
             }
           ],
           "caller": "+"
@@ -387,9 +355,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:12 "
-              ]
+              "content": ["1:12 "]
             },
             {
               "type": "char",
@@ -427,16 +393,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:13 "
-              ]
+              "content": ["1:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or of the Sidonians, the foremost"
-              ]
+              "content": ["Or of the Sidonians, the foremost"]
             }
           ],
           "caller": "+"
@@ -450,16 +412,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:13 "
-              ]
+              "content": ["1:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew and of Heth"
-              ]
+              "content": ["Hebrew and of Heth"]
             }
           ],
           "caller": "+"
@@ -512,9 +470,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Elam, Asshur, Arphaxad, Lud, and Aram.\n"
-      ]
+      "content": ["Elam, Asshur, Arphaxad, Lud, and Aram.\n"]
     },
     {
       "type": "para",
@@ -533,9 +489,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:17 "
-              ]
+              "content": ["1:17 "]
             },
             {
               "type": "char",
@@ -556,16 +510,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:17 "
-              ]
+              "content": ["1:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Meshech is a variant of Mash; see Genesis 10:23."
-              ]
+              "content": ["Meshech is a variant of Mash; see Genesis 10:23."]
             }
           ],
           "caller": "+"
@@ -613,16 +563,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:19 "
-              ]
+              "content": ["1:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Peleg means division."
-              ]
+              "content": ["Peleg means division."]
             }
           ],
           "caller": "+"
@@ -667,9 +613,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:22 "
-              ]
+              "content": ["1:22 "]
             },
             {
               "type": "char",
@@ -714,9 +658,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:24 "
-              ]
+              "content": ["1:24 "]
             },
             {
               "type": "char",
@@ -755,16 +697,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Abraham\n"
-      ]
+      "content": ["The Descendants of Abraham\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 25:12–18)\n"
-      ]
+      "content": ["(Genesis 25:12–18)\n"]
     },
     {
       "type": "para",
@@ -839,9 +777,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah. \n"
-      ]
+      "content": ["Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah. \n"]
     },
     {
       "type": "para",
@@ -850,9 +786,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The sons of Jokshan: \n"
-      ]
+      "content": ["The sons of Jokshan: \n"]
     },
     {
       "type": "para",
@@ -861,9 +795,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Sheba and Dedan. \n"
-      ]
+      "content": ["Sheba and Dedan. \n"]
     },
     {
       "type": "para",
@@ -889,9 +821,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Ephah, Epher, Hanoch, Abida, and Eldaah. \n"
-      ]
+      "content": ["Ephah, Epher, Hanoch, Abida, and Eldaah. \n"]
     },
     {
       "type": "para",
@@ -900,9 +830,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "All of these were Keturah’s sons. \n"
-      ]
+      "content": ["All of these were Keturah’s sons. \n"]
     },
     {
       "type": "para",
@@ -928,23 +856,17 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Esau and Israel. \n"
-      ]
+      "content": ["Esau and Israel. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Esau\n"
-      ]
+      "content": ["The Descendants of Esau\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 36:1–19)\n"
-      ]
+      "content": ["(Genesis 36:1–19)\n"]
     },
     {
       "type": "para",
@@ -970,9 +892,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Eliphaz, Reuel, Jeush, Jalam, and Korah. \n"
-      ]
+      "content": ["Eliphaz, Reuel, Jeush, Jalam, and Korah. \n"]
     },
     {
       "type": "para",
@@ -997,9 +917,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:36 "
-              ]
+              "content": ["1:36 "]
             },
             {
               "type": "char",
@@ -1034,16 +952,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Seir\n"
-      ]
+      "content": ["The Descendants of Seir\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 36:20–30)\n"
-      ]
+      "content": ["(Genesis 36:20–30)\n"]
     },
     {
       "type": "para",
@@ -1069,9 +983,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Lotan, Shobal, Zibeon, Anah, Dishon, Ezer, and Dishan. \n"
-      ]
+      "content": ["Lotan, Shobal, Zibeon, Anah, Dishon, Ezer, and Dishan. \n"]
     },
     {
       "type": "para",
@@ -1096,16 +1008,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:39 "
-              ]
+              "content": ["1:39 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Homam is a variant of Hemam; see Genesis 36:22."
-              ]
+              "content": ["Homam is a variant of Hemam; see Genesis 36:22."]
             }
           ],
           "caller": "+"
@@ -1136,16 +1044,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:40 "
-              ]
+              "content": ["1:40 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX (see also Genesis 36:23); Hebrew Alian "
-              ]
+              "content": ["LXX (see also Genesis 36:23); Hebrew Alian "]
             }
           ],
           "caller": "+"
@@ -1159,16 +1063,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:40 "
-              ]
+              "content": ["1:40 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX (see also Genesis 36:23); Hebrew Shephi"
-              ]
+              "content": ["LXX (see also Genesis 36:23); Hebrew Shephi"]
             }
           ],
           "caller": "+"
@@ -1183,9 +1083,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "The sons of Zibeon: Aiah and Anah. \n"
-      ]
+      "content": ["The sons of Zibeon: Aiah and Anah. \n"]
     },
     {
       "type": "para",
@@ -1210,16 +1108,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:41 "
-              ]
+              "content": ["1:41 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew sons "
-              ]
+              "content": ["Hebrew sons "]
             }
           ],
           "caller": "+"
@@ -1244,16 +1138,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:41 "
-              ]
+              "content": ["1:41 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX (see also Genesis 36:26); Hebrew Hamran"
-              ]
+              "content": ["LXX (see also Genesis 36:26); Hebrew Hamran"]
             }
           ],
           "caller": "+"
@@ -1284,16 +1174,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:42 "
-              ]
+              "content": ["1:42 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX (see also Genesis 36:27); Hebrew Jaakan"
-              ]
+              "content": ["LXX (see also Genesis 36:27); Hebrew Jaakan"]
             }
           ],
           "caller": "+"
@@ -1308,23 +1194,17 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "The sons of Dishan: Uz and Aran. \n"
-      ]
+      "content": ["The sons of Dishan: Uz and Aran. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Kings of Edom\n"
-      ]
+      "content": ["The Kings of Edom\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 36:31–43)\n"
-      ]
+      "content": ["(Genesis 36:31–43)\n"]
     },
     {
       "type": "para",
@@ -1349,16 +1229,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:43 "
-              ]
+              "content": ["1:43 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or before an Israelite king ruled over them"
-              ]
+              "content": ["Or before an Israelite king ruled over them"]
             }
           ],
           "caller": "+"
@@ -1373,9 +1249,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Bela son of Beor. His city was named Dinhabah. \n"
-      ]
+      "content": ["Bela son of Beor. His city was named Dinhabah. \n"]
     },
     {
       "type": "para",
@@ -1468,16 +1342,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:48 "
-              ]
+              "content": ["1:48 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew the River"
-              ]
+              "content": ["Hebrew the River"]
             }
           ],
           "caller": "+"
@@ -1525,9 +1395,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:50 "
-              ]
+              "content": ["1:50 "]
             },
             {
               "type": "char",
@@ -1600,16 +1468,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Sons of Israel\n"
-      ]
+      "content": ["The Sons of Israel\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 35:21–26; Genesis 38:1–30)\n"
-      ]
+      "content": ["(Genesis 35:21–26; Genesis 38:1–30)\n"]
     },
     {
       "type": "para",
@@ -1715,9 +1579,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Hezron and Hamul. \n"
-      ]
+      "content": ["Hezron and Hamul. \n"]
     },
     {
       "type": "para",
@@ -1753,16 +1615,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:6 "
-              ]
+              "content": ["2:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Zimri is a variant of Zabdi; see Joshua 7:1."
-              ]
+              "content": ["Zimri is a variant of Zabdi; see Joshua 7:1."]
             }
           ],
           "caller": "+"
@@ -1776,9 +1634,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:6 "
-              ]
+              "content": ["2:6 "]
             },
             {
               "type": "char",
@@ -1816,16 +1672,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:7 "
-              ]
+              "content": ["2:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew sons"
-              ]
+              "content": ["Hebrew sons"]
             }
           ],
           "caller": "+"
@@ -1850,9 +1702,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:7 "
-              ]
+              "content": ["2:7 "]
             },
             {
               "type": "char",
@@ -1891,9 +1741,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Azariah. \n"
-      ]
+      "content": ["Azariah. \n"]
     },
     {
       "type": "para",
@@ -1929,16 +1777,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:9 "
-              ]
+              "content": ["2:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew Chelubai, a variant of Caleb; see verse 18."
-              ]
+              "content": ["Hebrew Chelubai, a variant of Caleb; see verse 18."]
             }
           ],
           "caller": "+"
@@ -1986,9 +1830,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:11 "
-              ]
+              "content": ["2:11 "]
             },
             {
               "type": "char",
@@ -2043,9 +1885,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:13 "
-              ]
+              "content": ["2:13 "]
             },
             {
               "type": "char",
@@ -2094,16 +1934,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:17 "
-              ]
+              "content": ["2:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Jether is a variant of Ithra; see 2 Samuel 17:25."
-              ]
+              "content": ["Jether is a variant of Ithra; see 2 Samuel 17:25."]
             }
           ],
           "caller": "+"
@@ -2141,16 +1977,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:19 "
-              ]
+              "content": ["2:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Ephrath is a variant of Ephrathah; see verse 50."
-              ]
+              "content": ["Ephrath is a variant of Ephrathah; see verse 50."]
             }
           ],
           "caller": "+"
@@ -2202,16 +2034,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:23 "
-              ]
+              "content": ["2:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the villages of Jair"
-              ]
+              "content": ["Or the villages of Jair"]
             }
           ],
           "caller": "+"
@@ -2242,9 +2070,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:24 "
-              ]
+              "content": ["2:24 "]
             },
             {
               "type": "char",
@@ -2265,9 +2091,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:24 "
-              ]
+              "content": ["2:24 "]
             },
             {
               "type": "char",
@@ -2341,9 +2165,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Maaz, Jamin, and Eker. \n"
-      ]
+      "content": ["Maaz, Jamin, and Eker. \n"]
     },
     {
       "type": "para",
@@ -2369,9 +2191,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Shammai and Jada. \n"
-      ]
+      "content": ["Shammai and Jada. \n"]
     },
     {
       "type": "para",
@@ -2380,9 +2200,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The sons of Shammai: \n"
-      ]
+      "content": ["The sons of Shammai: \n"]
     },
     {
       "type": "para",
@@ -2426,9 +2244,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Seled and Appaim. Seled died without children. \n"
-      ]
+      "content": ["Seled and Appaim. Seled died without children. \n"]
     },
     {
       "type": "para",
@@ -2453,16 +2269,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:31 "
-              ]
+              "content": ["2:31 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew sons; three times in this verse"
-              ]
+              "content": ["Hebrew sons; three times in this verse"]
             }
           ],
           "caller": "+"
@@ -2477,9 +2289,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Ishi. \n"
-      ]
+      "content": ["Ishi. \n"]
     },
     {
       "type": "para",
@@ -2488,9 +2298,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The son of Ishi: \n"
-      ]
+      "content": ["The son of Ishi: \n"]
     },
     {
       "type": "para",
@@ -2499,9 +2307,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Sheshan. \n"
-      ]
+      "content": ["Sheshan. \n"]
     },
     {
       "type": "para",
@@ -2510,9 +2316,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The son of Sheshan: \n"
-      ]
+      "content": ["The son of Sheshan: \n"]
     },
     {
       "type": "para",
@@ -2521,9 +2325,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Ahlai. \n"
-      ]
+      "content": ["Ahlai. \n"]
     },
     {
       "type": "para",
@@ -2549,9 +2351,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Jether and Jonathan. Jether died without children. \n"
-      ]
+      "content": ["Jether and Jonathan. Jether died without children. \n"]
     },
     {
       "type": "para",
@@ -2577,9 +2377,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Peleth and Zaza. \n"
-      ]
+      "content": ["Peleth and Zaza. \n"]
     },
     {
       "type": "para",
@@ -2588,9 +2386,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "These were the descendants of Jerahmeel. \n"
-      ]
+      "content": ["These were the descendants of Jerahmeel. \n"]
     },
     {
       "type": "para",
@@ -2702,16 +2498,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:42 "
-              ]
+              "content": ["2:42 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew; LXX Mareshah"
-              ]
+              "content": ["Hebrew; LXX Mareshah"]
             }
           ],
           "caller": "+"
@@ -2802,9 +2594,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Regem, Jotham, Geshan, Pelet, Ephah, and Shaaph. \n"
-      ]
+      "content": ["Regem, Jotham, Geshan, Pelet, Ephah, and Shaaph. \n"]
     },
     {
       "type": "para",
@@ -2854,16 +2644,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:50 "
-              ]
+              "content": ["2:50 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX and Vulgate; Hebrew son"
-              ]
+              "content": ["LXX and Vulgate; Hebrew son"]
             }
           ],
           "caller": "+"
@@ -2877,16 +2663,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:50 "
-              ]
+              "content": ["2:50 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Ephrathah is a variant of Ephrath; see verse 19."
-              ]
+              "content": ["Ephrathah is a variant of Ephrath; see verse 19."]
             }
           ],
           "caller": "+"
@@ -2988,16 +2770,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:55 "
-              ]
+              "content": ["2:55 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or of the Sopherites "
-              ]
+              "content": ["Or of the Sopherites "]
             }
           ],
           "caller": "+"
@@ -3011,9 +2789,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:55 "
-              ]
+              "content": ["2:55 "]
             },
             {
               "type": "char",
@@ -3037,16 +2813,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of David\n"
-      ]
+      "content": ["The Descendants of David\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 3:1–5)\n"
-      ]
+      "content": ["(2 Samuel 3:1–5)\n"]
     },
     {
       "type": "para",
@@ -3072,9 +2844,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The firstborn was Amnon by Ahinoam of Jezreel; \n"
-      ]
+      "content": ["The firstborn was Amnon by Ahinoam of Jezreel; \n"]
     },
     {
       "type": "para",
@@ -3083,9 +2853,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the second was Daniel by Abigail of Carmel; \n"
-      ]
+      "content": ["the second was Daniel by Abigail of Carmel; \n"]
     },
     {
       "type": "para",
@@ -3111,9 +2879,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the fourth was Adonijah the son of Haggith; \n"
-      ]
+      "content": ["the fourth was Adonijah the son of Haggith; \n"]
     },
     {
       "type": "para",
@@ -3139,9 +2905,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the sixth was Ithream by his wife Eglah. \n"
-      ]
+      "content": ["and the sixth was Ithream by his wife Eglah. \n"]
     },
     {
       "type": "para",
@@ -3195,9 +2959,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:5 "
-              ]
+              "content": ["3:5 "]
             },
             {
               "type": "char",
@@ -3218,9 +2980,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:5 "
-              ]
+              "content": ["3:5 "]
             },
             {
               "type": "char",
@@ -3241,16 +3001,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:5 "
-              ]
+              "content": ["3:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Ammiel is a variant of Eliam; see 2 Samuel 11:3."
-              ]
+              "content": ["Ammiel is a variant of Eliam; see 2 Samuel 11:3."]
             }
           ],
           "caller": "+"
@@ -3281,16 +3037,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:6 "
-              ]
+              "content": ["3:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew does not include David’s other sons were."
-              ]
+              "content": ["Hebrew does not include David’s other sons were."]
             }
           ],
           "caller": "+"
@@ -3304,9 +3056,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:6 "
-              ]
+              "content": ["3:6 "]
             },
             {
               "type": "char",
@@ -3355,9 +3105,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Solomon\n"
-      ]
+      "content": ["The Descendants of Solomon\n"]
     },
     {
       "type": "para",
@@ -3400,16 +3148,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:11 "
-              ]
+              "content": ["3:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Joram is a variant spelling of Jehoram."
-              ]
+              "content": ["Joram is a variant spelling of Jehoram."]
             }
           ],
           "caller": "+"
@@ -3430,9 +3174,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:12 "
-              ]
+              "content": ["3:12 "]
             },
             {
               "type": "char",
@@ -3495,16 +3237,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:15 "
-              ]
+              "content": ["3:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Shallum is another name for Jehoahaz."
-              ]
+              "content": ["Shallum is another name for Jehoahaz."]
             }
           ],
           "caller": "+"
@@ -3546,9 +3284,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:16 "
-              ]
+              "content": ["3:16 "]
             },
             {
               "type": "char",
@@ -3566,9 +3302,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Royal Line After the Exile\n"
-      ]
+      "content": ["The Royal Line After the Exile\n"]
     },
     {
       "type": "para",
@@ -3629,9 +3363,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Zerubbabel and Shimei. \n"
-      ]
+      "content": ["Zerubbabel and Shimei. \n"]
     },
     {
       "type": "para",
@@ -3640,9 +3372,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The children of Zerubbabel: \n"
-      ]
+      "content": ["The children of Zerubbabel: \n"]
     },
     {
       "type": "para",
@@ -3714,9 +3444,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Hattush, Igal, Bariah, Neariah, and Shaphat. \n"
-      ]
+      "content": ["Hattush, Igal, Bariah, Neariah, and Shaphat. \n"]
     },
     {
       "type": "para",
@@ -3742,9 +3470,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Elioenai, Hizkiah, and Azrikam—three in all. \n"
-      ]
+      "content": ["Elioenai, Hizkiah, and Azrikam—three in all. \n"]
     },
     {
       "type": "para",
@@ -3783,9 +3509,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Judah\n"
-      ]
+      "content": ["The Descendants of Judah\n"]
     },
     {
       "type": "para",
@@ -3811,9 +3535,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Perez, Hezron, Carmi, Hur, and Shobal. \n"
-      ]
+      "content": ["Perez, Hezron, Carmi, Hur, and Shobal. \n"]
     },
     {
       "type": "para",
@@ -3855,9 +3577,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:3 "
-              ]
+              "content": ["4:3 "]
             },
             {
               "type": "char",
@@ -3885,9 +3605,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:4 "
-              ]
+              "content": ["4:4 "]
             },
             {
               "type": "char",
@@ -3970,9 +3688,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:7 "
-              ]
+              "content": ["4:7 "]
             },
             {
               "type": "char",
@@ -3997,9 +3713,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Prayer of Jabez\n"
-      ]
+      "content": ["The Prayer of Jabez\n"]
     },
     {
       "type": "para",
@@ -4024,16 +3738,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:9 "
-              ]
+              "content": ["4:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Jabez sounds like the Hebrew for pain or distress."
-              ]
+              "content": ["Jabez sounds like the Hebrew for pain or distress."]
             }
           ],
           "caller": "+"
@@ -4065,16 +3775,12 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "And God granted the request of Jabez. \n"
-      ]
+      "content": ["And God granted the request of Jabez. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "More Descendants of Judah\n"
-      ]
+      "content": ["More Descendants of Judah\n"]
     },
     {
       "type": "para",
@@ -4124,9 +3830,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Othniel and Seraiah. \n"
-      ]
+      "content": ["Othniel and Seraiah. \n"]
     },
     {
       "type": "para",
@@ -4135,9 +3839,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The sons of Othniel: \n"
-      ]
+      "content": ["The sons of Othniel: \n"]
     },
     {
       "type": "para",
@@ -4156,9 +3858,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:13 "
-              ]
+              "content": ["4:13 "]
             },
             {
               "type": "char",
@@ -4196,9 +3896,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:14 "
-              ]
+              "content": ["4:14 "]
             },
             {
               "type": "char",
@@ -4237,9 +3935,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Iru, Elah, and Naam. \n"
-      ]
+      "content": ["Iru, Elah, and Naam. \n"]
     },
     {
       "type": "para",
@@ -4258,16 +3954,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:15 "
-              ]
+              "content": ["4:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew sons "
-              ]
+              "content": ["Hebrew sons "]
             }
           ],
           "caller": "+"
@@ -4282,9 +3974,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Kenaz. \n"
-      ]
+      "content": ["Kenaz. \n"]
     },
     {
       "type": "para",
@@ -4310,9 +4000,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Ziph, Ziphah, Tiria, and Asarel. \n"
-      ]
+      "content": ["Ziph, Ziphah, Tiria, and Asarel. \n"]
     },
     {
       "type": "para",
@@ -4338,9 +4026,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Jether, Mered, Epher, and Jalon. \n"
-      ]
+      "content": ["Jether, Mered, Epher, and Jalon. \n"]
     },
     {
       "type": "para",
@@ -4359,16 +4045,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:17 "
-              ]
+              "content": ["4:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally she gave birth"
-              ]
+              "content": ["Literally she gave birth"]
             }
           ],
           "caller": "+"
@@ -4389,9 +4071,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:18 "
-              ]
+              "content": ["4:18 "]
             },
             {
               "type": "char",
@@ -4423,16 +4103,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:18 "
-              ]
+              "content": ["4:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Judahite"
-              ]
+              "content": ["Or Judahite"]
             }
           ],
           "caller": "+"
@@ -4463,9 +4139,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:19 "
-              ]
+              "content": ["4:19 "]
             },
             {
               "type": "char",
@@ -4504,9 +4178,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Amnon, Rinnah, Ben-hanan, and Tilon. \n"
-      ]
+      "content": ["Amnon, Rinnah, Ben-hanan, and Tilon. \n"]
     },
     {
       "type": "para",
@@ -4515,9 +4187,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The descendants of Ishi: \n"
-      ]
+      "content": ["The descendants of Ishi: \n"]
     },
     {
       "type": "para",
@@ -4526,9 +4196,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Zoheth and Ben-zoheth. \n"
-      ]
+      "content": ["Zoheth and Ben-zoheth. \n"]
     },
     {
       "type": "para",
@@ -4575,9 +4243,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Simeon\n"
-      ]
+      "content": ["The Descendants of Simeon\n"]
     },
     {
       "type": "para",
@@ -4613,9 +4279,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:24 "
-              ]
+              "content": ["4:24 "]
             },
             {
               "type": "char",
@@ -4654,9 +4318,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Shallum, Mibsam, and Mishma. \n"
-      ]
+      "content": ["Shallum, Mibsam, and Mishma. \n"]
     },
     {
       "type": "para",
@@ -4682,9 +4344,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Hammuel, Zaccur, and Shimei. \n"
-      ]
+      "content": ["Hammuel, Zaccur, and Shimei. \n"]
     },
     {
       "type": "para",
@@ -4751,9 +4411,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:33 "
-              ]
+              "content": ["4:33 "]
             },
             {
               "type": "char",
@@ -4860,9 +4518,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:41 "
-              ]
+              "content": ["4:41 "]
             },
             {
               "type": "char",
@@ -4900,9 +4556,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Reuben\n"
-      ]
+      "content": ["The Descendants of Reuben\n"]
     },
     {
       "type": "para",
@@ -4942,9 +4596,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Hanoch, Pallu, Hezron, and Carmi. \n"
-      ]
+      "content": ["Hanoch, Pallu, Hezron, and Carmi. \n"]
     },
     {
       "type": "para",
@@ -4994,9 +4646,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:6 "
-              ]
+              "content": ["5:6 "]
             },
             {
               "type": "char",
@@ -5074,9 +4724,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Gad\n"
-      ]
+      "content": ["The Descendants of Gad\n"]
     },
     {
       "type": "para",
@@ -5225,9 +4873,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Half-Tribe of Manasseh\n"
-      ]
+      "content": ["The Half-Tribe of Manasseh\n"]
     },
     {
       "type": "para",
@@ -5252,9 +4898,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:23 "
-              ]
+              "content": ["5:23 "]
             },
             {
               "type": "char",
@@ -5331,9 +4975,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Levi\n"
-      ]
+      "content": ["The Descendants of Levi\n"]
     },
     {
       "type": "para",
@@ -5359,9 +5001,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Gershon, Kohath, and Merari. \n"
-      ]
+      "content": ["Gershon, Kohath, and Merari. \n"]
     },
     {
       "type": "para",
@@ -5387,9 +5027,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Amram, Izhar, Hebron, and Uzziel. \n"
-      ]
+      "content": ["Amram, Izhar, Hebron, and Uzziel. \n"]
     },
     {
       "type": "para",
@@ -5415,9 +5053,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Aaron, Moses, and Miriam. \n"
-      ]
+      "content": ["Aaron, Moses, and Miriam. \n"]
     },
     {
       "type": "para",
@@ -5426,9 +5062,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The sons of Aaron: \n"
-      ]
+      "content": ["The sons of Aaron: \n"]
     },
     {
       "type": "para",
@@ -5437,9 +5071,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Nadab, Abihu, Eleazar, and Ithamar. \n"
-      ]
+      "content": ["Nadab, Abihu, Eleazar, and Ithamar. \n"]
     },
     {
       "type": "para",
@@ -5465,9 +5097,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Phinehas was the father of Abishua, \n"
-      ]
+      "content": ["Phinehas was the father of Abishua, \n"]
     },
     {
       "type": "para",
@@ -5493,9 +5123,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Bukki was the father of Uzzi, \n"
-      ]
+      "content": ["Bukki was the father of Uzzi, \n"]
     },
     {
       "type": "para",
@@ -5521,9 +5149,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Zerahiah was the father of Meraioth, \n"
-      ]
+      "content": ["Zerahiah was the father of Meraioth, \n"]
     },
     {
       "type": "para",
@@ -5549,9 +5175,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Amariah was the father of Ahitub, \n"
-      ]
+      "content": ["Amariah was the father of Ahitub, \n"]
     },
     {
       "type": "para",
@@ -5577,9 +5201,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Zadok was the father of Ahimaaz, \n"
-      ]
+      "content": ["Zadok was the father of Ahimaaz, \n"]
     },
     {
       "type": "para",
@@ -5605,9 +5227,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Azariah was the father of Johanan, \n"
-      ]
+      "content": ["Azariah was the father of Johanan, \n"]
     },
     {
       "type": "para",
@@ -5650,9 +5270,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Amariah was the father of Ahitub, \n"
-      ]
+      "content": ["Amariah was the father of Ahitub, \n"]
     },
     {
       "type": "para",
@@ -5678,9 +5296,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Zadok was the father of Shallum, \n"
-      ]
+      "content": ["Zadok was the father of Shallum, \n"]
     },
     {
       "type": "para",
@@ -5706,9 +5322,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Hilkiah was the father of Azariah, \n"
-      ]
+      "content": ["Hilkiah was the father of Azariah, \n"]
     },
     {
       "type": "para",
@@ -5744,9 +5358,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:14 "
-              ]
+              "content": ["6:14 "]
             },
             {
               "type": "char",
@@ -5812,9 +5424,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:16 "
-              ]
+              "content": ["6:16 "]
             },
             {
               "type": "char",
@@ -5853,9 +5463,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Libni and Shimei. \n"
-      ]
+      "content": ["Libni and Shimei. \n"]
     },
     {
       "type": "para",
@@ -5881,9 +5489,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Amram, Izhar, Hebron, and Uzziel. \n"
-      ]
+      "content": ["Amram, Izhar, Hebron, and Uzziel. \n"]
     },
     {
       "type": "para",
@@ -5909,9 +5515,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Mahli and Mushi. \n"
-      ]
+      "content": ["Mahli and Mushi. \n"]
     },
     {
       "type": "para",
@@ -6000,9 +5604,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:23 "
-              ]
+              "content": ["6:23 "]
             },
             {
               "type": "char",
@@ -6065,9 +5667,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:26 "
-              ]
+              "content": ["6:26 "]
             },
             {
               "type": "char",
@@ -6095,9 +5695,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:27 "
-              ]
+              "content": ["6:27 "]
             },
             {
               "type": "char",
@@ -6118,9 +5716,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:27 "
-              ]
+              "content": ["6:27 "]
             },
             {
               "type": "char",
@@ -6169,9 +5765,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:28 "
-              ]
+              "content": ["6:28 "]
             },
             {
               "type": "char",
@@ -6224,9 +5818,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Temple Musicians\n"
-      ]
+      "content": ["The Temple Musicians\n"]
     },
     {
       "type": "para",
@@ -6266,9 +5858,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "From the Kohathites: \n"
-      ]
+      "content": ["From the Kohathites: \n"]
     },
     {
       "type": "para",
@@ -6294,9 +5884,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:34 "
-              ]
+              "content": ["6:34 "]
             },
             {
               "type": "char",
@@ -6380,9 +5968,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:40 "
-              ]
+              "content": ["6:40 "]
             },
             {
               "type": "char",
@@ -6470,9 +6056,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Aaron\n"
-      ]
+      "content": ["The Descendants of Aaron\n"]
     },
     {
       "type": "para",
@@ -6504,16 +6088,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:49 "
-              ]
+              "content": ["6:49 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the Holy of Holies"
-              ]
+              "content": ["Or the Holy of Holies"]
             }
           ],
           "caller": "+"
@@ -6573,16 +6153,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Territories for the Levites\n"
-      ]
+      "content": ["Territories for the Levites\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 35:1–8; Joshua 21:1–45)\n"
-      ]
+      "content": ["(Numbers 35:1–8; Joshua 21:1–45)\n"]
     },
     {
       "type": "para",
@@ -6638,9 +6214,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:57 "
-              ]
+              "content": ["6:57 "]
             },
             {
               "type": "char",
@@ -6668,9 +6242,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:58 "
-              ]
+              "content": ["6:58 "]
             },
             {
               "type": "char",
@@ -6698,16 +6270,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:59 "
-              ]
+              "content": ["6:59 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Ashan is a variant of Ain; see Joshua 21:16."
-              ]
+              "content": ["Ashan is a variant of Ain; see Joshua 21:16."]
             }
           ],
           "caller": "+"
@@ -6721,9 +6289,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:59 "
-              ]
+              "content": ["6:59 "]
             },
             {
               "type": "char",
@@ -6761,9 +6327,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:60 "
-              ]
+              "content": ["6:60 "]
             },
             {
               "type": "char",
@@ -6818,9 +6382,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:62 "
-              ]
+              "content": ["6:62 "]
             },
             {
               "type": "char",
@@ -6916,9 +6478,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:67 "
-              ]
+              "content": ["6:67 "]
             },
             {
               "type": "char",
@@ -7091,9 +6651,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:77 "
-              ]
+              "content": ["6:77 "]
             },
             {
               "type": "char",
@@ -7131,16 +6689,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:78 "
-              ]
+              "content": ["6:78 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Jahzah is a variant of Jahaz; see Numbers 21:23."
-              ]
+              "content": ["Jahzah is a variant of Jahaz; see Numbers 21:23."]
             }
           ],
           "caller": "+"
@@ -7188,9 +6742,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Issachar\n"
-      ]
+      "content": ["The Descendants of Issachar\n"]
     },
     {
       "type": "para",
@@ -7226,9 +6778,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:1 "
-              ]
+              "content": ["7:1 "]
             },
             {
               "type": "char",
@@ -7294,16 +6844,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:3 "
-              ]
+              "content": ["7:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew sons; also in verses 10 and 17"
-              ]
+              "content": ["Hebrew sons; also in verses 10 and 17"]
             }
           ],
           "caller": "+"
@@ -7318,9 +6864,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Izrahiah. \n"
-      ]
+      "content": ["Izrahiah. \n"]
     },
     {
       "type": "para",
@@ -7329,9 +6873,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The sons of Izrahiah: \n"
-      ]
+      "content": ["The sons of Izrahiah: \n"]
     },
     {
       "type": "para",
@@ -7371,9 +6913,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Benjamin\n"
-      ]
+      "content": ["The Descendants of Benjamin\n"]
     },
     {
       "type": "para",
@@ -7399,9 +6939,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Bela, Becher, and Jediael. \n"
-      ]
+      "content": ["Bela, Becher, and Jediael. \n"]
     },
     {
       "type": "para",
@@ -7490,9 +7028,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Bilhan. \n"
-      ]
+      "content": ["Bilhan. \n"]
     },
     {
       "type": "para",
@@ -7501,9 +7037,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The sons of Bilhan: \n"
-      ]
+      "content": ["The sons of Bilhan: \n"]
     },
     {
       "type": "para",
@@ -7533,9 +7067,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Naphtali\n"
-      ]
+      "content": ["The Descendants of Naphtali\n"]
     },
     {
       "type": "para",
@@ -7571,16 +7103,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:13 "
-              ]
+              "content": ["7:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Jahziel is a variant of Jahzeel; see Genesis 46:24."
-              ]
+              "content": ["Jahziel is a variant of Jahzeel; see Genesis 46:24."]
             }
           ],
           "caller": "+"
@@ -7594,9 +7122,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:13 "
-              ]
+              "content": ["7:13 "]
             },
             {
               "type": "char",
@@ -7614,9 +7140,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Manasseh\n"
-      ]
+      "content": ["The Descendants of Manasseh\n"]
     },
     {
       "type": "para",
@@ -7715,9 +7239,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Bedan. \n"
-      ]
+      "content": ["Bedan. \n"]
     },
     {
       "type": "para",
@@ -7761,16 +7283,12 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Ahian, Shechem, Likhi, and Aniam. \n"
-      ]
+      "content": ["Ahian, Shechem, Likhi, and Aniam. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Ephraim\n"
-      ]
+      "content": ["The Descendants of Ephraim\n"]
     },
     {
       "type": "para",
@@ -7848,9 +7366,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:23 "
-              ]
+              "content": ["7:23 "]
             },
             {
               "type": "char",
@@ -7895,9 +7411,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:25 "
-              ]
+              "content": ["7:25 "]
             },
             {
               "type": "char",
@@ -7932,16 +7446,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:27 "
-              ]
+              "content": ["7:27 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Non"
-              ]
+              "content": ["Or Non"]
             }
           ],
           "caller": "+"
@@ -7972,16 +7482,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:28 "
-              ]
+              "content": ["7:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Ayyah is another name for Gaza; see also LXX."
-              ]
+              "content": ["Ayyah is another name for Gaza; see also LXX."]
             }
           ],
           "caller": "+"
@@ -8002,9 +7508,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:29 "
-              ]
+              "content": ["7:29 "]
             },
             {
               "type": "char",
@@ -8022,9 +7526,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Asher\n"
-      ]
+      "content": ["The Descendants of Asher\n"]
     },
     {
       "type": "para",
@@ -8050,9 +7552,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Imnah, Ishvah, Ishvi, Beriah, and their sister Serah. \n"
-      ]
+      "content": ["Imnah, Ishvah, Ishvi, Beriah, and their sister Serah. \n"]
     },
     {
       "type": "para",
@@ -8123,9 +7623,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Pasach, Bimhal, and Ashvath. These were Japhlet’s sons. \n"
-      ]
+      "content": ["Pasach, Bimhal, and Ashvath. These were Japhlet’s sons. \n"]
     },
     {
       "type": "para",
@@ -8161,9 +7659,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:34 "
-              ]
+              "content": ["7:34 "]
             },
             {
               "type": "char",
@@ -8201,9 +7697,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:35 "
-              ]
+              "content": ["7:35 "]
             },
             {
               "type": "char",
@@ -8225,9 +7719,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Zophah, Imna, Shelesh, and Amal. \n"
-      ]
+      "content": ["Zophah, Imna, Shelesh, and Amal. \n"]
     },
     {
       "type": "para",
@@ -8270,9 +7762,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:37 "
-              ]
+              "content": ["7:37 "]
             },
             {
               "type": "char",
@@ -8311,9 +7801,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Jephunneh, Pispa, and Ara. \n"
-      ]
+      "content": ["Jephunneh, Pispa, and Ara. \n"]
     },
     {
       "type": "para",
@@ -8339,9 +7827,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Arah, Hanniel, and Rizia. \n"
-      ]
+      "content": ["Arah, Hanniel, and Rizia. \n"]
     },
     {
       "type": "para",
@@ -8369,9 +7855,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Genealogy from Benjamin to Saul\n"
-      ]
+      "content": ["Genealogy from Benjamin to Saul\n"]
     },
     {
       "type": "para",
@@ -8431,16 +7915,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:3 "
-              ]
+              "content": ["8:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Possibly Gera the father of Ehud; see verse 7."
-              ]
+              "content": ["Possibly Gera the father of Ehud; see verse 7."]
             }
           ],
           "caller": "+"
@@ -8502,9 +7982,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:7 "
-              ]
+              "content": ["8:7 "]
             },
             {
               "type": "char",
@@ -8585,9 +8063,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Abitub and Elpaal. \n"
-      ]
+      "content": ["Abitub and Elpaal. \n"]
     },
     {
       "type": "para",
@@ -8812,9 +8288,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:29 "
-              ]
+              "content": ["8:29 "]
             },
             {
               "type": "char",
@@ -8842,9 +8316,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:30 "
-              ]
+              "content": ["8:30 "]
             },
             {
               "type": "char",
@@ -8872,9 +8344,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:31 "
-              ]
+              "content": ["8:31 "]
             },
             {
               "type": "char",
@@ -8902,9 +8372,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:32 "
-              ]
+              "content": ["8:32 "]
             },
             {
               "type": "char",
@@ -8922,9 +8390,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Family of Saul\n"
-      ]
+      "content": ["The Family of Saul\n"]
     },
     {
       "type": "para",
@@ -8949,9 +8415,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:33 "
-              ]
+              "content": ["8:33 "]
             },
             {
               "type": "char",
@@ -9000,9 +8464,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:34 "
-              ]
+              "content": ["8:34 "]
             },
             {
               "type": "char",
@@ -9023,16 +8485,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:34 "
-              ]
+              "content": ["8:34 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Micah is a variant of Mica; see 2 Samuel 9:12."
-              ]
+              "content": ["Micah is a variant of Mica; see 2 Samuel 9:12."]
             }
           ],
           "caller": "+"
@@ -9074,9 +8532,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:35 "
-              ]
+              "content": ["8:35 "]
             },
             {
               "type": "char",
@@ -9114,9 +8570,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:36 "
-              ]
+              "content": ["8:36 "]
             },
             {
               "type": "char",
@@ -9154,9 +8608,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:37 "
-              ]
+              "content": ["8:37 "]
             },
             {
               "type": "char",
@@ -9241,9 +8693,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "All these were the descendants of Benjamin. \n"
-      ]
+      "content": ["All these were the descendants of Benjamin. \n"]
     },
     {
       "type": "chapter",
@@ -9254,9 +8704,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The People of Jerusalem\n"
-      ]
+      "content": ["The People of Jerusalem\n"]
     },
     {
       "type": "para",
@@ -9298,16 +8746,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:2 "
-              ]
+              "content": ["9:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew Nethinim"
-              ]
+              "content": ["Hebrew Nethinim"]
             }
           ],
           "caller": "+"
@@ -9373,9 +8817,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Asaiah the firstborn and his sons. \n"
-      ]
+      "content": ["Asaiah the firstborn and his sons. \n"]
     },
     {
       "type": "para",
@@ -9401,9 +8843,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Jeuel and 690 relatives. \n"
-      ]
+      "content": ["Jeuel and 690 relatives. \n"]
     },
     {
       "type": "para",
@@ -9457,9 +8897,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Elah son of Uzzi, the son of Michri; \n"
-      ]
+      "content": ["Elah son of Uzzi, the son of Michri; \n"]
     },
     {
       "type": "para",
@@ -9513,9 +8951,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Jedaiah, Jehoiarib, and Jachin; \n"
-      ]
+      "content": ["Jedaiah, Jehoiarib, and Jachin; \n"]
     },
     {
       "type": "para",
@@ -9568,9 +9004,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:12 "
-              ]
+              "content": ["9:12 "]
             },
             {
               "type": "char",
@@ -9699,9 +9133,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Shallum, Akkub, Talmon, Ahiman, and their relatives. \n"
-      ]
+      "content": ["Shallum, Akkub, Talmon, Ahiman, and their relatives. \n"]
     },
     {
       "type": "para",
@@ -9734,16 +9166,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:19 "
-              ]
+              "content": ["9:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Ebiasaph is a variant of Abiasaph; see Exodus 6:24."
-              ]
+              "content": ["Ebiasaph is a variant of Abiasaph; see Exodus 6:24."]
             }
           ],
           "caller": "+"
@@ -9929,9 +9357,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Descendants of Saul\n"
-      ]
+      "content": ["The Descendants of Saul\n"]
     },
     {
       "type": "para",
@@ -9956,16 +9382,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:35 "
-              ]
+              "content": ["9:35 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the founder"
-              ]
+              "content": ["Or the founder"]
             }
           ],
           "caller": "+"
@@ -10020,9 +9442,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:38 "
-              ]
+              "content": ["9:38 "]
             },
             {
               "type": "char",
@@ -10078,9 +9498,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "Merib-baal, who was the father of Micah. \n"
-      ]
+      "content": ["Merib-baal, who was the father of Micah. \n"]
     },
     {
       "type": "para",
@@ -10116,9 +9534,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:41 "
-              ]
+              "content": ["9:41 "]
             },
             {
               "type": "char",
@@ -10156,9 +9572,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:42 "
-              ]
+              "content": ["9:42 "]
             },
             {
               "type": "char",
@@ -10186,9 +9600,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:43 "
-              ]
+              "content": ["9:43 "]
             },
             {
               "type": "char",
@@ -10240,16 +9652,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Saul’s Overthrow and Death\n"
-      ]
+      "content": ["Saul’s Overthrow and Death\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Samuel 31:1–6; 2 Samuel 1:1–16)\n"
-      ]
+      "content": ["(1 Samuel 31:1–6; 2 Samuel 1:1–16)\n"]
     },
     {
       "type": "para",
@@ -10347,16 +9755,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Philistines Possess the Towns\n"
-      ]
+      "content": ["The Philistines Possess the Towns\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Samuel 31:7–10)\n"
-      ]
+      "content": ["(1 Samuel 31:7–10)\n"]
     },
     {
       "type": "para",
@@ -10409,16 +9813,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jabesh-gilead’s Tribute to Saul\n"
-      ]
+      "content": ["Jabesh-gilead’s Tribute to Saul\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Samuel 31:11–13)\n"
-      ]
+      "content": ["(1 Samuel 31:11–13)\n"]
     },
     {
       "type": "para",
@@ -10450,16 +9850,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:12 "
-              ]
+              "content": ["10:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or terebinth or great tree"
-              ]
+              "content": ["Or terebinth or great tree"]
             }
           ],
           "caller": "+"
@@ -10500,16 +9896,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Anointed King of All Israel\n"
-      ]
+      "content": ["David Anointed King of All Israel\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 5:1–5)\n"
-      ]
+      "content": ["(2 Samuel 5:1–5)\n"]
     },
     {
       "type": "para",
@@ -10541,16 +9933,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:2 "
-              ]
+              "content": ["11:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or For some time"
-              ]
+              "content": ["Or For some time"]
             }
           ],
           "caller": "+"
@@ -10578,16 +9966,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Conquers Jerusalem\n"
-      ]
+      "content": ["David Conquers Jerusalem\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 5:6–11)\n"
-      ]
+      "content": ["(2 Samuel 5:6–11)\n"]
     },
     {
       "type": "para",
@@ -10692,16 +10076,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:8 "
-              ]
+              "content": ["11:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew the Millo"
-              ]
+              "content": ["Hebrew the Millo"]
             }
           ],
           "caller": "+"
@@ -10729,16 +10109,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Mighty Men\n"
-      ]
+      "content": ["David’s Mighty Men\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 23:8–39)\n"
-      ]
+      "content": ["(2 Samuel 23:8–39)\n"]
     },
     {
       "type": "para",
@@ -10781,9 +10157,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:11 "
-              ]
+              "content": ["11:11 "]
             },
             {
               "type": "char",
@@ -10821,16 +10195,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:12 "
-              ]
+              "content": ["11:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Dodo is a variant of Dodai; see 1 Chronicles 27:4."
-              ]
+              "content": ["Dodo is a variant of Dodai; see 1 Chronicles 27:4."]
             }
           ],
           "caller": "+"
@@ -10858,16 +10228,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:14 "
-              ]
+              "content": ["11:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally But they stationed themselves"
-              ]
+              "content": ["Literally But they stationed themselves"]
             }
           ],
           "caller": "+"
@@ -10937,9 +10303,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Such were the exploits of the three mighty men. \n"
-      ]
+      "content": ["Such were the exploits of the three mighty men. \n"]
     },
     {
       "type": "para",
@@ -10964,16 +10328,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:20 "
-              ]
+              "content": ["11:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew; Syriac the Thirty; also in verse 21"
-              ]
+              "content": ["Hebrew; Syriac the Thirty; also in verse 21"]
             }
           ],
           "caller": "+"
@@ -11011,16 +10371,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:22 "
-              ]
+              "content": ["11:22 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or two sons of Ariel of Moab"
-              ]
+              "content": ["Or two sons of Ariel of Moab"]
             }
           ],
           "caller": "+"
@@ -11041,9 +10397,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:23 "
-              ]
+              "content": ["11:23 "]
             },
             {
               "type": "char",
@@ -11096,9 +10450,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Asahel the brother of Joab, \n"
-      ]
+      "content": ["Asahel the brother of Joab, \n"]
     },
     {
       "type": "para",
@@ -11107,9 +10459,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Elhanan son of Dodo of Bethlehem, \n"
-      ]
+      "content": ["Elhanan son of Dodo of Bethlehem, \n"]
     },
     {
       "type": "para",
@@ -11134,9 +10484,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:27 "
-              ]
+              "content": ["11:27 "]
             },
             {
               "type": "char",
@@ -11158,9 +10506,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Helez the Pelonite, \n"
-      ]
+      "content": ["Helez the Pelonite, \n"]
     },
     {
       "type": "para",
@@ -11186,9 +10532,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Abiezer the Anathothite, \n"
-      ]
+      "content": ["Abiezer the Anathothite, \n"]
     },
     {
       "type": "para",
@@ -11214,9 +10558,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Ilai the Ahohite, \n"
-      ]
+      "content": ["Ilai the Ahohite, \n"]
     },
     {
       "type": "para",
@@ -11242,9 +10584,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Heled son of Baanah the Netophathite, \n"
-      ]
+      "content": ["Heled son of Baanah the Netophathite, \n"]
     },
     {
       "type": "para",
@@ -11269,16 +10609,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:31 "
-              ]
+              "content": ["11:31 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Ithai is a variant of Ittai; see 2 Samuel 23:29."
-              ]
+              "content": ["Ithai is a variant of Ittai; see 2 Samuel 23:29."]
             }
           ],
           "caller": "+"
@@ -11293,9 +10629,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Benaiah the Pirathonite, \n"
-      ]
+      "content": ["Benaiah the Pirathonite, \n"]
     },
     {
       "type": "para",
@@ -11320,16 +10654,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:32 "
-              ]
+              "content": ["11:32 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hurai is a variant of Hiddai; see 2 Samuel 23:30."
-              ]
+              "content": ["Hurai is a variant of Hiddai; see 2 Samuel 23:30."]
             }
           ],
           "caller": "+"
@@ -11343,16 +10673,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:32 "
-              ]
+              "content": ["11:32 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or from the ravines"
-              ]
+              "content": ["Or from the ravines"]
             }
           ],
           "caller": "+"
@@ -11377,9 +10703,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:32 "
-              ]
+              "content": ["11:32 "]
             },
             {
               "type": "char",
@@ -11417,9 +10741,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:33 "
-              ]
+              "content": ["11:33 "]
             },
             {
               "type": "char",
@@ -11441,9 +10763,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Eliahba the Shaalbonite, \n"
-      ]
+      "content": ["Eliahba the Shaalbonite, \n"]
     },
     {
       "type": "para",
@@ -11468,9 +10788,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:34 "
-              ]
+              "content": ["11:34 "]
             },
             {
               "type": "char",
@@ -11492,9 +10810,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Jonathan son of Shagee the Hararite, \n"
-      ]
+      "content": ["Jonathan son of Shagee the Hararite, \n"]
     },
     {
       "type": "para",
@@ -11519,16 +10835,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:35 "
-              ]
+              "content": ["11:35 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Sachar is a variant of Sharar; see 2 Samuel 23:33."
-              ]
+              "content": ["Sachar is a variant of Sharar; see 2 Samuel 23:33."]
             }
           ],
           "caller": "+"
@@ -11543,9 +10855,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Eliphal son of Ur, \n"
-      ]
+      "content": ["Eliphal son of Ur, \n"]
     },
     {
       "type": "para",
@@ -11571,9 +10881,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Ahijah the Pelonite, \n"
-      ]
+      "content": ["Ahijah the Pelonite, \n"]
     },
     {
       "type": "para",
@@ -11599,9 +10907,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Naarai son of Ezbai, \n"
-      ]
+      "content": ["Naarai son of Ezbai, \n"]
     },
     {
       "type": "para",
@@ -11627,9 +10933,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Mibhar son of Hagri, \n"
-      ]
+      "content": ["Mibhar son of Hagri, \n"]
     },
     {
       "type": "para",
@@ -11683,9 +10987,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Gareb the Ithrite, \n"
-      ]
+      "content": ["Gareb the Ithrite, \n"]
     },
     {
       "type": "para",
@@ -11711,9 +11013,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Zabad son of Ahlai, \n"
-      ]
+      "content": ["Zabad son of Ahlai, \n"]
     },
     {
       "type": "para",
@@ -11756,9 +11056,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Joshaphat the Mithnite, \n"
-      ]
+      "content": ["Joshaphat the Mithnite, \n"]
     },
     {
       "type": "para",
@@ -11784,9 +11082,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Shama and Jeiel the sons of Hotham the Aroerite, \n"
-      ]
+      "content": ["Shama and Jeiel the sons of Hotham the Aroerite, \n"]
     },
     {
       "type": "para",
@@ -11829,9 +11125,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Jeribai and Joshaviah, the sons of Elnaam, \n"
-      ]
+      "content": ["Jeribai and Joshaviah, the sons of Elnaam, \n"]
     },
     {
       "type": "para",
@@ -11840,9 +11134,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Ithmah the Moabite, \n"
-      ]
+      "content": ["Ithmah the Moabite, \n"]
     },
     {
       "type": "para",
@@ -11870,9 +11162,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Mighty Men Join David at Ziklag\n"
-      ]
+      "content": ["The Mighty Men Join David at Ziklag\n"]
     },
     {
       "type": "para",
@@ -11922,9 +11212,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Jeziel and Pelet, the sons of Azmaveth; \n"
-      ]
+      "content": ["Jeziel and Pelet, the sons of Azmaveth; \n"]
     },
     {
       "type": "para",
@@ -11933,9 +11221,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Beracah; \n"
-      ]
+      "content": ["Beracah; \n"]
     },
     {
       "type": "para",
@@ -11944,9 +11230,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Jehu the Anathothite; \n"
-      ]
+      "content": ["Jehu the Anathothite; \n"]
     },
     {
       "type": "para",
@@ -12171,37 +11455,27 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“We are yours, O David! \n"
-      ]
+      "content": ["“We are yours, O David! \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "We are with you, O son of Jesse! \n"
-      ]
+      "content": ["We are with you, O son of Jesse! \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Peace, peace to you, \n"
-      ]
+      "content": ["Peace, peace to you, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and peace to your helpers, \n"
-      ]
+      "content": ["and peace to your helpers, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for your God helps you.” \n"
-      ]
+      "content": ["for your God helps you.” \n"]
     },
     {
       "type": "para",
@@ -12286,9 +11560,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Army Grows at Hebron\n"
-      ]
+      "content": ["David’s Army Grows at Hebron\n"]
     },
     {
       "type": "para",
@@ -12429,9 +11701,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:31 "
-              ]
+              "content": ["12:31 "]
             },
             {
               "type": "char",
@@ -12486,16 +11756,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:33 "
-              ]
+              "content": ["12:33 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX; Hebrew does not include to David."
-              ]
+              "content": ["LXX; Hebrew does not include to David."]
             }
           ],
           "caller": "+"
@@ -12621,16 +11887,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Fetches the Ark\n"
-      ]
+      "content": ["David Fetches the Ark\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 6:1–4)\n"
-      ]
+      "content": ["(2 Samuel 6:1–4)\n"]
     },
     {
       "type": "para",
@@ -12669,16 +11931,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:3 "
-              ]
+              "content": ["13:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or of it"
-              ]
+              "content": ["Or of it"]
             }
           ],
           "caller": "+"
@@ -12716,16 +11974,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:5 "
-              ]
+              "content": ["13:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew from the Shihor"
-              ]
+              "content": ["Hebrew from the Shihor"]
             }
           ],
           "caller": "+"
@@ -12756,9 +12010,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:6 "
-              ]
+              "content": ["13:6 "]
             },
             {
               "type": "char",
@@ -12783,16 +12035,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Uzzah Touches the Ark\n"
-      ]
+      "content": ["Uzzah Touches the Ark\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 6:5–11)\n"
-      ]
+      "content": ["(2 Samuel 6:5–11)\n"]
     },
     {
       "type": "para",
@@ -12834,16 +12082,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:9 "
-              ]
+              "content": ["13:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Chidon is a variant of Nacon; see 2 Samuel 6:6."
-              ]
+              "content": ["Chidon is a variant of Nacon; see 2 Samuel 6:6."]
             }
           ],
           "caller": "+"
@@ -12881,16 +12125,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:11 "
-              ]
+              "content": ["13:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Perez-uzzah means outbreak against Uzzah."
-              ]
+              "content": ["Perez-uzzah means outbreak against Uzzah."]
             }
           ],
           "caller": "+"
@@ -12938,16 +12178,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Family Grows\n"
-      ]
+      "content": ["David’s Family Grows\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 5:12–16)\n"
-      ]
+      "content": ["(2 Samuel 5:12–16)\n"]
     },
     {
       "type": "para",
@@ -13003,9 +12239,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:4 "
-              ]
+              "content": ["14:4 "]
             },
             {
               "type": "char",
@@ -13047,16 +12281,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:7 "
-              ]
+              "content": ["14:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Beeliada is a variant of Eliada; see 2 Samuel 5:16."
-              ]
+              "content": ["Beeliada is a variant of Eliada; see 2 Samuel 5:16."]
             }
           ],
           "caller": "+"
@@ -13067,16 +12297,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Two Victories over the Philistines\n"
-      ]
+      "content": ["Two Victories over the Philistines\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 5:17–25)\n"
-      ]
+      "content": ["(2 Samuel 5:17–25)\n"]
     },
     {
       "type": "para",
@@ -13153,16 +12379,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:11 "
-              ]
+              "content": ["14:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Baal-Perazim means The Lord Bursts Out."
-              ]
+              "content": ["Baal-Perazim means The Lord Bursts Out."]
             }
           ],
           "caller": "+"
@@ -13207,16 +12429,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:14 "
-              ]
+              "content": ["14:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or aspen trees or poplar trees; also in verse 15"
-              ]
+              "content": ["Or aspen trees or poplar trees; also in verse 15"]
             }
           ],
           "caller": "+"
@@ -13264,16 +12482,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Preparing to Move the Ark\n"
-      ]
+      "content": ["Preparing to Move the Ark\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 6:12–15)\n"
-      ]
+      "content": ["(2 Samuel 6:12–15)\n"]
     },
     {
       "type": "para",
@@ -13380,9 +12594,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:7 "
-              ]
+              "content": ["15:7 "]
             },
             {
               "type": "char",
@@ -13482,9 +12694,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Priests and Levites Carry the Ark\n"
-      ]
+      "content": ["The Priests and Levites Carry the Ark\n"]
     },
     {
       "type": "para",
@@ -13547,9 +12757,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:18 "
-              ]
+              "content": ["15:18 "]
             },
             {
               "type": "char",
@@ -13570,9 +12778,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:18 "
-              ]
+              "content": ["15:18 "]
             },
             {
               "type": "char",
@@ -13617,16 +12823,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:20 "
-              ]
+              "content": ["15:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Aziel is a variant of Jaaziel; see verse 18."
-              ]
+              "content": ["Aziel is a variant of Jaaziel; see verse 18."]
             }
           ],
           "caller": "+"
@@ -13640,9 +12842,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:20 "
-              ]
+              "content": ["15:20 "]
             },
             {
               "type": "char",
@@ -13670,9 +12870,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:21 "
-              ]
+              "content": ["15:21 "]
             },
             {
               "type": "char",
@@ -13717,16 +12915,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:23 "
-              ]
+              "content": ["15:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally gatekeepers; also in verse 24"
-              ]
+              "content": ["Literally gatekeepers; also in verse 24"]
             }
           ],
           "caller": "+"
@@ -13744,9 +12938,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Moving the Ark to Jerusalem\n"
-      ]
+      "content": ["Moving the Ark to Jerusalem\n"]
     },
     {
       "type": "para",
@@ -13799,16 +12991,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Michal’s Contempt for David\n"
-      ]
+      "content": ["Michal’s Contempt for David\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 6:16)\n"
-      ]
+      "content": ["(2 Samuel 6:16)\n"]
     },
     {
       "type": "para",
@@ -13836,16 +13024,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Tent for the Ark\n"
-      ]
+      "content": ["A Tent for the Ark\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 6:17–19)\n"
-      ]
+      "content": ["(2 Samuel 6:17–19)\n"]
     },
     {
       "type": "para",
@@ -13884,16 +13068,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:3 "
-              ]
+              "content": ["16:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or a portion of meat"
-              ]
+              "content": ["Or a portion of meat"]
             }
           ],
           "caller": "+"
@@ -13935,16 +13115,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Psalm of Thanksgiving\n"
-      ]
+      "content": ["David’s Psalm of Thanksgiving\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 105:1–15)\n"
-      ]
+      "content": ["(Psalm 105:1–15)\n"]
     },
     {
       "type": "para",
@@ -13983,9 +13159,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "make known His deeds among the nations. \n"
-      ]
+      "content": ["make known His deeds among the nations. \n"]
     },
     {
       "type": "para",
@@ -14003,9 +13177,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "tell of all His wonders. \n"
-      ]
+      "content": ["tell of all His wonders. \n"]
     },
     {
       "type": "para",
@@ -14023,9 +13195,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "let the hearts of those who seek the LORD rejoice. \n"
-      ]
+      "content": ["let the hearts of those who seek the LORD rejoice. \n"]
     },
     {
       "type": "para",
@@ -14043,9 +13213,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "seek His face always. \n"
-      ]
+      "content": ["seek His face always. \n"]
     },
     {
       "type": "para",
@@ -14063,9 +13231,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "His marvels, and the judgments He has pronounced, \n"
-      ]
+      "content": ["His marvels, and the judgments He has pronounced, \n"]
     },
     {
       "type": "para",
@@ -14083,9 +13249,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "O sons of Jacob, His chosen ones. \n"
-      ]
+      "content": ["O sons of Jacob, His chosen ones. \n"]
     },
     {
       "type": "para",
@@ -14107,9 +13271,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "His judgments carry throughout the earth. \n"
-      ]
+      "content": ["His judgments carry throughout the earth. \n"]
     },
     {
       "type": "para",
@@ -14130,9 +13292,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:15 "
-              ]
+              "content": ["16:15 "]
             },
             {
               "type": "char",
@@ -14150,9 +13310,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the word He ordained for a thousand generations—\n"
-      ]
+      "content": ["the word He ordained for a thousand generations—\n"]
     },
     {
       "type": "para",
@@ -14170,9 +13328,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the oath He swore to Isaac. \n"
-      ]
+      "content": ["and the oath He swore to Isaac. \n"]
     },
     {
       "type": "para",
@@ -14190,9 +13346,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to Israel as an everlasting covenant: \n"
-      ]
+      "content": ["to Israel as an everlasting covenant: \n"]
     },
     {
       "type": "para",
@@ -14210,9 +13364,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "as the portion of your inheritance.’ \n"
-      ]
+      "content": ["as the portion of your inheritance.’ \n"]
     },
     {
       "type": "para",
@@ -14234,9 +13386,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "few indeed, and strangers in the land, \n"
-      ]
+      "content": ["few indeed, and strangers in the land, \n"]
     },
     {
       "type": "para",
@@ -14254,9 +13404,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "from one kingdom to another. \n"
-      ]
+      "content": ["from one kingdom to another. \n"]
     },
     {
       "type": "para",
@@ -14274,9 +13422,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He rebuked kings on their behalf: \n"
-      ]
+      "content": ["He rebuked kings on their behalf: \n"]
     },
     {
       "type": "para",
@@ -14294,23 +13440,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Do no harm to My prophets!’ \n"
-      ]
+      "content": ["Do no harm to My prophets!’ \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Sing to the LORD, All the Earth\n"
-      ]
+      "content": ["Sing to the LORD, All the Earth\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 96:1–13)\n"
-      ]
+      "content": ["(Psalm 96:1–13)\n"]
     },
     {
       "type": "para",
@@ -14332,9 +13472,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Proclaim His salvation day after day. \n"
-      ]
+      "content": ["Proclaim His salvation day after day. \n"]
     },
     {
       "type": "para",
@@ -14352,9 +13490,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "His wonderful deeds among all peoples. \n"
-      ]
+      "content": ["His wonderful deeds among all peoples. \n"]
     },
     {
       "type": "para",
@@ -14376,9 +13512,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He is to be feared above all gods. \n"
-      ]
+      "content": ["He is to be feared above all gods. \n"]
     },
     {
       "type": "para",
@@ -14396,9 +13530,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but it is the LORD who made the heavens. \n"
-      ]
+      "content": ["but it is the LORD who made the heavens. \n"]
     },
     {
       "type": "para",
@@ -14416,9 +13548,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "strength and joy fill His dwelling. \n"
-      ]
+      "content": ["strength and joy fill His dwelling. \n"]
     },
     {
       "type": "para",
@@ -14440,9 +13570,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "ascribe to the LORD glory and strength. \n"
-      ]
+      "content": ["ascribe to the LORD glory and strength. \n"]
     },
     {
       "type": "para",
@@ -14460,16 +13588,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "bring an offering and come before Him. \n"
-      ]
+      "content": ["bring an offering and come before Him. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Worship the LORD in the splendor of His holiness; \n"
-      ]
+      "content": ["Worship the LORD in the splendor of His holiness; \n"]
     },
     {
       "type": "para",
@@ -14487,16 +13611,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "The world is firmly established; \n"
-      ]
+      "content": ["The world is firmly established; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "it cannot be moved. \n"
-      ]
+      "content": ["it cannot be moved. \n"]
     },
     {
       "type": "para",
@@ -14518,23 +13638,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the earth rejoice. \n"
-      ]
+      "content": ["and the earth rejoice. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Let them say among the nations, \n"
-      ]
+      "content": ["Let them say among the nations, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "‘The LORD reigns!’ \n"
-      ]
+      "content": ["‘The LORD reigns!’ \n"]
     },
     {
       "type": "para",
@@ -14552,23 +13666,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and all that fills it; \n"
-      ]
+      "content": ["and all that fills it; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "let the fields exult, \n"
-      ]
+      "content": ["let the fields exult, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and all that is in them. \n"
-      ]
+      "content": ["and all that is in them. \n"]
     },
     {
       "type": "para",
@@ -14586,9 +13694,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for He is coming to judge the earth. \n"
-      ]
+      "content": ["for He is coming to judge the earth. \n"]
     },
     {
       "type": "para",
@@ -14620,9 +13726,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:34 "
-              ]
+              "content": ["16:34 "]
             },
             {
               "type": "char",
@@ -14653,23 +13757,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "gather and deliver us from the nations, \n"
-      ]
+      "content": ["gather and deliver us from the nations, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "that we may give thanks to Your holy name, \n"
-      ]
+      "content": ["that we may give thanks to Your holy name, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "that we may glory in Your praise.’ \n"
-      ]
+      "content": ["that we may glory in Your praise.’ \n"]
     },
     {
       "type": "para",
@@ -14691,9 +13789,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "from everlasting to everlasting.” \n"
-      ]
+      "content": ["from everlasting to everlasting.” \n"]
     },
     {
       "type": "para",
@@ -14702,16 +13798,12 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Then all the people said, “Amen!” and “Praise the LORD!” \n"
-      ]
+      "content": ["Then all the people said, “Amen!” and “Praise the LORD!” \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Worship before the Ark\n"
-      ]
+      "content": ["Worship before the Ark\n"]
     },
     {
       "type": "para",
@@ -14791,16 +13883,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:42 "
-              ]
+              "content": ["16:42 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or instruments for the sacred music"
-              ]
+              "content": ["Or instruments for the sacred music"]
             }
           ],
           "caller": "+"
@@ -14834,16 +13922,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Covenant with David\n"
-      ]
+      "content": ["God’s Covenant with David\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 7:1–17)\n"
-      ]
+      "content": ["(2 Samuel 7:1–17)\n"]
     },
     {
       "type": "para",
@@ -14916,9 +14000,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:5 "
-              ]
+              "content": ["17:5 "]
             },
             {
               "type": "char",
@@ -14946,16 +14028,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:6 "
-              ]
+              "content": ["17:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or judges; see verse 10."
-              ]
+              "content": ["Or judges; see verse 10."]
             }
           ],
           "caller": "+"
@@ -15070,16 +14148,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Prayer of Thanksgiving\n"
-      ]
+      "content": ["David’s Prayer of Thanksgiving\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 7:18–29)\n"
-      ]
+      "content": ["(2 Samuel 7:18–29)\n"]
     },
     {
       "type": "para",
@@ -15111,16 +14185,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:17 "
-              ]
+              "content": ["17:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or and have shown me future generations"
-              ]
+              "content": ["Or and have shown me future generations"]
             }
           ],
           "caller": "+"
@@ -15148,9 +14218,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:19 "
-              ]
+              "content": ["17:19 "]
             },
             {
               "type": "char",
@@ -15260,16 +14328,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Triumphs\n"
-      ]
+      "content": ["David’s Triumphs\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 8:1–14; Psalm 60:1–12)\n"
-      ]
+      "content": ["(2 Samuel 8:1–14; Psalm 60:1–12)\n"]
     },
     {
       "type": "para",
@@ -15328,16 +14392,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:3 "
-              ]
+              "content": ["18:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew his hand"
-              ]
+              "content": ["Hebrew his hand"]
             }
           ],
           "caller": "+"
@@ -15382,9 +14442,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:6 "
-              ]
+              "content": ["18:6 "]
             },
             {
               "type": "char",
@@ -15405,16 +14463,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:6 "
-              ]
+              "content": ["18:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the LORD saved David; also in verse 13"
-              ]
+              "content": ["Or the LORD saved David; also in verse 13"]
             }
           ],
           "caller": "+"
@@ -15452,9 +14506,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:8 "
-              ]
+              "content": ["18:8 "]
             },
             {
               "type": "char",
@@ -15492,9 +14544,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:9 "
-              ]
+              "content": ["18:9 "]
             },
             {
               "type": "char",
@@ -15522,16 +14572,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:10 "
-              ]
+              "content": ["18:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hadoram is a variant of Joram; see 2 Samuel 8:10."
-              ]
+              "content": ["Hadoram is a variant of Joram; see 2 Samuel 8:10."]
             }
           ],
           "caller": "+"
@@ -15573,16 +14619,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Officers\n"
-      ]
+      "content": ["David’s Officers\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 8:15–18)\n"
-      ]
+      "content": ["(2 Samuel 8:15–18)\n"]
     },
     {
       "type": "para",
@@ -15625,9 +14667,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Jehoshaphat son of Ahilud was the recorder; \n"
-      ]
+      "content": ["Jehoshaphat son of Ahilud was the recorder; \n"]
     },
     {
       "type": "para",
@@ -15652,9 +14692,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:16 "
-              ]
+              "content": ["18:16 "]
             },
             {
               "type": "char",
@@ -15686,9 +14724,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:16 "
-              ]
+              "content": ["18:16 "]
             },
             {
               "type": "char",
@@ -15740,16 +14776,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Messengers Disgraced\n"
-      ]
+      "content": ["David’s Messengers Disgraced\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 10:1–8)\n"
-      ]
+      "content": ["(2 Samuel 10:1–8)\n"]
     },
     {
       "type": "para",
@@ -15850,9 +14882,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:6 "
-              ]
+              "content": ["19:6 "]
             },
             {
               "type": "char",
@@ -15873,9 +14903,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:6 "
-              ]
+              "content": ["19:6 "]
             },
             {
               "type": "char",
@@ -15924,16 +14952,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Defeats Ammon and Aram\n"
-      ]
+      "content": ["David Defeats Ammon and Aram\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 10:9–19)\n"
-      ]
+      "content": ["(2 Samuel 10:9–19)\n"]
     },
     {
       "type": "para",
@@ -16030,16 +15054,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:16 "
-              ]
+              "content": ["19:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew the River"
-              ]
+              "content": ["Hebrew the River"]
             }
           ],
           "caller": "+"
@@ -16053,9 +15073,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:16 "
-              ]
+              "content": ["19:16 "]
             },
             {
               "type": "char",
@@ -16120,16 +15138,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Capture of Rabbah\n"
-      ]
+      "content": ["The Capture of Rabbah\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 12:26–31)\n"
-      ]
+      "content": ["(2 Samuel 12:26–31)\n"]
     },
     {
       "type": "para",
@@ -16154,16 +15168,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:1 "
-              ]
+              "content": ["20:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally At the turn of the year"
-              ]
+              "content": ["Literally At the turn of the year"]
             }
           ],
           "caller": "+"
@@ -16194,9 +15204,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:2 "
-              ]
+              "content": ["20:2 "]
             },
             {
               "type": "char",
@@ -16217,9 +15225,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:2 "
-              ]
+              "content": ["20:2 "]
             },
             {
               "type": "char",
@@ -16257,16 +15263,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:3 "
-              ]
+              "content": ["20:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or cut them"
-              ]
+              "content": ["Or cut them"]
             }
           ],
           "caller": "+"
@@ -16277,16 +15279,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Battles against the Philistines\n"
-      ]
+      "content": ["Battles against the Philistines\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 21:15–22)\n"
-      ]
+      "content": ["(2 Samuel 21:15–22)\n"]
     },
     {
       "type": "para",
@@ -16311,16 +15309,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:4 "
-              ]
+              "content": ["20:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Sippai is a variant of Saph; see 2 Samuel 21:18."
-              ]
+              "content": ["Sippai is a variant of Saph; see 2 Samuel 21:18."]
             }
           ],
           "caller": "+"
@@ -16334,9 +15328,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:4 "
-              ]
+              "content": ["20:4 "]
             },
             {
               "type": "char",
@@ -16374,9 +15366,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:5 "
-              ]
+              "content": ["20:5 "]
             },
             {
               "type": "char",
@@ -16441,16 +15431,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Military Census\n"
-      ]
+      "content": ["David’s Military Census\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 30:11–16; 2 Samuel 24:1–9)\n"
-      ]
+      "content": ["(Exodus 30:11–16; 2 Samuel 24:1–9)\n"]
     },
     {
       "type": "para",
@@ -16475,16 +15461,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:1 "
-              ]
+              "content": ["21:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Accuser or the Adversary"
-              ]
+              "content": ["That is, the Accuser or the Adversary"]
             }
           ],
           "caller": "+"
@@ -16550,16 +15532,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Judgment for David’s Sin\n"
-      ]
+      "content": ["Judgment for David’s Sin\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 24:10–14)\n"
-      ]
+      "content": ["(2 Samuel 24:10–14)\n"]
     },
     {
       "type": "para",
@@ -16649,9 +15627,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:12 "
-              ]
+              "content": ["21:12 "]
             },
             {
               "type": "char",
@@ -16686,16 +15662,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Plague on Israel\n"
-      ]
+      "content": ["A Plague on Israel\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 24:15–17)\n"
-      ]
+      "content": ["(2 Samuel 24:15–17)\n"]
     },
     {
       "type": "para",
@@ -16748,9 +15720,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:15 "
-              ]
+              "content": ["21:15 "]
             },
             {
               "type": "char",
@@ -16795,16 +15765,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:17 "
-              ]
+              "content": ["21:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or I, the shepherd, see 2 Samuel 24:17 DSS and LXX."
-              ]
+              "content": ["Or I, the shepherd, see 2 Samuel 24:17 DSS and LXX."]
             }
           ],
           "caller": "+"
@@ -16815,16 +15781,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Builds an Altar\n"
-      ]
+      "content": ["David Builds an Altar\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Samuel 24:18–25)\n"
-      ]
+      "content": ["(2 Samuel 24:18–25)\n"]
     },
     {
       "type": "para",
@@ -16948,9 +15910,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:25 "
-              ]
+              "content": ["21:25 "]
             },
             {
               "type": "char",
@@ -17029,9 +15989,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Preparations for the Temple\n"
-      ]
+      "content": ["Preparations for the Temple\n"]
     },
     {
       "type": "para",
@@ -17111,9 +16069,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Solomon Anointed to Build the Temple\n"
-      ]
+      "content": ["Solomon Anointed to Build the Temple\n"]
     },
     {
       "type": "para",
@@ -17169,9 +16125,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:9 "
-              ]
+              "content": ["22:9 "]
             },
             {
               "type": "char",
@@ -17247,9 +16201,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:14 "
-              ]
+              "content": ["22:14 "]
             },
             {
               "type": "char",
@@ -17270,9 +16222,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:14 "
-              ]
+              "content": ["22:14 "]
             },
             {
               "type": "char",
@@ -17351,9 +16301,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Divisions of the Levites\n"
-      ]
+      "content": ["The Divisions of the Levites\n"]
     },
     {
       "type": "para",
@@ -17409,16 +16357,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:4 "
-              ]
+              "content": ["23:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew does not include said David,"
-              ]
+              "content": ["Hebrew does not include said David,"]
             }
           ],
           "caller": "+"
@@ -17457,23 +16401,17 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Gershom, Kohath, and Merari. \n"
-      ]
+      "content": ["Gershom, Kohath, and Merari. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Gershonites\n"
-      ]
+      "content": ["The Gershonites\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 3:21–26; Numbers 4:21–28)\n"
-      ]
+      "content": ["(Numbers 3:21–26; Numbers 4:21–28)\n"]
     },
     {
       "type": "para",
@@ -17498,9 +16436,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:7 "
-              ]
+              "content": ["23:7 "]
             },
             {
               "type": "char",
@@ -17538,9 +16474,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:8 "
-              ]
+              "content": ["23:8 "]
             },
             {
               "type": "char",
@@ -17595,9 +16529,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:10 "
-              ]
+              "content": ["23:10 "]
             },
             {
               "type": "char",
@@ -17618,9 +16550,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:10 "
-              ]
+              "content": ["23:10 "]
             },
             {
               "type": "char",
@@ -17645,16 +16575,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Kohathites\n"
-      ]
+      "content": ["The Kohathites\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 3:27–32; Numbers 4:1–20)\n"
-      ]
+      "content": ["(Numbers 3:27–32; Numbers 4:1–20)\n"]
     },
     {
       "type": "para",
@@ -17802,16 +16728,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Merarites\n"
-      ]
+      "content": ["The Merarites\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 3:33–37; Numbers 4:29–33)\n"
-      ]
+      "content": ["(Numbers 3:33–37; Numbers 4:29–33)\n"]
     },
     {
       "type": "para",
@@ -17871,9 +16793,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:23 "
-              ]
+              "content": ["23:23 "]
             },
             {
               "type": "char",
@@ -17891,9 +16811,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Levite Duties Revised\n"
-      ]
+      "content": ["Levite Duties Revised\n"]
     },
     {
       "type": "para",
@@ -18007,9 +16925,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Twenty-Four Divisions of Priests\n"
-      ]
+      "content": ["Twenty-Four Divisions of Priests\n"]
     },
     {
       "type": "para",
@@ -18117,9 +17033,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the second to Jedaiah, \n"
-      ]
+      "content": ["the second to Jedaiah, \n"]
     },
     {
       "type": "para",
@@ -18145,9 +17059,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the fourth to Seorim, \n"
-      ]
+      "content": ["the fourth to Seorim, \n"]
     },
     {
       "type": "para",
@@ -18173,9 +17085,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the sixth to Mijamin, \n"
-      ]
+      "content": ["the sixth to Mijamin, \n"]
     },
     {
       "type": "para",
@@ -18201,9 +17111,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the eighth to Abijah, \n"
-      ]
+      "content": ["the eighth to Abijah, \n"]
     },
     {
       "type": "para",
@@ -18229,9 +17137,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the tenth to Shecaniah, \n"
-      ]
+      "content": ["the tenth to Shecaniah, \n"]
     },
     {
       "type": "para",
@@ -18257,9 +17163,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the twelfth to Jakim, \n"
-      ]
+      "content": ["the twelfth to Jakim, \n"]
     },
     {
       "type": "para",
@@ -18285,9 +17189,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the fourteenth to Jeshebeab, \n"
-      ]
+      "content": ["the fourteenth to Jeshebeab, \n"]
     },
     {
       "type": "para",
@@ -18313,9 +17215,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the sixteenth to Immer, \n"
-      ]
+      "content": ["the sixteenth to Immer, \n"]
     },
     {
       "type": "para",
@@ -18341,9 +17241,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the eighteenth to Happizzez, \n"
-      ]
+      "content": ["the eighteenth to Happizzez, \n"]
     },
     {
       "type": "para",
@@ -18369,9 +17267,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the twentieth to Jehezkel, \n"
-      ]
+      "content": ["the twentieth to Jehezkel, \n"]
     },
     {
       "type": "para",
@@ -18397,9 +17293,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the twenty-second to Gamul, \n"
-      ]
+      "content": ["the twenty-second to Gamul, \n"]
     },
     {
       "type": "para",
@@ -18425,9 +17319,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the twenty-fourth to Maaziah. \n"
-      ]
+      "content": ["and the twenty-fourth to Maaziah. \n"]
     },
     {
       "type": "para",
@@ -18449,9 +17341,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Rest of the Levites\n"
-      ]
+      "content": ["The Rest of the Levites\n"]
     },
     {
       "type": "para",
@@ -18487,9 +17377,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:20 "
-              ]
+              "content": ["24:20 "]
             },
             {
               "type": "char",
@@ -18511,9 +17399,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "from the sons of Shubael: Jehdeiah. \n"
-      ]
+      "content": ["from the sons of Shubael: Jehdeiah. \n"]
     },
     {
       "type": "para",
@@ -18538,9 +17424,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:21 "
-              ]
+              "content": ["24:21 "]
             },
             {
               "type": "char",
@@ -18578,9 +17462,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:22 "
-              ]
+              "content": ["24:22 "]
             },
             {
               "type": "char",
@@ -18602,9 +17484,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "from the sons of Shelomoth: Jahath. \n"
-      ]
+      "content": ["from the sons of Shelomoth: Jahath. \n"]
     },
     {
       "type": "para",
@@ -18629,9 +17509,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:23 "
-              ]
+              "content": ["24:23 "]
             },
             {
               "type": "char",
@@ -18670,9 +17548,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "from the sons of Micah: Shamir. \n"
-      ]
+      "content": ["from the sons of Micah: Shamir. \n"]
     },
     {
       "type": "para",
@@ -18698,9 +17574,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "from the sons of Isshiah: Zechariah. \n"
-      ]
+      "content": ["from the sons of Isshiah: Zechariah. \n"]
     },
     {
       "type": "para",
@@ -18726,9 +17600,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The son of Jaaziah: Beno. \n"
-      ]
+      "content": ["The son of Jaaziah: Beno. \n"]
     },
     {
       "type": "para",
@@ -18804,9 +17676,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:30 "
-              ]
+              "content": ["24:30 "]
             },
             {
               "type": "char",
@@ -18848,9 +17718,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Twenty-Four Divisions of Musicians\n"
-      ]
+      "content": ["Twenty-Four Divisions of Musicians\n"]
     },
     {
       "type": "para",
@@ -18909,9 +17777,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "25:3 "
-              ]
+              "content": ["25:3 "]
             },
             {
               "type": "char",
@@ -18949,16 +17815,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "25:4 "
-              ]
+              "content": ["25:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Shebuel is a variant of Shubael; see verse 20."
-              ]
+              "content": ["Shebuel is a variant of Shubael; see verse 20."]
             }
           ],
           "caller": "+"
@@ -18972,16 +17834,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "25:4 "
-              ]
+              "content": ["25:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Jerimoth is a variant of Jeremoth; see verse 22."
-              ]
+              "content": ["Jerimoth is a variant of Jeremoth; see verse 22."]
             }
           ],
           "caller": "+"
@@ -19061,9 +17919,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "25:9 "
-              ]
+              "content": ["25:9 "]
             },
             {
               "type": "char",
@@ -19129,16 +17985,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "25:11 "
-              ]
+              "content": ["25:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Izri is a variant of Zeri; see verse 3."
-              ]
+              "content": ["Izri is a variant of Zeri; see verse 3."]
             }
           ],
           "caller": "+"
@@ -19203,16 +18055,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "25:14 "
-              ]
+              "content": ["25:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Jesarelah is a variant of Asarelah; see verse 2."
-              ]
+              "content": ["Jesarelah is a variant of Asarelah; see verse 2."]
             }
           ],
           "caller": "+"
@@ -19294,16 +18142,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "25:18 "
-              ]
+              "content": ["25:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Azarel is a variant of Uzziel; see verse 4."
-              ]
+              "content": ["Azarel is a variant of Uzziel; see verse 4."]
             }
           ],
           "caller": "+"
@@ -19385,16 +18229,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "25:22 "
-              ]
+              "content": ["25:22 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Jeremoth is a variant of Jerimoth; see verse 4."
-              ]
+              "content": ["Jeremoth is a variant of Jerimoth; see verse 4."]
             }
           ],
           "caller": "+"
@@ -19564,9 +18404,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Divisions of the Gatekeepers\n"
-      ]
+      "content": ["The Divisions of the Gatekeepers\n"]
     },
     {
       "type": "para",
@@ -19763,16 +18601,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:14 "
-              ]
+              "content": ["26:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Shelemiah is a variant of Meshelemiah; see verse 2."
-              ]
+              "content": ["Shelemiah is a variant of Meshelemiah; see verse 2."]
             }
           ],
           "caller": "+"
@@ -19831,16 +18665,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:16 "
-              ]
+              "content": ["26:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or on the upper road"
-              ]
+              "content": ["Or on the upper road"]
             }
           ],
           "caller": "+"
@@ -19879,16 +18709,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:18 "
-              ]
+              "content": ["26:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew parbar; twice in this verse"
-              ]
+              "content": ["Hebrew parbar; twice in this verse"]
             }
           ],
           "caller": "+"
@@ -19916,9 +18742,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Treasurers, Officers, and Judges\n"
-      ]
+      "content": ["The Treasurers, Officers, and Judges\n"]
     },
     {
       "type": "para",
@@ -19943,16 +18767,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:20 "
-              ]
+              "content": ["26:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX; Hebrew As for the Levites, Ahijah was"
-              ]
+              "content": ["LXX; Hebrew As for the Levites, Ahijah was"]
             }
           ],
           "caller": "+"
@@ -19973,16 +18793,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:21 "
-              ]
+              "content": ["26:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Ladan is a variant of Libni; see 1 Chronicles 6:17."
-              ]
+              "content": ["Ladan is a variant of Libni; see 1 Chronicles 6:17."]
             }
           ],
           "caller": "+"
@@ -19996,9 +18812,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:21 "
-              ]
+              "content": ["26:21 "]
             },
             {
               "type": "char",
@@ -20067,9 +18881,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:25 "
-              ]
+              "content": ["26:25 "]
             },
             {
               "type": "char",
@@ -20128,9 +18940,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:29 "
-              ]
+              "content": ["26:29 "]
             },
             {
               "type": "char",
@@ -20175,9 +18985,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:31 "
-              ]
+              "content": ["26:31 "]
             },
             {
               "type": "char",
@@ -20208,9 +19016,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Twelve Captains for Twelve Months \n"
-      ]
+      "content": ["Twelve Captains for Twelve Months \n"]
     },
     {
       "type": "para",
@@ -20276,16 +19082,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:4 "
-              ]
+              "content": ["27:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Dodai is a variant of Dodo; see 2 Samuel 23:9."
-              ]
+              "content": ["Dodai is a variant of Dodo; see 2 Samuel 23:9."]
             }
           ],
           "caller": "+"
@@ -20357,9 +19159,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:8 "
-              ]
+              "content": ["27:8 "]
             },
             {
               "type": "char",
@@ -20499,9 +19299,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:15 "
-              ]
+              "content": ["27:15 "]
             },
             {
               "type": "char",
@@ -20519,9 +19317,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Leaders of the Twelve Tribes\n"
-      ]
+      "content": ["The Leaders of the Twelve Tribes\n"]
     },
     {
       "type": "para",
@@ -20547,9 +19343,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Over the Reubenites was Eliezer son of Zichri; \n"
-      ]
+      "content": ["Over the Reubenites was Eliezer son of Zichri; \n"]
     },
     {
       "type": "para",
@@ -20558,9 +19352,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "over the Simeonites was Shephatiah son of Maacah; \n"
-      ]
+      "content": ["over the Simeonites was Shephatiah son of Maacah; \n"]
     },
     {
       "type": "para",
@@ -20586,9 +19378,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "over Aaron was Zadok; \n"
-      ]
+      "content": ["over Aaron was Zadok; \n"]
     },
     {
       "type": "para",
@@ -20614,9 +19404,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "over Issachar was Omri son of Michael; \n"
-      ]
+      "content": ["over Issachar was Omri son of Michael; \n"]
     },
     {
       "type": "para",
@@ -20642,9 +19430,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "over Naphtali was Jerimoth son of Azriel; \n"
-      ]
+      "content": ["over Naphtali was Jerimoth son of Azriel; \n"]
     },
     {
       "type": "para",
@@ -20698,9 +19484,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "over Benjamin was Jaasiel son of Abner; \n"
-      ]
+      "content": ["over Benjamin was Jaasiel son of Abner; \n"]
     },
     {
       "type": "para",
@@ -20722,9 +19506,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "These were the leaders of the tribes of Israel. \n"
-      ]
+      "content": ["These were the leaders of the tribes of Israel. \n"]
     },
     {
       "type": "para",
@@ -20753,9 +19535,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Various Overseers\n"
-      ]
+      "content": ["David’s Various Overseers\n"]
     },
     {
       "type": "para",
@@ -20853,9 +19633,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:28 "
-              ]
+              "content": ["27:28 "]
             },
             {
               "type": "char",
@@ -20877,9 +19655,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Joash was in charge of the stores of olive oil. \n"
-      ]
+      "content": ["Joash was in charge of the stores of olive oil. \n"]
     },
     {
       "type": "para",
@@ -20933,9 +19709,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Jehdeiah the Meronothite was in charge of the donkeys. \n"
-      ]
+      "content": ["Jehdeiah the Meronothite was in charge of the donkeys. \n"]
     },
     {
       "type": "para",
@@ -20968,9 +19742,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Counselors\n"
-      ]
+      "content": ["The Counselors\n"]
     },
     {
       "type": "para",
@@ -20996,9 +19768,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Jehiel son of Hachmoni attended to the sons of the king. \n"
-      ]
+      "content": ["Jehiel son of Hachmoni attended to the sons of the king. \n"]
     },
     {
       "type": "para",
@@ -21024,9 +19794,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Hushai the Archite was the king’s friend. \n"
-      ]
+      "content": ["Hushai the Archite was the king’s friend. \n"]
     },
     {
       "type": "para",
@@ -21052,9 +19820,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Joab was the commander of the king’s army. \n"
-      ]
+      "content": ["Joab was the commander of the king’s army. \n"]
     },
     {
       "type": "chapter",
@@ -21065,9 +19831,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Commissions Solomon\n"
-      ]
+      "content": ["David Commissions Solomon\n"]
     },
     {
       "type": "para",
@@ -21182,9 +19946,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Plans for the Temple\n"
-      ]
+      "content": ["The Plans for the Temple\n"]
     },
     {
       "type": "para",
@@ -21209,16 +19971,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:11 "
-              ]
+              "content": ["28:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX; Hebrew does not include of the temple."
-              ]
+              "content": ["LXX; Hebrew does not include of the temple."]
             }
           ],
           "caller": "+"
@@ -21232,16 +19990,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:11 "
-              ]
+              "content": ["28:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or atonement cover"
-              ]
+              "content": ["Or atonement cover"]
             }
           ],
           "caller": "+"
@@ -21262,16 +20016,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:12 "
-              ]
+              "content": ["28:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or had with him by the Spirit"
-              ]
+              "content": ["Or had with him by the Spirit"]
             }
           ],
           "caller": "+"
@@ -21383,9 +20133,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the weight of each gold dish; \n"
-      ]
+      "content": ["the weight of each gold dish; \n"]
     },
     {
       "type": "para",
@@ -21394,9 +20142,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the weight of each silver bowl; \n"
-      ]
+      "content": ["the weight of each silver bowl; \n"]
     },
     {
       "type": "para",
@@ -21476,9 +20222,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Offerings for the Temple\n"
-      ]
+      "content": ["Offerings for the Temple\n"]
     },
     {
       "type": "para",
@@ -21534,9 +20278,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "29:4 "
-              ]
+              "content": ["29:4 "]
             },
             {
               "type": "char",
@@ -21557,9 +20299,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "29:4 "
-              ]
+              "content": ["29:4 "]
             },
             {
               "type": "char",
@@ -21611,9 +20351,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "29:7 "
-              ]
+              "content": ["29:7 "]
             },
             {
               "type": "char",
@@ -21634,9 +20372,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "29:7 "
-              ]
+              "content": ["29:7 "]
             },
             {
               "type": "char",
@@ -21657,9 +20393,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "29:7 "
-              ]
+              "content": ["29:7 "]
             },
             {
               "type": "char",
@@ -21680,9 +20414,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "29:7 "
-              ]
+              "content": ["29:7 "]
             },
             {
               "type": "char",
@@ -21703,9 +20435,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "29:7 "
-              ]
+              "content": ["29:7 "]
             },
             {
               "type": "char",
@@ -21733,9 +20463,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "29:8 "
-              ]
+              "content": ["29:8 "]
             },
             {
               "type": "char",
@@ -21760,9 +20488,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Prayer of Blessing\n"
-      ]
+      "content": ["David’s Prayer of Blessing\n"]
     },
     {
       "type": "para",
@@ -21937,16 +20663,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Solomon Anointed King\n"
-      ]
+      "content": ["Solomon Anointed King\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Kings 1:32–40)\n"
-      ]
+      "content": ["(1 Kings 1:32–40)\n"]
     },
     {
       "type": "para",
@@ -22027,16 +20749,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Reign and Death\n"
-      ]
+      "content": ["David’s Reign and Death\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Kings 2:10–12)\n"
-      ]
+      "content": ["(1 Kings 2:10–12)\n"]
     },
     {
       "type": "para",

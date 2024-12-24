@@ -1,6 +1,6 @@
 'use client';
 
-import React, { type ComponentPropsWithoutRef } from 'react';
+import type { ComponentPropsWithoutRef } from 'react';
 
 import { cn } from '@udecode/cn';
 import {
@@ -11,8 +11,8 @@ import { PlusIcon } from 'lucide-react';
 
 import { buttonVariants } from './button';
 import {
-  type TColor,
   ColorDropdownMenuItems,
+  type TColor,
 } from './color-dropdown-menu-items';
 import { ColorInput } from './color-input';
 
@@ -59,7 +59,7 @@ export function ColorCustom({
                 size: 'icon',
                 variant: 'outline',
               }),
-              'absolute bottom-2 right-2 top-1.5 flex size-7 items-center justify-center rounded-full'
+              'absolute top-1.5 right-2 bottom-2 flex size-7 items-center justify-center rounded-full'
             )}
             {...menuItemProps}
           >

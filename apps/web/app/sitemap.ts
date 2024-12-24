@@ -1,14 +1,14 @@
-import fs from "node:fs";
-import type { MetadataRoute } from "next";
+import fs from 'node:fs';
+import type { MetadataRoute } from 'next';
 
-import { blog, legal } from "@lamp/cms";
-import { env } from "@lamp/env";
+import { blog, legal } from '@lamp/cms';
+import { env } from '@lamp/env';
 
-const appFolders = fs.readdirSync("app", { withFileTypes: true });
+const appFolders = fs.readdirSync('app', { withFileTypes: true });
 const pages = appFolders
   .filter((file) => file.isDirectory())
-  .filter((folder) => !folder.name.startsWith("_"))
-  .filter((folder) => !folder.name.startsWith("("))
+  .filter((folder) => !folder.name.startsWith('_'))
+  .filter((folder) => !folder.name.startsWith('('))
   .map((folder) => folder.name);
 
 const blogs = (await blog.getPosts()).map((post) => post._slug);
@@ -32,7 +32,7 @@ const sitemap = async (): Promise<MetadataRoute.Sitemap> => [
   ...legals.map((legal) => ({
     url: new URL(
       `legal/${legal}`,
-      env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL,
+      env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
     ).href,
     lastModified: new Date(),
   })),

@@ -1,20 +1,20 @@
-"use client";
+'use client';
 
-import { useEffect, useRef, useState } from "react";
-import { useParams } from "next/navigation";
-import { AnimatePresence } from "motion/react";
+import { AnimatePresence } from 'motion/react';
+import { useParams } from 'next/navigation';
+import { useEffect, useRef, useState } from 'react';
 
-import type { Chat } from "@lamp/db/schema";
-import { useChat } from "@lamp/ai/react";
-import { handleError } from "@lamp/ui/lib/utils";
+import { useChat } from '@lamp/ai/react';
+import type { Chat } from '@lamp/db/schema';
+import { handleError } from '@lamp/ui/lib/utils';
 
-import { ChatHeader } from "~/components/chat/chat-header";
-import { ChatInput } from "~/components/chat/chat-input";
-import { ChatMessages } from "~/components/chat/chat-messages";
-import { Toolbar } from "~/components/chat/toolbar";
-import { convertToUIMessages } from "~/lib/utils";
-import { useChatStore } from "~/providers/chat-store-provider";
-import { api } from "~/trpc/react";
+import { ChatHeader } from '~/components/chat/chat-header';
+import { ChatInput } from '~/components/chat/chat-input';
+import { ChatMessages } from '~/components/chat/chat-messages';
+import { Toolbar } from '~/components/chat/toolbar';
+import { convertToUIMessages } from '~/lib/utils';
+import { useChatStore } from '~/providers/chat-store-provider';
+import { api } from '~/trpc/react';
 
 interface ChatPanelProps {
   initialChats?: Chat[];
@@ -28,22 +28,22 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
   // Fetch chats dynamically so we always have updated list
   const { data: chatsData } = api.chat.byStudy.useQuery(
     { studyId },
-    { initialData: { chats: initialChats ?? [] } },
+    { initialData: { chats: initialChats ?? [] } }
   );
 
   const chats = chatsData.chats;
 
   const [selectedChatId, setSelectedChatId] = useState<string | undefined>(
-    chats[0]?.id,
+    chats[0]?.id
   );
 
   // Use onSuccess to handle message updates rather than a useEffect
   const { data: messageData, isLoading: isLoadingMessages } =
     api.message.byChatId.useQuery(
-      { chatId: selectedChatId ?? "" },
+      { chatId: selectedChatId ?? '' },
       {
         enabled: !!selectedChatId,
-      },
+      }
     );
 
   const {
@@ -56,7 +56,7 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
     isLoading,
     stop,
   } = useChat({
-    api: "/api/chat",
+    api: '/api/chat',
     body: {
       studyId,
       chatId: selectedChatId,
@@ -64,10 +64,10 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
     },
     initialMessages: [],
     onFinish() {
-      void utils.message.byChatId.invalidate({
-        chatId: selectedChatId ?? "",
+      utils.message.byChatId.invalidate({
+        chatId: selectedChatId ?? '',
       });
-      void utils.chat.byStudy.invalidate({ studyId });
+      utils.chat.byStudy.invalidate({ studyId });
     },
   });
 
@@ -88,11 +88,17 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
   const [chatInputHeight, setChatInputHeight] = useState(0);
   const chatInputRef = useRef<HTMLDivElement>(null);
 
+  // Keep this effect for initial height measurement
   useEffect(() => {
     if (chatInputRef.current) {
       setChatInputHeight(chatInputRef.current.offsetHeight);
     }
-  }, [input]);
+  }, []);
+
+  // Add handler for textarea height changes
+  const handleInputHeightChange = (height: number) => {
+    setChatInputHeight(height);
+  };
 
   const isLoadingAny = isLoadingMessages;
   const hasNoMessages = messages.length === 0 && !isLoadingAny;
@@ -101,7 +107,7 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
   const createChatMutation = api.chat.create.useMutation({
     onSuccess: (data) => {
       // Invalidate the chat list query to refresh the data
-      void utils.chat.byStudy.invalidate();
+      utils.chat.byStudy.invalidate();
       // Select the newly created chat
       setSelectedChatId(data.chat?.id);
       // Reset messages for the new chat
@@ -141,16 +147,18 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
   const handleNewChat = () => {
     createChatMutation.mutate({
       studyId,
-      title: "New Chat",
+      title: 'New Chat',
     });
   };
 
   const handleDeleteChat = () => {
-    if (!selectedChatId) return;
+    if (!selectedChatId) {
+      return;
+    }
 
     if (
       window.confirm(
-        "Are you sure you want to delete this chat? This action cannot be undone.",
+        'Are you sure you want to delete this chat? This action cannot be undone.'
       )
     ) {
       deleteChatMutation.mutate({ id: selectedChatId });
@@ -200,10 +208,11 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
                 isLoading={isLoading || isLoadingAny}
                 onChange={handleInputChange}
                 onSubmit={handleSubmit}
+                onHeightChange={handleInputHeightChange}
               />
             </div>
           </div>
-          <p className="py-2 text-center text-xs text-muted-foreground"></p>
+          <p className="py-2 text-center text-muted-foreground text-xs" />
         </div>
       </div>
     </div>

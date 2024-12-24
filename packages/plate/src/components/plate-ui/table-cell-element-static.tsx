@@ -1,4 +1,4 @@
-import React from 'react';
+import type React from 'react';
 
 import type { SlateElementProps } from '@udecode/plate-common';
 
@@ -24,9 +24,9 @@ export function TableCellElementStatic({
 
   const cellPath = findNode(editor!, {
     match: (n) => isElement(n) && n === element,
-  })![1];
+  })?.[1];
 
-  const rowPath = getParentNode(editor!, cellPath)![1];
+  const rowPath = getParentNode(editor!, cellPath)?.[1];
 
   const borders = getTableCellBorders(element, {
     isFirstCell: cellPath.at(-1) === 0,
@@ -46,10 +46,10 @@ export function TableCellElementStatic({
           "before:absolute before:box-border before:select-none before:content-['']",
           borders &&
             cn(
-              borders.bottom?.size && `before:border-b before:border-b-border`,
-              borders.right?.size && `before:border-r before:border-r-border`,
-              borders.left?.size && `before:border-l before:border-l-border`,
-              borders.top?.size && `before:border-t before:border-t-border`
+              borders.bottom?.size && 'before:border-b before:border-b-border',
+              borders.right?.size && 'before:border-r before:border-r-border',
+              borders.left?.size && 'before:border-l before:border-l-border',
+              borders.top?.size && 'before:border-t before:border-t-border'
             )
         )
       )}

@@ -1,21 +1,21 @@
-"use server";
+'use server';
 
-import { cookies } from "next/headers";
-import { z } from "zod";
+import { cookies } from 'next/headers';
+import { z } from 'zod';
 
-import type { CoreUserMessage } from "@lamp/ai";
-import { customModel, generateText } from "@lamp/ai";
-import { updateChatVisiblityById } from "@lamp/db/queries";
-import { chatIdSchema, chatVisibilitySchema } from "@lamp/db/schema";
-import { createClient } from "@lamp/supabase/server";
+import type { CoreUserMessage } from '@lamp/ai';
+import { customModel, generateText } from '@lamp/ai';
+import { updateChatVisiblityById } from '@lamp/db/queries';
+import { chatIdSchema, chatVisibilitySchema } from '@lamp/db/schema';
+import { createClient } from '@lamp/supabase/server';
 
-import { actionClient } from "~/lib/safe-action";
+import { actionClient } from '~/lib/safe-action';
 
 export const saveModelId = actionClient
   .schema(z.object({ model: z.string() }))
   .action(async ({ parsedInput: { model } }) => {
     const cookieStore = await cookies();
-    cookieStore.set("model-id", model);
+    cookieStore.set('model-id', model);
   });
 
 export async function generateTitleFromUserMessage({
@@ -24,7 +24,7 @@ export async function generateTitleFromUserMessage({
   message: CoreUserMessage;
 }) {
   const { text: title } = await generateText({
-    model: customModel("gpt-4o-mini"),
+    model: customModel('gpt-4o-mini'),
     system: `\n
       - you will generate a short title based on the first message a user begins a conversation with
       - ensure it is not more than 80 characters long
@@ -45,7 +45,7 @@ export const updateChatVisibility = actionClient
     } = await supabase.auth.getUser();
 
     if (!user) {
-      throw new Error("Unauthorized");
+      throw new Error('Unauthorized');
     }
 
     await updateChatVisiblityById({

@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "2TH"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "2 Thessalonians\n"
-      ]
+      "content": ["2 Thessalonians\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "2 Thessalonians\n"
-      ]
+      "content": ["2 Thessalonians\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "2 Thessalonians\n"
-      ]
+      "content": ["2 Thessalonians\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Greetings to the Thessalonians\n"
-      ]
+      "content": ["Greetings to the Thessalonians\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Thessalonians 1:1–10)\n"
-      ]
+      "content": ["(1 Thessalonians 1:1–10)\n"]
     },
     {
       "type": "para",
@@ -74,16 +62,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:1 "
-              ]
+              "content": ["1:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, Silas"
-              ]
+              "content": ["That is, Silas"]
             }
           ],
           "caller": "+"
@@ -125,16 +109,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:2 "
-              ]
+              "content": ["1:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL, NE, and WH God the Father"
-              ]
+              "content": ["SBL, NE, and WH God the Father"]
             }
           ],
           "caller": "+"
@@ -169,9 +149,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Christ’s Coming\n"
-      ]
+      "content": ["Christ’s Coming\n"]
     },
     {
       "type": "para",
@@ -255,16 +233,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:12 "
-              ]
+              "content": ["1:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the grace of our God and Lord, Jesus Christ."
-              ]
+              "content": ["Or the grace of our God and Lord, Jesus Christ."]
             }
           ],
           "caller": "+"
@@ -281,9 +255,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Man of Lawlessness\n"
-      ]
+      "content": ["The Man of Lawlessness\n"]
     },
     {
       "type": "para",
@@ -402,9 +374,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Stand Firm\n"
-      ]
+      "content": ["Stand Firm\n"]
     },
     {
       "type": "para",
@@ -429,16 +399,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:13 "
-              ]
+              "content": ["2:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or God has chosen you as the firstfruits"
-              ]
+              "content": ["Or God has chosen you as the firstfruits"]
             }
           ],
           "caller": "+"
@@ -493,9 +459,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Request for Prayer\n"
-      ]
+      "content": ["Request for Prayer\n"]
     },
     {
       "type": "para",
@@ -534,16 +498,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:3 "
-              ]
+              "content": ["3:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or from evil"
-              ]
+              "content": ["Or from evil"]
             }
           ],
           "caller": "+"
@@ -568,9 +528,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Warning against Idleness\n"
-      ]
+      "content": ["A Warning against Idleness\n"]
     },
     {
       "type": "para",
@@ -595,16 +553,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:6 "
-              ]
+              "content": ["3:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or they received"
-              ]
+              "content": ["Or they received"]
             }
           ],
           "caller": "+"
@@ -698,16 +652,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Signature and Final Greetings\n"
-      ]
+      "content": ["Signature and Final Greetings\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Corinthians 16:19–24; Colossians 4:15–18)\n"
-      ]
+      "content": ["(1 Corinthians 16:19–24; Colossians 4:15–18)\n"]
     },
     {
       "type": "para",
@@ -766,16 +716,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:18 "
-              ]
+              "content": ["3:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include Amen."
-              ]
+              "content": ["BYZ and TR include Amen."]
             }
           ],
           "caller": "+"

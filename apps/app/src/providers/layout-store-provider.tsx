@@ -1,16 +1,16 @@
-"use client";
+'use client';
 
-import type { ReactNode } from "react";
-import { createContext, useContext, useEffect, useRef } from "react";
-import { useStore } from "zustand";
+import type { ReactNode } from 'react';
+import { createContext, useContext, useEffect, useRef } from 'react';
+import { useStore } from 'zustand';
 
-import type { LayoutState, LayoutStore } from "~/stores/layout-store";
-import { createLayoutStore } from "~/stores/layout-store";
+import type { LayoutState, LayoutStore } from '~/stores/layout-store';
+import { createLayoutStore } from '~/stores/layout-store';
 
 export type LayoutStoreApi = ReturnType<typeof createLayoutStore>;
 
 export const LayoutStoreContext = createContext<LayoutStoreApi | undefined>(
-  undefined,
+  undefined
 );
 
 export interface LayoutStoreProviderProps {
@@ -30,7 +30,6 @@ export function LayoutStoreProvider({
 
   useEffect(() => {
     storeRef.current?.setState({ isHydrated: true });
-    console.log("LayoutStoreProvider: Hydrated");
   }, []);
 
   return (
@@ -44,7 +43,7 @@ export function useLayoutStore<T>(selector: (store: LayoutStore) => T): T {
   const store = useContext(LayoutStoreContext);
 
   if (!store) {
-    throw new Error("useLayoutStore must be used within a LayoutStoreProvider");
+    throw new Error('useLayoutStore must be used within a LayoutStoreProvider');
   }
 
   return useStore(store, selector);

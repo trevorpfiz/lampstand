@@ -1,16 +1,16 @@
-"use client";
+'use client';
 
-import { useEffect, useState } from "react";
-import { LogOut, Settings, Sparkles } from "lucide-react";
+import { LogOut, Settings, Sparkles } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
-import type { User } from "@lamp/supabase";
-import { createClient } from "@lamp/supabase/client";
+import type { User } from '@lamp/supabase';
+import { createClient } from '@lamp/supabase/client';
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@lamp/ui/components/avatar";
-import { Button } from "@lamp/ui/components/button";
+} from '@lamp/ui/components/avatar';
+import { Button } from '@lamp/ui/components/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -19,15 +19,15 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@lamp/ui/components/dropdown-menu";
+} from '@lamp/ui/components/dropdown-menu';
 
-import { signOut } from "~/lib/actions/auth";
-import { getNameFromUser } from "~/lib/utils";
-import { useSettingsDialogStore } from "~/providers/settings-dialog-store-provider";
+import { signOut } from '~/lib/actions/auth';
+import { getNameFromUser } from '~/lib/utils';
+import { useSettingsDialogStore } from '~/providers/settings-dialog-store-provider';
 
 function UserButton() {
   const openSettingsDialog = useSettingsDialogStore(
-    (state) => state.openSettingsDialog,
+    (state) => state.openSettingsDialog
   );
   const [open, setOpen] = useState(false);
   const [user, setUser] = useState<User | null>(null);
@@ -41,15 +41,15 @@ function UserButton() {
       setUser(user);
     };
 
-    void fetchUser();
+    fetchUser();
   }, []);
 
-  const name = user ? getNameFromUser(user) : "User";
-  const displayEmail = user?.email ?? "email";
+  const name = user ? getNameFromUser(user) : 'User';
+  const displayEmail = user?.email ?? 'email';
 
   const handleSettings = () => {
     setOpen(false);
-    openSettingsDialog("general");
+    openSettingsDialog('general');
   };
 
   const handleSignOut = async () => {
@@ -77,10 +77,10 @@ function UserButton() {
       >
         <DropdownMenuLabel>
           <div className="flex flex-col space-y-1">
-            <p className="truncate text-sm font-medium leading-none text-foreground">
+            <p className="truncate font-medium text-foreground text-sm leading-none">
               {name}
             </p>
-            <p className="truncate text-xs leading-none text-muted-foreground">
+            <p className="truncate text-muted-foreground text-xs leading-none">
               {displayEmail}
             </p>
           </div>

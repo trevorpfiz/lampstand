@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "1TI"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "1 Timothy\n"
-      ]
+      "content": ["1 Timothy\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "1 Timothy\n"
-      ]
+      "content": ["1 Timothy\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "1 Timothy\n"
-      ]
+      "content": ["1 Timothy\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paul’s Greeting to Timothy\n"
-      ]
+      "content": ["Paul’s Greeting to Timothy\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Timothy 1:1–2)\n"
-      ]
+      "content": ["(2 Timothy 1:1–2)\n"]
     },
     {
       "type": "para",
@@ -99,16 +87,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Correcting False Teachers\n"
-      ]
+      "content": ["Correcting False Teachers\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Titus 1:10–16)\n"
-      ]
+      "content": ["(Titus 1:10–16)\n"]
     },
     {
       "type": "para",
@@ -140,9 +124,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:4 "
-              ]
+              "content": ["1:4 "]
             },
             {
               "type": "char",
@@ -225,16 +207,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:10 "
-              ]
+              "content": ["1:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or for kidnappers"
-              ]
+              "content": ["Or for kidnappers"]
             }
           ],
           "caller": "+"
@@ -252,9 +230,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Grace to Paul\n"
-      ]
+      "content": ["God’s Grace to Paul\n"]
     },
     {
       "type": "para",
@@ -358,9 +334,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Call to Prayer\n"
-      ]
+      "content": ["A Call to Prayer\n"]
     },
     {
       "type": "para",
@@ -454,16 +428,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:8 "
-              ]
+              "content": ["2:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or in every place (of worship)"
-              ]
+              "content": ["Or in every place (of worship)"]
             }
           ],
           "caller": "+"
@@ -474,9 +444,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Instructions to Women\n"
-      ]
+      "content": ["Instructions to Women\n"]
     },
     {
       "type": "para",
@@ -525,16 +493,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:11 "
-              ]
+              "content": ["2:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or wife; also in verse 12"
-              ]
+              "content": ["Or wife; also in verse 12"]
             }
           ],
           "caller": "+"
@@ -555,16 +519,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:12 "
-              ]
+              "content": ["2:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or over her husband"
-              ]
+              "content": ["Or over her husband"]
             }
           ],
           "caller": "+"
@@ -602,16 +562,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Qualifications for Overseers\n"
-      ]
+      "content": ["Qualifications for Overseers\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Titus 1:5–9; 1 Peter 5:1–4)\n"
-      ]
+      "content": ["(Titus 1:5–9; 1 Peter 5:1–4)\n"]
     },
     {
       "type": "para",
@@ -643,16 +599,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:2 "
-              ]
+              "content": ["3:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or faithful to his wife; also in verse 12"
-              ]
+              "content": ["Or faithful to his wife; also in verse 12"]
             }
           ],
           "caller": "+"
@@ -708,16 +660,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Qualifications for Deacons\n"
-      ]
+      "content": ["Qualifications for Deacons\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Acts 6:1–7)\n"
-      ]
+      "content": ["(Acts 6:1–7)\n"]
     },
     {
       "type": "para",
@@ -773,16 +721,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:11 "
-              ]
+              "content": ["3:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or their wives"
-              ]
+              "content": ["Or their wives"]
             }
           ],
           "caller": "+"
@@ -817,9 +761,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Mystery of Godliness\n"
-      ]
+      "content": ["The Mystery of Godliness\n"]
     },
     {
       "type": "para",
@@ -879,16 +821,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:16 "
-              ]
+              "content": ["3:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally He who appeared; BYZ and TR God appeared"
-              ]
+              "content": ["Literally He who appeared; BYZ and TR God appeared"]
             }
           ],
           "caller": "+"
@@ -909,16 +847,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:16 "
-              ]
+              "content": ["3:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or vindicated in spirit"
-              ]
+              "content": ["Or vindicated in spirit"]
             }
           ],
           "caller": "+"
@@ -929,30 +863,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "was seen by angels, \n"
-      ]
+      "content": ["was seen by angels, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "was proclaimed among the nations, \n"
-      ]
+      "content": ["was proclaimed among the nations, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "was believed in throughout the world, \n"
-      ]
+      "content": ["was believed in throughout the world, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "was taken up in glory. \n"
-      ]
+      "content": ["was taken up in glory. \n"]
     },
     {
       "type": "chapter",
@@ -963,9 +889,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Warning against Apostasy\n"
-      ]
+      "content": ["A Warning against Apostasy\n"]
     },
     {
       "type": "para",
@@ -1025,9 +949,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Good Servant of Jesus Christ\n"
-      ]
+      "content": ["A Good Servant of Jesus Christ\n"]
     },
     {
       "type": "para",
@@ -1100,16 +1022,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:10 "
-              ]
+              "content": ["4:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL, BYZ, and TR and suffer reproach"
-              ]
+              "content": ["SBL, BYZ, and TR and suffer reproach"]
             }
           ],
           "caller": "+"
@@ -1188,9 +1106,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Reproof and Respect\n"
-      ]
+      "content": ["Reproof and Respect\n"]
     },
     {
       "type": "para",
@@ -1230,16 +1146,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Honoring True Widows\n"
-      ]
+      "content": ["Honoring True Widows\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ruth 1:1–5)\n"
-      ]
+      "content": ["(Ruth 1:1–5)\n"]
     },
     {
       "type": "para",
@@ -1412,9 +1324,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Honoring Elders\n"
-      ]
+      "content": ["Honoring Elders\n"]
     },
     {
       "type": "para",
@@ -1446,16 +1356,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:18 "
-              ]
+              "content": ["5:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 25:4"
-              ]
+              "content": ["Deuteronomy 25:4"]
             }
           ],
           "caller": "+"
@@ -1469,9 +1375,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:18 "
-              ]
+              "content": ["5:18 "]
             },
             {
               "type": "char",
@@ -1513,9 +1417,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Charge to Timothy\n"
-      ]
+      "content": ["A Charge to Timothy\n"]
     },
     {
       "type": "para",
@@ -1601,16 +1503,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Serving with Honor\n"
-      ]
+      "content": ["Serving with Honor\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ephesians 6:5–9; Colossians 3:22–25)\n"
-      ]
+      "content": ["(Ephesians 6:5–9; Colossians 3:22–25)\n"]
     },
     {
       "type": "para",
@@ -1639,9 +1537,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Reject False Doctrines\n"
-      ]
+      "content": ["Reject False Doctrines\n"]
     },
     {
       "type": "para",
@@ -1680,16 +1576,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:5 "
-              ]
+              "content": ["6:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include Withdraw yourself from such."
-              ]
+              "content": ["BYZ and TR include Withdraw yourself from such."]
             }
           ],
           "caller": "+"
@@ -1700,9 +1592,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Godliness with Contentment\n"
-      ]
+      "content": ["Godliness with Contentment\n"]
     },
     {
       "type": "para",
@@ -1734,16 +1624,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:7 "
-              ]
+              "content": ["6:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR so certainly"
-              ]
+              "content": ["BYZ and TR so certainly"]
             }
           ],
           "caller": "+"
@@ -1785,9 +1671,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Fight the Good Fight\n"
-      ]
+      "content": ["Fight the Good Fight\n"]
     },
     {
       "type": "para",
@@ -1854,16 +1738,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Charge to the Rich\n"
-      ]
+      "content": ["A Charge to the Rich\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Proverbs 23:1–5; James 5:1–6)\n"
-      ]
+      "content": ["(Proverbs 23:1–5; James 5:1–6)\n"]
     },
     {
       "type": "para",
@@ -1899,9 +1779,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Guard the Faith\n"
-      ]
+      "content": ["Guard the Faith\n"]
     },
     {
       "type": "para",
@@ -1944,16 +1822,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:21 "
-              ]
+              "content": ["6:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include Amen."
-              ]
+              "content": ["BYZ and TR include Amen."]
             }
           ],
           "caller": "+"

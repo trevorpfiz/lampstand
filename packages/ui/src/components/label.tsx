@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import * as React from "react";
+import * as React from 'react';
 
-import { cn } from "@lamp/ui/lib/utils";
+import { cn } from '@lamp/ui/lib/utils';
 
 const Label = React.forwardRef<
   HTMLLabelElement,
@@ -11,12 +11,12 @@ const Label = React.forwardRef<
   <label
     ref={ref}
     className={cn(
-      "text-sm font-medium leading-4 text-foreground peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
-      className,
+      'font-medium text-foreground text-sm leading-4 peer-disabled:cursor-not-allowed peer-disabled:opacity-70',
+      className
     )}
     {...props}
   />
 ));
-Label.displayName = "Label";
+Label.displayName = 'Label';
 
 export { Label };

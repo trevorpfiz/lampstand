@@ -1,1 +1,1 @@
-export { config as default } from "@lamp/tailwind-config/config";
+export { config as default } from '@lamp/tailwind-config/config';

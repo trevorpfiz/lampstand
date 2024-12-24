@@ -1,12 +1,12 @@
-import type { ForwardedRef } from "react";
-import type { TextareaAutosizeProps } from "react-textarea-autosize";
-import React, { forwardRef } from "react";
-import UnstyledTextareaAutosize from "react-textarea-autosize";
+import type { ForwardedRef } from 'react';
+import { forwardRef } from 'react';
+import type { TextareaAutosizeProps } from 'react-textarea-autosize';
+import UnstyledTextareaAutosize from 'react-textarea-autosize';
 
 export const TextareaAutosize = forwardRef(
   (
-    { className = "", ...otherProps }: TextareaAutosizeProps,
-    ref: ForwardedRef<HTMLTextAreaElement>,
+    { className = '', ...otherProps }: TextareaAutosizeProps,
+    ref: ForwardedRef<HTMLTextAreaElement>
   ) => {
     return (
       <UnstyledTextareaAutosize
@@ -15,6 +15,6 @@ export const TextareaAutosize = forwardRef(
         {...otherProps}
       />
     );
-  },
+  }
 );
-TextareaAutosize.displayName = "TextareaAutosize";
+TextareaAutosize.displayName = 'TextareaAutosize';

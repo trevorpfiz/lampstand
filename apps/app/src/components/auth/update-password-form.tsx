@@ -1,13 +1,12 @@
-"use client";
+'use client';
 
-import { useMemo, useState } from "react";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { ArrowRight, Check, Eye, EyeOff, X } from "lucide-react";
-import { useAction } from "next-safe-action/hooks";
-import { useForm } from "react-hook-form";
+import { zodResolver } from '@hookform/resolvers/zod';
+import { ArrowRight, Check, Eye, EyeOff, X } from 'lucide-react';
+import { useAction } from 'next-safe-action/hooks';
+import { useMemo, useState } from 'react';
+import { useForm } from 'react-hook-form';
 
-import type { UpdatePassword } from "@lamp/validators/auth";
-import { Button } from "@lamp/ui/components/button";
+import { Button } from '@lamp/ui/components/button';
 import {
   Form,
   FormControl,
@@ -15,12 +14,20 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@lamp/ui/components/form";
-import { Input } from "@lamp/ui/components/input";
-import { UpdatePasswordSchema } from "@lamp/validators/auth";
+} from '@lamp/ui/components/form';
+import { Input } from '@lamp/ui/components/input';
+import type { UpdatePassword } from '@lamp/validators/auth';
+import { UpdatePasswordSchema } from '@lamp/validators/auth';
 
-import { FormError } from "~/components/auth/form-error";
-import { updatePassword } from "~/lib/actions/auth";
+import { FormError } from '~/components/auth/form-error';
+import { updatePassword } from '~/lib/actions/auth';
+
+const PASSWORD_REQUIREMENTS = [
+  { regex: /.{8,}/, text: 'At least 8 characters' },
+  { regex: /[0-9]/, text: 'At least 1 number' },
+  { regex: /[a-z]/, text: 'At least 1 lowercase letter' },
+  { regex: /[A-Z]/, text: 'At least 1 uppercase letter' },
+] as const;
 
 export const UpdatePasswordForm = () => {
   const [isVisible, setIsVisible] = useState<boolean>(false);
@@ -28,7 +35,7 @@ export const UpdatePasswordForm = () => {
   const form = useForm<UpdatePassword>({
     resolver: zodResolver(UpdatePasswordSchema),
     defaultValues: {
-      newPassword: "",
+      newPassword: '',
     },
   });
 
@@ -39,38 +46,45 @@ export const UpdatePasswordForm = () => {
   };
 
   const checkStrength = (pass: string) => {
-    const requirements = [
-      { regex: /.{8,}/, text: "At least 8 characters" },
-      { regex: /[0-9]/, text: "At least 1 number" },
-      { regex: /[a-z]/, text: "At least 1 lowercase letter" },
-      { regex: /[A-Z]/, text: "At least 1 uppercase letter" },
-    ];
-
-    return requirements.map((req) => ({
+    return PASSWORD_REQUIREMENTS.map((req) => ({
       met: req.regex.test(pass),
       text: req.text,
     }));
   };
 
-  const strength = checkStrength(form.watch("newPassword"));
+  const strength = checkStrength(form.watch('newPassword'));
 
   const strengthScore = useMemo(() => {
     return strength.filter((req) => req.met).length;
   }, [strength]);
 
   const getStrengthColor = (score: number) => {
-    if (score === 0) return "bg-border";
-    if (score <= 1) return "bg-red-500";
-    if (score <= 2) return "bg-orange-500";
-    if (score === 3) return "bg-amber-500";
-    return "bg-emerald-500";
+    if (score === 0) {
+      return 'bg-border';
+    }
+    if (score <= 1) {
+      return 'bg-red-500';
+    }
+    if (score <= 2) {
+      return 'bg-orange-500';
+    }
+    if (score === 3) {
+      return 'bg-amber-500';
+    }
+    return 'bg-emerald-500';
   };
 
   const getStrengthText = (score: number) => {
-    if (score === 0) return "Enter a password";
-    if (score <= 2) return "Weak password";
-    if (score === 3) return "Medium password";
-    return "Strong password";
+    if (score === 0) {
+      return 'Enter a password';
+    }
+    if (score <= 2) {
+      return 'Weak password';
+    }
+    if (score === 3) {
+      return 'Medium password';
+    }
+    return 'Strong password';
   };
 
   return (
@@ -94,7 +108,7 @@ export const UpdatePasswordForm = () => {
                       className="h-8 pe-9"
                       disabled={isExecuting}
                       placeholder="Password"
-                      type={isVisible ? "text" : "password"}
+                      type={isVisible ? 'text' : 'password'}
                       aria-invalid={strengthScore < 4}
                       aria-describedby="password-strength"
                     />
@@ -103,7 +117,7 @@ export const UpdatePasswordForm = () => {
                     className="absolute inset-y-0 end-0 flex h-full w-9 items-center justify-center rounded-e-lg text-muted-foreground/80 outline-offset-2 transition-colors hover:text-foreground focus:z-10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-ring/70 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50"
                     type="button"
                     onClick={() => setIsVisible(!isVisible)}
-                    aria-label={isVisible ? "Hide password" : "Show password"}
+                    aria-label={isVisible ? 'Hide password' : 'Show password'}
                     aria-pressed={isVisible}
                   >
                     {isVisible ? (
@@ -116,24 +130,27 @@ export const UpdatePasswordForm = () => {
                 <FormMessage />
 
                 {/* Password strength indicator */}
+                {/* biome-ignore lint/nursery/useAriaPropsSupportedByRole: <explanation> */}
                 <div
-                  className="mb-4 mt-3 h-1 w-full overflow-hidden rounded-full bg-border"
+                  className="mt-3 mb-4 h-1 w-full overflow-hidden rounded-full bg-border"
                   role="progressbar"
+                  tabIndex={0}
                   aria-valuenow={strengthScore}
                   aria-valuemin={0}
                   aria-valuemax={4}
+                  aria-valuetext={`Password strength: ${strengthScore} out of 4`}
                   aria-label="Password strength"
                 >
                   <div
                     className={`h-full ${getStrengthColor(strengthScore)} transition-all duration-500 ease-out`}
                     style={{ width: `${(strengthScore / 4) * 100}%` }}
-                  ></div>
+                  />
                 </div>
 
                 {/* Password strength description */}
                 <p
                   id="password-strength"
-                  className="mb-2 text-[13px] font-medium leading-snug text-foreground"
+                  className="mb-2 font-medium text-[13px] text-foreground leading-snug"
                 >
                   {getStrengthText(strengthScore)}. Must contain:
                 </p>
@@ -158,13 +175,13 @@ export const UpdatePasswordForm = () => {
                         />
                       )}
                       <span
-                        className={`text-xs ${req.met ? "text-emerald-600" : "text-muted-foreground"}`}
+                        className={`text-xs ${req.met ? 'text-emerald-600' : 'text-muted-foreground'}`}
                       >
                         {req.text}
                         <span className="sr-only">
                           {req.met
-                            ? " - Requirement met"
-                            : " - Requirement not met"}
+                            ? ' - Requirement met'
+                            : ' - Requirement not met'}
                         </span>
                       </span>
                     </li>

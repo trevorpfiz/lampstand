@@ -1,6 +1,6 @@
-import { Spinner } from "@lamp/ui/components/spinner";
+import { Spinner } from '@lamp/ui/components/spinner';
 
-import { AppHeader } from "~/components/app-header";
+import { AppHeader } from '~/components/app-header';
 
 export default function Loading() {
   return (

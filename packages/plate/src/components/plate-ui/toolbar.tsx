@@ -32,7 +32,7 @@ export const ToolbarSeparator = withCn(
 
 const toolbarButtonVariants = cva(
   cn(
-    'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium text-foreground ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg:not([data-icon])]:size-4'
+    'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium text-foreground text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg:not([data-icon])]:size-4'
   ),
   {
     defaultVariants: {
@@ -57,7 +57,7 @@ const toolbarButtonVariants = cva(
 
 const dropdownArrowVariants = cva(
   cn(
-    'inline-flex items-center justify-center rounded-r-md text-sm font-medium text-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50'
+    'inline-flex items-center justify-center rounded-r-md font-medium text-foreground text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50'
   ),
   {
     defaultVariants: {
@@ -74,7 +74,7 @@ const dropdownArrowVariants = cva(
         default:
           'bg-transparent hover:bg-muted hover:text-muted-foreground aria-checked:bg-accent aria-checked:text-accent-foreground',
         outline:
-          'border border-l-0 border-input bg-transparent hover:bg-accent hover:text-accent-foreground',
+          'border border-input border-l-0 bg-transparent hover:bg-accent hover:text-accent-foreground',
       },
     },
   }
@@ -238,7 +238,7 @@ export const ToolbarGroup = withRef<'div'>(({ children, className }, ref) => {
     >
       <div className="flex items-center">{children}</div>
 
-      <div className="mx-1.5 py-0.5 group-last/toolbar-group:!hidden">
+      <div className="group-last/toolbar-group:!hidden mx-1.5 py-0.5">
         <Separator orientation="vertical" />
       </div>
     </div>

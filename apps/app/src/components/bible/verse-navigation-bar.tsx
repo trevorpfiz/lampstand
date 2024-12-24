@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import { BibleSelect } from "~/components/bible/bible-select";
-import { ReferenceSelect } from "~/components/bible/reference-select";
+import { BibleSelect } from '~/components/bible/bible-select';
+import { ReferenceSelect } from '~/components/bible/reference-select';
 
 interface VerseNavigationBarProps {
   getChapterIndex: (book: string, chapter: number) => number;
@@ -13,7 +13,7 @@ export function VerseNavigationBar({
   getChapterIndex,
 }: VerseNavigationBarProps) {
   return (
-    <div className="flex items-center gap-2 border-b border-gray-200 p-2">
+    <div className="flex items-center gap-2 border-gray-200 border-b p-2">
       <div className="w-16">
         <BibleSelect />
       </div>

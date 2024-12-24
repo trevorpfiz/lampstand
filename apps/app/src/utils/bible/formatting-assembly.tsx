@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@lamp/ui/components/tooltip";
-import { cn } from "@lamp/ui/lib/utils";
-import { useTheme } from "@lamp/ui/providers/theme";
+} from '@lamp/ui/components/tooltip';
+import { cn } from '@lamp/ui/lib/utils';
+import { useTheme } from '@lamp/ui/providers/theme';
 
 interface Footnote {
   ref: string;
@@ -27,34 +27,34 @@ interface Verse {
 }
 
 interface VerseBlock {
-  type: "verse_block" | "continued_verse_block";
+  type: 'verse_block' | 'continued_verse_block';
   style: string;
   verses: Verse[];
 }
 
 interface Paragraph {
-  type: "paragraph";
+  type: 'paragraph';
   style: string;
   text: string;
 }
 
 interface Heading {
-  type: "heading";
+  type: 'heading';
   level: string;
   text: string;
 }
 
 interface ReferenceLine {
-  type: "reference_line";
+  type: 'reference_line';
   text: string;
 }
 
 interface Blank {
-  type: "blank";
+  type: 'blank';
 }
 
 interface BookTitle {
-  type: "book_title";
+  type: 'book_title';
   text: string;
 }
 
@@ -83,9 +83,9 @@ export interface IR {
 }
 
 const BibleHeading: React.FC<{ heading: Heading }> = ({ heading }) => {
-  const Tag = heading.level === "s1" ? "h2" : "h3";
+  const Tag = heading.level === 's1' ? 'h2' : 'h3';
   return (
-    <Tag className={heading.level === "s1" ? "mt-4 font-bold" : "my-4 italic"}>
+    <Tag className={heading.level === 's1' ? 'mt-4 font-bold' : 'my-4 italic'}>
       {heading.text}
     </Tag>
   );
@@ -103,7 +103,7 @@ const BlankLine: React.FC = () => {
 
 const BookTitleComp: React.FC<{ title: BookTitle }> = ({ title }) => {
   return (
-    <h1 className="my-6 text-center text-4xl font-bold">
+    <h1 className="my-6 text-center font-bold text-4xl">
       {title.text.toUpperCase()}
     </h1>
   );
@@ -111,15 +111,15 @@ const BookTitleComp: React.FC<{ title: BookTitle }> = ({ title }) => {
 
 function styleToClassName(style: string) {
   switch (style) {
-    case "m":
-    case "pmo":
-      return "text-justify";
-    case "q1":
-      return "pl-8 italic";
-    case "q2":
-      return "pl-12 italic";
+    case 'm':
+    case 'pmo':
+      return 'text-justify';
+    case 'q1':
+      return 'pl-8 italic';
+    case 'q2':
+      return 'pl-12 italic';
     default:
-      return "text-justify";
+      return 'text-justify';
   }
 }
 
@@ -142,14 +142,14 @@ const VerseBlockComp: React.FC<VerseBlockProps> = ({
 
         return (
           <span data-verse-id={verse.verseId} key={vi}>
-            {block.type === "verse_block" &&
+            {block.type === 'verse_block' &&
               (isFirstVerse ? (
-                <span className="align-middle text-2xl font-bold">
-                  {chapterNumber}{" "}
+                <span className="align-middle font-bold text-2xl">
+                  {chapterNumber}{' '}
                 </span>
               ) : (
-                <span className="align-text-top text-[11px] font-medium">
-                  {verse.verseNumber}{" "}
+                <span className="align-text-top font-medium text-[11px]">
+                  {verse.verseNumber}{' '}
                 </span>
               ))}
 
@@ -157,13 +157,13 @@ const VerseBlockComp: React.FC<VerseBlockProps> = ({
               const footnoteSups = part.footnotes.map((fn, fi) => (
                 <Tooltip key={fi}>
                   <TooltipTrigger className="pl-[1px]">
-                    <sup className="inline-block cursor-pointer text-xs font-semibold italic text-blue-500">
+                    <sup className="inline-block cursor-pointer font-semibold text-blue-500 text-xs italic">
                       {fn.letter ?? fn.ref}
                     </sup>
                   </TooltipTrigger>
                   <TooltipContent
                     showArrow={true}
-                    className={cn("", resolvedTheme === "light" && "dark")}
+                    className={cn('', resolvedTheme === 'light' && 'dark')}
                   >
                     <p className="max-w-48">{fn.text}</p>
                   </TooltipContent>
@@ -191,19 +191,19 @@ const ParagraphBlock: React.FC<{ paragraph: Paragraph }> = ({ paragraph }) => {
 // Renders a single chapter
 export function renderChapter(chap: IRChapter) {
   return (
-    <React.Fragment>
+    <>
       {chap.elements.map((el, idx) => {
         switch (el.type) {
-          case "book_title":
+          case 'book_title':
             return <BookTitleComp key={idx} title={el} />;
-          case "heading":
+          case 'heading':
             return <BibleHeading key={idx} heading={el} />;
-          case "reference_line":
+          case 'reference_line':
             return <ReferenceLineComp key={idx} reference={el} />;
-          case "blank":
+          case 'blank':
             return <BlankLine key={idx} />;
-          case "verse_block":
-          case "continued_verse_block":
+          case 'verse_block':
+          case 'continued_verse_block':
             return (
               <VerseBlockComp
                 key={idx}
@@ -211,12 +211,12 @@ export function renderChapter(chap: IRChapter) {
                 chapterNumber={chap.number}
               />
             );
-          case "paragraph":
+          case 'paragraph':
             return <ParagraphBlock key={idx} paragraph={el} />;
           default:
             return null;
         }
       })}
-    </React.Fragment>
+    </>
   );
 }

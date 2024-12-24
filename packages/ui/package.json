@@ -16,13 +16,9 @@
     "./hooks/*": "./src/hooks/*.ts"
   },
   "scripts": {
-    "build": "tsc",
     "clean": "git clean -xdf .cache .turbo dist node_modules",
-    "dev": "tsc",
-    "format": "prettier --check . --ignore-path ../../.gitignore",
-    "lint": "eslint",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false",
-    "ui-add": "pnpm dlx shadcn@latest add && prettier src --write --list-different"
+    "ui-add": "pnpm dlx shadcn@latest add"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -78,13 +74,9 @@
     "vaul": "^1.1.2"
   },
   "devDependencies": {
-    "@lamp/eslint-config": "workspace:*",
-    "@lamp/prettier-config": "workspace:*",
     "@lamp/tailwind-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
     "@types/react": "catalog:react19",
-    "eslint": "catalog:",
-    "prettier": "catalog:",
     "react": "catalog:react19",
     "typescript": "catalog:",
     "zod": "catalog:"
@@ -92,6 +84,5 @@
   "peerDependencies": {
     "react": "catalog:react19",
     "zod": "catalog:"
-  },
-  "prettier": "@lamp/prettier-config"
+  }
 }

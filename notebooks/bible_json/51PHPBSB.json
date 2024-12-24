@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "PHP"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Philippians\n"
-      ]
+      "content": ["Philippians\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Philippians\n"
-      ]
+      "content": ["Philippians\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Philippians\n"
-      ]
+      "content": ["Philippians\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Greetings from Paul and Timothy\n"
-      ]
+      "content": ["Greetings from Paul and Timothy\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Colossians 1:1–2; Philemon 1:1–3)\n"
-      ]
+      "content": ["(Colossians 1:1–2; Philemon 1:1–3)\n"]
     },
     {
       "type": "para",
@@ -99,16 +87,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Thanksgiving and Prayer\n"
-      ]
+      "content": ["Thanksgiving and Prayer\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Corinthians 1:4–9; Colossians 1:3–14)\n"
-      ]
+      "content": ["(1 Corinthians 1:4–9; Colossians 1:3–14)\n"]
     },
     {
       "type": "para",
@@ -206,16 +190,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paul’s Trials Advance the Gospel\n"
-      ]
+      "content": ["Paul’s Trials Advance the Gospel\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(James 1:2–12)\n"
-      ]
+      "content": ["(James 1:2–12)\n"]
     },
     {
       "type": "para",
@@ -247,16 +227,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:13 "
-              ]
+              "content": ["1:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or all the Praetorium"
-              ]
+              "content": ["Or all the Praetorium"]
             }
           ],
           "caller": "+"
@@ -277,16 +253,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:14 "
-              ]
+              "content": ["1:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE and WH the word of God"
-              ]
+              "content": ["NE and WH the word of God"]
             }
           ],
           "caller": "+"
@@ -324,16 +296,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:16 "
-              ]
+              "content": ["1:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR reverse the order of verses 16 and 17."
-              ]
+              "content": ["BYZ and TR reverse the order of verses 16 and 17."]
             }
           ],
           "caller": "+"
@@ -371,16 +339,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:18 "
-              ]
+              "content": ["1:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally What then?"
-              ]
+              "content": ["Literally What then?"]
             }
           ],
           "caller": "+"
@@ -405,9 +369,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "To Live Is Christ\n"
-      ]
+      "content": ["To Live Is Christ\n"]
     },
     {
       "type": "para",
@@ -474,9 +436,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Worthy of the Gospel\n"
-      ]
+      "content": ["Worthy of the Gospel\n"]
     },
     {
       "type": "para",
@@ -501,16 +461,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:27 "
-              ]
+              "content": ["1:27 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or striving together with one mind"
-              ]
+              "content": ["Or striving together with one mind"]
             }
           ],
           "caller": "+"
@@ -548,16 +504,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "One in Christ\n"
-      ]
+      "content": ["One in Christ\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ephesians 2:11–18)\n"
-      ]
+      "content": ["(Ephesians 2:11–18)\n"]
     },
     {
       "type": "para",
@@ -610,16 +562,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Mind of Christ\n"
-      ]
+      "content": ["The Mind of Christ\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Isaiah 52:13–15)\n"
-      ]
+      "content": ["(Isaiah 52:13–15)\n"]
     },
     {
       "type": "para",
@@ -658,9 +606,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "did not consider equality with God \n"
-      ]
+      "content": ["did not consider equality with God \n"]
     },
     {
       "type": "para",
@@ -675,16 +621,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:6 "
-              ]
+              "content": ["2:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or something to be exploited"
-              ]
+              "content": ["Or something to be exploited"]
             }
           ],
           "caller": "+"
@@ -708,16 +650,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "taking the form of a servant, \n"
-      ]
+      "content": ["taking the form of a servant, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "being made in human likeness. \n"
-      ]
+      "content": ["being made in human likeness. \n"]
     },
     {
       "type": "para",
@@ -735,23 +673,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He humbled Himself \n"
-      ]
+      "content": ["He humbled Himself \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and became obedient to death—\n"
-      ]
+      "content": ["and became obedient to death—\n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "even death on a cross. \n"
-      ]
+      "content": ["even death on a cross. \n"]
     },
     {
       "type": "para",
@@ -773,9 +705,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and gave Him the name above all names, \n"
-      ]
+      "content": ["and gave Him the name above all names, \n"]
     },
     {
       "type": "para",
@@ -793,9 +723,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in heaven and on earth and under the earth, \n"
-      ]
+      "content": ["in heaven and on earth and under the earth, \n"]
     },
     {
       "type": "para",
@@ -813,23 +741,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to the glory of God the Father. \n"
-      ]
+      "content": ["to the glory of God the Father. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Lights in the World\n"
-      ]
+      "content": ["Lights in the World\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Matthew 5:13–16)\n"
-      ]
+      "content": ["(Matthew 5:13–16)\n"]
     },
     {
       "type": "para",
@@ -885,16 +807,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:15 "
-              ]
+              "content": ["2:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 32:5"
-              ]
+              "content": ["Deuteronomy 32:5"]
             }
           ],
           "caller": "+"
@@ -936,16 +854,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Timothy and Epaphroditus\n"
-      ]
+      "content": ["Timothy and Epaphroditus\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Corinthians 16:10–12)\n"
-      ]
+      "content": ["(1 Corinthians 16:10–12)\n"]
     },
     {
       "type": "para",
@@ -1070,16 +984,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Righteousness through Faith in Christ\n"
-      ]
+      "content": ["Righteousness through Faith in Christ\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Romans 3:21–31)\n"
-      ]
+      "content": ["(Romans 3:21–31)\n"]
     },
     {
       "type": "para",
@@ -1191,16 +1101,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:9 "
-              ]
+              "content": ["3:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or through the faithfulness of Christ"
-              ]
+              "content": ["Or through the faithfulness of Christ"]
             }
           ],
           "caller": "+"
@@ -1235,9 +1141,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Pressing on toward the Goal\n"
-      ]
+      "content": ["Pressing on toward the Goal\n"]
     },
     {
       "type": "para",
@@ -1297,9 +1201,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Citizenship in Heaven\n"
-      ]
+      "content": ["Citizenship in Heaven\n"]
     },
     {
       "type": "para",
@@ -1365,9 +1267,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Rejoice in the Lord\n"
-      ]
+      "content": ["Rejoice in the Lord\n"]
     },
     {
       "type": "para",
@@ -1416,16 +1316,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:3 "
-              ]
+              "content": ["4:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or I ask you, loyal Syzygus"
-              ]
+              "content": ["Or I ask you, loyal Syzygus"]
             }
           ],
           "caller": "+"
@@ -1508,16 +1404,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Generosity of the Philippians\n"
-      ]
+      "content": ["The Generosity of the Philippians\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Corinthians 8:1–15)\n"
-      ]
+      "content": ["(2 Corinthians 8:1–15)\n"]
     },
     {
       "type": "para",
@@ -1563,9 +1455,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:13 "
-              ]
+              "content": ["4:13 "]
             },
             {
               "type": "char",
@@ -1662,16 +1552,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Final Greetings\n"
-      ]
+      "content": ["Final Greetings\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ephesians 6:21–24; 2 Timothy 4:19–22)\n"
-      ]
+      "content": ["(Ephesians 6:21–24; 2 Timothy 4:19–22)\n"]
     },
     {
       "type": "para",
@@ -1697,9 +1583,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "The brothers who are with me send you greetings. \n"
-      ]
+      "content": ["The brothers who are with me send you greetings. \n"]
     },
     {
       "type": "para",
@@ -1741,16 +1625,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:23 "
-              ]
+              "content": ["4:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include Amen."
-              ]
+              "content": ["BYZ and TR include Amen."]
             }
           ],
           "caller": "+"

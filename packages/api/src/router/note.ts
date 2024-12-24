@@ -1,10 +1,10 @@
-import type { TRPCRouterRecord } from "@trpc/server";
-import { and, desc, eq } from "drizzle-orm";
-import { z } from "zod";
+import type { TRPCRouterRecord } from '@trpc/server';
+import { and, desc, eq } from 'drizzle-orm';
+import { z } from 'zod';
 
-import { insertNoteParams, Note, updateNoteParams } from "@lamp/db/schema";
+import { Note, insertNoteParams, updateNoteParams } from '@lamp/db/schema';
 
-import { protectedProcedure } from "../trpc";
+import { protectedProcedure } from '../trpc';
 
 export const noteRouter = {
   byStudy: protectedProcedure
@@ -55,7 +55,7 @@ export const noteRouter = {
     .input(
       insertNoteParams.extend({
         studyId: z.string(),
-      }),
+      })
     )
     .mutation(async ({ ctx, input }) => {
       const { db, user } = ctx;
@@ -94,7 +94,7 @@ export const noteRouter = {
       z.object({
         id: z.string(),
         title: z.string(),
-      }),
+      })
     )
     .mutation(async ({ ctx, input }) => {
       const { db, user } = ctx;

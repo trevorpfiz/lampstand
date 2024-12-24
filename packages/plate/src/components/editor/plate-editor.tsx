@@ -1,13 +1,11 @@
-"use client";
+'use client';
+import { Plate } from '@udecode/plate-common/react';
+import { DndProvider } from 'react-dnd';
+import { HTML5Backend } from 'react-dnd-html5-backend';
 
-import React from "react";
-import { Plate } from "@udecode/plate-common/react";
-import { DndProvider } from "react-dnd";
-import { HTML5Backend } from "react-dnd-html5-backend";
-
-import type { MyEditor, MyValue } from "./plate-types";
-import { Editor, EditorContainer } from "../plate-ui/editor";
-import { useCreateEditor } from "./use-create-editor";
+import { Editor, EditorContainer } from '../plate-ui/editor';
+import type { MyEditor, MyValue } from './plate-types';
+import { useCreateEditor } from './use-create-editor';
 
 export function PlateEditor(props: {
   initialContent: any;

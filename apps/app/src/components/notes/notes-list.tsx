@@ -1,19 +1,19 @@
-"use client";
+'use client';
 
-import { useParams } from "next/navigation";
-import { FilePen, Plus } from "lucide-react";
+import { FilePen, Plus } from 'lucide-react';
+import { useParams } from 'next/navigation';
 
-import type { MinimalNote } from "@lamp/db/schema";
-import { Button } from "@lamp/ui/components/button";
-import { Spinner } from "@lamp/ui/components/spinner";
+import type { MinimalNote } from '@lamp/db/schema';
+import { Button } from '@lamp/ui/components/button';
+import { Spinner } from '@lamp/ui/components/spinner';
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@lamp/ui/components/tooltip";
-import { handleError } from "@lamp/ui/lib/utils";
+} from '@lamp/ui/components/tooltip';
+import { handleError } from '@lamp/ui/lib/utils';
 
-import { api } from "~/trpc/react";
+import { api } from '~/trpc/react';
 
 interface NotesListProps {
   notes: MinimalNote[];
@@ -29,14 +29,14 @@ export function NotesList(props: NotesListProps) {
   // Query notes with initialData from server
   const { data: notesData } = api.note.byStudy.useQuery(
     { studyId },
-    { initialData: { notes: initialNotes } },
+    { initialData: { notes: initialNotes } }
   );
 
   // Create note mutation
   const createNoteMutation = api.note.create.useMutation({
     onSuccess: (data) => {
       if (data.note) {
-        void utils.note.byStudy.invalidate({ studyId });
+        utils.note.byStudy.invalidate({ studyId });
       }
     },
     onError: (error) => {
@@ -52,8 +52,8 @@ export function NotesList(props: NotesListProps) {
 
   return (
     <div className="flex h-full w-full flex-col">
-      <div className="flex items-center justify-between py-1.5 pl-3 pr-2">
-        <h2 className="text-md pl-2 font-semibold">Notes</h2>
+      <div className="flex items-center justify-between py-1.5 pr-2 pl-3">
+        <h2 className="pl-2 font-semibold text-md">Notes</h2>
         <Tooltip>
           <TooltipTrigger asChild>
             <Button
@@ -77,7 +77,7 @@ export function NotesList(props: NotesListProps) {
         </Tooltip>
       </div>
 
-      <div className="flex min-w-0 flex-shrink flex-col gap-0 overflow-auto pb-3 pl-3 pr-2">
+      <div className="flex min-w-0 flex-shrink flex-col gap-0 overflow-auto pr-2 pb-3 pl-3">
         {notesData.notes.map((note) => (
           <Button
             key={note.id}
@@ -92,7 +92,7 @@ export function NotesList(props: NotesListProps) {
               strokeWidth={2}
               aria-hidden="true"
             />
-            <p className="truncate">{note.title || "Untitled"}</p>
+            <p className="truncate">{note.title || 'Untitled'}</p>
           </Button>
         ))}
       </div>

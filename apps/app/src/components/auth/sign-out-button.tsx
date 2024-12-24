@@ -1,6 +1,6 @@
-import { Button } from "@lamp/ui/components/button";
+import { Button } from '@lamp/ui/components/button';
 
-import { signOut } from "~/lib/actions/auth";
+import { signOut } from '~/lib/actions/auth';
 
 export const SignOutButton = () => {
   return (

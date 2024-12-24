@@ -1,9 +1,9 @@
-import type { NextRequest } from "next/server";
-import { NextResponse } from "next/server";
+import type { NextRequest } from 'next/server';
+import { NextResponse } from 'next/server';
 
-import type { Message } from "@lamp/ai";
-import { convertToCoreMessages, customModel, streamText } from "@lamp/ai";
-import { DEFAULT_MODEL_NAME, models } from "@lamp/ai/models";
+import type { Message } from '@lamp/ai';
+import { convertToCoreMessages, customModel, streamText } from '@lamp/ai';
+import { DEFAULT_MODEL_NAME, models } from '@lamp/ai/models';
 
 export async function POST(req: NextRequest) {
   const {
@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
   const model = models.find((m) => m.id === modelId);
 
   if (!model) {
-    return new Response("Model not found", { status: 404 });
+    return new Response('Model not found', { status: 404 });
   }
 
   const coreMessages = convertToCoreMessages(messages);
@@ -35,8 +35,8 @@ export async function POST(req: NextRequest) {
     return result.toDataStreamResponse();
   } catch {
     return NextResponse.json(
-      { error: "Failed to process AI request" },
-      { status: 500 },
+      { error: 'Failed to process AI request' },
+      { status: 500 }
     );
   }
 }

@@ -1,7 +1,5 @@
 'use client';
 
-import React from 'react';
-
 import { cn } from '@udecode/cn';
 import {
   CommentResolveButton as CommentResolveButtonPrimitive,

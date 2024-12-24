@@ -100,12 +100,8 @@
           "name": "lamp_chat_profile_id_lamp_profile_id_fk",
           "tableFrom": "lamp_chat",
           "tableTo": "lamp_profile",
-          "columnsFrom": [
-            "profile_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["profile_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         },
@@ -113,12 +109,8 @@
           "name": "lamp_chat_study_id_lamp_study_id_fk",
           "tableFrom": "lamp_chat",
           "tableTo": "lamp_study",
-          "columnsFrom": [
-            "study_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["study_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -204,12 +196,8 @@
           "name": "lamp_feedback_profile_id_lamp_profile_id_fk",
           "tableFrom": "lamp_feedback",
           "tableTo": "lamp_profile",
-          "columnsFrom": [
-            "profile_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["profile_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -287,12 +275,8 @@
           "tableFrom": "lamp_profile",
           "tableTo": "users",
           "schemaTo": "auth",
-          "columnsFrom": [
-            "id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -378,12 +362,8 @@
           "name": "lamp_study_profile_id_lamp_profile_id_fk",
           "tableFrom": "lamp_study",
           "tableTo": "lamp_profile",
-          "columnsFrom": [
-            "profile_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["profile_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }
@@ -496,12 +476,8 @@
           "name": "lamp_note_profile_id_lamp_profile_id_fk",
           "tableFrom": "lamp_note",
           "tableTo": "lamp_profile",
-          "columnsFrom": [
-            "profile_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["profile_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         },
@@ -509,12 +485,8 @@
           "name": "lamp_note_study_id_lamp_study_id_fk",
           "tableFrom": "lamp_note",
           "tableTo": "lamp_study",
-          "columnsFrom": [
-            "study_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["study_id"],
+          "columnsTo": ["id"],
           "onDelete": "cascade",
           "onUpdate": "no action"
         }

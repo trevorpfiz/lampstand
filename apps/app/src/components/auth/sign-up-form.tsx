@@ -1,11 +1,10 @@
-"use client";
+'use client';
 
-import { useEffect, useState } from "react";
-import { ArrowRight, Eye, EyeOff } from "lucide-react";
-import { useAction } from "next-safe-action/hooks";
+import { ArrowRight, Eye, EyeOff } from 'lucide-react';
+import { useAction } from 'next-safe-action/hooks';
+import { useEffect, useState } from 'react';
 
-import type { SignUp } from "@lamp/validators/auth";
-import { Button } from "@lamp/ui/components/button";
+import { Button } from '@lamp/ui/components/button';
 import {
   Form,
   FormControl,
@@ -14,13 +13,14 @@ import {
   FormLabel,
   FormMessage,
   useForm,
-} from "@lamp/ui/components/form";
-import { Input } from "@lamp/ui/components/input";
-import { SignUpSchema } from "@lamp/validators/auth";
+} from '@lamp/ui/components/form';
+import { Input } from '@lamp/ui/components/input';
+import type { SignUp } from '@lamp/validators/auth';
+import { SignUpSchema } from '@lamp/validators/auth';
 
-import { FormError } from "~/components/auth/form-error";
-import { FormSuccess } from "~/components/auth/form-success";
-import { signUp } from "~/lib/actions/auth";
+import { FormError } from '~/components/auth/form-error';
+import { FormSuccess } from '~/components/auth/form-success';
+import { signUp } from '~/lib/actions/auth';
 
 export const SignUpForm = () => {
   const [isVisible, setIsVisible] = useState<boolean>(false);
@@ -28,8 +28,8 @@ export const SignUpForm = () => {
   const form = useForm({
     schema: SignUpSchema,
     defaultValues: {
-      email: "",
-      password: "",
+      email: '',
+      password: '',
     },
   });
 
@@ -87,14 +87,14 @@ export const SignUpForm = () => {
                     <Input
                       {...field}
                       disabled={isExecuting}
-                      type={isVisible ? "text" : "password"}
+                      type={isVisible ? 'text' : 'password'}
                       className="h-8 pe-9"
                     />
                     <button
                       className="absolute inset-y-0 end-0 flex h-full w-9 items-center justify-center text-muted-foreground/80 outline-offset-2 transition-colors hover:text-foreground focus:z-10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-ring/70 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50"
                       type="button"
                       onClick={() => setIsVisible(!isVisible)}
-                      aria-label={isVisible ? "Hide password" : "Show password"}
+                      aria-label={isVisible ? 'Hide password' : 'Show password'}
                       aria-pressed={isVisible}
                     >
                       {isVisible ? (
@@ -112,7 +112,7 @@ export const SignUpForm = () => {
         </div>
 
         {hasSucceeded && (
-          <FormSuccess message={"Confirmation email has been sent!"} />
+          <FormSuccess message={'Confirmation email has been sent!'} />
         )}
         <FormError message={result.serverError} />
 

@@ -5,7 +5,7 @@ import { memo, useCallback } from 'react';
 import type { UseEmojiPickerType } from '@udecode/plate-emoji/react';
 
 import { cn } from '@udecode/cn';
-import { type Emoji, type GridRow, EmojiSettings } from '@udecode/plate-emoji';
+import { type Emoji, EmojiSettings, type GridRow } from '@udecode/plate-emoji';
 
 export type EmojiPickerContentProps = Pick<
   UseEmojiPickerType,
@@ -118,7 +118,7 @@ export function EmojiPickerContent({
             style={{ width: getRowWidth }}
             data-id={categoryId}
           >
-            <div className="sticky -top-px z-[1] bg-popover/90 p-1 py-2 text-sm font-semibold backdrop-blur-sm">
+            <div className="-top-px sticky z-[1] bg-popover/90 p-1 py-2 font-semibold text-sm backdrop-blur-sm">
               {i18n.categories[categoryId]}
             </div>
             <div
@@ -154,7 +154,7 @@ export function EmojiPickerContent({
   const SearchList = useCallback(() => {
     return (
       <div style={{ width: getRowWidth }} data-id="search">
-        <div className="sticky -top-px z-[1] bg-popover/90 p-1 py-2 text-sm font-semibold text-card-foreground backdrop-blur-sm">
+        <div className="-top-px sticky z-[1] bg-popover/90 p-1 py-2 font-semibold text-card-foreground text-sm backdrop-blur-sm">
           {i18n.searchResult}
         </div>
         <div className="relative flex flex-wrap">
@@ -187,7 +187,7 @@ export function EmojiPickerContent({
         '[&::-webkit-scrollbar]:w-4',
         '[&::-webkit-scrollbar-button]:hidden [&::-webkit-scrollbar-button]:size-0',
         '[&::-webkit-scrollbar-thumb]:min-h-11 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-muted [&::-webkit-scrollbar-thumb]:hover:bg-muted-foreground/25',
-        '[&::-webkit-scrollbar-thumb]:border-4 [&::-webkit-scrollbar-thumb]:border-solid [&::-webkit-scrollbar-thumb]:border-popover [&::-webkit-scrollbar-thumb]:bg-clip-padding'
+        '[&::-webkit-scrollbar-thumb]:border-4 [&::-webkit-scrollbar-thumb]:border-popover [&::-webkit-scrollbar-thumb]:border-solid [&::-webkit-scrollbar-thumb]:bg-clip-padding'
       )}
       data-id="scroll"
     >

@@ -1,16 +1,16 @@
-"use client";
+'use client';
 
-import type { ReactNode } from "react";
-import { createContext, useContext, useRef } from "react";
-import { useStore } from "zustand";
+import type { ReactNode } from 'react';
+import { createContext, useContext, useRef } from 'react';
+import { useStore } from 'zustand';
 
-import type { ChatState, ChatStore } from "~/stores/chat-store";
-import { createChatStore } from "~/stores/chat-store";
+import type { ChatState, ChatStore } from '~/stores/chat-store';
+import { createChatStore } from '~/stores/chat-store';
 
 export type ChatStoreApi = ReturnType<typeof createChatStore>;
 
 export const ChatStoreContext = createContext<ChatStoreApi | undefined>(
-  undefined,
+  undefined
 );
 
 export interface ChatStoreProviderProps {
@@ -39,7 +39,7 @@ export function useChatStore<T>(selector: (store: ChatStore) => T): T {
   const store = useContext(ChatStoreContext);
 
   if (!store) {
-    throw new Error("useChatStore must be used within a ChatStoreProvider");
+    throw new Error('useChatStore must be used within a ChatStoreProvider');
   }
 
   return useStore(store, selector);

@@ -4,10 +4,10 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@lamp/ui/components/select";
+} from '@lamp/ui/components/select';
 
-import { BIBLE_VERSIONS } from "~/lib/constants";
-import { useBibleStore } from "~/providers/bible-store-provider";
+import { BIBLE_VERSIONS } from '~/lib/constants';
+import { useBibleStore } from '~/providers/bible-store-provider';
 
 export function BibleSelect() {
   const setBibleVersion = useBibleStore((state) => state.setBibleVersion);
@@ -16,11 +16,11 @@ export function BibleSelect() {
   return (
     <Select
       value={bibleVersion.toString()}
-      onValueChange={(value) => setBibleVersion(value as "BSB" | "KJV")}
+      onValueChange={(value) => setBibleVersion(value as 'BSB' | 'KJV')}
     >
       <SelectTrigger
         aria-label="Select Bible version"
-        className="h-8 pl-2 pr-1"
+        className="h-8 pr-1 pl-2"
       >
         <SelectValue />
       </SelectTrigger>

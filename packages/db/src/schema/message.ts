@@ -1,40 +1,36 @@
-import type { CoreMessage } from "ai";
-import type { z } from "zod";
-import { relations, sql } from "drizzle-orm";
-import { index } from "drizzle-orm/pg-core";
-import { createInsertSchema, createSelectSchema } from "drizzle-zod";
+import type { CoreMessage } from 'ai';
+import { relations, sql } from 'drizzle-orm';
+import { index } from 'drizzle-orm/pg-core';
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod';
+import type { z } from 'zod';
 
-import { timestamps } from "../lib/utils";
-import { createTable } from "./_table";
-import { Chat } from "./chat";
+import { timestamps } from '../lib/utils';
+import { createTable } from './_table';
+import { Chat } from './chat';
 
 export const Message = createTable(
-  "message",
+  'message',
   (t) => ({
     id: t.uuid().defaultRandom().primaryKey(),
     chatId: t
       .uuid()
       .notNull()
-      .references(() => Chat.id, { onDelete: "cascade" }),
+      .references(() => Chat.id, { onDelete: 'cascade' }),
     role: t.varchar({ length: 256 }).notNull(),
-    content: t
-      .jsonb()
-      .$type<CoreMessage>()
-      .notNull()
-      .default(sql`'{}'::jsonb`),
+    content: t.jsonb().$type<CoreMessage>().notNull().default(sql`'{}'::jsonb`),
 
     createdAt: t.timestamp().defaultNow().notNull(),
     updatedAt: t
       .timestamp({
-        mode: "date",
+        mode: 'date',
         withTimezone: true,
       })
       .$onUpdateFn(() => new Date()),
   }),
   (table) => [
-    index("message_chat_id_idx").on(table.chatId),
-    index("message_created_at_idx").on(table.createdAt),
-  ],
+    index('message_chat_id_idx').on(table.chatId),
+    index('message_created_at_idx').on(table.createdAt),
+  ]
 );
 
 export const MessageRelations = relations(Message, ({ one }) => ({
@@ -63,4 +59,4 @@ export type Message = typeof Message.$inferSelect;
 export type NewMessage = z.infer<typeof insertMessageSchema>;
 export type NewMessageParams = z.infer<typeof insertMessageParams>;
 export type UpdateMessageParams = z.infer<typeof updateMessageParams>;
-export type MessageId = z.infer<typeof messageIdSchema>["id"];
+export type MessageId = z.infer<typeof messageIdSchema>['id'];

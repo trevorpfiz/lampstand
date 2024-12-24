@@ -1,5 +1,3 @@
-import React from 'react';
-
 import type { TCommentText } from '@udecode/plate-comments';
 import type { SlateLeafProps } from '@udecode/plate-common';
 
@@ -19,7 +17,7 @@ export function CommentLeafStatic({
       )}
       {...props}
     >
-      <>{children}</>
+      {children}
     </SlateLeaf>
   );
 }

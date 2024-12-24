@@ -12,7 +12,9 @@ export const useUploadErrorToast = () => {
   const uploadError = editor.useOption(PlaceholderPlugin, 'error');
 
   useEffect(() => {
-    if (!uploadError) return;
+    if (!uploadError) {
+      return;
+    }
 
     const { code, data } = uploadError;
 

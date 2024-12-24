@@ -7,8 +7,8 @@ import type { DropTargetMonitor } from 'react-dnd';
 
 import { cn, withRef } from '@udecode/cn';
 import {
-  type PlateElementProps,
   MemoizedChildren,
+  type PlateElementProps,
   useEditorPlugin,
   useEditorRef,
 } from '@udecode/plate-common/react';
@@ -105,7 +105,7 @@ const Gutter = React.forwardRef<
       ref={ref}
       className={cn(
         'slate-gutterLeft',
-        'absolute -top-px z-50 flex h-full -translate-x-full cursor-text hover:opacity-100 sm:opacity-0 main-hover:group-hover:opacity-100',
+        '-top-px -translate-x-full absolute z-50 flex h-full cursor-text hover:opacity-100 main-hover:group-hover:opacity-100 sm:opacity-0',
         isSelectionAreaVisible && 'hidden',
         !selected && 'opacity-0',
         className
@@ -151,7 +151,9 @@ const DropLine = React.memo(
     ({ className, ...props }, ref) => {
       const state = useDropLine();
 
-      if (!state.dropLine) return null;
+      if (!state.dropLine) {
+        return null;
+      }
 
       return (
         <div

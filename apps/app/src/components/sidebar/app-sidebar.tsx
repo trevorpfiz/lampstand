@@ -1,16 +1,16 @@
-"use client";
+'use client';
 
-import * as React from "react";
-import { SquarePen } from "lucide-react";
+import { SquarePen } from 'lucide-react';
+import * as React from 'react';
 
-import { Button } from "@lamp/ui/components/button";
+import { Button } from '@lamp/ui/components/button';
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@lamp/ui/components/card";
+} from '@lamp/ui/components/card';
 import {
   Sidebar,
   SidebarContent,
@@ -20,29 +20,29 @@ import {
   SidebarMenu,
   SidebarMenuItem,
   SidebarRail,
-} from "@lamp/ui/components/sidebar";
-import { Spinner } from "@lamp/ui/components/spinner";
+} from '@lamp/ui/components/sidebar';
+import { Spinner } from '@lamp/ui/components/spinner';
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@lamp/ui/components/tooltip";
-import { handleError } from "@lamp/ui/lib/utils";
+} from '@lamp/ui/components/tooltip';
+import { handleError } from '@lamp/ui/lib/utils';
 
-import { NavFooter } from "~/components/sidebar/nav-footer";
-import { NavMain } from "~/components/sidebar/nav-main";
+import { NavFooter } from '~/components/sidebar/nav-footer';
+import { NavMain } from '~/components/sidebar/nav-main';
 import {
   NavStudies,
   NavStudiesSkeleton,
-} from "~/components/sidebar/nav-studies";
-import { api } from "~/trpc/react";
+} from '~/components/sidebar/nav-studies';
+import { api } from '~/trpc/react';
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const utils = api.useUtils();
 
   const createMutation = api.study.create.useMutation({
     onSuccess: () => {
-      void utils.study.byUser.invalidate();
+      utils.study.byUser.invalidate();
     },
     onError: (error) => {
       handleError(error);
@@ -68,7 +68,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                     className="h-8 w-8"
                     onClick={() => {
                       createMutation.mutate({
-                        title: "New study",
+                        title: 'New study',
                       });
                     }}
                     disabled={createMutation.isPending}

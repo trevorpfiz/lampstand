@@ -1,19 +1,19 @@
-import type { Metadata } from "next";
-import merge from "lodash.merge";
+import merge from 'lodash.merge';
+import type { Metadata } from 'next';
 
-type MetadataGenerator = Omit<Metadata, "description" | "title"> & {
+type MetadataGenerator = Omit<Metadata, 'description' | 'title'> & {
   title: string;
   description: string;
   image?: string;
 };
 
-const applicationName = "Lampstand";
-const author: Metadata["authors"] = {
-  name: "Lampstand",
-  url: "https://getlampstand.com",
+const applicationName = 'Lampstand';
+const author: Metadata['authors'] = {
+  name: 'Lampstand',
+  url: 'https://getlampstand.com',
 };
-const publisher = "Lampstand";
-const twitterHandle = "@getlampstand";
+const publisher = 'Lampstand';
+const twitterHandle = '@getlampstand';
 
 export const createMetadata = ({
   title,
@@ -33,19 +33,19 @@ export const createMetadata = ({
     },
     appleWebApp: {
       capable: true,
-      statusBarStyle: "default",
+      statusBarStyle: 'default',
       title: parsedTitle,
     },
     openGraph: {
       title: parsedTitle,
       description,
-      type: "website",
+      type: 'website',
       siteName: applicationName,
-      locale: "en_US",
+      locale: 'en_US',
     },
     publisher,
     twitter: {
-      card: "summary_large_image",
+      card: 'summary_large_image',
       creator: twitterHandle,
     },
   };

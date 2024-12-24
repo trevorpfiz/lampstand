@@ -1,10 +1,10 @@
-import type { TRPCRouterRecord } from "@trpc/server";
-import { and, desc, eq } from "drizzle-orm";
-import { z } from "zod";
+import type { TRPCRouterRecord } from '@trpc/server';
+import { and, desc, eq } from 'drizzle-orm';
+import { z } from 'zod';
 
-import { insertStudyParams, Study, updateStudyParams } from "@lamp/db/schema";
+import { Study, insertStudyParams, updateStudyParams } from '@lamp/db/schema';
 
-import { protectedProcedure } from "../trpc";
+import { protectedProcedure } from '../trpc';
 
 export const studyRouter = {
   byUser: protectedProcedure.query(async ({ ctx }) => {

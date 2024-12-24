@@ -1,31 +1,34 @@
-import type { Components } from "react-markdown";
-import { memo } from "react";
-import Link from "next/link";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import { twMerge } from "tailwind-merge";
+import Link from 'next/link';
+import { memo } from 'react';
+import type { Components } from 'react-markdown';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import { twMerge } from 'tailwind-merge';
+
+// Define regex at module level for better performance
+const LANGUAGE_REGEX = /language-(\w+)/;
 
 // Base classes for components
 const baseClasses = {
-  pre: "mt-2 w-[80dvw] overflow-x-scroll rounded-lg bg-zinc-100 p-3 text-sm dark:bg-zinc-800 md:max-w-[500px]",
-  inlineCode: "rounded-md bg-zinc-100 px-1 py-0.5 text-sm dark:bg-zinc-800",
-  ol: "ml-4 list-outside list-decimal",
-  ul: "ml-4 list-outside list-decimal",
-  li: "py-1",
-  strong: "font-semibold",
-  a: "text-blue-500 hover:underline",
-  h1: "mb-2 mt-6 text-3xl font-semibold",
-  h2: "mb-2 mt-6 text-2xl font-semibold",
-  h3: "mb-2 mt-6 text-xl font-semibold",
-  h4: "mb-2 mt-6 text-lg font-semibold",
-  h5: "mb-2 mt-6 text-base font-semibold",
-  h6: "mb-2 mt-6 text-sm font-semibold",
+  pre: 'mt-2 w-[80dvw] overflow-x-scroll rounded-lg bg-zinc-100 p-3 text-sm dark:bg-zinc-800 md:max-w-[500px]',
+  inlineCode: 'rounded-md bg-zinc-100 px-1 py-0.5 text-sm dark:bg-zinc-800',
+  ol: 'ml-4 list-outside list-decimal',
+  ul: 'ml-4 list-outside list-decimal',
+  li: 'py-1',
+  strong: 'font-semibold',
+  a: 'text-blue-500 hover:underline',
+  h1: 'mb-2 mt-6 text-3xl font-semibold',
+  h2: 'mb-2 mt-6 text-2xl font-semibold',
+  h3: 'mb-2 mt-6 text-xl font-semibold',
+  h4: 'mb-2 mt-6 text-lg font-semibold',
+  h5: 'mb-2 mt-6 text-base font-semibold',
+  h6: 'mb-2 mt-6 text-sm font-semibold',
 };
 
 const NonMemoizedMarkdown = ({ children }: { children: string }) => {
   const components: Partial<Components> = {
     code: ({ node, inline, className, children, ...props }) => {
-      const match = /language-(\w+)/.exec(className || "");
+      const match = LANGUAGE_REGEX.exec(className || '');
       return !inline && match ? (
         <pre {...props} className={twMerge(baseClasses.pre, className)}>
           <code className={match[1]}>{children}</code>
@@ -129,5 +132,5 @@ const NonMemoizedMarkdown = ({ children }: { children: string }) => {
 
 export const Markdown = memo(
   NonMemoizedMarkdown,
-  (prevProps, nextProps) => prevProps.children === nextProps.children,
+  (prevProps, nextProps) => prevProps.children === nextProps.children
 );

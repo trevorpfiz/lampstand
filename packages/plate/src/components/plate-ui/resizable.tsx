@@ -1,11 +1,9 @@
 'use client';
 
-import React from 'react';
-
 import { cn, createPrimitiveElement, withRef, withVariants } from '@udecode/cn';
 import {
-  type ResizeHandle as ResizeHandlePrimitive,
   Resizable as ResizablePrimitive,
+  type ResizeHandle as ResizeHandlePrimitive,
   useResizeHandle,
   useResizeHandleState,
 } from '@udecode/plate-resizable';
@@ -48,7 +46,9 @@ export const ResizeHandle = withRef<typeof ResizeHandlePrimitive>(
     const state = useResizeHandleState(options ?? {});
     const resizeHandle = useResizeHandle(state);
 
-    if (state.readOnly) return null;
+    if (state.readOnly) {
+      return null;
+    }
 
     return (
       <ResizeHandleVariants

@@ -1,9 +1,9 @@
-import type { NoseconeOptions } from "@nosecone/next";
-import { defaults, withVercelToolbar } from "@nosecone/next";
+import type { NoseconeOptions } from '@nosecone/next';
+import { defaults, withVercelToolbar } from '@nosecone/next';
 
-import { env } from "@lamp/env";
+import { env } from '@lamp/env';
 
-export { createMiddleware as noseconeMiddleware } from "@nosecone/next";
+export { createMiddleware as noseconeMiddleware } from '@nosecone/next';
 
 // Nosecone security headers configuration
 // https://docs.arcjet.com/nosecone/quick-start
@@ -17,6 +17,6 @@ const noseconeOptions: NoseconeOptions = {
 };
 
 export const noseconeConfig: NoseconeOptions =
-  env.NODE_ENV === "development" && env.FLAGS_SECRET
+  env.NODE_ENV === 'development' && env.FLAGS_SECRET
     ? withVercelToolbar(noseconeOptions)
     : noseconeOptions;

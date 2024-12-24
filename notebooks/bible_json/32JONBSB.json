@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "JON"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Jonah\n"
-      ]
+      "content": ["Jonah\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Jonah\n"
-      ]
+      "content": ["Jonah\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Jonah\n"
-      ]
+      "content": ["Jonah\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jonah Flees from the LORD\n"
-      ]
+      "content": ["Jonah Flees from the LORD\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Nahum 1:1–15)\n"
-      ]
+      "content": ["(Nahum 1:1–15)\n"]
     },
     {
       "type": "para",
@@ -95,16 +83,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Great Storm\n"
-      ]
+      "content": ["The Great Storm\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Acts 27:13–26)\n"
-      ]
+      "content": ["(Acts 27:13–26)\n"]
     },
     {
       "type": "para",
@@ -171,9 +155,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "So they cast lots, and the lot fell on Jonah. \n"
-      ]
+      "content": ["So they cast lots, and the lot fell on Jonah. \n"]
     },
     {
       "type": "para",
@@ -229,9 +211,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jonah Cast into the Sea\n"
-      ]
+      "content": ["Jonah Cast into the Sea\n"]
     },
     {
       "type": "para",
@@ -290,16 +270,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:13 "
-              ]
+              "content": ["1:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew the men dug in"
-              ]
+              "content": ["Hebrew the men dug in"]
             }
           ],
           "caller": "+"
@@ -384,9 +360,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jonah’s Prayer\n"
-      ]
+      "content": ["Jonah’s Prayer\n"]
     },
     {
       "type": "para",
@@ -419,30 +393,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“In my distress I called to the LORD, \n"
-      ]
+      "content": ["“In my distress I called to the LORD, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and He answered me. \n"
-      ]
+      "content": ["and He answered me. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "From the belly of Sheol I called for help, \n"
-      ]
+      "content": ["From the belly of Sheol I called for help, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and You heard my voice. \n"
-      ]
+      "content": ["and You heard my voice. \n"]
     },
     {
       "type": "para",
@@ -460,23 +426,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "into the heart of the seas, \n"
-      ]
+      "content": ["into the heart of the seas, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and the current swirled about me; \n"
-      ]
+      "content": ["and the current swirled about me; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "all Your breakers and waves swept over me. \n"
-      ]
+      "content": ["all Your breakers and waves swept over me. \n"]
     },
     {
       "type": "para",
@@ -494,23 +454,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "‘I have been banished from Your sight; \n"
-      ]
+      "content": ["‘I have been banished from Your sight; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "yet I will look once more \n"
-      ]
+      "content": ["yet I will look once more \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "toward Your holy temple.’ \n"
-      ]
+      "content": ["toward Your holy temple.’ \n"]
     },
     {
       "type": "para",
@@ -532,23 +486,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to take my life; \n"
-      ]
+      "content": ["to take my life; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "the watery depths closed around me; \n"
-      ]
+      "content": ["the watery depths closed around me; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the seaweed wrapped around my head. \n"
-      ]
+      "content": ["the seaweed wrapped around my head. \n"]
     },
     {
       "type": "para",
@@ -566,23 +514,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the earth beneath me barred me in forever! \n"
-      ]
+      "content": ["the earth beneath me barred me in forever! \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "But You raised my life from the pit, \n"
-      ]
+      "content": ["But You raised my life from the pit, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "O LORD my God! \n"
-      ]
+      "content": ["O LORD my God! \n"]
     },
     {
       "type": "para",
@@ -604,23 +546,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I remembered the LORD. \n"
-      ]
+      "content": ["I remembered the LORD. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "My prayer went up to You, \n"
-      ]
+      "content": ["My prayer went up to You, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to Your holy temple. \n"
-      ]
+      "content": ["to Your holy temple. \n"]
     },
     {
       "type": "para",
@@ -648,9 +584,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:8 "
-              ]
+              "content": ["2:8 "]
             },
             {
               "type": "char",
@@ -681,23 +615,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will sacrifice to You. \n"
-      ]
+      "content": ["will sacrifice to You. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "I will fulfill what I have vowed. \n"
-      ]
+      "content": ["I will fulfill what I have vowed. \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Salvation is from the LORD!” \n"
-      ]
+      "content": ["Salvation is from the LORD!” \n"]
     },
     {
       "type": "para",
@@ -725,16 +653,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Ninevites Repent\n"
-      ]
+      "content": ["The Ninevites Repent\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Matthew 12:38–42; Luke 11:29–32)\n"
-      ]
+      "content": ["(Matthew 12:38–42; Luke 11:29–32)\n"]
     },
     {
       "type": "para",
@@ -794,16 +718,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:3 "
-              ]
+              "content": ["3:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or was a great city to God"
-              ]
+              "content": ["Or was a great city to God"]
             }
           ],
           "caller": "+"
@@ -817,16 +737,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:3 "
-              ]
+              "content": ["3:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally great city, a three-day journey"
-              ]
+              "content": ["Literally great city, a three-day journey"]
             }
           ],
           "caller": "+"
@@ -899,9 +815,7 @@
     {
       "type": "para",
       "marker": "pmo",
-      "content": [
-        "“By the decree of the king and his nobles: \n"
-      ]
+      "content": ["“By the decree of the king and his nobles: \n"]
     },
     {
       "type": "para",
@@ -954,9 +868,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jonah’s Anger at the LORD’s Compassion\n"
-      ]
+      "content": ["Jonah’s Anger at the LORD’s Compassion\n"]
     },
     {
       "type": "para",
@@ -981,9 +893,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:1 "
-              ]
+              "content": ["4:1 "]
             },
             {
               "type": "char",
@@ -1059,9 +969,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:6 "
-              ]
+              "content": ["4:6 "]
             },
             {
               "type": "char",
@@ -1134,9 +1042,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“I do,” he replied. “I am angry enough to die!” \n"
-      ]
+      "content": ["“I do,” he replied. “I am angry enough to die!” \n"]
     },
     {
       "type": "para",

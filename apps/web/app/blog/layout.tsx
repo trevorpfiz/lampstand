@@ -1,6 +1,6 @@
-import type { ReactNode } from "react";
+import type { ReactNode } from 'react';
 
-import { Toolbar } from "@lamp/cms/components/toolbar";
+import { Toolbar } from '@lamp/cms/components/toolbar';
 
 type BlogLayoutProps = {
   children: ReactNode;

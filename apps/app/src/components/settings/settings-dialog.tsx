@@ -1,32 +1,32 @@
-"use client";
+'use client';
 
-import { BadgePlus, Settings, User } from "lucide-react";
-import { useTheme } from "next-themes";
-import { useShallow } from "zustand/react/shallow";
+import { BadgePlus, Settings, User } from 'lucide-react';
+import { useTheme } from 'next-themes';
+import { useShallow } from 'zustand/react/shallow';
 
-import { Button } from "@lamp/ui/components/button";
+import { Button } from '@lamp/ui/components/button';
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from "@lamp/ui/components/dialog";
+} from '@lamp/ui/components/dialog';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@lamp/ui/components/select";
+} from '@lamp/ui/components/select';
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@lamp/ui/components/tabs";
+} from '@lamp/ui/components/tabs';
 
-import { useSettingsDialogStore } from "~/providers/settings-dialog-store-provider";
+import { useSettingsDialogStore } from '~/providers/settings-dialog-store-provider';
 
 export function SettingsDialog() {
   const { theme, setTheme } = useTheme();
@@ -34,7 +34,7 @@ export function SettingsDialog() {
     useShallow((state) => ({
       isOpen: state.isOpen,
       closeSettingsDialog: state.closeSettingsDialog,
-    })),
+    }))
   );
 
   return (
@@ -44,7 +44,7 @@ export function SettingsDialog() {
     >
       <DialogContent className="flex min-h-96 flex-col gap-0 p-0 sm:max-h-[min(640px,80vh)] sm:max-w-2xl [&>button:last-child]:top-3.5">
         <DialogHeader className="contents space-y-0 text-left">
-          <DialogTitle className="border-b border-border px-6 py-4 text-lg">
+          <DialogTitle className="border-border border-b px-6 py-4 text-lg">
             Settings
           </DialogTitle>
           <DialogDescription className="hidden">
@@ -98,8 +98,8 @@ export function SettingsDialog() {
                 </TabsList>
                 <div className="grow text-start">
                   <TabsContent value="general" className="m-0">
-                    <div className="flex flex-col gap-3 pb-6 pl-0 pr-6 pt-5 text-sm text-foreground">
-                      <div className="flex items-center justify-between border-b border-border pb-3">
+                    <div className="flex flex-col gap-3 pt-5 pr-6 pb-6 pl-0 text-foreground text-sm">
+                      <div className="flex items-center justify-between border-border border-b pb-3">
                         <div>Theme</div>
                         <Select value={theme} onValueChange={setTheme}>
                           <SelectTrigger className="w-auto min-w-[100px]">
@@ -114,8 +114,8 @@ export function SettingsDialog() {
                       </div>
                     </div>
                   </TabsContent>
-                  <TabsContent value="account" className="m-0"></TabsContent>
-                  <TabsContent value="settings" className="m-0"></TabsContent>
+                  <TabsContent value="account" className="m-0" />
+                  <TabsContent value="settings" className="m-0" />
                 </div>
               </Tabs>
             </div>

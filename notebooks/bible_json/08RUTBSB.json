@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "RUT"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Ruth\n"
-      ]
+      "content": ["Ruth\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Ruth\n"
-      ]
+      "content": ["Ruth\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Ruth\n"
-      ]
+      "content": ["Ruth\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Naomi Becomes a Widow\n"
-      ]
+      "content": ["Naomi Becomes a Widow\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Timothy 5:3–16)\n"
-      ]
+      "content": ["(1 Timothy 5:3–16)\n"]
     },
     {
       "type": "para",
@@ -120,9 +108,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Ruth’s Loyalty to Naomi\n"
-      ]
+      "content": ["Ruth’s Loyalty to Naomi\n"]
     },
     {
       "type": "para",
@@ -171,9 +157,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:8 "
-              ]
+              "content": ["1:8 "]
             },
             {
               "type": "char",
@@ -302,44 +286,32 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Do not urge me to leave you \n"
-      ]
+      "content": ["“Do not urge me to leave you \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "or to turn from following you. \n"
-      ]
+      "content": ["or to turn from following you. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "For wherever you go, I will go, \n"
-      ]
+      "content": ["For wherever you go, I will go, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and wherever you live, I will live; \n"
-      ]
+      "content": ["and wherever you live, I will live; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "your people will be my people, \n"
-      ]
+      "content": ["your people will be my people, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and your God will be my God. \n"
-      ]
+      "content": ["and your God will be my God. \n"]
     },
     {
       "type": "para",
@@ -357,37 +329,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and there I will be buried. \n"
-      ]
+      "content": ["and there I will be buried. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "May the LORD punish me, \n"
-      ]
+      "content": ["May the LORD punish me, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and ever so severely, \n"
-      ]
+      "content": ["and ever so severely, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "if anything but death \n"
-      ]
+      "content": ["if anything but death \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "separates you and me.” \n"
-      ]
+      "content": ["separates you and me.” \n"]
     },
     {
       "type": "para",
@@ -409,9 +371,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Return to Bethlehem\n"
-      ]
+      "content": ["The Return to Bethlehem\n"]
     },
     {
       "type": "para",
@@ -453,16 +413,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:20 "
-              ]
+              "content": ["1:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Naomi means pleasant."
-              ]
+              "content": ["Naomi means pleasant."]
             }
           ],
           "caller": "+"
@@ -476,16 +432,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:20 "
-              ]
+              "content": ["1:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Mara means bitter."
-              ]
+              "content": ["Mara means bitter."]
             }
           ],
           "caller": "+"
@@ -499,16 +451,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:20 "
-              ]
+              "content": ["1:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew Shaddai; also in verse 21"
-              ]
+              "content": ["Hebrew Shaddai; also in verse 21"]
             }
           ],
           "caller": "+"
@@ -549,9 +497,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Boaz Meets Ruth\n"
-      ]
+      "content": ["Boaz Meets Ruth\n"]
     },
     {
       "type": "para",
@@ -594,9 +540,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Go ahead, my daughter,” Naomi replied. \n"
-      ]
+      "content": ["“Go ahead, my daughter,” Naomi replied. \n"]
     },
     {
       "type": "para",
@@ -639,9 +583,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“The LORD bless you,” they replied. \n"
-      ]
+      "content": ["“The LORD bless you,” they replied. \n"]
     },
     {
       "type": "para",
@@ -830,9 +772,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:17 "
-              ]
+              "content": ["2:17 "]
             },
             {
               "type": "char",
@@ -905,9 +845,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:20 "
-              ]
+              "content": ["2:20 "]
             },
             {
               "type": "char",
@@ -982,9 +920,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Ruth’s Redemption Assured\n"
-      ]
+      "content": ["Ruth’s Redemption Assured\n"]
     },
     {
       "type": "para",
@@ -1116,9 +1052,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:9 "
-              ]
+              "content": ["3:9 "]
             },
             {
               "type": "char",
@@ -1139,9 +1073,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:9 "
-              ]
+              "content": ["3:9 "]
             },
             {
               "type": "char",
@@ -1193,16 +1125,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:12 "
-              ]
+              "content": ["3:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, more closely related"
-              ]
+              "content": ["That is, more closely related"]
             }
           ],
           "caller": "+"
@@ -1258,9 +1186,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:15 "
-              ]
+              "content": ["3:15 "]
             },
             {
               "type": "char",
@@ -1281,9 +1207,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:15 "
-              ]
+              "content": ["3:15 "]
             },
             {
               "type": "char",
@@ -1359,9 +1283,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Boaz Redeems Ruth\n"
-      ]
+      "content": ["Boaz Redeems Ruth\n"]
     },
     {
       "type": "para",
@@ -1386,9 +1308,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:1 "
-              ]
+              "content": ["4:1 "]
             },
             {
               "type": "char",
@@ -1450,9 +1370,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:4 "
-              ]
+              "content": ["4:4 "]
             },
             {
               "type": "char",
@@ -1474,9 +1392,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“I will redeem it,” he replied. \n"
-      ]
+      "content": ["“I will redeem it,” he replied. \n"]
     },
     {
       "type": "para",
@@ -1587,9 +1503,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Boaz Marries Ruth\n"
-      ]
+      "content": ["Boaz Marries Ruth\n"]
     },
     {
       "type": "para",
@@ -1659,16 +1573,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Line of David\n"
-      ]
+      "content": ["The Line of David\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Matthew 1:1–17; Luke 3:23–38)\n"
-      ]
+      "content": ["(Matthew 1:1–17; Luke 3:23–38)\n"]
     },
     {
       "type": "para",
@@ -1694,9 +1604,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Perez was the father of Hezron, \n"
-      ]
+      "content": ["Perez was the father of Hezron, \n"]
     },
     {
       "type": "para",
@@ -1722,9 +1630,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Ram was the father of Amminadab, \n"
-      ]
+      "content": ["Ram was the father of Amminadab, \n"]
     },
     {
       "type": "para",
@@ -1760,9 +1666,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:20 "
-              ]
+              "content": ["4:20 "]
             },
             {
               "type": "char",
@@ -1801,9 +1705,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Boaz was the father of Obed, \n"
-      ]
+      "content": ["Boaz was the father of Obed, \n"]
     },
     {
       "type": "para",
@@ -1829,9 +1731,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and Jesse was the father of David. "
-      ]
+      "content": ["and Jesse was the father of David. "]
     }
   ]
 }

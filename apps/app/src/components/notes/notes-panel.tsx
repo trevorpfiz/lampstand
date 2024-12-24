@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { useState } from "react";
+import { useState } from 'react';
 
-import type { MinimalNote } from "@lamp/db/schema";
+import type { MinimalNote } from '@lamp/db/schema';
 
-import { NoteEditor } from "./note-editor";
-import { NotesList } from "./notes-list";
+import { NoteEditor } from './note-editor';
+import { NotesList } from './notes-list';
 
 interface NotesPanelProps {
   initialNotes?: MinimalNote[];

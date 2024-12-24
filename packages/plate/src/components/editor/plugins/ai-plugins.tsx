@@ -1,37 +1,35 @@
-"use client";
-
-import React from "react";
-import { AIChatPlugin, AIPlugin } from "@udecode/plate-ai/react";
+'use client';
+import { AIChatPlugin, AIPlugin } from '@udecode/plate-ai/react';
 import {
   BaseBoldPlugin,
   BaseCodePlugin,
   BaseItalicPlugin,
   BaseStrikethroughPlugin,
   BaseUnderlinePlugin,
-} from "@udecode/plate-basic-marks";
-import { BaseBlockquotePlugin } from "@udecode/plate-block-quote";
+} from '@udecode/plate-basic-marks';
+import { BaseBlockquotePlugin } from '@udecode/plate-block-quote';
 import {
   BaseCodeBlockPlugin,
   BaseCodeLinePlugin,
   BaseCodeSyntaxPlugin,
-} from "@udecode/plate-code-block";
-import { BaseParagraphPlugin, createSlateEditor } from "@udecode/plate-common";
-import { BaseHeadingPlugin, HEADING_LEVELS } from "@udecode/plate-heading";
-import { BaseHorizontalRulePlugin } from "@udecode/plate-horizontal-rule";
-import { BaseIndentListPlugin } from "@udecode/plate-indent-list";
-import { BaseLinkPlugin } from "@udecode/plate-link";
-import { MarkdownPlugin } from "@udecode/plate-markdown";
+} from '@udecode/plate-code-block';
+import { BaseParagraphPlugin, createSlateEditor } from '@udecode/plate-common';
+import { BaseHeadingPlugin, HEADING_LEVELS } from '@udecode/plate-heading';
+import { BaseHorizontalRulePlugin } from '@udecode/plate-horizontal-rule';
+import { BaseIndentListPlugin } from '@udecode/plate-indent-list';
+import { BaseLinkPlugin } from '@udecode/plate-link';
+import { MarkdownPlugin } from '@udecode/plate-markdown';
 
-import { AIMenu } from "../../plate-ui/ai-menu";
+import { AIMenu } from '../../plate-ui/ai-menu';
 import {
   TodoLiStatic,
   TodoMarkerStatic,
-} from "../../plate-ui/indent-todo-marker-static";
-import { cursorOverlayPlugin } from "./cursor-overlay-plugin";
+} from '../../plate-ui/indent-todo-marker-static';
+import { cursorOverlayPlugin } from './cursor-overlay-plugin';
 
 const createAIEditor = () => {
   const editor = createSlateEditor({
-    id: "ai",
+    id: 'ai',
     plugins: [
       BaseBlockquotePlugin,
       BaseBoldPlugin,
@@ -60,7 +58,7 @@ const createAIEditor = () => {
             todo: {
               liComponent: TodoLiStatic,
               markerComponent: TodoMarkerStatic,
-              type: "todo",
+              type: 'todo',
             },
           },
         },
@@ -161,18 +159,22 @@ export const aiPlugins = [
     options: {
       createAIEditor,
       promptTemplate: ({ isBlockSelecting, isSelecting }) => {
-        return isBlockSelecting
-          ? PROMPT_TEMPLATES.userBlockSelecting
-          : isSelecting
-            ? PROMPT_TEMPLATES.userSelecting
-            : PROMPT_TEMPLATES.userDefault;
+        if (isBlockSelecting) {
+          return PROMPT_TEMPLATES.userBlockSelecting;
+        }
+        if (isSelecting) {
+          return PROMPT_TEMPLATES.userSelecting;
+        }
+        return PROMPT_TEMPLATES.userDefault;
       },
       systemTemplate: ({ isBlockSelecting, isSelecting }) => {
-        return isBlockSelecting
-          ? PROMPT_TEMPLATES.systemBlockSelecting
-          : isSelecting
-            ? PROMPT_TEMPLATES.systemSelecting
-            : PROMPT_TEMPLATES.systemDefault;
+        if (isBlockSelecting) {
+          return PROMPT_TEMPLATES.systemBlockSelecting;
+        }
+        if (isSelecting) {
+          return PROMPT_TEMPLATES.systemSelecting;
+        }
+        return PROMPT_TEMPLATES.systemDefault;
       },
     },
     render: { afterEditable: () => <AIMenu /> },

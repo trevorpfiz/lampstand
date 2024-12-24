@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 interface HeaderProps {
   headerTitle: string;
@@ -11,8 +11,8 @@ export const Header = ({ headerTitle, headerSubtitle }: HeaderProps) => {
       <Image src="/icon.png" alt="Lampstand" width={24} height={24} />
 
       <div className="flex flex-col items-center justify-center gap-1">
-        <h1 className="text-[17px] font-bold leading-6">{headerTitle}</h1>
-        <p className="text-[13px] leading-snug text-muted-foreground">
+        <h1 className="font-bold text-[17px] leading-6">{headerTitle}</h1>
+        <p className="text-[13px] text-muted-foreground leading-snug">
           {headerSubtitle}
         </p>
       </div>

@@ -15,8 +15,8 @@ export interface VerseData {
 }
 
 export type VerseSegment =
-  | { type: "text"; content: string }
-  | { type: "footnote"; ref: string | null; content: string | null };
+  | { type: 'text'; content: string }
+  | { type: 'footnote'; ref: string | null; content: string | null };
 
 export type FormattedBlock =
   | HeadingBlock
@@ -25,13 +25,13 @@ export type FormattedBlock =
   | ReferenceBlock;
 
 export interface HeadingBlock {
-  type: "heading" | "subheading";
+  type: 'heading' | 'subheading';
   level: number;
   lines: string[];
 }
 
 export interface ParagraphBlock {
-  type: "paragraph" | "poetry" | "other";
+  type: 'paragraph' | 'poetry' | 'other';
   marker?: string;
   // Lines that have no verse may just be in `lines`
   // Verses references: store verse numbers to map back to chapter.verses
@@ -40,11 +40,11 @@ export interface ParagraphBlock {
 }
 
 export interface BlankBlock {
-  type: "blank";
+  type: 'blank';
 }
 
 export interface ReferenceBlock {
-  type: "reference";
+  type: 'reference';
   text: string;
 }
 
@@ -66,19 +66,19 @@ export interface USJContent {
   sid?: string;
 }
 export interface USJVerse {
-  type: "verse";
-  marker: "v";
+  type: 'verse';
+  marker: 'v';
   number: string;
   sid: string;
 }
 export interface USJNote {
-  type: "note";
-  marker: "f";
+  type: 'note';
+  marker: 'f';
   content: (string | USJChar)[];
   caller: string;
 }
 export interface USJChar {
-  type: "char";
+  type: 'char';
   marker: string;
   content: string[];
 }

@@ -1,7 +1,5 @@
 'use client';
 
-import React from 'react';
-
 import {
   CommentProvider,
   CommentsPlugin,
@@ -34,14 +32,14 @@ function CommentItemContent() {
       <div className="relative flex items-center gap-2">
         <CommentAvatar userId={comment.userId} />
 
-        <h4 className="text-sm font-semibold leading-none">{user?.name}</h4>
+        <h4 className="font-semibold text-sm leading-none">{user?.name}</h4>
 
-        <div className="text-xs leading-none text-muted-foreground">
+        <div className="text-muted-foreground text-xs leading-none">
           {formatDistance(comment.createdAt, Date.now())} ago
         </div>
 
         {isMyComment && (
-          <div className="absolute -right-0.5 -top-0.5 flex space-x-1">
+          <div className="-right-0.5 -top-0.5 absolute flex space-x-1">
             {isReplyComment ? null : <CommentResolveButton />}
 
             <CommentMoreDropdown />
@@ -49,7 +47,7 @@ function CommentItemContent() {
         )}
       </div>
 
-      <div className="mb-4 pl-7 pt-0.5">
+      <div className="mb-4 pt-0.5 pl-7">
         {editingValue ? (
           <CommentValue />
         ) : (
@@ -64,7 +62,9 @@ export function CommentItem({ commentId }: PlateCommentProps) {
   const { useOption } = useEditorPlugin(CommentsPlugin);
   const comment = useOption('commentById', commentId);
 
-  if (!comment) return null;
+  if (!comment) {
+    return null;
+  }
 
   return (
     <CommentProvider id={commentId} key={commentId}>

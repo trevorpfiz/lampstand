@@ -1,7 +1,5 @@
 'use client';
 
-import React from 'react';
-
 import { cn } from '@udecode/cn';
 import { useFormInputProps } from '@udecode/plate-common/react';
 import {
@@ -10,8 +8,8 @@ import {
   offset,
 } from '@udecode/plate-floating';
 import {
-  type LinkFloatingToolbarState,
   FloatingLinkUrlInput,
+  type LinkFloatingToolbarState,
   LinkOpenButton,
   useFloatingLinkEdit,
   useFloatingLinkEditState,
@@ -72,12 +70,14 @@ export function LinkFloatingToolbar({ state }: LinkFloatingToolbarProps) {
     preventDefaultOnEnterKeydown: true,
   });
 
-  if (hidden) return null;
+  if (hidden) {
+    return null;
+  }
 
   const input = (
     <div className="flex w-[330px] flex-col" {...inputProps}>
       <div className="flex items-center">
-        <div className="flex items-center pl-2 pr-1 text-muted-foreground">
+        <div className="flex items-center pr-1 pl-2 text-muted-foreground">
           <Link className="size-4" />
         </div>
 
@@ -89,7 +89,7 @@ export function LinkFloatingToolbar({ state }: LinkFloatingToolbarProps) {
       </div>
       <Separator className="my-1" />
       <div className="flex items-center">
-        <div className="flex items-center pl-2 pr-1 text-muted-foreground">
+        <div className="flex items-center pr-1 pl-2 text-muted-foreground">
           <Text className="size-4" />
         </div>
         <input

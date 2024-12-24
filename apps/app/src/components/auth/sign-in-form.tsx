@@ -1,12 +1,11 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import Link from "next/link";
-import { ArrowRight, Eye, EyeOff } from "lucide-react";
-import { useAction } from "next-safe-action/hooks";
+import { ArrowRight, Eye, EyeOff } from 'lucide-react';
+import { useAction } from 'next-safe-action/hooks';
+import Link from 'next/link';
+import { useState } from 'react';
 
-import type { SignIn } from "@lamp/validators/auth";
-import { Button } from "@lamp/ui/components/button";
+import { Button } from '@lamp/ui/components/button';
 import {
   Form,
   FormControl,
@@ -15,12 +14,13 @@ import {
   FormLabel,
   FormMessage,
   useForm,
-} from "@lamp/ui/components/form";
-import { Input } from "@lamp/ui/components/input";
-import { SignInSchema } from "@lamp/validators/auth";
+} from '@lamp/ui/components/form';
+import { Input } from '@lamp/ui/components/input';
+import type { SignIn } from '@lamp/validators/auth';
+import { SignInSchema } from '@lamp/validators/auth';
 
-import { FormError } from "~/components/auth/form-error";
-import { signInWithPassword } from "~/lib/actions/auth";
+import { FormError } from '~/components/auth/form-error';
+import { signInWithPassword } from '~/lib/actions/auth';
 
 export const SignInForm = () => {
   const [isVisible, setIsVisible] = useState<boolean>(false);
@@ -28,8 +28,8 @@ export const SignInForm = () => {
   const form = useForm({
     schema: SignInSchema,
     defaultValues: {
-      email: "",
-      password: "",
+      email: '',
+      password: '',
     },
   });
 
@@ -87,14 +87,14 @@ export const SignInForm = () => {
                     <Input
                       {...field}
                       disabled={isExecuting}
-                      type={isVisible ? "text" : "password"}
+                      type={isVisible ? 'text' : 'password'}
                       className="h-8 pe-9"
                     />
                     <button
                       className="absolute inset-y-0 end-0 flex h-full w-9 items-center justify-center text-muted-foreground/80 outline-offset-2 transition-colors hover:text-foreground focus:z-10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-ring/70 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50"
                       type="button"
                       onClick={() => setIsVisible(!isVisible)}
-                      aria-label={isVisible ? "Hide password" : "Show password"}
+                      aria-label={isVisible ? 'Hide password' : 'Show password'}
                       aria-pressed={isVisible}
                     >
                       {isVisible ? (

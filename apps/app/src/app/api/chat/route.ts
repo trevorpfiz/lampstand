@@ -1,13 +1,12 @@
-import type { Message } from "@lamp/ai";
-import type { Chat } from "@lamp/db/schema";
+import type { Message } from '@lamp/ai';
 import {
+  StreamData,
   convertToCoreMessages,
   customModel,
-  StreamData,
   streamText,
-} from "@lamp/ai";
-import { DEFAULT_MODEL_NAME, models } from "@lamp/ai/models";
-import { systemPrompt } from "@lamp/ai/prompts";
+} from '@lamp/ai';
+import { DEFAULT_MODEL_NAME, models } from '@lamp/ai/models';
+import { systemPrompt } from '@lamp/ai/prompts';
 import {
   createChat,
   deleteChatById,
@@ -15,15 +14,17 @@ import {
   getFirstMessageByChatId,
   saveMessages,
   updateChatTitleById,
-} from "@lamp/db/queries";
-import { createClient } from "@lamp/supabase/server";
+} from '@lamp/db/queries';
+import type { Chat } from '@lamp/db/schema';
+import { createClient } from '@lamp/supabase/server';
+import { captureException } from '@sentry/nextjs';
 
-import { generateTitleFromUserMessage } from "~/lib/actions/chat";
+import { generateTitleFromUserMessage } from '~/lib/actions/chat';
 import {
   generateUUID,
   getMostRecentUserMessage,
   sanitizeResponseMessages,
-} from "~/lib/utils";
+} from '~/lib/utils';
 
 export const maxDuration = 30;
 
@@ -46,21 +47,20 @@ export async function POST(req: Request) {
   } = await supabase.auth.getUser();
 
   if (!user) {
-    return new Response("Unauthorized", { status: 401 });
+    return new Response('Unauthorized', { status: 401 });
   }
 
   const model = models.find((m) => m.id === modelId);
 
   if (!model) {
-    return new Response("Model not found", { status: 404 });
+    return new Response('Model not found', { status: 404 });
   }
 
   const coreMessages = convertToCoreMessages(messages);
   const userMessage = getMostRecentUserMessage(coreMessages);
 
   if (!userMessage) {
-    console.log("No user message found");
-    return new Response("No user message found", { status: 400 });
+    return new Response('No user message found', { status: 400 });
   }
 
   interface ChatResponse {
@@ -83,7 +83,7 @@ export async function POST(req: Request) {
     });
 
     if (!chatData.chat) {
-      return new Response("Failed to create chat", { status: 500 });
+      return new Response('Failed to create chat', { status: 500 });
     }
   }
 
@@ -107,8 +107,6 @@ export async function POST(req: Request) {
     });
   }
 
-  console.log("chatData", chatData);
-
   await saveMessages({
     messages: [
       {
@@ -123,7 +121,7 @@ export async function POST(req: Request) {
   const streamingData = new StreamData();
 
   streamingData.append({
-    type: "user-message-id",
+    type: 'user-message-id',
     content: userMessageId,
   });
 
@@ -145,7 +143,7 @@ export async function POST(req: Request) {
               (message) => {
                 const messageId = generateUUID();
 
-                if (message.role === "assistant") {
+                if (message.role === 'assistant') {
                   streamingData.appendMessageAnnotation({
                     messageIdFromServer: messageId,
                   });
@@ -157,19 +155,19 @@ export async function POST(req: Request) {
                   role: message.role,
                   content: message.content,
                 };
-              },
+              }
             ),
           });
         } catch (error) {
-          console.error("Failed to save chat", error);
+          captureException(error);
         }
       }
 
-      void streamingData.close();
+      streamingData.close();
     },
     experimental_telemetry: {
       isEnabled: true,
-      functionId: "stream-text",
+      functionId: 'stream-text',
     },
   });
 
@@ -180,10 +178,10 @@ export async function POST(req: Request) {
 
 export async function DELETE(request: Request) {
   const { searchParams } = new URL(request.url);
-  const id = searchParams.get("id");
+  const id = searchParams.get('id');
 
   if (!id) {
-    return new Response("Not Found", { status: 404 });
+    return new Response('Not Found', { status: 404 });
   }
 
   const supabase = await createClient();
@@ -192,22 +190,22 @@ export async function DELETE(request: Request) {
   } = await supabase.auth.getUser();
 
   if (!user) {
-    return new Response("Unauthorized", { status: 401 });
+    return new Response('Unauthorized', { status: 401 });
   }
 
   try {
     const { chat } = await getChatById({ chatId: id, userId: user.id });
 
     if (!chat) {
-      return new Response("Chat not found", { status: 404 });
+      return new Response('Chat not found', { status: 404 });
     }
 
     // Delete chat will cascade delete messages due to foreign key constraint
     await deleteChatById({ chatId: id, userId: user.id });
 
-    return new Response("Chat deleted", { status: 200 });
-  } catch (error) {
-    return new Response("An error occurred while processing your request", {
+    return new Response('Chat deleted', { status: 200 });
+  } catch (_error) {
+    return new Response('An error occurred while processing your request', {
       status: 500,
     });
   }

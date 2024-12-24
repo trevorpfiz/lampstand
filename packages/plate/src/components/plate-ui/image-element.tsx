@@ -1,7 +1,5 @@
 'use client';
 
-import React from 'react';
-
 import { cn, withRef } from '@udecode/cn';
 import { useEditorRef, withHOC } from '@udecode/plate-common/react';
 import { useDraggable, useDraggableState } from '@udecode/plate-dnd';

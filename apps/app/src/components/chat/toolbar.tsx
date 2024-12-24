@@ -1,37 +1,37 @@
-"use client";
+'use client';
 
-import type { ChatRequestOptions, CreateMessage, Message } from "ai";
-import type { Dispatch, JSX, SetStateAction } from "react";
-import { memo, useEffect, useRef, useState } from "react";
-import equal from "fast-deep-equal";
+import type { ChatRequestOptions, CreateMessage, Message } from 'ai';
+import equal from 'fast-deep-equal';
 import {
   ArrowDownNarrowWide,
   ArrowUp,
   MessageCircle,
   PenTool,
   Square,
-} from "lucide-react";
+} from 'lucide-react';
 import {
   AnimatePresence,
   motion,
   useMotionValue,
   useTransform,
-} from "motion/react";
-import { nanoid } from "nanoid";
-import { useOnClickOutside } from "usehooks-ts";
+} from 'motion/react';
+import { nanoid } from 'nanoid';
+import type { Dispatch, JSX, SetStateAction } from 'react';
+import { memo, useEffect, useRef, useState } from 'react';
+import { useOnClickOutside } from 'usehooks-ts';
 
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@lamp/ui/components/tooltip";
-import { cn } from "@lamp/ui/lib/utils";
+} from '@lamp/ui/components/tooltip';
+import { cn } from '@lamp/ui/lib/utils';
 
-import { sanitizeUIMessages } from "~/lib/utils";
+import { sanitizeUIMessages } from '~/lib/utils';
 
 interface ToolProps {
-  type: "final-polish" | "request-suggestions" | "adjust-reading-level";
+  type: 'final-polish' | 'request-suggestions' | 'adjust-reading-level';
   description: string;
   icon: JSX.Element;
   selectedTool: string | null;
@@ -41,7 +41,7 @@ interface ToolProps {
   isAnimating: boolean;
   append: (
     message: Message | CreateMessage,
-    chatRequestOptions?: ChatRequestOptions,
+    chatRequestOptions?: ChatRequestOptions
   ) => Promise<string | null | undefined>;
 }
 
@@ -78,24 +78,22 @@ const Tool = ({
 
     if (selectedTool !== type) {
       setSelectedTool(type);
-    } else {
-      if (type === "final-polish") {
-        void append({
-          role: "user",
-          content:
-            "Please add final polish and check for grammar, add section titles for better structure, and ensure everything reads smoothly.",
-        });
+    } else if (type === 'final-polish') {
+      append({
+        role: 'user',
+        content:
+          'Please add final polish and check for grammar, add section titles for better structure, and ensure everything reads smoothly.',
+      });
 
-        setSelectedTool(null);
-      } else if (type === "request-suggestions") {
-        void append({
-          role: "user",
-          content:
-            "Please add suggestions you have that could improve the writing.",
-        });
+      setSelectedTool(null);
+    } else if (type === 'request-suggestions') {
+      append({
+        role: 'user',
+        content:
+          'Please add suggestions you have that could improve the writing.',
+      });
 
-        setSelectedTool(null);
-      }
+      setSelectedTool(null);
     }
   };
 
@@ -103,17 +101,19 @@ const Tool = ({
     <Tooltip open={isHovered && !isAnimating}>
       <TooltipTrigger asChild>
         <motion.div
-          className={cn("rounded-full p-3", {
-            "bg-primary !text-primary-foreground": selectedTool === type,
+          className={cn('rounded-full p-3', {
+            '!text-primary-foreground bg-primary': selectedTool === type,
           })}
           onHoverStart={() => {
             setIsHovered(true);
           }}
           onHoverEnd={() => {
-            if (selectedTool !== type) setIsHovered(false);
+            if (selectedTool !== type) {
+              setIsHovered(false);
+            }
           }}
           onKeyDown={(event) => {
-            if (event.key === "Enter") {
+            if (event.key === 'Enter') {
               handleSelect();
             }
           }}
@@ -144,7 +144,7 @@ const Tool = ({
   );
 };
 
-const randomArr = [...Array(6)].map((_x) => nanoid(5));
+const randomArr = [...new Array(6)].map((_x) => nanoid(5));
 
 const ReadingLevelSelector = ({
   setSelectedTool,
@@ -155,16 +155,16 @@ const ReadingLevelSelector = ({
   isAnimating: boolean;
   append: (
     message: Message | CreateMessage,
-    chatRequestOptions?: ChatRequestOptions,
+    chatRequestOptions?: ChatRequestOptions
   ) => Promise<string | null | undefined>;
 }) => {
   const LEVELS = [
-    "Elementary",
-    "Middle School",
-    "Keep current level",
-    "High School",
-    "College",
-    "Graduate",
+    'Elementary',
+    'Middle School',
+    'Keep current level',
+    'High School',
+    'College',
+    'Graduate',
   ];
 
   const y = useMotionValue(-40 * 2);
@@ -176,7 +176,7 @@ const ReadingLevelSelector = ({
     useState<boolean>(false);
 
   useEffect(() => {
-    const unsubscribe = yToLevel.on("change", (latest) => {
+    const unsubscribe = yToLevel.on('change', (latest) => {
       const level = Math.min(5, Math.max(0, Math.round(Math.abs(latest))));
       setCurrentLevel(level);
     });
@@ -204,11 +204,11 @@ const ReadingLevelSelector = ({
           <TooltipTrigger asChild>
             <motion.div
               className={cn(
-                "absolute flex flex-row items-center rounded-full border bg-background p-3",
+                'absolute flex flex-row items-center rounded-full border bg-background p-3',
                 {
-                  "bg-primary text-primary-foreground": currentLevel !== 2,
-                  "bg-background text-foreground": currentLevel === 2,
-                },
+                  'bg-primary text-primary-foreground': currentLevel !== 2,
+                  'bg-background text-foreground': currentLevel === 2,
+                }
               )}
               style={{ y }}
               drag="y"
@@ -230,8 +230,8 @@ const ReadingLevelSelector = ({
               }}
               onClick={() => {
                 if (currentLevel !== 2 && hasUserSelectedLevel) {
-                  void append({
-                    role: "user",
+                  append({
+                    role: 'user',
                     content: `Please adjust the reading level to ${LEVELS[currentLevel]} level.`,
                   });
 
@@ -249,7 +249,7 @@ const ReadingLevelSelector = ({
           <TooltipContent
             side="left"
             sideOffset={16}
-            className="rounded-2xl bg-foreground p-3 px-4 text-sm text-background"
+            className="rounded-2xl bg-foreground p-3 px-4 text-background text-sm"
           >
             {LEVELS[currentLevel]}
           </TooltipContent>
@@ -272,7 +272,7 @@ export const Tools = ({
   setSelectedTool: Dispatch<SetStateAction<string | null>>;
   append: (
     message: Message | CreateMessage,
-    chatRequestOptions?: ChatRequestOptions,
+    chatRequestOptions?: ChatRequestOptions
   ) => Promise<string | null | undefined>;
   isAnimating: boolean;
   setIsToolbarVisible: Dispatch<SetStateAction<boolean>>;
@@ -339,7 +339,7 @@ const PureToolbar = ({
   isLoading: boolean;
   append: (
     message: Message | CreateMessage,
-    chatRequestOptions?: ChatRequestOptions,
+    chatRequestOptions?: ChatRequestOptions
   ) => Promise<string | null | undefined>;
   stop: () => void;
   setMessages: Dispatch<SetStateAction<Message[]>>;
@@ -387,6 +387,73 @@ const PureToolbar = ({
     }
   }, [isLoading, setIsToolbarVisible]);
 
+  const getAnimateProps = () => {
+    if (!isToolbarVisible) {
+      return { opacity: 1, x: 0, y: 0, height: 54, transition: { delay: 0 } };
+    }
+    if (selectedTool === 'adjust-reading-level') {
+      return {
+        opacity: 1,
+        x: 0,
+        y: 0,
+        height: 6 * 43,
+        transition: { delay: 0 },
+        scale: 0.95,
+      };
+    }
+    return {
+      opacity: 1,
+      x: 0,
+      y: 0,
+      height: 3 * 45,
+      transition: { delay: 0 },
+      scale: 1,
+    };
+  };
+
+  const renderContent = () => {
+    if (isLoading) {
+      return (
+        <motion.div
+          key="stop-icon"
+          initial={{ scale: 1 }}
+          animate={{ scale: 1.4 }}
+          exit={{ scale: 1 }}
+          className="p-3"
+          onClick={() => {
+            stop();
+            setMessages((messages) => sanitizeUIMessages(messages));
+          }}
+        >
+          <Square size={16} />
+        </motion.div>
+      );
+    }
+
+    if (selectedTool === 'adjust-reading-level') {
+      return (
+        <ReadingLevelSelector
+          key="reading-level-selector"
+          append={append}
+          setSelectedTool={setSelectedTool}
+          isAnimating={isAnimating}
+        />
+      );
+    }
+
+    return (
+      <Tools
+        key="tools"
+        append={append}
+        isAnimating={isAnimating}
+        isToolbarVisible={isToolbarVisible}
+        selectedTool={selectedTool}
+        setIsToolbarVisible={setIsToolbarVisible}
+        setSelectedTool={setSelectedTool}
+      />
+    );
+  };
+
   return (
     <TooltipProvider delayDuration={0}>
       <motion.div
@@ -395,37 +462,21 @@ const PureToolbar = ({
           bottom: chatInputHeight + 12,
         }}
         initial={{ opacity: 0, x: 20, y: 0, scale: 1 }}
-        animate={
-          isToolbarVisible
-            ? selectedTool === "adjust-reading-level"
-              ? {
-                  opacity: 1,
-                  x: 0,
-                  y: 0,
-                  height: 6 * 43,
-                  transition: { delay: 0 },
-                  scale: 0.95,
-                }
-              : {
-                  opacity: 1,
-                  x: 0,
-                  y: 0,
-                  height: 3 * 45,
-                  transition: { delay: 0 },
-                  scale: 1,
-                }
-            : { opacity: 1, x: 0, y: 0, height: 54, transition: { delay: 0 } }
-        }
+        animate={getAnimateProps()}
         exit={{ opacity: 0, y: 0, x: 20, transition: { duration: 0.1 } }}
-        transition={{ type: "spring", stiffness: 300, damping: 25 }}
+        transition={{ type: 'spring', stiffness: 300, damping: 25 }}
         onHoverStart={() => {
-          if (isLoading) return;
+          if (isLoading) {
+            return;
+          }
 
           cancelCloseTimer();
           setIsToolbarVisible(true);
         }}
         onHoverEnd={() => {
-          if (isLoading) return;
+          if (isLoading) {
+            return;
+          }
 
           startCloseTimer();
         }}
@@ -437,38 +488,7 @@ const PureToolbar = ({
         }}
         ref={toolbarRef}
       >
-        {isLoading ? (
-          <motion.div
-            key="stop-icon"
-            initial={{ scale: 1 }}
-            animate={{ scale: 1.4 }}
-            exit={{ scale: 1 }}
-            className="p-3"
-            onClick={() => {
-              stop();
-              setMessages((messages) => sanitizeUIMessages(messages));
-            }}
-          >
-            <Square size={16} />
-          </motion.div>
-        ) : selectedTool === "adjust-reading-level" ? (
-          <ReadingLevelSelector
-            key="reading-level-selector"
-            append={append}
-            setSelectedTool={setSelectedTool}
-            isAnimating={isAnimating}
-          />
-        ) : (
-          <Tools
-            key="tools"
-            append={append}
-            isAnimating={isAnimating}
-            isToolbarVisible={isToolbarVisible}
-            selectedTool={selectedTool}
-            setIsToolbarVisible={setIsToolbarVisible}
-            setSelectedTool={setSelectedTool}
-          />
-        )}
+        {renderContent()}
       </motion.div>
     </TooltipProvider>
   );

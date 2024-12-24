@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "2TI"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "2 Timothy\n"
-      ]
+      "content": ["2 Timothy\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "2 Timothy\n"
-      ]
+      "content": ["2 Timothy\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "2 Timothy\n"
-      ]
+      "content": ["2 Timothy\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paul’s Greeting to Timothy\n"
-      ]
+      "content": ["Paul’s Greeting to Timothy\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Timothy 1:1–2)\n"
-      ]
+      "content": ["(1 Timothy 1:1–2)\n"]
     },
     {
       "type": "para",
@@ -99,16 +87,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Faithfulness under Persecution\n"
-      ]
+      "content": ["Faithfulness under Persecution\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Matthew 10:16–25)\n"
-      ]
+      "content": ["(Matthew 10:16–25)\n"]
     },
     {
       "type": "para",
@@ -181,16 +165,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:7 "
-              ]
+              "content": ["1:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or timidity or cowardice"
-              ]
+              "content": ["Or timidity or cowardice"]
             }
           ],
           "caller": "+"
@@ -228,16 +208,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:9 "
-              ]
+              "content": ["1:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally before times eternal"
-              ]
+              "content": ["Literally before times eternal"]
             }
           ],
           "caller": "+"
@@ -282,16 +258,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:12 "
-              ]
+              "content": ["1:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or what He has entrusted to me"
-              ]
+              "content": ["Or what He has entrusted to me"]
             }
           ],
           "caller": "+"
@@ -302,9 +274,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Holding to Sound Teaching\n"
-      ]
+      "content": ["Holding to Sound Teaching\n"]
     },
     {
       "type": "para",
@@ -329,16 +299,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:13 "
-              ]
+              "content": ["1:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally sound words"
-              ]
+              "content": ["Literally sound words"]
             }
           ],
           "caller": "+"
@@ -359,16 +325,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:14 "
-              ]
+              "content": ["1:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the good deposit entrusted to you"
-              ]
+              "content": ["Or the good deposit entrusted to you"]
             }
           ],
           "caller": "+"
@@ -399,9 +361,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:15 "
-              ]
+              "content": ["1:15 "]
             },
             {
               "type": "char",
@@ -466,16 +426,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Grace and Perseverance\n"
-      ]
+      "content": ["Grace and Perseverance\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Hebrews 12:1–3)\n"
-      ]
+      "content": ["(Hebrews 12:1–3)\n"]
     },
     {
       "type": "para",
@@ -601,16 +557,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "If we died with Him, \n"
-      ]
+      "content": ["If we died with Him, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "we will also live with Him; \n"
-      ]
+      "content": ["we will also live with Him; \n"]
     },
     {
       "type": "para",
@@ -628,23 +580,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "we will also reign with Him; \n"
-      ]
+      "content": ["we will also reign with Him; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "if we deny Him, \n"
-      ]
+      "content": ["if we deny Him, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He will also deny us; \n"
-      ]
+      "content": ["He will also deny us; \n"]
     },
     {
       "type": "para",
@@ -662,23 +608,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He remains faithful, \n"
-      ]
+      "content": ["He remains faithful, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for He cannot deny Himself. \n"
-      ]
+      "content": ["for He cannot deny Himself. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Lord’s Approved Workman\n"
-      ]
+      "content": ["The Lord’s Approved Workman\n"]
     },
     {
       "type": "para",
@@ -703,16 +643,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:14 "
-              ]
+              "content": ["2:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL, BYZ, and TR the Lord"
-              ]
+              "content": ["SBL, BYZ, and TR the Lord"]
             }
           ],
           "caller": "+"
@@ -791,16 +727,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:19 "
-              ]
+              "content": ["2:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Numbers 16:5 (see also LXX)"
-              ]
+              "content": ["Numbers 16:5 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -838,16 +770,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:21 "
-              ]
+              "content": ["2:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally cleanses himself of these"
-              ]
+              "content": ["Literally cleanses himself of these"]
             }
           ],
           "caller": "+"
@@ -919,9 +847,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Evil in the Last Days\n"
-      ]
+      "content": ["Evil in the Last Days\n"]
     },
     {
       "type": "para",
@@ -1015,9 +941,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:8 "
-              ]
+              "content": ["3:8 "]
             },
             {
               "type": "char",
@@ -1042,16 +966,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "All Scripture Is God-Breathed\n"
-      ]
+      "content": ["All Scripture Is God-Breathed\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Hebrews 4:12–16)\n"
-      ]
+      "content": ["(Hebrews 4:12–16)\n"]
     },
     {
       "type": "para",
@@ -1138,9 +1058,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Preach the Word\n"
-      ]
+      "content": ["Preach the Word\n"]
     },
     {
       "type": "para",
@@ -1231,9 +1149,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Personal Concerns\n"
-      ]
+      "content": ["Personal Concerns\n"]
     },
     {
       "type": "para",
@@ -1307,9 +1223,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Lord Remains Faithful\n"
-      ]
+      "content": ["The Lord Remains Faithful\n"]
     },
     {
       "type": "para",
@@ -1345,16 +1259,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Final Greetings\n"
-      ]
+      "content": ["Final Greetings\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ephesians 6:21–24; Philippians 4:21–23)\n"
-      ]
+      "content": ["(Ephesians 6:21–24; Philippians 4:21–23)\n"]
     },
     {
       "type": "para",
@@ -1379,16 +1289,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:19 "
-              ]
+              "content": ["4:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Prisca is a variant of Priscilla; see Acts 18:2."
-              ]
+              "content": ["Prisca is a variant of Priscilla; see Acts 18:2."]
             }
           ],
           "caller": "+"
@@ -1464,16 +1370,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:22 "
-              ]
+              "content": ["4:22 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include Amen."
-              ]
+              "content": ["BYZ and TR include Amen."]
             }
           ],
           "caller": "+"

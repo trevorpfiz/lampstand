@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import type React from 'react';
 
 import { cn, withProps, withRef } from '@udecode/cn';
 import { useElement } from '@udecode/plate-common/react';
@@ -69,10 +69,10 @@ export const TableCellElement = withRef<
             borders &&
               cn(
                 borders.bottom?.size &&
-                  `before:border-b before:border-b-border`,
-                borders.right?.size && `before:border-r before:border-r-border`,
-                borders.left?.size && `before:border-l before:border-l-border`,
-                borders.top?.size && `before:border-t before:border-t-border`
+                  'before:border-b before:border-b-border',
+                borders.right?.size && 'before:border-r before:border-r-border',
+                borders.left?.size && 'before:border-l before:border-l-border',
+                borders.top?.size && 'before:border-t before:border-t-border'
               )
           )
       )}
@@ -120,7 +120,7 @@ export const TableCellElement = withRef<
               {hovered && (
                 <div
                   className={cn(
-                    'absolute -top-3 z-30 h-[calc(100%_+_12px)] w-1 bg-ring',
+                    '-top-3 absolute z-30 h-[calc(100%_+_12px)] w-1 bg-ring',
                     'right-[-1.5px]'
                   )}
                 />
@@ -128,7 +128,7 @@ export const TableCellElement = withRef<
               {hoveredLeft && (
                 <div
                   className={cn(
-                    'absolute -top-3 z-30 h-[calc(100%_+_12px)] w-1 bg-ring',
+                    '-top-3 absolute z-30 h-[calc(100%_+_12px)] w-1 bg-ring',
                     'left-[-1.5px]'
                   )}
                 />

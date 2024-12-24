@@ -1,21 +1,21 @@
-import * as React from "react";
-import { useVirtualizer } from "@tanstack/react-virtual";
-import { Check, ChevronsUpDown } from "lucide-react";
+import { useVirtualizer } from '@tanstack/react-virtual';
+import { Check, ChevronsUpDown } from 'lucide-react';
+import * as React from 'react';
 
-import { Button } from "@lamp/ui/components/button";
+import { Button } from '@lamp/ui/components/button';
 import {
   Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
-} from "@lamp/ui/components/command";
+} from '@lamp/ui/components/command';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@lamp/ui/components/popover";
-import { cn } from "@lamp/ui/lib/utils";
+} from '@lamp/ui/components/popover';
+import { cn } from '@lamp/ui/lib/utils';
 
 export interface Option {
   value: string;
@@ -53,13 +53,13 @@ const VirtualizedCommand = ({
   const handleSearch = (search: string) => {
     setFilteredOptions(
       options.filter((option) =>
-        option.value.toLowerCase().includes(search.toLowerCase() ?? []),
-      ),
+        option.value.toLowerCase().includes(search.toLowerCase() ?? [])
+      )
     );
   };
 
   const handleKeyDown = (event: React.KeyboardEvent) => {
-    if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
       event.preventDefault();
     }
   };
@@ -72,41 +72,41 @@ const VirtualizedCommand = ({
         ref={parentRef}
         style={{
           height: height,
-          width: "100%",
-          overflow: "auto",
+          width: '100%',
+          overflow: 'auto',
         }}
       >
         <div
           style={{
             height: `${virtualizer.getTotalSize()}px`,
-            width: "100%",
-            position: "relative",
+            width: '100%',
+            position: 'relative',
           }}
         >
           {virtualOptions.map((virtualOption, index) => (
             <CommandItem
               style={{
-                position: "absolute",
+                position: 'absolute',
                 top: 0,
                 left: 0,
-                width: "100%",
+                width: '100%',
                 height: `${virtualOption.size}px`,
                 transform: `translateY(${virtualOption.start}px)`,
               }}
               key={filteredOptions[virtualOption.index]?.value ?? index}
-              value={filteredOptions[virtualOption.index]?.value ?? ""}
+              value={filteredOptions[virtualOption.index]?.value ?? ''}
               onSelect={onSelectOption}
             >
               <Check
                 className={cn(
-                  "mr-2 h-4 w-4",
+                  'mr-2 h-4 w-4',
                   selectedOption ===
-                    (filteredOptions[virtualOption.index]?.value ?? "")
-                    ? "opacity-100"
-                    : "opacity-0",
+                    (filteredOptions[virtualOption.index]?.value ?? '')
+                    ? 'opacity-100'
+                    : 'opacity-0'
                 )}
               />
-              {filteredOptions[virtualOption.index]?.label ?? ""}
+              {filteredOptions[virtualOption.index]?.label ?? ''}
             </CommandItem>
           ))}
         </div>
@@ -124,18 +124,19 @@ interface VirtualizedComboboxProps {
 
 export function VirtualizedCombobox({
   options,
-  searchPlaceholder = "Search items...",
-  width = "400px",
-  height = "400px",
+  searchPlaceholder = 'Search items...',
+  width = '400px',
+  height = '400px',
 }: VirtualizedComboboxProps) {
   const [open, setOpen] = React.useState<boolean>(false);
-  const [selectedOption, setSelectedOption] = React.useState<string>("");
+  const [selectedOption, setSelectedOption] = React.useState<string>('');
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
         <Button
           variant="outline"
+          // biome-ignore lint/a11y/useSemanticElements: <explanation>
           role="combobox"
           aria-expanded={open}
           className="justify-between"
@@ -157,7 +158,7 @@ export function VirtualizedCombobox({
           selectedOption={selectedOption}
           onSelectOption={(currentValue) => {
             setSelectedOption(
-              currentValue === selectedOption ? "" : currentValue,
+              currentValue === selectedOption ? '' : currentValue
             );
             setOpen(false);
           }}

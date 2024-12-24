@@ -7,8 +7,7 @@
     "build": "email build",
     "clean": "git clean -xdf .cache .next .turbo node_modules",
     "dev": "email dev --port 3003",
-    "format": "prettier --check . --ignore-path ../../.gitignore",
-    "lint": "eslint",
+
     "typecheck": "tsc --noEmit",
     "with-env": "dotenv -e ../../.env --"
   },
@@ -19,16 +18,12 @@
     "react-email": "3.0.4"
   },
   "devDependencies": {
-    "@lamp/eslint-config": "workspace:*",
-    "@lamp/prettier-config": "workspace:*",
     "@lamp/tailwind-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
     "@types/node": "catalog:",
     "@types/react": "catalog:react19",
     "dotenv-cli": "^7.4.4",
-    "eslint": "catalog:",
-    "prettier": "catalog:",
+
     "typescript": "catalog:"
-  },
-  "prettier": "@lamp/prettier-config"
+  }
 }

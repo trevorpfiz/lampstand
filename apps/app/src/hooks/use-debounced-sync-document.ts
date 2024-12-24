@@ -1,14 +1,14 @@
-import { useCallback } from "react";
+import { useCallback } from 'react';
 
-import { PlateEditor } from "~/lib/editor/plate";
+import type { PlateEditor } from '~/lib/editor/plate';
 import {
+  type UseSyncDocumentOptions,
   useSyncDocument,
-  UseSyncDocumentOptions,
-} from "~/lib/editor/useSyncDocument";
-import { useGlobalEvent } from "~/lib/globalEvents";
-import { useBeforeUnload } from "~/lib/useBeforeUnload";
-import { useDebounce } from "~/lib/useDebounce";
-import { documentDataForUpload } from "./documentDataForUpload";
+} from '~/lib/editor/useSyncDocument';
+import { useGlobalEvent } from '~/lib/globalEvents';
+import { useBeforeUnload } from '~/lib/useBeforeUnload';
+import { useDebounce } from '~/lib/useDebounce';
+import { documentDataForUpload } from './documentDataForUpload';
 
 export interface UseDebouncedSyncDocumentOptions
   extends UseSyncDocumentOptions {
@@ -26,28 +26,28 @@ export const useDebouncedSyncDocument = ({
   const [debouncedUpdateTitle, titleIsDirty] = useDebounce(
     (title: string) => updateDocument({ title }),
     750,
-    [updateDocument],
+    [updateDocument]
   );
 
   const setTitle = useCallback(
     (title: string) => {
-      const normalizedTitle = title.replace(/[\n\r]+/g, "");
+      const normalizedTitle = title.replace(/[\n\r]+/g, '');
       debouncedUpdateTitle(normalizedTitle);
     },
-    [debouncedUpdateTitle],
+    [debouncedUpdateTitle]
   );
 
   const [debouncedUpdateBody, bodyIsDirty] = useDebounce(
     () => editor && updateDocument(documentDataForUpload(editor)),
     750,
-    [editor, updateDocument],
+    [editor, updateDocument]
   );
 
   /**
    * When an upload becomes complete, this affects what data is sent to the
    * server even though the editor value hasn't changed.
    */
-  useGlobalEvent("s3File:uploadComplete", debouncedUpdateBody, [
+  useGlobalEvent('s3File:uploadComplete', debouncedUpdateBody, [
     debouncedUpdateBody,
   ]);
 

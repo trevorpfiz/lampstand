@@ -1,42 +1,41 @@
-import type { NextConfig } from "next";
-import withBundleAnalyzer from "@next/bundle-analyzer";
-import { withSentryConfig } from "@sentry/nextjs";
-import withVercelToolbar from "@vercel/toolbar/plugins/next";
+import withBundleAnalyzer from '@next/bundle-analyzer';
+import { withSentryConfig } from '@sentry/nextjs';
+import withVercelToolbar from '@vercel/toolbar/plugins/next';
+import type { NextConfig } from 'next';
 
-import { env } from "@lamp/env";
+import { env } from '@lamp/env';
 
-const otelRegex = /@opentelemetry\/instrumentation/;
+const _otelRegex = /@opentelemetry\/instrumentation/;
 
 const baseConfig: NextConfig = {
   images: {
-    formats: ["image/avif", "image/webp"],
+    formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "avatars.githubusercontent.com",
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com',
       },
       {
-        protocol: "https",
-        hostname: "*.supabase.co",
+        protocol: 'https',
+        hostname: '*.supabase.co',
       },
     ],
   },
 
   // biome-ignore lint/suspicious/useAwait: rewrites is async
-  // eslint-disable-next-line @typescript-eslint/require-await
   async rewrites() {
     return [
       {
-        source: "/ingest/static/:path*",
-        destination: "https://us-assets.i.posthog.com/static/:path*",
+        source: '/ingest/static/:path*',
+        destination: 'https://us-assets.i.posthog.com/static/:path*',
       },
       {
-        source: "/ingest/:path*",
-        destination: "https://us.i.posthog.com/:path*",
+        source: '/ingest/:path*',
+        destination: 'https://us.i.posthog.com/:path*',
       },
       {
-        source: "/ingest/decide",
-        destination: "https://us.i.posthog.com/decide",
+        source: '/ingest/decide',
+        destination: 'https://us.i.posthog.com/decide',
       },
     ];
   },
@@ -70,7 +69,7 @@ export const sentryConfig: Parameters<typeof withSentryConfig>[1] = {
    * Note: Check that the configured route will not match with your Next.js middleware, otherwise reporting of client-
    * side errors will fail.
    */
-  tunnelRoute: "/monitoring",
+  tunnelRoute: '/monitoring',
 
   // Hides source maps from generated client bundles
   hideSourceMaps: true,

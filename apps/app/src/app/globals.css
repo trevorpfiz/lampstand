@@ -224,6 +224,7 @@
   .default-scrollbar::-webkit-scrollbar-track {
     background: transparent;
   }
+  /* biome-ignore lint/nursery/noUnknownPseudoClass: <explanation> */
   .default-scrollbar::-webkit-scrollbar-track:hover {
     background: transparent;
   }
@@ -231,6 +232,7 @@
     background: hsl(var(--border));
     border-radius: 5px;
   }
+  /* biome-ignore lint/nursery/noUnknownPseudoClass: <explanation> */
   .default-scrollbar::-webkit-scrollbar-thumb:hover {
     background: color-mix(in hsl, hsl(var(--border)), black 20%);
   }

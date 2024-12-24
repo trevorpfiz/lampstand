@@ -1,9 +1,9 @@
-import { persist } from "zustand/middleware";
-import { createStore } from "zustand/vanilla";
+import { persist } from 'zustand/middleware';
+import { createStore } from 'zustand/vanilla';
 
-import type { VerseReference } from "~/utils/bible/verse";
+import type { VerseReference } from '~/utils/bible/verse';
 
-export type BibleVersion = "BSB" | "KJV";
+export type BibleVersion = 'BSB' | 'KJV';
 
 export interface BibleState {
   currentVerse: VerseReference;
@@ -18,8 +18,8 @@ export interface BibleActions {
 export type BibleStore = BibleState & BibleActions;
 
 const defaultBibleState: BibleState = {
-  currentVerse: { book: "Genesis", chapter: 1, verse: 1 },
-  bibleVersion: "BSB",
+  currentVerse: { book: 'Genesis', chapter: 1, verse: 1 },
+  bibleVersion: 'BSB',
 };
 
 export const createBibleStore = (initState: BibleState = defaultBibleState) => {
@@ -41,8 +41,8 @@ export const createBibleStore = (initState: BibleState = defaultBibleState) => {
         setBibleVersion: (version) => set(() => ({ bibleVersion: version })),
       }),
       {
-        name: "bible-store",
-      },
-    ),
+        name: 'bible-store',
+      }
+    )
   );
 };

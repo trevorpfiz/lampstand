@@ -1,15 +1,15 @@
-import type { NextRequest } from "next/server";
-import { NextResponse } from "next/server";
-import { createServerClient } from "@supabase/ssr";
+import { createServerClient } from '@supabase/ssr';
+import type { NextRequest } from 'next/server';
+import { NextResponse } from 'next/server';
 
-import { env } from "@lamp/env";
+import { env } from '@lamp/env';
 
 import {
-  authRoutes,
   DEFAULT_AUTH_ROUTE,
   DEFAULT_LOGIN_REDIRECT,
+  authRoutes,
   protectedRoutes,
-} from "../config/routes";
+} from '../config/routes';
 
 export async function updateSession(request: NextRequest) {
   let supabaseResponse = NextResponse.next({
@@ -25,18 +25,20 @@ export async function updateSession(request: NextRequest) {
           return request.cookies.getAll();
         },
         setAll(cookiesToSet) {
+          // biome-ignore lint/complexity/noForEach: <explanation>
           cookiesToSet.forEach(({ name, value }) =>
-            request.cookies.set(name, value),
+            request.cookies.set(name, value)
           );
           supabaseResponse = NextResponse.next({
             request,
           });
+          // biome-ignore lint/complexity/noForEach: <explanation>
           cookiesToSet.forEach(({ name, value, options }) =>
-            supabaseResponse.cookies.set(name, value, options),
+            supabaseResponse.cookies.set(name, value, options)
           );
         },
       },
-    },
+    }
   );
 
   const {

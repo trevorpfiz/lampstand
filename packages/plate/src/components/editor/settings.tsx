@@ -1,10 +1,8 @@
-"use client";
+'use client';
 
-import type { ReactNode } from "react";
-import { createContext, useContext, useState } from "react";
-import { cn } from "@udecode/cn";
-import { CopilotPlugin } from "@udecode/plate-ai/react";
-import { useEditorPlugin } from "@udecode/plate-common/react";
+import { cn } from '@udecode/cn';
+import { CopilotPlugin } from '@udecode/plate-ai/react';
+import { useEditorPlugin } from '@udecode/plate-common/react';
 import {
   Check,
   ChevronsUpDown,
@@ -13,9 +11,11 @@ import {
   EyeOff,
   Settings,
   Wand2Icon,
-} from "lucide-react";
+} from 'lucide-react';
+import type { ReactNode } from 'react';
+import { createContext, useContext, useState } from 'react';
 
-import { Button } from "../plate-ui/button";
+import { Button } from '../plate-ui/button';
 import {
   Command,
   CommandEmpty,
@@ -23,7 +23,7 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "../plate-ui/command";
+} from '../plate-ui/command';
 import {
   Dialog,
   DialogContent,
@@ -31,9 +31,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "../plate-ui/dialog";
-import { Input } from "../plate-ui/input";
-import { Popover, PopoverContent, PopoverTrigger } from "../plate-ui/popover";
+} from '../plate-ui/dialog';
+import { Input } from '../plate-ui/input';
+import { Popover, PopoverContent, PopoverTrigger } from '../plate-ui/popover';
 
 interface Model {
   label: string;
@@ -48,22 +48,22 @@ interface SettingsContextType {
 }
 
 export const models: Model[] = [
-  { label: "gpt-4o-mini", value: "gpt-4o-mini" },
-  { label: "gpt-4o", value: "gpt-4o" },
-  { label: "gpt-4-turbo", value: "gpt-4-turbo" },
-  { label: "gpt-4", value: "gpt-4" },
-  { label: "gpt-3.5-turbo", value: "gpt-3.5-turbo" },
-  { label: "gpt-3.5-turbo-instruct", value: "gpt-3.5-turbo-instruct" },
+  { label: 'gpt-4o-mini', value: 'gpt-4o-mini' },
+  { label: 'gpt-4o', value: 'gpt-4o' },
+  { label: 'gpt-4-turbo', value: 'gpt-4-turbo' },
+  { label: 'gpt-4', value: 'gpt-4' },
+  { label: 'gpt-3.5-turbo', value: 'gpt-3.5-turbo' },
+  { label: 'gpt-3.5-turbo-instruct', value: 'gpt-3.5-turbo-instruct' },
 ];
 
 const SettingsContext = createContext<SettingsContextType | undefined>(
-  undefined,
+  undefined
 );
 
 export function SettingsProvider({ children }: { children: ReactNode }) {
   const [keys, setKeys] = useState({
-    openai: "",
-    uploadthing: "",
+    openai: '',
+    uploadthing: '',
   });
   const [model, setModel] = useState<Model>(models[0]);
 
@@ -84,8 +84,8 @@ export function useSettings() {
   return (
     context ?? {
       keys: {
-        openai: "",
-        uploadthing: "",
+        openai: '',
+        uploadthing: '',
       },
       model: models[0],
       setKey: () => {},
@@ -112,7 +112,7 @@ export function SettingsDialog() {
 
     // Update AI options if needed
     const completeOptions = getOptions().completeOptions ?? {};
-    setOption("completeOptions", {
+    setOption('completeOptions', {
       ...completeOptions,
       body: {
         ...completeOptions.body,
@@ -130,7 +130,7 @@ export function SettingsDialog() {
     <div className="group relative">
       <div className="flex items-center justify-between">
         <label
-          className="absolute top-1/2 block -translate-y-1/2 cursor-text px-1 text-sm text-muted-foreground/70 transition-all group-focus-within:pointer-events-none group-focus-within:top-0 group-focus-within:cursor-default group-focus-within:text-xs group-focus-within:font-medium group-focus-within:text-foreground has-[+input:not(:placeholder-shown)]:pointer-events-none has-[+input:not(:placeholder-shown)]:top-0 has-[+input:not(:placeholder-shown)]:cursor-default has-[+input:not(:placeholder-shown)]:text-xs has-[+input:not(:placeholder-shown)]:font-medium has-[+input:not(:placeholder-shown)]:text-foreground"
+          className="-translate-y-1/2 absolute top-1/2 block cursor-text px-1 text-muted-foreground/70 text-sm transition-all group-focus-within:pointer-events-none group-focus-within:top-0 group-focus-within:cursor-default group-focus-within:font-medium group-focus-within:text-foreground group-focus-within:text-xs has-[+input:not(:placeholder-shown)]:pointer-events-none has-[+input:not(:placeholder-shown)]:top-0 has-[+input:not(:placeholder-shown)]:cursor-default has-[+input:not(:placeholder-shown)]:font-medium has-[+input:not(:placeholder-shown)]:text-foreground has-[+input:not(:placeholder-shown)]:text-xs"
           htmlFor={label}
         >
           <span className="inline-flex bg-background px-2">{label}</span>
@@ -139,14 +139,14 @@ export function SettingsDialog() {
           asChild
           size="icon"
           variant="ghost"
-          className="absolute right-[28px] top-0 h-full"
+          className="absolute top-0 right-[28px] h-full"
         >
           <a
             className="flex items-center"
             href={
-              service === "openai"
-                ? "https://platform.openai.com/api-keys"
-                : "https://uploadthing.com/dashboard"
+              service === 'openai'
+                ? 'https://platform.openai.com/api-keys'
+                : 'https://uploadthing.com/dashboard'
             }
             rel="noopener noreferrer"
             target="_blank"
@@ -166,12 +166,12 @@ export function SettingsDialog() {
         }
         placeholder=""
         data-1p-ignore
-        type={showKey[service] ? "text" : "password"}
+        type={showKey[service] ? 'text' : 'password'}
       />
       <Button
         size="icon"
         variant="ghost"
-        className="absolute right-0 top-0 h-full"
+        className="absolute top-0 right-0 h-full"
         onClick={() => toggleKeyVisibility(service)}
         type="button"
       >
@@ -181,7 +181,7 @@ export function SettingsDialog() {
           <Eye className="size-4" />
         )}
         <span className="sr-only">
-          {showKey[service] ? "Hide" : "Show"} {label}
+          {showKey[service] ? 'Hide' : 'Show'} {label}
         </span>
       </Button>
     </div>
@@ -194,9 +194,9 @@ export function SettingsDialog() {
           size="icon"
           variant="default"
           className={cn(
-            "group fixed bottom-4 right-4 z-50 size-10 overflow-hidden",
-            "rounded-full shadow-md hover:shadow-lg",
-            "transition-all duration-300 ease-in-out hover:w-[106px]",
+            'group fixed right-4 bottom-4 z-50 size-10 overflow-hidden',
+            'rounded-full shadow-md hover:shadow-lg',
+            'transition-all duration-300 ease-in-out hover:w-[106px]'
           )}
           data-block-hide
         >
@@ -204,9 +204,9 @@ export function SettingsDialog() {
             <Settings className="ml-1.5 size-4" />
             <span
               className={cn(
-                "whitespace-nowrap opacity-0 transition-all duration-300 ease-in-out",
-                "group-hover:translate-x-0 group-hover:opacity-100",
-                "-translate-x-2",
+                'whitespace-nowrap opacity-0 transition-all duration-300 ease-in-out',
+                'group-hover:translate-x-0 group-hover:opacity-100',
+                '-translate-x-2'
               )}
             >
               Settings
@@ -233,11 +233,11 @@ export function SettingsDialog() {
             </div>
 
             <div className="space-y-4">
-              {renderApiKeyInput("openai", "OpenAI API key")}
+              {renderApiKeyInput('openai', 'OpenAI API key')}
 
               <div className="group relative">
                 <label
-                  className="absolute start-1 top-0 z-10 block -translate-y-1/2 bg-background px-2 text-xs font-medium text-foreground group-has-[:disabled]:opacity-50"
+                  className="-translate-y-1/2 absolute start-1 top-0 z-10 block bg-background px-2 font-medium text-foreground text-xs group-has-[:disabled]:opacity-50"
                   htmlFor="select-model"
                 >
                   Model
@@ -272,10 +272,10 @@ export function SettingsDialog() {
                             >
                               <Check
                                 className={cn(
-                                  "mr-2 size-4",
+                                  'mr-2 size-4',
                                   model.value === m.value
-                                    ? "opacity-100"
-                                    : "opacity-0",
+                                    ? 'opacity-100'
+                                    : 'opacity-0'
                                 )}
                               />
                               <code>{m.label}</code>
@@ -309,7 +309,7 @@ export function SettingsDialog() {
           </Button>
         </form>
 
-        <p className="text-sm text-muted-foreground">
+        <p className="text-muted-foreground text-sm">
           Not stored anywhere. Used only for current session requests.
         </p>
       </DialogContent>

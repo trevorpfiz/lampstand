@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "JAS"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "James\n"
-      ]
+      "content": ["James\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "James\n"
-      ]
+      "content": ["James\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "James\n"
-      ]
+      "content": ["James\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Greeting from James\n"
-      ]
+      "content": ["A Greeting from James\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Jude 1:1–2)\n"
-      ]
+      "content": ["(Jude 1:1–2)\n"]
     },
     {
       "type": "para",
@@ -85,9 +73,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:1 "
-              ]
+              "content": ["1:1 "]
             },
             {
               "type": "char",
@@ -109,23 +95,17 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Greetings. \n"
-      ]
+      "content": ["Greetings. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Rejoicing in Trials\n"
-      ]
+      "content": ["Rejoicing in Trials\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Philippians 1:12–20)\n"
-      ]
+      "content": ["(Philippians 1:12–20)\n"]
     },
     {
       "type": "para",
@@ -247,9 +227,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Good and Perfect Gifts\n"
-      ]
+      "content": ["Good and Perfect Gifts\n"]
     },
     {
       "type": "para",
@@ -312,16 +290,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:17 "
-              ]
+              "content": ["1:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or no change or shadow of turning."
-              ]
+              "content": ["Or no change or shadow of turning."]
             }
           ],
           "caller": "+"
@@ -342,16 +316,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:18 "
-              ]
+              "content": ["1:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or of His creatures."
-              ]
+              "content": ["Or of His creatures."]
             }
           ],
           "caller": "+"
@@ -362,9 +332,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Hearing and Doing\n"
-      ]
+      "content": ["Hearing and Doing\n"]
     },
     {
       "type": "para",
@@ -468,9 +436,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Warning against Favoritism\n"
-      ]
+      "content": ["A Warning against Favoritism\n"]
     },
     {
       "type": "para",
@@ -512,16 +478,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:2 "
-              ]
+              "content": ["2:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Greek your synagogue"
-              ]
+              "content": ["Greek your synagogue"]
             }
           ],
           "caller": "+"
@@ -580,9 +542,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:7 "
-              ]
+              "content": ["2:7 "]
             },
             {
               "type": "char",
@@ -620,16 +580,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:8 "
-              ]
+              "content": ["2:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Leviticus 19:18"
-              ]
+              "content": ["Leviticus 19:18"]
             }
           ],
           "caller": "+"
@@ -674,16 +630,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:11 "
-              ]
+              "content": ["2:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 20:14; Deuteronomy 5:18"
-              ]
+              "content": ["Exodus 20:14; Deuteronomy 5:18"]
             }
           ],
           "caller": "+"
@@ -697,16 +649,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:11 "
-              ]
+              "content": ["2:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 20:13; Deuteronomy 5:17"
-              ]
+              "content": ["Exodus 20:13; Deuteronomy 5:17"]
             }
           ],
           "caller": "+"
@@ -741,16 +689,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Faith and Works\n"
-      ]
+      "content": ["Faith and Works\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Galatians 3:1–9)\n"
-      ]
+      "content": ["(Galatians 3:1–9)\n"]
     },
     {
       "type": "para",
@@ -796,16 +740,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:17 "
-              ]
+              "content": ["2:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally if it does not have works"
-              ]
+              "content": ["Literally if it does not have works"]
             }
           ],
           "caller": "+"
@@ -843,16 +783,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:19 "
-              ]
+              "content": ["2:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or that there is one God"
-              ]
+              "content": ["Or that there is one God"]
             }
           ],
           "caller": "+"
@@ -883,16 +819,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:20 "
-              ]
+              "content": ["2:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR dead"
-              ]
+              "content": ["BYZ and TR dead"]
             }
           ],
           "caller": "+"
@@ -927,16 +859,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:23 "
-              ]
+              "content": ["2:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Genesis 15:6"
-              ]
+              "content": ["Genesis 15:6"]
             }
           ],
           "caller": "+"
@@ -950,16 +878,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:23 "
-              ]
+              "content": ["2:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Isaiah 41:8."
-              ]
+              "content": ["See Isaiah 41:8."]
             }
           ],
           "caller": "+"
@@ -997,16 +921,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:25 "
-              ]
+              "content": ["2:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally messengers"
-              ]
+              "content": ["Literally messengers"]
             }
           ],
           "caller": "+"
@@ -1030,16 +950,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Taming the Tongue\n"
-      ]
+      "content": ["Taming the Tongue\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 64:1–10)\n"
-      ]
+      "content": ["(Psalm 64:1–10)\n"]
     },
     {
       "type": "para",
@@ -1119,16 +1035,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:6 "
-              ]
+              "content": ["3:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Greek Gehenna"
-              ]
+              "content": ["Greek Gehenna"]
             }
           ],
           "caller": "+"
@@ -1197,16 +1109,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:11 "
-              ]
+              "content": ["3:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally Can both fresh and bitter"
-              ]
+              "content": ["Literally Can both fresh and bitter"]
             }
           ],
           "caller": "+"
@@ -1227,16 +1135,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:12 "
-              ]
+              "content": ["3:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally Neither can salt"
-              ]
+              "content": ["Literally Neither can salt"]
             }
           ],
           "caller": "+"
@@ -1247,9 +1151,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Wisdom from Above\n"
-      ]
+      "content": ["The Wisdom from Above\n"]
     },
     {
       "type": "para",
@@ -1319,9 +1221,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:18 "
-              ]
+              "content": ["3:18 "]
             },
             {
               "type": "char",
@@ -1345,9 +1245,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Warning against Pride\n"
-      ]
+      "content": ["A Warning against Pride\n"]
     },
     {
       "type": "para",
@@ -1372,16 +1270,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:1 "
-              ]
+              "content": ["4:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally passions warring among your members?"
-              ]
+              "content": ["Literally passions warring among your members?"]
             }
           ],
           "caller": "+"
@@ -1426,16 +1320,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:4 "
-              ]
+              "content": ["4:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Hosea 3:1."
-              ]
+              "content": ["See Hosea 3:1."]
             }
           ],
           "caller": "+"
@@ -1449,16 +1339,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:4 "
-              ]
+              "content": ["4:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or is appointed"
-              ]
+              "content": ["Or is appointed"]
             }
           ],
           "caller": "+"
@@ -1479,16 +1365,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:5 "
-              ]
+              "content": ["4:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the spirit"
-              ]
+              "content": ["Or the spirit"]
             }
           ],
           "caller": "+"
@@ -1510,9 +1392,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“God opposes the proud, \n"
-      ]
+      "content": ["“God opposes the proud, \n"]
     },
     {
       "type": "para",
@@ -1527,16 +1407,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:6 "
-              ]
+              "content": ["4:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Proverbs 3:34 (see also LXX)"
-              ]
+              "content": ["Proverbs 3:34 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -1547,9 +1423,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Drawing Near to God\n"
-      ]
+      "content": ["Drawing Near to God\n"]
     },
     {
       "type": "para",
@@ -1616,16 +1490,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Do Not Boast about Tomorrow\n"
-      ]
+      "content": ["Do Not Boast about Tomorrow\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Proverbs 27:1)\n"
-      ]
+      "content": ["(Proverbs 27:1)\n"]
     },
     {
       "type": "para",
@@ -1691,16 +1561,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Warning to the Rich\n"
-      ]
+      "content": ["A Warning to the Rich\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Proverbs 23:1–5; 1 Timothy 6:17–19)\n"
-      ]
+      "content": ["(Proverbs 23:1–5; 1 Timothy 6:17–19)\n"]
     },
     {
       "type": "para",
@@ -1778,16 +1644,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Patience in Suffering\n"
-      ]
+      "content": ["Patience in Suffering\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Job 1:1–5)\n"
-      ]
+      "content": ["(Job 1:1–5)\n"]
     },
     {
       "type": "para",
@@ -1812,9 +1674,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:7 "
-              ]
+              "content": ["5:7 "]
             },
             {
               "type": "char",
@@ -1887,9 +1747,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Prayer of Faith\n"
-      ]
+      "content": ["The Prayer of Faith\n"]
     },
     {
       "type": "para",
@@ -1956,9 +1814,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Restoring a Sinner\n"
-      ]
+      "content": ["Restoring a Sinner\n"]
     },
     {
       "type": "para",

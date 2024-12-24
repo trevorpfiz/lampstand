@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "NUM"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Numbers\n"
-      ]
+      "content": ["Numbers\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Numbers\n"
-      ]
+      "content": ["Numbers\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Numbers\n"
-      ]
+      "content": ["Numbers\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The First Census of Israel\n"
-      ]
+      "content": ["The First Census of Israel\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 26:1–4)\n"
-      ]
+      "content": ["(Numbers 26:1–4)\n"]
     },
     {
       "type": "para",
@@ -102,9 +90,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Leaders of the Tribes\n"
-      ]
+      "content": ["The Leaders of the Tribes\n"]
     },
     {
       "type": "para",
@@ -130,9 +116,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "From the tribe of Reuben, Elizur son of Shedeur; \n"
-      ]
+      "content": ["From the tribe of Reuben, Elizur son of Shedeur; \n"]
     },
     {
       "type": "para",
@@ -226,9 +210,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "from Ephraim, Elishama son of Ammihud, \n"
-      ]
+      "content": ["from Ephraim, Elishama son of Ammihud, \n"]
     },
     {
       "type": "para",
@@ -237,9 +219,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "and from Manasseh, Gamaliel son of Pedahzur; \n"
-      ]
+      "content": ["and from Manasseh, Gamaliel son of Pedahzur; \n"]
     },
     {
       "type": "para",
@@ -346,9 +326,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Number of Every Tribe\n"
-      ]
+      "content": ["The Number of Every Tribe\n"]
     },
     {
       "type": "para",
@@ -388,9 +366,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "So Moses numbered them in the Wilderness of Sinai: \n"
-      ]
+      "content": ["So Moses numbered them in the Wilderness of Sinai: \n"]
     },
     {
       "type": "para",
@@ -725,9 +701,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Exemption of the Levites\n"
-      ]
+      "content": ["The Exemption of the Levites\n"]
     },
     {
       "type": "para",
@@ -834,9 +808,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Order of the Camps\n"
-      ]
+      "content": ["The Order of the Camps\n"]
     },
     {
       "type": "para",
@@ -1044,9 +1016,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:14 "
-              ]
+              "content": ["2:14 "]
             },
             {
               "type": "char",
@@ -1352,16 +1322,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Sons of Aaron\n"
-      ]
+      "content": ["The Sons of Aaron\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 10:1–7)\n"
-      ]
+      "content": ["(Leviticus 10:1–7)\n"]
     },
     {
       "type": "para",
@@ -1427,16 +1393,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:4 "
-              ]
+              "content": ["3:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or strange"
-              ]
+              "content": ["Or strange"]
             }
           ],
           "caller": "+"
@@ -1447,9 +1409,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Duties of the Levites\n"
-      ]
+      "content": ["The Duties of the Levites\n"]
     },
     {
       "type": "para",
@@ -1512,9 +1472,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:9 "
-              ]
+              "content": ["3:9 "]
             },
             {
               "type": "char",
@@ -1570,9 +1528,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Numbering of the Levites\n"
-      ]
+      "content": ["The Numbering of the Levites\n"]
     },
     {
       "type": "para",
@@ -1656,16 +1612,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Gershonites\n"
-      ]
+      "content": ["The Gershonites\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 4:21–28; 1 Chronicles 23:7–11)\n"
-      ]
+      "content": ["(Numbers 4:21–28; 1 Chronicles 23:7–11)\n"]
     },
     {
       "type": "para",
@@ -1742,16 +1694,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Kohathites\n"
-      ]
+      "content": ["The Kohathites\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 4:1–20; 1 Chronicles 23:12–20)\n"
-      ]
+      "content": ["(Numbers 4:1–20; 1 Chronicles 23:12–20)\n"]
     },
     {
       "type": "para",
@@ -1783,9 +1731,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:28 "
-              ]
+              "content": ["3:28 "]
             },
             {
               "type": "char",
@@ -1830,9 +1776,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:30 "
-              ]
+              "content": ["3:30 "]
             },
             {
               "type": "char",
@@ -1884,16 +1828,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Merarites\n"
-      ]
+      "content": ["The Merarites\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 4:29–33; 1 Chronicles 23:21–23)\n"
-      ]
+      "content": ["(Numbers 4:29–33; 1 Chronicles 23:21–23)\n"]
     },
     {
       "type": "para",
@@ -1963,9 +1903,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Moses and Aaron\n"
-      ]
+      "content": ["Moses and Aaron\n"]
     },
     {
       "type": "para",
@@ -2004,9 +1942,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Redemption of the Firstborn\n"
-      ]
+      "content": ["The Redemption of the Firstborn\n"]
     },
     {
       "type": "para",
@@ -2100,16 +2036,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:47 "
-              ]
+              "content": ["3:47 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "5 shekels is approximately 2 ounces or 57 grams."
-              ]
+              "content": ["5 shekels is approximately 2 ounces or 57 grams."]
             }
           ],
           "caller": "+"
@@ -2123,9 +2055,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:47 "
-              ]
+              "content": ["3:47 "]
             },
             {
               "type": "char",
@@ -2177,9 +2107,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:50 "
-              ]
+              "content": ["3:50 "]
             },
             {
               "type": "char",
@@ -2210,16 +2138,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Duties of the Kohathites\n"
-      ]
+      "content": ["The Duties of the Kohathites\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 3:27–32; 1 Chronicles 23:12–20)\n"
-      ]
+      "content": ["(Numbers 3:27–32; 1 Chronicles 23:12–20)\n"]
     },
     {
       "type": "para",
@@ -2282,16 +2206,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:5 "
-              ]
+              "content": ["4:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the ark of the covenant"
-              ]
+              "content": ["That is, the ark of the covenant"]
             }
           ],
           "caller": "+"
@@ -2312,9 +2232,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:6 "
-              ]
+              "content": ["4:6 "]
             },
             {
               "type": "char",
@@ -2500,16 +2418,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Duties of the Gershonites\n"
-      ]
+      "content": ["The Duties of the Gershonites\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 3:21–26; 1 Chronicles 23:7–11)\n"
-      ]
+      "content": ["(Numbers 3:21–26; 1 Chronicles 23:7–11)\n"]
     },
     {
       "type": "para",
@@ -2604,16 +2518,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Duties of the Merarites\n"
-      ]
+      "content": ["The Duties of the Merarites\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 3:33–37; 1 Chronicles 23:21–23)\n"
-      ]
+      "content": ["(Numbers 3:33–37; 1 Chronicles 23:21–23)\n"]
     },
     {
       "type": "para",
@@ -2683,9 +2593,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Numbering of the Levite Clans\n"
-      ]
+      "content": ["The Numbering of the Levite Clans\n"]
     },
     {
       "type": "para",
@@ -2848,16 +2756,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Cleansing the Camps\n"
-      ]
+      "content": ["Cleansing the Camps\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 13:1–46)\n"
-      ]
+      "content": ["(Leviticus 13:1–46)\n"]
     },
     {
       "type": "para",
@@ -2889,9 +2793,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:2 "
-              ]
+              "content": ["5:2 "]
             },
             {
               "type": "char",
@@ -2933,16 +2835,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Restitution for Trespasses\n"
-      ]
+      "content": ["Restitution for Trespasses\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 19:1–10)\n"
-      ]
+      "content": ["(Luke 19:1–10)\n"]
     },
     {
       "type": "para",
@@ -3019,9 +2917,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Adultery Test\n"
-      ]
+      "content": ["The Adultery Test\n"]
     },
     {
       "type": "para",
@@ -3085,9 +2981,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:15 "
-              ]
+              "content": ["5:15 "]
             },
             {
               "type": "char",
@@ -3178,9 +3072,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Then the woman is to say, ‘Amen, Amen.’ \n"
-      ]
+      "content": ["Then the woman is to say, ‘Amen, Amen.’ \n"]
     },
     {
       "type": "para",
@@ -3284,16 +3176,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Nazirite Vow\n"
-      ]
+      "content": ["The Nazirite Vow\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Judges 13:1–25)\n"
-      ]
+      "content": ["(Judges 13:1–25)\n"]
     },
     {
       "type": "para",
@@ -3325,16 +3213,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:2 "
-              ]
+              "content": ["6:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Nazirite means one separated or one consecrated."
-              ]
+              "content": ["Nazirite means one separated or one consecrated."]
             }
           ],
           "caller": "+"
@@ -3441,9 +3325,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:11 "
-              ]
+              "content": ["6:11 "]
             },
             {
               "type": "char",
@@ -3571,9 +3453,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Aaron’s Blessing\n"
-      ]
+      "content": ["Aaron’s Blessing\n"]
     },
     {
       "type": "para",
@@ -3619,9 +3499,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and keep you; \n"
-      ]
+      "content": ["and keep you; \n"]
     },
     {
       "type": "para",
@@ -3639,9 +3517,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and be gracious to you; \n"
-      ]
+      "content": ["and be gracious to you; \n"]
     },
     {
       "type": "para",
@@ -3659,9 +3535,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and give you peace.’ \n"
-      ]
+      "content": ["and give you peace.’ \n"]
     },
     {
       "type": "para",
@@ -3689,9 +3563,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Offerings of Dedication\n"
-      ]
+      "content": ["Offerings of Dedication\n"]
     },
     {
       "type": "para",
@@ -3840,9 +3712,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:13 "
-              ]
+              "content": ["7:13 "]
             },
             {
               "type": "char",
@@ -3863,9 +3733,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:13 "
-              ]
+              "content": ["7:13 "]
             },
             {
               "type": "char",
@@ -3893,9 +3761,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:14 "
-              ]
+              "content": ["7:14 "]
             },
             {
               "type": "char",
@@ -4543,9 +4409,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:85 "
-              ]
+              "content": ["7:85 "]
             },
             {
               "type": "char",
@@ -4583,9 +4447,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:86 "
-              ]
+              "content": ["7:86 "]
             },
             {
               "type": "char",
@@ -4657,16 +4519,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:89 "
-              ]
+              "content": ["7:89 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or atonement cover"
-              ]
+              "content": ["Or atonement cover"]
             }
           ],
           "caller": "+"
@@ -4680,16 +4538,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:89 "
-              ]
+              "content": ["7:89 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the ark of the covenant"
-              ]
+              "content": ["That is, the ark of the covenant"]
             }
           ],
           "caller": "+"
@@ -4706,16 +4560,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Lampstand\n"
-      ]
+      "content": ["The Lampstand\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 25:31–40; Exodus 37:17–24)\n"
-      ]
+      "content": ["(Exodus 25:31–40; Exodus 37:17–24)\n"]
     },
     {
       "type": "para",
@@ -4778,9 +4628,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Cleansing the Levites\n"
-      ]
+      "content": ["Cleansing the Levites\n"]
     },
     {
       "type": "para",
@@ -4961,9 +4809,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Retirement for Levites\n"
-      ]
+      "content": ["Retirement for Levites\n"]
     },
     {
       "type": "para",
@@ -5022,16 +4868,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Second Passover\n"
-      ]
+      "content": ["The Second Passover\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 12:1–13)\n"
-      ]
+      "content": ["(Exodus 12:1–13)\n"]
     },
     {
       "type": "para",
@@ -5070,9 +4912,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:3 "
-              ]
+              "content": ["9:3 "]
             },
             {
               "type": "char",
@@ -5227,16 +5067,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Cloud above the Tabernacle\n"
-      ]
+      "content": ["The Cloud above the Tabernacle\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 40:34–38)\n"
-      ]
+      "content": ["(Exodus 40:34–38)\n"]
     },
     {
       "type": "para",
@@ -5268,9 +5104,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:16 "
-              ]
+              "content": ["9:16 "]
             },
             {
               "type": "char",
@@ -5363,9 +5197,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Two Silver Trumpets\n"
-      ]
+      "content": ["The Two Silver Trumpets\n"]
     },
     {
       "type": "para",
@@ -5470,9 +5302,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "From Sinai to Paran\n"
-      ]
+      "content": ["From Sinai to Paran\n"]
     },
     {
       "type": "para",
@@ -5683,16 +5513,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:29 "
-              ]
+              "content": ["10:29 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Reuel was also called Jethro; see Exodus 3:1."
-              ]
+              "content": ["Reuel was also called Jethro; see Exodus 3:1."]
             }
           ],
           "caller": "+"
@@ -5789,23 +5615,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Rise up, O LORD! \n"
-      ]
+      "content": ["“Rise up, O LORD! \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "May Your enemies be scattered; \n"
-      ]
+      "content": ["May Your enemies be scattered; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "may those who hate You flee before You.” \n"
-      ]
+      "content": ["may those who hate You flee before You.” \n"]
     },
     {
       "type": "para",
@@ -5831,16 +5651,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Return, O LORD, \n"
-      ]
+      "content": ["“Return, O LORD, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to the countless thousands of Israel.” \n"
-      ]
+      "content": ["to the countless thousands of Israel.” \n"]
     },
     {
       "type": "chapter",
@@ -5851,9 +5667,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Complaints of the People\n"
-      ]
+      "content": ["The Complaints of the People\n"]
     },
     {
       "type": "para",
@@ -5892,16 +5706,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:3 "
-              ]
+              "content": ["11:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Taberah means burning."
-              ]
+              "content": ["Taberah means burning."]
             }
           ],
           "caller": "+"
@@ -5974,9 +5784,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Complaint of Moses\n"
-      ]
+      "content": ["The Complaint of Moses\n"]
     },
     {
       "type": "para",
@@ -6063,9 +5871,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Seventy Elders Anointed\n"
-      ]
+      "content": ["Seventy Elders Anointed\n"]
     },
     {
       "type": "para",
@@ -6275,9 +6081,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Quail and the Plague\n"
-      ]
+      "content": ["The Quail and the Plague\n"]
     },
     {
       "type": "para",
@@ -6302,9 +6106,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:31 "
-              ]
+              "content": ["11:31 "]
             },
             {
               "type": "char",
@@ -6332,9 +6134,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:32 "
-              ]
+              "content": ["11:32 "]
             },
             {
               "type": "char",
@@ -6379,16 +6179,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:34 "
-              ]
+              "content": ["11:34 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Kibroth-hattaavah means graves of craving."
-              ]
+              "content": ["Kibroth-hattaavah means graves of craving."]
             }
           ],
           "caller": "+"
@@ -6422,9 +6218,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Complaint of Miriam and Aaron\n"
-      ]
+      "content": ["The Complaint of Miriam and Aaron\n"]
     },
     {
       "type": "para",
@@ -6505,23 +6299,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "If there is a prophet among you, \n"
-      ]
+      "content": ["If there is a prophet among you, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I, the LORD, will reveal Myself to him in a vision; \n"
-      ]
+      "content": ["I, the LORD, will reveal Myself to him in a vision; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I will speak to him in a dream. \n"
-      ]
+      "content": ["I will speak to him in a dream. \n"]
     },
     {
       "type": "para",
@@ -6549,16 +6337,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:7 "
-              ]
+              "content": ["12:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in Hebrews 3:5"
-              ]
+              "content": ["Cited in Hebrews 3:5"]
             }
           ],
           "caller": "+"
@@ -6582,16 +6366,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "clearly and not in riddles; \n"
-      ]
+      "content": ["clearly and not in riddles; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "he sees the form of the LORD. \n"
-      ]
+      "content": ["he sees the form of the LORD. \n"]
     },
     {
       "type": "para",
@@ -6634,9 +6414,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:10 "
-              ]
+              "content": ["12:10 "]
             },
             {
               "type": "char",
@@ -6732,16 +6510,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Spies Explore Canaan\n"
-      ]
+      "content": ["The Spies Explore Canaan\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 1:19–25)\n"
-      ]
+      "content": ["(Deuteronomy 1:19–25)\n"]
     },
     {
       "type": "para",
@@ -6790,16 +6564,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:3 "
-              ]
+              "content": ["13:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally according to the mouth"
-              ]
+              "content": ["Literally according to the mouth"]
             }
           ],
           "caller": "+"
@@ -6821,9 +6591,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "From the tribe of Reuben, Shammua son of Zaccur; \n"
-      ]
+      "content": ["From the tribe of Reuben, Shammua son of Zaccur; \n"]
     },
     {
       "type": "para",
@@ -7114,16 +6882,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:23 "
-              ]
+              "content": ["13:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Eshcol means cluster; also in verse 24."
-              ]
+              "content": ["Eshcol means cluster; also in verse 24."]
             }
           ],
           "caller": "+"
@@ -7141,9 +6905,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Reports of the Spies\n"
-      ]
+      "content": ["The Reports of the Spies\n"]
     },
     {
       "type": "para",
@@ -7267,16 +7029,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Israel’s Rebellion\n"
-      ]
+      "content": ["Israel’s Rebellion\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 1:26–33)\n"
-      ]
+      "content": ["(Deuteronomy 1:26–33)\n"]
     },
     {
       "type": "para",
@@ -7426,9 +7184,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Moses Intercedes for Israel\n"
-      ]
+      "content": ["Moses Intercedes for Israel\n"]
     },
     {
       "type": "para",
@@ -7508,9 +7264,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:18 "
-              ]
+              "content": ["14:18 "]
             },
             {
               "type": "char",
@@ -7545,16 +7299,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Forgiveness and Judgment\n"
-      ]
+      "content": ["God’s Forgiveness and Judgment\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 1:34–40)\n"
-      ]
+      "content": ["(Deuteronomy 1:34–40)\n"]
     },
     {
       "type": "para",
@@ -7634,16 +7384,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:25 "
-              ]
+              "content": ["14:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the Sea of Reeds"
-              ]
+              "content": ["Or the Sea of Reeds"]
             }
           ],
           "caller": "+"
@@ -7764,9 +7510,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Plague on the Ten Spies\n"
-      ]
+      "content": ["The Plague on the Ten Spies\n"]
     },
     {
       "type": "para",
@@ -7819,16 +7563,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Defeat at Hormah\n"
-      ]
+      "content": ["The Defeat at Hormah\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 1:41–46)\n"
-      ]
+      "content": ["(Deuteronomy 1:41–46)\n"]
     },
     {
       "type": "para",
@@ -7911,9 +7651,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Laws about Offerings\n"
-      ]
+      "content": ["Laws about Offerings\n"]
     },
     {
       "type": "para",
@@ -7959,9 +7697,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:4 "
-              ]
+              "content": ["15:4 "]
             },
             {
               "type": "char",
@@ -7982,9 +7718,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:4 "
-              ]
+              "content": ["15:4 "]
             },
             {
               "type": "char",
@@ -8029,9 +7763,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:6 "
-              ]
+              "content": ["15:6 "]
             },
             {
               "type": "char",
@@ -8052,9 +7784,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:6 "
-              ]
+              "content": ["15:6 "]
             },
             {
               "type": "char",
@@ -8106,9 +7836,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:9 "
-              ]
+              "content": ["15:9 "]
             },
             {
               "type": "char",
@@ -8129,9 +7857,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:9 "
-              ]
+              "content": ["15:9 "]
             },
             {
               "type": "char",
@@ -8253,9 +7979,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Offerings for Unintentional Sins\n"
-      ]
+      "content": ["Offerings for Unintentional Sins\n"]
     },
     {
       "type": "para",
@@ -8370,16 +8094,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Sabbath-Breaker Stoned\n"
-      ]
+      "content": ["A Sabbath-Breaker Stoned\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 31:12–17)\n"
-      ]
+      "content": ["(Exodus 31:12–17)\n"]
     },
     {
       "type": "para",
@@ -8449,9 +8169,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Law of Tassels\n"
-      ]
+      "content": ["The Law of Tassels\n"]
     },
     {
       "type": "para",
@@ -8517,9 +8235,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Korah’s Rebellion\n"
-      ]
+      "content": ["Korah’s Rebellion\n"]
     },
     {
       "type": "para",
@@ -8558,9 +8274,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:3 "
-              ]
+              "content": ["16:3 "]
             },
             {
               "type": "char",
@@ -8605,9 +8319,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:5 "
-              ]
+              "content": ["16:5 "]
             },
             {
               "type": "char",
@@ -8814,9 +8526,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Moses Separates the People\n"
-      ]
+      "content": ["Moses Separates the People\n"]
     },
     {
       "type": "para",
@@ -8886,9 +8596,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Earth Swallows Korah\n"
-      ]
+      "content": ["The Earth Swallows Korah\n"]
     },
     {
       "type": "para",
@@ -8979,9 +8687,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Censers Reserved for Holy Use\n"
-      ]
+      "content": ["The Censers Reserved for Holy Use\n"]
     },
     {
       "type": "para",
@@ -9041,16 +8747,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Murmuring and Plague\n"
-      ]
+      "content": ["Murmuring and Plague\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Corinthians 10:1–13)\n"
-      ]
+      "content": ["(1 Corinthians 10:1–13)\n"]
     },
     {
       "type": "para",
@@ -9181,9 +8883,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Aaron’s Staff Buds\n"
-      ]
+      "content": ["Aaron’s Staff Buds\n"]
     },
     {
       "type": "para",
@@ -9229,9 +8929,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:4 "
-              ]
+              "content": ["17:4 "]
             },
             {
               "type": "char",
@@ -9358,9 +9056,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Duties of Priests and Levites\n"
-      ]
+      "content": ["Duties of Priests and Levites\n"]
     },
     {
       "type": "para",
@@ -9434,9 +9130,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Offerings for Priests and Levites\n"
-      ]
+      "content": ["Offerings for Priests and Levites\n"]
     },
     {
       "type": "para",
@@ -9475,16 +9169,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:10 "
-              ]
+              "content": ["18:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or You are to eat it in a most holy place"
-              ]
+              "content": ["Or You are to eat it in a most holy place"]
             }
           ],
           "caller": "+"
@@ -9560,9 +9250,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:16 "
-              ]
+              "content": ["18:16 "]
             },
             {
               "type": "char",
@@ -9583,9 +9271,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:16 "
-              ]
+              "content": ["18:16 "]
             },
             {
               "type": "char",
@@ -9647,16 +9333,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:19 "
-              ]
+              "content": ["18:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, a perpetual covenant"
-              ]
+              "content": ["That is, a perpetual covenant"]
             }
           ],
           "caller": "+"
@@ -9814,9 +9496,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Red Heifer\n"
-      ]
+      "content": ["The Red Heifer\n"]
     },
     {
       "type": "para",
@@ -9931,9 +9611,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Purification of the Unclean\n"
-      ]
+      "content": ["Purification of the Unclean\n"]
     },
     {
       "type": "para",
@@ -10030,16 +9708,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:17 "
-              ]
+              "content": ["19:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or flowing water or living water"
-              ]
+              "content": ["Or flowing water or living water"]
             }
           ],
           "caller": "+"
@@ -10111,16 +9785,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Water from the Rock\n"
-      ]
+      "content": ["Water from the Rock\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 17:1–7)\n"
-      ]
+      "content": ["(Exodus 17:1–7)\n"]
     },
     {
       "type": "para",
@@ -10279,9 +9949,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:13 "
-              ]
+              "content": ["20:13 "]
             },
             {
               "type": "char",
@@ -10299,9 +9967,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Edom Refuses Passage\n"
-      ]
+      "content": ["Edom Refuses Passage\n"]
     },
     {
       "type": "para",
@@ -10413,9 +10079,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Death of Aaron\n"
-      ]
+      "content": ["The Death of Aaron\n"]
     },
     {
       "type": "para",
@@ -10502,9 +10166,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Defeat of Arad\n"
-      ]
+      "content": ["The Defeat of Arad\n"]
     },
     {
       "type": "para",
@@ -10536,9 +10198,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:2 "
-              ]
+              "content": ["21:2 "]
             },
             {
               "type": "char",
@@ -10576,16 +10236,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:3 "
-              ]
+              "content": ["21:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hormah means destruction."
-              ]
+              "content": ["Hormah means destruction."]
             }
           ],
           "caller": "+"
@@ -10596,9 +10252,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Bronze Serpent\n"
-      ]
+      "content": ["The Bronze Serpent\n"]
     },
     {
       "type": "para",
@@ -10623,16 +10277,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:4 "
-              ]
+              "content": ["21:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the Sea of Reeds"
-              ]
+              "content": ["Or the Sea of Reeds"]
             }
           ],
           "caller": "+"
@@ -10708,9 +10358,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Journey to Moab\n"
-      ]
+      "content": ["The Journey to Moab\n"]
     },
     {
       "type": "para",
@@ -10775,16 +10423,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Waheb in Suphah \n"
-      ]
+      "content": ["“Waheb in Suphah \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the wadis of the Arnon, \n"
-      ]
+      "content": ["and the wadis of the Arnon, \n"]
     },
     {
       "type": "para",
@@ -10802,16 +10446,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "that extend to the site of Ar \n"
-      ]
+      "content": ["that extend to the site of Ar \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and lie along the border of Moab.” \n"
-      ]
+      "content": ["and lie along the border of Moab.” \n"]
     },
     {
       "type": "para",
@@ -10836,16 +10476,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:16 "
-              ]
+              "content": ["21:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Beer means well."
-              ]
+              "content": ["Beer means well."]
             }
           ],
           "caller": "+"
@@ -10867,16 +10503,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Spring up, O well, \n"
-      ]
+      "content": ["“Spring up, O well, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "all of you sing to it! \n"
-      ]
+      "content": ["all of you sing to it! \n"]
     },
     {
       "type": "para",
@@ -10894,23 +10526,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the nobles of the people hollowed it out \n"
-      ]
+      "content": ["the nobles of the people hollowed it out \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "with their scepters \n"
-      ]
+      "content": ["with their scepters \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and with their staffs.” \n"
-      ]
+      "content": ["and with their staffs.” \n"]
     },
     {
       "type": "para",
@@ -10943,16 +10569,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:20 "
-              ]
+              "content": ["21:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Jeshimon"
-              ]
+              "content": ["Or Jeshimon"]
             }
           ],
           "caller": "+"
@@ -10963,16 +10585,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Defeat of Sihon\n"
-      ]
+      "content": ["The Defeat of Sihon\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 2:24–37)\n"
-      ]
+      "content": ["(Deuteronomy 2:24–37)\n"]
     },
     {
       "type": "para",
@@ -11021,9 +10639,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:23 "
-              ]
+              "content": ["21:23 "]
             },
             {
               "type": "char",
@@ -11051,9 +10667,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:24 "
-              ]
+              "content": ["21:24 "]
             },
             {
               "type": "char",
@@ -11106,16 +10720,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Come to Heshbon, let it be rebuilt; \n"
-      ]
+      "content": ["“Come to Heshbon, let it be rebuilt; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "let the city of Sihon be restored. \n"
-      ]
+      "content": ["let the city of Sihon be restored. \n"]
     },
     {
       "type": "para",
@@ -11133,23 +10743,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a blaze from the city of Sihon. \n"
-      ]
+      "content": ["a blaze from the city of Sihon. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "It consumed Ar of Moab, \n"
-      ]
+      "content": ["It consumed Ar of Moab, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the rulers of Arnon’s heights. \n"
-      ]
+      "content": ["the rulers of Arnon’s heights. \n"]
     },
     {
       "type": "para",
@@ -11167,30 +10771,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "You are destroyed, O people of Chemosh! \n"
-      ]
+      "content": ["You are destroyed, O people of Chemosh! \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "He gave up his sons as refugees, \n"
-      ]
+      "content": ["He gave up his sons as refugees, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and his daughters into captivity \n"
-      ]
+      "content": ["and his daughters into captivity \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to Sihon king of the Amorites. \n"
-      ]
+      "content": ["to Sihon king of the Amorites. \n"]
     },
     {
       "type": "para",
@@ -11208,16 +10804,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Heshbon is destroyed as far as Dibon. \n"
-      ]
+      "content": ["Heshbon is destroyed as far as Dibon. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "We demolished them as far as Nophah, \n"
-      ]
+      "content": ["We demolished them as far as Nophah, \n"]
     },
     {
       "type": "para",
@@ -11232,16 +10824,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:30 "
-              ]
+              "content": ["21:30 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or We demolished them until fire spread to Medeba"
-              ]
+              "content": ["Or We demolished them until fire spread to Medeba"]
             }
           ],
           "caller": "+"
@@ -11252,16 +10840,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Defeat of Og\n"
-      ]
+      "content": ["The Defeat of Og\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 3:1–11)\n"
-      ]
+      "content": ["(Deuteronomy 3:1–11)\n"]
     },
     {
       "type": "para",
@@ -11347,9 +10931,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Balak Summons Balaam\n"
-      ]
+      "content": ["Balak Summons Balaam\n"]
     },
     {
       "type": "para",
@@ -11423,16 +11005,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:5 "
-              ]
+              "content": ["22:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew the River"
-              ]
+              "content": ["Hebrew the River"]
             }
           ],
           "caller": "+"
@@ -11666,9 +11244,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Angel and Balaam’s Donkey\n"
-      ]
+      "content": ["The Angel and Balaam’s Donkey\n"]
     },
     {
       "type": "para",
@@ -11693,9 +11269,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:22 "
-              ]
+              "content": ["22:22 "]
             },
             {
               "type": "char",
@@ -11833,9 +11407,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“No,” he replied. \n"
-      ]
+      "content": ["“No,” he replied. \n"]
     },
     {
       "type": "para",
@@ -11877,16 +11449,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:32 "
-              ]
+              "content": ["22:32 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or reckless or contrary"
-              ]
+              "content": ["Or reckless or contrary"]
             }
           ],
           "caller": "+"
@@ -12026,9 +11594,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Balaam’s First Oracle\n"
-      ]
+      "content": ["Balaam’s First Oracle\n"]
     },
     {
       "type": "para",
@@ -12157,30 +11723,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Balak brought me from Aram, \n"
-      ]
+      "content": ["“Balak brought me from Aram, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the king of Moab from the mountains of the east. \n"
-      ]
+      "content": ["the king of Moab from the mountains of the east. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘Come,’ he said, ‘put a curse on Jacob for me; \n"
-      ]
+      "content": ["‘Come,’ he said, ‘put a curse on Jacob for me; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "come and denounce Israel!’ \n"
-      ]
+      "content": ["come and denounce Israel!’ \n"]
     },
     {
       "type": "para",
@@ -12198,9 +11756,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "How can I denounce what the LORD has not denounced? \n"
-      ]
+      "content": ["How can I denounce what the LORD has not denounced? \n"]
     },
     {
       "type": "para",
@@ -12218,23 +11774,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and I watch them from the hills. \n"
-      ]
+      "content": ["and I watch them from the hills. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Behold, a people dwelling apart, \n"
-      ]
+      "content": ["Behold, a people dwelling apart, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "not reckoning themselves among the nations. \n"
-      ]
+      "content": ["not reckoning themselves among the nations. \n"]
     },
     {
       "type": "para",
@@ -12252,23 +11802,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "or number even a fourth of Israel? \n"
-      ]
+      "content": ["or number even a fourth of Israel? \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Let me die the death of the righteous; \n"
-      ]
+      "content": ["Let me die the death of the righteous; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "let my end be like theirs!” \n"
-      ]
+      "content": ["let my end be like theirs!” \n"]
     },
     {
       "type": "para",
@@ -12307,9 +11851,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Balaam’s Second Oracle\n"
-      ]
+      "content": ["Balaam’s Second Oracle\n"]
     },
     {
       "type": "para",
@@ -12403,9 +11945,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“What did the LORD say?” Balak asked. \n"
-      ]
+      "content": ["“What did the LORD say?” Balak asked. \n"]
     },
     {
       "type": "para",
@@ -12431,16 +11971,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Arise, O Balak, and listen; \n"
-      ]
+      "content": ["“Arise, O Balak, and listen; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "give ear to me, O son of Zippor. \n"
-      ]
+      "content": ["give ear to me, O son of Zippor. \n"]
     },
     {
       "type": "para",
@@ -12458,23 +11994,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "or a son of man, that He should change His mind. \n"
-      ]
+      "content": ["or a son of man, that He should change His mind. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Does He speak and not act? \n"
-      ]
+      "content": ["Does He speak and not act? \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Does He promise and not fulfill? \n"
-      ]
+      "content": ["Does He promise and not fulfill? \n"]
     },
     {
       "type": "para",
@@ -12492,9 +12022,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He has blessed, and I cannot change it. \n"
-      ]
+      "content": ["He has blessed, and I cannot change it. \n"]
     },
     {
       "type": "para",
@@ -12512,23 +12040,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He sees no trouble for Israel. \n"
-      ]
+      "content": ["He sees no trouble for Israel. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "The LORD their God is with them, \n"
-      ]
+      "content": ["The LORD their God is with them, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the shout of the King is among them. \n"
-      ]
+      "content": ["and the shout of the King is among them. \n"]
     },
     {
       "type": "para",
@@ -12546,9 +12068,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "with strength like a wild ox. \n"
-      ]
+      "content": ["with strength like a wild ox. \n"]
     },
     {
       "type": "para",
@@ -12566,23 +12086,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and no divination against Israel. \n"
-      ]
+      "content": ["and no divination against Israel. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "It will now be said of Jacob and Israel, \n"
-      ]
+      "content": ["It will now be said of Jacob and Israel, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "‘What great things God has done!’ \n"
-      ]
+      "content": ["‘What great things God has done!’ \n"]
     },
     {
       "type": "para",
@@ -12600,23 +12114,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "they rouse themselves like a lion, \n"
-      ]
+      "content": ["they rouse themselves like a lion, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "not resting until they devour their prey \n"
-      ]
+      "content": ["not resting until they devour their prey \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and drink the blood of the slain.” \n"
-      ]
+      "content": ["and drink the blood of the slain.” \n"]
     },
     {
       "type": "para",
@@ -12692,16 +12200,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:28 "
-              ]
+              "content": ["23:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Jeshimon"
-              ]
+              "content": ["Or Jeshimon"]
             }
           ],
           "caller": "+"
@@ -12752,9 +12256,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Balaam’s Third Oracle\n"
-      ]
+      "content": ["Balaam’s Third Oracle\n"]
     },
     {
       "type": "para",
@@ -12794,16 +12296,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“This is the prophecy of Balaam son of Beor, \n"
-      ]
+      "content": ["“This is the prophecy of Balaam son of Beor, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the prophecy of a man whose eyes are open, \n"
-      ]
+      "content": ["the prophecy of a man whose eyes are open, \n"]
     },
     {
       "type": "para",
@@ -12831,16 +12329,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:4 "
-              ]
+              "content": ["24:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew Shaddai; also in verse 16"
-              ]
+              "content": ["Hebrew Shaddai; also in verse 16"]
             }
           ],
           "caller": "+"
@@ -12851,9 +12345,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "who bows down with eyes wide open: \n"
-      ]
+      "content": ["who bows down with eyes wide open: \n"]
     },
     {
       "type": "para",
@@ -12871,9 +12363,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "your dwellings, O Israel! \n"
-      ]
+      "content": ["your dwellings, O Israel! \n"]
     },
     {
       "type": "para",
@@ -12894,16 +12384,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:6 "
-              ]
+              "content": ["24:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or like valleys"
-              ]
+              "content": ["Or like valleys"]
             }
           ],
           "caller": "+"
@@ -12914,23 +12400,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "like gardens beside a stream, \n"
-      ]
+      "content": ["like gardens beside a stream, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "like aloes the LORD has planted, \n"
-      ]
+      "content": ["like aloes the LORD has planted, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "like cedars beside the waters. \n"
-      ]
+      "content": ["like cedars beside the waters. \n"]
     },
     {
       "type": "para",
@@ -12948,23 +12428,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and his seed will have abundant water. \n"
-      ]
+      "content": ["and his seed will have abundant water. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "His king will be greater than Agag, \n"
-      ]
+      "content": ["His king will be greater than Agag, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and his kingdom will be exalted. \n"
-      ]
+      "content": ["and his kingdom will be exalted. \n"]
     },
     {
       "type": "para",
@@ -12982,23 +12456,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "with strength like a wild ox, \n"
-      ]
+      "content": ["with strength like a wild ox, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "to devour hostile nations and crush their bones, \n"
-      ]
+      "content": ["to devour hostile nations and crush their bones, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to pierce them with arrows. \n"
-      ]
+      "content": ["to pierce them with arrows. \n"]
     },
     {
       "type": "para",
@@ -13016,30 +12484,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "like a lioness, who dares to rouse him? \n"
-      ]
+      "content": ["like a lioness, who dares to rouse him? \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Blessed are those who bless you \n"
-      ]
+      "content": ["Blessed are those who bless you \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and cursed are those who curse you.” \n"
-      ]
+      "content": ["and cursed are those who curse you.” \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Balak Dismisses Balaam\n"
-      ]
+      "content": ["Balak Dismisses Balaam\n"]
     },
     {
       "type": "para",
@@ -13099,9 +12559,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Balaam’s Fourth Oracle\n"
-      ]
+      "content": ["Balaam’s Fourth Oracle\n"]
     },
     {
       "type": "para",
@@ -13127,16 +12585,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“This is the prophecy of Balaam son of Beor, \n"
-      ]
+      "content": ["“This is the prophecy of Balaam son of Beor, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the prophecy of a man whose eyes are open, \n"
-      ]
+      "content": ["the prophecy of a man whose eyes are open, \n"]
     },
     {
       "type": "para",
@@ -13154,23 +12608,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "who has knowledge from the Most High, \n"
-      ]
+      "content": ["who has knowledge from the Most High, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "who sees a vision from the Almighty, \n"
-      ]
+      "content": ["who sees a vision from the Almighty, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "who bows down with eyes wide open: \n"
-      ]
+      "content": ["who bows down with eyes wide open: \n"]
     },
     {
       "type": "para",
@@ -13188,23 +12636,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I behold him, but not near. \n"
-      ]
+      "content": ["I behold him, but not near. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "A star will come forth from Jacob, \n"
-      ]
+      "content": ["A star will come forth from Jacob, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and a scepter will arise from Israel. \n"
-      ]
+      "content": ["and a scepter will arise from Israel. \n"]
     },
     {
       "type": "para",
@@ -13219,9 +12661,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:17 "
-              ]
+              "content": ["24:17 "]
             },
             {
               "type": "char",
@@ -13239,9 +12679,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and strike down all the sons of Sheth. \n"
-      ]
+      "content": ["and strike down all the sons of Sheth. \n"]
     },
     {
       "type": "para",
@@ -13259,16 +12697,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "as will Seir, his enemy; \n"
-      ]
+      "content": ["as will Seir, his enemy; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but Israel will perform with valor. \n"
-      ]
+      "content": ["but Israel will perform with valor. \n"]
     },
     {
       "type": "para",
@@ -13286,16 +12720,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and destroy the survivors of the city.” \n"
-      ]
+      "content": ["and destroy the survivors of the city.” \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Balaam’s Final Three Oracles\n"
-      ]
+      "content": ["Balaam’s Final Three Oracles\n"]
     },
     {
       "type": "para",
@@ -13321,16 +12751,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Amalek was first among the nations, \n"
-      ]
+      "content": ["“Amalek was first among the nations, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but his end is destruction.” \n"
-      ]
+      "content": ["but his end is destruction.” \n"]
     },
     {
       "type": "para",
@@ -13356,16 +12782,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Your dwelling place is secure, \n"
-      ]
+      "content": ["“Your dwelling place is secure, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and your nest is set in a cliff. \n"
-      ]
+      "content": ["and your nest is set in a cliff. \n"]
     },
     {
       "type": "para",
@@ -13393,16 +12815,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:22 "
-              ]
+              "content": ["24:22 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Assyria; also in verse 24"
-              ]
+              "content": ["Or Assyria; also in verse 24"]
             }
           ],
           "caller": "+"
@@ -13430,16 +12848,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Ah, who can live \n"
-      ]
+      "content": ["“Ah, who can live \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "unless God has ordained it? \n"
-      ]
+      "content": ["unless God has ordained it? \n"]
     },
     {
       "type": "para",
@@ -13460,16 +12874,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:24 "
-              ]
+              "content": ["24:24 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew Kittim"
-              ]
+              "content": ["Hebrew Kittim"]
             }
           ],
           "caller": "+"
@@ -13480,16 +12890,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "they will subdue Asshur and Eber, \n"
-      ]
+      "content": ["they will subdue Asshur and Eber, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but they too will perish forever.” \n"
-      ]
+      "content": ["but they too will perish forever.” \n"]
     },
     {
       "type": "para",
@@ -13517,16 +12923,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Moab Seduces Israel\n"
-      ]
+      "content": ["Moab Seduces Israel\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Corinthians 10:1–13)\n"
-      ]
+      "content": ["(1 Corinthians 10:1–13)\n"]
     },
     {
       "type": "para",
@@ -13551,16 +12953,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "25:1 "
-              ]
+              "content": ["25:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Acacia Grove"
-              ]
+              "content": ["Or Acacia Grove"]
             }
           ],
           "caller": "+"
@@ -13619,9 +13017,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Zeal of Phinehas\n"
-      ]
+      "content": ["The Zeal of Phinehas\n"]
     },
     {
       "type": "para",
@@ -13774,16 +13170,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Second Census of Israel\n"
-      ]
+      "content": ["The Second Census of Israel\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 1:1–4)\n"
-      ]
+      "content": ["(Numbers 1:1–4)\n"]
     },
     {
       "type": "para",
@@ -13839,9 +13231,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:4 "
-              ]
+              "content": ["26:4 "]
             },
             {
               "type": "char",
@@ -13870,9 +13260,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribe of Reuben\n"
-      ]
+      "content": ["The Tribe of Reuben\n"]
     },
     {
       "type": "para",
@@ -13898,9 +13286,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Hanochite clan from Hanoch, \n"
-      ]
+      "content": ["The Hanochite clan from Hanoch, \n"]
     },
     {
       "type": "para",
@@ -13909,9 +13295,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Palluite clan from Pallu, \n"
-      ]
+      "content": ["the Palluite clan from Pallu, \n"]
     },
     {
       "type": "para",
@@ -13937,9 +13321,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Carmite clan from Carmi. \n"
-      ]
+      "content": ["and the Carmite clan from Carmi. \n"]
     },
     {
       "type": "para",
@@ -14010,9 +13392,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribe of Simeon\n"
-      ]
+      "content": ["The Tribe of Simeon\n"]
     },
     {
       "type": "para",
@@ -14048,9 +13428,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:12 "
-              ]
+              "content": ["26:12 "]
             },
             {
               "type": "char",
@@ -14072,9 +13450,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Jaminite clan from Jamin, \n"
-      ]
+      "content": ["the Jaminite clan from Jamin, \n"]
     },
     {
       "type": "para",
@@ -14083,9 +13459,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Jachinite clan from Jachin, \n"
-      ]
+      "content": ["the Jachinite clan from Jachin, \n"]
     },
     {
       "type": "para",
@@ -14110,9 +13484,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:13 "
-              ]
+              "content": ["26:13 "]
             },
             {
               "type": "char",
@@ -14134,9 +13506,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Shaulite clan from Shaul. \n"
-      ]
+      "content": ["and the Shaulite clan from Shaul. \n"]
     },
     {
       "type": "para",
@@ -14158,9 +13528,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribe of Gad\n"
-      ]
+      "content": ["The Tribe of Gad\n"]
     },
     {
       "type": "para",
@@ -14186,9 +13554,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Zephonite clan from Zephon, \n"
-      ]
+      "content": ["The Zephonite clan from Zephon, \n"]
     },
     {
       "type": "para",
@@ -14197,9 +13563,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Haggite clan from Haggi, \n"
-      ]
+      "content": ["the Haggite clan from Haggi, \n"]
     },
     {
       "type": "para",
@@ -14208,9 +13572,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Shunite clan from Shuni, \n"
-      ]
+      "content": ["the Shunite clan from Shuni, \n"]
     },
     {
       "type": "para",
@@ -14236,9 +13598,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Erite clan from Eri, \n"
-      ]
+      "content": ["the Erite clan from Eri, \n"]
     },
     {
       "type": "para",
@@ -14263,16 +13623,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:17 "
-              ]
+              "content": ["26:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SP and Syriac Arodi; see Genesis 46:16."
-              ]
+              "content": ["SP and Syriac Arodi; see Genesis 46:16."]
             }
           ],
           "caller": "+"
@@ -14287,9 +13643,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Arelite clan from Areli. \n"
-      ]
+      "content": ["and the Arelite clan from Areli. \n"]
     },
     {
       "type": "para",
@@ -14311,9 +13665,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribe of Judah\n"
-      ]
+      "content": ["The Tribe of Judah\n"]
     },
     {
       "type": "para",
@@ -14346,9 +13698,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Shelanite clan from Shelah, \n"
-      ]
+      "content": ["The Shelanite clan from Shelah, \n"]
     },
     {
       "type": "para",
@@ -14357,9 +13707,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Perezite clan from Perez, \n"
-      ]
+      "content": ["the Perezite clan from Perez, \n"]
     },
     {
       "type": "para",
@@ -14368,9 +13716,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Zerahite clan from Zerah. \n"
-      ]
+      "content": ["and the Zerahite clan from Zerah. \n"]
     },
     {
       "type": "para",
@@ -14396,9 +13742,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "the Hezronite clan from Hezron \n"
-      ]
+      "content": ["the Hezronite clan from Hezron \n"]
     },
     {
       "type": "para",
@@ -14407,9 +13751,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "and the Hamulite clan from Hamul. \n"
-      ]
+      "content": ["and the Hamulite clan from Hamul. \n"]
     },
     {
       "type": "para",
@@ -14431,9 +13773,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribe of Issachar\n"
-      ]
+      "content": ["The Tribe of Issachar\n"]
     },
     {
       "type": "para",
@@ -14459,9 +13799,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Tolaite clan from Tola, \n"
-      ]
+      "content": ["The Tolaite clan from Tola, \n"]
     },
     {
       "type": "para",
@@ -14480,9 +13818,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:23 "
-              ]
+              "content": ["26:23 "]
             },
             {
               "type": "char",
@@ -14520,16 +13856,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:24 "
-              ]
+              "content": ["26:24 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Jashub is a variant of Job; see Genesis 46:13."
-              ]
+              "content": ["Jashub is a variant of Job; see Genesis 46:13."]
             }
           ],
           "caller": "+"
@@ -14544,9 +13876,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Shimronite clan from Shimron. \n"
-      ]
+      "content": ["and the Shimronite clan from Shimron. \n"]
     },
     {
       "type": "para",
@@ -14568,9 +13898,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribe of Zebulun\n"
-      ]
+      "content": ["The Tribe of Zebulun\n"]
     },
     {
       "type": "para",
@@ -14596,9 +13924,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Seredite clan from Sered, \n"
-      ]
+      "content": ["The Seredite clan from Sered, \n"]
     },
     {
       "type": "para",
@@ -14607,9 +13933,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Elonite clan from Elon, \n"
-      ]
+      "content": ["the Elonite clan from Elon, \n"]
     },
     {
       "type": "para",
@@ -14618,9 +13942,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Jahleelite clan from Jahleel. \n"
-      ]
+      "content": ["and the Jahleelite clan from Jahleel. \n"]
     },
     {
       "type": "para",
@@ -14642,9 +13964,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribe of Manasseh\n"
-      ]
+      "content": ["The Tribe of Manasseh\n"]
     },
     {
       "type": "para",
@@ -14687,9 +14007,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Machirite clan from Machir, the father of Gilead, \n"
-      ]
+      "content": ["The Machirite clan from Machir, the father of Gilead, \n"]
     },
     {
       "type": "para",
@@ -14698,9 +14016,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Gileadite clan from Gilead. \n"
-      ]
+      "content": ["and the Gileadite clan from Gilead. \n"]
     },
     {
       "type": "para",
@@ -14736,16 +14052,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:30 "
-              ]
+              "content": ["26:30 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Iezer is a variant of Abiezer; see Joshua 17:2."
-              ]
+              "content": ["Iezer is a variant of Abiezer; see Joshua 17:2."]
             }
           ],
           "caller": "+"
@@ -14760,9 +14072,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "the Helekite clan from Helek, \n"
-      ]
+      "content": ["the Helekite clan from Helek, \n"]
     },
     {
       "type": "para",
@@ -14788,9 +14098,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "the Shechemite clan from Shechem, \n"
-      ]
+      "content": ["the Shechemite clan from Shechem, \n"]
     },
     {
       "type": "para",
@@ -14816,9 +14124,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "and the Hepherite clan from Hepher. \n"
-      ]
+      "content": ["and the Hepherite clan from Hepher. \n"]
     },
     {
       "type": "para",
@@ -14857,9 +14163,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribe of Ephraim\n"
-      ]
+      "content": ["The Tribe of Ephraim\n"]
     },
     {
       "type": "para",
@@ -14885,9 +14189,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Shuthelahite clan from Shuthelah, \n"
-      ]
+      "content": ["The Shuthelahite clan from Shuthelah, \n"]
     },
     {
       "type": "para",
@@ -14896,9 +14198,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Becherite clan from Becher, \n"
-      ]
+      "content": ["the Becherite clan from Becher, \n"]
     },
     {
       "type": "para",
@@ -14907,9 +14207,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Tahanite clan from Tahan. \n"
-      ]
+      "content": ["and the Tahanite clan from Tahan. \n"]
     },
     {
       "type": "para",
@@ -14952,16 +14250,12 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "These clans were the descendants of Joseph. \n"
-      ]
+      "content": ["These clans were the descendants of Joseph. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribe of Benjamin\n"
-      ]
+      "content": ["The Tribe of Benjamin\n"]
     },
     {
       "type": "para",
@@ -14987,9 +14281,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Belaite clan from Bela, \n"
-      ]
+      "content": ["The Belaite clan from Bela, \n"]
     },
     {
       "type": "para",
@@ -14998,9 +14290,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Ashbelite clan from Ashbel, \n"
-      ]
+      "content": ["the Ashbelite clan from Ashbel, \n"]
     },
     {
       "type": "para",
@@ -15009,9 +14299,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Ahiramite clan from Ahiram, \n"
-      ]
+      "content": ["the Ahiramite clan from Ahiram, \n"]
     },
     {
       "type": "para",
@@ -15036,9 +14324,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:39 "
-              ]
+              "content": ["26:39 "]
             },
             {
               "type": "char",
@@ -15060,9 +14346,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Huphamite clan from Hupham. \n"
-      ]
+      "content": ["and the Huphamite clan from Hupham. \n"]
     },
     {
       "type": "para",
@@ -15087,9 +14371,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:40 "
-              ]
+              "content": ["26:40 "]
             },
             {
               "type": "char",
@@ -15124,9 +14406,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribe of Dan\n"
-      ]
+      "content": ["The Tribe of Dan\n"]
     },
     {
       "type": "para",
@@ -15152,9 +14432,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Shuhamite clan from Shuham. \n"
-      ]
+      "content": ["The Shuhamite clan from Shuham. \n"]
     },
     {
       "type": "para",
@@ -15177,9 +14455,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribe of Asher\n"
-      ]
+      "content": ["The Tribe of Asher\n"]
     },
     {
       "type": "para",
@@ -15205,9 +14481,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Imnite clan from Imnah, \n"
-      ]
+      "content": ["The Imnite clan from Imnah, \n"]
     },
     {
       "type": "para",
@@ -15216,9 +14490,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Ishvite clan from Ishvi, \n"
-      ]
+      "content": ["the Ishvite clan from Ishvi, \n"]
     },
     {
       "type": "para",
@@ -15227,9 +14499,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Beriite clan from Beriah. \n"
-      ]
+      "content": ["and the Beriite clan from Beriah. \n"]
     },
     {
       "type": "para",
@@ -15255,9 +14525,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "the Heberite clan from Heber \n"
-      ]
+      "content": ["the Heberite clan from Heber \n"]
     },
     {
       "type": "para",
@@ -15266,9 +14534,7 @@
     {
       "type": "para",
       "marker": "li2",
-      "content": [
-        "and the Malchielite clan from Malchiel. \n"
-      ]
+      "content": ["and the Malchielite clan from Malchiel. \n"]
     },
     {
       "type": "para",
@@ -15307,9 +14573,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribe of Naphtali\n"
-      ]
+      "content": ["The Tribe of Naphtali\n"]
     },
     {
       "type": "para",
@@ -15335,9 +14599,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Jahzeelite clan from Jahzeel, \n"
-      ]
+      "content": ["The Jahzeelite clan from Jahzeel, \n"]
     },
     {
       "type": "para",
@@ -15346,9 +14608,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Gunite clan from Guni, \n"
-      ]
+      "content": ["the Gunite clan from Guni, \n"]
     },
     {
       "type": "para",
@@ -15374,9 +14634,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Shillemite clan from Shillem. \n"
-      ]
+      "content": ["and the Shillemite clan from Shillem. \n"]
     },
     {
       "type": "para",
@@ -15415,9 +14673,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Inheritance by Lot\n"
-      ]
+      "content": ["Inheritance by Lot\n"]
     },
     {
       "type": "para",
@@ -15477,9 +14733,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Levites Numbered\n"
-      ]
+      "content": ["The Levites Numbered\n"]
     },
     {
       "type": "para",
@@ -15505,9 +14759,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Gershonite clan from Gershon, \n"
-      ]
+      "content": ["The Gershonite clan from Gershon, \n"]
     },
     {
       "type": "para",
@@ -15516,9 +14768,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Kohathite clan from Kohath, \n"
-      ]
+      "content": ["the Kohathite clan from Kohath, \n"]
     },
     {
       "type": "para",
@@ -15527,9 +14777,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Merarite clan from Merari. \n"
-      ]
+      "content": ["and the Merarite clan from Merari. \n"]
     },
     {
       "type": "para",
@@ -15555,9 +14803,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The Libnite clan, \n"
-      ]
+      "content": ["The Libnite clan, \n"]
     },
     {
       "type": "para",
@@ -15566,9 +14812,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Hebronite clan, \n"
-      ]
+      "content": ["the Hebronite clan, \n"]
     },
     {
       "type": "para",
@@ -15577,9 +14821,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Mahlite clan, \n"
-      ]
+      "content": ["the Mahlite clan, \n"]
     },
     {
       "type": "para",
@@ -15588,9 +14830,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the Mushite clan, \n"
-      ]
+      "content": ["the Mushite clan, \n"]
     },
     {
       "type": "para",
@@ -15599,9 +14839,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the Korahite clan. \n"
-      ]
+      "content": ["and the Korahite clan. \n"]
     },
     {
       "type": "para",
@@ -15641,16 +14879,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:61 "
-              ]
+              "content": ["26:61 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or strange"
-              ]
+              "content": ["Or strange"]
             }
           ],
           "caller": "+"
@@ -15678,9 +14912,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Only Caleb and Joshua Remain\n"
-      ]
+      "content": ["Only Caleb and Joshua Remain\n"]
     },
     {
       "type": "para",
@@ -15732,16 +14964,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Daughters of Zelophehad\n"
-      ]
+      "content": ["The Daughters of Zelophehad\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 36:1–13)\n"
-      ]
+      "content": ["(Numbers 36:1–13)\n"]
     },
     {
       "type": "para",
@@ -15853,16 +15081,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Moses Requests a Successor\n"
-      ]
+      "content": ["Moses Requests a Successor\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 3:23–29)\n"
-      ]
+      "content": ["(Deuteronomy 3:23–29)\n"]
     },
     {
       "type": "para",
@@ -15887,16 +15111,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:12 "
-              ]
+              "content": ["27:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX Go up Mount Nebo beyond the Jordan"
-              ]
+              "content": ["LXX Go up Mount Nebo beyond the Jordan"]
             }
           ],
           "caller": "+"
@@ -15924,16 +15144,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:14 "
-              ]
+              "content": ["27:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Meribah means quarreling; see Exodus 17:7."
-              ]
+              "content": ["Meribah means quarreling; see Exodus 17:7."]
             }
           ],
           "caller": "+"
@@ -15975,16 +15191,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Joshua to Succeed Moses\n"
-      ]
+      "content": ["Joshua to Succeed Moses\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 31:1–8)\n"
-      ]
+      "content": ["(Deuteronomy 31:1–8)\n"]
     },
     {
       "type": "para",
@@ -16030,16 +15242,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:21 "
-              ]
+              "content": ["27:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally the Lights"
-              ]
+              "content": ["Literally the Lights"]
             }
           ],
           "caller": "+"
@@ -16080,16 +15288,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Daily Offerings\n"
-      ]
+      "content": ["The Daily Offerings\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 29:38–44)\n"
-      ]
+      "content": ["(Exodus 29:38–44)\n"]
     },
     {
       "type": "para",
@@ -16145,16 +15349,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:4 "
-              ]
+              "content": ["28:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew between the two evenings; also in verse 8"
-              ]
+              "content": ["Hebrew between the two evenings; also in verse 8"]
             }
           ],
           "caller": "+"
@@ -16175,9 +15375,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:5 "
-              ]
+              "content": ["28:5 "]
             },
             {
               "type": "char",
@@ -16198,9 +15396,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:5 "
-              ]
+              "content": ["28:5 "]
             },
             {
               "type": "char",
@@ -16249,9 +15445,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Sabbath Offerings\n"
-      ]
+      "content": ["The Sabbath Offerings\n"]
     },
     {
       "type": "para",
@@ -16276,9 +15470,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:9 "
-              ]
+              "content": ["28:9 "]
             },
             {
               "type": "char",
@@ -16313,9 +15505,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Monthly Offerings\n"
-      ]
+      "content": ["The Monthly Offerings\n"]
     },
     {
       "type": "para",
@@ -16347,9 +15537,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:12 "
-              ]
+              "content": ["28:12 "]
             },
             {
               "type": "char",
@@ -16394,9 +15582,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:14 "
-              ]
+              "content": ["28:14 "]
             },
             {
               "type": "char",
@@ -16417,9 +15603,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:14 "
-              ]
+              "content": ["28:14 "]
             },
             {
               "type": "char",
@@ -16454,16 +15638,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Passover and the Feast of Unleavened Bread\n"
-      ]
+      "content": ["Passover and the Feast of Unleavened Bread\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 12:14–28; Leviticus 23:4–8; Deuteronomy 16:1–8)\n"
-      ]
+      "content": ["(Exodus 12:14–28; Leviticus 23:4–8; Deuteronomy 16:1–8)\n"]
     },
     {
       "type": "para",
@@ -16578,16 +15758,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Feast of Weeks\n"
-      ]
+      "content": ["The Feast of Weeks\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 16:9–12)\n"
-      ]
+      "content": ["(Deuteronomy 16:9–12)\n"]
     },
     {
       "type": "para",
@@ -16612,9 +15788,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:26 "
-              ]
+              "content": ["28:26 "]
             },
             {
               "type": "char",
@@ -16693,16 +15867,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Feast of Trumpets\n"
-      ]
+      "content": ["The Feast of Trumpets\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 23:23–25)\n"
-      ]
+      "content": ["(Leviticus 23:23–25)\n"]
     },
     {
       "type": "para",
@@ -16751,9 +15921,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "29:3 "
-              ]
+              "content": ["29:3 "]
             },
             {
               "type": "char",
@@ -16774,9 +15942,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "29:3 "
-              ]
+              "content": ["29:3 "]
             },
             {
               "type": "char",
@@ -16804,9 +15970,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "29:4 "
-              ]
+              "content": ["29:4 "]
             },
             {
               "type": "char",
@@ -16848,16 +16012,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Day of Atonement\n"
-      ]
+      "content": ["The Day of Atonement\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 16:1–34; Leviticus 23:26–32)\n"
-      ]
+      "content": ["(Leviticus 16:1–34; Leviticus 23:26–32)\n"]
     },
     {
       "type": "para",
@@ -16882,16 +16042,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "29:7 "
-              ]
+              "content": ["29:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or afflict your souls or deny yourselves"
-              ]
+              "content": ["Or afflict your souls or deny yourselves"]
             }
           ],
           "caller": "+"
@@ -16950,16 +16106,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Feast of Tabernacles\n"
-      ]
+      "content": ["The Feast of Tabernacles\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 16:13–17)\n"
-      ]
+      "content": ["(Deuteronomy 16:13–17)\n"]
     },
     {
       "type": "para",
@@ -17283,16 +16435,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Laws about Vows\n"
-      ]
+      "content": ["Laws about Vows\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Matthew 5:33–37)\n"
-      ]
+      "content": ["(Matthew 5:33–37)\n"]
     },
     {
       "type": "para",
@@ -17328,16 +16476,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "30:2 "
-              ]
+              "content": ["30:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in Matthew 5:33"
-              ]
+              "content": ["Cited in Matthew 5:33"]
             }
           ],
           "caller": "+"
@@ -17478,16 +16622,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "30:13 "
-              ]
+              "content": ["30:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or to fast"
-              ]
+              "content": ["Or to fast"]
             }
           ],
           "caller": "+"
@@ -17535,9 +16675,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Vengeance on Midian\n"
-      ]
+      "content": ["Vengeance on Midian\n"]
     },
     {
       "type": "para",
@@ -17800,9 +16938,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Division of the Spoils\n"
-      ]
+      "content": ["Division of the Spoils\n"]
     },
     {
       "type": "para",
@@ -17907,9 +17043,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "675,000 sheep, \n"
-      ]
+      "content": ["675,000 sheep, \n"]
     },
     {
       "type": "para",
@@ -18096,9 +17230,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "337,500 sheep, \n"
-      ]
+      "content": ["337,500 sheep, \n"]
     },
     {
       "type": "para",
@@ -18171,9 +17303,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Voluntary Offering\n"
-      ]
+      "content": ["The Voluntary Offering\n"]
     },
     {
       "type": "para",
@@ -18236,9 +17366,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "31:52 "
-              ]
+              "content": ["31:52 "]
             },
             {
               "type": "char",
@@ -18276,16 +17404,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tribes East of the Jordan\n"
-      ]
+      "content": ["The Tribes East of the Jordan\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 3:12–22; Joshua 13:8–14)\n"
-      ]
+      "content": ["(Deuteronomy 3:12–22; Joshua 13:8–14)\n"]
     },
     {
       "type": "para",
@@ -18324,9 +17448,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "32:3 "
-              ]
+              "content": ["32:3 "]
             },
             {
               "type": "char",
@@ -18495,16 +17617,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "32:17 "
-              ]
+              "content": ["32:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX we will arm ourselves for battle"
-              ]
+              "content": ["LXX we will arm ourselves for battle"]
             }
           ],
           "caller": "+"
@@ -18766,16 +17884,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "32:41 "
-              ]
+              "content": ["32:41 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Havvoth-jair means the villages of Jair."
-              ]
+              "content": ["Havvoth-jair means the villages of Jair."]
             }
           ],
           "caller": "+"
@@ -18799,9 +17913,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Forty-Two Journeys of the Israelites\n"
-      ]
+      "content": ["Forty-Two Journeys of the Israelites\n"]
     },
     {
       "type": "para",
@@ -18850,9 +17962,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "33:3 "
-              ]
+              "content": ["33:3 "]
             },
             {
               "type": "char",
@@ -18938,9 +18048,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "33:8 "
-              ]
+              "content": ["33:8 "]
             },
             {
               "type": "char",
@@ -18995,16 +18103,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "33:10 "
-              ]
+              "content": ["33:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the Sea of Reeds; also in verse 11"
-              ]
+              "content": ["Or the Sea of Reeds; also in verse 11"]
             }
           ],
           "caller": "+"
@@ -19035,9 +18139,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "33:11 "
-              ]
+              "content": ["33:11 "]
             },
             {
               "type": "char",
@@ -19606,16 +18708,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "33:45 "
-              ]
+              "content": ["33:45 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Iyim is another name for Iye-abarim; see verse 44."
-              ]
+              "content": ["Iyim is another name for Iye-abarim; see verse 44."]
             }
           ],
           "caller": "+"
@@ -19663,16 +18761,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "33:47 "
-              ]
+              "content": ["33:47 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the mountains beyond the river; also in verse 48"
-              ]
+              "content": ["Or the mountains beyond the river; also in verse 48"]
             }
           ],
           "caller": "+"
@@ -19720,9 +18814,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "33:49 "
-              ]
+              "content": ["33:49 "]
             },
             {
               "type": "char",
@@ -19740,9 +18832,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Instructions for Occupying Canaan\n"
-      ]
+      "content": ["Instructions for Occupying Canaan\n"]
     },
     {
       "type": "para",
@@ -19832,16 +18922,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Boundaries of Canaan\n"
-      ]
+      "content": ["The Boundaries of Canaan\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 15:8–21)\n"
-      ]
+      "content": ["(Genesis 15:8–21)\n"]
     },
     {
       "type": "para",
@@ -19890,16 +18976,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "34:3 "
-              ]
+              "content": ["34:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Dead Sea; also in verse 12"
-              ]
+              "content": ["That is, the Dead Sea; also in verse 12"]
             }
           ],
           "caller": "+"
@@ -19920,16 +19002,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "34:4 "
-              ]
+              "content": ["34:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the Ascent of Scorpions or Scorpion Pass"
-              ]
+              "content": ["Or the Ascent of Scorpions or Scorpion Pass"]
             }
           ],
           "caller": "+"
@@ -19950,9 +19028,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "34:5 "
-              ]
+              "content": ["34:5 "]
             },
             {
               "type": "char",
@@ -20045,16 +19121,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "34:11 "
-              ]
+              "content": ["34:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Sea of Galilee"
-              ]
+              "content": ["That is, the Sea of Galilee"]
             }
           ],
           "caller": "+"
@@ -20114,9 +19186,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Leaders to Divide the Land\n"
-      ]
+      "content": ["Leaders to Divide the Land\n"]
     },
     {
       "type": "para",
@@ -20163,9 +19233,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Caleb son of Jephunneh from the tribe of Judah; \n"
-      ]
+      "content": ["Caleb son of Jephunneh from the tribe of Judah; \n"]
     },
     {
       "type": "para",
@@ -20346,16 +19414,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Forty-Eight Cities for the Levites\n"
-      ]
+      "content": ["Forty-Eight Cities for the Levites\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Joshua 21:1–45; 1 Chronicles 6:54–81)\n"
-      ]
+      "content": ["(Joshua 21:1–45; 1 Chronicles 6:54–81)\n"]
     },
     {
       "type": "para",
@@ -20411,9 +19475,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "35:4 "
-              ]
+              "content": ["35:4 "]
             },
             {
               "type": "char",
@@ -20441,9 +19503,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "35:5 "
-              ]
+              "content": ["35:5 "]
             },
             {
               "type": "char",
@@ -20492,16 +19552,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Six Cities of Refuge\n"
-      ]
+      "content": ["Six Cities of Refuge\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 4:41–43; Deuteronomy 19:1–14; Joshua 20:1–9)\n"
-      ]
+      "content": ["(Deuteronomy 4:41–43; Deuteronomy 19:1–14; Joshua 20:1–9)\n"]
     },
     {
       "type": "para",
@@ -20794,16 +19850,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Zelophehad’s Daughters Marry\n"
-      ]
+      "content": ["Zelophehad’s Daughters Marry\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 27:1–11)\n"
-      ]
+      "content": ["(Numbers 27:1–11)\n"]
     },
     {
       "type": "para",

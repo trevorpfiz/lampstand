@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo } from 'react';
+import { type ComponentType, type ReactNode, useEffect, useMemo } from 'react';
 
 import { AIChatPlugin, AIPlugin } from '@udecode/plate-ai/react';
 import {
@@ -54,11 +54,13 @@ export const aiChatItems = {
     onSelect: ({ editor }) => {
       const ancestorNode = getAncestorNode(editor);
 
-      if (!ancestorNode) return;
+      if (!ancestorNode) {
+        return;
+      }
 
       const isEmpty = getNodeString(ancestorNode[0]).trim().length === 0;
 
-      void editor.getApi(AIChatPlugin).aiChat.submit({
+      editor.getApi(AIChatPlugin).aiChat.submit({
         mode: 'insert',
         prompt: isEmpty
           ? `<Document>
@@ -84,7 +86,7 @@ Start writing a new paragraph AFTER <Document> ONLY ONE SENTENCE`
     label: 'Explain',
     value: 'explain',
     onSelect: ({ editor }) => {
-      void editor.getApi(AIChatPlugin).aiChat.submit({
+      editor.getApi(AIChatPlugin).aiChat.submit({
         prompt: {
           default: 'Explain {editor}',
           selecting: 'Explain',
@@ -97,7 +99,7 @@ Start writing a new paragraph AFTER <Document> ONLY ONE SENTENCE`
     label: 'Fix spelling & grammar',
     value: 'fixSpelling',
     onSelect: ({ editor }) => {
-      void editor.getApi(AIChatPlugin).aiChat.submit({
+      editor.getApi(AIChatPlugin).aiChat.submit({
         prompt: 'Fix spelling and grammar',
       });
     },
@@ -107,7 +109,7 @@ Start writing a new paragraph AFTER <Document> ONLY ONE SENTENCE`
     label: 'Improve writing',
     value: 'improveWriting',
     onSelect: ({ editor }) => {
-      void editor.getApi(AIChatPlugin).aiChat.submit({
+      editor.getApi(AIChatPlugin).aiChat.submit({
         prompt: 'Improve the writing',
       });
     },
@@ -117,7 +119,7 @@ Start writing a new paragraph AFTER <Document> ONLY ONE SENTENCE`
     label: 'Insert below',
     value: 'insertBelow',
     onSelect: ({ aiEditor, editor }) => {
-      void editor.getTransforms(AIChatPlugin).aiChat.insertBelow(aiEditor);
+      editor.getTransforms(AIChatPlugin).aiChat.insertBelow(aiEditor);
     },
   },
   makeLonger: {
@@ -125,7 +127,7 @@ Start writing a new paragraph AFTER <Document> ONLY ONE SENTENCE`
     label: 'Make longer',
     value: 'makeLonger',
     onSelect: ({ editor }) => {
-      void editor.getApi(AIChatPlugin).aiChat.submit({
+      editor.getApi(AIChatPlugin).aiChat.submit({
         prompt: 'Make longer',
       });
     },
@@ -135,7 +137,7 @@ Start writing a new paragraph AFTER <Document> ONLY ONE SENTENCE`
     label: 'Make shorter',
     value: 'makeShorter',
     onSelect: ({ editor }) => {
-      void editor.getApi(AIChatPlugin).aiChat.submit({
+      editor.getApi(AIChatPlugin).aiChat.submit({
         prompt: 'Make shorter',
       });
     },
@@ -145,7 +147,7 @@ Start writing a new paragraph AFTER <Document> ONLY ONE SENTENCE`
     label: 'Replace selection',
     value: 'replace',
     onSelect: ({ aiEditor, editor }) => {
-      void editor.getTransforms(AIChatPlugin).aiChat.replaceSelection(aiEditor);
+      editor.getTransforms(AIChatPlugin).aiChat.replaceSelection(aiEditor);
     },
   },
   simplifyLanguage: {
@@ -153,7 +155,7 @@ Start writing a new paragraph AFTER <Document> ONLY ONE SENTENCE`
     label: 'Simplify language',
     value: 'simplifyLanguage',
     onSelect: ({ editor }) => {
-      void editor.getApi(AIChatPlugin).aiChat.submit({
+      editor.getApi(AIChatPlugin).aiChat.submit({
         prompt: 'Simplify the language',
       });
     },
@@ -163,7 +165,7 @@ Start writing a new paragraph AFTER <Document> ONLY ONE SENTENCE`
     label: 'Add a summary',
     value: 'summarize',
     onSelect: ({ editor }) => {
-      void editor.getApi(AIChatPlugin).aiChat.submit({
+      editor.getApi(AIChatPlugin).aiChat.submit({
         mode: 'insert',
         prompt: {
           default: 'Summarize {editor}',
@@ -177,16 +179,16 @@ Start writing a new paragraph AFTER <Document> ONLY ONE SENTENCE`
     label: 'Try again',
     value: 'tryAgain',
     onSelect: ({ editor }) => {
-      void editor.getApi(AIChatPlugin).aiChat.reload();
+      editor.getApi(AIChatPlugin).aiChat.reload();
     },
   },
 } satisfies Record<
   string,
   {
-    icon: React.ReactNode;
+    icon: ReactNode;
     label: string;
     value: string;
-    component?: React.ComponentType<{ menuState: EditorChatState }>;
+    component?: ComponentType<{ menuState: EditorChatState }>;
     filterItems?: boolean;
     items?: { label: string; value: string }[];
     shortcut?: string;

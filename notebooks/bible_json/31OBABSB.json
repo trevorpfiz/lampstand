@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "OBA"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Obadiah\n"
-      ]
+      "content": ["Obadiah\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Obadiah\n"
-      ]
+      "content": ["Obadiah\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Obadiah\n"
-      ]
+      "content": ["Obadiah\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Destruction of Edom\n"
-      ]
+      "content": ["The Destruction of Edom\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Jeremiah 49:7–22)\n"
-      ]
+      "content": ["(Jeremiah 49:7–22)\n"]
     },
     {
       "type": "para",
@@ -75,9 +63,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "This is what the Lord GOD says about Edom—\n"
-      ]
+      "content": ["This is what the Lord GOD says about Edom—\n"]
     },
     {
       "type": "para",
@@ -86,30 +72,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "We have heard a message from the LORD; \n"
-      ]
+      "content": ["We have heard a message from the LORD; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "an envoy has been sent among the nations \n"
-      ]
+      "content": ["an envoy has been sent among the nations \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "to say, “Rise up, \n"
-      ]
+      "content": ["to say, “Rise up, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and let us go to battle against her!”—\n"
-      ]
+      "content": ["and let us go to battle against her!”—\n"]
     },
     {
       "type": "para",
@@ -131,9 +109,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "you will be deeply despised. \n"
-      ]
+      "content": ["you will be deeply despised. \n"]
     },
     {
       "type": "para",
@@ -161,16 +137,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:3 "
-              ]
+              "content": ["1:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or in the retreats of Sela"
-              ]
+              "content": ["Or in the retreats of Sela"]
             }
           ],
           "caller": "+"
@@ -181,23 +153,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "whose habitation is the heights, \n"
-      ]
+      "content": ["whose habitation is the heights, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "who say in your heart, \n"
-      ]
+      "content": ["who say in your heart, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "‘Who can bring me down to the ground?’ \n"
-      ]
+      "content": ["‘Who can bring me down to the ground?’ \n"]
     },
     {
       "type": "para",
@@ -215,23 +181,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and make your nest among the stars, \n"
-      ]
+      "content": ["and make your nest among the stars, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "even from there I will bring you down,” \n"
-      ]
+      "content": ["even from there I will bring you down,” \n"]
     },
     {
       "type": "para",
       "marker": "qr",
-      "content": [
-        "declares the LORD. \n"
-      ]
+      "content": ["declares the LORD. \n"]
     },
     {
       "type": "para",
@@ -249,37 +209,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "if robbers by night—\n"
-      ]
+      "content": ["if robbers by night—\n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "oh, how you will be ruined—\n"
-      ]
+      "content": ["oh, how you will be ruined—\n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "would they not steal only what they wanted? \n"
-      ]
+      "content": ["would they not steal only what they wanted? \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "If grape gatherers came to you, \n"
-      ]
+      "content": ["If grape gatherers came to you, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "would they not leave some gleanings? \n"
-      ]
+      "content": ["would they not leave some gleanings? \n"]
     },
     {
       "type": "para",
@@ -297,9 +247,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "his hidden treasures sought out! \n"
-      ]
+      "content": ["his hidden treasures sought out! \n"]
     },
     {
       "type": "para",
@@ -317,23 +265,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will drive you to the border; \n"
-      ]
+      "content": ["will drive you to the border; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "the men at peace with you \n"
-      ]
+      "content": ["the men at peace with you \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will deceive and overpower you. \n"
-      ]
+      "content": ["will deceive and overpower you. \n"]
     },
     {
       "type": "para",
@@ -348,16 +290,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:7 "
-              ]
+              "content": ["1:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew does not include Those who eat."
-              ]
+              "content": ["Hebrew does not include Those who eat."]
             }
           ],
           "caller": "+"
@@ -368,16 +306,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will set a trap for you \n"
-      ]
+      "content": ["will set a trap for you \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "without your awareness of it. \n"
-      ]
+      "content": ["without your awareness of it. \n"]
     },
     {
       "type": "para",
@@ -395,23 +329,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will I not destroy the wise men of Edom \n"
-      ]
+      "content": ["will I not destroy the wise men of Edom \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and the men of understanding \n"
-      ]
+      "content": ["and the men of understanding \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the mountains of Esau? \n"
-      ]
+      "content": ["in the mountains of Esau? \n"]
     },
     {
       "type": "para",
@@ -429,23 +357,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will be terrified, \n"
-      ]
+      "content": ["will be terrified, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "so that everyone in the mountains of Esau \n"
-      ]
+      "content": ["so that everyone in the mountains of Esau \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will be cut down in the slaughter. \n"
-      ]
+      "content": ["will be cut down in the slaughter. \n"]
     },
     {
       "type": "para",
@@ -467,16 +389,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "you will be covered with shame \n"
-      ]
+      "content": ["you will be covered with shame \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and cut off forever. \n"
-      ]
+      "content": ["and cut off forever. \n"]
     },
     {
       "type": "para",
@@ -494,30 +412,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "while strangers carried off his wealth \n"
-      ]
+      "content": ["while strangers carried off his wealth \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and foreigners entered his gate \n"
-      ]
+      "content": ["and foreigners entered his gate \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and cast lots for Jerusalem, \n"
-      ]
+      "content": ["and cast lots for Jerusalem, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "you were just like one of them. \n"
-      ]
+      "content": ["you were just like one of them. \n"]
     },
     {
       "type": "para",
@@ -535,23 +445,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "your brother’s day of misfortune, \n"
-      ]
+      "content": ["your brother’s day of misfortune, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "nor rejoice over the people of Judah \n"
-      ]
+      "content": ["nor rejoice over the people of Judah \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the day of their destruction, \n"
-      ]
+      "content": ["in the day of their destruction, \n"]
     },
     {
       "type": "para",
@@ -566,16 +470,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:12 "
-              ]
+              "content": ["1:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew nor enlarge your mouth"
-              ]
+              "content": ["Hebrew nor enlarge your mouth"]
             }
           ],
           "caller": "+"
@@ -586,9 +486,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the day of their distress. \n"
-      ]
+      "content": ["in the day of their distress. \n"]
     },
     {
       "type": "para",
@@ -606,37 +504,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the day of their disaster, \n"
-      ]
+      "content": ["in the day of their disaster, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "nor gloat over their affliction \n"
-      ]
+      "content": ["nor gloat over their affliction \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the day of their disaster, \n"
-      ]
+      "content": ["in the day of their disaster, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "nor loot their wealth \n"
-      ]
+      "content": ["nor loot their wealth \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the day of their disaster. \n"
-      ]
+      "content": ["in the day of their disaster. \n"]
     },
     {
       "type": "para",
@@ -654,30 +542,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to cut off their fugitives, \n"
-      ]
+      "content": ["to cut off their fugitives, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "nor deliver up their survivors \n"
-      ]
+      "content": ["nor deliver up their survivors \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the day of their distress. \n"
-      ]
+      "content": ["in the day of their distress. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Deliverance of Israel\n"
-      ]
+      "content": ["The Deliverance of Israel\n"]
     },
     {
       "type": "para",
@@ -699,23 +579,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for all the nations. \n"
-      ]
+      "content": ["for all the nations. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "As you have done, it will be done to you; \n"
-      ]
+      "content": ["As you have done, it will be done to you; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "your recompense will return upon your own head. \n"
-      ]
+      "content": ["your recompense will return upon your own head. \n"]
     },
     {
       "type": "para",
@@ -733,23 +607,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "so all the nations will drink continually. \n"
-      ]
+      "content": ["so all the nations will drink continually. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "They will drink and gulp it down; \n"
-      ]
+      "content": ["They will drink and gulp it down; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "they will be as if they had never existed. \n"
-      ]
+      "content": ["they will be as if they had never existed. \n"]
     },
     {
       "type": "para",
@@ -767,23 +635,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and it will be holy, \n"
-      ]
+      "content": ["and it will be holy, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and the house of Jacob \n"
-      ]
+      "content": ["and the house of Jacob \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will reclaim their possession. \n"
-      ]
+      "content": ["will reclaim their possession. \n"]
     },
     {
       "type": "para",
@@ -801,44 +663,32 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the house of Joseph a burning flame; \n"
-      ]
+      "content": ["and the house of Joseph a burning flame; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "but the house of Esau will be stubble—\n"
-      ]
+      "content": ["but the house of Esau will be stubble—\n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Jacob will set it ablaze and consume it. \n"
-      ]
+      "content": ["Jacob will set it ablaze and consume it. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Therefore no survivor will remain \n"
-      ]
+      "content": ["Therefore no survivor will remain \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "from the house of Esau.” \n"
-      ]
+      "content": ["from the house of Esau.” \n"]
     },
     {
       "type": "para",
       "marker": "qr",
-      "content": [
-        "For the LORD has spoken. \n"
-      ]
+      "content": ["For the LORD has spoken. \n"]
     },
     {
       "type": "para",
@@ -866,9 +716,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:19 "
-              ]
+              "content": ["1:19 "]
             },
             {
               "type": "char",
@@ -886,16 +734,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "They will occupy the fields of Ephraim and Samaria, \n"
-      ]
+      "content": ["They will occupy the fields of Ephraim and Samaria, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and Benjamin will possess Gilead. \n"
-      ]
+      "content": ["and Benjamin will possess Gilead. \n"]
     },
     {
       "type": "para",
@@ -920,16 +764,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and the exiles from Jerusalem who are in Sepharad \n"
-      ]
+      "content": ["and the exiles from Jerusalem who are in Sepharad \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will possess the cities of the Negev. \n"
-      ]
+      "content": ["will possess the cities of the Negev. \n"]
     },
     {
       "type": "para",
@@ -950,9 +790,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:21 "
-              ]
+              "content": ["1:21 "]
             },
             {
               "type": "char",
@@ -970,9 +808,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to rule over the mountains of Esau. \n"
-      ]
+      "content": ["to rule over the mountains of Esau. \n"]
     },
     {
       "type": "para",
@@ -981,9 +817,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "And the kingdom will belong to the LORD. "
-      ]
+      "content": ["And the kingdom will belong to the LORD. "]
     }
   ]
 }

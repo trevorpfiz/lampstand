@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import { useCallback, useEffect, useState } from "react";
+import { type RefObject, useCallback, useEffect, useState } from 'react';
 
-import type { VerseReference } from "~/utils/bible/verse";
-import { useDebounce } from "~/hooks/use-debounce";
-import { useBibleStore } from "~/providers/bible-store-provider";
-import { useLayoutStore } from "~/providers/layout-store-provider";
+import { useDebounce } from '~/hooks/use-debounce';
+import { useBibleStore } from '~/providers/bible-store-provider';
+import { useLayoutStore } from '~/providers/layout-store-provider';
+import type { VerseReference } from '~/utils/bible/verse';
 
 interface UseVerseTrackingProps {
-  containerRef: React.RefObject<HTMLDivElement | null>;
+  containerRef: RefObject<HTMLDivElement | null>;
 }
 
 export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
@@ -28,10 +28,12 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
 
   const updateCurrentVerse = useCallback(() => {
     const container = containerRef.current;
-    if (!container || !isHydrated || !initialScrollDone) return;
+    if (!container || !isHydrated || !initialScrollDone) {
+      return;
+    }
 
     const containerRect = container.getBoundingClientRect();
-    const verseElements = container.querySelectorAll("[data-verse-id]");
+    const verseElements = container.querySelectorAll('[data-verse-id]');
     let topVerse: HTMLElement | null = null;
 
     for (const el of verseElements) {
@@ -42,23 +44,29 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
       }
     }
 
-    if (!topVerse) return;
+    if (!topVerse) {
+      return;
+    }
 
-    const verseId = topVerse.getAttribute("data-verse-id");
-    if (!verseId) return;
+    const verseId = topVerse.getAttribute('data-verse-id');
+    if (!verseId) {
+      return;
+    }
 
-    const [book, chapter, verse] = verseId.split("-");
-    if (!book || !chapter) return;
+    const [book, chapter, verse] = verseId.split('-');
+    if (!book || !chapter) {
+      return;
+    }
 
     const capitalizedBook = book
-      .split(" ")
+      .split(' ')
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-      .join(" ");
+      .join(' ');
 
     const newVerse: VerseReference = {
       book: capitalizedBook,
-      chapter: parseInt(chapter, 10),
-      verse: verse ? parseInt(verse, 10) : undefined,
+      chapter: Number.parseInt(chapter, 10),
+      verse: verse ? Number.parseInt(verse, 10) : undefined,
     };
 
     if (JSON.stringify(lastVisibleVerse) !== JSON.stringify(newVerse)) {
@@ -68,7 +76,9 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
 
   useEffect(() => {
     const container = containerRef.current;
-    if (!container) return;
+    if (!container) {
+      return;
+    }
 
     const handleScroll = () => {
       updateCurrentVerse();
@@ -77,9 +87,9 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
     // Run once on mount to initialize
     updateCurrentVerse();
 
-    container.addEventListener("scroll", handleScroll, { passive: true });
+    container.addEventListener('scroll', handleScroll, { passive: true });
     return () => {
-      container.removeEventListener("scroll", handleScroll);
+      container.removeEventListener('scroll', handleScroll);
     };
   }, [containerRef, updateCurrentVerse]);
 }

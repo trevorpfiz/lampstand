@@ -1,23 +1,13 @@
-"use client";
+'use client';
 
-import type { PlateEditor } from "@udecode/plate-common/react";
-import React from "react";
-import { withRef } from "@udecode/cn";
-import { AIChatPlugin } from "@udecode/plate-ai/react";
-import { BlockquotePlugin } from "@udecode/plate-block-quote/react";
-import { CodeBlockPlugin } from "@udecode/plate-code-block/react";
-import { ParagraphPlugin } from "@udecode/plate-common/react";
-import { DatePlugin } from "@udecode/plate-date/react";
-import { HEADING_KEYS } from "@udecode/plate-heading";
-import { TocPlugin } from "@udecode/plate-heading/react";
-import { INDENT_LIST_KEYS, ListStyleType } from "@udecode/plate-indent-list";
-import { TablePlugin } from "@udecode/plate-table/react";
-import { TogglePlugin } from "@udecode/plate-toggle/react";
+import { withRef } from '@udecode/cn';
+import { BlockquotePlugin } from '@udecode/plate-block-quote/react';
+import type { PlateEditor } from '@udecode/plate-common/react';
+import { ParagraphPlugin } from '@udecode/plate-common/react';
+import { HEADING_KEYS } from '@udecode/plate-heading';
+import { TocPlugin } from '@udecode/plate-heading/react';
+import { INDENT_LIST_KEYS, ListStyleType } from '@udecode/plate-indent-list';
 import {
-  CalendarIcon,
-  ChevronRightIcon,
-  Code2,
-  Columns3Icon,
   Heading1Icon,
   Heading2Icon,
   Heading3Icon,
@@ -25,16 +15,12 @@ import {
   ListOrdered,
   PilcrowIcon,
   Quote,
-  SparklesIcon,
   Square,
-  Table,
   TableOfContentsIcon,
-} from "lucide-react";
+} from 'lucide-react';
+import type React from 'react';
 
-import {
-  insertBlock,
-  insertInlineElement,
-} from "../../components/editor/transforms";
+import { insertBlock } from '../../components/editor/transforms';
 import {
   InlineCombobox,
   InlineComboboxContent,
@@ -43,8 +29,8 @@ import {
   InlineComboboxGroupLabel,
   InlineComboboxInput,
   InlineComboboxItem,
-} from "./inline-combobox";
-import { PlateElement } from "./plate-element";
+} from './inline-combobox';
+import { PlateElement } from './plate-element';
 
 interface Group {
   group: string;
@@ -78,48 +64,48 @@ const groups: Group[] = [
   //   ],
   // },
   {
-    group: "Basic blocks",
+    group: 'Basic blocks',
     items: [
       {
         icon: <PilcrowIcon />,
-        keywords: ["paragraph"],
-        label: "Text",
+        keywords: ['paragraph'],
+        label: 'Text',
         value: ParagraphPlugin.key,
       },
       {
         icon: <Heading1Icon />,
-        keywords: ["title", "h1"],
-        label: "Heading 1",
+        keywords: ['title', 'h1'],
+        label: 'Heading 1',
         value: HEADING_KEYS.h1,
       },
       {
         icon: <Heading2Icon />,
-        keywords: ["subtitle", "h2"],
-        label: "Heading 2",
+        keywords: ['subtitle', 'h2'],
+        label: 'Heading 2',
         value: HEADING_KEYS.h2,
       },
       {
         icon: <Heading3Icon />,
-        keywords: ["subtitle", "h3"],
-        label: "Heading 3",
+        keywords: ['subtitle', 'h3'],
+        label: 'Heading 3',
         value: HEADING_KEYS.h3,
       },
       {
         icon: <ListIcon />,
-        keywords: ["unordered", "ul", "-"],
-        label: "Bulleted list",
+        keywords: ['unordered', 'ul', '-'],
+        label: 'Bulleted list',
         value: ListStyleType.Disc,
       },
       {
         icon: <ListOrdered />,
-        keywords: ["ordered", "ol", "1"],
-        label: "Numbered list",
+        keywords: ['ordered', 'ol', '1'],
+        label: 'Numbered list',
         value: ListStyleType.Decimal,
       },
       {
         icon: <Square />,
-        keywords: ["checklist", "task", "checkbox", "[]"],
-        label: "To-do list",
+        keywords: ['checklist', 'task', 'checkbox', '[]'],
+        label: 'To-do list',
         value: INDENT_LIST_KEYS.todo,
       },
       // {
@@ -141,8 +127,8 @@ const groups: Group[] = [
       // },
       {
         icon: <Quote />,
-        keywords: ["citation", "blockquote", "quote", ">"],
-        label: "Blockquote",
+        keywords: ['citation', 'blockquote', 'quote', '>'],
+        label: 'Blockquote',
         value: BlockquotePlugin.key,
       },
     ].map((item) => ({
@@ -153,12 +139,12 @@ const groups: Group[] = [
     })),
   },
   {
-    group: "Advanced blocks",
+    group: 'Advanced blocks',
     items: [
       {
         icon: <TableOfContentsIcon />,
-        keywords: ["toc"],
-        label: "Table of contents",
+        keywords: ['toc'],
+        label: 'Table of contents',
         value: TocPlugin.key,
       },
       // {
@@ -228,7 +214,7 @@ export const SlashInputElement = withRef<typeof PlateElement>(
                       <div className="mr-2 text-muted-foreground">{icon}</div>
                       {label ?? value}
                     </InlineComboboxItem>
-                  ),
+                  )
                 )}
               </InlineComboboxGroup>
             ))}
@@ -238,5 +224,5 @@ export const SlashInputElement = withRef<typeof PlateElement>(
         {children}
       </PlateElement>
     );
-  },
+  }
 );

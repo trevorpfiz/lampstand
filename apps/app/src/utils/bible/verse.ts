@@ -9,14 +9,13 @@ export interface VerseReference {
   verse?: number;
 }
 
+const VERSE_REFERENCE_REGEX = /^(\d*\s*[A-Za-z]+)\s+(\d+)(?::(\d+))?$/;
+
 // Maps a string like "Genesis 1:25" or "Genesis 1" or "Genesis" to a VerseReference
 export function parseReference(reference: string): VerseReference | null {
-  // Handle book names with spaces (e.g. "1 Samuel", "2 Kings")
-  const regex = /^(\d*\s*[A-Za-z]+)\s+(\d+)(?::(\d+))?$/;
-  const match = regex.exec(reference);
+  const match = VERSE_REFERENCE_REGEX.exec(reference);
 
   if (!match?.[1] || !match[2]) {
-    console.log("Reference failed to match regex:", reference);
     return null;
   }
 
@@ -25,21 +24,14 @@ export function parseReference(reference: string): VerseReference | null {
   // Properly capitalize book name
   const capitalizedBook = bookPart
     .trim()
-    .split(" ")
+    .split(' ')
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-    .join(" ");
-
-  // Log the parsed components
-  console.log("Parsed components:", {
-    book: capitalizedBook,
-    chapter: chapterPart,
-    verse: versePart,
-  });
+    .join(' ');
 
   return {
     book: capitalizedBook,
-    chapter: parseInt(chapterPart, 10),
-    verse: versePart ? parseInt(versePart, 10) : undefined,
+    chapter: Number.parseInt(chapterPart, 10),
+    verse: versePart ? Number.parseInt(versePart, 10) : undefined,
   };
 }
 
@@ -49,20 +41,19 @@ export function verseId(ref: VerseReference): string {
   const bookUpper = ref.book.toUpperCase();
   if (ref.verse !== undefined) {
     return `${bookUpper}-${ref.chapter}-${ref.verse}`;
-  } else {
-    return `${bookUpper}-${ref.chapter}`;
   }
+  return `${bookUpper}-${ref.chapter}`;
 }
 
 // Simple helper to find the chapter index in the chapters array
 export function findChapterIndex(
   chapters: BibleChapter[],
-  ref: VerseReference,
+  ref: VerseReference
 ): number {
   const idx = chapters.findIndex(
     (ch) =>
       ch.bookName.toLowerCase() === ref.book.toLowerCase() &&
-      parseInt(ch.chapterNumber, 10) === ref.chapter,
+      Number.parseInt(ch.chapterNumber, 10) === ref.chapter
   );
   return idx;
 }

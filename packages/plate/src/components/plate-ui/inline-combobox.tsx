@@ -17,11 +17,11 @@ import React, {
 import type { PointRef } from 'slate';
 
 import {
-  type ComboboxItemProps,
   Combobox,
   ComboboxGroup,
   ComboboxGroupLabel,
   ComboboxItem,
+  type ComboboxItemProps,
   ComboboxPopover,
   ComboboxProvider,
   ComboboxRow,
@@ -131,11 +131,15 @@ const InlineCombobox = ({
   useEffect(() => {
     const path = findPath(editor, element);
 
-    if (!path) return;
+    if (!path) {
+      return;
+    }
 
     const point = getPointBefore(editor, path);
 
-    if (!point) return;
+    if (!point) {
+      return;
+    }
 
     const pointRef = createPointRef(editor, point);
     setInsertPoint(pointRef);
@@ -260,7 +264,7 @@ const InlineComboboxInput = forwardRef<
         <Combobox
           ref={ref}
           className={cn(
-            'absolute left-0 top-0 size-full bg-transparent outline-none',
+            'absolute top-0 left-0 size-full bg-transparent outline-none',
             className
           )}
           value={value}
@@ -294,7 +298,7 @@ const InlineComboboxContent: typeof ComboboxPopover = ({
 };
 
 const comboboxItemVariants = cva(
-  'relative mx-1 flex h-[28px] select-none items-center rounded-sm px-2 text-sm text-foreground outline-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0',
+  'relative mx-1 flex h-[28px] select-none items-center rounded-sm px-2 text-foreground text-sm outline-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0',
   {
     defaultVariants: {
       interactive: true,
@@ -340,7 +344,9 @@ const InlineComboboxItem = ({
     [filter, group, keywords, label, value, search]
   );
 
-  if (!visible) return null;
+  if (!visible) {
+    return null;
+  }
 
   return (
     <ComboboxItem
@@ -370,7 +376,9 @@ const InlineComboboxEmpty = ({
     };
   }, [setHasEmpty]);
 
-  if (items.length > 0) return null;
+  if (items.length > 0) {
+    return null;
+  }
 
   return (
     <div

@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "MAT"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Matthew\n"
-      ]
+      "content": ["Matthew\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Matthew\n"
-      ]
+      "content": ["Matthew\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Matthew\n"
-      ]
+      "content": ["Matthew\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Genealogy of Jesus\n"
-      ]
+      "content": ["The Genealogy of Jesus\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ruth 4:18–22; Luke 3:23–38)\n"
-      ]
+      "content": ["(Ruth 4:18–22; Luke 3:23–38)\n"]
     },
     {
       "type": "para",
@@ -88,16 +76,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Isaac the father of Jacob, \n"
-      ]
+      "content": ["Isaac the father of Jacob, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and Jacob the father of Judah and his brothers. \n"
-      ]
+      "content": ["and Jacob the father of Judah and his brothers. \n"]
     },
     {
       "type": "para",
@@ -119,9 +103,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Perez the father of Hezron, \n"
-      ]
+      "content": ["Perez the father of Hezron, \n"]
     },
     {
       "type": "para",
@@ -136,9 +118,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:3 "
-              ]
+              "content": ["1:3 "]
             },
             {
               "type": "char",
@@ -173,16 +153,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Amminadab the father of Nahshon, \n"
-      ]
+      "content": ["Amminadab the father of Nahshon, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and Nahshon the father of Salmon. \n"
-      ]
+      "content": ["and Nahshon the father of Salmon. \n"]
     },
     {
       "type": "para",
@@ -204,16 +180,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Boaz the father of Obed by Ruth, \n"
-      ]
+      "content": ["Boaz the father of Obed by Ruth, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Obed the father of Jesse, \n"
-      ]
+      "content": ["Obed the father of Jesse, \n"]
     },
     {
       "type": "para",
@@ -235,9 +207,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Next: \n"
-      ]
+      "content": ["Next: \n"]
     },
     {
       "type": "para",
@@ -246,9 +216,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "David was the father of Solomon by Uriah’s wife, \n"
-      ]
+      "content": ["David was the father of Solomon by Uriah’s wife, \n"]
     },
     {
       "type": "para",
@@ -266,9 +234,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Rehoboam the father of Abijah, \n"
-      ]
+      "content": ["Rehoboam the father of Abijah, \n"]
     },
     {
       "type": "para",
@@ -283,9 +249,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:7 "
-              ]
+              "content": ["1:7 "]
             },
             {
               "type": "char",
@@ -320,16 +284,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Jehoshaphat the father of Joram, \n"
-      ]
+      "content": ["Jehoshaphat the father of Joram, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and Joram the father of Uzziah. \n"
-      ]
+      "content": ["and Joram the father of Uzziah. \n"]
     },
     {
       "type": "para",
@@ -351,16 +311,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Jotham the father of Ahaz, \n"
-      ]
+      "content": ["Jotham the father of Ahaz, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and Ahaz the father of Hezekiah. \n"
-      ]
+      "content": ["and Ahaz the father of Hezekiah. \n"]
     },
     {
       "type": "para",
@@ -392,9 +348,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:10 "
-              ]
+              "content": ["1:10 "]
             },
             {
               "type": "char",
@@ -412,9 +366,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Amon the father of Josiah, \n"
-      ]
+      "content": ["Amon the father of Josiah, \n"]
     },
     {
       "type": "para",
@@ -432,9 +384,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "at the time of the exile to Babylon. \n"
-      ]
+      "content": ["at the time of the exile to Babylon. \n"]
     },
     {
       "type": "para",
@@ -460,16 +410,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Jeconiah was the father of Shealtiel, \n"
-      ]
+      "content": ["Jeconiah was the father of Shealtiel, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Shealtiel the father of Zerubbabel, \n"
-      ]
+      "content": ["Shealtiel the father of Zerubbabel, \n"]
     },
     {
       "type": "para",
@@ -487,16 +433,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Abiud the father of Eliakim, \n"
-      ]
+      "content": ["Abiud the father of Eliakim, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and Eliakim the father of Azor. \n"
-      ]
+      "content": ["and Eliakim the father of Azor. \n"]
     },
     {
       "type": "para",
@@ -518,16 +460,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Zadok the father of Achim, \n"
-      ]
+      "content": ["Zadok the father of Achim, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and Achim the father of Eliud. \n"
-      ]
+      "content": ["and Achim the father of Eliud. \n"]
     },
     {
       "type": "para",
@@ -549,16 +487,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Eleazar the father of Matthan, \n"
-      ]
+      "content": ["Eleazar the father of Matthan, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Matthan the father of Jacob, \n"
-      ]
+      "content": ["Matthan the father of Jacob, \n"]
     },
     {
       "type": "para",
@@ -576,9 +510,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "of whom was born Jesus, who is called Christ. \n"
-      ]
+      "content": ["of whom was born Jesus, who is called Christ. \n"]
     },
     {
       "type": "para",
@@ -600,16 +532,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Birth of Jesus\n"
-      ]
+      "content": ["The Birth of Jesus\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Isaiah 7:10–16; Luke 2:1–7)\n"
-      ]
+      "content": ["(Isaiah 7:10–16; Luke 2:1–7)\n"]
     },
     {
       "type": "para",
@@ -665,16 +593,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:21 "
-              ]
+              "content": ["1:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Jesus means The LORD saves."
-              ]
+              "content": ["Jesus means The LORD saves."]
             }
           ],
           "caller": "+"
@@ -719,9 +643,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and will give birth to a son, \n"
-      ]
+      "content": ["and will give birth to a son, \n"]
     },
     {
       "type": "para",
@@ -736,9 +658,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:23 "
-              ]
+              "content": ["1:23 "]
             },
             {
               "type": "char",
@@ -766,16 +686,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:23 "
-              ]
+              "content": ["1:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Isaiah 7:14, Isaiah 8:8, and Isaiah 8:10."
-              ]
+              "content": ["See Isaiah 7:14, Isaiah 8:8, and Isaiah 8:10."]
             }
           ],
           "caller": "+"
@@ -813,16 +729,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:25 "
-              ]
+              "content": ["1:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally he did not know her"
-              ]
+              "content": ["Literally he did not know her"]
             }
           ],
           "caller": "+"
@@ -839,16 +751,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Pilgrimage of the Magi\n"
-      ]
+      "content": ["The Pilgrimage of the Magi\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Micah 5:1–6)\n"
-      ]
+      "content": ["(Micah 5:1–6)\n"]
     },
     {
       "type": "para",
@@ -880,16 +788,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:2 "
-              ]
+              "content": ["2:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or as it rose"
-              ]
+              "content": ["Or as it rose"]
             }
           ],
           "caller": "+"
@@ -958,16 +862,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "are by no means least among the rulers of Judah, \n"
-      ]
+      "content": ["are by no means least among the rulers of Judah, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "for out of you will come a ruler \n"
-      ]
+      "content": ["for out of you will come a ruler \n"]
     },
     {
       "type": "para",
@@ -982,16 +882,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:6 "
-              ]
+              "content": ["2:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Micah 5:2; see also 2 Samuel 5:2."
-              ]
+              "content": ["Micah 5:2; see also 2 Samuel 5:2."]
             }
           ],
           "caller": "+"
@@ -1074,16 +970,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Flight to Egypt\n"
-      ]
+      "content": ["The Flight to Egypt\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Hosea 11:1–7)\n"
-      ]
+      "content": ["(Hosea 11:1–7)\n"]
     },
     {
       "type": "para",
@@ -1132,16 +1024,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:15 "
-              ]
+              "content": ["2:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hosea 11:1"
-              ]
+              "content": ["Hosea 11:1"]
             }
           ],
           "caller": "+"
@@ -1152,16 +1040,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Weeping and Great Mourning\n"
-      ]
+      "content": ["Weeping and Great Mourning\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Jeremiah 31:1–25)\n"
-      ]
+      "content": ["(Jeremiah 31:1–25)\n"]
     },
     {
       "type": "para",
@@ -1207,23 +1091,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "weeping and great mourning, \n"
-      ]
+      "content": ["weeping and great mourning, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Rachel weeping for her children, \n"
-      ]
+      "content": ["Rachel weeping for her children, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and refusing to be comforted, \n"
-      ]
+      "content": ["and refusing to be comforted, \n"]
     },
     {
       "type": "para",
@@ -1238,16 +1116,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:18 "
-              ]
+              "content": ["2:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Jeremiah 31:15"
-              ]
+              "content": ["Jeremiah 31:15"]
             }
           ],
           "caller": "+"
@@ -1258,16 +1132,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Return to Nazareth\n"
-      ]
+      "content": ["The Return to Nazareth\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 2:39–40)\n"
-      ]
+      "content": ["(Luke 2:39–40)\n"]
     },
     {
       "type": "para",
@@ -1333,16 +1203,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Mission of John the Baptist\n"
-      ]
+      "content": ["The Mission of John the Baptist\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Isaiah 40:1–5; Mark 1:1–8; Luke 3:1–20; John 1:19–28)\n"
-      ]
+      "content": ["(Isaiah 40:1–5; Mark 1:1–8; Luke 3:1–20; John 1:19–28)\n"]
     },
     {
       "type": "para",
@@ -1382,16 +1248,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“A voice of one calling in the wilderness, \n"
-      ]
+      "content": ["“A voice of one calling in the wilderness, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "‘Prepare the way for the Lord, \n"
-      ]
+      "content": ["‘Prepare the way for the Lord, \n"]
     },
     {
       "type": "para",
@@ -1406,16 +1268,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:3 "
-              ]
+              "content": ["3:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 40:3 (see also LXX)"
-              ]
+              "content": ["Isaiah 40:3 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -1515,16 +1373,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:11 "
-              ]
+              "content": ["3:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or in water"
-              ]
+              "content": ["Or in water"]
             }
           ],
           "caller": "+"
@@ -1538,16 +1392,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:11 "
-              ]
+              "content": ["3:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or in the Holy Spirit and in fire"
-              ]
+              "content": ["Or in the Holy Spirit and in fire"]
             }
           ],
           "caller": "+"
@@ -1565,16 +1415,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Baptism of Jesus\n"
-      ]
+      "content": ["The Baptism of Jesus\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 1:9–11; Luke 3:21–22; John 1:29–34)\n"
-      ]
+      "content": ["(Mark 1:9–11; Luke 3:21–22; John 1:29–34)\n"]
     },
     {
       "type": "para",
@@ -1640,16 +1486,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:16 "
-              ]
+              "content": ["3:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NA, BYZ, and TR the heavens were opened to Him"
-              ]
+              "content": ["NA, BYZ, and TR the heavens were opened to Him"]
             }
           ],
           "caller": "+"
@@ -1663,16 +1505,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:16 "
-              ]
+              "content": ["3:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or and he saw; see John 1:32–33."
-              ]
+              "content": ["Or and he saw; see John 1:32–33."]
             }
           ],
           "caller": "+"
@@ -1696,16 +1534,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Temptation of Jesus\n"
-      ]
+      "content": ["The Temptation of Jesus\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 1:12–13; Luke 4:1–13)\n"
-      ]
+      "content": ["(Mark 1:12–13; Luke 4:1–13)\n"]
     },
     {
       "type": "para",
@@ -1772,9 +1606,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘Man shall not live on bread alone, \n"
-      ]
+      "content": ["‘Man shall not live on bread alone, \n"]
     },
     {
       "type": "para",
@@ -1789,16 +1621,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:4 "
-              ]
+              "content": ["4:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 8:3"
-              ]
+              "content": ["Deuteronomy 8:3"]
             }
           ],
           "caller": "+"
@@ -1837,23 +1665,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘He will command His angels concerning You, \n"
-      ]
+      "content": ["‘He will command His angels concerning You, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and they will lift You up in their hands, \n"
-      ]
+      "content": ["and they will lift You up in their hands, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "so that You will not strike Your foot \n"
-      ]
+      "content": ["so that You will not strike Your foot \n"]
     },
     {
       "type": "para",
@@ -1868,16 +1690,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:6 "
-              ]
+              "content": ["4:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 91:11–12"
-              ]
+              "content": ["Psalm 91:11–12"]
             }
           ],
           "caller": "+"
@@ -1908,16 +1726,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:7 "
-              ]
+              "content": ["4:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 6:16"
-              ]
+              "content": ["Deuteronomy 6:16"]
             }
           ],
           "caller": "+"
@@ -1972,16 +1786,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:10 "
-              ]
+              "content": ["4:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 6:13"
-              ]
+              "content": ["Deuteronomy 6:13"]
             }
           ],
           "caller": "+"
@@ -2009,16 +1819,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Begins His Ministry\n"
-      ]
+      "content": ["Jesus Begins His Ministry\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Isaiah 9:1–7; Mark 1:14–15; Luke 4:14–15)\n"
-      ]
+      "content": ["(Isaiah 9:1–7; Mark 1:14–15; Luke 4:14–15)\n"]
     },
     {
       "type": "para",
@@ -2071,23 +1877,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and land of Naphtali, \n"
-      ]
+      "content": ["and land of Naphtali, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "the Way of the Sea, beyond the Jordan, \n"
-      ]
+      "content": ["the Way of the Sea, beyond the Jordan, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Galilee of the Gentiles—\n"
-      ]
+      "content": ["Galilee of the Gentiles—\n"]
     },
     {
       "type": "para",
@@ -2105,16 +1905,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "have seen a great light; \n"
-      ]
+      "content": ["have seen a great light; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "on those living in the land of the shadow of death, \n"
-      ]
+      "content": ["on those living in the land of the shadow of death, \n"]
     },
     {
       "type": "para",
@@ -2129,16 +1925,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:16 "
-              ]
+              "content": ["4:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 9:1–2"
-              ]
+              "content": ["Isaiah 9:1–2"]
             }
           ],
           "caller": "+"
@@ -2166,16 +1958,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The First Disciples\n"
-      ]
+      "content": ["The First Disciples\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 1:16–20; Luke 5:1–11; John 1:35–42)\n"
-      ]
+      "content": ["(Mark 1:16–20; Luke 5:1–11; John 1:35–42)\n"]
     },
     {
       "type": "para",
@@ -2235,16 +2023,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Heals the Multitudes\n"
-      ]
+      "content": ["Jesus Heals the Multitudes\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 3:7–12; Luke 6:17–19)\n"
-      ]
+      "content": ["(Mark 3:7–12; Luke 6:17–19)\n"]
     },
     {
       "type": "para",
@@ -2293,16 +2077,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:25 "
-              ]
+              "content": ["4:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the Ten Cities"
-              ]
+              "content": ["That is, the Ten Cities"]
             }
           ],
           "caller": "+"
@@ -2319,9 +2099,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Sermon on the Mount\n"
-      ]
+      "content": ["The Sermon on the Mount\n"]
     },
     {
       "type": "para",
@@ -2350,16 +2128,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Beatitudes\n"
-      ]
+      "content": ["The Beatitudes\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 1:1–6; Luke 6:20–23)\n"
-      ]
+      "content": ["(Psalm 1:1–6; Luke 6:20–23)\n"]
     },
     {
       "type": "para",
@@ -2381,9 +2155,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for theirs is the kingdom of heaven. \n"
-      ]
+      "content": ["for theirs is the kingdom of heaven. \n"]
     },
     {
       "type": "para",
@@ -2401,9 +2173,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for they will be comforted. \n"
-      ]
+      "content": ["for they will be comforted. \n"]
     },
     {
       "type": "para",
@@ -2431,9 +2201,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:5 "
-              ]
+              "content": ["5:5 "]
             },
             {
               "type": "char",
@@ -2464,9 +2232,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for they will be filled. \n"
-      ]
+      "content": ["for they will be filled. \n"]
     },
     {
       "type": "para",
@@ -2484,9 +2250,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for they will be shown mercy. \n"
-      ]
+      "content": ["for they will be shown mercy. \n"]
     },
     {
       "type": "para",
@@ -2504,9 +2268,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for they will see God. \n"
-      ]
+      "content": ["for they will see God. \n"]
     },
     {
       "type": "para",
@@ -2524,9 +2286,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for they will be called sons of God. \n"
-      ]
+      "content": ["for they will be called sons of God. \n"]
     },
     {
       "type": "para",
@@ -2544,9 +2304,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for theirs is the kingdom of heaven. \n"
-      ]
+      "content": ["for theirs is the kingdom of heaven. \n"]
     },
     {
       "type": "para",
@@ -2575,16 +2333,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Salt and Light\n"
-      ]
+      "content": ["Salt and Light\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 9:49–50; Luke 14:34–35; Philippians 2:12–18)\n"
-      ]
+      "content": ["(Mark 9:49–50; Luke 14:34–35; Philippians 2:12–18)\n"]
     },
     {
       "type": "para",
@@ -2626,16 +2380,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:14 "
-              ]
+              "content": ["5:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally A city lying on a hill"
-              ]
+              "content": ["Literally A city lying on a hill"]
             }
           ],
           "caller": "+"
@@ -2660,9 +2410,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Fulfillment of the Law\n"
-      ]
+      "content": ["The Fulfillment of the Law\n"]
     },
     {
       "type": "para",
@@ -2715,16 +2463,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Anger and Reconciliation\n"
-      ]
+      "content": ["Anger and Reconciliation\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 12:57–59)\n"
-      ]
+      "content": ["(Luke 12:57–59)\n"]
     },
     {
       "type": "para",
@@ -2749,16 +2493,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:21 "
-              ]
+              "content": ["5:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 20:13; Deuteronomy 5:17"
-              ]
+              "content": ["Exodus 20:13; Deuteronomy 5:17"]
             }
           ],
           "caller": "+"
@@ -2779,16 +2519,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:22 "
-              ]
+              "content": ["5:22 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include without cause."
-              ]
+              "content": ["BYZ and TR include without cause."]
             }
           ],
           "caller": "+"
@@ -2802,16 +2538,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:22 "
-              ]
+              "content": ["5:22 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Raca is an Aramaic expression of contempt."
-              ]
+              "content": ["Raca is an Aramaic expression of contempt."]
             }
           ],
           "caller": "+"
@@ -2825,16 +2557,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:22 "
-              ]
+              "content": ["5:22 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the Council"
-              ]
+              "content": ["Or the Council"]
             }
           ],
           "caller": "+"
@@ -2848,16 +2576,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:22 "
-              ]
+              "content": ["5:22 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the hell of fire; Greek the Gehenna of fire"
-              ]
+              "content": ["Or the hell of fire; Greek the Gehenna of fire"]
             }
           ],
           "caller": "+"
@@ -2919,9 +2643,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:26 "
-              ]
+              "content": ["5:26 "]
             },
             {
               "type": "char",
@@ -2939,16 +2661,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Adultery\n"
-      ]
+      "content": ["Adultery\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 18:1–30)\n"
-      ]
+      "content": ["(Leviticus 18:1–30)\n"]
     },
     {
       "type": "para",
@@ -2973,16 +2691,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:27 "
-              ]
+              "content": ["5:27 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 20:14; Deuteronomy 5:18"
-              ]
+              "content": ["Exodus 20:14; Deuteronomy 5:18"]
             }
           ],
           "caller": "+"
@@ -3010,16 +2724,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:29 "
-              ]
+              "content": ["5:29 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Greek Gehenna; also in verse 30"
-              ]
+              "content": ["Greek Gehenna; also in verse 30"]
             }
           ],
           "caller": "+"
@@ -3037,16 +2747,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Divorce\n"
-      ]
+      "content": ["Divorce\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 24:1–5; Luke 16:18)\n"
-      ]
+      "content": ["(Deuteronomy 24:1–5; Luke 16:18)\n"]
     },
     {
       "type": "para",
@@ -3071,16 +2777,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:31 "
-              ]
+              "content": ["5:31 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 24:1"
-              ]
+              "content": ["Deuteronomy 24:1"]
             }
           ],
           "caller": "+"
@@ -3101,16 +2803,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:32 "
-              ]
+              "content": ["5:32 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or causes her to commit adultery"
-              ]
+              "content": ["Or causes her to commit adultery"]
             }
           ],
           "caller": "+"
@@ -3121,16 +2819,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Oaths and Vows\n"
-      ]
+      "content": ["Oaths and Vows\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Numbers 30:1–16)\n"
-      ]
+      "content": ["(Numbers 30:1–16)\n"]
     },
     {
       "type": "para",
@@ -3155,16 +2849,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:33 "
-              ]
+              "content": ["5:33 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Numbers 30:2"
-              ]
+              "content": ["Numbers 30:2"]
             }
           ],
           "caller": "+"
@@ -3206,16 +2896,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:37 "
-              ]
+              "content": ["5:37 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or from evil"
-              ]
+              "content": ["Or from evil"]
             }
           ],
           "caller": "+"
@@ -3226,16 +2912,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Love Your Enemies\n"
-      ]
+      "content": ["Love Your Enemies\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 24:17–23; Luke 6:27–36)\n"
-      ]
+      "content": ["(Leviticus 24:17–23; Luke 6:27–36)\n"]
     },
     {
       "type": "para",
@@ -3260,16 +2942,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:38 "
-              ]
+              "content": ["5:38 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 21:24; Leviticus 24:20; Deuteronomy 19:21"
-              ]
+              "content": ["Exodus 21:24; Leviticus 24:20; Deuteronomy 19:21"]
             }
           ],
           "caller": "+"
@@ -3304,9 +2982,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:41 "
-              ]
+              "content": ["5:41 "]
             },
             {
               "type": "char",
@@ -3327,16 +3003,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:41 "
-              ]
+              "content": ["5:41 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally go with him two."
-              ]
+              "content": ["Literally go with him two."]
             }
           ],
           "caller": "+"
@@ -3374,16 +3046,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:43 "
-              ]
+              "content": ["5:43 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Leviticus 19:18"
-              ]
+              "content": ["Leviticus 19:18"]
             }
           ],
           "caller": "+"
@@ -3404,9 +3072,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:44 "
-              ]
+              "content": ["5:44 "]
             },
             {
               "type": "char",
@@ -3468,16 +3134,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Giving to the Needy\n"
-      ]
+      "content": ["Giving to the Needy\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 15:7–11)\n"
-      ]
+      "content": ["(Deuteronomy 15:7–11)\n"]
     },
     {
       "type": "para",
@@ -3502,16 +3164,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:1 "
-              ]
+              "content": ["6:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR charitable acts or alms"
-              ]
+              "content": ["BYZ and TR charitable acts or alms"]
             }
           ],
           "caller": "+"
@@ -3553,16 +3211,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Lord’s Prayer\n"
-      ]
+      "content": ["The Lord’s Prayer\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 11:1–4)\n"
-      ]
+      "content": ["(Luke 11:1–4)\n"]
     },
     {
       "type": "para",
@@ -3636,16 +3290,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘Our Father in heaven, \n"
-      ]
+      "content": ["‘Our Father in heaven, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "hallowed be Your name. \n"
-      ]
+      "content": ["hallowed be Your name. \n"]
     },
     {
       "type": "para",
@@ -3663,16 +3313,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Your will be done, \n"
-      ]
+      "content": ["Your will be done, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "on earth as it is in heaven. \n"
-      ]
+      "content": ["on earth as it is in heaven. \n"]
     },
     {
       "type": "para",
@@ -3703,9 +3349,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "as we also have forgiven our debtors. \n"
-      ]
+      "content": ["as we also have forgiven our debtors. \n"]
     },
     {
       "type": "para",
@@ -3733,9 +3377,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:13 "
-              ]
+              "content": ["6:13 "]
             },
             {
               "type": "char",
@@ -3777,9 +3419,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Proper Fasting\n"
-      ]
+      "content": ["Proper Fasting\n"]
     },
     {
       "type": "para",
@@ -3815,16 +3455,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Treasures in Heaven\n"
-      ]
+      "content": ["Treasures in Heaven\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 12:32–34)\n"
-      ]
+      "content": ["(Luke 12:32–34)\n"]
     },
     {
       "type": "para",
@@ -3849,16 +3485,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:19 "
-              ]
+              "content": ["6:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or worm; also in verse 20"
-              ]
+              "content": ["Or worm; also in verse 20"]
             }
           ],
           "caller": "+"
@@ -3883,16 +3515,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Lamp of the Body\n"
-      ]
+      "content": ["The Lamp of the Body\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 11:33–36)\n"
-      ]
+      "content": ["(Luke 11:33–36)\n"]
     },
     {
       "type": "para",
@@ -3917,16 +3545,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:22 "
-              ]
+              "content": ["6:22 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally If your eye is sound; see Proverbs 22:9"
-              ]
+              "content": ["Literally If your eye is sound; see Proverbs 22:9"]
             }
           ],
           "caller": "+"
@@ -3947,9 +3571,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:23 "
-              ]
+              "content": ["6:23 "]
             },
             {
               "type": "char",
@@ -3984,16 +3606,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Do Not Worry\n"
-      ]
+      "content": ["Do Not Worry\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 12:22–31)\n"
-      ]
+      "content": ["(Luke 12:22–31)\n"]
     },
     {
       "type": "para",
@@ -4032,9 +3650,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:27 "
-              ]
+              "content": ["6:27 "]
             },
             {
               "type": "char",
@@ -4117,9 +3733,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:33 "
-              ]
+              "content": ["6:33 "]
             },
             {
               "type": "char",
@@ -4160,16 +3774,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Judging Others\n"
-      ]
+      "content": ["Judging Others\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 6:37–42; Romans 14:1–12)\n"
-      ]
+      "content": ["(Luke 6:37–42; Romans 14:1–12)\n"]
     },
     {
       "type": "para",
@@ -4246,16 +3856,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Ask, Seek, Knock\n"
-      ]
+      "content": ["Ask, Seek, Knock\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 11:5–13)\n"
-      ]
+      "content": ["(Luke 11:5–13)\n"]
     },
     {
       "type": "para",
@@ -4332,16 +3938,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Narrow Gate\n"
-      ]
+      "content": ["The Narrow Gate\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 13:22–30)\n"
-      ]
+      "content": ["(Luke 13:22–30)\n"]
     },
     {
       "type": "para",
@@ -4370,16 +3972,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Tree and Its Fruit\n"
-      ]
+      "content": ["A Tree and Its Fruit\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 6:43–45)\n"
-      ]
+      "content": ["(Luke 6:43–45)\n"]
     },
     {
       "type": "para",
@@ -4477,16 +4075,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The House on the Rock\n"
-      ]
+      "content": ["The House on the Rock\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 6:46–49)\n"
-      ]
+      "content": ["(Luke 6:46–49)\n"]
     },
     {
       "type": "para",
@@ -4539,9 +4133,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Authority of Jesus\n"
-      ]
+      "content": ["The Authority of Jesus\n"]
     },
     {
       "type": "para",
@@ -4576,16 +4168,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Leper’s Prayer\n"
-      ]
+      "content": ["The Leper’s Prayer\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 14:1–32; Mark 1:40–45; Luke 5:12–16)\n"
-      ]
+      "content": ["(Leviticus 14:1–32; Mark 1:40–45; Luke 5:12–16)\n"]
     },
     {
       "type": "para",
@@ -4617,9 +4205,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:2 "
-              ]
+              "content": ["8:2 "]
             },
             {
               "type": "char",
@@ -4674,16 +4260,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:4 "
-              ]
+              "content": ["8:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Leviticus 14:1–32."
-              ]
+              "content": ["See Leviticus 14:1–32."]
             }
           ],
           "caller": "+"
@@ -4694,16 +4276,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Faith of the Centurion\n"
-      ]
+      "content": ["The Faith of the Centurion\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 7:1–10; John 4:43–54)\n"
-      ]
+      "content": ["(Luke 7:1–10; John 4:43–54)\n"]
     },
     {
       "type": "para",
@@ -4735,16 +4313,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:6 "
-              ]
+              "content": ["8:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or child; also in verse 13"
-              ]
+              "content": ["Or child; also in verse 13"]
             }
           ],
           "caller": "+"
@@ -4844,16 +4418,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Heals at Peter’s House\n"
-      ]
+      "content": ["Jesus Heals at Peter’s House\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 1:29–34; Luke 4:38–41)\n"
-      ]
+      "content": ["(Mark 1:29–34; Luke 4:38–41)\n"]
     },
     {
       "type": "para",
@@ -4910,9 +4480,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“He took on our infirmities \n"
-      ]
+      "content": ["“He took on our infirmities \n"]
     },
     {
       "type": "para",
@@ -4927,16 +4495,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:17 "
-              ]
+              "content": ["8:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 53:4"
-              ]
+              "content": ["Isaiah 53:4"]
             }
           ],
           "caller": "+"
@@ -4947,16 +4511,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Cost of Discipleship\n"
-      ]
+      "content": ["The Cost of Discipleship\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 9:57–62; Luke 14:25–33; John 6:59–66)\n"
-      ]
+      "content": ["(Luke 9:57–62; Luke 14:25–33; John 6:59–66)\n"]
     },
     {
       "type": "para",
@@ -4981,9 +4541,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:18 "
-              ]
+              "content": ["8:18 "]
             },
             {
               "type": "char",
@@ -5059,16 +4617,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Calms the Storm\n"
-      ]
+      "content": ["Jesus Calms the Storm\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 107:1–43; Mark 4:35–41; Luke 8:22–25)\n"
-      ]
+      "content": ["(Psalm 107:1–43; Mark 4:35–41; Luke 8:22–25)\n"]
     },
     {
       "type": "para",
@@ -5138,16 +4692,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Demons and the Pigs\n"
-      ]
+      "content": ["The Demons and the Pigs\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 5:1–20; Luke 8:26–39)\n"
-      ]
+      "content": ["(Mark 5:1–20; Luke 8:26–39)\n"]
     },
     {
       "type": "para",
@@ -5172,9 +4722,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:28 "
-              ]
+              "content": ["8:28 "]
             },
             {
               "type": "char",
@@ -5280,16 +4828,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Heals a Paralytic\n"
-      ]
+      "content": ["Jesus Heals a Paralytic\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 2:1–12; Luke 5:17–26)\n"
-      ]
+      "content": ["(Mark 2:1–12; Luke 5:17–26)\n"]
     },
     {
       "type": "para",
@@ -5321,16 +4865,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:2 "
-              ]
+              "content": ["9:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally And behold, they brought"
-              ]
+              "content": ["Literally And behold, they brought"]
             }
           ],
           "caller": "+"
@@ -5378,16 +4918,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:4 "
-              ]
+              "content": ["9:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NA, BYZ, and TR saw"
-              ]
+              "content": ["NA, BYZ, and TR saw"]
             }
           ],
           "caller": "+"
@@ -5436,16 +4972,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Calls Matthew\n"
-      ]
+      "content": ["Jesus Calls Matthew\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 2:13–17; Luke 5:27–32)\n"
-      ]
+      "content": ["(Mark 2:13–17; Luke 5:27–32)\n"]
     },
     {
       "type": "para",
@@ -5518,16 +5050,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:13 "
-              ]
+              "content": ["9:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hosea 6:6"
-              ]
+              "content": ["Hosea 6:6"]
             }
           ],
           "caller": "+"
@@ -5541,9 +5069,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:13 "
-              ]
+              "content": ["9:13 "]
             },
             {
               "type": "char",
@@ -5561,16 +5087,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Questions about Fasting\n"
-      ]
+      "content": ["Questions about Fasting\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 2:18–20; Luke 5:33–35)\n"
-      ]
+      "content": ["(Mark 2:18–20; Luke 5:33–35)\n"]
     },
     {
       "type": "para",
@@ -5595,16 +5117,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:14 "
-              ]
+              "content": ["9:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE and WH do not include so often."
-              ]
+              "content": ["NE and WH do not include so often."]
             }
           ],
           "caller": "+"
@@ -5632,16 +5150,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Patches and the Wineskins\n"
-      ]
+      "content": ["The Patches and the Wineskins\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 2:21–22; Luke 5:36–39)\n"
-      ]
+      "content": ["(Mark 2:21–22; Luke 5:36–39)\n"]
     },
     {
       "type": "para",
@@ -5680,16 +5194,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Healing Touch of Jesus\n"
-      ]
+      "content": ["The Healing Touch of Jesus\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 5:21–43; Luke 8:40–56)\n"
-      ]
+      "content": ["(Mark 5:21–43; Luke 8:40–56)\n"]
     },
     {
       "type": "para",
@@ -5807,16 +5317,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Heals the Blind and Mute\n"
-      ]
+      "content": ["Jesus Heals the Blind and Mute\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 7:31–37)\n"
-      ]
+      "content": ["(Mark 7:31–37)\n"]
     },
     {
       "type": "para",
@@ -5859,9 +5365,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Yes, Lord,” they answered. \n"
-      ]
+      "content": ["“Yes, Lord,” they answered. \n"]
     },
     {
       "type": "para",
@@ -5938,16 +5442,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Lord of the Harvest\n"
-      ]
+      "content": ["The Lord of the Harvest\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 10:1–12)\n"
-      ]
+      "content": ["(Luke 10:1–12)\n"]
     },
     {
       "type": "para",
@@ -6006,16 +5506,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Twelve Apostles\n"
-      ]
+      "content": ["The Twelve Apostles\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 3:13–19; Luke 6:12–16)\n"
-      ]
+      "content": ["(Mark 3:13–19; Luke 6:12–16)\n"]
     },
     {
       "type": "para",
@@ -6071,16 +5567,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:4 "
-              ]
+              "content": ["10:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Greek Simon the Cananean"
-              ]
+              "content": ["Greek Simon the Cananean"]
             }
           ],
           "caller": "+"
@@ -6094,16 +5586,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:4 "
-              ]
+              "content": ["10:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally the one also having betrayed Him"
-              ]
+              "content": ["Literally the one also having betrayed Him"]
             }
           ],
           "caller": "+"
@@ -6114,16 +5602,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Ministry of the Twelve\n"
-      ]
+      "content": ["The Ministry of the Twelve\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 6:7–13; Luke 9:1–6)\n"
-      ]
+      "content": ["(Mark 6:7–13; Luke 9:1–6)\n"]
     },
     {
       "type": "para",
@@ -6169,9 +5653,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:8 "
-              ]
+              "content": ["10:8 "]
             },
             {
               "type": "char",
@@ -6233,16 +5715,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:11 "
-              ]
+              "content": ["10:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally stay there"
-              ]
+              "content": ["Literally stay there"]
             }
           ],
           "caller": "+"
@@ -6263,16 +5741,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:12 "
-              ]
+              "content": ["10:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally greet it"
-              ]
+              "content": ["Literally greet it"]
             }
           ],
           "caller": "+"
@@ -6304,16 +5778,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Sheep among Wolves\n"
-      ]
+      "content": ["Sheep among Wolves\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Timothy 1:3–12)\n"
-      ]
+      "content": ["(2 Timothy 1:3–12)\n"]
     },
     {
       "type": "para",
@@ -6431,16 +5901,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:25 "
-              ]
+              "content": ["10:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "WH Beezeboul; Vulgate Beelzebub"
-              ]
+              "content": ["WH Beezeboul; Vulgate Beelzebub"]
             }
           ],
           "caller": "+"
@@ -6451,16 +5917,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Fear God Alone\n"
-      ]
+      "content": ["Fear God Alone\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 12:4–7)\n"
-      ]
+      "content": ["(Luke 12:4–7)\n"]
     },
     {
       "type": "para",
@@ -6509,16 +5971,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:28 "
-              ]
+              "content": ["10:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Greek Gehenna"
-              ]
+              "content": ["Greek Gehenna"]
             }
           ],
           "caller": "+"
@@ -6549,9 +6007,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:29 "
-              ]
+              "content": ["10:29 "]
             },
             {
               "type": "char",
@@ -6583,16 +6039,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Confessing Christ\n"
-      ]
+      "content": ["Confessing Christ\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 12:8–12)\n"
-      ]
+      "content": ["(Luke 12:8–12)\n"]
     },
     {
       "type": "para",
@@ -6621,16 +6073,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Not Peace but a Sword\n"
-      ]
+      "content": ["Not Peace but a Sword\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Micah 7:1–6; Luke 12:49–53)\n"
-      ]
+      "content": ["(Micah 7:1–6; Luke 12:49–53)\n"]
     },
     {
       "type": "para",
@@ -6663,23 +6111,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘a man against his father, \n"
-      ]
+      "content": ["‘a man against his father, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a daughter against her mother, \n"
-      ]
+      "content": ["a daughter against her mother, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a daughter-in-law against her mother-in-law. \n"
-      ]
+      "content": ["a daughter-in-law against her mother-in-law. \n"]
     },
     {
       "type": "para",
@@ -6707,16 +6149,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:36 "
-              ]
+              "content": ["10:36 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Micah 7:6"
-              ]
+              "content": ["Micah 7:6"]
             }
           ],
           "caller": "+"
@@ -6758,16 +6196,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Reward of Service\n"
-      ]
+      "content": ["The Reward of Service\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Kings 4:8–17)\n"
-      ]
+      "content": ["(2 Kings 4:8–17)\n"]
     },
     {
       "type": "para",
@@ -6809,16 +6243,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "John’s Inquiry\n"
-      ]
+      "content": ["John’s Inquiry\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 7:18–23)\n"
-      ]
+      "content": ["(Luke 7:18–23)\n"]
     },
     {
       "type": "para",
@@ -6843,16 +6273,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:1 "
-              ]
+              "content": ["11:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, in the towns of Galilee"
-              ]
+              "content": ["That is, in the towns of Galilee"]
             }
           ],
           "caller": "+"
@@ -6883,16 +6309,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:2 "
-              ]
+              "content": ["11:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR he sent two of his disciples"
-              ]
+              "content": ["BYZ and TR he sent two of his disciples"]
             }
           ],
           "caller": "+"
@@ -6937,9 +6359,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:5 "
-              ]
+              "content": ["11:5 "]
             },
             {
               "type": "char",
@@ -6967,16 +6387,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:6 "
-              ]
+              "content": ["11:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or who is not offended by Me"
-              ]
+              "content": ["Or who is not offended by Me"]
             }
           ],
           "caller": "+"
@@ -6987,16 +6403,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Testifies about John\n"
-      ]
+      "content": ["Jesus Testifies about John\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Malachi 3:1–5; Luke 7:24–35)\n"
-      ]
+      "content": ["(Malachi 3:1–5; Luke 7:24–35)\n"]
     },
     {
       "type": "para",
@@ -7043,9 +6455,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘Behold, I will send My messenger ahead of You, \n"
-      ]
+      "content": ["‘Behold, I will send My messenger ahead of You, \n"]
     },
     {
       "type": "para",
@@ -7060,16 +6470,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:10 "
-              ]
+              "content": ["11:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Malachi 3:1"
-              ]
+              "content": ["Malachi 3:1"]
             }
           ],
           "caller": "+"
@@ -7107,16 +6513,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:12 "
-              ]
+              "content": ["11:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or has been forcefully advancing"
-              ]
+              "content": ["Or has been forcefully advancing"]
             }
           ],
           "caller": "+"
@@ -7144,16 +6546,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:14 "
-              ]
+              "content": ["11:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Malachi 4:5."
-              ]
+              "content": ["See Malachi 4:5."]
             }
           ],
           "caller": "+"
@@ -7184,16 +6582,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:15 "
-              ]
+              "content": ["11:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR ears to hear"
-              ]
+              "content": ["BYZ and TR ears to hear"]
             }
           ],
           "caller": "+"
@@ -7238,23 +6632,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and you did not dance; \n"
-      ]
+      "content": ["and you did not dance; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "we sang a dirge, \n"
-      ]
+      "content": ["we sang a dirge, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and you did not mourn.’ \n"
-      ]
+      "content": ["and you did not mourn.’ \n"]
     },
     {
       "type": "para",
@@ -7283,16 +6671,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Woe to the Unrepentant\n"
-      ]
+      "content": ["Woe to the Unrepentant\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 10:13–16)\n"
-      ]
+      "content": ["(Luke 10:13–16)\n"]
     },
     {
       "type": "para",
@@ -7352,16 +6736,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Rest for the Weary\n"
-      ]
+      "content": ["Rest for the Weary\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 10:21–24)\n"
-      ]
+      "content": ["(Luke 10:21–24)\n"]
     },
     {
       "type": "para",
@@ -7444,16 +6824,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Lord of the Sabbath\n"
-      ]
+      "content": ["The Lord of the Sabbath\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Samuel 21:1–7; Mark 2:23–28; Luke 6:1–5)\n"
-      ]
+      "content": ["(1 Samuel 21:1–7; Mark 2:23–28; Luke 6:1–5)\n"]
     },
     {
       "type": "para",
@@ -7509,16 +6885,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:4 "
-              ]
+              "content": ["12:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the Bread of the Presence"
-              ]
+              "content": ["Or the Bread of the Presence"]
             }
           ],
           "caller": "+"
@@ -7573,16 +6945,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:7 "
-              ]
+              "content": ["12:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hosea 6:6"
-              ]
+              "content": ["Hosea 6:6"]
             }
           ],
           "caller": "+"
@@ -7600,16 +6968,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Heals on the Sabbath\n"
-      ]
+      "content": ["Jesus Heals on the Sabbath\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 3:1–6; Luke 6:6–11)\n"
-      ]
+      "content": ["(Mark 3:1–6; Luke 6:6–11)\n"]
     },
     {
       "type": "para",
@@ -7686,16 +7050,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Chosen Servant\n"
-      ]
+      "content": ["God’s Chosen Servant\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Isaiah 42:1–9)\n"
-      ]
+      "content": ["(Isaiah 42:1–9)\n"]
     },
     {
       "type": "para",
@@ -7748,37 +7108,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "whom I have chosen, \n"
-      ]
+      "content": ["whom I have chosen, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "My beloved, \n"
-      ]
+      "content": ["My beloved, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in whom My soul delights. \n"
-      ]
+      "content": ["in whom My soul delights. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "I will put My Spirit on Him, \n"
-      ]
+      "content": ["I will put My Spirit on Him, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and He will proclaim justice to the nations. \n"
-      ]
+      "content": ["and He will proclaim justice to the nations. \n"]
     },
     {
       "type": "para",
@@ -7796,9 +7146,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "no one will hear His voice in the streets. \n"
-      ]
+      "content": ["no one will hear His voice in the streets. \n"]
     },
     {
       "type": "para",
@@ -7816,16 +7164,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and a smoldering wick He will not extinguish, \n"
-      ]
+      "content": ["and a smoldering wick He will not extinguish, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "till He leads justice to victory. \n"
-      ]
+      "content": ["till He leads justice to victory. \n"]
     },
     {
       "type": "para",
@@ -7846,16 +7190,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:21 "
-              ]
+              "content": ["12:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 42:1–4 (see also LXX)"
-              ]
+              "content": ["Isaiah 42:1–4 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -7866,16 +7206,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A House Divided\n"
-      ]
+      "content": ["A House Divided\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 3:20–27; Luke 11:14–23)\n"
-      ]
+      "content": ["(Mark 3:20–27; Luke 11:14–23)\n"]
     },
     {
       "type": "para",
@@ -7924,16 +7260,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:24 "
-              ]
+              "content": ["12:24 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "WH Beezeboul; Vulgate Beelzebub; also in verse 27"
-              ]
+              "content": ["WH Beezeboul; Vulgate Beelzebub; also in verse 27"]
             }
           ],
           "caller": "+"
@@ -8016,16 +7348,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Unpardonable Sin\n"
-      ]
+      "content": ["The Unpardonable Sin\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 3:28–30)\n"
-      ]
+      "content": ["(Mark 3:28–30)\n"]
     },
     {
       "type": "para",
@@ -8054,16 +7382,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Good and Bad Fruit\n"
-      ]
+      "content": ["Good and Bad Fruit\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 6:43–45)\n"
-      ]
+      "content": ["(Luke 6:43–45)\n"]
     },
     {
       "type": "para",
@@ -8113,16 +7437,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Sign of Jonah\n"
-      ]
+      "content": ["The Sign of Jonah\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Jonah 3:1–10; Luke 11:29–32)\n"
-      ]
+      "content": ["(Jonah 3:1–10; Luke 11:29–32)\n"]
     },
     {
       "type": "para",
@@ -8192,16 +7512,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "An Unclean Spirit Returns\n"
-      ]
+      "content": ["An Unclean Spirit Returns\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 11:24–26)\n"
-      ]
+      "content": ["(Luke 11:24–26)\n"]
     },
     {
       "type": "para",
@@ -8237,16 +7553,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus’ Mother and Brothers\n"
-      ]
+      "content": ["Jesus’ Mother and Brothers\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 3:31–35; Luke 8:19–21)\n"
-      ]
+      "content": ["(Mark 3:31–35; Luke 8:19–21)\n"]
     },
     {
       "type": "para",
@@ -8278,16 +7590,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:47 "
-              ]
+              "content": ["12:47 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "WH does not include verse 47."
-              ]
+              "content": ["WH does not include verse 47."]
             }
           ],
           "caller": "+"
@@ -8335,16 +7643,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Sower\n"
-      ]
+      "content": ["The Parable of the Sower\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 4:1–9; Luke 8:4–8)\n"
-      ]
+      "content": ["(Mark 4:1–9; Luke 8:4–8)\n"]
     },
     {
       "type": "para",
@@ -8475,16 +7779,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:9 "
-              ]
+              "content": ["13:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR ears to hear; also in verse 43"
-              ]
+              "content": ["BYZ and TR ears to hear; also in verse 43"]
             }
           ],
           "caller": "+"
@@ -8495,16 +7795,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Purpose of Jesus’ Parables\n"
-      ]
+      "content": ["The Purpose of Jesus’ Parables\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Isaiah 6:1–13; Mark 4:10–12; Luke 8:9–10)\n"
-      ]
+      "content": ["(Isaiah 6:1–13; Mark 4:10–12; Luke 8:9–10)\n"]
     },
     {
       "type": "para",
@@ -8561,9 +7857,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘Though seeing, they do not see; \n"
-      ]
+      "content": ["‘Though seeing, they do not see; \n"]
     },
     {
       "type": "para",
@@ -8578,9 +7872,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:13 "
-              ]
+              "content": ["13:13 "]
             },
             {
               "type": "char",
@@ -8619,16 +7911,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘You will be ever hearing but never understanding; \n"
-      ]
+      "content": ["‘You will be ever hearing but never understanding; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "you will be ever seeing but never perceiving. \n"
-      ]
+      "content": ["you will be ever seeing but never perceiving. \n"]
     },
     {
       "type": "para",
@@ -8646,37 +7934,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "they hardly hear with their ears, \n"
-      ]
+      "content": ["they hardly hear with their ears, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and they have closed their eyes. \n"
-      ]
+      "content": ["and they have closed their eyes. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Otherwise they might see with their eyes, \n"
-      ]
+      "content": ["Otherwise they might see with their eyes, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "hear with their ears, \n"
-      ]
+      "content": ["hear with their ears, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "understand with their hearts, \n"
-      ]
+      "content": ["understand with their hearts, \n"]
     },
     {
       "type": "para",
@@ -8691,16 +7969,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:15 "
-              ]
+              "content": ["13:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 6:9–10 (see also LXX)"
-              ]
+              "content": ["Isaiah 6:9–10 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -8735,16 +8009,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Sower Explained\n"
-      ]
+      "content": ["The Parable of the Sower Explained\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 4:13–20; Luke 8:11–15)\n"
-      ]
+      "content": ["(Mark 4:13–20; Luke 8:11–15)\n"]
     },
     {
       "type": "para",
@@ -8776,9 +8046,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:19 "
-              ]
+              "content": ["13:19 "]
             },
             {
               "type": "char",
@@ -8854,16 +8122,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Weeds\n"
-      ]
+      "content": ["The Parable of the Weeds\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ezekiel 17:1–10)\n"
-      ]
+      "content": ["(Ezekiel 17:1–10)\n"]
     },
     {
       "type": "para",
@@ -8968,16 +8232,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Mustard Seed\n"
-      ]
+      "content": ["The Parable of the Mustard Seed\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 4:30–34; Luke 13:18–19)\n"
-      ]
+      "content": ["(Mark 4:30–34; Luke 13:18–19)\n"]
     },
     {
       "type": "para",
@@ -9006,16 +8266,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Leaven\n"
-      ]
+      "content": ["The Parable of the Leaven\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 13:20–21)\n"
-      ]
+      "content": ["(Luke 13:20–21)\n"]
     },
     {
       "type": "para",
@@ -9037,16 +8293,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "I Will Open My Mouth in Parables\n"
-      ]
+      "content": ["I Will Open My Mouth in Parables\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 78:1–72)\n"
-      ]
+      "content": ["(Psalm 78:1–72)\n"]
     },
     {
       "type": "para",
@@ -9079,9 +8331,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“I will open My mouth in parables; \n"
-      ]
+      "content": ["“I will open My mouth in parables; \n"]
     },
     {
       "type": "para",
@@ -9096,9 +8346,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:35 "
-              ]
+              "content": ["13:35 "]
             },
             {
               "type": "char",
@@ -9116,16 +8364,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Weeds Explained\n"
-      ]
+      "content": ["The Parable of the Weeds Explained\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Zephaniah 1:1–6)\n"
-      ]
+      "content": ["(Zephaniah 1:1–6)\n"]
     },
     {
       "type": "para",
@@ -9219,16 +8463,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:43 "
-              ]
+              "content": ["13:43 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Daniel 12:3."
-              ]
+              "content": ["See Daniel 12:3."]
             }
           ],
           "caller": "+"
@@ -9243,16 +8483,12 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "He who has ears, let him hear. \n"
-      ]
+      "content": ["He who has ears, let him hear. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parables of the Treasure and the Pearl\n"
-      ]
+      "content": ["The Parables of the Treasure and the Pearl\n"]
     },
     {
       "type": "para",
@@ -9298,9 +8534,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Net\n"
-      ]
+      "content": ["The Parable of the Net\n"]
     },
     {
       "type": "para",
@@ -9374,9 +8608,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Yes,” they answered. \n"
-      ]
+      "content": ["“Yes,” they answered. \n"]
     },
     {
       "type": "para",
@@ -9398,16 +8630,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Rejection at Nazareth\n"
-      ]
+      "content": ["The Rejection at Nazareth\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 6:1–6; Luke 4:16–30)\n"
-      ]
+      "content": ["(Mark 6:1–6; Luke 4:16–30)\n"]
     },
     {
       "type": "para",
@@ -9446,16 +8674,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:55 "
-              ]
+              "content": ["13:55 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR Joses; see Mark 6:3."
-              ]
+              "content": ["BYZ and TR Joses; see Mark 6:3."]
             }
           ],
           "caller": "+"
@@ -9504,16 +8728,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Beheading of John\n"
-      ]
+      "content": ["The Beheading of John\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 6:14–29; Luke 9:7–9)\n"
-      ]
+      "content": ["(Mark 6:14–29; Luke 9:7–9)\n"]
     },
     {
       "type": "para",
@@ -9672,16 +8892,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Feeding of the Five Thousand\n"
-      ]
+      "content": ["The Feeding of the Five Thousand\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 6:30–44; Luke 9:10–17; John 6:1–15)\n"
-      ]
+      "content": ["(Mark 6:30–44; Luke 9:10–17; John 6:1–15)\n"]
     },
     {
       "type": "para",
@@ -9809,16 +9025,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Walks on Water\n"
-      ]
+      "content": ["Jesus Walks on Water\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 6:45–52; John 6:16–21)\n"
-      ]
+      "content": ["(Mark 6:45–52; John 6:16–21)\n"]
     },
     {
       "type": "para",
@@ -9857,9 +9069,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:24 "
-              ]
+              "content": ["14:24 "]
             },
             {
               "type": "char",
@@ -9897,16 +9107,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:25 "
-              ]
+              "content": ["14:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, between three and six in the morning"
-              ]
+              "content": ["That is, between three and six in the morning"]
             }
           ],
           "caller": "+"
@@ -9996,9 +9202,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:30 "
-              ]
+              "content": ["14:30 "]
             },
             {
               "type": "char",
@@ -10057,16 +9261,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Heals at Gennesaret\n"
-      ]
+      "content": ["Jesus Heals at Gennesaret\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 6:53–56)\n"
-      ]
+      "content": ["(Mark 6:53–56)\n"]
     },
     {
       "type": "para",
@@ -10108,16 +9308,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Tradition of the Elders\n"
-      ]
+      "content": ["The Tradition of the Elders\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 7:1–13)\n"
-      ]
+      "content": ["(Mark 7:1–13)\n"]
     },
     {
       "type": "para",
@@ -10173,16 +9369,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:4 "
-              ]
+              "content": ["15:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 20:12; Deuteronomy 5:16"
-              ]
+              "content": ["Exodus 20:12; Deuteronomy 5:16"]
             }
           ],
           "caller": "+"
@@ -10196,16 +9388,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:4 "
-              ]
+              "content": ["15:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 21:17; Leviticus 20:9"
-              ]
+              "content": ["Exodus 21:17; Leviticus 20:9"]
             }
           ],
           "caller": "+"
@@ -10233,9 +9421,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:6 "
-              ]
+              "content": ["15:6 "]
             },
             {
               "type": "char",
@@ -10277,9 +9463,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but their hearts are far from Me. \n"
-      ]
+      "content": ["but their hearts are far from Me. \n"]
     },
     {
       "type": "para",
@@ -10307,16 +9491,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:9 "
-              ]
+              "content": ["15:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 29:13 (see also LXX)"
-              ]
+              "content": ["Isaiah 29:13 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -10327,16 +9507,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "What Defiles a Man\n"
-      ]
+      "content": ["What Defiles a Man\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 7:14–23)\n"
-      ]
+      "content": ["(Mark 7:14–23)\n"]
     },
     {
       "type": "para",
@@ -10409,16 +9585,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:14 "
-              ]
+              "content": ["15:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or blind guides of the blind"
-              ]
+              "content": ["Or blind guides of the blind"]
             }
           ],
           "caller": "+"
@@ -10491,16 +9663,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Faith of the Canaanite Woman\n"
-      ]
+      "content": ["The Faith of the Canaanite Woman\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 7:24–30)\n"
-      ]
+      "content": ["(Mark 7:24–30)\n"]
     },
     {
       "type": "para",
@@ -10617,16 +9785,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:27 "
-              ]
+              "content": ["15:27 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or puppies"
-              ]
+              "content": ["Or puppies"]
             }
           ],
           "caller": "+"
@@ -10654,16 +9818,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Feeding of the Four Thousand\n"
-      ]
+      "content": ["The Feeding of the Four Thousand\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Kings 4:42–44; Mark 8:1–10)\n"
-      ]
+      "content": ["(2 Kings 4:42–44; Mark 8:1–10)\n"]
     },
     {
       "type": "para",
@@ -10754,9 +9914,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Seven,” they replied, “and a few small fish.” \n"
-      ]
+      "content": ["“Seven,” they replied, “and a few small fish.” \n"]
     },
     {
       "type": "para",
@@ -10832,16 +9990,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Demand for a Sign\n"
-      ]
+      "content": ["The Demand for a Sign\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 8:11–13; Luke 12:54–56)\n"
-      ]
+      "content": ["(Mark 8:11–13; Luke 12:54–56)\n"]
     },
     {
       "type": "para",
@@ -10890,9 +10044,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:3 "
-              ]
+              "content": ["16:3 "]
             },
             {
               "type": "char",
@@ -10917,16 +10069,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Leaven of the Pharisees and Sadducees\n"
-      ]
+      "content": ["The Leaven of the Pharisees and Sadducees\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 8:14–21; Luke 12:1–3)\n"
-      ]
+      "content": ["(Mark 8:14–21; Luke 12:1–3)\n"]
     },
     {
       "type": "para",
@@ -11027,16 +10175,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Peter’s Confession of Christ\n"
-      ]
+      "content": ["Peter’s Confession of Christ\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 8:27–30; Luke 9:18–20; John 6:67–71)\n"
-      ]
+      "content": ["(Mark 8:27–30; Luke 9:18–20; John 6:67–71)\n"]
     },
     {
       "type": "para",
@@ -11129,16 +10273,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:17 "
-              ]
+              "content": ["16:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Greek Simon Bar-Jonah"
-              ]
+              "content": ["Greek Simon Bar-Jonah"]
             }
           ],
           "caller": "+"
@@ -11180,16 +10320,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Christ’s Passion Foretold\n"
-      ]
+      "content": ["Christ’s Passion Foretold\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 8:31–33; Luke 9:21–22)\n"
-      ]
+      "content": ["(Mark 8:31–33; Luke 9:21–22)\n"]
     },
     {
       "type": "para",
@@ -11214,16 +10350,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:21 "
-              ]
+              "content": ["16:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE and WH Jesus Christ"
-              ]
+              "content": ["NE and WH Jesus Christ"]
             }
           ],
           "caller": "+"
@@ -11268,16 +10400,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Take Up Your Cross\n"
-      ]
+      "content": ["Take Up Your Cross\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 8:34–38; Luke 9:23–27)\n"
-      ]
+      "content": ["(Mark 8:34–38; Luke 9:23–27)\n"]
     },
     {
       "type": "para",
@@ -11343,16 +10471,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Transfiguration\n"
-      ]
+      "content": ["The Transfiguration\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 9:1–13; Luke 9:28–36; 2 Peter 1:16–21)\n"
-      ]
+      "content": ["(Mark 9:1–13; Luke 9:28–36; 2 Peter 1:16–21)\n"]
     },
     {
       "type": "para",
@@ -11408,16 +10532,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:4 "
-              ]
+              "content": ["17:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or three tabernacles"
-              ]
+              "content": ["Or three tabernacles"]
             }
           ],
           "caller": "+"
@@ -11448,16 +10568,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:5 "
-              ]
+              "content": ["17:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in 2 Peter 1:17"
-              ]
+              "content": ["Cited in 2 Peter 1:17"]
             }
           ],
           "caller": "+"
@@ -11574,16 +10690,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Boy with a Demon\n"
-      ]
+      "content": ["The Boy with a Demon\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 9:14–29; Luke 9:37–42)\n"
-      ]
+      "content": ["(Mark 9:14–29; Luke 9:37–42)\n"]
     },
     {
       "type": "para",
@@ -11643,16 +10755,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Power of Faith\n"
-      ]
+      "content": ["The Power of Faith\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 17:5–10)\n"
-      ]
+      "content": ["(Luke 17:5–10)\n"]
     },
     {
       "type": "para",
@@ -11694,9 +10802,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:20 "
-              ]
+              "content": ["17:20 "]
             },
             {
               "type": "char",
@@ -11714,16 +10820,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Second Prediction of the Passion\n"
-      ]
+      "content": ["The Second Prediction of the Passion\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 9:30–32; Luke 9:43–45)\n"
-      ]
+      "content": ["(Mark 9:30–32; Luke 9:43–45)\n"]
     },
     {
       "type": "para",
@@ -11752,9 +10854,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Temple Tax\n"
-      ]
+      "content": ["The Temple Tax\n"]
     },
     {
       "type": "para",
@@ -11779,16 +10879,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:24 "
-              ]
+              "content": ["17:24 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Greek the didrachma; twice in this verse"
-              ]
+              "content": ["Greek the didrachma; twice in this verse"]
             }
           ],
           "caller": "+"
@@ -11865,9 +10961,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:27 "
-              ]
+              "content": ["17:27 "]
             },
             {
               "type": "char",
@@ -11891,16 +10985,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Greatest in the Kingdom\n"
-      ]
+      "content": ["The Greatest in the Kingdom\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 9:33–41; Luke 9:46–50)\n"
-      ]
+      "content": ["(Mark 9:33–41; Luke 9:46–50)\n"]
     },
     {
       "type": "para",
@@ -11960,16 +11050,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Temptations and Trespasses\n"
-      ]
+      "content": ["Temptations and Trespasses\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 9:42–48; Luke 17:1–4)\n"
-      ]
+      "content": ["(Mark 9:42–48; Luke 17:1–4)\n"]
     },
     {
       "type": "para",
@@ -12035,16 +11121,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:9 "
-              ]
+              "content": ["18:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the hell of fire; Greek the Gehenna of fire"
-              ]
+              "content": ["Or the hell of fire; Greek the Gehenna of fire"]
             }
           ],
           "caller": "+"
@@ -12055,16 +11137,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Lost Sheep\n"
-      ]
+      "content": ["The Parable of the Lost Sheep\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 15:1–7)\n"
-      ]
+      "content": ["(Luke 15:1–7)\n"]
     },
     {
       "type": "para",
@@ -12089,9 +11167,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:10 "
-              ]
+              "content": ["18:10 "]
             },
             {
               "type": "char",
@@ -12140,16 +11216,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Brother Who Sins\n"
-      ]
+      "content": ["A Brother Who Sins\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 19:15–21)\n"
-      ]
+      "content": ["(Deuteronomy 19:15–21)\n"]
     },
     {
       "type": "para",
@@ -12174,16 +11246,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:15 "
-              ]
+              "content": ["18:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE and WH do not include against you."
-              ]
+              "content": ["NE and WH do not include against you."]
             }
           ],
           "caller": "+"
@@ -12204,16 +11272,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:16 "
-              ]
+              "content": ["18:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 19:15"
-              ]
+              "content": ["Deuteronomy 19:15"]
             }
           ],
           "caller": "+"
@@ -12248,16 +11312,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Ask in My Name\n"
-      ]
+      "content": ["Ask in My Name\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(John 16:23–33)\n"
-      ]
+      "content": ["(John 16:23–33)\n"]
     },
     {
       "type": "para",
@@ -12286,16 +11346,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Unforgiving Servant\n"
-      ]
+      "content": ["The Unforgiving Servant\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Romans 12:14–21)\n"
-      ]
+      "content": ["(Romans 12:14–21)\n"]
     },
     {
       "type": "para",
@@ -12337,16 +11393,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:22 "
-              ]
+              "content": ["18:22 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or seventy times seven; see Genesis 4:24 LXX"
-              ]
+              "content": ["Or seventy times seven; see Genesis 4:24 LXX"]
             }
           ],
           "caller": "+"
@@ -12384,9 +11436,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:24 "
-              ]
+              "content": ["18:24 "]
             },
             {
               "type": "char",
@@ -12465,9 +11515,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:28 "
-              ]
+              "content": ["18:28 "]
             },
             {
               "type": "char",
@@ -12590,16 +11638,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Teachings about Divorce\n"
-      ]
+      "content": ["Teachings about Divorce\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 10:1–12)\n"
-      ]
+      "content": ["(Mark 10:1–12)\n"]
     },
     {
       "type": "para",
@@ -12665,16 +11709,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:4 "
-              ]
+              "content": ["19:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Genesis 1:27; Genesis 5:2"
-              ]
+              "content": ["Genesis 1:27; Genesis 5:2"]
             }
           ],
           "caller": "+"
@@ -12695,16 +11735,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:5 "
-              ]
+              "content": ["19:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Genesis 2:24 (see also LXX)"
-              ]
+              "content": ["Genesis 2:24 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -12742,16 +11778,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:7 "
-              ]
+              "content": ["19:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Deuteronomy 24:1."
-              ]
+              "content": ["See Deuteronomy 24:1."]
             }
           ],
           "caller": "+"
@@ -12789,9 +11821,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:9 "
-              ]
+              "content": ["19:9 "]
             },
             {
               "type": "char",
@@ -12850,16 +11880,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Blesses the Children\n"
-      ]
+      "content": ["Jesus Blesses the Children\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 10:13–16; Luke 18:15–17)\n"
-      ]
+      "content": ["(Mark 10:13–16; Luke 18:15–17)\n"]
     },
     {
       "type": "para",
@@ -12895,16 +11921,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Rich Young Man\n"
-      ]
+      "content": ["The Rich Young Man\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 10:17–31; Luke 18:18–30)\n"
-      ]
+      "content": ["(Mark 10:17–31; Luke 18:18–30)\n"]
     },
     {
       "type": "para",
@@ -12946,9 +11968,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:17 "
-              ]
+              "content": ["19:17 "]
             },
             {
               "type": "char",
@@ -13004,9 +12024,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:19 "
-              ]
+              "content": ["19:19 "]
             },
             {
               "type": "char",
@@ -13170,16 +12188,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:28 "
-              ]
+              "content": ["19:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or in the regeneration"
-              ]
+              "content": ["Or in the regeneration"]
             }
           ],
           "caller": "+"
@@ -13200,16 +12214,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:29 "
-              ]
+              "content": ["19:29 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE, WH, and NA do not include or wife."
-              ]
+              "content": ["NE, WH, and NA do not include or wife."]
             }
           ],
           "caller": "+"
@@ -13233,9 +12243,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Workers\n"
-      ]
+      "content": ["The Parable of the Workers\n"]
     },
     {
       "type": "para",
@@ -13267,9 +12275,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:2 "
-              ]
+              "content": ["20:2 "]
             },
             {
               "type": "char",
@@ -13307,16 +12313,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:3 "
-              ]
+              "content": ["20:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, about nine in the morning"
-              ]
+              "content": ["That is, about nine in the morning"]
             }
           ],
           "caller": "+"
@@ -13355,9 +12357,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:5 "
-              ]
+              "content": ["20:5 "]
             },
             {
               "type": "char",
@@ -13395,9 +12395,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:6 "
-              ]
+              "content": ["20:6 "]
             },
             {
               "type": "char",
@@ -13446,9 +12444,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:7 "
-              ]
+              "content": ["20:7 "]
             },
             {
               "type": "char",
@@ -13582,9 +12578,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:16 "
-              ]
+              "content": ["20:16 "]
             },
             {
               "type": "char",
@@ -13602,16 +12596,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Third Prediction of the Passion\n"
-      ]
+      "content": ["The Third Prediction of the Passion\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 10:32–34; Luke 18:31–34)\n"
-      ]
+      "content": ["(Mark 10:32–34; Luke 18:31–34)\n"]
     },
     {
       "type": "para",
@@ -13647,16 +12637,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Mother’s Request\n"
-      ]
+      "content": ["A Mother’s Request\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 10:35–45)\n"
-      ]
+      "content": ["(Mark 10:35–45)\n"]
     },
     {
       "type": "para",
@@ -13726,9 +12712,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:22 "
-              ]
+              "content": ["20:22 "]
             },
             {
               "type": "char",
@@ -13750,9 +12734,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“We can,” the brothers answered. \n"
-      ]
+      "content": ["“We can,” the brothers answered. \n"]
     },
     {
       "type": "para",
@@ -13777,9 +12759,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:23 "
-              ]
+              "content": ["20:23 "]
             },
             {
               "type": "char",
@@ -13842,16 +12822,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Blind Men by the Road\n"
-      ]
+      "content": ["The Blind Men by the Road\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 10:46–52; Luke 18:35–43)\n"
-      ]
+      "content": ["(Mark 10:46–52; Luke 18:35–43)\n"]
     },
     {
       "type": "para",
@@ -13954,9 +12930,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Triumphal Entry\n"
-      ]
+      "content": ["The Triumphal Entry\n"]
     },
     {
       "type": "para",
@@ -14033,16 +13007,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "‘See, your King comes to you, \n"
-      ]
+      "content": ["‘See, your King comes to you, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "gentle and riding on a donkey, \n"
-      ]
+      "content": ["gentle and riding on a donkey, \n"]
     },
     {
       "type": "para",
@@ -14057,16 +13027,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:5 "
-              ]
+              "content": ["21:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Zechariah 9:9"
-              ]
+              "content": ["Zechariah 9:9"]
             }
           ],
           "caller": "+"
@@ -14149,9 +13115,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:9 "
-              ]
+              "content": ["21:9 "]
             },
             {
               "type": "char",
@@ -14183,16 +13147,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:9 "
-              ]
+              "content": ["21:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 118:26"
-              ]
+              "content": ["Psalm 118:26"]
             }
           ],
           "caller": "+"
@@ -14217,9 +13177,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:9 "
-              ]
+              "content": ["21:9 "]
             },
             {
               "type": "char",
@@ -14271,16 +13229,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Cleanses the Temple\n"
-      ]
+      "content": ["Jesus Cleanses the Temple\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 11:15–19; Luke 19:45–48; John 2:12–25)\n"
-      ]
+      "content": ["(Mark 11:15–19; Luke 19:45–48; John 2:12–25)\n"]
     },
     {
       "type": "para",
@@ -14305,9 +13259,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:12 "
-              ]
+              "content": ["21:12 "]
             },
             {
               "type": "char",
@@ -14335,16 +13287,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:13 "
-              ]
+              "content": ["21:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 56:7"
-              ]
+              "content": ["Isaiah 56:7"]
             }
           ],
           "caller": "+"
@@ -14358,16 +13306,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:13 "
-              ]
+              "content": ["21:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Jeremiah 7:11"
-              ]
+              "content": ["Jeremiah 7:11"]
             }
           ],
           "caller": "+"
@@ -14423,9 +13367,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Yes,” Jesus answered. “Have you never read: \n"
-      ]
+      "content": ["“Yes,” Jesus answered. “Have you never read: \n"]
     },
     {
       "type": "para",
@@ -14434,9 +13376,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘From the mouths of children and infants \n"
-      ]
+      "content": ["‘From the mouths of children and infants \n"]
     },
     {
       "type": "para",
@@ -14451,16 +13391,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:16 "
-              ]
+              "content": ["21:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 8:2 (see also LXX)"
-              ]
+              "content": ["Psalm 8:2 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -14488,16 +13424,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Barren Fig Tree\n"
-      ]
+      "content": ["The Barren Fig Tree\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 11:12–14; Mark 11:20–25)\n"
-      ]
+      "content": ["(Mark 11:12–14; Mark 11:20–25)\n"]
     },
     {
       "type": "para",
@@ -14567,16 +13499,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus’ Authority Challenged\n"
-      ]
+      "content": ["Jesus’ Authority Challenged\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 11:27–33; Luke 20:1–8)\n"
-      ]
+      "content": ["(Mark 11:27–33; Luke 20:1–8)\n"]
     },
     {
       "type": "para",
@@ -14658,9 +13586,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Two Sons\n"
-      ]
+      "content": ["The Parable of the Two Sons\n"]
     },
     {
       "type": "para",
@@ -14702,16 +13628,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:29 "
-              ]
+              "content": ["21:29 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE and WH But he went."
-              ]
+              "content": ["NE and WH But he went."]
             }
           ],
           "caller": "+"
@@ -14743,9 +13665,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "‘I will, sir,’ he said. But he did not go. \n"
-      ]
+      "content": ["‘I will, sir,’ he said. But he did not go. \n"]
     },
     {
       "type": "para",
@@ -14781,16 +13701,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:31 "
-              ]
+              "content": ["21:31 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE and WH The latter"
-              ]
+              "content": ["NE and WH The latter"]
             }
           ],
           "caller": "+"
@@ -14819,16 +13735,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Wicked Tenants\n"
-      ]
+      "content": ["The Parable of the Wicked Tenants\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 12:1–12; Luke 20:9–18)\n"
-      ]
+      "content": ["(Mark 12:1–12; Luke 20:9–18)\n"]
     },
     {
       "type": "para",
@@ -14987,23 +13899,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘The stone the builders rejected \n"
-      ]
+      "content": ["‘The stone the builders rejected \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "has become the cornerstone. \n"
-      ]
+      "content": ["has become the cornerstone. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "This is from the Lord, \n"
-      ]
+      "content": ["This is from the Lord, \n"]
     },
     {
       "type": "para",
@@ -15018,16 +13924,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:42 "
-              ]
+              "content": ["21:42 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 118:22–23"
-              ]
+              "content": ["Psalm 118:22–23"]
             }
           ],
           "caller": "+"
@@ -15065,9 +13967,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:44 "
-              ]
+              "content": ["21:44 "]
             },
             {
               "type": "char",
@@ -15115,16 +14015,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Banquet\n"
-      ]
+      "content": ["The Parable of the Banquet\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 14:15–24)\n"
-      ]
+      "content": ["(Luke 14:15–24)\n"]
     },
     {
       "type": "para",
@@ -15277,9 +14173,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "But the man was speechless. \n"
-      ]
+      "content": ["But the man was speechless. \n"]
     },
     {
       "type": "para",
@@ -15318,16 +14212,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paying Taxes to Caesar\n"
-      ]
+      "content": ["Paying Taxes to Caesar\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 12:13–17; Luke 20:19–26)\n"
-      ]
+      "content": ["(Mark 12:13–17; Luke 20:19–26)\n"]
     },
     {
       "type": "para",
@@ -15401,9 +14291,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:19 "
-              ]
+              "content": ["22:19 "]
             },
             {
               "type": "char",
@@ -15483,16 +14371,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Sadducees and the Resurrection\n"
-      ]
+      "content": ["The Sadducees and the Resurrection\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 12:18–27; Luke 20:27–40)\n"
-      ]
+      "content": ["(Mark 12:18–27; Luke 20:27–40)\n"]
     },
     {
       "type": "para",
@@ -15524,16 +14408,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:24 "
-              ]
+              "content": ["22:24 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 25:5"
-              ]
+              "content": ["Deuteronomy 25:5"]
             }
           ],
           "caller": "+"
@@ -15599,16 +14479,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:30 "
-              ]
+              "content": ["22:30 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL, BYZ, and TR the angels of God"
-              ]
+              "content": ["SBL, BYZ, and TR the angels of God"]
             }
           ],
           "caller": "+"
@@ -15636,16 +14512,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:32 "
-              ]
+              "content": ["22:32 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 3:6"
-              ]
+              "content": ["Exodus 3:6"]
             }
           ],
           "caller": "+"
@@ -15673,16 +14545,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Greatest Commandment\n"
-      ]
+      "content": ["The Greatest Commandment\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 6:1–19; Mark 12:28–34)\n"
-      ]
+      "content": ["(Deuteronomy 6:1–19; Mark 12:28–34)\n"]
     },
     {
       "type": "para",
@@ -15738,16 +14606,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:37 "
-              ]
+              "content": ["22:37 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 6:5"
-              ]
+              "content": ["Deuteronomy 6:5"]
             }
           ],
           "caller": "+"
@@ -15775,16 +14639,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:39 "
-              ]
+              "content": ["22:39 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Leviticus 19:18"
-              ]
+              "content": ["Leviticus 19:18"]
             }
           ],
           "caller": "+"
@@ -15802,16 +14662,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Whose Son Is the Christ?\n"
-      ]
+      "content": ["Whose Son Is the Christ?\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 12:35–37; Luke 20:41–44)\n"
-      ]
+      "content": ["(Mark 12:35–37; Luke 20:41–44)\n"]
     },
     {
       "type": "para",
@@ -15844,9 +14700,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“David’s,” they answered. \n"
-      ]
+      "content": ["“David’s,” they answered. \n"]
     },
     {
       "type": "para",
@@ -15885,16 +14739,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "“Sit at My right hand \n"
-      ]
+      "content": ["“Sit at My right hand \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "until I put Your enemies \n"
-      ]
+      "content": ["until I put Your enemies \n"]
     },
     {
       "type": "para",
@@ -15909,16 +14759,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:44 "
-              ]
+              "content": ["22:44 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 110:1"
-              ]
+              "content": ["Psalm 110:1"]
             }
           ],
           "caller": "+"
@@ -15969,16 +14815,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Woes to Scribes and Pharisees\n"
-      ]
+      "content": ["Woes to Scribes and Pharisees\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 11:37–54)\n"
-      ]
+      "content": ["(Luke 11:37–54)\n"]
     },
     {
       "type": "para",
@@ -16024,16 +14866,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:4 "
-              ]
+              "content": ["23:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL, NE, and WH They tie up heavy loads"
-              ]
+              "content": ["SBL, NE, and WH They tie up heavy loads"]
             }
           ],
           "caller": "+"
@@ -16078,16 +14916,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:7 "
-              ]
+              "content": ["23:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally and to be called ‘Rabbi’ by men"
-              ]
+              "content": ["Literally and to be called ‘Rabbi’ by men"]
             }
           ],
           "caller": "+"
@@ -16163,9 +14997,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:13 "
-              ]
+              "content": ["23:13 "]
             },
             {
               "type": "char",
@@ -16203,16 +15035,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:15 "
-              ]
+              "content": ["23:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Greek Gehenna; also in verse 33"
-              ]
+              "content": ["Greek Gehenna; also in verse 33"]
             }
           ],
           "caller": "+"
@@ -16309,9 +15137,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:24 "
-              ]
+              "content": ["23:24 "]
             },
             {
               "type": "char",
@@ -16356,16 +15182,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:26 "
-              ]
+              "content": ["23:26 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NA does not include and dish."
-              ]
+              "content": ["NA does not include and dish."]
             }
           ],
           "caller": "+"
@@ -16441,16 +15263,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:32 "
-              ]
+              "content": ["23:32 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Go ahead, then, and complete"
-              ]
+              "content": ["Or Go ahead, then, and complete"]
             }
           ],
           "caller": "+"
@@ -16499,16 +15317,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Lament over Jerusalem\n"
-      ]
+      "content": ["Lament over Jerusalem\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 13:31–35)\n"
-      ]
+      "content": ["(Luke 13:31–35)\n"]
     },
     {
       "type": "para",
@@ -16540,16 +15354,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:38 "
-              ]
+              "content": ["23:38 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE and WH do not include desolate."
-              ]
+              "content": ["NE and WH do not include desolate."]
             }
           ],
           "caller": "+"
@@ -16570,16 +15380,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:39 "
-              ]
+              "content": ["23:39 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 118:26"
-              ]
+              "content": ["Psalm 118:26"]
             }
           ],
           "caller": "+"
@@ -16596,16 +15402,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Temple Destruction and Other Signs\n"
-      ]
+      "content": ["Temple Destruction and Other Signs\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 13:1–8; Luke 21:5–9)\n"
-      ]
+      "content": ["(Mark 13:1–8; Luke 21:5–9)\n"]
     },
     {
       "type": "para",
@@ -16706,16 +15508,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Witnessing to All Nations\n"
-      ]
+      "content": ["Witnessing to All Nations\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 13:9–13; Luke 21:10–19)\n"
-      ]
+      "content": ["(Mark 13:9–13; Luke 21:10–19)\n"]
     },
     {
       "type": "para",
@@ -16792,16 +15590,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Abomination of Desolation\n"
-      ]
+      "content": ["The Abomination of Desolation\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 13:14–23; Luke 21:20–24)\n"
-      ]
+      "content": ["(Mark 13:14–23; Luke 21:20–24)\n"]
     },
     {
       "type": "para",
@@ -16826,16 +15620,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:15 "
-              ]
+              "content": ["24:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Daniel 9:27, Daniel 11:31, and Daniel 12:11."
-              ]
+              "content": ["See Daniel 9:27, Daniel 11:31, and Daniel 12:11."]
             }
           ],
           "caller": "+"
@@ -16936,16 +15726,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Return of the Son of Man\n"
-      ]
+      "content": ["The Return of the Son of Man\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 13:24–27; Luke 21:25–28)\n"
-      ]
+      "content": ["(Mark 13:24–27; Luke 21:25–28)\n"]
     },
     {
       "type": "para",
@@ -17002,23 +15788,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘The sun will be darkened, \n"
-      ]
+      "content": ["‘The sun will be darkened, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the moon will not give its light; \n"
-      ]
+      "content": ["and the moon will not give its light; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "the stars will fall from the sky, \n"
-      ]
+      "content": ["the stars will fall from the sky, \n"]
     },
     {
       "type": "para",
@@ -17033,9 +15813,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:29 "
-              ]
+              "content": ["24:29 "]
             },
             {
               "type": "char",
@@ -17073,16 +15851,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:30 "
-              ]
+              "content": ["24:30 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the sky; twice in this verse"
-              ]
+              "content": ["Or the sky; twice in this verse"]
             }
           ],
           "caller": "+"
@@ -17096,16 +15870,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:30 "
-              ]
+              "content": ["24:30 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Daniel 7:13–14."
-              ]
+              "content": ["See Daniel 7:13–14."]
             }
           ],
           "caller": "+"
@@ -17123,16 +15893,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Lesson of the Fig Tree\n"
-      ]
+      "content": ["The Lesson of the Fig Tree\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 13:28–31; Luke 21:29–33)\n"
-      ]
+      "content": ["(Mark 13:28–31; Luke 21:29–33)\n"]
     },
     {
       "type": "para",
@@ -17157,16 +15923,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:32 "
-              ]
+              "content": ["24:32 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or this parable"
-              ]
+              "content": ["Or this parable"]
             }
           ],
           "caller": "+"
@@ -17187,16 +15949,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:33 "
-              ]
+              "content": ["24:33 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or it is near"
-              ]
+              "content": ["Or it is near"]
             }
           ],
           "caller": "+"
@@ -17221,16 +15979,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Readiness at Any Hour\n"
-      ]
+      "content": ["Readiness at Any Hour\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 6:1–7; Mark 13:32–37; Luke 12:35–48)\n"
-      ]
+      "content": ["(Genesis 6:1–7; Mark 13:32–37; Luke 12:35–48)\n"]
     },
     {
       "type": "para",
@@ -17255,16 +16009,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:36 "
-              ]
+              "content": ["24:36 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR do not include nor the Son."
-              ]
+              "content": ["BYZ and TR do not include nor the Son."]
             }
           ],
           "caller": "+"
@@ -17416,9 +16166,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Ten Virgins\n"
-      ]
+      "content": ["The Parable of the Ten Virgins\n"]
     },
     {
       "type": "para",
@@ -17597,16 +16345,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "25:13 "
-              ]
+              "content": ["25:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include when the Son of Man comes."
-              ]
+              "content": ["BYZ and TR include when the Son of Man comes."]
             }
           ],
           "caller": "+"
@@ -17617,16 +16361,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Parable of the Talents\n"
-      ]
+      "content": ["The Parable of the Talents\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 19:11–27)\n"
-      ]
+      "content": ["(Luke 19:11–27)\n"]
     },
     {
       "type": "para",
@@ -17658,9 +16398,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "25:15 "
-              ]
+              "content": ["25:15 "]
             },
             {
               "type": "char",
@@ -17688,9 +16426,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "25:16 "
-              ]
+              "content": ["25:16 "]
             },
             {
               "type": "char",
@@ -17876,9 +16612,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Sheep and the Goats\n"
-      ]
+      "content": ["The Sheep and the Goats\n"]
     },
     {
       "type": "para",
@@ -18081,16 +16815,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Plot to Kill Jesus\n"
-      ]
+      "content": ["The Plot to Kill Jesus\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 14:1–2; Luke 22:1–2; John 11:45–57)\n"
-      ]
+      "content": ["(Mark 14:1–2; Luke 22:1–2; John 11:45–57)\n"]
     },
     {
       "type": "para",
@@ -18150,16 +16880,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Anointed at Bethany\n"
-      ]
+      "content": ["Jesus Anointed at Bethany\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 14:3–9; Luke 7:36–50; John 12:1–8)\n"
-      ]
+      "content": ["(Mark 14:3–9; Luke 7:36–50; John 12:1–8)\n"]
     },
     {
       "type": "para",
@@ -18184,16 +16910,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:6 "
-              ]
+              "content": ["26:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Aramaic Simon the Potter or Simon the Jar Maker"
-              ]
+              "content": ["Aramaic Simon the Potter or Simon the Jar Maker"]
             }
           ],
           "caller": "+"
@@ -18262,16 +16984,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:11 "
-              ]
+              "content": ["26:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Deuteronomy 15:11."
-              ]
+              "content": ["See Deuteronomy 15:11."]
             }
           ],
           "caller": "+"
@@ -18296,16 +17014,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Judas Agrees to Betray Jesus\n"
-      ]
+      "content": ["Judas Agrees to Betray Jesus\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 14:10–11; Luke 22:3–6)\n"
-      ]
+      "content": ["(Mark 14:10–11; Luke 22:3–6)\n"]
     },
     {
       "type": "para",
@@ -18341,16 +17055,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Preparing the Passover\n"
-      ]
+      "content": ["Preparing the Passover\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 14:12–16; Luke 22:7–13)\n"
-      ]
+      "content": ["(Mark 14:12–16; Luke 22:7–13)\n"]
     },
     {
       "type": "para",
@@ -18375,9 +17085,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:17 "
-              ]
+              "content": ["26:17 "]
             },
             {
               "type": "char",
@@ -18419,16 +17127,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Last Supper\n"
-      ]
+      "content": ["The Last Supper\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 14:17–26; Luke 22:14–23; 1 Corinthians 11:17–34)\n"
-      ]
+      "content": ["(Mark 14:17–26; Luke 22:14–23; 1 Corinthians 11:17–34)\n"]
     },
     {
       "type": "para",
@@ -18453,16 +17157,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:20 "
-              ]
+              "content": ["26:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR the Twelve"
-              ]
+              "content": ["BYZ and TR the Twelve"]
             }
           ],
           "caller": "+"
@@ -18542,9 +17242,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Jesus answered, “You have said it yourself.” \n"
-      ]
+      "content": ["Jesus answered, “You have said it yourself.” \n"]
     },
     {
       "type": "para",
@@ -18593,16 +17291,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:28 "
-              ]
+              "content": ["26:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR the new covenant"
-              ]
+              "content": ["BYZ and TR the new covenant"]
             }
           ],
           "caller": "+"
@@ -18637,9 +17331,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Predicts Peter’s Denial\n"
-      ]
+      "content": ["Jesus Predicts Peter’s Denial\n"]
     },
     {
       "type": "para",
@@ -18672,9 +17364,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘I will strike the Shepherd, \n"
-      ]
+      "content": ["‘I will strike the Shepherd, \n"]
     },
     {
       "type": "para",
@@ -18689,16 +17379,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:31 "
-              ]
+              "content": ["26:31 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Zechariah 13:7"
-              ]
+              "content": ["Zechariah 13:7"]
             }
           ],
           "caller": "+"
@@ -18777,16 +17463,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Prays at Gethsemane\n"
-      ]
+      "content": ["Jesus Prays at Gethsemane\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 14:32–42; Luke 22:39–46)\n"
-      ]
+      "content": ["(Mark 14:32–42; Luke 22:39–46)\n"]
     },
     {
       "type": "para",
@@ -18928,16 +17610,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Betrayal of Jesus\n"
-      ]
+      "content": ["The Betrayal of Jesus\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 14:43–52; Luke 22:47–53; John 18:1–14)\n"
-      ]
+      "content": ["(Mark 14:43–52; Luke 22:47–53; John 18:1–14)\n"]
     },
     {
       "type": "para",
@@ -19003,9 +17681,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:50 "
-              ]
+              "content": ["26:50 "]
             },
             {
               "type": "char",
@@ -19092,16 +17768,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:55 "
-              ]
+              "content": ["26:55 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally the temple"
-              ]
+              "content": ["Literally the temple"]
             }
           ],
           "caller": "+"
@@ -19123,23 +17795,17 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Then all the disciples deserted Him and fled. \n"
-      ]
+      "content": ["Then all the disciples deserted Him and fled. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus before the Sanhedrin\n"
-      ]
+      "content": ["Jesus before the Sanhedrin\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 14:53–65; Luke 22:66–71; John 18:19–24)\n"
-      ]
+      "content": ["(Mark 14:53–65; Luke 22:66–71; John 18:19–24)\n"]
     },
     {
       "type": "para",
@@ -19188,16 +17854,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:59 "
-              ]
+              "content": ["26:59 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the whole Council"
-              ]
+              "content": ["Or the whole Council"]
             }
           ],
           "caller": "+"
@@ -19298,16 +17960,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:64 "
-              ]
+              "content": ["26:64 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the right hand of the Mighty One"
-              ]
+              "content": ["Or the right hand of the Mighty One"]
             }
           ],
           "caller": "+"
@@ -19321,16 +17979,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "26:64 "
-              ]
+              "content": ["26:64 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Psalm 110:1 and Daniel 7:13."
-              ]
+              "content": ["See Psalm 110:1 and Daniel 7:13."]
             }
           ],
           "caller": "+"
@@ -19369,9 +18023,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“He deserves to die,” they answered. \n"
-      ]
+      "content": ["“He deserves to die,” they answered. \n"]
     },
     {
       "type": "para",
@@ -19400,16 +18052,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Peter Denies Jesus\n"
-      ]
+      "content": ["Peter Denies Jesus\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 14:66–72; Luke 22:54–62; John 18:15–18)\n"
-      ]
+      "content": ["(Mark 14:66–72; Luke 22:54–62; John 18:15–18)\n"]
     },
     {
       "type": "para",
@@ -19520,9 +18168,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "And immediately a rooster crowed. \n"
-      ]
+      "content": ["And immediately a rooster crowed. \n"]
     },
     {
       "type": "para",
@@ -19550,16 +18196,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Delivered to Pilate\n"
-      ]
+      "content": ["Jesus Delivered to Pilate\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 15:1–5)\n"
-      ]
+      "content": ["(Mark 15:1–5)\n"]
     },
     {
       "type": "para",
@@ -19588,16 +18230,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Judas Hangs Himself\n"
-      ]
+      "content": ["Judas Hangs Himself\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Zechariah 11:10–17)\n"
-      ]
+      "content": ["(Zechariah 11:10–17)\n"]
     },
     {
       "type": "para",
@@ -19696,16 +18334,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“They took the thirty pieces of silver, \n"
-      ]
+      "content": ["“They took the thirty pieces of silver, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the price set on Him by the people of Israel, \n"
-      ]
+      "content": ["the price set on Him by the people of Israel, \n"]
     },
     {
       "type": "para",
@@ -19733,9 +18367,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:10 "
-              ]
+              "content": ["27:10 "]
             },
             {
               "type": "char",
@@ -19753,16 +18385,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus before Pilate\n"
-      ]
+      "content": ["Jesus before Pilate\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 23:1–5; John 18:28–40)\n"
-      ]
+      "content": ["(Luke 23:1–5; John 18:28–40)\n"]
     },
     {
       "type": "para",
@@ -19788,9 +18416,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“You have said so,” Jesus replied. \n"
-      ]
+      "content": ["“You have said so,” Jesus replied. \n"]
     },
     {
       "type": "para",
@@ -19846,16 +18472,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Crowd Chooses Barabbas\n"
-      ]
+      "content": ["The Crowd Chooses Barabbas\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 15:6–11; Luke 23:13–25)\n"
-      ]
+      "content": ["(Mark 15:6–11; Luke 23:13–25)\n"]
     },
     {
       "type": "para",
@@ -19887,9 +18509,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:16 "
-              ]
+              "content": ["27:16 "]
             },
             {
               "type": "char",
@@ -19976,9 +18596,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Barabbas,” they replied. \n"
-      ]
+      "content": ["“Barabbas,” they replied. \n"]
     },
     {
       "type": "para",
@@ -20004,9 +18622,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "They all answered, “Crucify Him!” \n"
-      ]
+      "content": ["They all answered, “Crucify Him!” \n"]
     },
     {
       "type": "para",
@@ -20032,23 +18648,17 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "But they shouted all the louder, “Crucify Him!” \n"
-      ]
+      "content": ["But they shouted all the louder, “Crucify Him!” \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Pilate Washes His Hands\n"
-      ]
+      "content": ["Pilate Washes His Hands\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 15:12–15)\n"
-      ]
+      "content": ["(Mark 15:12–15)\n"]
     },
     {
       "type": "para",
@@ -20073,9 +18683,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:24 "
-              ]
+              "content": ["27:24 "]
             },
             {
               "type": "char",
@@ -20127,9 +18735,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Soldiers Mock Jesus\n"
-      ]
+      "content": ["The Soldiers Mock Jesus\n"]
     },
     {
       "type": "para",
@@ -20196,9 +18802,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Crucifixion\n"
-      ]
+      "content": ["The Crucifixion\n"]
     },
     {
       "type": "para",
@@ -20271,9 +18875,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:35 "
-              ]
+              "content": ["27:35 "]
             },
             {
               "type": "char",
@@ -20319,16 +18921,12 @@
     {
       "type": "para",
       "marker": "pc",
-      "content": [
-        "THIS IS JESUS, \n"
-      ]
+      "content": ["THIS IS JESUS, \n"]
     },
     {
       "type": "para",
       "marker": "pc",
-      "content": [
-        "THE KING OF THE JEWS. \n"
-      ]
+      "content": ["THE KING OF THE JEWS. \n"]
     },
     {
       "type": "para",
@@ -20353,16 +18951,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:38 "
-              ]
+              "content": ["27:38 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or insurrectionists; also in verse 44"
-              ]
+              "content": ["Or insurrectionists; also in verse 44"]
             }
           ],
           "caller": "+"
@@ -20431,16 +19025,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:43 "
-              ]
+              "content": ["27:43 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 22:8"
-              ]
+              "content": ["Psalm 22:8"]
             }
           ],
           "caller": "+"
@@ -20468,9 +19058,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Death of Jesus\n"
-      ]
+      "content": ["The Death of Jesus\n"]
     },
     {
       "type": "para",
@@ -20502,16 +19090,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:45 "
-              ]
+              "content": ["27:45 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, from noon until three in the afternoon"
-              ]
+              "content": ["That is, from noon until three in the afternoon"]
             }
           ],
           "caller": "+"
@@ -20532,16 +19116,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:46 "
-              ]
+              "content": ["27:46 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE and WH Eloi, Eloi"
-              ]
+              "content": ["NE and WH Eloi, Eloi"]
             }
           ],
           "caller": "+"
@@ -20555,16 +19135,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:46 "
-              ]
+              "content": ["27:46 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 22:1"
-              ]
+              "content": ["Psalm 22:1"]
             }
           ],
           "caller": "+"
@@ -20602,16 +19178,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:48 "
-              ]
+              "content": ["27:48 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or filled it with wine vinegar"
-              ]
+              "content": ["Or filled it with wine vinegar"]
             }
           ],
           "caller": "+"
@@ -20625,16 +19197,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:48 "
-              ]
+              "content": ["27:48 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Psalm 69:21."
-              ]
+              "content": ["See Psalm 69:21."]
             }
           ],
           "caller": "+"
@@ -20665,9 +19233,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "27:49 "
-              ]
+              "content": ["27:49 "]
             },
             {
               "type": "char",
@@ -20764,9 +19330,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Burial of Jesus\n"
-      ]
+      "content": ["The Burial of Jesus\n"]
     },
     {
       "type": "para",
@@ -20823,9 +19387,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Guards at the Tomb\n"
-      ]
+      "content": ["The Guards at the Tomb\n"]
     },
     {
       "type": "para",
@@ -20891,16 +19453,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Resurrection\n"
-      ]
+      "content": ["The Resurrection\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 16:1–8; Luke 24:1–12; John 20:1–9)\n"
-      ]
+      "content": ["(Mark 16:1–8; Luke 24:1–12; John 20:1–9)\n"]
     },
     {
       "type": "para",
@@ -20925,9 +19483,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:1 "
-              ]
+              "content": ["28:1 "]
             },
             {
               "type": "char",
@@ -21003,16 +19559,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:6 "
-              ]
+              "content": ["28:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR where the Lord lay"
-              ]
+              "content": ["BYZ and TR where the Lord lay"]
             }
           ],
           "caller": "+"
@@ -21057,9 +19609,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:9 "
-              ]
+              "content": ["28:9 "]
             },
             {
               "type": "char",
@@ -21084,9 +19634,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Report of the Guards\n"
-      ]
+      "content": ["The Report of the Guards\n"]
     },
     {
       "type": "para",
@@ -21146,16 +19694,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Great Commission\n"
-      ]
+      "content": ["The Great Commission\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Mark 16:14–18)\n"
-      ]
+      "content": ["(Mark 16:14–18)\n"]
     },
     {
       "type": "para",
@@ -21211,16 +19755,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "28:19 "
-              ]
+              "content": ["28:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally Having gone, therefore, make disciples"
-              ]
+              "content": ["Literally Having gone, therefore, make disciples"]
             }
           ],
           "caller": "+"

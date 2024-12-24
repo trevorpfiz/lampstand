@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "HAG"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Haggai\n"
-      ]
+      "content": ["Haggai\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Haggai\n"
-      ]
+      "content": ["Haggai\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Haggai\n"
-      ]
+      "content": ["Haggai\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Call to Rebuild the Temple\n"
-      ]
+      "content": ["A Call to Rebuild the Temple\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ezra 5:1–5)\n"
-      ]
+      "content": ["(Ezra 5:1–5)\n"]
     },
     {
       "type": "para",
@@ -74,9 +62,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:1 "
-              ]
+              "content": ["1:1 "]
             },
             {
               "type": "char",
@@ -105,16 +91,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“These people say, ‘The time has not yet come \n"
-      ]
+      "content": ["“These people say, ‘The time has not yet come \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to rebuild the house of the LORD.’” \n"
-      ]
+      "content": ["to rebuild the house of the LORD.’” \n"]
     },
     {
       "type": "para",
@@ -153,16 +135,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to live in your paneled houses, \n"
-      ]
+      "content": ["to live in your paneled houses, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "while this house lies in ruins?” \n"
-      ]
+      "content": ["while this house lies in ruins?” \n"]
     },
     {
       "type": "para",
@@ -188,9 +166,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Consider carefully your ways. \n"
-      ]
+      "content": ["“Consider carefully your ways. \n"]
     },
     {
       "type": "para",
@@ -212,37 +188,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but harvested little. \n"
-      ]
+      "content": ["but harvested little. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "You eat but never have enough. \n"
-      ]
+      "content": ["You eat but never have enough. \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "You drink but never have your fill. \n"
-      ]
+      "content": ["You drink but never have your fill. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "You put on clothes but never get warm. \n"
-      ]
+      "content": ["You put on clothes but never get warm. \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "You earn wages to put into a bag pierced through.” \n"
-      ]
+      "content": ["You earn wages to put into a bag pierced through.” \n"]
     },
     {
       "type": "para",
@@ -268,9 +234,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Consider carefully your ways. \n"
-      ]
+      "content": ["“Consider carefully your ways. \n"]
     },
     {
       "type": "para",
@@ -292,23 +256,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "bring down lumber, and build the house, \n"
-      ]
+      "content": ["bring down lumber, and build the house, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "so that I may take pleasure in it and be glorified, \n"
-      ]
+      "content": ["so that I may take pleasure in it and be glorified, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "says the LORD. \n"
-      ]
+      "content": ["says the LORD. \n"]
     },
     {
       "type": "para",
@@ -326,44 +284,32 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but behold, it amounted to little. \n"
-      ]
+      "content": ["but behold, it amounted to little. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "And what you brought home, I blew away. \n"
-      ]
+      "content": ["And what you brought home, I blew away. \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Why? declares the LORD of Hosts. \n"
-      ]
+      "content": ["Why? declares the LORD of Hosts. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Because My house still lies in ruins, \n"
-      ]
+      "content": ["Because My house still lies in ruins, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "while each of you is busy \n"
-      ]
+      "content": ["while each of you is busy \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "with his own house. \n"
-      ]
+      "content": ["with his own house. \n"]
     },
     {
       "type": "para",
@@ -385,16 +331,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the heavens have withheld their dew \n"
-      ]
+      "content": ["the heavens have withheld their dew \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the earth has withheld its crops. \n"
-      ]
+      "content": ["and the earth has withheld its crops. \n"]
     },
     {
       "type": "para",
@@ -412,44 +354,32 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "on the fields and on the mountains, \n"
-      ]
+      "content": ["on the fields and on the mountains, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "on the grain, new wine, and oil, \n"
-      ]
+      "content": ["on the grain, new wine, and oil, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and on whatever the ground yields, \n"
-      ]
+      "content": ["and on whatever the ground yields, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "on man and beast, \n"
-      ]
+      "content": ["on man and beast, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and on all the labor of your hands.” \n"
-      ]
+      "content": ["and on all the labor of your hands.” \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The People Obey\n"
-      ]
+      "content": ["The People Obey\n"]
     },
     {
       "type": "para",
@@ -492,16 +422,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“I am with you,” \n"
-      ]
+      "content": ["“I am with you,” \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "declares the LORD. \n"
-      ]
+      "content": ["declares the LORD. \n"]
     },
     {
       "type": "para",
@@ -536,9 +462,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Coming Glory of God’s House\n"
-      ]
+      "content": ["The Coming Glory of God’s House\n"]
     },
     {
       "type": "para",
@@ -570,9 +494,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:2 "
-              ]
+              "content": ["2:2 "]
             },
             {
               "type": "char",
@@ -614,51 +536,37 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "declares the LORD. \n"
-      ]
+      "content": ["declares the LORD. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Be strong, O Joshua son of Jehozadak, \n"
-      ]
+      "content": ["Be strong, O Joshua son of Jehozadak, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the high priest. \n"
-      ]
+      "content": ["the high priest. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "And be strong, all you people of the land, \n"
-      ]
+      "content": ["And be strong, all you people of the land, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "declares the LORD. \n"
-      ]
+      "content": ["declares the LORD. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Work! For I am with you, \n"
-      ]
+      "content": ["Work! For I am with you, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "declares the LORD of Hosts. \n"
-      ]
+      "content": ["declares the LORD of Hosts. \n"]
     },
     {
       "type": "para",
@@ -676,23 +584,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "when you came out of Egypt. \n"
-      ]
+      "content": ["when you came out of Egypt. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "And My Spirit remains among you; \n"
-      ]
+      "content": ["And My Spirit remains among you; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "do not be afraid.” \n"
-      ]
+      "content": ["do not be afraid.” \n"]
     },
     {
       "type": "para",
@@ -718,9 +620,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Once more, in a little while, \n"
-      ]
+      "content": ["“Once more, in a little while, \n"]
     },
     {
       "type": "para",
@@ -735,16 +635,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:6 "
-              ]
+              "content": ["2:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in Hebrews 12:26"
-              ]
+              "content": ["Cited in Hebrews 12:26"]
             }
           ],
           "caller": "+"
@@ -755,9 +651,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the sea and the dry land. \n"
-      ]
+      "content": ["the sea and the dry land. \n"]
     },
     {
       "type": "para",
@@ -775,23 +669,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and they will come with all their treasures, \n"
-      ]
+      "content": ["and they will come with all their treasures, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and I will fill this house with glory, \n"
-      ]
+      "content": ["and I will fill this house with glory, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "says the LORD of Hosts. \n"
-      ]
+      "content": ["says the LORD of Hosts. \n"]
     },
     {
       "type": "para",
@@ -809,9 +697,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "declares the LORD of Hosts. \n"
-      ]
+      "content": ["declares the LORD of Hosts. \n"]
     },
     {
       "type": "para",
@@ -829,37 +715,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will be greater than the former, \n"
-      ]
+      "content": ["will be greater than the former, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "says the LORD of Hosts. \n"
-      ]
+      "content": ["says the LORD of Hosts. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "And in this place I will provide peace, \n"
-      ]
+      "content": ["And in this place I will provide peace, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "declares the LORD of Hosts.” \n"
-      ]
+      "content": ["declares the LORD of Hosts.” \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Blessings for a Defiled People\n"
-      ]
+      "content": ["Blessings for a Defiled People\n"]
     },
     {
       "type": "para",
@@ -899,9 +775,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“No,” replied the priests. \n"
-      ]
+      "content": ["“No,” replied the priests. \n"]
     },
     {
       "type": "para",
@@ -927,9 +801,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Yes, it becomes defiled,” the priests answered. \n"
-      ]
+      "content": ["“Yes, it becomes defiled,” the priests answered. \n"]
     },
     {
       "type": "para",
@@ -971,16 +843,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:15 "
-              ]
+              "content": ["2:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or backward; also in verse 18"
-              ]
+              "content": ["Or backward; also in verse 18"]
             }
           ],
           "caller": "+"
@@ -1001,16 +869,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:16 "
-              ]
+              "content": ["2:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally a heap of twenty"
-              ]
+              "content": ["Literally a heap of twenty"]
             }
           ],
           "caller": "+"
@@ -1024,16 +888,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:16 "
-              ]
+              "content": ["2:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally to draw out fifty from the winepress"
-              ]
+              "content": ["Literally to draw out fifty from the winepress"]
             }
           ],
           "caller": "+"
@@ -1075,9 +935,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Zerubbabel the LORD’s Signet Ring\n"
-      ]
+      "content": ["Zerubbabel the LORD’s Signet Ring\n"]
     },
     {
       "type": "para",
@@ -1123,37 +981,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and destroy the power \n"
-      ]
+      "content": ["and destroy the power \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "of the kingdoms of the nations. \n"
-      ]
+      "content": ["of the kingdoms of the nations. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "I will overturn chariots and their riders; \n"
-      ]
+      "content": ["I will overturn chariots and their riders; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "horses and their riders will fall, \n"
-      ]
+      "content": ["horses and their riders will fall, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "each by the sword of his brother. \n"
-      ]
+      "content": ["each by the sword of his brother. \n"]
     },
     {
       "type": "para",
@@ -1171,51 +1019,37 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "declares the LORD of Hosts, \n"
-      ]
+      "content": ["declares the LORD of Hosts, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "I will take you, My servant, \n"
-      ]
+      "content": ["I will take you, My servant, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Zerubbabel son of Shealtiel, \n"
-      ]
+      "content": ["Zerubbabel son of Shealtiel, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "declares the LORD, \n"
-      ]
+      "content": ["declares the LORD, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and I will make you like My signet ring, \n"
-      ]
+      "content": ["and I will make you like My signet ring, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for I have chosen you, \n"
-      ]
+      "content": ["for I have chosen you, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "declares the LORD of Hosts.” "
-      ]
+      "content": ["declares the LORD of Hosts.” "]
     }
   ]
 }

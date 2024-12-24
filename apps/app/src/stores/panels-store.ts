@@ -1,5 +1,5 @@
-import { persist } from "zustand/middleware";
-import { createStore } from "zustand/vanilla";
+import { persist } from 'zustand/middleware';
+import { createStore } from 'zustand/vanilla';
 
 export interface PanelsState {
   isChatOpen: boolean;
@@ -21,7 +21,7 @@ export const defaultPanelsState: PanelsState = {
 };
 
 export const createPanelsStore = (
-  initState: PanelsState = defaultPanelsState,
+  initState: PanelsState = defaultPanelsState
 ) => {
   return createStore<PanelsStore>()(
     persist(
@@ -34,8 +34,8 @@ export const createPanelsStore = (
         setNotes: (isOpen: boolean) => set({ isNotesOpen: isOpen }),
       }),
       {
-        name: "panels-store",
-      },
-    ),
+        name: 'panels-store',
+      }
+    )
   );
 };

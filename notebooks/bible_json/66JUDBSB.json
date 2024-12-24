@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "JUD"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Jude\n"
-      ]
+      "content": ["Jude\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Jude\n"
-      ]
+      "content": ["Jude\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Jude\n"
-      ]
+      "content": ["Jude\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Greeting from Jude\n"
-      ]
+      "content": ["A Greeting from Jude\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(James 1:1)\n"
-      ]
+      "content": ["(James 1:1)\n"]
     },
     {
       "type": "para",
@@ -99,16 +87,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Judgment on the Ungodly\n"
-      ]
+      "content": ["God’s Judgment on the Ungodly\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Peter 3:1–7)\n"
-      ]
+      "content": ["(2 Peter 3:1–7)\n"]
     },
     {
       "type": "para",
@@ -157,16 +141,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:5 "
-              ]
+              "content": ["1:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE, WH, BYZ, and TR the Lord"
-              ]
+              "content": ["NE, WH, BYZ, and TR the Lord"]
             }
           ],
           "caller": "+"
@@ -218,9 +198,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:9 "
-              ]
+              "content": ["1:9 "]
             },
             {
               "type": "char",
@@ -272,16 +250,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:12 "
-              ]
+              "content": ["1:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or are blemishes"
-              ]
+              "content": ["Or are blemishes"]
             }
           ],
           "caller": "+"
@@ -320,16 +294,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Behold, the Lord is coming \n"
-      ]
+      "content": ["“Behold, the Lord is coming \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "with myriads of His holy ones \n"
-      ]
+      "content": ["with myriads of His holy ones \n"]
     },
     {
       "type": "para",
@@ -347,16 +317,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and to convict all the ungodly \n"
-      ]
+      "content": ["and to convict all the ungodly \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "of every ungodly act of wickedness \n"
-      ]
+      "content": ["of every ungodly act of wickedness \n"]
     },
     {
       "type": "para",
@@ -371,16 +337,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:15 "
-              ]
+              "content": ["1:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See the First Book of Enoch (1 Enoch 1:9)."
-              ]
+              "content": ["See the First Book of Enoch (1 Enoch 1:9)."]
             }
           ],
           "caller": "+"
@@ -408,16 +370,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Call to Persevere\n"
-      ]
+      "content": ["A Call to Persevere\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Hebrews 10:19–39; 2 Peter 3:1–7)\n"
-      ]
+      "content": ["(Hebrews 10:19–39; 2 Peter 3:1–7)\n"]
     },
     {
       "type": "para",
@@ -449,16 +407,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:18 "
-              ]
+              "content": ["1:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See 2 Peter 3:3."
-              ]
+              "content": ["See 2 Peter 3:3."]
             }
           ],
           "caller": "+"
@@ -524,16 +478,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Doxology\n"
-      ]
+      "content": ["Doxology\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Romans 16:25–27)\n"
-      ]
+      "content": ["(Romans 16:25–27)\n"]
     },
     {
       "type": "para",
@@ -566,9 +516,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Amen. "
-      ]
+      "content": ["Amen. "]
     }
   ]
 }

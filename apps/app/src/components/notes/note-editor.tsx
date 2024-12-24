@@ -1,30 +1,30 @@
-"use client";
+'use client';
 
-import { useRef } from "react";
-import dynamic from "next/dynamic";
-import isEqual from "lodash.isequal";
-import { ArrowLeft, Ellipsis, Trash2 } from "lucide-react";
-import { useDebouncedCallback } from "use-debounce";
+import isEqual from 'lodash.isequal';
+import { ArrowLeft, Ellipsis, Trash2 } from 'lucide-react';
+import dynamic from 'next/dynamic';
+import { type ChangeEvent, useRef } from 'react';
+import { useDebouncedCallback } from 'use-debounce';
 
-import type { NoteId } from "@lamp/db/schema";
-import { Button } from "@lamp/ui/components/button";
+import type { NoteId } from '@lamp/db/schema';
+import { Button } from '@lamp/ui/components/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@lamp/ui/components/dropdown-menu";
-import { Spinner } from "@lamp/ui/components/spinner";
-import { handleError } from "@lamp/ui/lib/utils";
+} from '@lamp/ui/components/dropdown-menu';
+import { Spinner } from '@lamp/ui/components/spinner';
+import { handleError } from '@lamp/ui/lib/utils';
 
-import { EditorTitle } from "~/components/notes/editor-title";
-import { api } from "~/trpc/react";
+import { EditorTitle } from '~/components/notes/editor-title';
+import { api } from '~/trpc/react';
 
 const PlateEditor = dynamic(
-  () => import("@lamp/plate").then((mod) => mod.PlateEditor),
+  () => import('@lamp/plate').then((mod) => mod.PlateEditor),
   {
     ssr: false,
-  },
+  }
 );
 
 interface NoteEditorProps {
@@ -43,8 +43,8 @@ export function NoteEditor(props: NoteEditorProps) {
   // Title mutation
   const renameMutation = api.note.rename.useMutation({
     onSuccess: () => {
-      void utils.note.byId.invalidate({ id: noteId });
-      void utils.note.byStudy.invalidate();
+      utils.note.byId.invalidate({ id: noteId });
+      utils.note.byStudy.invalidate();
     },
     onError: (error) => {
       handleError(error);
@@ -53,19 +53,19 @@ export function NoteEditor(props: NoteEditorProps) {
 
   // Debounced handler for the title
   const handleTitleChange = useDebouncedCallback(
-    (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    (e: ChangeEvent<HTMLTextAreaElement>) => {
       const newTitle = e.target.value;
       if (newTitle !== data?.note?.title) {
         renameMutation.mutate({ id: noteId, title: newTitle });
       }
     },
-    500,
+    500
   );
 
   // Body mutation
   const updateBodyMutation = api.note.update.useMutation({
     onSuccess: () => {
-      void utils.note.byId.invalidate({ id: noteId });
+      utils.note.byId.invalidate({ id: noteId });
     },
     onError: (error) => {
       handleError(error);
@@ -83,7 +83,7 @@ export function NoteEditor(props: NoteEditorProps) {
   // Delete note mutation
   const deleteNoteMutation = api.note.delete.useMutation({
     onSuccess: () => {
-      void utils.note.byStudy.invalidate();
+      utils.note.byStudy.invalidate();
       onBack();
     },
     onError: (error) => {
@@ -100,7 +100,7 @@ export function NoteEditor(props: NoteEditorProps) {
   return (
     <div className="flex h-full w-full flex-col overflow-hidden">
       {/* Header */}
-      <div className="sticky top-0 z-50 flex items-center justify-between border-b border-border bg-background px-2 py-1">
+      <div className="sticky top-0 z-50 flex items-center justify-between border-border border-b bg-background px-2 py-1">
         <Button
           variant="ghost"
           size="icon"

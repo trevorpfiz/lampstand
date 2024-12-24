@@ -1,7 +1,5 @@
 'use client';
 
-import React from 'react';
-
 import type * as DropdownMenuPrimitive from '@radix-ui/react-dropdown-menu';
 
 import { PopoverAnchor } from '@radix-ui/react-popover';
@@ -26,7 +24,7 @@ import {
   useTableElementState,
   useTableMergeState,
 } from '@udecode/plate-table/react';
-import { type LucideProps, Combine, Trash2Icon, Ungroup } from 'lucide-react';
+import { Combine, type LucideProps, Trash2Icon, Ungroup } from 'lucide-react';
 import { useReadOnly, useSelected } from 'slate-react';
 
 import { Button } from './button';
@@ -216,7 +214,7 @@ export const TableElement = withHOC(
           <table
             ref={ref}
             className={cn(
-              'my-4 ml-px mr-0 table h-px w-[calc(100%-6px)] table-fixed border-collapse',
+              'my-4 mr-0 ml-px table h-px w-[calc(100%-6px)] table-fixed border-collapse',
               isSelectingCell && '[&_*::selection]:bg-none'
             )}
             {...tableProps}

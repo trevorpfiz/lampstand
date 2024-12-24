@@ -1,34 +1,34 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { HelpCircle, MessageCircle } from "lucide-react";
+import { HelpCircle, MessageCircle } from 'lucide-react';
+import { type FormEvent, useState } from 'react';
 
-import { Button } from "@lamp/ui/components/button";
+import { Button } from '@lamp/ui/components/button';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@lamp/ui/components/popover";
+} from '@lamp/ui/components/popover';
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@lamp/ui/components/sidebar";
-import { toast } from "@lamp/ui/components/sonner";
-import { Spinner } from "@lamp/ui/components/spinner";
-import { Textarea } from "@lamp/ui/components/textarea";
-import { handleError } from "@lamp/ui/lib/utils";
+} from '@lamp/ui/components/sidebar';
+import { toast } from '@lamp/ui/components/sonner';
+import { Spinner } from '@lamp/ui/components/spinner';
+import { Textarea } from '@lamp/ui/components/textarea';
+import { handleError } from '@lamp/ui/lib/utils';
 
-import { api } from "~/trpc/react";
+import { api } from '~/trpc/react';
 
 export function NavFooter() {
   const [open, setOpen] = useState(false);
-  const [content, setContent] = useState("");
+  const [content, setContent] = useState('');
 
   const createMutation = api.feedback.create.useMutation({
     onSuccess: () => {
-      toast.success("Thank you for your feedback!");
-      setContent("");
+      toast.success('Thank you for your feedback!');
+      setContent('');
       setOpen(false);
     },
     onError: (error) => {
@@ -36,9 +36,11 @@ export function NavFooter() {
     },
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    if (!content.trim()) return;
+    if (!content.trim()) {
+      return;
+    }
 
     createMutation.mutate({
       content,
@@ -93,7 +95,7 @@ export function NavFooter() {
                       Submitting...
                     </>
                   ) : (
-                    "Submit"
+                    'Submit'
                   )}
                 </Button>
               </div>

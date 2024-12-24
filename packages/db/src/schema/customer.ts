@@ -1,10 +1,10 @@
-import type { z } from "zod";
-import { authUsers } from "drizzle-orm/supabase";
-import { createInsertSchema, createSelectSchema } from "drizzle-zod";
+import { authUsers } from 'drizzle-orm/supabase';
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod';
+import type { z } from 'zod';
 
-import { createTable } from "./_table";
+import { createTable } from './_table';
 
-export const Customer = createTable("customer", (t) => ({
+export const Customer = createTable('customer', (t) => ({
   id: t
     .uuid()
     .primaryKey()

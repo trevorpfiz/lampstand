@@ -1,4 +1,4 @@
-import { CheckCircle } from "lucide-react";
+import { CheckCircle } from 'lucide-react';
 
 interface FormSuccessProps {
   message?: string;
@@ -10,7 +10,7 @@ export const FormSuccess = ({ message }: FormSuccessProps) => {
   }
 
   return (
-    <div className="rounded-lg bg-emerald-500/15 px-4 py-3 text-sm text-emerald-500">
+    <div className="rounded-lg bg-emerald-500/15 px-4 py-3 text-emerald-500 text-sm">
       <div className="flex gap-3">
         <CheckCircle
           className="mt-0.5 shrink-0 opacity-60"

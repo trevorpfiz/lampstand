@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
-import { createMetadata } from "@lamp/seo/metadata";
+import { createMetadata } from '@lamp/seo/metadata';
 
-import { ContactForm } from "./components/contact-form";
+import { ContactForm } from './components/contact-form';
 
-const title = "Contact";
+const title = 'Contact';
 const description =
   "Let us know what's on your mind. We'll get back to you as soon as possible.";
 

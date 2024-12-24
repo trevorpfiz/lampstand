@@ -1,13 +1,12 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { ArrowRight } from "lucide-react";
-import { useAction } from "next-safe-action/hooks";
-import { useForm } from "react-hook-form";
+import { zodResolver } from '@hookform/resolvers/zod';
+import { ArrowRight } from 'lucide-react';
+import { useAction } from 'next-safe-action/hooks';
+import { useState } from 'react';
+import { useForm } from 'react-hook-form';
 
-import type { RequestPasswordReset } from "@lamp/validators/auth";
-import { Button } from "@lamp/ui/components/button";
+import { Button } from '@lamp/ui/components/button';
 import {
   Form,
   FormControl,
@@ -15,13 +14,15 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@lamp/ui/components/form";
-import { Input } from "@lamp/ui/components/input";
-import { RequestPasswordResetSchema } from "@lamp/validators/auth";
+} from '@lamp/ui/components/form';
+import { Input } from '@lamp/ui/components/input';
+import type { RequestPasswordReset } from '@lamp/validators/auth';
+import { RequestPasswordResetSchema } from '@lamp/validators/auth';
 
-import { FormError } from "~/components/auth/form-error";
-import { FormSuccess } from "~/components/auth/form-success";
-import { requestResetPassword } from "~/lib/actions/auth";
+import { captureException } from '@sentry/nextjs';
+import { FormError } from '~/components/auth/form-error';
+import { FormSuccess } from '~/components/auth/form-success';
+import { requestResetPassword } from '~/lib/actions/auth';
 
 export const ForgotPasswordForm = () => {
   const [success, setSuccess] = useState<boolean>(false);
@@ -29,7 +30,7 @@ export const ForgotPasswordForm = () => {
   const form = useForm<RequestPasswordReset>({
     resolver: zodResolver(RequestPasswordResetSchema),
     defaultValues: {
-      email: "",
+      email: '',
     },
   });
 
@@ -38,7 +39,7 @@ export const ForgotPasswordForm = () => {
       setSuccess(true);
     },
     onError: (error) => {
-      console.error(error);
+      captureException(error);
     },
   });
 

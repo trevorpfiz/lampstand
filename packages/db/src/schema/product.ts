@@ -1,11 +1,11 @@
-import type { z } from "zod";
-import { relations } from "drizzle-orm";
-import { createInsertSchema, createSelectSchema } from "drizzle-zod";
+import { relations } from 'drizzle-orm';
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod';
+import type { z } from 'zod';
 
-import { createTable } from "./_table";
-import { Price } from "./price";
+import { createTable } from './_table';
+import { Price } from './price';
 
-export const Product = createTable("product", (t) => ({
+export const Product = createTable('product', (t) => ({
   id: t.text().primaryKey(), // Product ID from Stripe
   active: t.boolean(),
   name: t.text(),

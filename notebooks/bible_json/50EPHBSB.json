@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "EPH"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Ephesians\n"
-      ]
+      "content": ["Ephesians\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Ephesians\n"
-      ]
+      "content": ["Ephesians\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Ephesians\n"
-      ]
+      "content": ["Ephesians\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paul’s Greeting to the Ephesians\n"
-      ]
+      "content": ["Paul’s Greeting to the Ephesians\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Acts 19:8–12; Revelation 2:1–7)\n"
-      ]
+      "content": ["(Acts 19:8–12; Revelation 2:1–7)\n"]
     },
     {
       "type": "para",
@@ -85,16 +73,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:1 "
-              ]
+              "content": ["1:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Some manuscripts do not include in Ephesus."
-              ]
+              "content": ["Some manuscripts do not include in Ephesus."]
             }
           ],
           "caller": "+"
@@ -122,16 +106,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Spiritual Blessings\n"
-      ]
+      "content": ["Spiritual Blessings\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Romans 8:28–34)\n"
-      ]
+      "content": ["(Romans 8:28–34)\n"]
     },
     {
       "type": "para",
@@ -260,16 +240,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Spiritual Wisdom\n"
-      ]
+      "content": ["Spiritual Wisdom\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Corinthians 2:6–16)\n"
-      ]
+      "content": ["(1 Corinthians 2:6–16)\n"]
     },
     {
       "type": "para",
@@ -325,16 +301,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:18 "
-              ]
+              "content": ["1:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR the eyes of your understanding"
-              ]
+              "content": ["BYZ and TR the eyes of your understanding"]
             }
           ],
           "caller": "+"
@@ -396,16 +368,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Alive with Christ\n"
-      ]
+      "content": ["Alive with Christ\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Colossians 2:6–23)\n"
-      ]
+      "content": ["(Colossians 2:6–23)\n"]
     },
     {
       "type": "para",
@@ -513,9 +481,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:10 "
-              ]
+              "content": ["2:10 "]
             },
             {
               "type": "char",
@@ -533,16 +499,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "One in Christ\n"
-      ]
+      "content": ["One in Christ\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Philippians 2:1–4)\n"
-      ]
+      "content": ["(Philippians 2:1–4)\n"]
     },
     {
       "type": "para",
@@ -633,16 +595,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Christ Our Cornerstone\n"
-      ]
+      "content": ["Christ Our Cornerstone\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Isaiah 28:14–22; 1 Corinthians 3:10–15; 1 Peter 2:1–8)\n"
-      ]
+      "content": ["(Isaiah 28:14–22; 1 Corinthians 3:10–15; 1 Peter 2:1–8)\n"]
     },
     {
       "type": "para",
@@ -691,9 +649,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Mystery of the Gospel\n"
-      ]
+      "content": ["The Mystery of the Gospel\n"]
     },
     {
       "type": "para",
@@ -718,16 +674,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:1 "
-              ]
+              "content": ["3:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "This train of thought is continued in verse 14."
-              ]
+              "content": ["This train of thought is continued in verse 14."]
             }
           ],
           "caller": "+"
@@ -817,9 +769,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:9 "
-              ]
+              "content": ["3:9 "]
             },
             {
               "type": "char",
@@ -871,16 +821,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:12 "
-              ]
+              "content": ["3:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or through His faithfulness"
-              ]
+              "content": ["Or through His faithfulness"]
             }
           ],
           "caller": "+"
@@ -898,9 +844,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paul’s Prayer for the Ephesians\n"
-      ]
+      "content": ["Paul’s Prayer for the Ephesians\n"]
     },
     {
       "type": "para",
@@ -925,9 +869,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:14 "
-              ]
+              "content": ["3:14 "]
             },
             {
               "type": "char",
@@ -1010,16 +952,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Unity in the Body\n"
-      ]
+      "content": ["Unity in the Body\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 133:1–3; 1 Corinthians 1:10–17)\n"
-      ]
+      "content": ["(Psalm 133:1–3; 1 Corinthians 1:10–17)\n"]
     },
     {
       "type": "para",
@@ -1113,16 +1051,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:8 "
-              ]
+              "content": ["4:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or He says"
-              ]
+              "content": ["Or He says"]
             }
           ],
           "caller": "+"
@@ -1137,16 +1071,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“When He ascended on high, \n"
-      ]
+      "content": ["“When He ascended on high, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He led captives away, \n"
-      ]
+      "content": ["He led captives away, \n"]
     },
     {
       "type": "para",
@@ -1161,16 +1091,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:8 "
-              ]
+              "content": ["4:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 68:18"
-              ]
+              "content": ["Psalm 68:18"]
             }
           ],
           "caller": "+"
@@ -1201,16 +1127,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:9 "
-              ]
+              "content": ["4:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR except that He also descended first"
-              ]
+              "content": ["BYZ and TR except that He also descended first"]
             }
           ],
           "caller": "+"
@@ -1290,16 +1212,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "New Life in Christ \n"
-      ]
+      "content": ["New Life in Christ \n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Colossians 3:1–17)\n"
-      ]
+      "content": ["(Colossians 3:1–17)\n"]
     },
     {
       "type": "para",
@@ -1407,16 +1325,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:26 "
-              ]
+              "content": ["4:26 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or “In your anger do not sin.” Psalm 4:4"
-              ]
+              "content": ["Or “In your anger do not sin.” Psalm 4:4"]
             }
           ],
           "caller": "+"
@@ -1515,9 +1429,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Imitators of God\n"
-      ]
+      "content": ["Imitators of God\n"]
     },
     {
       "type": "para",
@@ -1549,16 +1461,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:2 "
-              ]
+              "content": ["5:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE and WH Christ loved you"
-              ]
+              "content": ["NE and WH Christ loved you"]
             }
           ],
           "caller": "+"
@@ -1624,9 +1532,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Children of Light\n"
-      ]
+      "content": ["Children of Light\n"]
     },
     {
       "type": "para",
@@ -1696,16 +1602,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:13 "
-              ]
+              "content": ["5:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL begins verse 14 after visible,"
-              ]
+              "content": ["SBL begins verse 14 after visible,"]
             }
           ],
           "caller": "+"
@@ -1727,23 +1629,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Wake up, O sleeper, \n"
-      ]
+      "content": ["“Wake up, O sleeper, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "rise up from the dead, \n"
-      ]
+      "content": ["rise up from the dead, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and Christ will shine on you.” \n"
-      ]
+      "content": ["and Christ will shine on you.” \n"]
     },
     {
       "type": "para",
@@ -1810,16 +1706,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Wives and Husbands\n"
-      ]
+      "content": ["Wives and Husbands\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Song of Solomon 1:1–17; 1 Peter 3:1–7)\n"
-      ]
+      "content": ["(Song of Solomon 1:1–17; 1 Peter 3:1–7)\n"]
     },
     {
       "type": "para",
@@ -1844,16 +1736,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:21 "
-              ]
+              "content": ["5:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or in the fear of Christ."
-              ]
+              "content": ["Or in the fear of Christ."]
             }
           ],
           "caller": "+"
@@ -1960,16 +1848,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:30 "
-              ]
+              "content": ["5:30 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include—of His flesh and of His bones."
-              ]
+              "content": ["BYZ and TR include—of His flesh and of His bones."]
             }
           ],
           "caller": "+"
@@ -2000,16 +1884,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:31 "
-              ]
+              "content": ["5:31 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Genesis 2:24 (see also LXX)"
-              ]
+              "content": ["Genesis 2:24 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -2040,16 +1920,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Children and Parents\n"
-      ]
+      "content": ["Children and Parents\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Colossians 3:18–21)\n"
-      ]
+      "content": ["(Colossians 3:18–21)\n"]
     },
     {
       "type": "para",
@@ -2088,16 +1964,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:3 "
-              ]
+              "content": ["6:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 20:12; Deuteronomy 5:16"
-              ]
+              "content": ["Exodus 20:12; Deuteronomy 5:16"]
             }
           ],
           "caller": "+"
@@ -2125,16 +1997,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Serving with Honor\n"
-      ]
+      "content": ["Serving with Honor\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Colossians 3:22–25; 1 Timothy 6:1–2)\n"
-      ]
+      "content": ["(Colossians 3:22–25; 1 Timothy 6:1–2)\n"]
     },
     {
       "type": "para",
@@ -2194,9 +2062,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Full Armor of God\n"
-      ]
+      "content": ["The Full Armor of God\n"]
     },
     {
       "type": "para",
@@ -2308,16 +2174,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Final Greetings\n"
-      ]
+      "content": ["Final Greetings\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Philippians 4:21–23; 2 Timothy 4:19–22)\n"
-      ]
+      "content": ["(Philippians 4:21–23; 2 Timothy 4:19–22)\n"]
     },
     {
       "type": "para",

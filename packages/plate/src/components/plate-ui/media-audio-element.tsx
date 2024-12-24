@@ -1,7 +1,5 @@
 'use client';
 
-import React from 'react';
-
 import { cn, withRef } from '@udecode/cn';
 import { withHOC } from '@udecode/plate-common/react';
 import { useMediaState } from '@udecode/plate-media/react';

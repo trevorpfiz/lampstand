@@ -1,17 +1,17 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { Home } from "lucide-react";
+import { Home } from 'lucide-react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 import {
   SidebarGroup,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@lamp/ui/components/sidebar";
+} from '@lamp/ui/components/sidebar';
 
-export const mockMainNavItems = [{ title: "Home", url: "/", icon: Home }];
+export const mockMainNavItems = [{ title: 'Home', url: '/', icon: Home }];
 
 export function NavMain() {
   const pathname = usePathname();

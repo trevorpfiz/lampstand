@@ -1,20 +1,21 @@
-import { notFound } from "next/navigation";
+import { notFound } from 'next/navigation';
 
 import {
   getChatsByStudyId,
   getNotesByStudyId,
   getStudyById,
-} from "@lamp/db/queries";
-import { createClient } from "@lamp/supabase/server";
+} from '@lamp/db/queries';
+import { createClient } from '@lamp/supabase/server';
 
-import { AppHeader } from "~/components/app-header";
-import { PanelsLayout } from "~/components/panels-layout";
+import type { ReactNode } from 'react';
+import { AppHeader } from '~/components/app-header';
+import { PanelsLayout } from '~/components/panels-layout';
 
 export default async function StudyLayout({
   children,
   params,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
   params: Promise<{ studyId: string }>;
 }) {
   const { studyId } = await params;

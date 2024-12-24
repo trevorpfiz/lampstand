@@ -1,33 +1,33 @@
-import type { z } from "zod";
-import { relations } from "drizzle-orm";
-import { index } from "drizzle-orm/pg-core";
-import { createInsertSchema, createSelectSchema } from "drizzle-zod";
+import { relations } from 'drizzle-orm';
+import { index } from 'drizzle-orm/pg-core';
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod';
+import type { z } from 'zod';
 
-import { timestamps } from "../lib/utils";
-import { createTable } from "./_table";
-import { Chat } from "./chat";
-import { Note } from "./note";
-import { Profile } from "./profile";
+import { timestamps } from '../lib/utils';
+import { createTable } from './_table';
+import { Chat } from './chat';
+import { Note } from './note';
+import { Profile } from './profile';
 
 export const Study = createTable(
-  "study",
+  'study',
   (t) => ({
     id: t.uuid().defaultRandom().primaryKey(),
     profileId: t
       .uuid()
       .notNull()
-      .references(() => Profile.id, { onDelete: "cascade" }),
+      .references(() => Profile.id, { onDelete: 'cascade' }),
     title: t.varchar({ length: 256 }).notNull(),
 
     createdAt: t.timestamp().defaultNow().notNull(),
     updatedAt: t
-      .timestamp({ mode: "date", withTimezone: true })
+      .timestamp({ mode: 'date', withTimezone: true })
       .$onUpdateFn(() => new Date()),
   }),
   (table) => [
-    index("study_profile_id_idx").on(table.profileId),
-    index("study_created_at_idx").on(table.createdAt),
-  ],
+    index('study_profile_id_idx').on(table.profileId),
+    index('study_created_at_idx').on(table.createdAt),
+  ]
 );
 
 export const StudyRelations = relations(Study, ({ one, many }) => ({
@@ -65,4 +65,4 @@ export type Study = typeof Study.$inferSelect;
 export type NewStudy = z.infer<typeof insertStudySchema>;
 export type NewStudyParams = z.infer<typeof insertStudyParams>;
 export type UpdateStudyParams = z.infer<typeof updateStudyParams>;
-export type StudyId = z.infer<typeof studyIdSchema>["id"];
+export type StudyId = z.infer<typeof studyIdSchema>['id'];

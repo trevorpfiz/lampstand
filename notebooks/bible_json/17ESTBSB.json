@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "EST"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Esther\n"
-      ]
+      "content": ["Esther\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Esther\n"
-      ]
+      "content": ["Esther\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Esther\n"
-      ]
+      "content": ["Esther\n"]
     },
     {
       "type": "chapter",
@@ -40,9 +32,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Xerxes’ Royal Feast\n"
-      ]
+      "content": ["Xerxes’ Royal Feast\n"]
     },
     {
       "type": "para",
@@ -67,16 +57,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:1 "
-              ]
+              "content": ["1:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew Ahasuerus; here and throughout Esther "
-              ]
+              "content": ["Hebrew Ahasuerus; here and throughout Esther "]
             }
           ],
           "caller": "+"
@@ -90,16 +76,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:1 "
-              ]
+              "content": ["1:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the upper Nile region"
-              ]
+              "content": ["That is, the upper Nile region"]
             }
           ],
           "caller": "+"
@@ -189,9 +171,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Queen Vashti’s Refusal\n"
-      ]
+      "content": ["Queen Vashti’s Refusal\n"]
     },
     {
       "type": "para",
@@ -254,9 +234,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Queen Vashti Deposed\n"
-      ]
+      "content": ["Queen Vashti Deposed\n"]
     },
     {
       "type": "para",
@@ -329,16 +307,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:17 "
-              ]
+              "content": ["1:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or to disdain their husbands in their eyes"
-              ]
+              "content": ["Or to disdain their husbands in their eyes"]
             }
           ],
           "caller": "+"
@@ -417,9 +391,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:22 "
-              ]
+              "content": ["1:22 "]
             },
             {
               "type": "char",
@@ -443,9 +415,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Seeking Vashti’s Successor\n"
-      ]
+      "content": ["Seeking Vashti’s Successor\n"]
     },
     {
       "type": "para",
@@ -509,9 +479,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Esther Finds Favor\n"
-      ]
+      "content": ["Esther Finds Favor\n"]
     },
     {
       "type": "para",
@@ -543,9 +511,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:6 "
-              ]
+              "content": ["2:6 "]
             },
             {
               "type": "char",
@@ -662,16 +628,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:14 "
-              ]
+              "content": ["2:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or to another part of the harem"
-              ]
+              "content": ["Or to another part of the harem"]
             }
           ],
           "caller": "+"
@@ -719,9 +681,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:16 "
-              ]
+              "content": ["2:16 "]
             },
             {
               "type": "char",
@@ -739,9 +699,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Esther Becomes Queen\n"
-      ]
+      "content": ["Esther Becomes Queen\n"]
     },
     {
       "type": "para",
@@ -800,16 +758,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:19 "
-              ]
+              "content": ["2:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Mordecai had become a palace official"
-              ]
+              "content": ["Or Mordecai had become a palace official"]
             }
           ],
           "caller": "+"
@@ -827,9 +781,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Mordecai Uncovers a Conspiracy\n"
-      ]
+      "content": ["Mordecai Uncovers a Conspiracy\n"]
     },
     {
       "type": "para",
@@ -854,16 +806,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:21 "
-              ]
+              "content": ["2:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Bigthan is a variant of Bigthana; see Esther 6:2."
-              ]
+              "content": ["Bigthan is a variant of Bigthana; see Esther 6:2."]
             }
           ],
           "caller": "+"
@@ -911,9 +859,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:23 "
-              ]
+              "content": ["2:23 "]
             },
             {
               "type": "char",
@@ -937,9 +883,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Haman’s Plot against the Jews\n"
-      ]
+      "content": ["Haman’s Plot against the Jews\n"]
     },
     {
       "type": "para",
@@ -1029,16 +973,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:6 "
-              ]
+              "content": ["3:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew he disdained in his eyes"
-              ]
+              "content": ["Hebrew he disdained in his eyes"]
             }
           ],
           "caller": "+"
@@ -1069,9 +1009,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:7 "
-              ]
+              "content": ["3:7 "]
             },
             {
               "type": "char",
@@ -1092,9 +1030,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:7 "
-              ]
+              "content": ["3:7 "]
             },
             {
               "type": "char",
@@ -1139,9 +1075,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:9 "
-              ]
+              "content": ["3:9 "]
             },
             {
               "type": "char",
@@ -1247,9 +1181,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Mordecai Appeals to Esther\n"
-      ]
+      "content": ["Mordecai Appeals to Esther\n"]
     },
     {
       "type": "para",
@@ -1459,16 +1391,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:16 "
-              ]
+              "content": ["4:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or if I am destroyed, then I will be destroyed!"
-              ]
+              "content": ["Or if I am destroyed, then I will be destroyed!"]
             }
           ],
           "caller": "+"
@@ -1502,9 +1430,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Esther Approaches the King\n"
-      ]
+      "content": ["Esther Approaches the King\n"]
     },
     {
       "type": "para",
@@ -1636,9 +1562,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Haman’s Plot against Mordecai\n"
-      ]
+      "content": ["Haman’s Plot against Mordecai\n"]
     },
     {
       "type": "para",
@@ -1728,9 +1652,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:14 "
-              ]
+              "content": ["5:14 "]
             },
             {
               "type": "char",
@@ -1765,9 +1687,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Mordecai Is Honored\n"
-      ]
+      "content": ["Mordecai Is Honored\n"]
     },
     {
       "type": "para",
@@ -1792,9 +1712,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:1 "
-              ]
+              "content": ["6:1 "]
             },
             {
               "type": "char",
@@ -1822,16 +1740,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:2 "
-              ]
+              "content": ["6:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Bigthana is a variant of Bigthan; see Esther 2:21."
-              ]
+              "content": ["Bigthana is a variant of Bigthan; see Esther 2:21."]
             }
           ],
           "caller": "+"
@@ -1909,9 +1823,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Bring him in,” ordered the king. \n"
-      ]
+      "content": ["“Bring him in,” ordered the king. \n"]
     },
     {
       "type": "para",
@@ -2066,9 +1978,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Esther Pleads for Her People\n"
-      ]
+      "content": ["Esther Pleads for Her People\n"]
     },
     {
       "type": "para",
@@ -2141,16 +2051,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:5 "
-              ]
+              "content": ["7:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew whose heart has filled him to do"
-              ]
+              "content": ["Hebrew whose heart has filled him to do"]
             }
           ],
           "caller": "+"
@@ -2182,16 +2088,12 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "And Haman stood in terror before the king and queen. \n"
-      ]
+      "content": ["And Haman stood in terror before the king and queen. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Hanging of Haman\n"
-      ]
+      "content": ["The Hanging of Haman\n"]
     },
     {
       "type": "para",
@@ -2261,9 +2163,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:9 "
-              ]
+              "content": ["7:9 "]
             },
             {
               "type": "char",
@@ -2285,9 +2185,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Hang him on it!” declared the king. \n"
-      ]
+      "content": ["“Hang him on it!” declared the king. \n"]
     },
     {
       "type": "para",
@@ -2315,9 +2213,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Esther Appeals for the Jews\n"
-      ]
+      "content": ["Esther Appeals for the Jews\n"]
     },
     {
       "type": "para",
@@ -2404,9 +2300,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Decree of Xerxes\n"
-      ]
+      "content": ["The Decree of Xerxes\n"]
     },
     {
       "type": "para",
@@ -2455,9 +2349,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:9 "
-              ]
+              "content": ["8:9 "]
             },
             {
               "type": "char",
@@ -2478,16 +2370,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:9 "
-              ]
+              "content": ["8:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, to the upper Nile region"
-              ]
+              "content": ["That is, to the upper Nile region"]
             }
           ],
           "caller": "+"
@@ -2542,9 +2430,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:12 "
-              ]
+              "content": ["8:12 "]
             },
             {
               "type": "char",
@@ -2633,9 +2519,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Jews Destroy Their Enemies\n"
-      ]
+      "content": ["The Jews Destroy Their Enemies\n"]
     },
     {
       "type": "para",
@@ -2660,9 +2544,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:1 "
-              ]
+              "content": ["9:1 "]
             },
             {
               "type": "char",
@@ -2763,9 +2645,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Haman’s Sons Hanged\n"
-      ]
+      "content": ["Haman’s Sons Hanged\n"]
     },
     {
       "type": "para",
@@ -2859,9 +2739,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Feast of Purim Instituted\n"
-      ]
+      "content": ["The Feast of Purim Instituted\n"]
     },
     {
       "type": "para",
@@ -3048,9 +2926,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Tribute to Xerxes and Mordecai\n"
-      ]
+      "content": ["Tribute to Xerxes and Mordecai\n"]
     },
     {
       "type": "para",

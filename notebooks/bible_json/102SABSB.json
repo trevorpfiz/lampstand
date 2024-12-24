@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "2SA"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "2 Samuel\n"
-      ]
+      "content": ["2 Samuel\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "2 Samuel\n"
-      ]
+      "content": ["2 Samuel\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "2 Samuel\n"
-      ]
+      "content": ["2 Samuel\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Saul’s Death Reported to David\n"
-      ]
+      "content": ["Saul’s Death Reported to David\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Samuel 31:1–6; 1 Chronicles 10:1–6)\n"
-      ]
+      "content": ["(1 Samuel 31:1–6; 1 Chronicles 10:1–6)\n"]
     },
     {
       "type": "para",
@@ -99,9 +87,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“I have escaped from the Israelite camp,” he replied. \n"
-      ]
+      "content": ["“I have escaped from the Israelite camp,” he replied. \n"]
     },
     {
       "type": "para",
@@ -196,9 +182,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "So I told him, ‘I am an Amalekite.’ \n"
-      ]
+      "content": ["So I told him, ‘I am an Amalekite.’ \n"]
     },
     {
       "type": "para",
@@ -320,9 +304,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Song for Saul and Jonathan\n"
-      ]
+      "content": ["David’s Song for Saul and Jonathan\n"]
     },
     {
       "type": "para",
@@ -354,9 +336,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:18 "
-              ]
+              "content": ["1:18 "]
             },
             {
               "type": "char",
@@ -377,9 +357,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:18 "
-              ]
+              "content": ["1:18 "]
             },
             {
               "type": "char",
@@ -414,9 +392,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "How the mighty have fallen! \n"
-      ]
+      "content": ["How the mighty have fallen! \n"]
     },
     {
       "type": "para",
@@ -438,23 +414,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "proclaim it not in the streets of Ashkelon, \n"
-      ]
+      "content": ["proclaim it not in the streets of Ashkelon, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "lest the daughters of the Philistines rejoice, \n"
-      ]
+      "content": ["lest the daughters of the Philistines rejoice, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the daughters of the uncircumcised exult. \n"
-      ]
+      "content": ["and the daughters of the uncircumcised exult. \n"]
     },
     {
       "type": "para",
@@ -472,9 +442,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "may you have no dew or rain, \n"
-      ]
+      "content": ["may you have no dew or rain, \n"]
     },
     {
       "type": "para",
@@ -489,9 +457,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:21 "
-              ]
+              "content": ["1:21 "]
             },
             {
               "type": "char",
@@ -509,16 +475,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "For there the shield of the mighty was defiled, \n"
-      ]
+      "content": ["For there the shield of the mighty was defiled, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the shield of Saul, no longer anointed with oil. \n"
-      ]
+      "content": ["the shield of Saul, no longer anointed with oil. \n"]
     },
     {
       "type": "para",
@@ -540,23 +502,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "from the fat of the mighty, \n"
-      ]
+      "content": ["from the fat of the mighty, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "the bow of Jonathan did not retreat, \n"
-      ]
+      "content": ["the bow of Jonathan did not retreat, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the sword of Saul did not return empty. \n"
-      ]
+      "content": ["and the sword of Saul did not return empty. \n"]
     },
     {
       "type": "para",
@@ -574,23 +530,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "were not divided in death. \n"
-      ]
+      "content": ["were not divided in death. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "They were swifter than eagles, \n"
-      ]
+      "content": ["They were swifter than eagles, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "they were stronger than lions. \n"
-      ]
+      "content": ["they were stronger than lions. \n"]
     },
     {
       "type": "para",
@@ -612,23 +562,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "weep for Saul, \n"
-      ]
+      "content": ["weep for Saul, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "who clothed you in scarlet and luxury, \n"
-      ]
+      "content": ["who clothed you in scarlet and luxury, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "who decked your garments with ornaments of gold. \n"
-      ]
+      "content": ["who decked your garments with ornaments of gold. \n"]
     },
     {
       "type": "para",
@@ -646,9 +590,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "Jonathan lies slain on your heights. \n"
-      ]
+      "content": ["Jonathan lies slain on your heights. \n"]
     },
     {
       "type": "para",
@@ -670,23 +612,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "You were delightful to me; \n"
-      ]
+      "content": ["You were delightful to me; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "your love to me was extraordinary, \n"
-      ]
+      "content": ["your love to me was extraordinary, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "surpassing the love of women. \n"
-      ]
+      "content": ["surpassing the love of women. \n"]
     },
     {
       "type": "para",
@@ -704,9 +640,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the weapons of war have perished!” \n"
-      ]
+      "content": ["and the weapons of war have perished!” \n"]
     },
     {
       "type": "chapter",
@@ -717,9 +651,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Anointed King of Judah\n"
-      ]
+      "content": ["David Anointed King of Judah\n"]
     },
     {
       "type": "para",
@@ -745,9 +677,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Go up,” the LORD answered. \n"
-      ]
+      "content": ["“Go up,” the LORD answered. \n"]
     },
     {
       "type": "para",
@@ -756,9 +686,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Then David asked, “Where should I go?” \n"
-      ]
+      "content": ["Then David asked, “Where should I go?” \n"]
     },
     {
       "type": "para",
@@ -767,9 +695,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“To Hebron,” replied the LORD. \n"
-      ]
+      "content": ["“To Hebron,” replied the LORD. \n"]
     },
     {
       "type": "para",
@@ -842,9 +768,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:6 "
-              ]
+              "content": ["2:6 "]
             },
             {
               "type": "char",
@@ -869,9 +793,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Ish-bosheth Made King of Israel\n"
-      ]
+      "content": ["Ish-bosheth Made King of Israel\n"]
     },
     {
       "type": "para",
@@ -896,9 +818,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:8 "
-              ]
+              "content": ["2:8 "]
             },
             {
               "type": "char",
@@ -958,9 +878,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Battle of Gibeon\n"
-      ]
+      "content": ["The Battle of Gibeon\n"]
     },
     {
       "type": "para",
@@ -1010,9 +928,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Let them get up,” Joab replied. \n"
-      ]
+      "content": ["“Let them get up,” Joab replied. \n"]
     },
     {
       "type": "para",
@@ -1044,16 +960,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:16 "
-              ]
+              "content": ["2:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Helkath-hazzurim means the Field of Swords."
-              ]
+              "content": ["Helkath-hazzurim means the Field of Swords."]
             }
           ],
           "caller": "+"
@@ -1116,9 +1028,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“It is,” Asahel replied. \n"
-      ]
+      "content": ["“It is,” Asahel replied. \n"]
     },
     {
       "type": "para",
@@ -1144,9 +1054,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "But Asahel would not stop chasing him. \n"
-      ]
+      "content": ["But Asahel would not stop chasing him. \n"]
     },
     {
       "type": "para",
@@ -1260,16 +1168,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:29 "
-              ]
+              "content": ["2:29 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See LXX; Hebrew marched all through Bithron"
-              ]
+              "content": ["See LXX; Hebrew marched all through Bithron"]
             }
           ],
           "caller": "+"
@@ -1328,16 +1232,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The House of David Strengthened\n"
-      ]
+      "content": ["The House of David Strengthened\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 3:1–9)\n"
-      ]
+      "content": ["(1 Chronicles 3:1–9)\n"]
     },
     {
       "type": "para",
@@ -1380,9 +1280,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "His firstborn was Amnon, by Ahinoam of Jezreel; \n"
-      ]
+      "content": ["His firstborn was Amnon, by Ahinoam of Jezreel; \n"]
     },
     {
       "type": "para",
@@ -1407,9 +1305,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:3 "
-              ]
+              "content": ["3:3 "]
             },
             {
               "type": "char",
@@ -1459,9 +1355,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "his fifth was Shephatiah, the son of Abital; \n"
-      ]
+      "content": ["his fifth was Shephatiah, the son of Abital; \n"]
     },
     {
       "type": "para",
@@ -1487,16 +1381,12 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "These sons were born to David in Hebron. \n"
-      ]
+      "content": ["These sons were born to David in Hebron. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Abner Joins David\n"
-      ]
+      "content": ["Abner Joins David\n"]
     },
     {
       "type": "para",
@@ -1644,16 +1534,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:15 "
-              ]
+              "content": ["3:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Paltiel is a variant of Palti; see 1 Samuel 25:44."
-              ]
+              "content": ["Paltiel is a variant of Palti; see 1 Samuel 25:44."]
             }
           ],
           "caller": "+"
@@ -1740,16 +1626,12 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "So David dismissed Abner, and he went in peace. \n"
-      ]
+      "content": ["So David dismissed Abner, and he went in peace. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Joab Murders Abner\n"
-      ]
+      "content": ["Joab Murders Abner\n"]
     },
     {
       "type": "para",
@@ -1877,9 +1759,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Mourns for Abner\n"
-      ]
+      "content": ["David Mourns for Abner\n"]
     },
     {
       "type": "para",
@@ -1929,16 +1809,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Should Abner die \n"
-      ]
+      "content": ["“Should Abner die \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the death of a fool? \n"
-      ]
+      "content": ["the death of a fool? \n"]
     },
     {
       "type": "para",
@@ -1956,23 +1832,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "your feet were not fettered. \n"
-      ]
+      "content": ["your feet were not fettered. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "As a man falls before the wicked, \n"
-      ]
+      "content": ["As a man falls before the wicked, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "so also you fell.” \n"
-      ]
+      "content": ["so also you fell.” \n"]
     },
     {
       "type": "para",
@@ -1981,9 +1851,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "And all the people wept over him even more. \n"
-      ]
+      "content": ["And all the people wept over him even more. \n"]
     },
     {
       "type": "para",
@@ -2059,9 +1927,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Murder of Ish-bosheth\n"
-      ]
+      "content": ["The Murder of Ish-bosheth\n"]
     },
     {
       "type": "para",
@@ -2162,9 +2028,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Execution of Rechab and Baanah\n"
-      ]
+      "content": ["The Execution of Rechab and Baanah\n"]
     },
     {
       "type": "para",
@@ -2223,16 +2087,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Anointed King of All Israel\n"
-      ]
+      "content": ["David Anointed King of All Israel\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 11:1–3)\n"
-      ]
+      "content": ["(1 Chronicles 11:1–3)\n"]
     },
     {
       "type": "para",
@@ -2302,16 +2162,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Conquers Jerusalem\n"
-      ]
+      "content": ["David Conquers Jerusalem\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 11:4–9)\n"
-      ]
+      "content": ["(1 Chronicles 11:4–9)\n"]
     },
     {
       "type": "para",
@@ -2360,16 +2216,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:8 "
-              ]
+              "content": ["5:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or who are enemies of David"
-              ]
+              "content": ["Or who are enemies of David"]
             }
           ],
           "caller": "+"
@@ -2400,16 +2252,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:9 "
-              ]
+              "content": ["5:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew the Millo"
-              ]
+              "content": ["Hebrew the Millo"]
             }
           ],
           "caller": "+"
@@ -2444,16 +2292,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Family Grows\n"
-      ]
+      "content": ["David’s Family Grows\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 14:1–7)\n"
-      ]
+      "content": ["(1 Chronicles 14:1–7)\n"]
     },
     {
       "type": "para",
@@ -2502,9 +2346,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:14 "
-              ]
+              "content": ["5:14 "]
             },
             {
               "type": "char",
@@ -2536,16 +2378,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Two Victories over the Philistines\n"
-      ]
+      "content": ["Two Victories over the Philistines\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 14:8–17)\n"
-      ]
+      "content": ["(1 Chronicles 14:8–17)\n"]
     },
     {
       "type": "para",
@@ -2622,16 +2460,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:20 "
-              ]
+              "content": ["5:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Baal-Perazim means The Lord Bursts Out."
-              ]
+              "content": ["Baal-Perazim means The Lord Bursts Out."]
             }
           ],
           "caller": "+"
@@ -2676,16 +2510,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:23 "
-              ]
+              "content": ["5:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or aspen trees or poplar trees; also in verse 24"
-              ]
+              "content": ["Or aspen trees or poplar trees; also in verse 24"]
             }
           ],
           "caller": "+"
@@ -2723,16 +2553,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:25 "
-              ]
+              "content": ["5:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX (see also 1 Chronicles 14:16); Hebrew Geba"
-              ]
+              "content": ["LXX (see also 1 Chronicles 14:16); Hebrew Geba"]
             }
           ],
           "caller": "+"
@@ -2749,16 +2575,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Fetches the Ark\n"
-      ]
+      "content": ["David Fetches the Ark\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 13:1–7)\n"
-      ]
+      "content": ["(1 Chronicles 13:1–7)\n"]
     },
     {
       "type": "para",
@@ -2790,16 +2612,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:2 "
-              ]
+              "content": ["6:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, Kiriath-jearim; see 1 Chronicles 13:6."
-              ]
+              "content": ["That is, Kiriath-jearim; see 1 Chronicles 13:6."]
             }
           ],
           "caller": "+"
@@ -2813,16 +2631,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:2 "
-              ]
+              "content": ["6:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew; LXX and Vulgate do not include the Name—"
-              ]
+              "content": ["Hebrew; LXX and Vulgate do not include the Name—"]
             }
           ],
           "caller": "+"
@@ -2860,9 +2674,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:4 "
-              ]
+              "content": ["6:4 "]
             },
             {
               "type": "char",
@@ -2880,16 +2692,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Uzzah Touches the Ark\n"
-      ]
+      "content": ["Uzzah Touches the Ark\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 13:8–14)\n"
-      ]
+      "content": ["(1 Chronicles 13:8–14)\n"]
     },
     {
       "type": "para",
@@ -2914,9 +2722,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:5 "
-              ]
+              "content": ["6:5 "]
             },
             {
               "type": "char",
@@ -2954,9 +2760,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:6 "
-              ]
+              "content": ["6:6 "]
             },
             {
               "type": "char",
@@ -2984,16 +2788,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:7 "
-              ]
+              "content": ["6:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "MT; DSS for this"
-              ]
+              "content": ["MT; DSS for this"]
             }
           ],
           "caller": "+"
@@ -3024,16 +2824,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:8 "
-              ]
+              "content": ["6:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Perez-uzzah means outbreak against Uzzah."
-              ]
+              "content": ["Perez-uzzah means outbreak against Uzzah."]
             }
           ],
           "caller": "+"
@@ -3075,16 +2871,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Ark Brought to Jerusalem\n"
-      ]
+      "content": ["The Ark Brought to Jerusalem\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 15:1–28)\n"
-      ]
+      "content": ["(1 Chronicles 15:1–28)\n"]
     },
     {
       "type": "para",
@@ -3148,16 +2940,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Michal’s Contempt for David\n"
-      ]
+      "content": ["Michal’s Contempt for David\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 15:29–16:3)\n"
-      ]
+      "content": ["(1 Chronicles 15:29–16:3)\n"]
     },
     {
       "type": "para",
@@ -3223,16 +3011,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:19 "
-              ]
+              "content": ["6:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or a portion of meat"
-              ]
+              "content": ["Or a portion of meat"]
             }
           ],
           "caller": "+"
@@ -3307,16 +3091,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Covenant with David\n"
-      ]
+      "content": ["God’s Covenant with David\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 17:1–15)\n"
-      ]
+      "content": ["(1 Chronicles 17:1–15)\n"]
     },
     {
       "type": "para",
@@ -3403,16 +3183,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:7 "
-              ]
+              "content": ["7:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or tribes"
-              ]
+              "content": ["Or tribes"]
             }
           ],
           "caller": "+"
@@ -3506,16 +3282,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:14 "
-              ]
+              "content": ["7:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in Hebrews 1:5"
-              ]
+              "content": ["Cited in Hebrews 1:5"]
             }
           ],
           "caller": "+"
@@ -3553,9 +3325,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:16 "
-              ]
+              "content": ["7:16 "]
             },
             {
               "type": "char",
@@ -3590,16 +3360,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Prayer of Thanksgiving\n"
-      ]
+      "content": ["David’s Prayer of Thanksgiving\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 17:16–27)\n"
-      ]
+      "content": ["(1 Chronicles 17:16–27)\n"]
     },
     {
       "type": "para",
@@ -3631,9 +3397,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:19 "
-              ]
+              "content": ["7:19 "]
             },
             {
               "type": "char",
@@ -3692,9 +3456,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:23 "
-              ]
+              "content": ["7:23 "]
             },
             {
               "type": "char",
@@ -3780,16 +3542,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Triumphs\n"
-      ]
+      "content": ["David’s Triumphs\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 18:1–13; Psalm 60:1–12)\n"
-      ]
+      "content": ["(1 Chronicles 18:1–13; Psalm 60:1–12)\n"]
     },
     {
       "type": "para",
@@ -3814,16 +3572,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:1 "
-              ]
+              "content": ["8:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Metheg-ammah means bridle of the mother city."
-              ]
+              "content": ["Metheg-ammah means bridle of the mother city."]
             }
           ],
           "caller": "+"
@@ -3871,9 +3625,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:3 "
-              ]
+              "content": ["8:3 "]
             },
             {
               "type": "char",
@@ -3901,9 +3653,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:4 "
-              ]
+              "content": ["8:4 "]
             },
             {
               "type": "char",
@@ -3972,9 +3722,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:8 "
-              ]
+              "content": ["8:8 "]
             },
             {
               "type": "char",
@@ -4012,9 +3760,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:9 "
-              ]
+              "content": ["8:9 "]
             },
             {
               "type": "char",
@@ -4042,9 +3788,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:10 "
-              ]
+              "content": ["8:10 "]
             },
             {
               "type": "char",
@@ -4079,9 +3823,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:12 "
-              ]
+              "content": ["8:12 "]
             },
             {
               "type": "char",
@@ -4119,9 +3861,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:13 "
-              ]
+              "content": ["8:13 "]
             },
             {
               "type": "char",
@@ -4146,16 +3886,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Officers\n"
-      ]
+      "content": ["David’s Officers\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 18:14–17)\n"
-      ]
+      "content": ["(1 Chronicles 18:14–17)\n"]
     },
     {
       "type": "para",
@@ -4198,9 +3934,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Jehoshaphat son of Ahilud was the recorder; \n"
-      ]
+      "content": ["Jehoshaphat son of Ahilud was the recorder; \n"]
     },
     {
       "type": "para",
@@ -4236,9 +3970,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:17 "
-              ]
+              "content": ["8:17 "]
             },
             {
               "type": "char",
@@ -4287,9 +4019,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:18 "
-              ]
+              "content": ["8:18 "]
             },
             {
               "type": "char",
@@ -4313,9 +4043,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David and Mephibosheth\n"
-      ]
+      "content": ["David and Mephibosheth\n"]
     },
     {
       "type": "para",
@@ -4358,9 +4086,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“I am your servant,” he replied. \n"
-      ]
+      "content": ["“I am your servant,” he replied. \n"]
     },
     {
       "type": "para",
@@ -4448,9 +4174,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:6 "
-              ]
+              "content": ["9:6 "]
             },
             {
               "type": "char",
@@ -4472,9 +4196,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Then David said, “Mephibosheth!” \n"
-      ]
+      "content": ["Then David said, “Mephibosheth!” \n"]
     },
     {
       "type": "para",
@@ -4483,9 +4205,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“I am your servant,” he replied. \n"
-      ]
+      "content": ["“I am your servant,” he replied. \n"]
     },
     {
       "type": "para",
@@ -4580,16 +4300,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:11 "
-              ]
+              "content": ["9:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX; Hebrew my table"
-              ]
+              "content": ["LXX; Hebrew my table"]
             }
           ],
           "caller": "+"
@@ -4610,16 +4326,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:12 "
-              ]
+              "content": ["9:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Mica is a variant of Micah; see 1 Chronicles 8:34."
-              ]
+              "content": ["Mica is a variant of Micah; see 1 Chronicles 8:34."]
             }
           ],
           "caller": "+"
@@ -4643,16 +4355,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Messengers Disgraced\n"
-      ]
+      "content": ["David’s Messengers Disgraced\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 19:1–9)\n"
-      ]
+      "content": ["(1 Chronicles 19:1–9)\n"]
     },
     {
       "type": "para",
@@ -4774,16 +4482,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Defeats Ammon and Aram\n"
-      ]
+      "content": ["David Defeats Ammon and Aram\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 19:10–19)\n"
-      ]
+      "content": ["(1 Chronicles 19:10–19)\n"]
     },
     {
       "type": "para",
@@ -4887,16 +4591,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:16 "
-              ]
+              "content": ["10:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew the River"
-              ]
+              "content": ["Hebrew the River"]
             }
           ],
           "caller": "+"
@@ -4910,9 +4610,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:16 "
-              ]
+              "content": ["10:16 "]
             },
             {
               "type": "char",
@@ -4957,9 +4655,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:18 "
-              ]
+              "content": ["10:18 "]
             },
             {
               "type": "char",
@@ -5000,9 +4696,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David and Bathsheba\n"
-      ]
+      "content": ["David and Bathsheba\n"]
     },
     {
       "type": "para",
@@ -5027,16 +4721,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:1 "
-              ]
+              "content": ["11:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally At the turn of the year"
-              ]
+              "content": ["Literally At the turn of the year"]
             }
           ],
           "caller": "+"
@@ -5074,16 +4764,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:3 "
-              ]
+              "content": ["11:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Eliam is a variant of Ammiel; see 1 Chronicles 3:5."
-              ]
+              "content": ["Eliam is a variant of Ammiel; see 1 Chronicles 3:5."]
             }
           ],
           "caller": "+"
@@ -5225,16 +4911,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:11 "
-              ]
+              "content": ["11:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or staying at Sukkoth"
-              ]
+              "content": ["Or staying at Sukkoth"]
             }
           ],
           "caller": "+"
@@ -5279,9 +4961,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Arranges Uriah’s Death\n"
-      ]
+      "content": ["David Arranges Uriah’s Death\n"]
     },
     {
       "type": "para",
@@ -5375,9 +5055,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:21 "
-              ]
+              "content": ["11:21 "]
             },
             {
               "type": "char",
@@ -5454,9 +5132,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Marries Bathsheba\n"
-      ]
+      "content": ["David Marries Bathsheba\n"]
     },
     {
       "type": "para",
@@ -5502,16 +5178,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Nathan Rebukes David\n"
-      ]
+      "content": ["Nathan Rebukes David\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 51:1–19)\n"
-      ]
+      "content": ["(Psalm 51:1–19)\n"]
     },
     {
       "type": "para",
@@ -5550,16 +5222,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:3 "
-              ]
+              "content": ["12:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew in his bosom; also in verse 8"
-              ]
+              "content": ["Hebrew in his bosom; also in verse 8"]
             }
           ],
           "caller": "+"
@@ -5683,9 +5351,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Loss and Repentance\n"
-      ]
+      "content": ["David’s Loss and Repentance\n"]
     },
     {
       "type": "para",
@@ -5728,9 +5394,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:14 "
-              ]
+              "content": ["12:14 "]
             },
             {
               "type": "char",
@@ -5775,16 +5439,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:16 "
-              ]
+              "content": ["12:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "DSS and LXX; MT does not include in sackcloth."
-              ]
+              "content": ["DSS and LXX; MT does not include in sackcloth."]
             }
           ],
           "caller": "+"
@@ -5840,9 +5500,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“He is dead,” they replied. \n"
-      ]
+      "content": ["“He is dead,” they replied. \n"]
     },
     {
       "type": "para",
@@ -5905,9 +5563,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Solomon’s Birth\n"
-      ]
+      "content": ["Solomon’s Birth\n"]
     },
     {
       "type": "para",
@@ -5932,16 +5588,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:24 "
-              ]
+              "content": ["12:24 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or she or he"
-              ]
+              "content": ["Or she or he"]
             }
           ],
           "caller": "+"
@@ -5973,9 +5625,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:25 "
-              ]
+              "content": ["12:25 "]
             },
             {
               "type": "char",
@@ -5993,16 +5643,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Capture of Rabbah\n"
-      ]
+      "content": ["The Capture of Rabbah\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 20:1–3)\n"
-      ]
+      "content": ["(1 Chronicles 20:1–3)\n"]
     },
     {
       "type": "para",
@@ -6034,16 +5680,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:27 "
-              ]
+              "content": ["12:27 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or and have captured the city of waters"
-              ]
+              "content": ["Or and have captured the city of waters"]
             }
           ],
           "caller": "+"
@@ -6088,9 +5730,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:30 "
-              ]
+              "content": ["12:30 "]
             },
             {
               "type": "char",
@@ -6111,9 +5751,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:30 "
-              ]
+              "content": ["12:30 "]
             },
             {
               "type": "char",
@@ -6151,16 +5789,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:31 "
-              ]
+              "content": ["12:31 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally put them under saws"
-              ]
+              "content": ["Literally put them under saws"]
             }
           ],
           "caller": "+"
@@ -6174,9 +5808,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:31 "
-              ]
+              "content": ["12:31 "]
             },
             {
               "type": "char",
@@ -6200,9 +5832,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Amnon and Tamar\n"
-      ]
+      "content": ["Amnon and Tamar\n"]
     },
     {
       "type": "para",
@@ -6251,9 +5881,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:3 "
-              ]
+              "content": ["13:3 "]
             },
             {
               "type": "char",
@@ -6512,16 +6140,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:18 "
-              ]
+              "content": ["13:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or a robe with long sleeves; see also Genesis 37:3."
-              ]
+              "content": ["Or a robe with long sleeves; see also Genesis 37:3."]
             }
           ],
           "caller": "+"
@@ -6587,9 +6211,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:21 "
-              ]
+              "content": ["13:21 "]
             },
             {
               "type": "char",
@@ -6614,9 +6236,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Absalom’s Revenge on Amnon\n"
-      ]
+      "content": ["Absalom’s Revenge on Amnon\n"]
     },
     {
       "type": "para",
@@ -6683,9 +6303,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Why should he go with you?” the king asked. \n"
-      ]
+      "content": ["“Why should he go with you?” the king asked. \n"]
     },
     {
       "type": "para",
@@ -6710,9 +6328,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:27 "
-              ]
+              "content": ["13:27 "]
             },
             {
               "type": "char",
@@ -6822,9 +6438,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Absalom Flees to Geshur\n"
-      ]
+      "content": ["Absalom Flees to Geshur\n"]
     },
     {
       "type": "para",
@@ -6849,16 +6463,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:34 "
-              ]
+              "content": ["13:34 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or behind him"
-              ]
+              "content": ["Or behind him"]
             }
           ],
           "caller": "+"
@@ -6872,16 +6482,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:34 "
-              ]
+              "content": ["13:34 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX; Hebrew does not include And the watchman...."
-              ]
+              "content": ["LXX; Hebrew does not include And the watchman...."]
             }
           ],
           "caller": "+"
@@ -6970,16 +6576,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:39 "
-              ]
+              "content": ["13:39 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "MT; DSS and LXX And the spirit of the king "
-              ]
+              "content": ["MT; DSS and LXX And the spirit of the king "]
             }
           ],
           "caller": "+"
@@ -6993,16 +6595,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:39 "
-              ]
+              "content": ["13:39 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or ceased to go out after Absalom"
-              ]
+              "content": ["Or ceased to go out after Absalom"]
             }
           ],
           "caller": "+"
@@ -7019,9 +6617,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Absalom’s Return to Jerusalem\n"
-      ]
+      "content": ["Absalom’s Return to Jerusalem\n"]
     },
     {
       "type": "para",
@@ -7216,9 +6812,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Speak,” he replied. \n"
-      ]
+      "content": ["“Speak,” he replied. \n"]
     },
     {
       "type": "para",
@@ -7291,16 +6885,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:17 "
-              ]
+              "content": ["14:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Angel; also in verse 20"
-              ]
+              "content": ["Or Angel; also in verse 20"]
             }
           ],
           "caller": "+"
@@ -7332,9 +6922,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Let my lord the king speak,” she replied. \n"
-      ]
+      "content": ["“Let my lord the king speak,” she replied. \n"]
     },
     {
       "type": "para",
@@ -7459,9 +7047,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:26 "
-              ]
+              "content": ["14:26 "]
             },
             {
               "type": "char",
@@ -7496,9 +7082,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Absalom Reconciled to David\n"
-      ]
+      "content": ["Absalom Reconciled to David\n"]
     },
     {
       "type": "para",
@@ -7569,9 +7153,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:30 "
-              ]
+              "content": ["14:30 "]
             },
             {
               "type": "char",
@@ -7646,9 +7228,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Absalom’s Conspiracy\n"
-      ]
+      "content": ["Absalom’s Conspiracy\n"]
     },
     {
       "type": "para",
@@ -7756,16 +7336,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:7 "
-              ]
+              "content": ["15:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Syriac and some LXX manuscripts; Hebrew forty"
-              ]
+              "content": ["Syriac and some LXX manuscripts; Hebrew forty"]
             }
           ],
           "caller": "+"
@@ -7786,9 +7362,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:8 "
-              ]
+              "content": ["15:8 "]
             },
             {
               "type": "char",
@@ -7875,16 +7449,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Flees Jerusalem\n"
-      ]
+      "content": ["David Flees Jerusalem\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 3:1–8)\n"
-      ]
+      "content": ["(Psalm 3:1–8)\n"]
     },
     {
       "type": "para",
@@ -8008,9 +7578,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:20 "
-              ]
+              "content": ["15:20 "]
             },
             {
               "type": "char",
@@ -8099,16 +7667,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:24 "
-              ]
+              "content": ["15:24 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Abiathar went up"
-              ]
+              "content": ["Or Abiathar went up"]
             }
           ],
           "caller": "+"
@@ -8163,16 +7727,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:27 "
-              ]
+              "content": ["15:27 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew; LXX Behold,"
-              ]
+              "content": ["Hebrew; LXX Behold,"]
             }
           ],
           "caller": "+"
@@ -8186,9 +7746,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:27 "
-              ]
+              "content": ["15:27 "]
             },
             {
               "type": "char",
@@ -8230,16 +7788,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Weeps at the Mount of Olives\n"
-      ]
+      "content": ["David Weeps at the Mount of Olives\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 63:1–11)\n"
-      ]
+      "content": ["(Psalm 63:1–11)\n"]
     },
     {
       "type": "para",
@@ -8377,9 +7931,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David and Ziba\n"
-      ]
+      "content": ["David and Ziba\n"]
     },
     {
       "type": "para",
@@ -8485,9 +8037,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Shimei Curses David\n"
-      ]
+      "content": ["Shimei Curses David\n"]
     },
     {
       "type": "para",
@@ -8625,16 +8175,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:14 "
-              ]
+              "content": ["16:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Some LXX manuscripts arrived at the Jordan"
-              ]
+              "content": ["Some LXX manuscripts arrived at the Jordan"]
             }
           ],
           "caller": "+"
@@ -8645,9 +8191,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Counsel of Ahithophel and Hushai\n"
-      ]
+      "content": ["The Counsel of Ahithophel and Hushai\n"]
     },
     {
       "type": "para",
@@ -8791,9 +8335,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Hushai Counters Ahithophel’s Advice\n"
-      ]
+      "content": ["Hushai Counters Ahithophel’s Advice\n"]
     },
     {
       "type": "para",
@@ -8832,9 +8374,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:3 "
-              ]
+              "content": ["17:3 "]
             },
             {
               "type": "char",
@@ -8947,16 +8487,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:9 "
-              ]
+              "content": ["17:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or If he should attack your troops first"
-              ]
+              "content": ["Or If he should attack your troops first"]
             }
           ],
           "caller": "+"
@@ -9032,16 +8568,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Hushai’s Warning Saves David\n"
-      ]
+      "content": ["Hushai’s Warning Saves David\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 55:1–23)\n"
-      ]
+      "content": ["(Psalm 55:1–23)\n"]
     },
     {
       "type": "para",
@@ -9207,16 +8739,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:25 "
-              ]
+              "content": ["17:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Ithra is a variant of Jether; see 1 Kings 2:5."
-              ]
+              "content": ["Ithra is a variant of Jether; see 1 Kings 2:5."]
             }
           ],
           "caller": "+"
@@ -9230,9 +8758,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:25 "
-              ]
+              "content": ["17:25 "]
             },
             {
               "type": "char",
@@ -9253,16 +8779,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:25 "
-              ]
+              "content": ["17:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Abigal, a variant of Abigail"
-              ]
+              "content": ["Or Abigal, a variant of Abigail"]
             }
           ],
           "caller": "+"
@@ -9276,16 +8798,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:25 "
-              ]
+              "content": ["17:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or of Jesse; see DSS and 1 Chronicles 2:13–16"
-              ]
+              "content": ["Or of Jesse; see DSS and 1 Chronicles 2:13–16"]
             }
           ],
           "caller": "+"
@@ -9330,9 +8848,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "17:28 "
-              ]
+              "content": ["17:28 "]
             },
             {
               "type": "char",
@@ -9363,9 +8879,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Absalom Killed\n"
-      ]
+      "content": ["Absalom Killed\n"]
     },
     {
       "type": "para",
@@ -9414,9 +8928,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:3 "
-              ]
+              "content": ["18:3 "]
             },
             {
               "type": "char",
@@ -9519,9 +9031,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:9 "
-              ]
+              "content": ["18:9 "]
             },
             {
               "type": "char",
@@ -9566,9 +9076,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:11 "
-              ]
+              "content": ["18:11 "]
             },
             {
               "type": "char",
@@ -9606,9 +9114,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:12 "
-              ]
+              "content": ["18:12 "]
             },
             {
               "type": "char",
@@ -9629,9 +9135,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:12 "
-              ]
+              "content": ["18:12 "]
             },
             {
               "type": "char",
@@ -9659,16 +9163,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:13 "
-              ]
+              "content": ["18:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or If I had dealt treacherously against his life"
-              ]
+              "content": ["Or If I had dealt treacherously against his life"]
             }
           ],
           "caller": "+"
@@ -9744,9 +9244,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Mourns for Absalom\n"
-      ]
+      "content": ["David Mourns for Absalom\n"]
     },
     {
       "type": "para",
@@ -9851,9 +9349,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Then run!” Joab told him. \n"
-      ]
+      "content": ["“Then run!” Joab told him. \n"]
     },
     {
       "type": "para",
@@ -9872,16 +9368,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:23 "
-              ]
+              "content": ["18:23 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "That is, the plain of the Jordan"
-              ]
+              "content": ["That is, the plain of the Jordan"]
             }
           ],
           "caller": "+"
@@ -9949,9 +9441,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“This one also brings good news,” said the king. \n"
-      ]
+      "content": ["“This one also brings good news,” said the king. \n"]
     },
     {
       "type": "para",
@@ -10061,9 +9551,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "So he stepped aside. \n"
-      ]
+      "content": ["So he stepped aside. \n"]
     },
     {
       "type": "para",
@@ -10136,9 +9624,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Joab Reproves David\n"
-      ]
+      "content": ["Joab Reproves David\n"]
     },
     {
       "type": "para",
@@ -10232,9 +9718,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Restored as King\n"
-      ]
+      "content": ["David Restored as King\n"]
     },
     {
       "type": "para",
@@ -10346,9 +9830,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Shimei Pardoned\n"
-      ]
+      "content": ["Shimei Pardoned\n"]
     },
     {
       "type": "para",
@@ -10471,9 +9953,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Mephibosheth Excused\n"
-      ]
+      "content": ["Mephibosheth Excused\n"]
     },
     {
       "type": "para",
@@ -10522,9 +10002,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:26 "
-              ]
+              "content": ["19:26 "]
             },
             {
               "type": "char",
@@ -10563,16 +10041,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:27 "
-              ]
+              "content": ["19:27 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Angel"
-              ]
+              "content": ["Or Angel"]
             }
           ],
           "caller": "+"
@@ -10624,9 +10098,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Kindness to Barzillai\n"
-      ]
+      "content": ["David’s Kindness to Barzillai\n"]
     },
     {
       "type": "para",
@@ -10771,9 +10243,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Contention over the King\n"
-      ]
+      "content": ["Contention over the King\n"]
     },
     {
       "type": "para",
@@ -10846,9 +10316,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Sheba’s Rebellion\n"
-      ]
+      "content": ["Sheba’s Rebellion\n"]
     },
     {
       "type": "para",
@@ -10874,30 +10342,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“We have no share in David, \n"
-      ]
+      "content": ["“We have no share in David, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "no inheritance in Jesse’s son. \n"
-      ]
+      "content": ["no inheritance in Jesse’s son. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Every man to his tent, \n"
-      ]
+      "content": ["Every man to his tent, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "O Israel!” \n"
-      ]
+      "content": ["O Israel!” \n"]
     },
     {
       "type": "para",
@@ -10990,9 +10450,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:6 "
-              ]
+              "content": ["20:6 "]
             },
             {
               "type": "char",
@@ -11048,9 +10506,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:8 "
-              ]
+              "content": ["20:8 "]
             },
             {
               "type": "char",
@@ -11143,16 +10599,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:14 "
-              ]
+              "content": ["20:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew to Abel and Beth-maacah; see verse 15."
-              ]
+              "content": ["Hebrew to Abel and Beth-maacah; see verse 15."]
             }
           ],
           "caller": "+"
@@ -11166,16 +10618,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:14 "
-              ]
+              "content": ["20:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew; LXX and Vulgate Bicrites"
-              ]
+              "content": ["Hebrew; LXX and Vulgate Bicrites"]
             }
           ],
           "caller": "+"
@@ -11242,9 +10690,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“I am,” he replied. \n"
-      ]
+      "content": ["“I am,” he replied. \n"]
     },
     {
       "type": "para",
@@ -11253,9 +10699,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Listen to the words of your servant,” she said. \n"
-      ]
+      "content": ["“Listen to the words of your servant,” she said. \n"]
     },
     {
       "type": "para",
@@ -11264,9 +10708,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“I am listening,” he answered. \n"
-      ]
+      "content": ["“I am listening,” he answered. \n"]
     },
     {
       "type": "para",
@@ -11374,9 +10816,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:24 "
-              ]
+              "content": ["20:24 "]
             },
             {
               "type": "char",
@@ -11404,9 +10844,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:25 "
-              ]
+              "content": ["20:25 "]
             },
             {
               "type": "char",
@@ -11434,9 +10872,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:26 "
-              ]
+              "content": ["20:26 "]
             },
             {
               "type": "char",
@@ -11460,9 +10896,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Avenges the Gibeonites\n"
-      ]
+      "content": ["David Avenges the Gibeonites\n"]
     },
     {
       "type": "para",
@@ -11550,9 +10984,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“Whatever you ask, I will do for you,” he replied. \n"
-      ]
+      "content": ["“Whatever you ask, I will do for you,” he replied. \n"]
     },
     {
       "type": "para",
@@ -11584,9 +11016,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:6 "
-              ]
+              "content": ["21:6 "]
             },
             {
               "type": "char",
@@ -11608,9 +11038,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“I will give them to you,” said the king. \n"
-      ]
+      "content": ["“I will give them to you,” said the king. \n"]
     },
     {
       "type": "para",
@@ -11642,9 +11070,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:8 "
-              ]
+              "content": ["21:8 "]
             },
             {
               "type": "char",
@@ -11745,16 +11171,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Four Battles against the Philistines\n"
-      ]
+      "content": ["Four Battles against the Philistines\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 20:4–8)\n"
-      ]
+      "content": ["(1 Chronicles 20:4–8)\n"]
     },
     {
       "type": "para",
@@ -11796,16 +11218,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:16 "
-              ]
+              "content": ["21:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the giant; also in verses 18, 20, and 22"
-              ]
+              "content": ["Or the giant; also in verses 18, 20, and 22"]
             }
           ],
           "caller": "+"
@@ -11819,9 +11237,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:16 "
-              ]
+              "content": ["21:16 "]
             },
             {
               "type": "char",
@@ -11877,16 +11293,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:18 "
-              ]
+              "content": ["21:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Saph is a variant of Sippai; see 1 Chronicles 20:4."
-              ]
+              "content": ["Saph is a variant of Sippai; see 1 Chronicles 20:4."]
             }
           ],
           "caller": "+"
@@ -11917,16 +11329,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:19 "
-              ]
+              "content": ["21:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See 1 Chronicles 20:5; Hebrew Jaare-oregim"
-              ]
+              "content": ["See 1 Chronicles 20:5; Hebrew Jaare-oregim"]
             }
           ],
           "caller": "+"
@@ -11940,9 +11348,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:19 "
-              ]
+              "content": ["21:19 "]
             },
             {
               "type": "char",
@@ -11987,9 +11393,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:21 "
-              ]
+              "content": ["21:21 "]
             },
             {
               "type": "char",
@@ -12030,16 +11434,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Song of Deliverance\n"
-      ]
+      "content": ["David’s Song of Deliverance\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 18:1–50)\n"
-      ]
+      "content": ["(Psalm 18:1–50)\n"]
     },
     {
       "type": "para",
@@ -12072,16 +11472,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“The LORD is my rock, \n"
-      ]
+      "content": ["“The LORD is my rock, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "my fortress, and my deliverer. \n"
-      ]
+      "content": ["my fortress, and my deliverer. \n"]
     },
     {
       "type": "para",
@@ -12099,23 +11495,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "my shield, and the horn of my salvation. \n"
-      ]
+      "content": ["my shield, and the horn of my salvation. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "My stronghold, my refuge, and my Savior, \n"
-      ]
+      "content": ["My stronghold, my refuge, and my Savior, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "You save me from violence. \n"
-      ]
+      "content": ["You save me from violence. \n"]
     },
     {
       "type": "para",
@@ -12133,9 +11523,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "so shall I be saved from my enemies. \n"
-      ]
+      "content": ["so shall I be saved from my enemies. \n"]
     },
     {
       "type": "para",
@@ -12157,9 +11545,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the torrents of chaos overwhelmed me. \n"
-      ]
+      "content": ["the torrents of chaos overwhelmed me. \n"]
     },
     {
       "type": "para",
@@ -12177,9 +11563,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the snares of death confronted me. \n"
-      ]
+      "content": ["the snares of death confronted me. \n"]
     },
     {
       "type": "para",
@@ -12197,23 +11581,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I cried out to my God. \n"
-      ]
+      "content": ["I cried out to my God. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "And from His temple He heard my voice, \n"
-      ]
+      "content": ["And from His temple He heard my voice, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and my cry for help reached His ears. \n"
-      ]
+      "content": ["and my cry for help reached His ears. \n"]
     },
     {
       "type": "para",
@@ -12245,9 +11623,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:8 "
-              ]
+              "content": ["22:8 "]
             },
             {
               "type": "char",
@@ -12265,9 +11641,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "they were shaken because He burned with anger. \n"
-      ]
+      "content": ["they were shaken because He burned with anger. \n"]
     },
     {
       "type": "para",
@@ -12285,16 +11659,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and consuming fire came from His mouth; \n"
-      ]
+      "content": ["and consuming fire came from His mouth; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "glowing coals blazed forth. \n"
-      ]
+      "content": ["glowing coals blazed forth. \n"]
     },
     {
       "type": "para",
@@ -12316,9 +11686,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "with dark clouds beneath His feet. \n"
-      ]
+      "content": ["with dark clouds beneath His feet. \n"]
     },
     {
       "type": "para",
@@ -12346,9 +11714,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:11 "
-              ]
+              "content": ["22:11 "]
             },
             {
               "type": "char",
@@ -12379,9 +11745,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a gathering of water and thick clouds. \n"
-      ]
+      "content": ["a gathering of water and thick clouds. \n"]
     },
     {
       "type": "para",
@@ -12409,16 +11773,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:13 "
-              ]
+              "content": ["22:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or bolts of lightning"
-              ]
+              "content": ["Or bolts of lightning"]
             }
           ],
           "caller": "+"
@@ -12446,9 +11806,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the voice of the Most High resounded. \n"
-      ]
+      "content": ["the voice of the Most High resounded. \n"]
     },
     {
       "type": "para",
@@ -12466,9 +11824,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He hurled lightning and routed them. \n"
-      ]
+      "content": ["He hurled lightning and routed them. \n"]
     },
     {
       "type": "para",
@@ -12486,23 +11842,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the foundations of the world were exposed \n"
-      ]
+      "content": ["and the foundations of the world were exposed \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "at the rebuke of the LORD, \n"
-      ]
+      "content": ["at the rebuke of the LORD, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "at the blast of the breath of His nostrils. \n"
-      ]
+      "content": ["at the blast of the breath of His nostrils. \n"]
     },
     {
       "type": "para",
@@ -12524,9 +11874,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He drew me out of deep waters. \n"
-      ]
+      "content": ["He drew me out of deep waters. \n"]
     },
     {
       "type": "para",
@@ -12544,9 +11892,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "from foes too mighty for me. \n"
-      ]
+      "content": ["from foes too mighty for me. \n"]
     },
     {
       "type": "para",
@@ -12564,9 +11910,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but the LORD was my support. \n"
-      ]
+      "content": ["but the LORD was my support. \n"]
     },
     {
       "type": "para",
@@ -12584,9 +11928,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He rescued me because He delighted in me. \n"
-      ]
+      "content": ["He rescued me because He delighted in me. \n"]
     },
     {
       "type": "para",
@@ -12608,9 +11950,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He has repaid me according to the cleanness of my hands. \n"
-      ]
+      "content": ["He has repaid me according to the cleanness of my hands. \n"]
     },
     {
       "type": "para",
@@ -12628,9 +11968,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and have not wickedly departed from my God. \n"
-      ]
+      "content": ["and have not wickedly departed from my God. \n"]
     },
     {
       "type": "para",
@@ -12648,9 +11986,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I have not disregarded His statutes. \n"
-      ]
+      "content": ["I have not disregarded His statutes. \n"]
     },
     {
       "type": "para",
@@ -12668,9 +12004,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and kept myself from iniquity. \n"
-      ]
+      "content": ["and kept myself from iniquity. \n"]
     },
     {
       "type": "para",
@@ -12698,9 +12032,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:25 "
-              ]
+              "content": ["22:25 "]
             },
             {
               "type": "char",
@@ -12735,9 +12067,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to the blameless You show Yourself blameless; \n"
-      ]
+      "content": ["to the blameless You show Yourself blameless; \n"]
     },
     {
       "type": "para",
@@ -12755,9 +12085,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but to the crooked You show Yourself shrewd. \n"
-      ]
+      "content": ["but to the crooked You show Yourself shrewd. \n"]
     },
     {
       "type": "para",
@@ -12775,9 +12103,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "but Your eyes are on the haughty to bring them down. \n"
-      ]
+      "content": ["but Your eyes are on the haughty to bring them down. \n"]
     },
     {
       "type": "para",
@@ -12799,9 +12125,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the LORD lights up my darkness. \n"
-      ]
+      "content": ["the LORD lights up my darkness. \n"]
     },
     {
       "type": "para",
@@ -12819,9 +12143,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "with my God I can scale a wall. \n"
-      ]
+      "content": ["with my God I can scale a wall. \n"]
     },
     {
       "type": "para",
@@ -12839,23 +12161,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the word of the LORD is flawless. \n"
-      ]
+      "content": ["the word of the LORD is flawless. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "He is a shield to all \n"
-      ]
+      "content": ["He is a shield to all \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "who take refuge in Him. \n"
-      ]
+      "content": ["who take refuge in Him. \n"]
     },
     {
       "type": "para",
@@ -12877,9 +12193,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "And who is the Rock except our God? \n"
-      ]
+      "content": ["And who is the Rock except our God? \n"]
     },
     {
       "type": "para",
@@ -12897,9 +12211,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and He makes my way clear. \n"
-      ]
+      "content": ["and He makes my way clear. \n"]
     },
     {
       "type": "para",
@@ -12917,9 +12229,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and stations me upon the heights. \n"
-      ]
+      "content": ["and stations me upon the heights. \n"]
     },
     {
       "type": "para",
@@ -12937,9 +12247,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "my arms can bend a bow of bronze. \n"
-      ]
+      "content": ["my arms can bend a bow of bronze. \n"]
     },
     {
       "type": "para",
@@ -12971,9 +12279,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:36 "
-              ]
+              "content": ["22:36 "]
             },
             {
               "type": "char",
@@ -13004,9 +12310,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "so that my ankles do not give way. \n"
-      ]
+      "content": ["so that my ankles do not give way. \n"]
     },
     {
       "type": "para",
@@ -13024,9 +12328,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I did not turn back until they were consumed. \n"
-      ]
+      "content": ["I did not turn back until they were consumed. \n"]
     },
     {
       "type": "para",
@@ -13044,9 +12346,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "they have fallen under my feet. \n"
-      ]
+      "content": ["they have fallen under my feet. \n"]
     },
     {
       "type": "para",
@@ -13068,9 +12368,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "You have subdued my foes beneath me. \n"
-      ]
+      "content": ["You have subdued my foes beneath me. \n"]
     },
     {
       "type": "para",
@@ -13088,9 +12386,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I put an end to those who hated me. \n"
-      ]
+      "content": ["I put an end to those who hated me. \n"]
     },
     {
       "type": "para",
@@ -13108,9 +12404,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to the LORD, but He did not answer. \n"
-      ]
+      "content": ["to the LORD, but He did not answer. \n"]
     },
     {
       "type": "para",
@@ -13128,9 +12422,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I crushed and trampled them like mud in the streets. \n"
-      ]
+      "content": ["I crushed and trampled them like mud in the streets. \n"]
     },
     {
       "type": "para",
@@ -13152,16 +12444,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "You have preserved me as the head of nations; \n"
-      ]
+      "content": ["You have preserved me as the head of nations; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a people I had not known shall serve me. \n"
-      ]
+      "content": ["a people I had not known shall serve me. \n"]
     },
     {
       "type": "para",
@@ -13179,9 +12467,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "when they hear me, they obey me. \n"
-      ]
+      "content": ["when they hear me, they obey me. \n"]
     },
     {
       "type": "para",
@@ -13209,9 +12495,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:46 "
-              ]
+              "content": ["22:46 "]
             },
             {
               "type": "char",
@@ -13246,9 +12530,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "And may God, the Rock of my salvation, be exalted—\n"
-      ]
+      "content": ["And may God, the Rock of my salvation, be exalted—\n"]
     },
     {
       "type": "para",
@@ -13266,9 +12548,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and brings down nations beneath me, \n"
-      ]
+      "content": ["and brings down nations beneath me, \n"]
     },
     {
       "type": "para",
@@ -13286,16 +12566,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "You exalt me above my foes; \n"
-      ]
+      "content": ["You exalt me above my foes; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "You rescue me from violent men. \n"
-      ]
+      "content": ["You rescue me from violent men. \n"]
     },
     {
       "type": "para",
@@ -13323,16 +12599,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:50 "
-              ]
+              "content": ["22:50 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in Romans 15:9"
-              ]
+              "content": ["Cited in Romans 15:9"]
             }
           ],
           "caller": "+"
@@ -13360,16 +12632,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He shows loving devotion to His anointed, \n"
-      ]
+      "content": ["He shows loving devotion to His anointed, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to David and his descendants forever.” \n"
-      ]
+      "content": ["to David and his descendants forever.” \n"]
     },
     {
       "type": "chapter",
@@ -13380,9 +12648,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Last Song\n"
-      ]
+      "content": ["David’s Last Song\n"]
     },
     {
       "type": "para",
@@ -13408,23 +12674,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“The oracle of David son of Jesse, \n"
-      ]
+      "content": ["“The oracle of David son of Jesse, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the oracle of the man raised on high, \n"
-      ]
+      "content": ["the oracle of the man raised on high, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "the one anointed by the God of Jacob, \n"
-      ]
+      "content": ["the one anointed by the God of Jacob, \n"]
     },
     {
       "type": "para",
@@ -13439,9 +12699,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:1 "
-              ]
+              "content": ["23:1 "]
             },
             {
               "type": "char",
@@ -13476,9 +12734,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "His word was on my tongue. \n"
-      ]
+      "content": ["His word was on my tongue. \n"]
     },
     {
       "type": "para",
@@ -13496,23 +12752,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the Rock of Israel said to me, \n"
-      ]
+      "content": ["the Rock of Israel said to me, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "‘He who rules the people with justice, \n"
-      ]
+      "content": ["‘He who rules the people with justice, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "who rules in the fear of God, \n"
-      ]
+      "content": ["who rules in the fear of God, \n"]
     },
     {
       "type": "para",
@@ -13530,23 +12780,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "at sunrise of a cloudless dawn, \n"
-      ]
+      "content": ["at sunrise of a cloudless dawn, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "the glistening after the rain \n"
-      ]
+      "content": ["the glistening after the rain \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "on the sprouting grass of the earth.’ \n"
-      ]
+      "content": ["on the sprouting grass of the earth.’ \n"]
     },
     {
       "type": "para",
@@ -13568,37 +12812,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "For He has established with me \n"
-      ]
+      "content": ["For He has established with me \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "an everlasting covenant, \n"
-      ]
+      "content": ["an everlasting covenant, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "ordered and secured in every part. \n"
-      ]
+      "content": ["ordered and secured in every part. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Will He not bring about my full salvation \n"
-      ]
+      "content": ["Will He not bring about my full salvation \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and my every desire? \n"
-      ]
+      "content": ["and my every desire? \n"]
     },
     {
       "type": "para",
@@ -13620,9 +12854,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for they can never be gathered by hand. \n"
-      ]
+      "content": ["for they can never be gathered by hand. \n"]
     },
     {
       "type": "para",
@@ -13640,37 +12872,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "or with the shaft of a spear. \n"
-      ]
+      "content": ["or with the shaft of a spear. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "The fire burns them to ashes \n"
-      ]
+      "content": ["The fire burns them to ashes \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "in the place where they lie.” \n"
-      ]
+      "content": ["in the place where they lie.” \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Mighty Men\n"
-      ]
+      "content": ["David’s Mighty Men\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 11:10–47)\n"
-      ]
+      "content": ["(1 Chronicles 11:10–47)\n"]
     },
     {
       "type": "para",
@@ -13706,9 +12928,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:8 "
-              ]
+              "content": ["23:8 "]
             },
             {
               "type": "char",
@@ -13729,16 +12949,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:8 "
-              ]
+              "content": ["23:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or chief among the captains"
-              ]
+              "content": ["Or chief among the captains"]
             }
           ],
           "caller": "+"
@@ -13752,9 +12968,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:8 "
-              ]
+              "content": ["23:8 "]
             },
             {
               "type": "char",
@@ -13792,16 +13006,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:9 "
-              ]
+              "content": ["23:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Dodo is a variant of Dodai; see 1 Chronicles 27:4."
-              ]
+              "content": ["Dodo is a variant of Dodai; see 1 Chronicles 27:4."]
             }
           ],
           "caller": "+"
@@ -13902,9 +13112,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Such were the exploits of the three mighty men. \n"
-      ]
+      "content": ["Such were the exploits of the three mighty men. \n"]
     },
     {
       "type": "para",
@@ -13929,9 +13137,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:18 "
-              ]
+              "content": ["23:18 "]
             },
             {
               "type": "char",
@@ -13959,16 +13165,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:19 "
-              ]
+              "content": ["23:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hebrew; Syriac the Thirty"
-              ]
+              "content": ["Hebrew; Syriac the Thirty"]
             }
           ],
           "caller": "+"
@@ -13999,16 +13201,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:20 "
-              ]
+              "content": ["23:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Benaiah son of Jehoiada was the son of Ishhai"
-              ]
+              "content": ["Or Benaiah son of Jehoiada was the son of Ishhai"]
             }
           ],
           "caller": "+"
@@ -14022,16 +13220,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:20 "
-              ]
+              "content": ["23:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or two sons of Ariel"
-              ]
+              "content": ["Or two sons of Ariel"]
             }
           ],
           "caller": "+"
@@ -14083,16 +13277,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:24 "
-              ]
+              "content": ["23:24 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally In the Thirty (were):"
-              ]
+              "content": ["Literally In the Thirty (were):"]
             }
           ],
           "caller": "+"
@@ -14107,9 +13297,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Asahel the brother of Joab, \n"
-      ]
+      "content": ["Asahel the brother of Joab, \n"]
     },
     {
       "type": "para",
@@ -14118,9 +13306,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Elhanan son of Dodo of Bethlehem, \n"
-      ]
+      "content": ["Elhanan son of Dodo of Bethlehem, \n"]
     },
     {
       "type": "para",
@@ -14146,9 +13332,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Elika the Harodite, \n"
-      ]
+      "content": ["Elika the Harodite, \n"]
     },
     {
       "type": "para",
@@ -14174,9 +13358,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Ira son of Ikkesh the Tekoite, \n"
-      ]
+      "content": ["Ira son of Ikkesh the Tekoite, \n"]
     },
     {
       "type": "para",
@@ -14212,9 +13394,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:27 "
-              ]
+              "content": ["23:27 "]
             },
             {
               "type": "char",
@@ -14253,9 +13433,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Maharai the Netophathite, \n"
-      ]
+      "content": ["Maharai the Netophathite, \n"]
     },
     {
       "type": "para",
@@ -14280,9 +13458,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:29 "
-              ]
+              "content": ["23:29 "]
             },
             {
               "type": "char",
@@ -14314,9 +13490,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:29 "
-              ]
+              "content": ["23:29 "]
             },
             {
               "type": "char",
@@ -14365,9 +13539,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:30 "
-              ]
+              "content": ["23:30 "]
             },
             {
               "type": "char",
@@ -14388,16 +13560,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:30 "
-              ]
+              "content": ["23:30 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or from the ravines"
-              ]
+              "content": ["Or from the ravines"]
             }
           ],
           "caller": "+"
@@ -14429,9 +13597,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Azmaveth the Barhumite, \n"
-      ]
+      "content": ["Azmaveth the Barhumite, \n"]
     },
     {
       "type": "para",
@@ -14467,9 +13633,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:32 "
-              ]
+              "content": ["23:32 "]
             },
             {
               "type": "char",
@@ -14508,9 +13672,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:33 "
-              ]
+              "content": ["23:33 "]
             },
             {
               "type": "char",
@@ -14542,9 +13704,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "23:33 "
-              ]
+              "content": ["23:33 "]
             },
             {
               "type": "char",
@@ -14583,9 +13743,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Eliam son of Ahithophel the Gilonite, \n"
-      ]
+      "content": ["Eliam son of Ahithophel the Gilonite, \n"]
     },
     {
       "type": "para",
@@ -14611,9 +13769,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Paarai the Arbite, \n"
-      ]
+      "content": ["Paarai the Arbite, \n"]
     },
     {
       "type": "para",
@@ -14639,9 +13795,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Bani the Gadite, \n"
-      ]
+      "content": ["Bani the Gadite, \n"]
     },
     {
       "type": "para",
@@ -14695,9 +13849,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "Gareb the Ithrite, \n"
-      ]
+      "content": ["Gareb the Ithrite, \n"]
     },
     {
       "type": "para",
@@ -14723,9 +13875,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "There were thirty-seven in all. \n"
-      ]
+      "content": ["There were thirty-seven in all. \n"]
     },
     {
       "type": "chapter",
@@ -14736,16 +13886,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David’s Military Census\n"
-      ]
+      "content": ["David’s Military Census\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Exodus 30:11–16; 1 Chronicles 21:1–6)\n"
-      ]
+      "content": ["(Exodus 30:11–16; 1 Chronicles 21:1–6)\n"]
     },
     {
       "type": "para",
@@ -14787,16 +13933,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:2 "
-              ]
+              "content": ["24:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX to Joab and the army commanders with him"
-              ]
+              "content": ["LXX to Joab and the army commanders with him"]
             }
           ],
           "caller": "+"
@@ -14868,9 +14010,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:6 "
-              ]
+              "content": ["24:6 "]
             },
             {
               "type": "char",
@@ -14898,16 +14038,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:7 "
-              ]
+              "content": ["24:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or to the south of Judah"
-              ]
+              "content": ["Or to the south of Judah"]
             }
           ],
           "caller": "+"
@@ -14942,16 +14078,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Judgment for David’s Sin\n"
-      ]
+      "content": ["Judgment for David’s Sin\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 21:7–13)\n"
-      ]
+      "content": ["(1 Chronicles 21:7–13)\n"]
     },
     {
       "type": "para",
@@ -15017,16 +14149,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:13 "
-              ]
+              "content": ["24:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX (see also 1 Chronicles 21:12); Hebrew seven"
-              ]
+              "content": ["LXX (see also 1 Chronicles 21:12); Hebrew seven"]
             }
           ],
           "caller": "+"
@@ -15054,16 +14182,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Plague on Israel\n"
-      ]
+      "content": ["A Plague on Israel\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 21:14–17)\n"
-      ]
+      "content": ["(1 Chronicles 21:14–17)\n"]
     },
     {
       "type": "para",
@@ -15088,9 +14212,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:15 "
-              ]
+              "content": ["24:15 "]
             },
             {
               "type": "char",
@@ -15128,9 +14250,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:16 "
-              ]
+              "content": ["24:16 "]
             },
             {
               "type": "char",
@@ -15168,16 +14288,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:17 "
-              ]
+              "content": ["24:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "DSS and LXX; MT does not include the shepherd."
-              ]
+              "content": ["DSS and LXX; MT does not include the shepherd."]
             }
           ],
           "caller": "+"
@@ -15188,16 +14304,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "David Builds an Altar\n"
-      ]
+      "content": ["David Builds an Altar\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Chronicles 21:18–30)\n"
-      ]
+      "content": ["(1 Chronicles 21:18–30)\n"]
     },
     {
       "type": "para",
@@ -15316,9 +14428,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "24:24 "
-              ]
+              "content": ["24:24 "]
             },
             {
               "type": "char",

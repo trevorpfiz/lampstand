@@ -1,7 +1,5 @@
 'use client';
 
-import React from 'react';
-
 import { cn, withRef } from '@udecode/cn';
 import { useFocused, useReadOnly, useSelected } from 'slate-react';
 

@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import type React from 'react';
 
 import type { DropdownMenuItemProps } from '@radix-ui/react-dropdown-menu';
 
@@ -47,8 +47,8 @@ export function ColorDropdownMenuItem({
           size: 'icon',
           variant: 'outline',
         }),
-        'my-1 flex size-6 items-center justify-center rounded-full border border-solid border-muted p-0 transition-all hover:scale-125',
-        !isBrightColor && 'border-transparent text-white hover:!text-white',
+        'my-1 flex size-6 items-center justify-center rounded-full border border-muted border-solid p-0 transition-all hover:scale-125',
+        !isBrightColor && 'hover:!text-white border-transparent text-white',
         className
       )}
       style={{ backgroundColor: value }}

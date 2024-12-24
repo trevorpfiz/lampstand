@@ -1,10 +1,10 @@
-import type { TRPCRouterRecord } from "@trpc/server";
-import { and, desc, eq } from "drizzle-orm";
-import { z } from "zod";
+import type { TRPCRouterRecord } from '@trpc/server';
+import { and, desc, eq } from 'drizzle-orm';
+import { z } from 'zod';
 
-import { Chat, chatVisibilitySchema, insertChatParams } from "@lamp/db/schema";
+import { Chat, chatVisibilitySchema, insertChatParams } from '@lamp/db/schema';
 
-import { protectedProcedure } from "../trpc";
+import { protectedProcedure } from '../trpc';
 
 export const chatRouter = {
   byStudy: protectedProcedure
@@ -89,7 +89,7 @@ export const chatRouter = {
       z.object({
         id: z.string(),
         title: z.string(),
-      }),
+      })
     )
     .mutation(async ({ ctx, input }) => {
       const { db, user } = ctx;

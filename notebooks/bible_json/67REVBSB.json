@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "REV"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Revelation\n"
-      ]
+      "content": ["Revelation\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Revelation\n"
-      ]
+      "content": ["Revelation\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Revelation\n"
-      ]
+      "content": ["Revelation\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Prologue\n"
-      ]
+      "content": ["Prologue\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Daniel 12:1–13)\n"
-      ]
+      "content": ["(Daniel 12:1–13)\n"]
     },
     {
       "type": "para",
@@ -74,16 +62,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:1 "
-              ]
+              "content": ["1:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or suddenly or quickly"
-              ]
+              "content": ["Or suddenly or quickly"]
             }
           ],
           "caller": "+"
@@ -118,9 +102,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "John Greets the Seven Churches\n"
-      ]
+      "content": ["John Greets the Seven Churches\n"]
     },
     {
       "type": "para",
@@ -156,9 +138,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:4 "
-              ]
+              "content": ["1:4 "]
             },
             {
               "type": "char",
@@ -190,16 +170,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:4 "
-              ]
+              "content": ["1:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the sevenfold Spirit"
-              ]
+              "content": ["Or the sevenfold Spirit"]
             }
           ],
           "caller": "+"
@@ -272,9 +248,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:8 "
-              ]
+              "content": ["1:8 "]
             },
             {
               "type": "char",
@@ -292,9 +266,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "John’s Vision on Patmos\n"
-      ]
+      "content": ["John’s Vision on Patmos\n"]
     },
     {
       "type": "para",
@@ -333,9 +305,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:11 "
-              ]
+              "content": ["1:11 "]
             },
             {
               "type": "char",
@@ -380,16 +350,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:13 "
-              ]
+              "content": ["1:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or one like a son of man; see Daniel 7:13."
-              ]
+              "content": ["Or one like a son of man; see Daniel 7:13."]
             }
           ],
           "caller": "+"
@@ -475,16 +441,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "To the Church in Ephesus\n"
-      ]
+      "content": ["To the Church in Ephesus\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Acts 19:8–12; Ephesians 1:1–2)\n"
-      ]
+      "content": ["(Acts 19:8–12; Ephesians 1:1–2)\n"]
     },
     {
       "type": "para",
@@ -599,9 +561,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "To the Church in Smyrna\n"
-      ]
+      "content": ["To the Church in Smyrna\n"]
     },
     {
       "type": "para",
@@ -685,9 +645,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "To the Church in Pergamum\n"
-      ]
+      "content": ["To the Church in Pergamum\n"]
     },
     {
       "type": "para",
@@ -785,16 +743,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "To the Church in Thyatira\n"
-      ]
+      "content": ["To the Church in Thyatira\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Acts 16:11–15)\n"
-      ]
+      "content": ["(Acts 16:11–15)\n"]
     },
     {
       "type": "para",
@@ -933,16 +887,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:27 "
-              ]
+              "content": ["2:27 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 2:9 (see also LXX)"
-              ]
+              "content": ["Psalm 2:9 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -983,9 +933,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "To the Church in Sardis\n"
-      ]
+      "content": ["To the Church in Sardis\n"]
     },
     {
       "type": "para",
@@ -1021,16 +969,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:1 "
-              ]
+              "content": ["3:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the sevenfold Spirit"
-              ]
+              "content": ["Or the sevenfold Spirit"]
             }
           ],
           "caller": "+"
@@ -1093,16 +1037,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:5 "
-              ]
+              "content": ["3:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or scrape off"
-              ]
+              "content": ["Or scrape off"]
             }
           ],
           "caller": "+"
@@ -1130,9 +1070,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "To the Church in Philadelphia\n"
-      ]
+      "content": ["To the Church in Philadelphia\n"]
     },
     {
       "type": "para",
@@ -1168,16 +1106,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:7 "
-              ]
+              "content": ["3:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Isaiah 22:22."
-              ]
+              "content": ["See Isaiah 22:22."]
             }
           ],
           "caller": "+"
@@ -1239,16 +1173,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:11 "
-              ]
+              "content": ["3:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or suddenly or quickly"
-              ]
+              "content": ["Or suddenly or quickly"]
             }
           ],
           "caller": "+"
@@ -1283,16 +1213,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "To the Church in Laodicea\n"
-      ]
+      "content": ["To the Church in Laodicea\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Colossians 2:1–5)\n"
-      ]
+      "content": ["(Colossians 2:1–5)\n"]
     },
     {
       "type": "para",
@@ -1328,16 +1254,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:14 "
-              ]
+              "content": ["3:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or Beginning or Ruler"
-              ]
+              "content": ["Or Beginning or Ruler"]
             }
           ],
           "caller": "+"
@@ -1450,9 +1372,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Throne in Heaven\n"
-      ]
+      "content": ["The Throne in Heaven\n"]
     },
     {
       "type": "para",
@@ -1505,9 +1425,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Worship of the Creator\n"
-      ]
+      "content": ["Worship of the Creator\n"]
     },
     {
       "type": "para",
@@ -1532,16 +1450,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:5 "
-              ]
+              "content": ["4:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or This is the sevenfold Spirit"
-              ]
+              "content": ["Or This is the sevenfold Spirit"]
             }
           ],
           "caller": "+"
@@ -1577,23 +1491,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Holy, Holy, Holy, \n"
-      ]
+      "content": ["“Holy, Holy, Holy, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "is the Lord God Almighty, \n"
-      ]
+      "content": ["is the Lord God Almighty, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "who was and is and is to come!” \n"
-      ]
+      "content": ["who was and is and is to come!” \n"]
     },
     {
       "type": "para",
@@ -1639,23 +1547,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to receive glory and honor and power, \n"
-      ]
+      "content": ["to receive glory and honor and power, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "for You created all things; \n"
-      ]
+      "content": ["for You created all things; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "by Your will they exist and came to be.” \n"
-      ]
+      "content": ["by Your will they exist and came to be.” \n"]
     },
     {
       "type": "chapter",
@@ -1666,9 +1568,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Lamb Takes the Scroll\n"
-      ]
+      "content": ["The Lamb Takes the Scroll\n"]
     },
     {
       "type": "para",
@@ -1758,16 +1658,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:6 "
-              ]
+              "content": ["5:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the sevenfold Spirit"
-              ]
+              "content": ["Or the sevenfold Spirit"]
             }
           ],
           "caller": "+"
@@ -1813,30 +1709,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Worthy are You to take the scroll and open its seals, \n"
-      ]
+      "content": ["“Worthy are You to take the scroll and open its seals, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "because You were slain, \n"
-      ]
+      "content": ["because You were slain, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and by Your blood You purchased for God \n"
-      ]
+      "content": ["and by Your blood You purchased for God \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "those from every tribe and tongue and people and nation. \n"
-      ]
+      "content": ["those from every tribe and tongue and people and nation. \n"]
     },
     {
       "type": "para",
@@ -1854,9 +1742,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and priests to serve our God, \n"
-      ]
+      "content": ["and priests to serve our God, \n"]
     },
     {
       "type": "para",
@@ -1871,16 +1757,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:10 "
-              ]
+              "content": ["5:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or they will reign over; WH they reign upon"
-              ]
+              "content": ["Or they will reign over; WH they reign upon"]
             }
           ],
           "caller": "+"
@@ -1891,9 +1773,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Lamb Exalted\n"
-      ]
+      "content": ["The Lamb Exalted\n"]
     },
     {
       "type": "para",
@@ -1926,30 +1806,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Worthy is the Lamb, who was slain, \n"
-      ]
+      "content": ["“Worthy is the Lamb, who was slain, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "to receive power and riches \n"
-      ]
+      "content": ["to receive power and riches \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and wisdom and strength \n"
-      ]
+      "content": ["and wisdom and strength \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and honor and glory and blessing!” \n"
-      ]
+      "content": ["and honor and glory and blessing!” \n"]
     },
     {
       "type": "para",
@@ -1975,30 +1847,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“To Him who sits on the throne \n"
-      ]
+      "content": ["“To Him who sits on the throne \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and to the Lamb \n"
-      ]
+      "content": ["and to the Lamb \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "be praise and honor and glory and power \n"
-      ]
+      "content": ["be praise and honor and glory and power \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "forever and ever!” \n"
-      ]
+      "content": ["forever and ever!” \n"]
     },
     {
       "type": "para",
@@ -2023,16 +1887,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:14 "
-              ]
+              "content": ["5:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "TR includes Him who lives for ever and ever."
-              ]
+              "content": ["TR includes Him who lives for ever and ever."]
             }
           ],
           "caller": "+"
@@ -2049,9 +1909,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The First Seal: The White Horse\n"
-      ]
+      "content": ["The First Seal: The White Horse\n"]
     },
     {
       "type": "para",
@@ -2090,9 +1948,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Second Seal: War\n"
-      ]
+      "content": ["The Second Seal: War\n"]
     },
     {
       "type": "para",
@@ -2131,9 +1987,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Third Seal: Famine\n"
-      ]
+      "content": ["The Third Seal: Famine\n"]
     },
     {
       "type": "para",
@@ -2176,9 +2030,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:6 "
-              ]
+              "content": ["6:6 "]
             },
             {
               "type": "char",
@@ -2196,9 +2048,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Fourth Seal: Death\n"
-      ]
+      "content": ["The Fourth Seal: Death\n"]
     },
     {
       "type": "para",
@@ -2237,9 +2087,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Fifth Seal: The Martyrs\n"
-      ]
+      "content": ["The Fifth Seal: The Martyrs\n"]
     },
     {
       "type": "para",
@@ -2285,9 +2133,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Sixth Seal: Terror\n"
-      ]
+      "content": ["The Sixth Seal: Terror\n"]
     },
     {
       "type": "para",
@@ -2350,16 +2196,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:16 "
-              ]
+              "content": ["6:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Hosea 10:8."
-              ]
+              "content": ["See Hosea 10:8."]
             }
           ],
           "caller": "+"
@@ -2380,16 +2222,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "6:17 "
-              ]
+              "content": ["6:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR His"
-              ]
+              "content": ["BYZ and TR His"]
             }
           ],
           "caller": "+"
@@ -2406,9 +2244,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "144,000 Sealed\n"
-      ]
+      "content": ["144,000 Sealed\n"]
     },
     {
       "type": "para",
@@ -2478,16 +2314,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "from the tribe of Reuben 12,000, \n"
-      ]
+      "content": ["from the tribe of Reuben 12,000, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "from the tribe of Gad 12,000, \n"
-      ]
+      "content": ["from the tribe of Gad 12,000, \n"]
     },
     {
       "type": "para",
@@ -2509,16 +2341,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "from the tribe of Naphtali 12,000, \n"
-      ]
+      "content": ["from the tribe of Naphtali 12,000, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "from the tribe of Manasseh 12,000, \n"
-      ]
+      "content": ["from the tribe of Manasseh 12,000, \n"]
     },
     {
       "type": "para",
@@ -2540,16 +2368,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "from the tribe of Levi 12,000, \n"
-      ]
+      "content": ["from the tribe of Levi 12,000, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "from the tribe of Issachar 12,000, \n"
-      ]
+      "content": ["from the tribe of Issachar 12,000, \n"]
     },
     {
       "type": "para",
@@ -2571,23 +2395,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "from the tribe of Joseph 12,000, \n"
-      ]
+      "content": ["from the tribe of Joseph 12,000, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and from the tribe of Benjamin 12,000. \n"
-      ]
+      "content": ["and from the tribe of Benjamin 12,000. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Praise from the Great Multitude\n"
-      ]
+      "content": ["Praise from the Great Multitude\n"]
     },
     {
       "type": "para",
@@ -2620,23 +2438,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Salvation to our God, \n"
-      ]
+      "content": ["“Salvation to our God, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "who sits on the throne, \n"
-      ]
+      "content": ["who sits on the throne, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and to the Lamb!” \n"
-      ]
+      "content": ["and to the Lamb!” \n"]
     },
     {
       "type": "para",
@@ -2721,30 +2533,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "they are before the throne of God \n"
-      ]
+      "content": ["they are before the throne of God \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and serve Him day and night in His temple; \n"
-      ]
+      "content": ["and serve Him day and night in His temple; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and the One seated on the throne \n"
-      ]
+      "content": ["and the One seated on the throne \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will spread His tabernacle over them. \n"
-      ]
+      "content": ["will spread His tabernacle over them. \n"]
     },
     {
       "type": "para",
@@ -2762,16 +2566,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and never will they thirst; \n"
-      ]
+      "content": ["and never will they thirst; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "nor will the sun beat down upon them, \n"
-      ]
+      "content": ["nor will the sun beat down upon them, \n"]
     },
     {
       "type": "para",
@@ -2786,16 +2586,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:16 "
-              ]
+              "content": ["7:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 49:10"
-              ]
+              "content": ["Isaiah 49:10"]
             }
           ],
           "caller": "+"
@@ -2829,16 +2625,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:17 "
-              ]
+              "content": ["7:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Psalm 23:1."
-              ]
+              "content": ["See Psalm 23:1."]
             }
           ],
           "caller": "+"
@@ -2859,16 +2651,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:17 "
-              ]
+              "content": ["7:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 49:10"
-              ]
+              "content": ["Isaiah 49:10"]
             }
           ],
           "caller": "+"
@@ -2889,16 +2677,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:17 "
-              ]
+              "content": ["7:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 25:8"
-              ]
+              "content": ["Isaiah 25:8"]
             }
           ],
           "caller": "+"
@@ -2915,9 +2699,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Seventh Seal\n"
-      ]
+      "content": ["The Seventh Seal\n"]
     },
     {
       "type": "para",
@@ -2987,9 +2769,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The First Four Trumpets\n"
-      ]
+      "content": ["The First Four Trumpets\n"]
     },
     {
       "type": "para",
@@ -3079,16 +2859,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:11 "
-              ]
+              "content": ["8:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally became wormwood"
-              ]
+              "content": ["Literally became wormwood"]
             }
           ],
           "caller": "+"
@@ -3139,9 +2915,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Fifth Trumpet\n"
-      ]
+      "content": ["The Fifth Trumpet\n"]
     },
     {
       "type": "para",
@@ -3256,16 +3030,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:11 "
-              ]
+              "content": ["9:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Abaddon means Destruction."
-              ]
+              "content": ["Abaddon means Destruction."]
             }
           ],
           "caller": "+"
@@ -3279,16 +3049,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:11 "
-              ]
+              "content": ["9:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Apollyon means Destroyer."
-              ]
+              "content": ["Apollyon means Destroyer."]
             }
           ],
           "caller": "+"
@@ -3316,9 +3082,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Sixth Trumpet\n"
-      ]
+      "content": ["The Sixth Trumpet\n"]
     },
     {
       "type": "para",
@@ -3432,16 +3196,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Angel and the Small Scroll\n"
-      ]
+      "content": ["The Angel and the Small Scroll\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ezekiel 3:1–15)\n"
-      ]
+      "content": ["(Ezekiel 3:1–15)\n"]
     },
     {
       "type": "para",
@@ -3573,16 +3333,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:9 "
-              ]
+              "content": ["10:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Numbers 5:24 and Ezekiel 3:3."
-              ]
+              "content": ["See Numbers 5:24 and Ezekiel 3:3."]
             }
           ],
           "caller": "+"
@@ -3633,9 +3389,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Two Witnesses\n"
-      ]
+      "content": ["The Two Witnesses\n"]
     },
     {
       "type": "para",
@@ -3691,16 +3445,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:4 "
-              ]
+              "content": ["11:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Zechariah 4:14."
-              ]
+              "content": ["See Zechariah 4:14."]
             }
           ],
           "caller": "+"
@@ -3725,9 +3475,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Witnesses Killed and Raised\n"
-      ]
+      "content": ["The Witnesses Killed and Raised\n"]
     },
     {
       "type": "para",
@@ -3828,9 +3576,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Seventh Trumpet\n"
-      ]
+      "content": ["The Seventh Trumpet\n"]
     },
     {
       "type": "para",
@@ -3856,30 +3602,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“The kingdom of the world \n"
-      ]
+      "content": ["“The kingdom of the world \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "has become the kingdom of our Lord \n"
-      ]
+      "content": ["has become the kingdom of our Lord \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and of His Christ, \n"
-      ]
+      "content": ["and of His Christ, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and He will reign forever and ever.” \n"
-      ]
+      "content": ["and He will reign forever and ever.” \n"]
     },
     {
       "type": "para",
@@ -3912,9 +3650,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“We give thanks to You, O Lord God Almighty, \n"
-      ]
+      "content": ["“We give thanks to You, O Lord God Almighty, \n"]
     },
     {
       "type": "para",
@@ -3929,16 +3665,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:17 "
-              ]
+              "content": ["11:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "TR includes and who is to come."
-              ]
+              "content": ["TR includes and who is to come."]
             }
           ],
           "caller": "+"
@@ -3949,16 +3681,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "because You have taken Your great power \n"
-      ]
+      "content": ["because You have taken Your great power \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and have begun to reign. \n"
-      ]
+      "content": ["and have begun to reign. \n"]
     },
     {
       "type": "para",
@@ -3979,16 +3707,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:18 "
-              ]
+              "content": ["11:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Psalm 2:1."
-              ]
+              "content": ["See Psalm 2:1."]
             }
           ],
           "caller": "+"
@@ -3999,9 +3723,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and Your wrath has come. \n"
-      ]
+      "content": ["and Your wrath has come. \n"]
     },
     {
       "type": "para",
@@ -4016,16 +3738,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:18 "
-              ]
+              "content": ["11:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Daniel 12:2."
-              ]
+              "content": ["See Daniel 12:2."]
             }
           ],
           "caller": "+"
@@ -4036,30 +3754,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and to reward Your servants the prophets, \n"
-      ]
+      "content": ["and to reward Your servants the prophets, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "as well as the saints and those who fear Your name, \n"
-      ]
+      "content": ["as well as the saints and those who fear Your name, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "both small and great—\n"
-      ]
+      "content": ["both small and great—\n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and to destroy those who destroy the earth.” \n"
-      ]
+      "content": ["and to destroy those who destroy the earth.” \n"]
     },
     {
       "type": "para",
@@ -4087,9 +3797,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Woman and the Dragon\n"
-      ]
+      "content": ["The Woman and the Dragon\n"]
     },
     {
       "type": "para",
@@ -4162,16 +3870,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:5 "
-              ]
+              "content": ["12:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Psalm 2:9 (see also LXX)."
-              ]
+              "content": ["See Psalm 2:9 (see also LXX)."]
             }
           ],
           "caller": "+"
@@ -4189,9 +3893,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The War in Heaven\n"
-      ]
+      "content": ["The War in Heaven\n"]
     },
     {
       "type": "para",
@@ -4248,37 +3950,27 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Now have come the salvation and the power \n"
-      ]
+      "content": ["“Now have come the salvation and the power \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the kingdom of our God, \n"
-      ]
+      "content": ["and the kingdom of our God, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the authority of His Christ. \n"
-      ]
+      "content": ["and the authority of His Christ. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "For the accuser of our brothers has been thrown down—\n"
-      ]
+      "content": ["For the accuser of our brothers has been thrown down—\n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "he who accuses them day and night before our God. \n"
-      ]
+      "content": ["he who accuses them day and night before our God. \n"]
     },
     {
       "type": "para",
@@ -4296,23 +3988,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and by the word of their testimony. \n"
-      ]
+      "content": ["and by the word of their testimony. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "And they did not love their lives \n"
-      ]
+      "content": ["And they did not love their lives \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "so as to shy away from death. \n"
-      ]
+      "content": ["so as to shy away from death. \n"]
     },
     {
       "type": "para",
@@ -4330,37 +4016,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and you who dwell in them! \n"
-      ]
+      "content": ["and you who dwell in them! \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "But woe to the earth and the sea; \n"
-      ]
+      "content": ["But woe to the earth and the sea; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "with great fury the devil has come down to you, \n"
-      ]
+      "content": ["with great fury the devil has come down to you, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "knowing he has only a short time.” \n"
-      ]
+      "content": ["knowing he has only a short time.” \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Woman Persecuted\n"
-      ]
+      "content": ["The Woman Persecuted\n"]
     },
     {
       "type": "para",
@@ -4434,9 +4110,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:17 "
-              ]
+              "content": ["12:17 "]
             },
             {
               "type": "char",
@@ -4460,16 +4134,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Beast from the Sea\n"
-      ]
+      "content": ["The Beast from the Sea\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Daniel 7:1–8)\n"
-      ]
+      "content": ["(Daniel 7:1–8)\n"]
     },
     {
       "type": "para",
@@ -4573,9 +4243,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:8 "
-              ]
+              "content": ["13:8 "]
             },
             {
               "type": "char",
@@ -4627,9 +4295,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "into captivity he will go; \n"
-      ]
+      "content": ["into captivity he will go; \n"]
     },
     {
       "type": "para",
@@ -4644,16 +4310,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:10 "
-              ]
+              "content": ["13:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE, WH, and BYZ if anyone kills"
-              ]
+              "content": ["NE, WH, and BYZ if anyone kills"]
             }
           ],
           "caller": "+"
@@ -4674,16 +4336,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:10 "
-              ]
+              "content": ["13:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Jeremiah 15:2."
-              ]
+              "content": ["See Jeremiah 15:2."]
             }
           ],
           "caller": "+"
@@ -4705,9 +4363,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Beast from the Earth\n"
-      ]
+      "content": ["The Beast from the Earth\n"]
     },
     {
       "type": "para",
@@ -4767,9 +4423,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Mark of the Beast\n"
-      ]
+      "content": ["The Mark of the Beast\n"]
     },
     {
       "type": "para",
@@ -4818,16 +4472,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:18 "
-              ]
+              "content": ["13:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Some manuscripts 616"
-              ]
+              "content": ["Some manuscripts 616"]
             }
           ],
           "caller": "+"
@@ -4844,9 +4494,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Lamb and the 144,000\n"
-      ]
+      "content": ["The Lamb and the 144,000\n"]
     },
     {
       "type": "para",
@@ -4909,16 +4557,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:5 "
-              ]
+              "content": ["14:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include before the throne of God."
-              ]
+              "content": ["BYZ and TR include before the throne of God."]
             }
           ],
           "caller": "+"
@@ -4929,9 +4573,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Three Angels and Babylon’s Fall\n"
-      ]
+      "content": ["The Three Angels and Babylon’s Fall\n"]
     },
     {
       "type": "para",
@@ -4980,16 +4622,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:8 "
-              ]
+              "content": ["14:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Isaiah 21:9 and Revelation 18:2."
-              ]
+              "content": ["See Isaiah 21:9 and Revelation 18:2."]
             }
           ],
           "caller": "+"
@@ -5076,9 +4714,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Harvest of the Earth\n"
-      ]
+      "content": ["The Harvest of the Earth\n"]
     },
     {
       "type": "para",
@@ -5103,16 +4739,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:14 "
-              ]
+              "content": ["14:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or one like a son of man; see Daniel 7:13."
-              ]
+              "content": ["Or one like a son of man; see Daniel 7:13."]
             }
           ],
           "caller": "+"
@@ -5198,9 +4830,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:20 "
-              ]
+              "content": ["14:20 "]
             },
             {
               "type": "char",
@@ -5224,16 +4854,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Song of Moses and the Lamb\n"
-      ]
+      "content": ["The Song of Moses and the Lamb\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Deuteronomy 32:1–47)\n"
-      ]
+      "content": ["(Deuteronomy 32:1–47)\n"]
     },
     {
       "type": "para",
@@ -5283,23 +4909,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Great and wonderful are Your works, \n"
-      ]
+      "content": ["“Great and wonderful are Your works, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "O Lord God Almighty! \n"
-      ]
+      "content": ["O Lord God Almighty! \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Just and true are Your ways, \n"
-      ]
+      "content": ["Just and true are Your ways, \n"]
     },
     {
       "type": "para",
@@ -5314,16 +4934,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:3 "
-              ]
+              "content": ["15:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL and WH King of the ages; TR King of the saints"
-              ]
+              "content": ["SBL and WH King of the ages; TR King of the saints"]
             }
           ],
           "caller": "+"
@@ -5347,37 +4963,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and glorify Your name? \n"
-      ]
+      "content": ["and glorify Your name? \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "For You alone are holy. \n"
-      ]
+      "content": ["For You alone are holy. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "All nations will come and worship before You, \n"
-      ]
+      "content": ["All nations will come and worship before You, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for Your righteous acts have been revealed.” \n"
-      ]
+      "content": ["for Your righteous acts have been revealed.” \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Preparation for Judgment\n"
-      ]
+      "content": ["Preparation for Judgment\n"]
     },
     {
       "type": "para",
@@ -5436,9 +5042,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The First Six Bowls of Wrath\n"
-      ]
+      "content": ["The First Six Bowls of Wrath\n"]
     },
     {
       "type": "para",
@@ -5522,23 +5126,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Righteous are You, O Holy One, \n"
-      ]
+      "content": ["“Righteous are You, O Holy One, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "who is and was, \n"
-      ]
+      "content": ["who is and was, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "because You have brought these judgments. \n"
-      ]
+      "content": ["because You have brought these judgments. \n"]
     },
     {
       "type": "para",
@@ -5556,16 +5154,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and You have given them blood to drink, \n"
-      ]
+      "content": ["and You have given them blood to drink, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "as they deserve.” \n"
-      ]
+      "content": ["as they deserve.” \n"]
     },
     {
       "type": "para",
@@ -5591,16 +5185,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Yes, Lord God Almighty, \n"
-      ]
+      "content": ["“Yes, Lord God Almighty, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "true and just are Your judgments.” \n"
-      ]
+      "content": ["true and just are Your judgments.” \n"]
     },
     {
       "type": "para",
@@ -5728,9 +5318,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Seventh Bowl of Wrath\n"
-      ]
+      "content": ["The Seventh Bowl of Wrath\n"]
     },
     {
       "type": "para",
@@ -5803,9 +5391,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:21 "
-              ]
+              "content": ["16:21 "]
             },
             {
               "type": "char",
@@ -5829,9 +5415,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Woman on the Beast\n"
-      ]
+      "content": ["The Woman on the Beast\n"]
     },
     {
       "type": "para",
@@ -5895,30 +5479,22 @@
     {
       "type": "para",
       "marker": "pc",
-      "content": [
-        "BABYLON THE GREAT, \n"
-      ]
+      "content": ["BABYLON THE GREAT, \n"]
     },
     {
       "type": "para",
       "marker": "pc",
-      "content": [
-        "THE MOTHER OF PROSTITUTES \n"
-      ]
+      "content": ["THE MOTHER OF PROSTITUTES \n"]
     },
     {
       "type": "para",
       "marker": "pc",
-      "content": [
-        "AND OF THE ABOMINATIONS OF THE EARTH. \n"
-      ]
+      "content": ["AND OF THE ABOMINATIONS OF THE EARTH. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Mystery Explained\n"
-      ]
+      "content": ["The Mystery Explained\n"]
     },
     {
       "type": "para",
@@ -6029,9 +5605,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Victory of the Lamb\n"
-      ]
+      "content": ["The Victory of the Lamb\n"]
     },
     {
       "type": "para",
@@ -6097,16 +5671,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Babylon Is Fallen\n"
-      ]
+      "content": ["Babylon Is Fallen\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Isaiah 21:1–10)\n"
-      ]
+      "content": ["(Isaiah 21:1–10)\n"]
     },
     {
       "type": "para",
@@ -6149,16 +5719,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:2 "
-              ]
+              "content": ["18:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Isaiah 21:9 and Revelation 14:8."
-              ]
+              "content": ["See Isaiah 21:9 and Revelation 14:8."]
             }
           ],
           "caller": "+"
@@ -6169,23 +5735,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "She has become a lair for demons \n"
-      ]
+      "content": ["She has become a lair for demons \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and a haunt for every unclean spirit, \n"
-      ]
+      "content": ["and a haunt for every unclean spirit, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "every unclean bird, \n"
-      ]
+      "content": ["every unclean bird, \n"]
     },
     {
       "type": "para",
@@ -6200,9 +5760,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:2 "
-              ]
+              "content": ["18:2 "]
             },
             {
               "type": "char",
@@ -6236,16 +5794,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:3 "
-              ]
+              "content": ["18:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL and WH have fallen by"
-              ]
+              "content": ["SBL and WH have fallen by"]
             }
           ],
           "caller": "+"
@@ -6256,30 +5810,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "of the passion of her immorality. \n"
-      ]
+      "content": ["of the passion of her immorality. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "The kings of the earth were immoral with her, \n"
-      ]
+      "content": ["The kings of the earth were immoral with her, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and the merchants of the earth have grown wealthy \n"
-      ]
+      "content": ["and the merchants of the earth have grown wealthy \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "from the extravagance of her luxury.” \n"
-      ]
+      "content": ["from the extravagance of her luxury.” \n"]
     },
     {
       "type": "para",
@@ -6315,16 +5861,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:4 "
-              ]
+              "content": ["18:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Jeremiah 51:45."
-              ]
+              "content": ["See Jeremiah 51:45."]
             }
           ],
           "caller": "+"
@@ -6335,16 +5877,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "so that you will not share in her sins \n"
-      ]
+      "content": ["so that you will not share in her sins \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "or contract any of her plagues. \n"
-      ]
+      "content": ["or contract any of her plagues. \n"]
     },
     {
       "type": "para",
@@ -6362,9 +5900,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and God has remembered her iniquities. \n"
-      ]
+      "content": ["and God has remembered her iniquities. \n"]
     },
     {
       "type": "para",
@@ -6382,16 +5918,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "pay her back double for what she has done; \n"
-      ]
+      "content": ["pay her back double for what she has done; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "mix her a double portion in her own cup. \n"
-      ]
+      "content": ["mix her a double portion in her own cup. \n"]
     },
     {
       "type": "para",
@@ -6409,23 +5941,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "give her the same measure of torment and grief. \n"
-      ]
+      "content": ["give her the same measure of torment and grief. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "In her heart she says, ‘I sit as queen; \n"
-      ]
+      "content": ["In her heart she says, ‘I sit as queen; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "I am not a widow and will never see grief.’ \n"
-      ]
+      "content": ["I am not a widow and will never see grief.’ \n"]
     },
     {
       "type": "para",
@@ -6443,30 +5969,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "death and grief and famine—\n"
-      ]
+      "content": ["death and grief and famine—\n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and she will be consumed by fire, \n"
-      ]
+      "content": ["and she will be consumed by fire, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for mighty is the Lord God who judges her.” \n"
-      ]
+      "content": ["for mighty is the Lord God who judges her.” \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Lament over Babylon\n"
-      ]
+      "content": ["Lament over Babylon\n"]
     },
     {
       "type": "para",
@@ -6491,9 +6009,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:9 "
-              ]
+              "content": ["18:9 "]
             },
             {
               "type": "char",
@@ -6522,30 +6038,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Woe, woe to the great city, \n"
-      ]
+      "content": ["“Woe, woe to the great city, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the mighty city of Babylon! \n"
-      ]
+      "content": ["the mighty city of Babylon! \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "For in a single hour \n"
-      ]
+      "content": ["For in a single hour \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "your judgment has come.” \n"
-      ]
+      "content": ["your judgment has come.” \n"]
     },
     {
       "type": "para",
@@ -6591,16 +6099,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "18:14 "
-              ]
+              "content": ["18:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally And:"
-              ]
+              "content": ["Literally And:"]
             }
           ],
           "caller": "+"
@@ -6615,30 +6119,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“The fruit of your soul’s desire \n"
-      ]
+      "content": ["“The fruit of your soul’s desire \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "has departed from you; \n"
-      ]
+      "content": ["has departed from you; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "all your luxury and splendor have vanished, \n"
-      ]
+      "content": ["all your luxury and splendor have vanished, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "never to be seen again.” \n"
-      ]
+      "content": ["never to be seen again.” \n"]
     },
     {
       "type": "para",
@@ -6671,23 +6167,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Woe, woe to the great city, \n"
-      ]
+      "content": ["“Woe, woe to the great city, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "clothed in fine linen and purple and scarlet, \n"
-      ]
+      "content": ["clothed in fine linen and purple and scarlet, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "adorned with gold and precious stones and pearls! \n"
-      ]
+      "content": ["adorned with gold and precious stones and pearls! \n"]
     },
     {
       "type": "para",
@@ -6705,9 +6195,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "such fabulous wealth has been destroyed!” \n"
-      ]
+      "content": ["such fabulous wealth has been destroyed!” \n"]
     },
     {
       "type": "para",
@@ -6751,37 +6239,27 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Woe, woe to the great city, \n"
-      ]
+      "content": ["“Woe, woe to the great city, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "where all who had ships on the sea \n"
-      ]
+      "content": ["where all who had ships on the sea \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "were enriched by her wealth! \n"
-      ]
+      "content": ["were enriched by her wealth! \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "For in a single hour \n"
-      ]
+      "content": ["For in a single hour \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "she has been destroyed.” \n"
-      ]
+      "content": ["she has been destroyed.” \n"]
     },
     {
       "type": "para",
@@ -6803,30 +6281,22 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "O saints and apostles and prophets, \n"
-      ]
+      "content": ["O saints and apostles and prophets, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "because God has pronounced for you \n"
-      ]
+      "content": ["because God has pronounced for you \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "His judgment against her. \n"
-      ]
+      "content": ["His judgment against her. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Doom of Babylon\n"
-      ]
+      "content": ["The Doom of Babylon\n"]
     },
     {
       "type": "para",
@@ -6852,23 +6322,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“With such violence \n"
-      ]
+      "content": ["“With such violence \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "the great city of Babylon will be cast down, \n"
-      ]
+      "content": ["the great city of Babylon will be cast down, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "never to be seen again. \n"
-      ]
+      "content": ["never to be seen again. \n"]
     },
     {
       "type": "para",
@@ -6886,44 +6350,32 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "of flute players and trumpeters, \n"
-      ]
+      "content": ["of flute players and trumpeters, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will never ring out in you again. \n"
-      ]
+      "content": ["will never ring out in you again. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Nor will any craftsmen of any trade \n"
-      ]
+      "content": ["Nor will any craftsmen of any trade \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "be found in you again, \n"
-      ]
+      "content": ["be found in you again, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "nor the sound of a millstone \n"
-      ]
+      "content": ["nor the sound of a millstone \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "be heard in you again. \n"
-      ]
+      "content": ["be heard in you again. \n"]
     },
     {
       "type": "para",
@@ -6941,37 +6393,27 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will never shine in you again, \n"
-      ]
+      "content": ["will never shine in you again, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and the voices of a bride and bridegroom \n"
-      ]
+      "content": ["and the voices of a bride and bridegroom \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "will never call out in you again. \n"
-      ]
+      "content": ["will never call out in you again. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "For your merchants were the great ones of the earth, \n"
-      ]
+      "content": ["For your merchants were the great ones of the earth, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "because all the nations were deceived by your sorcery.” \n"
-      ]
+      "content": ["because all the nations were deceived by your sorcery.” \n"]
     },
     {
       "type": "para",
@@ -6999,9 +6441,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Rejoicing in Heaven\n"
-      ]
+      "content": ["Rejoicing in Heaven\n"]
     },
     {
       "type": "para",
@@ -7037,9 +6477,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:1 "
-              ]
+              "content": ["19:1 "]
             },
             {
               "type": "char",
@@ -7061,9 +6499,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Salvation and glory and power belong to our God! \n"
-      ]
+      "content": ["Salvation and glory and power belong to our God! \n"]
     },
     {
       "type": "para",
@@ -7081,30 +6517,22 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "He has judged the great prostitute \n"
-      ]
+      "content": ["He has judged the great prostitute \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "who corrupted the earth with her immorality. \n"
-      ]
+      "content": ["who corrupted the earth with her immorality. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "He has avenged the blood of His servants \n"
-      ]
+      "content": ["He has avenged the blood of His servants \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "that was poured out by her hand.” \n"
-      ]
+      "content": ["that was poured out by her hand.” \n"]
     },
     {
       "type": "para",
@@ -7130,9 +6558,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Hallelujah! \n"
-      ]
+      "content": ["“Hallelujah! \n"]
     },
     {
       "type": "para",
@@ -7141,9 +6567,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "Her smoke rises forever and ever.” \n"
-      ]
+      "content": ["Her smoke rises forever and ever.” \n"]
     },
     {
       "type": "para",
@@ -7169,9 +6593,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Amen, Hallelujah!” \n"
-      ]
+      "content": ["“Amen, Hallelujah!” \n"]
     },
     {
       "type": "para",
@@ -7197,37 +6619,27 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Praise our God, \n"
-      ]
+      "content": ["“Praise our God, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "all you who serve Him, \n"
-      ]
+      "content": ["all you who serve Him, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and those who fear Him, \n"
-      ]
+      "content": ["and those who fear Him, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "small and great alike!” \n"
-      ]
+      "content": ["small and great alike!” \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Marriage of the Lamb\n"
-      ]
+      "content": ["The Marriage of the Lamb\n"]
     },
     {
       "type": "para",
@@ -7253,9 +6665,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Hallelujah! \n"
-      ]
+      "content": ["“Hallelujah! \n"]
     },
     {
       "type": "para",
@@ -7274,16 +6684,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:6 "
-              ]
+              "content": ["19:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL, BYZ, and TR the Lord God"
-              ]
+              "content": ["SBL, BYZ, and TR the Lord God"]
             }
           ],
           "caller": "+"
@@ -7307,23 +6713,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and give Him the glory. \n"
-      ]
+      "content": ["and give Him the glory. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "For the marriage of the Lamb has come, \n"
-      ]
+      "content": ["For the marriage of the Lamb has come, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and His bride has made herself ready. \n"
-      ]
+      "content": ["and His bride has made herself ready. \n"]
     },
     {
       "type": "para",
@@ -7341,9 +6741,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "bright and pure.” \n"
-      ]
+      "content": ["bright and pure.” \n"]
     },
     {
       "type": "para",
@@ -7393,9 +6791,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Rider on the White Horse\n"
-      ]
+      "content": ["The Rider on the White Horse\n"]
     },
     {
       "type": "para",
@@ -7434,16 +6830,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:13 "
-              ]
+              "content": ["19:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "WH sprinkled with blood"
-              ]
+              "content": ["WH sprinkled with blood"]
             }
           ],
           "caller": "+"
@@ -7481,16 +6873,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "19:15 "
-              ]
+              "content": ["19:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Psalm 2:9 (see also LXX)."
-              ]
+              "content": ["See Psalm 2:9 (see also LXX)."]
             }
           ],
           "caller": "+"
@@ -7512,16 +6900,12 @@
     {
       "type": "para",
       "marker": "pc",
-      "content": [
-        "KING OF KINGS AND LORD OF LORDS. \n"
-      ]
+      "content": ["KING OF KINGS AND LORD OF LORDS. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Defeat of the Beast and False Prophet\n"
-      ]
+      "content": ["Defeat of the Beast and False Prophet\n"]
     },
     {
       "type": "para",
@@ -7585,9 +6969,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "And all the birds gorged themselves on their flesh. \n"
-      ]
+      "content": ["And all the birds gorged themselves on their flesh. \n"]
     },
     {
       "type": "chapter",
@@ -7598,9 +6980,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Satan Bound\n"
-      ]
+      "content": ["Satan Bound\n"]
     },
     {
       "type": "para",
@@ -7677,9 +7057,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Satan Cast into the Lake of Fire\n"
-      ]
+      "content": ["Satan Cast into the Lake of Fire\n"]
     },
     {
       "type": "para",
@@ -7728,16 +7106,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "20:9 "
-              ]
+              "content": ["20:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR came down from God out of heaven"
-              ]
+              "content": ["BYZ and TR came down from God out of heaven"]
             }
           ],
           "caller": "+"
@@ -7755,9 +7129,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Judgment before the Great White Throne\n"
-      ]
+      "content": ["Judgment before the Great White Throne\n"]
     },
     {
       "type": "para",
@@ -7834,16 +7206,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A New Heaven and a New Earth\n"
-      ]
+      "content": ["A New Heaven and a New Earth\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Isaiah 65:17–25)\n"
-      ]
+      "content": ["(Isaiah 65:17–25)\n"]
     },
     {
       "type": "para",
@@ -7868,16 +7236,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:1 "
-              ]
+              "content": ["21:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Isaiah 65:17 and Isaiah 66:22 (see also LXX)."
-              ]
+              "content": ["See Isaiah 65:17 and Isaiah 66:22 (see also LXX)."]
             }
           ],
           "caller": "+"
@@ -7916,23 +7280,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Behold, the dwelling place of God is with man, \n"
-      ]
+      "content": ["“Behold, the dwelling place of God is with man, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and He will dwell with them. \n"
-      ]
+      "content": ["and He will dwell with them. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "They will be His people, \n"
-      ]
+      "content": ["They will be His people, \n"]
     },
     {
       "type": "para",
@@ -7947,16 +7305,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:3 "
-              ]
+              "content": ["21:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL, NE, WH, and BYZ God Himself will be with them."
-              ]
+              "content": ["SBL, NE, WH, and BYZ God Himself will be with them."]
             }
           ],
           "caller": "+"
@@ -7983,16 +7337,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:4 "
-              ]
+              "content": ["21:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 25:8."
-              ]
+              "content": ["Isaiah 25:8."]
             }
           ],
           "caller": "+"
@@ -8003,23 +7353,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and there will be no more death \n"
-      ]
+      "content": ["and there will be no more death \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "or mourning or crying or pain, \n"
-      ]
+      "content": ["or mourning or crying or pain, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "for the former things have passed away.” \n"
-      ]
+      "content": ["for the former things have passed away.” \n"]
     },
     {
       "type": "para",
@@ -8072,9 +7416,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The New Jerusalem\n"
-      ]
+      "content": ["The New Jerusalem\n"]
     },
     {
       "type": "para",
@@ -8168,9 +7510,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:16 "
-              ]
+              "content": ["21:16 "]
             },
             {
               "type": "char",
@@ -8198,9 +7538,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:17 "
-              ]
+              "content": ["21:17 "]
             },
             {
               "type": "char",
@@ -8246,9 +7584,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "The first foundation was jasper, \n"
-      ]
+      "content": ["The first foundation was jasper, \n"]
     },
     {
       "type": "para",
@@ -8257,9 +7593,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the second sapphire, \n"
-      ]
+      "content": ["the second sapphire, \n"]
     },
     {
       "type": "para",
@@ -8268,9 +7602,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the third chalcedony, \n"
-      ]
+      "content": ["the third chalcedony, \n"]
     },
     {
       "type": "para",
@@ -8279,9 +7611,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the fourth emerald, \n"
-      ]
+      "content": ["the fourth emerald, \n"]
     },
     {
       "type": "para",
@@ -8307,9 +7637,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the sixth carnelian, \n"
-      ]
+      "content": ["the sixth carnelian, \n"]
     },
     {
       "type": "para",
@@ -8318,9 +7646,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the seventh chrysolite, \n"
-      ]
+      "content": ["the seventh chrysolite, \n"]
     },
     {
       "type": "para",
@@ -8329,9 +7655,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the eighth beryl, \n"
-      ]
+      "content": ["the eighth beryl, \n"]
     },
     {
       "type": "para",
@@ -8340,9 +7664,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the ninth topaz, \n"
-      ]
+      "content": ["the ninth topaz, \n"]
     },
     {
       "type": "para",
@@ -8351,9 +7673,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the tenth chrysoprase, \n"
-      ]
+      "content": ["the tenth chrysoprase, \n"]
     },
     {
       "type": "para",
@@ -8362,9 +7682,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "the eleventh jacinth, \n"
-      ]
+      "content": ["the eleventh jacinth, \n"]
     },
     {
       "type": "para",
@@ -8373,9 +7691,7 @@
     {
       "type": "para",
       "marker": "li1",
-      "content": [
-        "and the twelfth amethyst. \n"
-      ]
+      "content": ["and the twelfth amethyst. \n"]
     },
     {
       "type": "para",
@@ -8431,16 +7747,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "21:24 "
-              ]
+              "content": ["21:24 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include and honor."
-              ]
+              "content": ["BYZ and TR include and honor."]
             }
           ],
           "caller": "+"
@@ -8488,9 +7800,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The River of Life\n"
-      ]
+      "content": ["The River of Life\n"]
     },
     {
       "type": "para",
@@ -8550,9 +7860,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Is Coming\n"
-      ]
+      "content": ["Jesus Is Coming\n"]
     },
     {
       "type": "para",
@@ -8577,9 +7885,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:6 "
-              ]
+              "content": ["22:6 "]
             },
             {
               "type": "char",
@@ -8617,16 +7923,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:7 "
-              ]
+              "content": ["22:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or scroll; also in verses 9, 10, 18, 19"
-              ]
+              "content": ["Or scroll; also in verses 9, 10, 18, 19"]
             }
           ],
           "caller": "+"
@@ -8729,9 +8031,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:14 "
-              ]
+              "content": ["22:14 "]
             },
             {
               "type": "char",
@@ -8790,9 +8090,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Nothing May Be Added or Removed\n"
-      ]
+      "content": ["Nothing May Be Added or Removed\n"]
     },
     {
       "type": "para",
@@ -8858,9 +8156,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:21 "
-              ]
+              "content": ["22:21 "]
             },
             {
               "type": "char",
@@ -8881,16 +8177,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:21 "
-              ]
+              "content": ["22:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL, WH, NE, and TR do not include the saints."
-              ]
+              "content": ["SBL, WH, NE, and TR do not include the saints."]
             }
           ],
           "caller": "+"
@@ -8915,16 +8207,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "22:21 "
-              ]
+              "content": ["22:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL, WH, NE, and NA do not include Amen."
-              ]
+              "content": ["SBL, WH, NE, and NA do not include Amen."]
             }
           ],
           "caller": "+"

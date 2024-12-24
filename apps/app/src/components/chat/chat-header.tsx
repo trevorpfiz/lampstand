@@ -1,25 +1,25 @@
-"use client";
+'use client';
 
-import { useCallback, useEffect, useRef } from "react";
-import { Ellipsis, Plus, Trash2 } from "lucide-react";
+import { Ellipsis, Plus, Trash2 } from 'lucide-react';
+import { useCallback, useEffect, useRef } from 'react';
 
-import type { Chat } from "@lamp/db/schema";
-import { Button } from "@lamp/ui/components/button";
+import type { Chat } from '@lamp/db/schema';
+import { Button } from '@lamp/ui/components/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@lamp/ui/components/dropdown-menu";
-import { ScrollArea, ScrollBar } from "@lamp/ui/components/scroll-area";
-import { Spinner } from "@lamp/ui/components/spinner";
-import { Tabs, TabsList, TabsTrigger } from "@lamp/ui/components/tabs";
+} from '@lamp/ui/components/dropdown-menu';
+import { ScrollArea, ScrollBar } from '@lamp/ui/components/scroll-area';
+import { Spinner } from '@lamp/ui/components/spinner';
+import { Tabs, TabsList, TabsTrigger } from '@lamp/ui/components/tabs';
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@lamp/ui/components/tooltip";
-import { cn } from "@lamp/ui/lib/utils";
+} from '@lamp/ui/components/tooltip';
+import { cn } from '@lamp/ui/lib/utils';
 
 interface ChatHeaderProps {
   initialChats?: Chat[];
@@ -59,11 +59,11 @@ export function ChatHeader({
   useEffect(() => {
     const viewport = viewportRef.current;
     if (viewport) {
-      viewport.addEventListener("wheel", onWheel);
+      viewport.addEventListener('wheel', onWheel);
     }
     return () => {
       if (viewport) {
-        viewport.removeEventListener("wheel", onWheel);
+        viewport.removeEventListener('wheel', onWheel);
       }
     };
   }, [onWheel]);
@@ -75,15 +75,15 @@ export function ChatHeader({
           <div className="min-w-0 flex-1">
             <Tabs value={selectedChatId} onValueChange={onSelectChat}>
               <ScrollArea viewportRef={viewportRef}>
-                <TabsList className="h-auto gap-0 rounded-none border-none bg-transparent py-0 pl-0 pr-0.5 text-foreground">
+                <TabsList className="h-auto gap-0 rounded-none border-none bg-transparent py-0 pr-0.5 pl-0 text-foreground">
                   {initialChats?.map((chat) => (
                     <TabsTrigger
                       key={chat.id}
                       value={chat.id}
                       className={cn(
-                        "relative min-w-20 max-w-80 flex-shrink-0 rounded-none border-r border-border bg-muted transition-none hover:bg-background hover:text-foreground data-[state=active]:bg-background data-[state=active]:shadow-none data-[state=active]:hover:bg-background",
+                        'relative min-w-20 max-w-80 flex-shrink-0 rounded-none border-border border-r bg-muted transition-none hover:bg-background hover:text-foreground data-[state=active]:bg-background data-[state=active]:shadow-none data-[state=active]:hover:bg-background',
                         initialChats.length === 1 &&
-                          "max-w-3xl border-r-0 border-none",
+                          'max-w-3xl border-r-0 border-none'
                       )}
                       title={chat.title}
                     >
@@ -100,7 +100,7 @@ export function ChatHeader({
           </div>
 
           {/* Action buttons */}
-          <div className="flex flex-shrink-0 flex-row items-center gap-0 pl-1 pr-1">
+          <div className="flex flex-shrink-0 flex-row items-center gap-0 pr-1 pl-1">
             <Tooltip>
               <TooltipTrigger asChild>
                 <Button

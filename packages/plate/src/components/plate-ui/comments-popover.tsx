@@ -1,7 +1,5 @@
 'use client';
 
-import React from 'react';
-
 import { cn } from '@udecode/cn';
 import {
   CommentProvider,
@@ -51,7 +49,9 @@ export function CommentsPopoverContent(props: FloatingCommentsContentProps) {
 export function CommentsPopover() {
   const { activeCommentId, loaded } = useFloatingCommentsState();
 
-  if (!loaded || !activeCommentId) return null;
+  if (!loaded || !activeCommentId) {
+    return null;
+  }
 
   return (
     <PortalBody>

@@ -7,7 +7,7 @@
   },
   "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c",
   "scripts": {
-    "api:openapi-ts": "turbo -F @lamp/api openapi-ts",
+    "analyze": "turbo analyze",
     "build": "turbo run build",
     "clean": "git clean -xdf node_modules",
     "clean:workspaces": "turbo run clean",
@@ -17,22 +17,18 @@
     "db:migrate": "turbo -F @lamp/db migrate",
     "db:push": "turbo -F @lamp/db push",
     "db:studio": "turbo -F @lamp/db studio",
-    "dev": "turbo watch dev --continue",
-    "format": "turbo run format --continue -- --cache --cache-location .cache/.prettiercache",
-    "format:fix": "turbo run format --continue -- --write --cache --cache-location .cache/.prettiercache",
-    "lint": "turbo run lint --continue -- --cache --cache-location .cache/.eslintcache",
-    "lint:fix": "turbo run lint --continue -- --fix --cache --cache-location .cache/.eslintcache",
+    "dev": "turbo dev",
+    "lint": "ultracite lint",
+    "format": "ultracite format",
     "lint:ws": "pnpm dlx sherif@latest",
     "postinstall": "pnpm lint:ws",
-    "typecheck": "turbo run typecheck",
-    "ui:ui-add": "turbo -F @lamp/ui ui-add"
+    "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
-    "@lamp/prettier-config": "workspace:*",
+    "@biomejs/biome": "1.9.4",
     "@turbo/gen": "^2.3.3",
-    "prettier": "catalog:",
     "turbo": "^2.3.3",
-    "typescript": "catalog:"
-  },
-  "prettier": "@lamp/prettier-config"
+    "typescript": "catalog:",
+    "ultracite": "^4.1.14"
+  }
 }

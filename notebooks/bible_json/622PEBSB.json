@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "2PE"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "2 Peter\n"
-      ]
+      "content": ["2 Peter\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "2 Peter\n"
-      ]
+      "content": ["2 Peter\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "2 Peter\n"
-      ]
+      "content": ["2 Peter\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Greeting from Peter\n"
-      ]
+      "content": ["A Greeting from Peter\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Peter 1:1–2)\n"
-      ]
+      "content": ["(1 Peter 1:1–2)\n"]
     },
     {
       "type": "para",
@@ -99,9 +87,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Partakers of the Divine Nature\n"
-      ]
+      "content": ["Partakers of the Divine Nature\n"]
     },
     {
       "type": "para",
@@ -126,16 +112,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:3 "
-              ]
+              "content": ["1:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or to His own"
-              ]
+              "content": ["Or to His own"]
             }
           ],
           "caller": "+"
@@ -249,16 +231,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:13 "
-              ]
+              "content": ["1:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally as long as I am in this tent"
-              ]
+              "content": ["Literally as long as I am in this tent"]
             }
           ],
           "caller": "+"
@@ -283,16 +261,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Eyewitnesses of His Majesty\n"
-      ]
+      "content": ["Eyewitnesses of His Majesty\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Matthew 17:1–13; Mark 9:1–13; Luke 9:28–36)\n"
-      ]
+      "content": ["(Matthew 17:1–13; Mark 9:1–13; Luke 9:28–36)\n"]
     },
     {
       "type": "para",
@@ -324,16 +298,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:17 "
-              ]
+              "content": ["1:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Matthew 17:5; see also Mark 9:7 and Luke 9:35."
-              ]
+              "content": ["Matthew 17:5; see also Mark 9:7 and Luke 9:35."]
             }
           ],
           "caller": "+"
@@ -388,16 +358,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Deliverance from False Prophets\n"
-      ]
+      "content": ["Deliverance from False Prophets\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Jude 1:3–16)\n"
-      ]
+      "content": ["(Jude 1:3–16)\n"]
     },
     {
       "type": "para",
@@ -453,9 +419,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:4 "
-              ]
+              "content": ["2:4 "]
             },
             {
               "type": "char",
@@ -490,16 +454,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:6 "
-              ]
+              "content": ["2:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "WH does not include to destruction."
-              ]
+              "content": ["WH does not include to destruction."]
             }
           ],
           "caller": "+"
@@ -513,16 +473,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:6 "
-              ]
+              "content": ["2:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or on future generations of the ungodly"
-              ]
+              "content": ["Or on future generations of the ungodly"]
             }
           ],
           "caller": "+"
@@ -574,16 +530,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:10 "
-              ]
+              "content": ["2:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or to blaspheme angelic majesties"
-              ]
+              "content": ["Or to blaspheme angelic majesties"]
             }
           ],
           "caller": "+"
@@ -663,16 +615,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:15 "
-              ]
+              "content": ["2:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NA, SBL, BYZ, and TR Bosor"
-              ]
+              "content": ["NA, SBL, BYZ, and TR Bosor"]
             }
           ],
           "caller": "+"
@@ -741,16 +689,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:20 "
-              ]
+              "content": ["2:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "SBL and WH the Lord and Savior Jesus Christ"
-              ]
+              "content": ["SBL and WH the Lord and Savior Jesus Christ"]
             }
           ],
           "caller": "+"
@@ -778,16 +722,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:22 "
-              ]
+              "content": ["2:22 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Proverbs 26:11"
-              ]
+              "content": ["Proverbs 26:11"]
             }
           ],
           "caller": "+"
@@ -804,16 +744,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Coming Judgment\n"
-      ]
+      "content": ["The Coming Judgment\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 7:1–24; Jude 1:17–23)\n"
-      ]
+      "content": ["(Genesis 7:1–24; Jude 1:17–23)\n"]
     },
     {
       "type": "para",
@@ -862,16 +798,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:3 "
-              ]
+              "content": ["3:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Jude 1:18."
-              ]
+              "content": ["See Jude 1:18."]
             }
           ],
           "caller": "+"
@@ -916,16 +848,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:6 "
-              ]
+              "content": ["3:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NA through whom"
-              ]
+              "content": ["NA through whom"]
             }
           ],
           "caller": "+"
@@ -943,16 +871,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Day of the Lord\n"
-      ]
+      "content": ["The Day of the Lord\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Zephaniah 1:7–18; Malachi 4:1–6; 1 Thessalonians 5:1–11)\n"
-      ]
+      "content": ["(Zephaniah 1:7–18; Malachi 4:1–6; 1 Thessalonians 5:1–11)\n"]
     },
     {
       "type": "para",
@@ -977,16 +901,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:8 "
-              ]
+              "content": ["3:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Psalm 90:4."
-              ]
+              "content": ["See Psalm 90:4."]
             }
           ],
           "caller": "+"
@@ -1024,16 +944,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:10 "
-              ]
+              "content": ["3:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or dissolved; also in verses 11 and 12."
-              ]
+              "content": ["Or dissolved; also in verses 11 and 12."]
             }
           ],
           "caller": "+"
@@ -1047,9 +963,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:10 "
-              ]
+              "content": ["3:10 "]
             },
             {
               "type": "char",
@@ -1098,9 +1012,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Final Exhortations\n"
-      ]
+      "content": ["Final Exhortations\n"]
     },
     {
       "type": "para",
@@ -1125,9 +1037,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:14 "
-              ]
+              "content": ["3:14 "]
             },
             {
               "type": "char",
@@ -1172,16 +1082,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:16 "
-              ]
+              "content": ["3:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or in all the letters"
-              ]
+              "content": ["Or in all the letters"]
             }
           ],
           "caller": "+"
@@ -1195,16 +1101,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:16 "
-              ]
+              "content": ["3:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NA will distort"
-              ]
+              "content": ["NA will distort"]
             }
           ],
           "caller": "+"
@@ -1253,16 +1155,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:18 "
-              ]
+              "content": ["3:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NE, WH, and NA do not include Amen."
-              ]
+              "content": ["NE, WH, and NA do not include Amen."]
             }
           ],
           "caller": "+"

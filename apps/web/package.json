@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "next dev -p 3001 --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "pnpm with-env next dev -p 3001 --turbopack",
+    "build": "pnpm with-env next build",
+    "start": "pnpm with-env next start",
     "analyze": "ANALYZE=true pnpm build",
     "clean": "git clean -xdf .cache .turbo dist node_modules",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false",
@@ -44,16 +44,12 @@
     "sqip-plugin-svgo": "1.0.0-alpha.54"
   },
   "devDependencies": {
-    "@lamp/eslint-config": "workspace:*",
-    "@lamp/prettier-config": "workspace:*",
     "@lamp/seo": "workspace:*",
     "@lamp/tailwind-config": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
     "@types/node": "catalog:",
     "@types/react": "catalog:react19",
     "@types/react-dom": "catalog:react19",
-    "eslint": "catalog:",
-    "prettier": "catalog:",
     "typescript": "catalog:"
   }
 }

@@ -2,33 +2,32 @@
   "folders": [
     {
       "name": "App",
-      "path": "../apps/app",
+      "path": "../apps/app"
     },
     {
       "name": "Web",
-      "path": "../apps/web",
+      "path": "../apps/web"
     },
     {
       "name": "API",
-      "path": "../apps/api",
+      "path": "../apps/api"
     },
     {
       "name": "Root",
-      "path": "../",
-    },
+      "path": "../"
+    }
   ],
   "extensions": {
     "recommendations": [
       "joshx.workspace-terminals",
       "teticio.python-envy",
-      "charliermarsh.ruff",
-    ],
+      "charliermarsh.ruff"
+    ]
   },
   "settings": {
     "search.useIgnoreFiles": true,
-    // use root .gitignore to ignore files from search
     "search.useParentIgnoreFiles": true,
-    "typescript.tsdk": "Root/node_modules/typescript/lib",
+    "typescript.tsdk": "Root/node_modules/typescript/lib"
   },
   "launch": {
     "version": "0.2.0",
@@ -36,9 +35,8 @@
     "compounds": [
       {
         "name": "Launch App, Web, and API",
-        // from apps/app/.vscode/launch.json, apps/web/.vscode/launch.json, and apps/api/.vscode/launch.json
-        "configurations": ["Debug App", "Debug Web", "Debug API"],
-      },
-    ],
-  },
+        "configurations": ["Debug App", "Debug Web", "Debug API"]
+      }
+    ]
+  }
 }

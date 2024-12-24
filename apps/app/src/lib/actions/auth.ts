@@ -1,22 +1,22 @@
-"use server";
+'use server';
 
-import { revalidatePath } from "next/cache";
-import { headers } from "next/headers";
-import { redirect } from "next/navigation";
+import { revalidatePath } from 'next/cache';
+import { headers } from 'next/headers';
+import { redirect } from 'next/navigation';
 
 import {
   DEFAULT_LOGIN_REDIRECT,
   RESET_PASSWORD_ROUTE,
-} from "@lamp/supabase/config/routes";
-import { createClient } from "@lamp/supabase/server";
+} from '@lamp/supabase/config/routes';
+import { createClient } from '@lamp/supabase/server';
 import {
   RequestPasswordResetSchema,
   SignInSchema,
   SignUpSchema,
   UpdatePasswordSchema,
-} from "@lamp/validators/auth";
+} from '@lamp/validators/auth';
 
-import { actionClient } from "~/lib/safe-action";
+import { actionClient } from '~/lib/safe-action';
 
 export const signInWithPassword = actionClient
   .schema(SignInSchema)
@@ -32,8 +32,8 @@ export const signInWithPassword = actionClient
       throw error;
     }
 
-    revalidatePath("/", "layout");
-    redirect("/");
+    revalidatePath('/', 'layout');
+    redirect('/');
   });
 
 export const signUp = actionClient
@@ -42,9 +42,9 @@ export const signUp = actionClient
     const supabase = await createClient();
     const headersList = await headers();
 
-    const origin = headersList.get("origin");
+    const origin = headersList.get('origin');
     const redirectUrl = `${origin}/auth/confirm?next=${encodeURIComponent(
-      DEFAULT_LOGIN_REDIRECT,
+      DEFAULT_LOGIN_REDIRECT
     )}`;
 
     const { data, error } = await supabase.auth.signUp({
@@ -53,21 +53,21 @@ export const signUp = actionClient
       options: {
         emailRedirectTo: redirectUrl,
         data: {
-          stripe_customer_id: "",
+          stripe_customer_id: '',
         },
       },
     });
 
     // User already exists, so fake data is returned. See https://supabase.com/docs/reference/javascript/auth-signup
     if (data.user?.identities && data.user.identities.length === 0) {
-      throw new Error("An error occurred. Please try again.");
+      throw new Error('An error occurred. Please try again.');
     }
 
     if (error) {
       throw error;
     }
 
-    revalidatePath("/", "layout");
+    revalidatePath('/', 'layout');
     return data.user;
   });
 
@@ -77,9 +77,9 @@ export const requestResetPassword = actionClient
     const supabase = await createClient();
     const headersList = await headers();
 
-    const origin = headersList.get("origin");
+    const origin = headersList.get('origin');
     const redirectUrl = `${origin}/auth/confirm?next=${encodeURIComponent(
-      RESET_PASSWORD_ROUTE,
+      RESET_PASSWORD_ROUTE
     )}`;
 
     const { data, error } = await supabase.auth.resetPasswordForEmail(email, {
@@ -90,7 +90,7 @@ export const requestResetPassword = actionClient
       throw error;
     }
 
-    revalidatePath("/", "layout");
+    revalidatePath('/', 'layout');
     return data;
   });
 
@@ -107,17 +107,17 @@ export const updatePassword = actionClient
       throw error;
     }
 
-    revalidatePath("/", "layout");
-    redirect("/");
+    revalidatePath('/', 'layout');
+    redirect('/');
   });
 
 export const signInWithGithub = async () => {
   const supabase = await createClient();
   const headersList = await headers();
 
-  const origin = headersList.get("origin");
+  const origin = headersList.get('origin');
   const { data, error } = await supabase.auth.signInWithOAuth({
-    provider: "github",
+    provider: 'github',
     options: { redirectTo: `${origin}/auth/callback` },
   });
 
@@ -125,8 +125,7 @@ export const signInWithGithub = async () => {
     redirect(data.url);
   }
   if (error) {
-    console.error(error.message);
-    redirect("/auth/error");
+    redirect('/auth/error');
   }
 };
 
@@ -134,11 +133,11 @@ export const signInWithGoogle = async () => {
   const supabase = await createClient();
   const headersList = await headers();
 
-  const origin = headersList.get("origin");
+  const origin = headersList.get('origin');
   const redirectUrl = `${origin}/auth/callback?next=${encodeURIComponent(DEFAULT_LOGIN_REDIRECT)}`;
 
   const { data, error } = await supabase.auth.signInWithOAuth({
-    provider: "google",
+    provider: 'google',
     options: { redirectTo: redirectUrl },
   });
 
@@ -146,14 +145,13 @@ export const signInWithGoogle = async () => {
     redirect(data.url);
   }
   if (error) {
-    console.error(error.message);
-    redirect("/auth/error");
+    redirect('/auth/error');
   }
 };
 
 export const signOut = async () => {
   const supabase = await createClient();
   await supabase.auth.signOut();
-  revalidatePath("/", "layout");
-  redirect("/");
+  revalidatePath('/', 'layout');
+  redirect('/');
 };

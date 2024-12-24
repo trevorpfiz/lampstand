@@ -1,5 +1,3 @@
-import React from 'react';
-
 import type { SlateElementProps } from '@udecode/plate-common';
 import type { TTableElement } from '@udecode/plate-table';
 
@@ -17,7 +15,7 @@ export const TableElementStatic = ({
     <SlateElement className={cn(className, 'overflow-x-auto')} {...props}>
       <table
         className={cn(
-          'my-4 ml-px mr-0 table h-px w-[calc(100%-6px)] table-fixed border-collapse'
+          'my-4 mr-0 ml-px table h-px w-[calc(100%-6px)] table-fixed border-collapse'
         )}
       >
         <colgroup>

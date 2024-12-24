@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "MAL"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Malachi\n"
-      ]
+      "content": ["Malachi\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Malachi\n"
-      ]
+      "content": ["Malachi\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Malachi\n"
-      ]
+      "content": ["Malachi\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The LORD’s Love for Israel\n"
-      ]
+      "content": ["The LORD’s Love for Israel\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 25:19–28; Romans 9:6–29)\n"
-      ]
+      "content": ["(Genesis 25:19–28; Romans 9:6–29)\n"]
     },
     {
       "type": "para",
@@ -74,16 +62,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:1 "
-              ]
+              "content": ["1:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Malachi means My messenger."
-              ]
+              "content": ["Malachi means My messenger."]
             }
           ],
           "caller": "+"
@@ -115,9 +99,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "But you ask, “How have You loved us?” \n"
-      ]
+      "content": ["But you ask, “How have You loved us?” \n"]
     },
     {
       "type": "para",
@@ -143,16 +125,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:3 "
-              ]
+              "content": ["1:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in Romans 9:13"
-              ]
+              "content": ["Cited in Romans 9:13"]
             }
           ],
           "caller": "+"
@@ -166,9 +144,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:3 "
-              ]
+              "content": ["1:3 "]
             },
             {
               "type": "char",
@@ -206,9 +182,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Polluted Offerings\n"
-      ]
+      "content": ["The Polluted Offerings\n"]
     },
     {
       "type": "para",
@@ -234,9 +208,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“But you ask, ‘How have we despised Your name?’ \n"
-      ]
+      "content": ["“But you ask, ‘How have we despised Your name?’ \n"]
     },
     {
       "type": "para",
@@ -268,16 +240,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:7 "
-              ]
+              "content": ["1:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "LXX defiled it"
-              ]
+              "content": ["LXX defiled it"]
             }
           ],
           "caller": "+"
@@ -292,9 +260,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "By saying that the table of the LORD is contemptible. \n"
-      ]
+      "content": ["By saying that the table of the LORD is contemptible. \n"]
     },
     {
       "type": "para",
@@ -417,9 +383,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Warning to the Priests\n"
-      ]
+      "content": ["A Warning to the Priests\n"]
     },
     {
       "type": "para",
@@ -478,16 +442,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:3 "
-              ]
+              "content": ["2:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or I will blight your grain"
-              ]
+              "content": ["Or I will blight your grain"]
             }
           ],
           "caller": "+"
@@ -566,9 +526,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Judah’s Unfaithfulness\n"
-      ]
+      "content": ["Judah’s Unfaithfulness\n"]
     },
     {
       "type": "para",
@@ -692,9 +650,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:16 "
-              ]
+              "content": ["2:16 "]
             },
             {
               "type": "char",
@@ -746,16 +702,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "I Will Send My Messenger\n"
-      ]
+      "content": ["I Will Send My Messenger\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Matthew 11:7–19; Luke 7:24–35)\n"
-      ]
+      "content": ["(Matthew 11:7–19; Luke 7:24–35)\n"]
     },
     {
       "type": "para",
@@ -780,16 +732,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:1 "
-              ]
+              "content": ["3:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in Matthew 11:10, Mark 1:2, and Luke 7:27"
-              ]
+              "content": ["Cited in Matthew 11:10, Mark 1:2, and Luke 7:27"]
             }
           ],
           "caller": "+"
@@ -868,9 +816,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Robbing God\n"
-      ]
+      "content": ["Robbing God\n"]
     },
     {
       "type": "para",
@@ -903,9 +849,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "“But you ask, ‘How can we return?’ \n"
-      ]
+      "content": ["“But you ask, ‘How can we return?’ \n"]
     },
     {
       "type": "para",
@@ -927,9 +871,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "But you ask, ‘How do we rob You?’ \n"
-      ]
+      "content": ["But you ask, ‘How do we rob You?’ \n"]
     },
     {
       "type": "para",
@@ -962,16 +904,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:10 "
-              ]
+              "content": ["3:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally blessing for which there will be no room"
-              ]
+              "content": ["Literally blessing for which there will be no room"]
             }
           ],
           "caller": "+"
@@ -992,9 +930,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:11 "
-              ]
+              "content": ["3:11 "]
             },
             {
               "type": "char",
@@ -1029,9 +965,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Book of Remembrance\n"
-      ]
+      "content": ["The Book of Remembrance\n"]
     },
     {
       "type": "para",
@@ -1116,9 +1050,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Day of the LORD\n"
-      ]
+      "content": ["The Day of the LORD\n"]
     },
     {
       "type": "para",
@@ -1167,9 +1099,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:2 "
-              ]
+              "content": ["4:2 "]
             },
             {
               "type": "char",
@@ -1214,9 +1144,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:4 "
-              ]
+              "content": ["4:4 "]
             },
             {
               "type": "char",
@@ -1254,16 +1182,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:5 "
-              ]
+              "content": ["4:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or dreadful; LXX glorious"
-              ]
+              "content": ["Or dreadful; LXX glorious"]
             }
           ],
           "caller": "+"
@@ -1284,16 +1208,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:6 "
-              ]
+              "content": ["4:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Cited in Luke 1:17"
-              ]
+              "content": ["Cited in Luke 1:17"]
             }
           ],
           "caller": "+"

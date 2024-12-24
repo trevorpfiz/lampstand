@@ -13,7 +13,9 @@ export const ColorInput = withRef<'input'>(
     return (
       <div className="flex flex-col items-center">
         {React.Children.map(children, (child) => {
-          if (!child) return child;
+          if (!child) {
+            return child;
+          }
 
           return React.cloneElement(child as React.ReactElement, childProps);
         })}

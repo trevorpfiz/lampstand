@@ -1,7 +1,7 @@
-import { unstable_flag as flag } from "@vercel/flags/next";
+import { unstable_flag as flag } from '@vercel/flags/next';
 
-import { analytics } from "@lamp/analytics/posthog/server";
-import { createClient } from "@lamp/supabase/server";
+import { analytics } from '@lamp/analytics/posthog/server';
+import { createClient } from '@lamp/supabase/server';
 
 export const createFlag = (key: string) =>
   flag({

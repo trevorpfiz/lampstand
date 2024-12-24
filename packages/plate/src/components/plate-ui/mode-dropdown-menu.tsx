@@ -1,7 +1,5 @@
 'use client';
 
-import React from 'react';
-
 import type { DropdownMenuProps } from '@radix-ui/react-dropdown-menu';
 
 import {
@@ -30,7 +28,9 @@ export function ModeDropdownMenu(props: DropdownMenuProps) {
 
   let value = 'editing';
 
-  if (readOnly) value = 'viewing';
+  if (readOnly) {
+    value = 'viewing';
+  }
 
   const item: any = {
     editing: (

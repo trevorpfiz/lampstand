@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "ROM"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "Romans\n"
-      ]
+      "content": ["Romans\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "Romans\n"
-      ]
+      "content": ["Romans\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "Romans\n"
-      ]
+      "content": ["Romans\n"]
     },
     {
       "type": "chapter",
@@ -40,9 +32,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paul Greets the Saints in Rome\n"
-      ]
+      "content": ["Paul Greets the Saints in Rome\n"]
     },
     {
       "type": "para",
@@ -137,9 +127,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Unashamed of the Gospel\n"
-      ]
+      "content": ["Unashamed of the Gospel\n"]
     },
     {
       "type": "para",
@@ -171,16 +159,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:9 "
-              ]
+              "content": ["1:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or in my spirit"
-              ]
+              "content": ["Or in my spirit"]
             }
           ],
           "caller": "+"
@@ -232,16 +216,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:13 "
-              ]
+              "content": ["1:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally but have been prevented"
-              ]
+              "content": ["Literally but have been prevented"]
             }
           ],
           "caller": "+"
@@ -262,16 +242,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:14 "
-              ]
+              "content": ["1:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally to Greeks and barbarians"
-              ]
+              "content": ["Literally to Greeks and barbarians"]
             }
           ],
           "caller": "+"
@@ -316,9 +292,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:17 "
-              ]
+              "content": ["1:17 "]
             },
             {
               "type": "char",
@@ -339,16 +313,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:17 "
-              ]
+              "content": ["1:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Habakkuk 2:4"
-              ]
+              "content": ["Habakkuk 2:4"]
             }
           ],
           "caller": "+"
@@ -359,9 +329,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Wrath against Sin\n"
-      ]
+      "content": ["God’s Wrath against Sin\n"]
     },
     {
       "type": "para",
@@ -455,16 +423,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:25 "
-              ]
+              "content": ["1:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or forever blessed"
-              ]
+              "content": ["Or forever blessed"]
             }
           ],
           "caller": "+"
@@ -560,16 +524,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Righteous Judgment\n"
-      ]
+      "content": ["God’s Righteous Judgment\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 75:1–10)\n"
-      ]
+      "content": ["(Psalm 75:1–10)\n"]
     },
     {
       "type": "para",
@@ -639,16 +599,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:6 "
-              ]
+              "content": ["2:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 62:12"
-              ]
+              "content": ["Psalm 62:12"]
             }
           ],
           "caller": "+"
@@ -762,16 +718,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:16 "
-              ]
+              "content": ["2:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR through Jesus Christ"
-              ]
+              "content": ["BYZ and TR through Jesus Christ"]
             }
           ],
           "caller": "+"
@@ -782,9 +734,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Jews and the Law\n"
-      ]
+      "content": ["The Jews and the Law\n"]
     },
     {
       "type": "para",
@@ -858,16 +808,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:24 "
-              ]
+              "content": ["2:24 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 52:5 (see also LXX)"
-              ]
+              "content": ["Isaiah 52:5 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -939,9 +885,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God Remains Faithful\n"
-      ]
+      "content": ["God Remains Faithful\n"]
     },
     {
       "type": "para",
@@ -973,16 +917,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:2 "
-              ]
+              "content": ["3:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the oracles"
-              ]
+              "content": ["Or the oracles"]
             }
           ],
           "caller": "+"
@@ -1021,9 +961,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“So that You may be proved right when You speak \n"
-      ]
+      "content": ["“So that You may be proved right when You speak \n"]
     },
     {
       "type": "para",
@@ -1038,16 +976,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:4 "
-              ]
+              "content": ["3:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or when You are judged; Psalm 51:4 (see also LXX)"
-              ]
+              "content": ["Or when You are judged; Psalm 51:4 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -1096,16 +1030,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "There Is No One Righteous\n"
-      ]
+      "content": ["There Is No One Righteous\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 14:1–7; Psalm 53:1–6; Isaiah 59:1–17)\n"
-      ]
+      "content": ["(Psalm 14:1–7; Psalm 53:1–6; Isaiah 59:1–17)\n"]
     },
     {
       "type": "para",
@@ -1138,16 +1068,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“There is no one righteous, \n"
-      ]
+      "content": ["“There is no one righteous, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "not even one. \n"
-      ]
+      "content": ["not even one. \n"]
     },
     {
       "type": "para",
@@ -1165,9 +1091,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "no one who seeks God. \n"
-      ]
+      "content": ["no one who seeks God. \n"]
     },
     {
       "type": "para",
@@ -1185,16 +1109,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "they have together become worthless; \n"
-      ]
+      "content": ["they have together become worthless; \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "there is no one who does good, \n"
-      ]
+      "content": ["there is no one who does good, \n"]
     },
     {
       "type": "para",
@@ -1209,16 +1129,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:12 "
-              ]
+              "content": ["3:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 14:1–3 and Psalm 53:1–3 (see also LXX)"
-              ]
+              "content": ["Psalm 14:1–3 and Psalm 53:1–3 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -1252,16 +1168,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:13 "
-              ]
+              "content": ["3:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 5:9"
-              ]
+              "content": ["Psalm 5:9"]
             }
           ],
           "caller": "+"
@@ -1282,16 +1194,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:13 "
-              ]
+              "content": ["3:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 140:3"
-              ]
+              "content": ["Psalm 140:3"]
             }
           ],
           "caller": "+"
@@ -1325,16 +1233,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:14 "
-              ]
+              "content": ["3:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 10:7 (see also LXX)"
-              ]
+              "content": ["Psalm 10:7 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -1387,16 +1291,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:17 "
-              ]
+              "content": ["3:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 59:7–8 (see also LXX)"
-              ]
+              "content": ["Isaiah 59:7–8 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -1430,16 +1330,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:18 "
-              ]
+              "content": ["3:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 36:1"
-              ]
+              "content": ["Psalm 36:1"]
             }
           ],
           "caller": "+"
@@ -1474,16 +1370,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Righteousness through Faith in Christ\n"
-      ]
+      "content": ["Righteousness through Faith in Christ\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Philippians 3:1–11)\n"
-      ]
+      "content": ["(Philippians 3:1–11)\n"]
     },
     {
       "type": "para",
@@ -1546,16 +1438,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:25 "
-              ]
+              "content": ["3:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or as a propitiation"
-              ]
+              "content": ["Or as a propitiation"]
             }
           ],
           "caller": "+"
@@ -1644,16 +1532,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Abraham Justified by Faith\n"
-      ]
+      "content": ["Abraham Justified by Faith\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 15:1–7; Psalm 32:1–11; Hebrews 11:8–19)\n"
-      ]
+      "content": ["(Genesis 15:1–7; Psalm 32:1–11; Hebrews 11:8–19)\n"]
     },
     {
       "type": "para",
@@ -1692,16 +1576,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:3 "
-              ]
+              "content": ["4:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Genesis 15:6"
-              ]
+              "content": ["Genesis 15:6"]
             }
           ],
           "caller": "+"
@@ -1760,9 +1640,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "whose sins are covered. \n"
-      ]
+      "content": ["whose sins are covered. \n"]
     },
     {
       "type": "para",
@@ -1790,16 +1668,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:8 "
-              ]
+              "content": ["4:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 32:1–2 (see also LXX)"
-              ]
+              "content": ["Psalm 32:1–2 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -1837,9 +1711,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:10 "
-              ]
+              "content": ["4:10 "]
             },
             {
               "type": "char",
@@ -1881,16 +1753,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Abraham Receives the Promise\n"
-      ]
+      "content": ["Abraham Receives the Promise\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 15:8–21)\n"
-      ]
+      "content": ["(Genesis 15:8–21)\n"]
     },
     {
       "type": "para",
@@ -1953,16 +1821,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:17 "
-              ]
+              "content": ["4:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Genesis 17:5"
-              ]
+              "content": ["Genesis 17:5"]
             }
           ],
           "caller": "+"
@@ -1993,16 +1857,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:18 "
-              ]
+              "content": ["4:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Genesis 15:5"
-              ]
+              "content": ["Genesis 15:5"]
             }
           ],
           "caller": "+"
@@ -2044,16 +1904,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:22 "
-              ]
+              "content": ["4:22 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Genesis 15:6"
-              ]
+              "content": ["Genesis 15:6"]
             }
           ],
           "caller": "+"
@@ -2101,9 +1957,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Triumph of Faith\n"
-      ]
+      "content": ["The Triumph of Faith\n"]
     },
     {
       "type": "para",
@@ -2128,16 +1982,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:1 "
-              ]
+              "content": ["5:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or let us have"
-              ]
+              "content": ["Or let us have"]
             }
           ],
           "caller": "+"
@@ -2158,16 +2008,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:2 "
-              ]
+              "content": ["5:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or exult; also in verses 3 and 11"
-              ]
+              "content": ["Or exult; also in verses 3 and 11"]
             }
           ],
           "caller": "+"
@@ -2209,16 +2055,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Christ’s Sacrifice for the Ungodly\n"
-      ]
+      "content": ["Christ’s Sacrifice for the Ungodly\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(John 3:1–21)\n"
-      ]
+      "content": ["(John 3:1–21)\n"]
     },
     {
       "type": "para",
@@ -2285,16 +2127,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Death in Adam, Life in Christ\n"
-      ]
+      "content": ["Death in Adam, Life in Christ\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 3:1–7)\n"
-      ]
+      "content": ["(Genesis 3:1–7)\n"]
     },
     {
       "type": "para",
@@ -2415,16 +2253,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Dead to Sin, Alive to God\n"
-      ]
+      "content": ["Dead to Sin, Alive to God\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Corinthians 4:7–18)\n"
-      ]
+      "content": ["(2 Corinthians 4:7–18)\n"]
     },
     {
       "type": "para",
@@ -2567,9 +2401,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Wages of Sin\n"
-      ]
+      "content": ["The Wages of Sin\n"]
     },
     {
       "type": "para",
@@ -2673,16 +2505,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Release from the Law\n"
-      ]
+      "content": ["Release from the Law\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Galatians 3:15–25)\n"
-      ]
+      "content": ["(Galatians 3:15–25)\n"]
     },
     {
       "type": "para",
@@ -2749,9 +2577,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Law Is Holy\n"
-      ]
+      "content": ["God’s Law Is Holy\n"]
     },
     {
       "type": "para",
@@ -2776,16 +2602,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:7 "
-              ]
+              "content": ["7:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 20:17; Deuteronomy 5:21"
-              ]
+              "content": ["Exodus 20:17; Deuteronomy 5:21"]
             }
           ],
           "caller": "+"
@@ -2851,9 +2673,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Struggling with Sin\n"
-      ]
+      "content": ["Struggling with Sin\n"]
     },
     {
       "type": "para",
@@ -2978,9 +2798,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "7:23 "
-              ]
+              "content": ["7:23 "]
             },
             {
               "type": "char",
@@ -3039,16 +2857,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Walking by the Spirit\n"
-      ]
+      "content": ["Walking by the Spirit\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ezekiel 36:16–38; Galatians 5:16–26)\n"
-      ]
+      "content": ["(Ezekiel 36:16–38; Galatians 5:16–26)\n"]
     },
     {
       "type": "para",
@@ -3073,9 +2887,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:1 "
-              ]
+              "content": ["8:1 "]
             },
             {
               "type": "char",
@@ -3103,16 +2915,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:2 "
-              ]
+              "content": ["8:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR me"
-              ]
+              "content": ["BYZ and TR me"]
             }
           ],
           "caller": "+"
@@ -3133,9 +2941,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:3 "
-              ]
+              "content": ["8:3 "]
             },
             {
               "type": "char",
@@ -3201,9 +3007,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:8 "
-              ]
+              "content": ["8:8 "]
             },
             {
               "type": "char",
@@ -3248,16 +3052,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:10 "
-              ]
+              "content": ["8:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or yet the Spirit is life"
-              ]
+              "content": ["Or yet the Spirit is life"]
             }
           ],
           "caller": "+"
@@ -3278,16 +3078,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:11 "
-              ]
+              "content": ["8:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NA, BYZ, and TR raised Christ from the dead"
-              ]
+              "content": ["NA, BYZ, and TR raised Christ from the dead"]
             }
           ],
           "caller": "+"
@@ -3298,9 +3094,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Heirs with Christ\n"
-      ]
+      "content": ["Heirs with Christ\n"]
     },
     {
       "type": "para",
@@ -3367,16 +3161,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Future Glory\n"
-      ]
+      "content": ["Future Glory\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(2 Corinthians 5:1–10)\n"
-      ]
+      "content": ["(2 Corinthians 5:1–10)\n"]
     },
     {
       "type": "para",
@@ -3481,16 +3271,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God Works in All Things\n"
-      ]
+      "content": ["God Works in All Things\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ephesians 1:3–14)\n"
-      ]
+      "content": ["(Ephesians 1:3–14)\n"]
     },
     {
       "type": "para",
@@ -3564,16 +3350,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "More than Conquerors\n"
-      ]
+      "content": ["More than Conquerors\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Psalm 44:1–26)\n"
-      ]
+      "content": ["(Psalm 44:1–26)\n"]
     },
     {
       "type": "para",
@@ -3606,9 +3388,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“For Your sake we face death all day long; \n"
-      ]
+      "content": ["“For Your sake we face death all day long; \n"]
     },
     {
       "type": "para",
@@ -3623,16 +3403,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "8:36 "
-              ]
+              "content": ["8:36 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 44:22"
-              ]
+              "content": ["Psalm 44:22"]
             }
           ],
           "caller": "+"
@@ -3680,9 +3456,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paul’s Concern for the Jews\n"
-      ]
+      "content": ["Paul’s Concern for the Jews\n"]
     },
     {
       "type": "para",
@@ -3735,16 +3509,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:5 "
-              ]
+              "content": ["9:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or forever blessed"
-              ]
+              "content": ["Or forever blessed"]
             }
           ],
           "caller": "+"
@@ -3755,16 +3525,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Sovereign Choice\n"
-      ]
+      "content": ["God’s Sovereign Choice\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Genesis 25:19–28; Malachi 1:1–5)\n"
-      ]
+      "content": ["(Genesis 25:19–28; Malachi 1:1–5)\n"]
     },
     {
       "type": "para",
@@ -3796,16 +3562,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:7 "
-              ]
+              "content": ["9:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Genesis 21:12"
-              ]
+              "content": ["Genesis 21:12"]
             }
           ],
           "caller": "+"
@@ -3833,16 +3595,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:9 "
-              ]
+              "content": ["9:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Genesis 18:14"
-              ]
+              "content": ["Genesis 18:14"]
             }
           ],
           "caller": "+"
@@ -3887,16 +3645,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:12 "
-              ]
+              "content": ["9:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Genesis 25:23"
-              ]
+              "content": ["Genesis 25:23"]
             }
           ],
           "caller": "+"
@@ -3917,16 +3671,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:13 "
-              ]
+              "content": ["9:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Malachi 1:2–3"
-              ]
+              "content": ["Malachi 1:2–3"]
             }
           ],
           "caller": "+"
@@ -3965,9 +3715,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“I will have mercy on whom I have mercy, \n"
-      ]
+      "content": ["“I will have mercy on whom I have mercy, \n"]
     },
     {
       "type": "para",
@@ -3982,16 +3730,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:15 "
-              ]
+              "content": ["9:15 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 33:19"
-              ]
+              "content": ["Exodus 33:19"]
             }
           ],
           "caller": "+"
@@ -4029,16 +3773,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:17 "
-              ]
+              "content": ["9:17 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 9:16 (see also LXX)"
-              ]
+              "content": ["Exodus 9:16 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -4083,16 +3823,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:20 "
-              ]
+              "content": ["9:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 29:16; Isaiah 45:9"
-              ]
+              "content": ["Isaiah 29:16; Isaiah 45:9"]
             }
           ],
           "caller": "+"
@@ -4152,9 +3888,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“I will call them ‘My People’ who are not My people, \n"
-      ]
+      "content": ["“I will call them ‘My People’ who are not My people, \n"]
     },
     {
       "type": "para",
@@ -4169,16 +3903,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:25 "
-              ]
+              "content": ["9:25 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hosea 2:23"
-              ]
+              "content": ["Hosea 2:23"]
             }
           ],
           "caller": "+"
@@ -4217,16 +3947,12 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "‘You are not My people,’ \n"
-      ]
+      "content": ["‘You are not My people,’ \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "they will be called \n"
-      ]
+      "content": ["they will be called \n"]
     },
     {
       "type": "para",
@@ -4241,16 +3967,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:26 "
-              ]
+              "content": ["9:26 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Hosea 1:10"
-              ]
+              "content": ["Hosea 1:10"]
             }
           ],
           "caller": "+"
@@ -4289,9 +4011,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "only the remnant will be saved. \n"
-      ]
+      "content": ["only the remnant will be saved. \n"]
     },
     {
       "type": "para",
@@ -4319,16 +4039,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:28 "
-              ]
+              "content": ["9:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 10:22–23 (see also LXX)"
-              ]
+              "content": ["Isaiah 10:22–23 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -4360,16 +4076,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Unless the Lord of Hosts had left us descendants, \n"
-      ]
+      "content": ["“Unless the Lord of Hosts had left us descendants, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "we would have become like Sodom, \n"
-      ]
+      "content": ["we would have become like Sodom, \n"]
     },
     {
       "type": "para",
@@ -4384,16 +4096,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:29 "
-              ]
+              "content": ["9:29 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 1:9 (see also LXX)"
-              ]
+              "content": ["Isaiah 1:9 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -4404,9 +4112,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Israel’s Unbelief\n"
-      ]
+      "content": ["Israel’s Unbelief\n"]
     },
     {
       "type": "para",
@@ -4453,9 +4159,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“See, I lay in Zion a stone of stumbling \n"
-      ]
+      "content": ["“See, I lay in Zion a stone of stumbling \n"]
     },
     {
       "type": "para",
@@ -4470,16 +4174,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:33 "
-              ]
+              "content": ["9:33 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 8:14"
-              ]
+              "content": ["Isaiah 8:14"]
             }
           ],
           "caller": "+"
@@ -4490,9 +4190,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "and the one who believes in Him \n"
-      ]
+      "content": ["and the one who believes in Him \n"]
     },
     {
       "type": "para",
@@ -4507,16 +4205,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "9:33 "
-              ]
+              "content": ["9:33 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 28:16 (see also LXX)"
-              ]
+              "content": ["Isaiah 28:16 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -4533,16 +4227,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Word Brings Salvation\n"
-      ]
+      "content": ["The Word Brings Salvation\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Isaiah 65:1–16)\n"
-      ]
+      "content": ["(Isaiah 65:1–16)\n"]
     },
     {
       "type": "para",
@@ -4605,16 +4295,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:5 "
-              ]
+              "content": ["10:5 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Leviticus 18:5; see also Ezekiel 20:11, 13, and 21."
-              ]
+              "content": ["Leviticus 18:5; see also Ezekiel 20:11, 13, and 21."]
             }
           ],
           "caller": "+"
@@ -4635,16 +4321,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:6 "
-              ]
+              "content": ["10:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 30:12"
-              ]
+              "content": ["Deuteronomy 30:12"]
             }
           ],
           "caller": "+"
@@ -4665,16 +4347,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:7 "
-              ]
+              "content": ["10:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Deuteronomy 30:13."
-              ]
+              "content": ["See Deuteronomy 30:13."]
             }
           ],
           "caller": "+"
@@ -4705,16 +4383,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:8 "
-              ]
+              "content": ["10:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 30:14"
-              ]
+              "content": ["Deuteronomy 30:14"]
             }
           ],
           "caller": "+"
@@ -4759,16 +4433,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:11 "
-              ]
+              "content": ["10:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 28:16 (see also LXX)"
-              ]
+              "content": ["Isaiah 28:16 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -4796,16 +4466,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:13 "
-              ]
+              "content": ["10:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Joel 2:32"
-              ]
+              "content": ["Joel 2:32"]
             }
           ],
           "caller": "+"
@@ -4843,9 +4509,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:15 "
-              ]
+              "content": ["10:15 "]
             },
             {
               "type": "char",
@@ -4883,16 +4547,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:16 "
-              ]
+              "content": ["10:16 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 53:1"
-              ]
+              "content": ["Isaiah 53:1"]
             }
           ],
           "caller": "+"
@@ -4931,9 +4591,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Their voice has gone out into all the earth, \n"
-      ]
+      "content": ["“Their voice has gone out into all the earth, \n"]
     },
     {
       "type": "para",
@@ -4948,16 +4606,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:18 "
-              ]
+              "content": ["10:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 19:4 (see also LXX)"
-              ]
+              "content": ["Psalm 19:4 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -4989,9 +4643,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“I will make you jealous by those who are not a nation; \n"
-      ]
+      "content": ["“I will make you jealous by those who are not a nation; \n"]
     },
     {
       "type": "para",
@@ -5006,16 +4658,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:19 "
-              ]
+              "content": ["10:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 32:21 (see also LXX)"
-              ]
+              "content": ["Deuteronomy 32:21 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -5047,9 +4695,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“I was found by those who did not seek Me; \n"
-      ]
+      "content": ["“I was found by those who did not seek Me; \n"]
     },
     {
       "type": "para",
@@ -5064,16 +4710,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:20 "
-              ]
+              "content": ["10:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 65:1"
-              ]
+              "content": ["Isaiah 65:1"]
             }
           ],
           "caller": "+"
@@ -5105,9 +4747,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“All day long I have held out My hands \n"
-      ]
+      "content": ["“All day long I have held out My hands \n"]
     },
     {
       "type": "para",
@@ -5122,16 +4762,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "10:21 "
-              ]
+              "content": ["10:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 65:2 (see also LXX)"
-              ]
+              "content": ["Isaiah 65:2 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -5148,9 +4784,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Remnant Chosen by Grace\n"
-      ]
+      "content": ["A Remnant Chosen by Grace\n"]
     },
     {
       "type": "para",
@@ -5189,16 +4823,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:3 "
-              ]
+              "content": ["11:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "1 Kings 19:10, 14"
-              ]
+              "content": ["1 Kings 19:10, 14"]
             }
           ],
           "caller": "+"
@@ -5229,16 +4859,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:4 "
-              ]
+              "content": ["11:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "1 Kings 19:18"
-              ]
+              "content": ["1 Kings 19:18"]
             }
           ],
           "caller": "+"
@@ -5276,9 +4902,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:6 "
-              ]
+              "content": ["11:6 "]
             },
             {
               "type": "char",
@@ -5324,23 +4948,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“God gave them a spirit of stupor, \n"
-      ]
+      "content": ["“God gave them a spirit of stupor, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "eyes that could not see, \n"
-      ]
+      "content": ["eyes that could not see, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and ears that could not hear, \n"
-      ]
+      "content": ["and ears that could not hear, \n"]
     },
     {
       "type": "para",
@@ -5355,16 +4973,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:8 "
-              ]
+              "content": ["11:8 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "See Deuteronomy 29:4 and Isaiah 29:10."
-              ]
+              "content": ["See Deuteronomy 29:4 and Isaiah 29:10."]
             }
           ],
           "caller": "+"
@@ -5396,16 +5010,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“May their table become a snare and a trap, \n"
-      ]
+      "content": ["“May their table become a snare and a trap, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "a stumbling block and a retribution to them. \n"
-      ]
+      "content": ["a stumbling block and a retribution to them. \n"]
     },
     {
       "type": "para",
@@ -5433,16 +5043,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:10 "
-              ]
+              "content": ["11:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 69:22–23 (see also LXX)"
-              ]
+              "content": ["Psalm 69:22–23 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -5453,9 +5059,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Ingrafting of the Gentiles\n"
-      ]
+      "content": ["The Ingrafting of the Gentiles\n"]
     },
     {
       "type": "para",
@@ -5480,9 +5084,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:11 "
-              ]
+              "content": ["11:11 "]
             },
             {
               "type": "char",
@@ -5603,16 +5205,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:21 "
-              ]
+              "content": ["11:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or He will perhaps not; SBL, NE, and WH He will not"
-              ]
+              "content": ["Or He will perhaps not; SBL, NE, and WH He will not"]
             }
           ],
           "caller": "+"
@@ -5654,9 +5252,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "All Israel Will Be Saved\n"
-      ]
+      "content": ["All Israel Will Be Saved\n"]
     },
     {
       "type": "para",
@@ -5689,16 +5285,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“The Deliverer will come from Zion; \n"
-      ]
+      "content": ["“The Deliverer will come from Zion; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "He will remove godlessness from Jacob. \n"
-      ]
+      "content": ["He will remove godlessness from Jacob. \n"]
     },
     {
       "type": "para",
@@ -5726,16 +5318,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:27 "
-              ]
+              "content": ["11:27 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 27:9 and Isaiah 59:20–21; see also LXX"
-              ]
+              "content": ["Isaiah 27:9 and Isaiah 59:20–21; see also LXX"]
             }
           ],
           "caller": "+"
@@ -5797,9 +5385,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:31 "
-              ]
+              "content": ["11:31 "]
             },
             {
               "type": "char",
@@ -5824,16 +5410,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A Hymn of Praise\n"
-      ]
+      "content": ["A Hymn of Praise\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Isaiah 40:9–31)\n"
-      ]
+      "content": ["(Isaiah 40:9–31)\n"]
     },
     {
       "type": "para",
@@ -5855,23 +5437,17 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "of the wisdom and knowledge of God! \n"
-      ]
+      "content": ["of the wisdom and knowledge of God! \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "How unsearchable are His judgments, \n"
-      ]
+      "content": ["How unsearchable are His judgments, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "and untraceable His ways! \n"
-      ]
+      "content": ["and untraceable His ways! \n"]
     },
     {
       "type": "para",
@@ -5899,16 +5475,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:34 "
-              ]
+              "content": ["11:34 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 40:13 (see also LXX)"
-              ]
+              "content": ["Isaiah 40:13 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -5942,16 +5514,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "11:35 "
-              ]
+              "content": ["11:35 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Job 41:11"
-              ]
+              "content": ["Job 41:11"]
             }
           ],
           "caller": "+"
@@ -5975,9 +5543,7 @@
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "To Him be the glory forever! Amen. \n"
-      ]
+      "content": ["To Him be the glory forever! Amen. \n"]
     },
     {
       "type": "chapter",
@@ -5988,16 +5554,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Living Sacrifices\n"
-      ]
+      "content": ["Living Sacrifices\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Corinthians 3:16–23; 1 Corinthians 6:18–20)\n"
-      ]
+      "content": ["(1 Corinthians 3:16–23; 1 Corinthians 6:18–20)\n"]
     },
     {
       "type": "para",
@@ -6022,16 +5584,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:1 "
-              ]
+              "content": ["12:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or your reasonable service"
-              ]
+              "content": ["Or your reasonable service"]
             }
           ],
           "caller": "+"
@@ -6111,16 +5669,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Love, Zeal, Hope, Hospitality\n"
-      ]
+      "content": ["Love, Zeal, Hope, Hospitality\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(John 13:31–35; 1 John 3:11–24)\n"
-      ]
+      "content": ["(John 13:31–35; 1 John 3:11–24)\n"]
     },
     {
       "type": "para",
@@ -6200,16 +5754,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Forgiveness\n"
-      ]
+      "content": ["Forgiveness\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Matthew 18:21–35)\n"
-      ]
+      "content": ["(Matthew 18:21–35)\n"]
     },
     {
       "type": "para",
@@ -6289,16 +5839,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:19 "
-              ]
+              "content": ["12:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 32:35 (see also LXX)"
-              ]
+              "content": ["Deuteronomy 32:35 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -6330,23 +5876,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“If your enemy is hungry, feed him; \n"
-      ]
+      "content": ["“If your enemy is hungry, feed him; \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "if he is thirsty, give him a drink. \n"
-      ]
+      "content": ["if he is thirsty, give him a drink. \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "For in so doing, \n"
-      ]
+      "content": ["For in so doing, \n"]
     },
     {
       "type": "para",
@@ -6361,16 +5901,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "12:20 "
-              ]
+              "content": ["12:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Proverbs 25:21–22 (see also LXX)"
-              ]
+              "content": ["Proverbs 25:21–22 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -6404,16 +5940,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Submission to Authorities\n"
-      ]
+      "content": ["Submission to Authorities\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Peter 2:13–20)\n"
-      ]
+      "content": ["(1 Peter 2:13–20)\n"]
     },
     {
       "type": "para",
@@ -6497,16 +6029,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Love Fulfills the Law\n"
-      ]
+      "content": ["Love Fulfills the Law\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Leviticus 19:9–18)\n"
-      ]
+      "content": ["(Leviticus 19:9–18)\n"]
     },
     {
       "type": "para",
@@ -6538,16 +6066,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:9 "
-              ]
+              "content": ["13:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Exodus 20:13–17; Deuteronomy 5:17–21"
-              ]
+              "content": ["Exodus 20:13–17; Deuteronomy 5:17–21"]
             }
           ],
           "caller": "+"
@@ -6561,16 +6085,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:9 "
-              ]
+              "content": ["13:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Leviticus 19:18"
-              ]
+              "content": ["Leviticus 19:18"]
             }
           ],
           "caller": "+"
@@ -6588,9 +6108,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Day Is Near\n"
-      ]
+      "content": ["The Day Is Near\n"]
     },
     {
       "type": "para",
@@ -6636,16 +6154,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "13:14 "
-              ]
+              "content": ["13:14 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or put on; see verse 12."
-              ]
+              "content": ["Or put on; see verse 12."]
             }
           ],
           "caller": "+"
@@ -6662,16 +6176,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Law of Liberty\n"
-      ]
+      "content": ["The Law of Liberty\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Matthew 7:1–6; Luke 6:37–42)\n"
-      ]
+      "content": ["(Matthew 7:1–6; Luke 6:37–42)\n"]
     },
     {
       "type": "para",
@@ -6696,16 +6206,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:1 "
-              ]
+              "content": ["14:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or without quarreling over disputable matters"
-              ]
+              "content": ["Or without quarreling over disputable matters"]
             }
           ],
           "caller": "+"
@@ -6764,9 +6270,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:6 "
-              ]
+              "content": ["14:6 "]
             },
             {
               "type": "char",
@@ -6843,23 +6347,17 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“As surely as I live, \n"
-      ]
+      "content": ["“As surely as I live, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "says the Lord, \n"
-      ]
+      "content": ["says the Lord, \n"]
     },
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "every knee will bow before Me; \n"
-      ]
+      "content": ["every knee will bow before Me; \n"]
     },
     {
       "type": "para",
@@ -6874,9 +6372,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:11 "
-              ]
+              "content": ["14:11 "]
             },
             {
               "type": "char",
@@ -6911,16 +6407,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Law of Love\n"
-      ]
+      "content": ["The Law of Love\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Ezekiel 14:1–11; 1 Corinthians 8:1–13)\n"
-      ]
+      "content": ["(Ezekiel 14:1–11; 1 Corinthians 8:1–13)\n"]
     },
     {
       "type": "para",
@@ -7031,9 +6523,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:21 "
-              ]
+              "content": ["14:21 "]
             },
             {
               "type": "char",
@@ -7071,9 +6561,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:22 "
-              ]
+              "content": ["14:22 "]
             },
             {
               "type": "char",
@@ -7101,9 +6589,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "14:23 "
-              ]
+              "content": ["14:23 "]
             },
             {
               "type": "char",
@@ -7127,9 +6613,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Accept One Another\n"
-      ]
+      "content": ["Accept One Another\n"]
     },
     {
       "type": "para",
@@ -7168,16 +6652,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:3 "
-              ]
+              "content": ["15:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 69:9"
-              ]
+              "content": ["Psalm 69:9"]
             }
           ],
           "caller": "+"
@@ -7219,9 +6699,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Christ the Servant of Jews and Gentiles\n"
-      ]
+      "content": ["Christ the Servant of Jews and Gentiles\n"]
     },
     {
       "type": "para",
@@ -7261,9 +6739,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Therefore I will praise You among the Gentiles; \n"
-      ]
+      "content": ["“Therefore I will praise You among the Gentiles; \n"]
     },
     {
       "type": "para",
@@ -7278,16 +6754,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:9 "
-              ]
+              "content": ["15:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "2 Samuel 22:50; Psalm 18:49"
-              ]
+              "content": ["2 Samuel 22:50; Psalm 18:49"]
             }
           ],
           "caller": "+"
@@ -7329,16 +6801,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:10 "
-              ]
+              "content": ["15:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Deuteronomy 32:43"
-              ]
+              "content": ["Deuteronomy 32:43"]
             }
           ],
           "caller": "+"
@@ -7370,9 +6838,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Praise the Lord, all you Gentiles, \n"
-      ]
+      "content": ["“Praise the Lord, all you Gentiles, \n"]
     },
     {
       "type": "para",
@@ -7387,16 +6853,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:11 "
-              ]
+              "content": ["15:11 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Psalm 117:1"
-              ]
+              "content": ["Psalm 117:1"]
             }
           ],
           "caller": "+"
@@ -7428,16 +6890,12 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“The Root of Jesse will appear, \n"
-      ]
+      "content": ["“The Root of Jesse will appear, \n"]
     },
     {
       "type": "para",
       "marker": "q2",
-      "content": [
-        "One who will arise to rule over the Gentiles; \n"
-      ]
+      "content": ["One who will arise to rule over the Gentiles; \n"]
     },
     {
       "type": "para",
@@ -7452,16 +6910,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:12 "
-              ]
+              "content": ["15:12 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 11:10 (see also LXX)"
-              ]
+              "content": ["Isaiah 11:10 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -7489,9 +6943,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paul the Minister to the Gentiles\n"
-      ]
+      "content": ["Paul the Minister to the Gentiles\n"]
     },
     {
       "type": "para",
@@ -7561,9 +7013,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:19 "
-              ]
+              "content": ["15:19 "]
             },
             {
               "type": "char",
@@ -7609,9 +7059,7 @@
     {
       "type": "para",
       "marker": "q1",
-      "content": [
-        "“Those who were not told about Him will see, \n"
-      ]
+      "content": ["“Those who were not told about Him will see, \n"]
     },
     {
       "type": "para",
@@ -7626,16 +7074,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:21 "
-              ]
+              "content": ["15:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Isaiah 52:15 (see also LXX)"
-              ]
+              "content": ["Isaiah 52:15 (see also LXX)"]
             }
           ],
           "caller": "+"
@@ -7663,16 +7107,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Paul’s Travel Plans\n"
-      ]
+      "content": ["Paul’s Travel Plans\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(1 Corinthians 16:5–9)\n"
-      ]
+      "content": ["(1 Corinthians 16:5–9)\n"]
     },
     {
       "type": "para",
@@ -7759,16 +7199,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:29 "
-              ]
+              "content": ["15:29 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "TR and BYZ include of the gospel."
-              ]
+              "content": ["TR and BYZ include of the gospel."]
             }
           ],
           "caller": "+"
@@ -7830,9 +7266,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "15:33 "
-              ]
+              "content": ["15:33 "]
             },
             {
               "type": "char",
@@ -7856,9 +7290,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Personal Greetings and Love\n"
-      ]
+      "content": ["Personal Greetings and Love\n"]
     },
     {
       "type": "para",
@@ -7883,16 +7315,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:1 "
-              ]
+              "content": ["16:1 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or deaconess"
-              ]
+              "content": ["Or deaconess"]
             }
           ],
           "caller": "+"
@@ -7930,16 +7358,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:3 "
-              ]
+              "content": ["16:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Prisca is a variant of Priscilla; see Acts 18:2."
-              ]
+              "content": ["Prisca is a variant of Priscilla; see Acts 18:2."]
             }
           ],
           "caller": "+"
@@ -7978,9 +7402,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:5 "
-              ]
+              "content": ["16:5 "]
             },
             {
               "type": "char",
@@ -8035,16 +7457,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:7 "
-              ]
+              "content": ["16:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Some translators Junias"
-              ]
+              "content": ["Some translators Junias"]
             }
           ],
           "caller": "+"
@@ -8110,9 +7528,7 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "Greet those who belong to the household of Aristobulus. \n"
-      ]
+      "content": ["Greet those who belong to the household of Aristobulus. \n"]
     },
     {
       "type": "para",
@@ -8245,23 +7661,17 @@
     {
       "type": "para",
       "marker": "m",
-      "content": [
-        "All the churches of Christ send you greetings. \n"
-      ]
+      "content": ["All the churches of Christ send you greetings. \n"]
     },
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Avoid Divisions\n"
-      ]
+      "content": ["Avoid Divisions\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Titus 3:9–11)\n"
-      ]
+      "content": ["(Titus 3:9–11)\n"]
     },
     {
       "type": "para",
@@ -8327,16 +7737,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:20 "
-              ]
+              "content": ["16:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NA, NE, and WH Lord Jesus"
-              ]
+              "content": ["NA, NE, and WH Lord Jesus"]
             }
           ],
           "caller": "+"
@@ -8347,16 +7753,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Greetings from Paul’s Fellow Workers\n"
-      ]
+      "content": ["Greetings from Paul’s Fellow Workers\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Colossians 4:7–14)\n"
-      ]
+      "content": ["(Colossians 4:7–14)\n"]
     },
     {
       "type": "para",
@@ -8426,9 +7828,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:23 "
-              ]
+              "content": ["16:23 "]
             },
             {
               "type": "char",
@@ -8446,16 +7846,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Doxology\n"
-      ]
+      "content": ["Doxology\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Jude 1:24–25)\n"
-      ]
+      "content": ["(Jude 1:24–25)\n"]
     },
     {
       "type": "para",
@@ -8487,16 +7883,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:26 "
-              ]
+              "content": ["16:26 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally the obedience of faith"
-              ]
+              "content": ["Literally the obedience of faith"]
             }
           ],
           "caller": "+"
@@ -8517,9 +7909,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "16:27 "
-              ]
+              "content": ["16:27 "]
             },
             {
               "type": "char",

@@ -1,4 +1,4 @@
-import { createStore } from "zustand/vanilla";
+import { createStore } from 'zustand/vanilla';
 
 export interface SettingsDialogState {
   isOpen: boolean;
@@ -15,18 +15,18 @@ export type SettingsDialogStore = SettingsDialogState & SettingsDialogActions;
 
 export const defaultSettingsDialogState: SettingsDialogState = {
   isOpen: false,
-  activeSection: "general",
+  activeSection: 'general',
 };
 
 export const createSettingsDialogStore = (
-  initState: SettingsDialogState = defaultSettingsDialogState,
+  initState: SettingsDialogState = defaultSettingsDialogState
 ) => {
   return createStore<SettingsDialogStore>((set) => ({
     ...initState,
-    openSettingsDialog: (section = "general") =>
+    openSettingsDialog: (section = 'general') =>
       set(() => ({ isOpen: true, activeSection: section })),
     closeSettingsDialog: () =>
-      set(() => ({ isOpen: false, activeSection: "general" })),
+      set(() => ({ isOpen: false, activeSection: 'general' })),
     setActiveSection: (section: string) =>
       set(() => ({ activeSection: section })),
   }));

@@ -1,31 +1,32 @@
-"use client";
+'use client';
 
-import { useRouter } from "next/navigation";
+import { useRouter } from 'next/navigation';
+import type { KeyboardEvent, ReactNode } from 'react';
 
 interface GetStartedButtonProps {
-  children: React.ReactNode;
-  mode?: "modal" | "redirect";
+  children: ReactNode;
+  mode?: 'modal' | 'redirect';
   asChild?: boolean;
 }
 
 export const GetStartedButton = ({
   children,
-  mode = "redirect",
+  mode = 'redirect',
 }: GetStartedButtonProps) => {
   const router = useRouter();
 
   const onClick = () => {
-    router.push("/signup");
+    router.push('/signup');
   };
 
-  const onKeyDown = (event: React.KeyboardEvent) => {
-    if (event.key === "Enter" || event.key === "Space") {
+  const onKeyDown = (event: KeyboardEvent) => {
+    if (event.key === 'Enter' || event.key === 'Space') {
       onClick();
       event.preventDefault();
     }
   };
 
-  if (mode === "modal") {
+  if (mode === 'modal') {
     return <span>TODO: Implement Modal</span>;
   }
 

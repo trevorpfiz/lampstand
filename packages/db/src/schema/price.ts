@@ -1,27 +1,27 @@
-import type { z } from "zod";
-import { relations } from "drizzle-orm";
-import { pgEnum } from "drizzle-orm/pg-core";
-import { createInsertSchema, createSelectSchema } from "drizzle-zod";
+import { relations } from 'drizzle-orm';
+import { pgEnum } from 'drizzle-orm/pg-core';
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod';
+import type { z } from 'zod';
 
-import { createTable } from "./_table";
-import { Product } from "./product";
-import { Subscription } from "./subscription";
+import { createTable } from './_table';
+import { Product } from './product';
+import { Subscription } from './subscription';
 
 // Enums for pricing type and interval
-export const pricingType = ["one_time", "recurring"] as const;
-export const pricingTypeEnum = pgEnum("pricing_type", pricingType);
-export const pricingPlanInterval = ["day", "week", "month", "year"] as const;
+export const pricingType = ['one_time', 'recurring'] as const;
+export const pricingTypeEnum = pgEnum('pricing_type', pricingType);
+export const pricingPlanInterval = ['day', 'week', 'month', 'year'] as const;
 export const pricingPlanIntervalEnum = pgEnum(
-  "pricing_plan_interval",
-  pricingPlanInterval,
+  'pricing_plan_interval',
+  pricingPlanInterval
 );
 
-export const Price = createTable("price", (t) => ({
+export const Price = createTable('price', (t) => ({
   id: t.text().primaryKey(), // Price ID from Stripe
   productId: t.text().references(() => Product.id),
   active: t.boolean(),
   description: t.text(),
-  unitAmount: t.bigint({ mode: "number" }),
+  unitAmount: t.bigint({ mode: 'number' }),
   currency: t.text(),
   type: pricingTypeEnum(),
   interval: pricingPlanIntervalEnum(),

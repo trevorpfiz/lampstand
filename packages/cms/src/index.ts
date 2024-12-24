@@ -1,6 +1,6 @@
-import { basehub, fragmentOn } from "basehub";
+import { basehub, fragmentOn } from 'basehub';
 
-const imageFragment = fragmentOn("BlockImage", {
+const imageFragment = fragmentOn('BlockImage', {
   url: true,
   width: true,
   height: true,
@@ -8,7 +8,7 @@ const imageFragment = fragmentOn("BlockImage", {
   blurDataURL: true,
 });
 
-const postFragment = fragmentOn("PostsItem", {
+const postFragment = fragmentOn('PostsItem', {
   _slug: true,
   _title: true,
   authors: {
@@ -32,7 +32,7 @@ const postFragment = fragmentOn("PostsItem", {
   image: imageFragment,
 });
 
-const legalPostFragment = fragmentOn("LegalPagesItem", {
+const legalPostFragment = fragmentOn('LegalPagesItem', {
   _slug: true,
   _title: true,
   body: {
@@ -59,7 +59,7 @@ export const blog = {
     blog: {
       posts: {
         __args: {
-          orderBy: "_sys_createdAt__DESC",
+          orderBy: '_sys_createdAt__DESC',
           first: 1,
         },
         items: postFragment,
@@ -110,7 +110,7 @@ export const legal = {
   latestPostQuery: {
     legalPages: {
       __args: {
-        orderBy: "_sys_createdAt__DESC",
+        orderBy: '_sys_createdAt__DESC',
         first: 1,
       },
       items: legalPostFragment,

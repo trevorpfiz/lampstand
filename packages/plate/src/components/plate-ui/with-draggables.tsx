@@ -23,7 +23,7 @@ import {
 import { TablePlugin } from '@udecode/plate-table/react';
 import { TogglePlugin } from '@udecode/plate-toggle/react';
 
-import { type DraggableProps, Draggable } from './draggable';
+import { Draggable, type DraggableProps } from './draggable';
 
 export const withDraggable = (
   Component: FC,

@@ -1,5 +1,5 @@
-import type { ThemeProviderProps } from "next-themes";
-import { ThemeProvider as NextThemeProvider, useTheme } from "next-themes";
+import type { ThemeProviderProps } from 'next-themes';
+import { ThemeProvider as NextThemeProvider } from 'next-themes';
 
 const ThemeProvider = ({ children, ...properties }: ThemeProviderProps) => (
   <NextThemeProvider
@@ -13,4 +13,5 @@ const ThemeProvider = ({ children, ...properties }: ThemeProviderProps) => (
   </NextThemeProvider>
 );
 
-export { ThemeProvider, useTheme };
+export { ThemeProvider };
+export { useTheme } from 'next-themes';

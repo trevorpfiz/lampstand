@@ -1,8 +1,8 @@
-import type { NextRequest } from "next/server";
-import { fetchRequestHandler } from "@trpc/server/adapters/fetch";
+import { fetchRequestHandler } from '@trpc/server/adapters/fetch';
+import type { NextRequest } from 'next/server';
 
-import { appRouter, createTRPCContext } from "@lamp/api";
-import { createClient } from "@lamp/supabase/server";
+import { appRouter, createTRPCContext } from '@lamp/api';
+import { createClient } from '@lamp/supabase/server';
 
 // export const runtime = "edge";
 
@@ -11,10 +11,10 @@ import { createClient } from "@lamp/supabase/server";
  * You should extend this to match your needs
  */
 function setCorsHeaders(res: Response) {
-  res.headers.set("Access-Control-Allow-Origin", "*");
-  res.headers.set("Access-Control-Request-Method", "*");
-  res.headers.set("Access-Control-Allow-Methods", "OPTIONS, GET, POST");
-  res.headers.set("Access-Control-Allow-Headers", "*");
+  res.headers.set('Access-Control-Allow-Origin', '*');
+  res.headers.set('Access-Control-Request-Method', '*');
+  res.headers.set('Access-Control-Allow-Methods', 'OPTIONS, GET, POST');
+  res.headers.set('Access-Control-Allow-Headers', '*');
 }
 
 export function OPTIONS() {
@@ -29,11 +29,12 @@ const handler = async (req: NextRequest) => {
   const supabase = await createClient();
 
   const response = await fetchRequestHandler({
-    endpoint: "/api/trpc",
+    endpoint: '/api/trpc',
     router: appRouter,
     req,
     createContext: () => createTRPCContext({ headers: req.headers, supabase }),
     onError({ error, path }) {
+      // biome-ignore lint/suspicious/noConsole: <explanation>
       console.error(`>>> tRPC Error on '${path}'`, error);
     },
   });

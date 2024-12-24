@@ -1,4 +1,4 @@
-import { ContactTemplate } from "@lamp/email/contact";
+import { ContactTemplate } from '@lamp/email/contact';
 
 const ExampleContactEmail = () => (
   <ContactTemplate

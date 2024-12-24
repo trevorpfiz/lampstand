@@ -1,11 +1,11 @@
-import { z } from "zod";
+import { z } from 'zod';
 
 import {
   deleteMessagesByChatIdAfterTimestamp,
   getMessageById,
-} from "@lamp/db/queries";
+} from '@lamp/db/queries';
 
-import { actionClient } from "~/lib/safe-action";
+import { actionClient } from '~/lib/safe-action';
 
 export const deleteTrailingMessages = actionClient
   .schema(z.object({ id: z.string() }))
@@ -13,7 +13,7 @@ export const deleteTrailingMessages = actionClient
     const { message } = await getMessageById({ id });
 
     if (!message) {
-      throw new Error("Message not found");
+      throw new Error('Message not found');
     }
 
     await deleteMessagesByChatIdAfterTimestamp({

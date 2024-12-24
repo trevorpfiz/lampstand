@@ -1,41 +1,38 @@
-import type { z } from "zod";
-import { relations, sql } from "drizzle-orm";
-import { index } from "drizzle-orm/pg-core";
-import { createInsertSchema, createSelectSchema } from "drizzle-zod";
+import { relations, sql } from 'drizzle-orm';
+import { index } from 'drizzle-orm/pg-core';
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod';
+import type { z } from 'zod';
 
-import { timestamps } from "../lib/utils";
-import { createTable } from "./_table";
-import { Profile } from "./profile";
-import { Study } from "./study";
+import { timestamps } from '../lib/utils';
+import { createTable } from './_table';
+import { Profile } from './profile';
+import { Study } from './study';
 
 export const Note = createTable(
-  "note",
+  'note',
   (t) => ({
     id: t.uuid().defaultRandom().primaryKey(),
     profileId: t
       .uuid()
       .notNull()
-      .references(() => Profile.id, { onDelete: "cascade" }),
+      .references(() => Profile.id, { onDelete: 'cascade' }),
     studyId: t
       .uuid()
       .notNull()
-      .references(() => Study.id, { onDelete: "cascade" }),
-    title: t.varchar({ length: 256 }).notNull().default(""),
-    content: t
-      .jsonb()
-      .notNull()
-      .default(sql`'[]'::jsonb`), // Storing the Slate/Markdown content here
+      .references(() => Study.id, { onDelete: 'cascade' }),
+    title: t.varchar({ length: 256 }).notNull().default(''),
+    content: t.jsonb().notNull().default(sql`'[]'::jsonb`), // Storing the Slate/Markdown content here
 
     createdAt: t.timestamp().defaultNow().notNull(),
     updatedAt: t
-      .timestamp({ mode: "date", withTimezone: true })
+      .timestamp({ mode: 'date', withTimezone: true })
       .$onUpdateFn(() => new Date()),
   }),
   (table) => [
-    index("note_profile_id_idx").on(table.profileId),
-    index("note_study_id_idx").on(table.studyId),
-    index("note_created_at_idx").on(table.createdAt),
-  ],
+    index('note_profile_id_idx').on(table.profileId),
+    index('note_study_id_idx').on(table.studyId),
+    index('note_created_at_idx').on(table.createdAt),
+  ]
 );
 
 export const NoteRelations = relations(Note, ({ one }) => ({
@@ -80,5 +77,5 @@ export type Note = typeof Note.$inferSelect;
 export type NewNote = z.infer<typeof insertNoteSchema>;
 export type NewNoteParams = z.infer<typeof insertNoteParams>;
 export type UpdateNoteParams = z.infer<typeof updateNoteParams>;
-export type NoteId = z.infer<typeof noteIdSchema>["id"];
+export type NoteId = z.infer<typeof noteIdSchema>['id'];
 export type MinimalNote = z.infer<typeof minimalNoteSchema>;

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import type {
   SlateEditor,
   SlateElementProps,
@@ -13,9 +11,9 @@ import {
   getNodeString,
 } from '@udecode/plate-common';
 import {
-  type Heading,
   BaseTocPlugin,
   HEADING_KEYS,
+  type Heading,
   isHeading,
 } from '@udecode/plate-heading';
 import { cva } from 'class-variance-authority';
@@ -57,7 +55,7 @@ export function TocElementStatic({
             </Button>
           ))
         ) : (
-          <div className="text-sm text-gray-500">
+          <div className="text-gray-500 text-sm">
             Create a heading to display the table of contents.
           </div>
         )}
@@ -77,7 +75,9 @@ const headingDepth: Record<string, number> = {
 };
 
 const getHeadingList = (editor?: SlateEditor) => {
-  if (!editor) return [];
+  if (!editor) {
+    return [];
+  }
 
   const options = editor.getOptions(BaseTocPlugin);
 
@@ -92,7 +92,9 @@ const getHeadingList = (editor?: SlateEditor) => {
     match: (n) => isHeading(n),
   });
 
-  if (!values) return [];
+  if (!values) {
+    return [];
+  }
 
   Array.from(values, ([node, path]) => {
     const { type } = node as TElement;

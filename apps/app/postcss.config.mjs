@@ -1,1 +1,1 @@
-export { default } from "@lamp/ui/postcss.config";
+export { default } from '@lamp/ui/postcss.config';

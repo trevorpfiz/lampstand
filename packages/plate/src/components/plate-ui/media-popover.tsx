@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import type React from 'react';
+import { useEffect } from 'react';
 
 import {
   type WithRequiredKey,
@@ -51,7 +52,9 @@ export function MediaPopover({ children, plugin }: MediaPopoverProps) {
   const element = useElement();
   const { props: buttonProps } = useRemoveNodeButton({ element });
 
-  if (readOnly) return <>{children}</>;
+  if (readOnly) {
+    return <>{children}</>;
+  }
 
   return (
     <Popover open={isOpen} modal={false}>
@@ -64,7 +67,7 @@ export function MediaPopover({ children, plugin }: MediaPopoverProps) {
         {isEditing ? (
           <div className="flex w-[330px] flex-col">
             <div className="flex items-center">
-              <div className="flex items-center pl-2 pr-1 text-muted-foreground">
+              <div className="flex items-center pr-1 pl-2 text-muted-foreground">
                 <Link className="size-4" />
               </div>
 

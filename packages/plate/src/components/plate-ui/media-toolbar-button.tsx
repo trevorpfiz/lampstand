@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useCallback, useState } from 'react';
+import type React from 'react';
+import { useCallback, useState } from 'react';
 
 import type { DropdownMenuProps } from '@radix-ui/react-dropdown-menu';
 
@@ -175,7 +176,9 @@ function MediaUrlDialogContent({
   const [url, setUrl] = useState('');
 
   const embedMedia = useCallback(() => {
-    if (!isUrl(url)) return toast.error('Invalid URL');
+    if (!isUrl(url)) {
+      return toast.error('Invalid URL');
+    }
 
     setOpen(false);
     insertNodes(editor, {
@@ -199,7 +202,9 @@ function MediaUrlDialogContent({
           value={url}
           onChange={(e) => setUrl(e.target.value)}
           onKeyDown={(e) => {
-            if (e.key === 'Enter') embedMedia();
+            if (e.key === 'Enter') {
+              embedMedia();
+            }
           }}
           label="URL"
           placeholder=""

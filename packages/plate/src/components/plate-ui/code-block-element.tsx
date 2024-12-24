@@ -1,7 +1,5 @@
 'use client';
 
-import React from 'react';
-
 import { cn, withRef } from '@udecode/cn';
 import { useCodeBlockElementState } from '@udecode/plate-code-block/react';
 
@@ -28,7 +26,7 @@ export const CodeBlockElement = withRef<typeof PlateElement>(
 
         {state.syntax && (
           <div
-            className="absolute right-2 top-2 z-10 select-none"
+            className="absolute top-2 right-2 z-10 select-none"
             contentEditable={false}
           >
             <CodeBlockCombobox />

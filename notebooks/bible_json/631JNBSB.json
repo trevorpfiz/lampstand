@@ -5,31 +5,23 @@
     {
       "type": "book",
       "marker": "id",
-      "content": [
-        "- Berean Study Bible"
-      ],
+      "content": ["- Berean Study Bible"],
       "code": "1JN"
     },
     {
       "type": "para",
       "marker": "h",
-      "content": [
-        "1 John\n"
-      ]
+      "content": ["1 John\n"]
     },
     {
       "type": "para",
       "marker": "toc1",
-      "content": [
-        "1 John\n"
-      ]
+      "content": ["1 John\n"]
     },
     {
       "type": "para",
       "marker": "mt1",
-      "content": [
-        "1 John\n"
-      ]
+      "content": ["1 John\n"]
     },
     {
       "type": "chapter",
@@ -40,16 +32,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The Word of Life\n"
-      ]
+      "content": ["The Word of Life\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(Luke 24:36–49; John 20:19–23)\n"
-      ]
+      "content": ["(Luke 24:36–49; John 20:19–23)\n"]
     },
     {
       "type": "para",
@@ -105,16 +93,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:4 "
-              ]
+              "content": ["1:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR your"
-              ]
+              "content": ["BYZ and TR your"]
             }
           ],
           "caller": "+"
@@ -125,16 +109,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Walking in the Light\n"
-      ]
+      "content": ["Walking in the Light\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(John 8:12–29)\n"
-      ]
+      "content": ["(John 8:12–29)\n"]
     },
     {
       "type": "para",
@@ -173,16 +153,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "1:7 "
-              ]
+              "content": ["1:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NA does not include But."
-              ]
+              "content": ["NA does not include But."]
             }
           ],
           "caller": "+"
@@ -230,9 +206,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Jesus Our Advocate\n"
-      ]
+      "content": ["Jesus Our Advocate\n"]
     },
     {
       "type": "para",
@@ -264,16 +238,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:2 "
-              ]
+              "content": ["2:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or the propitiation"
-              ]
+              "content": ["Or the propitiation"]
             }
           ],
           "caller": "+"
@@ -322,9 +292,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "A New Commandment\n"
-      ]
+      "content": ["A New Commandment\n"]
     },
     {
       "type": "para",
@@ -432,16 +400,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:13 "
-              ]
+              "content": ["2:13 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or you have overcome evil; also in verse 14"
-              ]
+              "content": ["Or you have overcome evil; also in verse 14"]
             }
           ],
           "caller": "+"
@@ -491,9 +455,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Do Not Love the World\n"
-      ]
+      "content": ["Do Not Love the World\n"]
     },
     {
       "type": "para",
@@ -529,9 +491,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Beware of Antichrists\n"
-      ]
+      "content": ["Beware of Antichrists\n"]
     },
     {
       "type": "para",
@@ -580,16 +540,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:20 "
-              ]
+              "content": ["2:20 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR and you know all things"
-              ]
+              "content": ["BYZ and TR and you know all things"]
             }
           ],
           "caller": "+"
@@ -621,9 +577,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Remain in Christ\n"
-      ]
+      "content": ["Remain in Christ\n"]
     },
     {
       "type": "para",
@@ -696,16 +650,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "2:28 "
-              ]
+              "content": ["2:28 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally remain in Him"
-              ]
+              "content": ["Literally remain in Him"]
             }
           ],
           "caller": "+"
@@ -739,9 +689,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Children of God\n"
-      ]
+      "content": ["Children of God\n"]
     },
     {
       "type": "para",
@@ -773,16 +721,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:2 "
-              ]
+              "content": ["3:2 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally when He appears or when it appears"
-              ]
+              "content": ["Literally when He appears or when it appears"]
             }
           ],
           "caller": "+"
@@ -803,16 +747,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:3 "
-              ]
+              "content": ["3:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally just as He is pure"
-              ]
+              "content": ["Literally just as He is pure"]
             }
           ],
           "caller": "+"
@@ -843,16 +783,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:4 "
-              ]
+              "content": ["3:4 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or is violation of the Law"
-              ]
+              "content": ["Or is violation of the Law"]
             }
           ],
           "caller": "+"
@@ -897,16 +833,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:7 "
-              ]
+              "content": ["3:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "NA Young children in training"
-              ]
+              "content": ["NA Young children in training"]
             }
           ],
           "caller": "+"
@@ -920,16 +852,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "3:7 "
-              ]
+              "content": ["3:7 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Literally He is righteous"
-              ]
+              "content": ["Literally He is righteous"]
             }
           ],
           "caller": "+"
@@ -971,16 +899,12 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Love One Another\n"
-      ]
+      "content": ["Love One Another\n"]
     },
     {
       "type": "para",
       "marker": "r",
-      "content": [
-        "(John 13:31–35; Romans 12:9–13)\n"
-      ]
+      "content": ["(John 13:31–35; Romans 12:9–13)\n"]
     },
     {
       "type": "para",
@@ -1139,9 +1063,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Testing the Spirits\n"
-      ]
+      "content": ["Testing the Spirits\n"]
     },
     {
       "type": "para",
@@ -1180,16 +1102,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:3 "
-              ]
+              "content": ["4:3 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR that Jesus Christ has come in the flesh"
-              ]
+              "content": ["BYZ and TR that Jesus Christ has come in the flesh"]
             }
           ],
           "caller": "+"
@@ -1234,16 +1152,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:6 "
-              ]
+              "content": ["4:6 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or spirit"
-              ]
+              "content": ["Or spirit"]
             }
           ],
           "caller": "+"
@@ -1254,9 +1168,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Love Comes from God\n"
-      ]
+      "content": ["Love Comes from God\n"]
     },
     {
       "type": "para",
@@ -1305,16 +1217,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:9 "
-              ]
+              "content": ["4:9 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or only begotten or unique"
-              ]
+              "content": ["Or only begotten or unique"]
             }
           ],
           "caller": "+"
@@ -1335,16 +1243,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:10 "
-              ]
+              "content": ["4:10 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or as a propitiation"
-              ]
+              "content": ["Or as a propitiation"]
             }
           ],
           "caller": "+"
@@ -1451,16 +1355,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "4:19 "
-              ]
+              "content": ["4:19 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR We love Him"
-              ]
+              "content": ["BYZ and TR We love Him"]
             }
           ],
           "caller": "+"
@@ -1501,9 +1401,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Overcoming the World\n"
-      ]
+      "content": ["Overcoming the World\n"]
     },
     {
       "type": "para",
@@ -1528,9 +1426,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:1 "
-              ]
+              "content": ["5:1 "]
             },
             {
               "type": "char",
@@ -1603,9 +1499,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:7 "
-              ]
+              "content": ["5:7 "]
             },
             {
               "type": "char",
@@ -1630,9 +1524,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "God’s Testimony about His Son\n"
-      ]
+      "content": ["God’s Testimony about His Son\n"]
     },
     {
       "type": "para",
@@ -1685,9 +1577,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "Effective Prayer\n"
-      ]
+      "content": ["Effective Prayer\n"]
     },
     {
       "type": "para",
@@ -1712,9 +1602,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:13 "
-              ]
+              "content": ["5:13 "]
             },
             {
               "type": "char",
@@ -1770,9 +1658,7 @@
     {
       "type": "para",
       "marker": "s1",
-      "content": [
-        "The True God\n"
-      ]
+      "content": ["The True God\n"]
     },
     {
       "type": "para",
@@ -1797,9 +1683,7 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:18 "
-              ]
+              "content": ["5:18 "]
             },
             {
               "type": "char",
@@ -1820,16 +1704,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:18 "
-              ]
+              "content": ["5:18 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "Or evil; similarly in verse 19"
-              ]
+              "content": ["Or evil; similarly in verse 19"]
             }
           ],
           "caller": "+"
@@ -1874,16 +1754,12 @@
             {
               "type": "char",
               "marker": "fr",
-              "content": [
-                "5:21 "
-              ]
+              "content": ["5:21 "]
             },
             {
               "type": "char",
               "marker": "ft",
-              "content": [
-                "BYZ and TR include Amen."
-              ]
+              "content": ["BYZ and TR include Amen."]
             }
           ],
           "caller": "+"

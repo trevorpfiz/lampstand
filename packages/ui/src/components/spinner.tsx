@@ -1,7 +1,7 @@
-import type { LucideProps } from "lucide-react";
-import { LoaderCircle } from "lucide-react";
+import type { LucideProps } from 'lucide-react';
+import { LoaderCircle } from 'lucide-react';
 
-import { cn } from "@lamp/ui/lib/utils";
+import { cn } from '@lamp/ui/lib/utils';
 
 function Spinner({
   className,
@@ -11,7 +11,7 @@ function Spinner({
 }: LucideProps) {
   return (
     <LoaderCircle
-      className={cn("animate-spin text-muted-foreground", className)}
+      className={cn('animate-spin text-muted-foreground', className)}
       size={size}
       strokeWidth={strokeWidth}
       aria-hidden="true"
@@ -20,6 +20,6 @@ function Spinner({
   );
 }
 
-Spinner.displayName = "Spinner";
+Spinner.displayName = 'Spinner';
 
 export { Spinner };
