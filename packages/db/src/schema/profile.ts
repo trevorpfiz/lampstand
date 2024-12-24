@@ -21,6 +21,8 @@ export const Profile = createTable(
     name: t.varchar({ length: 256 }).notNull(),
     image: t.varchar({ length: 256 }),
     email: t.varchar({ length: 256 }),
+    billingAddress: t.jsonb(),
+    paymentMethod: t.jsonb(),
   }),
   (table) => [
     index("profile_name_idx").on(table.name),

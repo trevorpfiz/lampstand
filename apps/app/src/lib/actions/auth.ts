@@ -52,6 +52,9 @@ export const signUp = actionClient
       password,
       options: {
         emailRedirectTo: redirectUrl,
+        data: {
+          stripe_customer_id: "",
+        },
       },
     });
 
