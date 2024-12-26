@@ -205,9 +205,15 @@ importers:
       '@lamp/feature-flags':
         specifier: workspace:*
         version: link:../../packages/feature-flags
+      '@lamp/logger':
+        specifier: workspace:*
+        version: link:../../packages/logger
       '@lamp/next-config':
         specifier: workspace:*
         version: link:../../packages/next-config
+      '@lamp/observability':
+        specifier: workspace:*
+        version: link:../../packages/observability
       '@lamp/plate':
         specifier: workspace:*
         version: link:../../packages/plate
@@ -656,6 +662,9 @@ importers:
       '@lamp/env':
         specifier: workspace:*
         version: link:../env
+      '@lamp/payments':
+        specifier: workspace:*
+        version: link:../payments
       '@lamp/validators':
         specifier: workspace:*
         version: link:../validators
@@ -846,9 +855,15 @@ importers:
 
   packages/payments:
     dependencies:
+      '@lamp/db':
+        specifier: workspace:*
+        version: link:../db
       '@lamp/env':
         specifier: workspace:*
         version: link:../env
+      '@stripe/stripe-js':
+        specifier: ^5.4.0
+        version: 5.4.0
       stripe:
         specifier: ^17.5.0
         version: 17.5.0
@@ -4353,6 +4368,10 @@ packages:
 
   '@standard-schema/spec@1.0.0-beta.3':
     resolution: {integrity: sha512-0ifF3BjA1E8SY9C+nUew8RefNOIq0cDlYALPty4rhUm8Rrl6tCM8hBT4bhGhx7I7iXD0uAgt50lgo8dD73ACMw==}
+
+  '@stripe/stripe-js@5.4.0':
+    resolution: {integrity: sha512-3tfMbSvLGB+OsJ2MsjWjWo+7sp29dwx+3+9kG/TEnZQJt+EwbF/Nomm43cSK+6oXZA9uhspgyrB+BbrPRumx4g==}
+    engines: {node: '>=12.16'}
 
   '@supabase/auth-js@2.67.3':
     resolution: {integrity: sha512-NJDaW8yXs49xMvWVOkSIr8j46jf+tYHV0wHhrwOaLLMZSFO4g6kKAf+MfzQ2RaD06OCUkUHIzctLAxjTgEVpzw==}
@@ -12877,6 +12896,8 @@ snapshots:
   '@socket.io/component-emitter@3.1.2': {}
 
   '@standard-schema/spec@1.0.0-beta.3': {}
+
+  '@stripe/stripe-js@5.4.0': {}
 
   '@supabase/auth-js@2.67.3':
     dependencies:

@@ -17,8 +17,9 @@ import {
   updateChatTitleById,
 } from '@lamp/db/queries';
 import type { Chat } from '@lamp/db/schema';
+import { logger } from '@lamp/logger';
+import { parseError } from '@lamp/observability/error';
 import { createClient } from '@lamp/supabase/server';
-import { captureException } from '@sentry/nextjs';
 
 import { generateTitleFromUserMessage } from '~/lib/actions/chat';
 import {
@@ -161,7 +162,8 @@ export async function POST(req: Request) {
             ),
           });
         } catch (error) {
-          captureException(error);
+          const message = parseError(error);
+          logger.error(message);
         }
       }
 

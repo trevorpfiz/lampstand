@@ -7,6 +7,14 @@
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./src/index.ts"
+    },
+    "./server": {
+      "types": "./dist/server.d.ts",
+      "default": "./src/server.ts"
+    },
+    "./client": {
+      "types": "./dist/client.d.ts",
+      "default": "./src/client.ts"
     }
   },
   "scripts": {
@@ -14,7 +22,9 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
+    "@lamp/db": "workspace:*",
     "@lamp/env": "workspace:*",
+    "@stripe/stripe-js": "^5.4.0",
     "stripe": "^17.5.0"
   },
   "devDependencies": {

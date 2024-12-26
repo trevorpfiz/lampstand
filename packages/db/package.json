@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@lamp/env": "workspace:*",
+    "@lamp/payments": "workspace:*",
     "@lamp/validators": "workspace:*",
     "@vercel/postgres": "^0.10.0",
     "drizzle-orm": "^0.38.3",
