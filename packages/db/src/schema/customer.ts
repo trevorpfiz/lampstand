@@ -8,7 +8,7 @@ export const Customer = createTable('customer', (t) => ({
   id: t
     .uuid()
     .primaryKey()
-    .references(() => authUsers.id),
+    .references(() => authUsers.id, { onDelete: 'cascade' }),
   stripeCustomerId: t.text(),
 }));
 

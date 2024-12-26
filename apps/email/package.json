@@ -22,7 +22,7 @@
     "@lamp/tsconfig": "workspace:*",
     "@types/node": "catalog:",
     "@types/react": "catalog:react19",
-    "dotenv-cli": "^7.4.4",
+    "dotenv-cli": "catalog:",
 
     "typescript": "catalog:"
   }

@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@lamp/tsconfig": "workspace:*",
-    "dotenv-cli": "^7.4.4",
+    "dotenv-cli": "catalog:",
     "typescript": "catalog:"
   },
   "peerDependencies": {

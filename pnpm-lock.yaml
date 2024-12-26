@@ -29,8 +29,11 @@ catalogs:
       specifier: ^20.17.7
       version: 20.17.7
     ai:
-      specifier: ^4.0.21
-      version: 4.0.21
+      specifier: ^4.0.22
+      version: 4.0.22
+    dotenv-cli:
+      specifier: ^8.0.0
+      version: 8.0.0
     lucide-react:
       specifier: ^0.469.0
       version: 0.469.0
@@ -339,8 +342,8 @@ importers:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
       dotenv-cli:
-        specifier: ^7.4.4
-        version: 7.4.4
+        specifier: 'catalog:'
+        version: 8.0.0
       tailwindcss:
         specifier: catalog:tailwind
         version: 3.4.17(ts-node@10.9.2(@types/node@20.17.7)(typescript@5.7.2))
@@ -382,8 +385,8 @@ importers:
         specifier: catalog:react19
         version: 19.0.2
       dotenv-cli:
-        specifier: ^7.4.4
-        version: 7.4.4
+        specifier: 'catalog:'
+        version: 8.0.0
       typescript:
         specifier: 'catalog:'
         version: 5.7.2
@@ -510,7 +513,7 @@ importers:
         version: link:../logger
       ai:
         specifier: 'catalog:'
-        version: 4.0.21(react@19.0.0)(zod@3.24.1)
+        version: 4.0.22(react@19.0.0)(zod@3.24.1)
       next:
         specifier: catalog:nextjs
         version: 15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -531,8 +534,8 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/typescript
       dotenv-cli:
-        specifier: ^7.4.4
-        version: 7.4.4
+        specifier: 'catalog:'
+        version: 8.0.0
       typescript:
         specifier: 'catalog:'
         version: 5.7.2
@@ -660,11 +663,11 @@ importers:
         specifier: ^0.10.0
         version: 0.10.0
       drizzle-orm:
-        specifier: ^0.38.2
-        version: 0.38.2(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@19.0.2)(@vercel/postgres@0.10.0)(pg@8.13.1)(react@19.0.0)(sqlite3@5.1.7)
+        specifier: ^0.38.3
+        version: 0.38.3(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@19.0.2)(@vercel/postgres@0.10.0)(pg@8.13.1)(react@19.0.0)(sqlite3@5.1.7)
       drizzle-zod:
         specifier: 0.5.1
-        version: 0.5.1(drizzle-orm@0.38.2(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@19.0.2)(@vercel/postgres@0.10.0)(pg@8.13.1)(react@19.0.0)(sqlite3@5.1.7))(zod@3.24.1)
+        version: 0.5.1(drizzle-orm@0.38.3(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@19.0.2)(@vercel/postgres@0.10.0)(pg@8.13.1)(react@19.0.0)(sqlite3@5.1.7))(zod@3.24.1)
       pg:
         specifier: ^8.13.1
         version: 8.13.1
@@ -680,10 +683,10 @@ importers:
         version: link:../../tooling/typescript
       ai:
         specifier: 'catalog:'
-        version: 4.0.21(react@19.0.0)(zod@3.24.1)
+        version: 4.0.22(react@19.0.0)(zod@3.24.1)
       dotenv-cli:
-        specifier: ^7.4.4
-        version: 7.4.4
+        specifier: 'catalog:'
+        version: 8.0.0
       drizzle-kit:
         specifier: ^0.30.1
         version: 0.30.1
@@ -1047,7 +1050,7 @@ importers:
         version: 7.1.0(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(uploadthing@7.4.1(next@15.1.2(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)))
       ai:
         specifier: 'catalog:'
-        version: 4.0.21(react@19.0.0)(zod@3.24.1)
+        version: 4.0.22(react@19.0.0)(zod@3.24.1)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -1243,8 +1246,8 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/typescript
       dotenv-cli:
-        specifier: ^7.4.4
-        version: 7.4.4
+        specifier: 'catalog:'
+        version: 8.0.0
       typescript:
         specifier: 'catalog:'
         version: 5.7.2
@@ -1495,12 +1498,25 @@ packages:
       zod:
         optional: true
 
+  '@ai-sdk/provider-utils@2.0.5':
+    resolution: {integrity: sha512-2M7vLhYN0ThGjNlzow7oO/lsL+DyMxvGMIYmVQvEYaCWhDzxH5dOp78VNjJIVwHzVLMbBDigX3rJuzAs853idw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: ^3.0.0
+    peerDependenciesMeta:
+      zod:
+        optional: true
+
   '@ai-sdk/provider@1.0.2':
     resolution: {integrity: sha512-YYtP6xWQyaAf5LiWLJ+ycGTOeBLWrED7LUrvc+SQIWhGaneylqbaGsyQL7VouQUeQ4JZ1qKYZuhmi3W56HADPA==}
     engines: {node: '>=18'}
 
-  '@ai-sdk/react@1.0.6':
-    resolution: {integrity: sha512-8Hkserq0Ge6AEi7N4hlv2FkfglAGbkoAXEZ8YSp255c3PbnZz6+/5fppw+aROmZMOfNwallSRuy1i/iPa2rBpQ==}
+  '@ai-sdk/provider@1.0.3':
+    resolution: {integrity: sha512-WiuJEpHTrltOIzv3x2wx4gwksAHW0h6nK3SoDzjqCOJLu/2OJ1yASESTIX+f07ChFykHElVoP80Ol/fe9dw6tQ==}
+    engines: {node: '>=18'}
+
+  '@ai-sdk/react@1.0.7':
+    resolution: {integrity: sha512-j2/of4iCNq+r2Bjx0O9vdRhn5C/02t2Esenis71YtnsoynPz74eQlJ3N0RYYPheThiJes50yHdfdVdH9ulxs1A==}
     engines: {node: '>=18'}
     peerDependencies:
       react: ^18 || ^19 || ^19.0.0-rc
@@ -1511,8 +1527,8 @@ packages:
       zod:
         optional: true
 
-  '@ai-sdk/ui-utils@1.0.5':
-    resolution: {integrity: sha512-DGJSbDf+vJyWmFNexSPUsS1AAy7gtsmFmoSyNbNbJjwl9hRIf2dknfA1V0ahx6pg3NNklNYFm53L8Nphjovfvg==}
+  '@ai-sdk/ui-utils@1.0.6':
+    resolution: {integrity: sha512-ZP6Vjj+VCnSPBIAvWAdKj2olQONJ/f4aZpkVCGkzprdhv8TjHwB6CTlXFS3zypuEGy4asg84dc1dvXKooQXFvg==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.0.0
@@ -5519,8 +5535,8 @@ packages:
     resolution: {integrity: sha512-4I7Td01quW/RpocfNayFdFVk1qSuoh0E7JrbRJ16nH01HhKFQ88INq9Sd+nd72zqRySlr9BmDA8xlEJ6vJMrYA==}
     engines: {node: '>=8'}
 
-  ai@4.0.21:
-    resolution: {integrity: sha512-Tj4f9cwGBFxeKryT2/hN4L8t/2UbPuzumJWecT/kgu0/8/4tCBRMSM5TX9Xio5259E6Bshwc+OJvyYB0Ibgtpg==}
+  ai@4.0.22:
+    resolution: {integrity: sha512-yvcjWtofI2HZwgT3jMkoNnDUhAY+S9cOvZ6xbbOzrS0ZeFl1/gcbasFnwAqUJ7uL/t72/3a0Vy/pKg6N19A2Mw==}
     engines: {node: '>=18'}
     peerDependencies:
       react: ^18 || ^19 || ^19.0.0-rc
@@ -6317,8 +6333,8 @@ packages:
   dot-case@2.1.1:
     resolution: {integrity: sha512-HnM6ZlFqcajLsyudHq7LeeLDr2rFAVYtDv/hV5qchQEidSck8j9OPUsXY9KwJv/lHMtYlX4DjRQqwFYa+0r8Ug==}
 
-  dotenv-cli@7.4.4:
-    resolution: {integrity: sha512-XkBYCG0tPIes+YZr4SpfFv76SQrV/LeCE8CI7JSEMi3VR9MvTihCGTOtbIexD6i2mXF+6px7trb1imVCXSNMDw==}
+  dotenv-cli@8.0.0:
+    resolution: {integrity: sha512-aLqYbK7xKOiTMIRf1lDPbI+Y+Ip/wo5k3eyp6ePysVaSqbyxjyK3dK35BTxG+rmd7djf5q2UPs4noPNH+cj0Qw==}
     hasBin: true
 
   dotenv-expand@10.0.0:
@@ -6336,8 +6352,8 @@ packages:
     resolution: {integrity: sha512-HmA/NeewvHywhJ2ENXD3KvOuM/+K2dGLJfxVfIHsGwaqKICJnS+Ke2L6UcSrSrtMJLJaT0Im1Qv4TFXfaZShyw==}
     hasBin: true
 
-  drizzle-orm@0.38.2:
-    resolution: {integrity: sha512-eCE3yPRAskLo1WpM9OHpFaM70tBEDsWhwR/0M3CKyztAXKR9Qs3asZlcJOEliIcUSg8GuwrlY0dmYDgmm6y5GQ==}
+  drizzle-orm@0.38.3:
+    resolution: {integrity: sha512-w41Y+PquMpSff/QDRGdItG0/aWca+/J3Sda9PPGkTxBtjWQvgU1jxlFBXdjog5tYvTu58uvi3PwR1NuCx0KeZg==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -10192,24 +10208,37 @@ snapshots:
     optionalDependencies:
       zod: 3.24.1
 
+  '@ai-sdk/provider-utils@2.0.5(zod@3.24.1)':
+    dependencies:
+      '@ai-sdk/provider': 1.0.3
+      eventsource-parser: 3.0.0
+      nanoid: 3.3.8
+      secure-json-parse: 2.7.0
+    optionalDependencies:
+      zod: 3.24.1
+
   '@ai-sdk/provider@1.0.2':
     dependencies:
       json-schema: 0.4.0
 
-  '@ai-sdk/react@1.0.6(react@19.0.0)(zod@3.24.1)':
+  '@ai-sdk/provider@1.0.3':
     dependencies:
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
-      '@ai-sdk/ui-utils': 1.0.5(zod@3.24.1)
+      json-schema: 0.4.0
+
+  '@ai-sdk/react@1.0.7(react@19.0.0)(zod@3.24.1)':
+    dependencies:
+      '@ai-sdk/provider-utils': 2.0.5(zod@3.24.1)
+      '@ai-sdk/ui-utils': 1.0.6(zod@3.24.1)
       swr: 2.2.5(react@19.0.0)
       throttleit: 2.1.0
     optionalDependencies:
       react: 19.0.0
       zod: 3.24.1
 
-  '@ai-sdk/ui-utils@1.0.5(zod@3.24.1)':
+  '@ai-sdk/ui-utils@1.0.6(zod@3.24.1)':
     dependencies:
-      '@ai-sdk/provider': 1.0.2
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
+      '@ai-sdk/provider': 1.0.3
+      '@ai-sdk/provider-utils': 2.0.5(zod@3.24.1)
       zod-to-json-schema: 3.23.5(zod@3.24.1)
     optionalDependencies:
       zod: 3.24.1
@@ -14182,12 +14211,12 @@ snapshots:
       clean-stack: 2.2.0
       indent-string: 4.0.0
 
-  ai@4.0.21(react@19.0.0)(zod@3.24.1):
+  ai@4.0.22(react@19.0.0)(zod@3.24.1):
     dependencies:
-      '@ai-sdk/provider': 1.0.2
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
-      '@ai-sdk/react': 1.0.6(react@19.0.0)(zod@3.24.1)
-      '@ai-sdk/ui-utils': 1.0.5(zod@3.24.1)
+      '@ai-sdk/provider': 1.0.3
+      '@ai-sdk/provider-utils': 2.0.5(zod@3.24.1)
+      '@ai-sdk/react': 1.0.7(react@19.0.0)(zod@3.24.1)
+      '@ai-sdk/ui-utils': 1.0.6(zod@3.24.1)
       '@opentelemetry/api': 1.9.0
       jsondiffpatch: 0.6.0
       zod-to-json-schema: 3.23.5(zod@3.24.1)
@@ -15060,7 +15089,7 @@ snapshots:
     dependencies:
       no-case: 2.3.2
 
-  dotenv-cli@7.4.4:
+  dotenv-cli@8.0.0:
     dependencies:
       cross-spawn: 7.0.6
       dotenv: 16.4.5
@@ -15085,7 +15114,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.38.2(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@19.0.2)(@vercel/postgres@0.10.0)(pg@8.13.1)(react@19.0.0)(sqlite3@5.1.7):
+  drizzle-orm@0.38.3(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@19.0.2)(@vercel/postgres@0.10.0)(pg@8.13.1)(react@19.0.0)(sqlite3@5.1.7):
     optionalDependencies:
       '@opentelemetry/api': 1.9.0
       '@types/pg': 8.11.6
@@ -15095,9 +15124,9 @@ snapshots:
       react: 19.0.0
       sqlite3: 5.1.7
 
-  drizzle-zod@0.5.1(drizzle-orm@0.38.2(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@19.0.2)(@vercel/postgres@0.10.0)(pg@8.13.1)(react@19.0.0)(sqlite3@5.1.7))(zod@3.24.1):
+  drizzle-zod@0.5.1(drizzle-orm@0.38.3(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@19.0.2)(@vercel/postgres@0.10.0)(pg@8.13.1)(react@19.0.0)(sqlite3@5.1.7))(zod@3.24.1):
     dependencies:
-      drizzle-orm: 0.38.2(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@19.0.2)(@vercel/postgres@0.10.0)(pg@8.13.1)(react@19.0.0)(sqlite3@5.1.7)
+      drizzle-orm: 0.38.3(@opentelemetry/api@1.9.0)(@types/pg@8.11.6)(@types/react@19.0.2)(@vercel/postgres@0.10.0)(pg@8.13.1)(react@19.0.0)(sqlite3@5.1.7)
       zod: 3.24.1
 
   duplexer@0.1.2: {}

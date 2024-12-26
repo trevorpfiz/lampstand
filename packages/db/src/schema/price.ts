@@ -1,5 +1,5 @@
-import { relations } from 'drizzle-orm';
-import { pgEnum } from 'drizzle-orm/pg-core';
+import { relations, sql } from 'drizzle-orm';
+import { check, pgEnum } from 'drizzle-orm/pg-core';
 import { createInsertSchema, createSelectSchema } from 'drizzle-zod';
 import type { z } from 'zod';
 
@@ -16,19 +16,30 @@ export const pricingPlanIntervalEnum = pgEnum(
   pricingPlanInterval
 );
 
-export const Price = createTable('price', (t) => ({
-  id: t.text().primaryKey(), // Price ID from Stripe
-  productId: t.text().references(() => Product.id),
-  active: t.boolean(),
-  description: t.text(),
-  unitAmount: t.bigint({ mode: 'number' }),
-  currency: t.text(),
-  type: pricingTypeEnum(),
-  interval: pricingPlanIntervalEnum(),
-  intervalCount: t.integer(),
-  trialPeriodDays: t.integer(),
-  metadata: t.jsonb(),
-}));
+export const Price = createTable(
+  'price',
+  (t) => ({
+    id: t.text().primaryKey(), // Price ID from Stripe
+    productId: t.text().references(() => Product.id),
+    active: t.boolean(),
+    description: t.text(),
+    unitAmount: t.bigint({ mode: 'number' }),
+    currency: t.text(),
+    type: pricingTypeEnum(),
+    interval: pricingPlanIntervalEnum(),
+    intervalCount: t.integer(),
+    trialPeriodDays: t.integer(),
+    metadata: t.jsonb(),
+  }),
+  (table) => [
+    {
+      checkConstraint: check(
+        'currency_length_check',
+        sql`char_length(${table.currency}) = 3`
+      ),
+    },
+  ]
+);
 
 export const PriceRelations = relations(Price, ({ one, many }) => ({
   product: one(Product, {

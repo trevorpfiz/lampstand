@@ -3,6 +3,7 @@ import {
   StreamData,
   convertToCoreMessages,
   customModel,
+  smoothStream,
   streamText,
 } from '@lamp/ai';
 import { DEFAULT_MODEL_NAME, models } from '@lamp/ai/models';
@@ -132,6 +133,7 @@ export async function POST(req: Request) {
     maxSteps: 5,
     // experimental_activeTools: [],
     // tools: {},
+    experimental_transform: smoothStream(),
     onFinish: async ({ response }) => {
       if (user.id) {
         try {
