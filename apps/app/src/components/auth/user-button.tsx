@@ -1,10 +1,9 @@
 'use client';
 
 import { LogOut, Settings, Sparkles } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import type { User } from '@lamp/supabase';
-import { createClient } from '@lamp/supabase/client';
 import {
   Avatar,
   AvatarFallback,
@@ -25,26 +24,17 @@ import { signOut } from '~/lib/actions/auth';
 import { getNameFromUser } from '~/lib/utils';
 import { useSettingsDialogStore } from '~/providers/settings-dialog-store-provider';
 
-function UserButton() {
+interface UserButtonProps {
+  user: User;
+}
+
+function UserButton({ user }: UserButtonProps) {
   const openSettingsDialog = useSettingsDialogStore(
     (state) => state.openSettingsDialog
   );
   const [open, setOpen] = useState(false);
-  const [user, setUser] = useState<User | null>(null);
 
-  useEffect(() => {
-    const supabase = createClient();
-    const fetchUser = async () => {
-      const {
-        data: { user },
-      } = await supabase.auth.getUser();
-      setUser(user);
-    };
-
-    fetchUser();
-  }, []);
-
-  const name = user ? getNameFromUser(user) : 'User';
+  const name = getNameFromUser(user);
   const displayEmail = user?.email ?? 'email';
 
   const handleSettings = () => {

@@ -1,7 +1,7 @@
 import { Separator } from '@lamp/ui/components/separator';
 import { SidebarTrigger } from '@lamp/ui/components/sidebar';
 
-import { UserButton } from '~/components/auth/user-button';
+import { UserButtonWrapper } from '~/components/auth/user-button-wrapper';
 import { NavActions } from '~/components/sidebar/nav-actions';
 
 interface AppHeaderProps {
@@ -31,7 +31,7 @@ export function AppHeader(props: AppHeaderProps) {
       )}
 
       <div className="flex items-center">
-        <UserButton />
+        <UserButtonWrapper />
       </div>
     </header>
   );

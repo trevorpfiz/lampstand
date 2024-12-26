@@ -4,6 +4,7 @@ import { authUsers } from 'drizzle-orm/supabase';
 import { createInsertSchema, createSelectSchema } from 'drizzle-zod';
 import type { z } from 'zod';
 
+import type { InferQueryModel } from '../lib/utils';
 import { createTable } from './_table';
 import { Price } from './price';
 
@@ -56,3 +57,15 @@ export const updateSubscriptionSchema = baseSchema;
 export type Subscription = typeof Subscription.$inferSelect;
 export type NewSubscription = z.infer<typeof insertSubscriptionSchema>;
 export type UpdateSubscription = z.infer<typeof updateSubscriptionSchema>;
+export type SubscriptionWithDetails = InferQueryModel<
+  'Subscription',
+  {
+    with: {
+      price: {
+        with: {
+          product: true;
+        };
+      };
+    };
+  }
+>;

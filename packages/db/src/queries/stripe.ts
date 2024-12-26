@@ -173,27 +173,34 @@ export async function upsertSubscription(subscription: Stripe.Subscription) {
 }
 
 export async function getSubscriptionsByUserId(userId: ProfileId) {
-  const subscriptions = await db
-    .select()
-    .from(Subscription)
-    .where(eq(Subscription.userId, userId))
-    .leftJoin(Price, eq(Subscription.priceId, Price.id))
-    .leftJoin(Product, eq(Price.productId, Product.id));
+  const subscriptions = await db.query.Subscription.findMany({
+    where: eq(Subscription.userId, userId),
+    with: {
+      price: {
+        with: {
+          product: true,
+        },
+      },
+    },
+  });
 
   return { subscriptions };
 }
 
 export async function getActiveSubscriptionByUserId(userId: ProfileId) {
-  const subscription = await db
-    .select()
-    .from(Subscription)
-    .where(
-      and(eq(Subscription.userId, userId), eq(Subscription.status, 'active'))
-    )
-    .leftJoin(Price, eq(Subscription.priceId, Price.id))
-    .leftJoin(Product, eq(Price.productId, Product.id))
-    .limit(1)
-    .then((rows) => rows[0]);
+  const subscription = await db.query.Subscription.findFirst({
+    where: and(
+      eq(Subscription.userId, userId),
+      eq(Subscription.status, 'active')
+    ),
+    with: {
+      price: {
+        with: {
+          product: true,
+        },
+      },
+    },
+  });
 
   return { subscription };
 }
@@ -338,12 +345,9 @@ export async function manageSubscriptionStatusChange({
 
 // Helper function to get customer by Stripe ID
 export async function getCustomerByStripeId(stripeCustomerId: string) {
-  const customer = await db
-    .select()
-    .from(Customer)
-    .where(eq(Customer.stripeCustomerId, stripeCustomerId))
-    .limit(1)
-    .then((rows) => rows[0]);
+  const customer = await db.query.Customer.findFirst({
+    where: eq(Customer.stripeCustomerId, stripeCustomerId),
+  });
 
   return { customer };
 }

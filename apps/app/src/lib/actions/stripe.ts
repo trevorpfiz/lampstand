@@ -1,15 +1,15 @@
-import 'server-only';
+'use server';
 
 import type { Stripe } from 'stripe';
 
 import { createOrRetrieveCustomer } from '@lamp/db/queries';
 import type { Price, ProfileId } from '@lamp/db/schema';
-import { stripe } from './index';
+import { stripe } from '@lamp/payments';
 import {
   calculateTrialEndUnixTimestamp,
   getErrorRedirect,
   getURL,
-} from './utils';
+} from '@lamp/payments/utils';
 
 type CheckoutResponse = {
   errorRedirect?: string;
@@ -20,7 +20,7 @@ export async function checkoutWithStripe({
   price,
   userId,
   email,
-  redirectPath = '/account',
+  redirectPath = '/',
 }: {
   price: Price;
   userId: ProfileId;
@@ -101,7 +101,7 @@ export async function checkoutWithStripe({
 export async function createStripePortal({
   userId,
   email,
-  returnPath = '/account',
+  returnPath = '/',
 }: {
   userId: ProfileId;
   email: string;

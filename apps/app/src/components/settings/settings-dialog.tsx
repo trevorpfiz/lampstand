@@ -1,9 +1,9 @@
 'use client';
 
 import { BadgePlus, Settings, User } from 'lucide-react';
-import { useTheme } from 'next-themes';
 import { useShallow } from 'zustand/react/shallow';
 
+import type { SubscriptionWithDetails } from '@lamp/db/schema';
 import { Button } from '@lamp/ui/components/button';
 import {
   Dialog,
@@ -13,23 +13,27 @@ import {
   DialogTitle,
 } from '@lamp/ui/components/dialog';
 import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@lamp/ui/components/select';
-import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
 } from '@lamp/ui/components/tabs';
 
+import { GeneralTab } from '~/components/settings/general-tab';
 import { useSettingsDialogStore } from '~/providers/settings-dialog-store-provider';
+import { SubscriptionTab } from './subscription-tab';
 
-export function SettingsDialog() {
-  const { theme, setTheme } = useTheme();
+interface SettingsDialogProps {
+  subscription: SubscriptionWithDetails | null | undefined;
+  userEmail: string;
+  userId: string;
+}
+
+export function SettingsDialog({
+  subscription,
+  userEmail,
+  userId,
+}: SettingsDialogProps) {
   const { isOpen, closeSettingsDialog } = useSettingsDialogStore(
     useShallow((state) => ({
       isOpen: state.isOpen,
@@ -58,10 +62,10 @@ export function SettingsDialog() {
                 orientation="vertical"
                 className="flex w-full gap-6"
               >
-                <TabsList className="min-w-44 flex-col gap-2 bg-transparent p-4">
+                <TabsList className="min-w-44 flex-col justify-start gap-2 bg-transparent p-4">
                   <TabsTrigger
                     value="general"
-                    className="w-full justify-start data-[state=active]:bg-muted data-[state=active]:shadow-none"
+                    className="w-full justify-start text-foreground hover:bg-muted hover:text-foreground data-[state=active]:bg-muted data-[state=active]:shadow-none"
                   >
                     <Settings
                       className="-ms-0.5 me-1.5 opacity-60"
@@ -73,7 +77,7 @@ export function SettingsDialog() {
                   </TabsTrigger>
                   <TabsTrigger
                     value="account"
-                    className="w-full justify-start data-[state=active]:bg-muted data-[state=active]:shadow-none"
+                    className="w-full justify-start text-foreground hover:bg-muted hover:text-foreground data-[state=active]:bg-muted data-[state=active]:shadow-none"
                   >
                     <User
                       className="-ms-0.5 me-1.5 opacity-60"
@@ -85,7 +89,7 @@ export function SettingsDialog() {
                   </TabsTrigger>
                   <TabsTrigger
                     value="subscription"
-                    className="w-full justify-start data-[state=active]:bg-muted data-[state=active]:shadow-none"
+                    className="w-full justify-start text-foreground hover:bg-muted hover:text-foreground data-[state=active]:bg-muted data-[state=active]:shadow-none"
                   >
                     <BadgePlus
                       className="-ms-0.5 me-1.5 opacity-60"
@@ -98,24 +102,16 @@ export function SettingsDialog() {
                 </TabsList>
                 <div className="grow text-start">
                   <TabsContent value="general" className="m-0">
-                    <div className="flex flex-col gap-3 pt-5 pr-6 pb-6 pl-0 text-foreground text-sm">
-                      <div className="flex items-center justify-between border-border border-b pb-3">
-                        <div>Theme</div>
-                        <Select value={theme} onValueChange={setTheme}>
-                          <SelectTrigger className="w-auto min-w-[100px]">
-                            <SelectValue placeholder="Select theme" />
-                          </SelectTrigger>
-                          <SelectContent>
-                            <SelectItem value="system">System</SelectItem>
-                            <SelectItem value="light">Light</SelectItem>
-                            <SelectItem value="dark">Dark</SelectItem>
-                          </SelectContent>
-                        </Select>
-                      </div>
-                    </div>
+                    <GeneralTab />
                   </TabsContent>
                   <TabsContent value="account" className="m-0" />
-                  <TabsContent value="settings" className="m-0" />
+                  <TabsContent value="subscription" className="m-0">
+                    <SubscriptionTab
+                      subscription={subscription}
+                      userEmail={userEmail}
+                      userId={userId}
+                    />
+                  </TabsContent>
                 </div>
               </Tabs>
             </div>

@@ -25,6 +25,7 @@
     "@lamp/logger": "workspace:*",
     "@lamp/next-config": "workspace:*",
     "@lamp/observability": "workspace:*",
+    "@lamp/payments": "workspace:*",
     "@lamp/plate": "workspace:*",
     "@lamp/security": "workspace:*",
     "@lamp/seo": "workspace:*",

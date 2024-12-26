@@ -4,8 +4,8 @@ import { captureException } from '@sentry/nextjs';
 import type NextError from 'next/error';
 import { useEffect } from 'react';
 
-import { Button } from '@lamp/design-system/components/ui/button';
-import { fonts } from '@lamp/design-system/lib/fonts';
+import { Button } from '@lamp/ui/components/button';
+import { fonts } from '@lamp/ui/lib/fonts';
 
 interface GlobalErrorProperties {
   readonly error: NextError & { digest?: string };

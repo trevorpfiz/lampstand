@@ -1,4 +1,7 @@
+import { getActiveSubscriptionByUserId } from '@lamp/db/queries';
+import { createClient } from '@lamp/supabase/server';
 import { SidebarInset, SidebarProvider } from '@lamp/ui/components/sidebar';
+import { notFound } from 'next/navigation';
 import type { ReactNode } from 'react';
 
 import { SettingsDialog } from '~/components/settings/settings-dialog';
@@ -10,8 +13,22 @@ import { PanelsStoreProvider } from '~/providers/panels-store-provider';
 import { SettingsDialogStoreProvider } from '~/providers/settings-dialog-store-provider';
 import { HydrateClient, api } from '~/trpc/server';
 
-export default function AppLayout({ children }: { children: ReactNode }) {
+export default async function AppLayout({ children }: { children: ReactNode }) {
   api.study.byUser.prefetch();
+
+  const supabase = await createClient();
+
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) {
+    return notFound();
+  }
+
+  const activeSubscriptionData = await getActiveSubscriptionByUserId(user.id);
+
+  const [subscription] = await Promise.all([activeSubscriptionData]);
 
   return (
     <HydrateClient>
@@ -24,7 +41,11 @@ export default function AppLayout({ children }: { children: ReactNode }) {
                   <AppSidebar />
                   <SidebarInset className="h-screen">
                     {children}
-                    <SettingsDialog />
+                    <SettingsDialog
+                      subscription={subscription.subscription}
+                      userEmail={user.email ?? ''}
+                      userId={user.id}
+                    />
                   </SidebarInset>
                 </ChatStoreProvider>
               </BibleStoreProvider>
