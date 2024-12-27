@@ -52,6 +52,7 @@ const noseconeOptions: NoseconeOptions = {
         'https://*.supabase.co',
         'https://github.com',
         'https://avatars.githubusercontent.com',
+        'https://*.basehub.com',
       ],
       objectSrc: [
         ...noseconeDefaults.contentSecurityPolicy.directives.objectSrc,

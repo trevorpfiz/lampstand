@@ -480,9 +480,6 @@ importers:
       sharp:
         specifier: ^0.33.5
         version: 0.33.5
-      shiki:
-        specifier: ^1.24.4
-        version: 1.24.4
       sqip:
         specifier: 1.0.0-alpha.51
         version: 1.0.0-alpha.51(sqip-plugin-blur@1.0.0-alpha.22)(sqip-plugin-data-uri@1.0.0-alpha.52)(sqip-plugin-primitive@1.0.0-alpha.53)(sqip-plugin-svgo@1.0.0-alpha.54)

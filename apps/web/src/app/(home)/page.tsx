@@ -3,13 +3,11 @@ import type { Metadata } from 'next';
 import { showBetaFeature } from '@lamp/feature-flags';
 import { createMetadata } from '@lamp/seo/metadata';
 
-import { Cases } from './components/cases';
-import { CTA } from './components/cta';
-import { FAQ } from './components/faq';
+import { Separator } from '@lamp/ui/components/separator';
+import CTA from '~/components/craft/cta';
+import FAQ from '~/components/craft/faq';
 import { Features } from './components/features';
 import { Hero } from './components/hero';
-import { Stats } from './components/stats';
-import { Testimonials } from './components/testimonials';
 
 const meta = {
   title: 'From zero to production in minutes.',
@@ -30,11 +28,17 @@ const Home = async () => {
         </div>
       )}
       <Hero />
-      <Cases />
+      <div className="px-8">
+        <Separator className="bg-muted" />
+      </div>
       <Features />
-      <Stats />
-      <Testimonials />
+      <div className="px-8">
+        <Separator className="bg-muted" />
+      </div>
       <FAQ />
+      <div className="px-8">
+        <Separator className="bg-muted" />
+      </div>
       <CTA />
     </>
   );
