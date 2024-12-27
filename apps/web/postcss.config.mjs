@@ -1,1 +1,1 @@
-export { default } from '@lamp/design-system/postcss.config.mjs';
+export { default } from '@lamp/ui/postcss.config';

@@ -1,3 +1,3 @@
-import { getFlags } from '@repo/feature-flags/access';
+import { getFlags } from '@lamp/feature-flags/access';
 
 export const GET = getFlags;

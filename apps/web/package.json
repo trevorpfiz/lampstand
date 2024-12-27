@@ -21,6 +21,7 @@
     "@lamp/next-config": "workspace:*",
     "@lamp/observability": "workspace:*",
     "@lamp/rate-limit": "workspace:*",
+    "@lamp/security": "workspace:*",
     "@lamp/seo": "workspace:*",
     "@lamp/ui": "workspace:*",
     "@radix-ui/react-icons": "^1.3.2",

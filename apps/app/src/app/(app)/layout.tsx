@@ -1,8 +1,11 @@
-import { getActiveSubscriptionByUserId } from '@lamp/db/queries';
-import { createClient } from '@lamp/supabase/server';
-import { SidebarInset, SidebarProvider } from '@lamp/ui/components/sidebar';
 import { notFound } from 'next/navigation';
 import type { ReactNode } from 'react';
+
+import { getActiveSubscriptionByUserId } from '@lamp/db/queries';
+import { env } from '@lamp/env';
+import { secure } from '@lamp/security';
+import { createClient } from '@lamp/supabase/server';
+import { SidebarInset, SidebarProvider } from '@lamp/ui/components/sidebar';
 
 import { SettingsDialog } from '~/components/settings/settings-dialog';
 import { AppSidebar } from '~/components/sidebar/app-sidebar';
@@ -14,6 +17,10 @@ import { SettingsDialogStoreProvider } from '~/providers/settings-dialog-store-p
 import { HydrateClient, api } from '~/trpc/server';
 
 export default async function AppLayout({ children }: { children: ReactNode }) {
+  if (env.ARCJET_KEY) {
+    await secure(['CATEGORY:SEARCH_ENGINE', 'CATEGORY:PREVIEW']);
+  }
+
   api.study.byUser.prefetch();
 
   const supabase = await createClient();

@@ -18,7 +18,7 @@
   "scripts": {
     "clean": "git clean -xdf .cache .turbo dist node_modules",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false",
-    "ui-add": "pnpm dlx shadcn@latest add"
+    "ui-add": "pnpm dlx shadcn@canary add"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

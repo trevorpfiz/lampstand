@@ -1,10 +1,18 @@
 import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
-
-import { Button } from '@lamp/ui/components/button';
 import type { ReactNode } from 'react';
 
-export default function AuthLayout({ children }: { children: ReactNode }) {
+import { env } from '@lamp/env';
+import { secure } from '@lamp/security';
+import { Button } from '@lamp/ui/components/button';
+
+export default async function AuthLayout({
+  children,
+}: { children: ReactNode }) {
+  if (env.ARCJET_KEY) {
+    await secure(['CATEGORY:SEARCH_ENGINE', 'CATEGORY:PREVIEW']);
+  }
+
   return (
     <div className="relative flex min-h-screen flex-col items-center overflow-hidden bg-background px-4 py-6">
       <div className="absolute top-8 left-8">

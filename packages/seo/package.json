@@ -10,7 +10,7 @@
     },
     "./json-ld": {
       "types": "./dist/json-ld.d.ts",
-      "default": "./src/json-ld.ts"
+      "default": "./src/json-ld.tsx"
     },
     "./metadata": {
       "types": "./dist/metadata.d.ts",

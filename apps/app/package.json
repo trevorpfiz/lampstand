@@ -50,6 +50,7 @@
     "next": "catalog:nextjs",
     "next-safe-action": "^7.10.2",
     "nuqs": "^2.2.3",
+    "path-to-regexp": "^8.2.0",
     "react": "catalog:react19",
     "react-dom": "catalog:react19",
     "react-icons": "^5.4.0",

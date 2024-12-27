@@ -58,6 +58,8 @@ dist/
 # email
 .react-email
 
+# Sentry
+.sentryclirc
 
 # BaseHub
 .basehub

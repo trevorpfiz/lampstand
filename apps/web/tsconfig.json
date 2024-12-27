@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "@lamp/tsconfig/base.json",
-    "@lamp/cms/src/typescript-config.json"
-  ],
+  "extends": ["@lamp/tsconfig/base.json", "@lamp/cms/typescript-config"],
   "compilerOptions": {
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "jsx": "preserve",

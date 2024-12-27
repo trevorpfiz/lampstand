@@ -1,5 +1,5 @@
 {
-  "name": "@lamp/email-app",
+  "name": "email-app",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -7,7 +7,6 @@
     "build": "email build",
     "clean": "git clean -xdf .cache .next .turbo node_modules",
     "dev": "email dev --port 3003",
-
     "typecheck": "tsc --noEmit",
     "with-env": "dotenv -e ../../.env --"
   },
@@ -23,7 +22,6 @@
     "@types/node": "catalog:",
     "@types/react": "catalog:react19",
     "dotenv-cli": "catalog:",
-
     "typescript": "catalog:"
   }
 }
