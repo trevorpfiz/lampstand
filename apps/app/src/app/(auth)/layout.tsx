@@ -6,6 +6,11 @@ import { env } from '@lamp/env';
 import { secure } from '@lamp/security';
 import { Button } from '@lamp/ui/components/button';
 
+const webUrl =
+  env.NODE_ENV === 'development'
+    ? 'http://localhost:3001'
+    : env.NEXT_PUBLIC_SITE_URL;
+
 export default async function AuthLayout({
   children,
 }: { children: ReactNode }) {
@@ -17,7 +22,7 @@ export default async function AuthLayout({
     <div className="relative flex min-h-screen flex-col items-center overflow-hidden bg-background px-4 py-6">
       <div className="absolute top-8 left-8">
         <Button asChild className="group" variant="ghost">
-          <Link href="/">
+          <Link href={webUrl ?? '/'}>
             <ArrowLeft
               className="-ms-1 group-hover:-translate-x-0.5 me-2 opacity-60 transition-transform"
               size={16}

@@ -2,20 +2,19 @@ import type { Metadata } from 'next';
 
 import { showBetaFeature } from '@lamp/feature-flags';
 import { createMetadata } from '@lamp/seo/metadata';
-
 import { Separator } from '@lamp/ui/components/separator';
-import { Hero } from '~/app/(home)/components/hero';
-import { Container } from '~/components/craft';
+
+import { Container, Section } from '~/components/craft';
 import CTA from '~/components/craft/cta';
 import FAQ from '~/components/craft/faq';
+import { Hero } from '~/components/hero';
 import { HeroVideoDialog } from '~/components/hero-video';
-// import Hero from '~/components/craft/hero';
-import { Features } from './components/features';
+import { Features } from '~/components/tailwindui/features';
 
 const meta = {
-  title: 'From zero to production in minutes.',
+  title: 'Bible study for the next generation',
   description:
-    "next-forge is a production-grade boilerplate for modern Next.js apps. It's designed to have everything you need to build your new SaaS app as quick as possible. Authentication, billing, analytics, SEO, and more. It's all here.",
+    'Lampstand is a Bible study app for the next generation. It helps you study the Bible faster and easier.',
 };
 
 export const metadata: Metadata = createMetadata(meta);
@@ -31,14 +30,16 @@ const Home = async () => {
         </div>
       )}
 
-      <Hero />
+      <Section className="!pt-0">
+        <Hero />
 
-      <Container>
-        <HeroVideoDialog
-          videoSrc="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          thumbnailSrc="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
-        />
-      </Container>
+        <Container>
+          <HeroVideoDialog
+            videoSrc="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            thumbnailSrc="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
+          />
+        </Container>
+      </Section>
 
       <Container>
         <Separator className="bg-muted" />

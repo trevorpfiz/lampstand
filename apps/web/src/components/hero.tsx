@@ -1,8 +1,15 @@
+import { env } from '@lamp/env';
 import { Button } from '@lamp/ui/components/button';
 import { cn } from '@lamp/ui/lib/utils';
 import { MoveRight } from 'lucide-react';
 import Link from 'next/link';
+import Balancer from 'react-wrap-balancer';
 import { AnimatedGradientText } from '~/components/magicui/animated-gradient-text';
+
+const appUrl =
+  env.NODE_ENV === 'development'
+    ? 'http://localhost:3000'
+    : env.NEXT_PUBLIC_APP_URL;
 
 export const Hero = () => {
   return (
@@ -30,11 +37,13 @@ export const Hero = () => {
 
             <div className="flex flex-col gap-6">
               <h1 className="max-w-2xl text-center font-semibold text-4xl tracking-tighter md:text-6xl">
-                Bible study for the next generation
+                <Balancer>Bible study for the next generation</Balancer>
               </h1>
               <p className="max-w-2xl text-center text-lg text-muted-foreground leading-relaxed tracking-tight md:text-xl">
-                Quickly find verses, simplify complex topics, write with AI and
-                keep everything organized.
+                <Balancer>
+                  Quickly find verses, simplify complex topics, write with AI
+                  and keep everything organized.
+                </Balancer>
               </p>
             </div>
           </div>
@@ -45,7 +54,7 @@ export const Hero = () => {
               size="lg"
               asChild
             >
-              <Link href="/signin">
+              <Link href={`${appUrl}/signup`}>
                 Get Started
                 <span className="ml-2 opacity-60">It's free</span>
                 <MoveRight

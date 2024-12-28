@@ -42,7 +42,7 @@ const content: FAQItem[] = [
 
 const FAQ = () => {
   return (
-    <Section>
+    <Section id="faq">
       <Container className="craft flex flex-col items-center gap-4 md:gap-8">
         <h3 className="!mt-0 !text-4xl !font-semibold">Questions?</h3>
 

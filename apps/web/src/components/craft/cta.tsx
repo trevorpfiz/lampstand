@@ -7,25 +7,45 @@ import Balancer from 'react-wrap-balancer';
 // UI component imports
 import { Button } from '@lamp/ui/components/button';
 
+import { env } from '@lamp/env';
+import { MoveRight } from 'lucide-react';
 // Custom components
 import { Container, Section } from '~/components/craft';
 
+const appUrl =
+  env.NODE_ENV === 'development'
+    ? 'http://localhost:3000'
+    : env.NEXT_PUBLIC_APP_URL;
+
 const CTA = () => {
   return (
-    <Section className="craft px-8">
-      <Container className="flex flex-col items-center gap-6 rounded-lg border bg-accent/50 p-6 text-center md:rounded-xl md:p-12">
-        <h2 className="!my-0">Get started for free</h2>
-        <h3 className="!mb-0 text-muted-foreground">
+    <Section className="px-6">
+      <Container className="md:!p-12 flex flex-col items-center gap-6 rounded-lg border bg-accent/50 text-center md:rounded-xl">
+        <h2 className="!my-0 text-center font-semibold text-4xl tracking-tighter md:text-5xl">
+          <Balancer>Get started for free</Balancer>
+        </h2>
+        <h3 className="!mb-0 text-center text-lg text-muted-foreground leading-relaxed tracking-tight">
           <Balancer>Take Lampstand for a spin. No card required.</Balancer>
         </h3>
         <div className="not-prose mx-auto flex flex-wrap items-center justify-center gap-2">
-          <Button className="w-fit rounded-2xl" asChild>
-            <Link href="#" className="!no-underline">
-              Get Started
-            </Link>
+          <Button
+            variant="default"
+            size="lg"
+            className="rounded-xl bg-orange-400 px-4 font-semibold hover:bg-orange-400/90"
+            asChild
+          >
+            <Link href={`${appUrl}/signup`}>Get Started</Link>
           </Button>
-          <Button className="w-fit rounded-2xl" variant="link" asChild>
-            <Link href="#">Learn More {'->'}</Link>
+          <Button className="group rounded-xl" variant="link" asChild>
+            <Link href="/guide">
+              Learn More
+              <MoveRight
+                className="-me-1 ms-2 opacity-60 transition-transform group-hover:translate-x-0.5"
+                size={13}
+                strokeWidth={2}
+                aria-hidden="true"
+              />
+            </Link>
           </Button>
         </div>
       </Container>

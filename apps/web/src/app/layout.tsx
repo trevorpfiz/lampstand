@@ -21,7 +21,7 @@ const RootLayout = ({ children }: RootLayoutProperties) => (
     className={cn(fonts, 'scroll-smooth')}
     suppressHydrationWarning
   >
-    <body>
+    <body className="bg-background text-foreground">
       <DesignSystemProvider>
         <Header />
         {children}
