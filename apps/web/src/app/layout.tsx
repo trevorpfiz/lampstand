@@ -7,8 +7,9 @@ import { DesignSystemProvider } from '@lamp/ui';
 import { Separator } from '@lamp/ui/components/separator';
 import { fonts } from '@lamp/ui/lib/fonts';
 import { cn } from '@lamp/ui/lib/utils';
+import { Container } from '~/components/craft';
 import Footer from '~/components/craft/footer';
-import { Header } from '../components/header';
+import Header from '~/components/tailwindui/header';
 
 type RootLayoutProperties = {
   readonly children: ReactNode;
@@ -24,9 +25,9 @@ const RootLayout = ({ children }: RootLayoutProperties) => (
       <DesignSystemProvider>
         <Header />
         {children}
-        <div className="px-8">
+        <Container>
           <Separator className="bg-muted" />
-        </div>
+        </Container>
         <Footer />
       </DesignSystemProvider>
     </body>

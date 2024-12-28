@@ -1,6 +1,7 @@
 'use client';
 
 import { SquarePen } from 'lucide-react';
+import Image from 'next/image';
 import * as React from 'react';
 
 import { Button } from '@lamp/ui/components/button';
@@ -37,6 +38,8 @@ import {
 } from '~/components/sidebar/nav-studies';
 import { api } from '~/trpc/react';
 
+import LogoFull from '~/public/lampstand-logo-full.svg';
+
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const utils = api.useUtils();
 
@@ -56,7 +59,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           <SidebarMenuItem>
             <div className="flex w-full items-center justify-between">
               <div className="flex flex-col gap-0.5 pl-2 leading-none">
-                <span className="font-semibold">Lampstand</span>
+                <Image src={LogoFull} alt="Lampstand" className="h-8 w-auto" />
               </div>
 
               <Tooltip>

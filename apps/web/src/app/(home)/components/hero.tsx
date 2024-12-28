@@ -1,60 +1,59 @@
-import { MoveRight, PhoneCall } from 'lucide-react';
-import { draftMode } from 'next/headers';
-import Link from 'next/link';
-
-import { blog } from '@lamp/cms';
-import { Feed } from '@lamp/cms/components/feed';
-import { env } from '@lamp/env';
 import { Button } from '@lamp/ui/components/button';
+import { cn } from '@lamp/ui/lib/utils';
+import { MoveRight } from 'lucide-react';
+import Link from 'next/link';
+import { AnimatedGradientText } from '~/components/magicui/animated-gradient-text';
 
-export const Hero = async () => {
-  const draft = await draftMode();
-
+export const Hero = () => {
   return (
-    <div className="w-full">
-      <div className="container mx-auto">
-        <div className="flex flex-col items-center justify-center gap-8 py-20 lg:py-40">
-          <div>
-            <Feed queries={[blog.latestPostQuery]} draft={draft.isEnabled}>
-              {/* biome-ignore lint/suspicious/useAwait: "Server Actions must be async" */}
-              {async ([data]) => {
-                'use server';
+    <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
+      {/* <Meteors number={10} /> */}
 
-                return (
-                  <Button
-                    variant="secondary"
-                    size="sm"
-                    className="gap-4"
-                    asChild
-                  >
-                    <Link href={`/blog/${data.blog.posts.items.at(0)?._slug}`}>
-                      Read our latest article <MoveRight className="h-4 w-4" />
-                    </Link>
-                  </Button>
-                );
-              }}
-            </Feed>
+      <div className="container mx-auto">
+        <div className="flex flex-col items-center justify-center gap-8 py-12">
+          <div className="flex flex-col items-center justify-center gap-4">
+            <AnimatedGradientText className="text-xs">
+              🎉 <hr className="mx-2 h-4 w-px shrink-0 bg-gray-300" />{' '}
+              <span
+                className={cn(
+                  'inline animate-gradient bg-[length:var(--bg-size)_100%] bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-clip-text text-transparent'
+                )}
+              >
+                Just Launched!
+              </span>
+            </AnimatedGradientText>
+
+            {/* <div className="flex items-center rounded-full border border-border bg-background py-1 pr-3 pl-3 text-sm">
+              🎉 <hr className="mx-2 h-4 w-px shrink-0 bg-gray-300" />{' '}
+              <p className="text-muted-foreground">Just Launched!</p>
+            </div> */}
+
+            <div className="flex flex-col gap-6">
+              <h1 className="max-w-2xl text-center font-semibold text-4xl tracking-tighter md:text-6xl">
+                Bible study for the next generation
+              </h1>
+              <p className="max-w-2xl text-center text-lg text-muted-foreground leading-relaxed tracking-tight md:text-xl">
+                Quickly find verses, simplify complex topics, write with AI and
+                keep everything organized.
+              </p>
+            </div>
           </div>
-          <div className="flex flex-col gap-4">
-            <h1 className="max-w-2xl text-center font-regular text-5xl tracking-tighter md:text-7xl">
-              This is the start of something new
-            </h1>
-            <p className="max-w-2xl text-center text-lg text-muted-foreground leading-relaxed tracking-tight md:text-xl">
-              Managing a small business today is already tough. Avoid further
-              complications by ditching outdated, tedious trade methods. Our
-              goal is to streamline SMB trade, making it easier and faster than
-              ever.
-            </p>
-          </div>
-          <div className="flex flex-row gap-3">
-            <Button size="lg" className="gap-4" variant="outline" asChild>
-              <Link href="/contact">
-                Get in touch <PhoneCall className="h-4 w-4" />
-              </Link>
-            </Button>
-            <Button size="lg" className="gap-4" asChild>
-              <Link href={env.NEXT_PUBLIC_APP_URL}>
-                Sign up <MoveRight className="h-4 w-4" />
+
+          <div className="flex flex-row flex-wrap items-center justify-center gap-3">
+            <Button
+              className="group rounded-xl bg-orange-400 font-bold transition-all hover:scale-105 hover:bg-orange-400/90"
+              size="lg"
+              asChild
+            >
+              <Link href="/signin">
+                Get Started
+                <span className="ml-2 opacity-60">It's free</span>
+                <MoveRight
+                  className="-me-1 ms-2 opacity-60 transition-transform group-hover:translate-x-1.5"
+                  size={14}
+                  strokeWidth={3}
+                  aria-hidden="true"
+                />
               </Link>
             </Button>
           </div>

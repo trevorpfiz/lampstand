@@ -2,6 +2,7 @@ import { type NextRequest, NextResponse } from 'next/server';
 
 import { env } from '@lamp/env';
 import { parseError } from '@lamp/observability/error';
+import { secure } from '@lamp/security';
 import { noseconeConfig, noseconeMiddleware } from '@lamp/security/middleware';
 
 // Clerk matcher: https://clerk.com/docs/references/nextjs/auth-middleware
@@ -22,14 +23,14 @@ export async function middleware(request: NextRequest) {
   }
 
   try {
-    // await secure(
-    //   [
-    //     // See https://docs.arcjet.com/bot-protection/identifying-bots
-    //     'CATEGORY:SEARCH_ENGINE', // Allow search engines
-    //     'CATEGORY:PREVIEW', // Allow preview links to show OG images
-    //   ],
-    //   request
-    // );
+    await secure(
+      [
+        // See https://docs.arcjet.com/bot-protection/identifying-bots
+        'CATEGORY:SEARCH_ENGINE', // Allow search engines
+        'CATEGORY:PREVIEW', // Allow preview links to show OG images
+      ],
+      request
+    );
 
     return securityHeaders();
   } catch (error) {

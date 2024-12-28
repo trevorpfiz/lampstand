@@ -23,6 +23,28 @@ export default {
           raw: '(hover: hover)',
         },
       },
+      animation: {
+        gradient: 'gradient 8s linear infinite',
+        meteor: 'meteor 5s linear infinite',
+      },
+      keyframes: {
+        gradient: {
+          to: {
+            backgroundPosition: 'var(--bg-size) 0',
+          },
+        },
+        meteor: {
+          '0%': {
+            transform: 'rotate(215deg) translateX(0)',
+            opacity: '100%',
+          },
+          '70%': { opacity: '100%' },
+          '100%': {
+            transform: 'rotate(215deg) translateX(-500px)',
+            opacity: '0%',
+          },
+        },
+      },
     },
   },
 } satisfies Config;

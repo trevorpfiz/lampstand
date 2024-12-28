@@ -4,10 +4,13 @@ import { showBetaFeature } from '@lamp/feature-flags';
 import { createMetadata } from '@lamp/seo/metadata';
 
 import { Separator } from '@lamp/ui/components/separator';
+import { Hero } from '~/app/(home)/components/hero';
+import { Container } from '~/components/craft';
 import CTA from '~/components/craft/cta';
 import FAQ from '~/components/craft/faq';
+import { HeroVideoDialog } from '~/components/hero-video';
+// import Hero from '~/components/craft/hero';
 import { Features } from './components/features';
-import { Hero } from './components/hero';
 
 const meta = {
   title: 'From zero to production in minutes.',
@@ -27,18 +30,32 @@ const Home = async () => {
           Beta feature now available
         </div>
       )}
+
       <Hero />
-      <div className="px-8">
+
+      <Container>
+        <HeroVideoDialog
+          videoSrc="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          thumbnailSrc="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
+        />
+      </Container>
+
+      <Container>
         <Separator className="bg-muted" />
-      </div>
+      </Container>
+
       <Features />
-      <div className="px-8">
+
+      <Container>
         <Separator className="bg-muted" />
-      </div>
+      </Container>
+
       <FAQ />
-      <div className="px-8">
+
+      <Container>
         <Separator className="bg-muted" />
-      </div>
+      </Container>
+
       <CTA />
     </>
   );

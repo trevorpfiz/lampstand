@@ -11,6 +11,10 @@
     "./posthog/server": {
       "types": "./dist/posthog/server.d.ts",
       "default": "./src/posthog/server.ts"
+    },
+    "./posthog/client": {
+      "types": "./dist/posthog/client.d.ts",
+      "default": "./src/posthog/client.tsx"
     }
   },
   "scripts": {

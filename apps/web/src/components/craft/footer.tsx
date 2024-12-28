@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { MdEmail } from 'react-icons/md';
 
-import Logo from '~/app/icon.png';
+import Logo from '~/app/icon.svg';
 import { Container, Section } from '~/components/craft';
 
 const footerItems = [

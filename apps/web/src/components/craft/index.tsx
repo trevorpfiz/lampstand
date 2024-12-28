@@ -1,15 +1,9 @@
 // craft-ds, v0.3
 // This is a design system for building responsive layouts in React
 
-import { type ClassValue, clsx } from 'clsx';
 import type React from 'react';
-import { twMerge } from 'tailwind-merge';
 
-// Utility function to merge class names using clsx and tailwind-merge
-
-export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs));
-}
+import { cn } from '@lamp/ui/lib/utils';
 
 // Types for component props
 
