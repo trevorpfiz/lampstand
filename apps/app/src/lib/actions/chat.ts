@@ -9,10 +9,15 @@ import { updateChatVisiblityById } from '@lamp/db/queries';
 import { chatIdSchema, chatVisibilitySchema } from '@lamp/db/schema';
 import { createClient } from '@lamp/supabase/server';
 
+import { flattenValidationErrors } from 'next-safe-action';
 import { actionClient } from '~/lib/safe-action';
 
 export const saveModelId = actionClient
-  .schema(z.object({ model: z.string() }))
+  .metadata({ actionName: 'saveModelId' })
+  .schema(z.object({ model: z.string() }), {
+    handleValidationErrorsShape: async (ve) =>
+      flattenValidationErrors(ve).fieldErrors,
+  })
   .action(async ({ parsedInput: { model } }) => {
     const cookieStore = await cookies();
     cookieStore.set('model-id', model);
@@ -37,7 +42,11 @@ export async function generateTitleFromUserMessage({
 }
 
 export const updateChatVisibility = actionClient
-  .schema(z.intersection(chatIdSchema, chatVisibilitySchema))
+  .metadata({ actionName: 'updateChatVisibility' })
+  .schema(z.intersection(chatIdSchema, chatVisibilitySchema), {
+    handleValidationErrorsShape: async (ve) =>
+      flattenValidationErrors(ve).fieldErrors,
+  })
   .action(async ({ parsedInput: { id, visibility } }) => {
     const supabase = await createClient();
     const {

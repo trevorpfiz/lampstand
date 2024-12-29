@@ -31,6 +31,12 @@ const noseconeOptions: NoseconeOptions = {
         'https://www.googletagmanager.com',
         'https://va.vercel-scripts.com',
         'https://*.supabase.co',
+        'https://*.stripe.com',
+        'https://billing.stripe.com',
+        'https://checkout.stripe.com',
+        'https://*.js.stripe.com',
+        'https://js.stripe.com',
+        'https://maps.googleapis.com',
       ],
       connectSrc: [
         ...noseconeDefaults.contentSecurityPolicy.directives.connectSrc,
@@ -40,6 +46,11 @@ const noseconeOptions: NoseconeOptions = {
         'https://basehub.com',
         'https://*.basehub.com',
         'wss://ws-mt1.pusher.com',
+        'https://*.stripe.com',
+        'https://billing.stripe.com',
+        'https://checkout.stripe.com',
+        'https://api.stripe.com',
+        'https://maps.googleapis.com',
       ],
       workerSrc: [
         ...noseconeDefaults.contentSecurityPolicy.directives.workerSrc,
@@ -53,9 +64,18 @@ const noseconeOptions: NoseconeOptions = {
         'https://github.com',
         'https://avatars.githubusercontent.com',
         'https://*.basehub.com',
+        'https://*.stripe.com',
       ],
       objectSrc: [
         ...noseconeDefaults.contentSecurityPolicy.directives.objectSrc,
+      ],
+      frameSrc: [
+        "'self'",
+        'https://*.stripe.com',
+        'https://checkout.stripe.com',
+        'https://*.js.stripe.com',
+        'https://js.stripe.com',
+        'https://hooks.stripe.com',
       ],
       // We only set this in production because the server may be started
       // without HTTPS

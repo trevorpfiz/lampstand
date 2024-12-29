@@ -10,7 +10,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-import Logo from '~/public/lampstand.svg';
+import LogoFull from '~/public/lampstand-logo-full.svg';
 
 const navigation = [{ name: 'Pricing', href: '/pricing' }];
 
@@ -43,7 +43,12 @@ export default function Header() {
         <nav aria-label="Global" className="flex items-center justify-between">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Lampstand</span>
-            <Image alt="Lampstand" src={Logo} className="h-5 w-auto" priority />
+            <Image
+              alt="Lampstand"
+              src={LogoFull}
+              className="h-6 w-auto"
+              priority
+            />
           </Link>
           <div className="flex lg:hidden">
             <button
@@ -101,7 +106,7 @@ export default function Header() {
             <div className="flex items-center justify-between">
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Lampstand</span>
-                <Image alt="Lampstand" src={Logo} className="h-5 w-auto" />
+                <Image alt="Lampstand" src={LogoFull} className="h-6 w-auto" />
               </Link>
               <button
                 type="button"

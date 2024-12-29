@@ -9,7 +9,7 @@
     "build": "pnpm with-env next build",
     "start": "pnpm with-env next start",
     "analyze": "ANALYZE=true pnpm build",
-    "stripe": "pnpm with-env stripe listen --forward-to localhost:3002/webhooks/stripe",
+    "stripe": "pnpm with-env stripe listen --latest --forward-to localhost:3002/webhooks/stripe",
     "clean": "git clean -xdf .cache .turbo dist node_modules",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false",
     "with-env": "dotenv -e ../../.env --"

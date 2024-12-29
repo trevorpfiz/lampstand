@@ -18,6 +18,7 @@
     "@heroicons/react": "^2.2.0",
     "@lamp/analytics": "workspace:*",
     "@lamp/cms": "workspace:*",
+    "@lamp/db": "workspace:*",
     "@lamp/email": "workspace:*",
     "@lamp/env": "workspace:*",
     "@lamp/feature-flags": "workspace:*",

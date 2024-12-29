@@ -30,7 +30,7 @@ export function SubscriptionTab({
       style: 'currency',
       currency: subscription.price.currency ?? undefined,
       minimumFractionDigits: 0,
-    }).format(subscription.price.unitAmount ?? 0 / 100);
+    }).format((subscription.price.unitAmount ?? 0) / 100);
 
   const handleStripePortalRequest = async () => {
     try {

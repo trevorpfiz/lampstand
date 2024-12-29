@@ -7,6 +7,7 @@ import {
 } from '@lamp/db/queries';
 import { createClient } from '@lamp/supabase/server';
 
+import { getUser } from '@lamp/supabase/queries';
 import type { ReactNode } from 'react';
 import { AppHeader } from '~/components/app-header';
 import { PanelsLayout } from '~/components/panels-layout';
@@ -19,11 +20,9 @@ export default async function StudyLayout({
   params: Promise<{ studyId: string }>;
 }) {
   const { studyId } = await params;
-  const supabase = await createClient();
 
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const supabase = await createClient();
+  const user = await getUser(supabase);
 
   if (!user) {
     return notFound();

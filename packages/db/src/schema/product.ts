@@ -2,6 +2,7 @@ import { relations } from 'drizzle-orm';
 import { createInsertSchema, createSelectSchema } from 'drizzle-zod';
 import type { z } from 'zod';
 
+import type { InferQueryModel } from '../lib/utils';
 import { createTable } from './_table';
 import { Price } from './price';
 
@@ -27,3 +28,11 @@ export const updateProductSchema = baseSchema;
 export type Product = typeof Product.$inferSelect;
 export type NewProduct = z.infer<typeof insertProductSchema>;
 export type UpdateProduct = z.infer<typeof updateProductSchema>;
+export type ProductWithDetails = InferQueryModel<
+  'Product',
+  {
+    with: {
+      prices: true;
+    };
+  }
+>;

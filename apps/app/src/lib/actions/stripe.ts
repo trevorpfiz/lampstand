@@ -13,7 +13,7 @@ import {
 
 type CheckoutResponse = {
   errorRedirect?: string;
-  sessionId?: string;
+  checkoutUrl?: string;
 };
 
 export async function checkoutWithStripe({
@@ -73,11 +73,11 @@ export async function checkoutWithStripe({
     // Create a checkout session in Stripe
     const session = await stripe.checkout.sessions.create(params);
 
-    if (!session?.id) {
+    if (!session?.url) {
       throw new Error('Unable to create checkout session.');
     }
 
-    return { sessionId: session.id };
+    return { checkoutUrl: session.url };
   } catch (error) {
     if (error instanceof Error) {
       return {

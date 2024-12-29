@@ -5,6 +5,7 @@ import type { Stripe } from 'stripe';
 
 import { stripe } from '@lamp/payments';
 
+import { cache } from 'react';
 import { db } from '../client';
 import { Customer, type NewCustomer } from '../schema/customer';
 import { type NewPrice, Price } from '../schema/price';
@@ -17,6 +18,16 @@ import { type NewSubscription, Subscription } from '../schema/subscription';
 const TRIAL_PERIOD_DAYS = 0;
 
 // Product operations
+export const getProducts = cache(async () => {
+  const products = await db.query.Product.findMany({
+    with: {
+      prices: true,
+    },
+  });
+
+  return products;
+});
+
 export async function upsertProduct(product: Stripe.Product) {
   const productData: NewProduct = {
     id: product.id,
@@ -50,16 +61,12 @@ export async function deleteProduct(productId: string) {
 
 // Price operations
 export async function upsertPrice(price: Stripe.Price) {
-  if (!price.unit_amount) {
-    throw new Error('Price must have a unit amount');
-  }
-
   const priceData: NewPrice = {
     id: price.id,
     productId: typeof price.product === 'string' ? price.product : '',
     active: price.active,
     description: price.nickname ?? '',
-    unitAmount: price.unit_amount,
+    unitAmount: price.unit_amount ?? 0,
     currency: price.currency,
     type: price.type === 'recurring' ? 'recurring' : 'one_time',
     interval: price.recurring?.interval ?? 'month',
@@ -123,18 +130,17 @@ export async function getCustomerByUserId(userId: ProfileId) {
 }
 
 // Subscription operations
-export async function upsertSubscription(subscription: Stripe.Subscription) {
-  if (!subscription.metadata.userId) {
-    throw new Error('Missing userId in subscription metadata');
-  }
-
+export async function upsertSubscription(
+  subscription: Stripe.Subscription,
+  userId: ProfileId
+) {
   if (!subscription.items.data[0]?.price?.id) {
     throw new Error('Missing price information in subscription');
   }
 
   const subscriptionData: NewSubscription = {
     id: subscription.id,
-    userId: subscription.metadata.userId as ProfileId,
+    userId,
     status: subscription.status,
     metadata: subscription.metadata,
     priceId: subscription.items.data[0].price.id,
@@ -328,8 +334,10 @@ export async function manageSubscriptionStatusChange({
   });
 
   // Update subscription in our database
-  const { subscription: updatedSubscription } =
-    await upsertSubscription(subscription);
+  const { subscription: updatedSubscription } = await upsertSubscription(
+    subscription,
+    customer.id
+  );
 
   // For new subscriptions, copy billing details
   if (isNewSubscription && subscription.default_payment_method && customer.id) {

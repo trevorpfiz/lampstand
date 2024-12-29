@@ -59,7 +59,12 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           <SidebarMenuItem>
             <div className="flex w-full items-center justify-between">
               <div className="flex flex-col gap-0.5 pl-2 leading-none">
-                <Image src={LogoFull} alt="Lampstand" className="h-8 w-auto" />
+                <Image
+                  src={LogoFull}
+                  alt="Lampstand"
+                  className="h-6 w-auto"
+                  priority
+                />
               </div>
 
               <Tooltip>

@@ -57,6 +57,34 @@ const DialogContent = React.forwardRef<
 ));
 DialogContent.displayName = DialogPrimitive.Content.displayName;
 
+const DialogContentFullscreen = React.forwardRef<
+  React.ElementRef<typeof DialogPrimitive.Content>,
+  React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content>
+>(({ className, children, ...props }, ref) => (
+  <DialogPortal>
+    <DialogOverlay className="bg-background/80" />
+    <DialogPrimitive.Content
+      ref={ref}
+      className={cn(
+        'fixed inset-0 z-50 flex h-screen w-screen flex-col overflow-y-auto bg-background',
+        className
+      )}
+      {...props}
+    >
+      {children}
+      <DialogPrimitive.Close className="group absolute top-4 right-4 flex size-10 items-center justify-center rounded-lg outline-offset-2 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-ring/70 disabled:pointer-events-none">
+        <X
+          size={24}
+          strokeWidth={2}
+          className="opacity-60 transition-opacity group-hover:opacity-100"
+        />
+        <span className="sr-only">Close</span>
+      </DialogPrimitive.Close>
+    </DialogPrimitive.Content>
+  </DialogPortal>
+));
+DialogContentFullscreen.displayName = 'DialogContentFullscreen';
+
 const DialogHeader = ({
   className,
   ...props
@@ -113,6 +141,7 @@ export {
   Dialog,
   DialogClose,
   DialogContent,
+  DialogContentFullscreen,
   DialogDescription,
   DialogFooter,
   DialogHeader,

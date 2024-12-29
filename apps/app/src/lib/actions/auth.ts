@@ -16,10 +16,15 @@ import {
   UpdatePasswordSchema,
 } from '@lamp/validators/auth';
 
+import { flattenValidationErrors } from 'next-safe-action';
 import { actionClient } from '~/lib/safe-action';
 
 export const signInWithPassword = actionClient
-  .schema(SignInSchema)
+  .metadata({ actionName: 'signInWithPassword' })
+  .schema(SignInSchema, {
+    handleValidationErrorsShape: async (ve) =>
+      flattenValidationErrors(ve).fieldErrors,
+  })
   .action(async ({ parsedInput: { email, password } }) => {
     const supabase = await createClient();
 
@@ -37,7 +42,11 @@ export const signInWithPassword = actionClient
   });
 
 export const signUp = actionClient
-  .schema(SignUpSchema)
+  .metadata({ actionName: 'signUp' })
+  .schema(SignUpSchema, {
+    handleValidationErrorsShape: async (ve) =>
+      flattenValidationErrors(ve).fieldErrors,
+  })
   .action(async ({ parsedInput: { email, password } }) => {
     const supabase = await createClient();
     const headersList = await headers();
@@ -72,7 +81,11 @@ export const signUp = actionClient
   });
 
 export const requestResetPassword = actionClient
-  .schema(RequestPasswordResetSchema)
+  .metadata({ actionName: 'requestResetPassword' })
+  .schema(RequestPasswordResetSchema, {
+    handleValidationErrorsShape: async (ve) =>
+      flattenValidationErrors(ve).fieldErrors,
+  })
   .action(async ({ parsedInput: { email } }) => {
     const supabase = await createClient();
     const headersList = await headers();
@@ -95,7 +108,11 @@ export const requestResetPassword = actionClient
   });
 
 export const updatePassword = actionClient
-  .schema(UpdatePasswordSchema)
+  .metadata({ actionName: 'updatePassword' })
+  .schema(UpdatePasswordSchema, {
+    handleValidationErrorsShape: async (ve) =>
+      flattenValidationErrors(ve).fieldErrors,
+  })
   .action(async ({ parsedInput: { newPassword } }) => {
     const supabase = await createClient();
 

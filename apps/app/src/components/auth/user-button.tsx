@@ -22,6 +22,7 @@ import {
 
 import { signOut } from '~/lib/actions/auth';
 import { getNameFromUser } from '~/lib/utils';
+import { usePricingDialogStore } from '~/providers/pricing-dialog-store-provider';
 import { useSettingsDialogStore } from '~/providers/settings-dialog-store-provider';
 
 interface UserButtonProps {
@@ -31,6 +32,9 @@ interface UserButtonProps {
 function UserButton({ user }: UserButtonProps) {
   const openSettingsDialog = useSettingsDialogStore(
     (state) => state.openSettingsDialog
+  );
+  const openPricingDialog = usePricingDialogStore(
+    (state) => state.openPricingDialog
   );
   const [open, setOpen] = useState(false);
 
@@ -44,6 +48,11 @@ function UserButton({ user }: UserButtonProps) {
 
   const handleSignOut = async () => {
     await signOut();
+  };
+
+  const handleUpgrade = () => {
+    setOpen(false);
+    openPricingDialog();
   };
 
   return (
@@ -79,14 +88,14 @@ function UserButton({ user }: UserButtonProps) {
         <DropdownMenuSeparator />
 
         <DropdownMenuGroup>
-          <DropdownMenuItem>
+          <DropdownMenuItem onSelect={handleUpgrade}>
             <Sparkles
               size={16}
               strokeWidth={2}
               className="opacity-60"
               aria-hidden="true"
             />
-            <span>Upgrade to Pro</span>
+            <span>Upgrade Plan</span>
           </DropdownMenuItem>
         </DropdownMenuGroup>
 

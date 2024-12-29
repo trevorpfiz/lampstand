@@ -1,15 +1,16 @@
+import { env } from '@lamp/env';
+
 const TRAILING_SLASH_REGEX = /\/+$/;
 const LEADING_SLASH_REGEX = /^\/+/;
 
 export const getURL = (path = '') => {
-  // Check if NEXT_PUBLIC_SITE_URL is set and non-empty
-  const siteUrl =
-    process?.env?.NEXT_PUBLIC_SITE_URL?.trim() ||
-    process?.env?.NEXT_PUBLIC_VERCEL_URL?.trim() ||
-    'http://localhost:3000';
+  const appUrl =
+    env.NODE_ENV === 'development'
+      ? 'http://localhost:3000'
+      : env.NEXT_PUBLIC_APP_URL.trim() || env.VERCEL_URL?.trim() || '';
 
   // Make sure to include `https://` when not localhost
-  const baseUrl = siteUrl.includes('http') ? siteUrl : `https://${siteUrl}`;
+  const baseUrl = appUrl.includes('http') ? appUrl : `https://${appUrl}`;
   // Remove trailing slash if exists
   const cleanBaseUrl = baseUrl.replace(TRAILING_SLASH_REGEX, '');
   // Remove leading slash from path if exists
