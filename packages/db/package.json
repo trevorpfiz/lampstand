@@ -39,14 +39,12 @@
     "drizzle-orm": "^0.38.3",
     "drizzle-zod": "0.5.1",
     "pg": "^8.13.1",
-    "react": "catalog:react19",
     "server-only": "^0.0.1",
     "type-fest": "^4.31.0",
     "zod": "catalog:"
   },
   "devDependencies": {
     "@lamp/tsconfig": "workspace:*",
-    "@types/react": "catalog:react19",
     "ai": "catalog:",
     "dotenv-cli": "catalog:",
     "drizzle-kit": "^0.30.1",

@@ -92,7 +92,7 @@ export function ChatInput({
                 <SelectItem
                   key={model.id}
                   value={model.id}
-                  disabled={model.plan === 'pro'}
+                  disabled={model.premium}
                 >
                   {model.label}
                 </SelectItem>

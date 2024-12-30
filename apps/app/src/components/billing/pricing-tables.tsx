@@ -3,11 +3,7 @@
 import { Check, Info, Sparkles } from 'lucide-react';
 import { useState } from 'react';
 
-import type {
-  Price,
-  ProductWithDetails,
-  SubscriptionWithDetails,
-} from '@lamp/db/schema';
+import type { Price, ProductWithDetails } from '@lamp/db/schema';
 import { Badge } from '@lamp/ui/components/badge';
 import { Button } from '@lamp/ui/components/button';
 import {
@@ -24,6 +20,8 @@ import {
   TooltipTrigger,
 } from '@lamp/ui/components/tooltip';
 import { cn } from '@lamp/ui/lib/utils';
+import { useTheme } from '@lamp/ui/providers/theme';
+import { api } from '~/trpc/react';
 
 type BillingInterval = 'year' | 'month' | 'week' | 'day';
 
@@ -42,11 +40,11 @@ interface PricingPlan {
   isCurrentPlan?: boolean;
   currentPrice?: Price;
   isFree?: boolean;
+  isIncluded?: boolean;
 }
 
 interface PricingTablesProps {
   products: ProductWithDetails[];
-  subscription?: SubscriptionWithDetails | null;
   priceIdLoading?: string;
   onPriceSelect: (price: Price) => void;
 }
@@ -106,10 +104,14 @@ const mockPlans: PricingPlan[] = [
 
 export default function PricingTables({
   products,
-  subscription,
   priceIdLoading,
   onPriceSelect,
 }: PricingTablesProps) {
+  const [{ subscription }] =
+    api.stripe.getActiveSubscriptionByUser.useSuspenseQuery();
+
+  const { resolvedTheme } = useTheme();
+
   // Get available intervals from products, defaulting to month/year if none found
   const availableIntervals = Array.from(
     new Set(
@@ -177,11 +179,35 @@ export default function PricingTables({
               monthlyPrice?.unitAmount === 0 ||
               (product.name?.toLowerCase() || '').includes('free');
 
-            // Check if this is the user's current plan
+            // Check if this is the user's current plan or a lower tier plan
+            const isIncludedInCurrentPlan = () => {
+              if (!subscription) {
+                return false;
+              }
+              const planOrder = {
+                Free: 1,
+                Pro: 2,
+                Premium: 3,
+              } as const;
+
+              const currentPlanName =
+                subscription.price?.product?.name?.split(' ').at(-1) || '';
+              const thisPlanName = product.name?.split(' ').at(-1) || '';
+
+              const currentPlanOrder =
+                planOrder[currentPlanName as keyof typeof planOrder] ?? 0;
+              const thisPlanOrder =
+                planOrder[thisPlanName as keyof typeof planOrder] ?? 0;
+
+              return thisPlanOrder < currentPlanOrder;
+            };
+
             const isCurrentPlan =
               (subscription === undefined && isFree) || // If no subscription, Free plan is current
               (subscription?.price?.productId === product.id && // Product matches subscription
                 subscription?.price?.interval === billingInterval); // And billing period matches
+
+            const isIncluded = isIncludedInCurrentPlan();
 
             // Get the current price based on billing period
             const currentPrice =
@@ -209,6 +235,7 @@ export default function PricingTables({
               isCurrentPlan,
               currentPrice,
               isFree,
+              isIncluded,
             };
           })
           .sort((a, b) => (a.order || 99) - (b.order || 99))
@@ -292,13 +319,18 @@ export default function PricingTables({
             </CardHeader>
             <CardContent className="flex flex-1 flex-col">
               <Button
-                variant={plan.isCurrentPlan ? 'secondary' : 'default'}
+                variant={
+                  plan.isCurrentPlan || plan.isIncluded || plan.isFree
+                    ? 'secondary'
+                    : 'default'
+                }
                 className="mb-8 w-full"
                 disabled={
                   plan.isCurrentPlan ||
                   !plan.currentPrice ||
                   priceIdLoading === plan.currentPrice?.id ||
-                  plan.isFree // Always disable Free plan button
+                  plan.isFree || // Always disable Free plan button
+                  plan.isIncluded
                 }
                 onClick={() =>
                   plan.currentPrice && onPriceSelect(plan.currentPrice)
@@ -307,7 +339,7 @@ export default function PricingTables({
                 {priceIdLoading === plan.currentPrice?.id && (
                   <Spinner className="-ms-1 me-2" />
                 )}
-                {plan.buttonText}
+                {plan.isIncluded ? 'Already included' : plan.buttonText}
               </Button>
               <div className="space-y-4">
                 {plan.popular && (
@@ -339,9 +371,15 @@ export default function PricingTables({
 
                       <Tooltip>
                         <TooltipTrigger>
-                          <Info className="h-4 w-4 text-muted-foreground" />
+                          <Info className="h-4 w-4 text-muted-foreground opacity-60" />
                         </TooltipTrigger>
-                        <TooltipContent>
+                        <TooltipContent
+                          showArrow={true}
+                          className={cn(
+                            '',
+                            resolvedTheme === 'light' && 'dark'
+                          )}
+                        >
                           <p className="text-sm">{feature.tooltip}</p>
                         </TooltipContent>
                       </Tooltip>

@@ -4,25 +4,23 @@ import { BadgePlus } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 
-import type { SubscriptionWithDetails } from '@lamp/db/schema';
 import { parseError } from '@lamp/observability/error';
 import { Button } from '@lamp/ui/components/button';
 import { Spinner } from '@lamp/ui/components/spinner';
 import { createStripePortal } from '~/lib/actions/stripe';
+import { api } from '~/trpc/react';
 
 interface SubscriptionTabProps {
-  subscription: SubscriptionWithDetails | null | undefined;
   userEmail: string;
   userId: string;
 }
 
-export function SubscriptionTab({
-  subscription,
-  userEmail,
-  userId,
-}: SubscriptionTabProps) {
+export function SubscriptionTab({ userEmail, userId }: SubscriptionTabProps) {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
+
+  const [{ subscription }] =
+    api.stripe.getActiveSubscriptionByUser.useSuspenseQuery();
 
   const subscriptionPrice =
     subscription?.price &&

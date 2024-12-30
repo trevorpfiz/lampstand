@@ -3,7 +3,6 @@
 import { BadgePlus, Settings, User } from 'lucide-react';
 import { useShallow } from 'zustand/react/shallow';
 
-import type { SubscriptionWithDetails } from '@lamp/db/schema';
 import { Button } from '@lamp/ui/components/button';
 import {
   Dialog,
@@ -24,16 +23,11 @@ import { useSettingsDialogStore } from '~/providers/settings-dialog-store-provid
 import { SubscriptionTab } from './subscription-tab';
 
 interface SettingsDialogProps {
-  subscription: SubscriptionWithDetails | null | undefined;
   userEmail: string;
   userId: string;
 }
 
-export function SettingsDialog({
-  subscription,
-  userEmail,
-  userId,
-}: SettingsDialogProps) {
+export function SettingsDialog({ userEmail, userId }: SettingsDialogProps) {
   const { isOpen, closeSettingsDialog } = useSettingsDialogStore(
     useShallow((state) => ({
       isOpen: state.isOpen,
@@ -106,11 +100,7 @@ export function SettingsDialog({
                   </TabsContent>
                   <TabsContent value="account" className="m-0" />
                   <TabsContent value="subscription" className="m-0">
-                    <SubscriptionTab
-                      subscription={subscription}
-                      userEmail={userEmail}
-                      userId={userId}
-                    />
+                    <SubscriptionTab userEmail={userEmail} userId={userId} />
                   </TabsContent>
                 </div>
               </Tabs>

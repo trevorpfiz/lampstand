@@ -43,6 +43,13 @@
       "when": 1735227428329,
       "tag": "0005_strong_karnak",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1735587652882,
+      "tag": "0006_fair_thena",
+      "breakpoints": true
     }
   ]
 }

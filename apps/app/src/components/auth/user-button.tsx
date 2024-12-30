@@ -9,6 +9,7 @@ import {
   AvatarFallback,
   AvatarImage,
 } from '@lamp/ui/components/avatar';
+import { Badge } from '@lamp/ui/components/badge';
 import { Button } from '@lamp/ui/components/button';
 import {
   DropdownMenu,
@@ -24,6 +25,7 @@ import { signOut } from '~/lib/actions/auth';
 import { getNameFromUser } from '~/lib/utils';
 import { usePricingDialogStore } from '~/providers/pricing-dialog-store-provider';
 import { useSettingsDialogStore } from '~/providers/settings-dialog-store-provider';
+import { api } from '~/trpc/react';
 
 interface UserButtonProps {
   user: User;
@@ -37,6 +39,9 @@ function UserButton({ user }: UserButtonProps) {
     (state) => state.openPricingDialog
   );
   const [open, setOpen] = useState(false);
+
+  const [{ subscription }] =
+    api.stripe.getActiveSubscriptionByUser.useSuspenseQuery();
 
   const name = getNameFromUser(user);
   const displayEmail = user?.email ?? 'email';
@@ -76,9 +81,18 @@ function UserButton({ user }: UserButtonProps) {
       >
         <DropdownMenuLabel>
           <div className="flex flex-col space-y-1">
-            <p className="truncate font-medium text-foreground text-sm leading-none">
-              {name}
-            </p>
+            <div className="flex items-center gap-2">
+              <p className="truncate font-medium text-foreground text-sm leading-none">
+                {name}
+              </p>
+              <Badge
+                variant={subscription ? 'default' : 'secondary'}
+                className="flex-shrink-0 gap-1 rounded"
+              >
+                {subscription?.price?.product?.name?.split(' ').at(-1) ||
+                  'Free'}
+              </Badge>
+            </div>
             <p className="truncate text-muted-foreground text-xs leading-none">
               {displayEmail}
             </p>

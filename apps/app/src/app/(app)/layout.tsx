@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
-import type { ReactNode } from 'react';
+import { type ReactNode, cache } from 'react';
 
-import { getActiveSubscriptionByUserId, getProducts } from '@lamp/db/queries';
+import { getProducts } from '@lamp/db/queries';
 import { env } from '@lamp/env';
 import { secure } from '@lamp/security';
 import { getUser } from '@lamp/supabase/queries';
@@ -25,6 +25,8 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
   }
 
   api.study.byUser.prefetch();
+  api.profile.byUser.prefetch();
+  api.stripe.getActiveSubscriptionByUser.prefetch();
 
   const supabase = await createClient();
   const user = await getUser(supabase);
@@ -33,11 +35,8 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
     return notFound();
   }
 
-  // Once we have the user ID, get subscription data and products
-  const [subscription, products] = await Promise.all([
-    getActiveSubscriptionByUserId(user.id),
-    getProducts(),
-  ]);
+  const productsQuery = cache(getProducts)();
+  const [products] = await Promise.all([productsQuery]);
 
   return (
     <HydrateClient>
@@ -52,13 +51,11 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
                     <SidebarInset className="h-screen">
                       {children}
                       <SettingsDialog
-                        subscription={subscription.subscription}
                         userEmail={user?.email ?? ''}
                         userId={user.id}
                       />
                       <PricingDialog
                         products={products}
-                        subscription={subscription.subscription}
                         userId={user.id}
                         userEmail={user?.email ?? ''}
                       />

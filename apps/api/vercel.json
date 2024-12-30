@@ -3,6 +3,10 @@
     {
       "path": "/cron/keep-alive",
       "schedule": "0 1 * * *"
+    },
+    {
+      "path": "/cron/reset-usage",
+      "schedule": "0 1 * * *"
     }
   ]
 }

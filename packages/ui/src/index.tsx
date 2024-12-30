@@ -16,7 +16,7 @@ export const DesignSystemProvider = ({
 }: DesignSystemProviderProperties) => (
   <ThemeProvider {...properties}>
     <AnalyticsProvider>
-      <TooltipProvider delayDuration={100} skipDelayDuration={300}>
+      <TooltipProvider delayDuration={50} skipDelayDuration={300}>
         {children}
       </TooltipProvider>
       <Toaster richColors duration={5000} />

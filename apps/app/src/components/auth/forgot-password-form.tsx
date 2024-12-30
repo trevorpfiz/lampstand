@@ -6,6 +6,7 @@ import { useAction } from 'next-safe-action/hooks';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 
+import { parseError } from '@lamp/observability/error';
 import { Button } from '@lamp/ui/components/button';
 import {
   Form,
@@ -18,9 +19,6 @@ import {
 import { Input } from '@lamp/ui/components/input';
 import type { RequestPasswordReset } from '@lamp/validators/auth';
 import { RequestPasswordResetSchema } from '@lamp/validators/auth';
-
-import { logger } from '@lamp/logger';
-import { parseError } from '@lamp/observability/error';
 import { FormError } from '~/components/auth/form-error';
 import { FormSuccess } from '~/components/auth/form-success';
 import { requestResetPassword } from '~/lib/actions/auth';
@@ -40,8 +38,7 @@ export const ForgotPasswordForm = () => {
       setSuccess(true);
     },
     onError: (error) => {
-      const message = parseError(error);
-      logger.error(message);
+      parseError(error);
     },
   });
 

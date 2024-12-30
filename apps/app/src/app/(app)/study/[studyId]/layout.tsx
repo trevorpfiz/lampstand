@@ -8,7 +8,7 @@ import {
 import { createClient } from '@lamp/supabase/server';
 
 import { getUser } from '@lamp/supabase/queries';
-import type { ReactNode } from 'react';
+import { type ReactNode, cache } from 'react';
 import { AppHeader } from '~/components/app-header';
 import { PanelsLayout } from '~/components/panels-layout';
 
@@ -28,7 +28,7 @@ export default async function StudyLayout({
     return notFound();
   }
 
-  const studyData = getStudyById({ studyId, userId: user.id });
+  const studyData = cache(getStudyById)({ studyId, userId: user.id });
   const chatsData = getChatsByStudyId({ studyId, userId: user.id });
   const notesData = getNotesByStudyId({ studyId, userId: user.id });
 

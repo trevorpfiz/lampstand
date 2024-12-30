@@ -1,13 +1,11 @@
+import { getUser } from '@lamp/supabase/queries';
 import { createClient } from '@lamp/supabase/server';
 import { Suspense } from 'react';
-
 import { UserButton } from './user-button';
 
 export async function UserButtonWrapper() {
   const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getUser(supabase);
 
   if (!user) {
     return null;

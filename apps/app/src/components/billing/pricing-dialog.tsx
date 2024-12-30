@@ -3,11 +3,7 @@
 import { usePathname, useRouter } from 'next/navigation';
 import { useState } from 'react';
 
-import type {
-  Price,
-  ProductWithDetails,
-  SubscriptionWithDetails,
-} from '@lamp/db/schema';
+import type { Price, ProductWithDetails } from '@lamp/db/schema';
 import {
   Dialog,
   DialogContentFullscreen,
@@ -23,14 +19,12 @@ import { usePricingDialogStore } from '~/providers/pricing-dialog-store-provider
 
 interface PricingDialogProps {
   products: ProductWithDetails[];
-  subscription: SubscriptionWithDetails | null | undefined;
   userId: string;
   userEmail: string;
 }
 
 export function PricingDialog({
   products,
-  subscription,
   userId,
   userEmail,
 }: PricingDialogProps) {
@@ -93,7 +87,6 @@ export function PricingDialog({
           <div className="flex flex-col items-center justify-center pt-8">
             <PricingTables
               products={products}
-              subscription={subscription}
               priceIdLoading={priceIdLoading}
               onPriceSelect={handleStripeCheckout}
             />

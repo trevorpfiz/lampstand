@@ -47,7 +47,6 @@ export const POST = async (req: Request): Promise<Response> => {
     logger.info(`🔔 Webhook received: ${event.type}`);
   } catch (error) {
     const message = parseError(error);
-    logger.error(message);
 
     return new Response(`Webhook Error: ${message}`, { status: 400 });
   }
@@ -128,10 +127,9 @@ export const POST = async (req: Request): Promise<Response> => {
       });
     } catch (error) {
       const message = parseError(error);
-      logger.error(message);
 
       return new Response(
-        'Webhook handler failed. View your Next.js function logs.',
+        `Webhook handler failed. View your Next.js function logs. ${message}`,
         { status: 400 }
       );
     }

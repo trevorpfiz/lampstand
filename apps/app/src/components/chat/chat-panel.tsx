@@ -25,6 +25,11 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
   const utils = api.useUtils();
   const modelId = useChatStore((state) => state.modelId);
 
+  // Get subscription status to determine if we need to check usage
+  const [{ subscription }] =
+    api.stripe.getActiveSubscriptionByUser.useSuspenseQuery();
+  const isFreePlan = !subscription || subscription.status !== 'active';
+
   // Fetch chats dynamically so we always have updated list
   const { data: chatsData } = api.chat.byStudy.useQuery(
     { studyId },
@@ -61,6 +66,7 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
       studyId,
       chatId: selectedChatId,
       modelId,
+      isFreePlan,
     },
     initialMessages: [],
     onFinish() {
@@ -68,6 +74,10 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
         chatId: selectedChatId ?? '',
       });
       utils.chat.byStudy.invalidate({ studyId });
+      // Invalidate usage data if on free plan
+      if (isFreePlan) {
+        utils.profile.byUser.invalidate();
+      }
     },
   });
 

@@ -6,18 +6,10 @@ import * as React from 'react';
 
 import { Button } from '@lamp/ui/components/button';
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@lamp/ui/components/card';
-import {
   Sidebar,
   SidebarContent,
   SidebarFooter,
   SidebarHeader,
-  SidebarInput,
   SidebarMenu,
   SidebarMenuItem,
   SidebarRail,
@@ -36,11 +28,10 @@ import {
   NavStudies,
   NavStudiesSkeleton,
 } from '~/components/sidebar/nav-studies';
+import LogoFull from '~/public/lampstand-logo-full.svg';
 import { api } from '~/trpc/react';
 
-import LogoFull from '~/public/lampstand-logo-full.svg';
-
-export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+export function AppSidebar(props: React.ComponentProps<typeof Sidebar>) {
   const utils = api.useUtils();
 
   const createMutation = api.study.create.useMutation({
@@ -103,29 +94,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         </React.Suspense>
       </SidebarContent>
       <SidebarFooter>
-        <div className="p-1">
-          <Card className="shadow-none">
-            <form>
-              <CardHeader className="p-4 pb-0">
-                <CardTitle className="text-sm">
-                  Subscribe to our newsletter
-                </CardTitle>
-                <CardDescription>
-                  Opt-in to receive updates and news about the sidebar.
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="grid gap-2.5 p-4">
-                <SidebarInput type="email" placeholder="Email" />
-                <Button
-                  className="w-full bg-sidebar-primary text-sidebar-primary-foreground shadow-none"
-                  size="sm"
-                >
-                  Subscribe
-                </Button>
-              </CardContent>
-            </form>
-          </Card>
-        </div>
         <NavFooter />
       </SidebarFooter>
       <SidebarRail />

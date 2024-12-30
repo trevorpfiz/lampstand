@@ -23,6 +23,8 @@ export const Profile = createTable(
     email: t.varchar({ length: 256 }),
     billingAddress: t.jsonb(),
     paymentMethod: t.jsonb(),
+    llmUsage: t.integer().notNull().default(0),
+    premiumLlmUsage: t.integer().notNull().default(0),
   }),
   (table) => [
     index('profile_name_idx').on(table.name),

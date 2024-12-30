@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { cache } from 'react';
 import Balancer from 'react-wrap-balancer';
 
 import { getProducts } from '@lamp/db/queries';
@@ -18,7 +19,8 @@ const meta = {
 export const metadata: Metadata = createMetadata(meta);
 
 export default async function Pricing() {
-  const [products] = await Promise.all([getProducts()]);
+  const productsData = cache(getProducts)();
+  const [products] = await Promise.all([productsData]);
 
   return (
     <>

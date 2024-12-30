@@ -4,8 +4,6 @@ import { and, eq } from 'drizzle-orm';
 import type { Stripe } from 'stripe';
 
 import { stripe } from '@lamp/payments';
-
-import { cache } from 'react';
 import { db } from '../client';
 import { Customer, type NewCustomer } from '../schema/customer';
 import { type NewPrice, Price } from '../schema/price';
@@ -18,7 +16,7 @@ import { type NewSubscription, Subscription } from '../schema/subscription';
 const TRIAL_PERIOD_DAYS = 0;
 
 // Product operations
-export const getProducts = cache(async () => {
+export const getProducts = async () => {
   const products = await db.query.Product.findMany({
     with: {
       prices: true,
@@ -26,7 +24,7 @@ export const getProducts = cache(async () => {
   });
 
   return products;
-});
+};
 
 export async function upsertProduct(product: Stripe.Product) {
   const productData: NewProduct = {

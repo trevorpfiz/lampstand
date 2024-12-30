@@ -21,6 +21,7 @@ import {
   TooltipTrigger,
 } from '@lamp/ui/components/tooltip';
 import { cn } from '@lamp/ui/lib/utils';
+import { useTheme } from '@lamp/ui/providers/theme';
 
 interface PricingPlan {
   name: 'Free' | 'Pro' | 'Premium';
@@ -99,6 +100,7 @@ export default function PricingTables(props: {
 }) {
   const { products } = props;
 
+  const { resolvedTheme } = useTheme();
   const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'yearly'>(
     'monthly'
   );
@@ -282,9 +284,15 @@ export default function PricingTables(props: {
 
                       <Tooltip>
                         <TooltipTrigger>
-                          <Info className="h-4 w-4 text-muted-foreground" />
+                          <Info className="h-4 w-4 text-muted-foreground opacity-60" />
                         </TooltipTrigger>
-                        <TooltipContent>
+                        <TooltipContent
+                          showArrow={true}
+                          className={cn(
+                            '',
+                            resolvedTheme === 'light' && 'dark'
+                          )}
+                        >
                           <p className="text-sm">{feature.tooltip}</p>
                         </TooltipContent>
                       </Tooltip>
