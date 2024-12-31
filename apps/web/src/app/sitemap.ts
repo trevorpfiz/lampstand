@@ -4,7 +4,7 @@ import type { MetadataRoute } from 'next';
 import { blog, legal } from '@lamp/cms';
 import { env } from '@lamp/env';
 
-const appFolders = fs.readdirSync('app', { withFileTypes: true });
+const appFolders = fs.readdirSync('src/app', { withFileTypes: true });
 const pages = appFolders
   .filter((file) => file.isDirectory())
   .filter((folder) => !folder.name.startsWith('_'))

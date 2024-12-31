@@ -7,7 +7,6 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from '@lamp/ui/components/sidebar';
-
 import { FeedbackForm } from './feedback-form';
 import { UsageStats } from './usage-stats';
 
@@ -23,7 +22,7 @@ export function NavFooter() {
         </SidebarMenuItem>
         <SidebarMenuItem>
           <SidebarMenuButton asChild>
-            <a href="mailto:trevor@getlampstand.com">
+            <a href={`mailto:${NEXT_PUBLIC_EMAIL}`}>
               <HelpCircle size={16} strokeWidth={2} />
               <span>Support</span>
             </a>

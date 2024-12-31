@@ -10,10 +10,10 @@ type MetadataGenerator = Omit<Metadata, 'description' | 'title'> & {
 const applicationName = 'Lampstand';
 const author: Metadata['authors'] = {
   name: 'Lampstand',
-  url: 'https://getlampstand.com',
+  url: 'https://lampstand.ai',
 };
 const publisher = 'Lampstand';
-const twitterHandle = '@getlampstand';
+const twitterHandle = '@lampstand_ai';
 
 export const createMetadata = ({
   title,

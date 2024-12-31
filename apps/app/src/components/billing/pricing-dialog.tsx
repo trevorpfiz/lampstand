@@ -4,6 +4,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useState } from 'react';
 
 import type { Price, ProductWithDetails } from '@lamp/db/schema';
+import { getErrorRedirect } from '@lamp/payments/utils';
 import {
   Dialog,
   DialogContentFullscreen,
@@ -11,8 +12,6 @@ import {
   DialogHeader,
   DialogTitle,
 } from '@lamp/ui/components/dialog';
-
-import { getErrorRedirect } from '@lamp/payments/utils';
 import PricingTables from '~/components/billing/pricing-tables';
 import { checkoutWithStripe } from '~/lib/actions/stripe';
 import { usePricingDialogStore } from '~/providers/pricing-dialog-store-provider';
@@ -100,7 +99,7 @@ export function PricingDialog({
                 <div>
                   <a
                     className="underline"
-                    href="mailto:trevor@getlampstand.com"
+                    href={`mailto:${NEXT_PUBLIC_EMAIL}`}
                     rel="noreferrer"
                     target="_blank"
                   >

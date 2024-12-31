@@ -16,14 +16,22 @@ const footerItems = [
   },
   {
     title: 'Company',
-    links: [{ label: 'Support', href: 'mailto:trevor@getlampstand.com' }],
+    links: [
+      {
+        label: 'Support',
+        href: `mailto:${NEXT_PUBLIC_EMAIL}`,
+      },
+    ],
   },
   {
     title: 'Socials',
     links: [
-      { label: 'X (Twitter)', href: 'mailto:trevor@getlampstand.com' },
-      { label: 'Instagram', href: 'mailto:trevor@getlampstand.com' },
-      { label: 'LinkedIn', href: 'mailto:trevor@getlampstand.com' },
+      { label: 'X (Twitter)', href: 'https://x.com/lampstand_ai' },
+      { label: 'Instagram', href: 'https://www.instagram.com/lampstand_ai' },
+      {
+        label: 'LinkedIn',
+        href: 'https://www.linkedin.com/company/lampstand-ai/',
+      },
     ],
   },
   {
@@ -38,11 +46,11 @@ const footerItems = [
 const socialIcons = [
   {
     icon: <Instagram size={20} strokeWidth={1.5} />,
-    href: 'https://instagram.com/lampstand',
+    href: 'https://www.instagram.com/lampstand_ai',
   },
   {
     icon: <MdEmail size={20} />,
-    href: 'mailto:trevor@getlampstand.com',
+    href: `mailto:${NEXT_PUBLIC_EMAIL}`,
   },
 ];
 
