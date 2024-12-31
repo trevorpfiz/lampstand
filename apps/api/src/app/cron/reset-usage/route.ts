@@ -2,7 +2,7 @@ import { db } from '@lamp/db/client';
 import { Profile } from '@lamp/db/schema';
 import { parseError } from '@lamp/observability/error';
 
-export async function resetLlmUsageDaily() {
+export const POST = async () => {
   // Set both usage fields back to zero for all users
   try {
     await db.update(Profile).set({
@@ -16,4 +16,4 @@ export async function resetLlmUsageDaily() {
   }
 
   return new Response('OK', { status: 200 });
-}
+};
