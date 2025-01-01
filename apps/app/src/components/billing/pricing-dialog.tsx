@@ -4,6 +4,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useState } from 'react';
 
 import type { Price, ProductWithDetails } from '@lamp/db/schema';
+import { env } from '@lamp/env';
 import { getErrorRedirect } from '@lamp/payments/utils';
 import {
   Dialog,
@@ -99,7 +100,7 @@ export function PricingDialog({
                 <div>
                   <a
                     className="underline"
-                    href={`mailto:${NEXT_PUBLIC_EMAIL}`}
+                    href={`mailto:${env.NEXT_PUBLIC_EMAIL}`}
                     rel="noreferrer"
                     target="_blank"
                   >

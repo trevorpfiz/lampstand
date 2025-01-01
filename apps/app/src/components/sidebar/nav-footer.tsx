@@ -2,6 +2,7 @@
 
 import { HelpCircle } from 'lucide-react';
 
+import { env } from '@lamp/env';
 import {
   SidebarMenu,
   SidebarMenuButton,
@@ -22,7 +23,7 @@ export function NavFooter() {
         </SidebarMenuItem>
         <SidebarMenuItem>
           <SidebarMenuButton asChild>
-            <a href={`mailto:${NEXT_PUBLIC_EMAIL}`}>
+            <a href={`mailto:${env.NEXT_PUBLIC_EMAIL}`}>
               <HelpCircle size={16} strokeWidth={2} />
               <span>Support</span>
             </a>

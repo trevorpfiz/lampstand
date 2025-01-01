@@ -1,3 +1,4 @@
+import { env } from '@lamp/env';
 import { Instagram } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -19,7 +20,7 @@ const footerItems = [
     links: [
       {
         label: 'Support',
-        href: `mailto:${NEXT_PUBLIC_EMAIL}`,
+        href: `mailto:${env.NEXT_PUBLIC_EMAIL}`,
       },
     ],
   },
@@ -50,7 +51,7 @@ const socialIcons = [
   },
   {
     icon: <MdEmail size={20} />,
-    href: `mailto:${NEXT_PUBLIC_EMAIL}`,
+    href: `mailto:${env.NEXT_PUBLIC_EMAIL}`,
   },
 ];
 

@@ -45,7 +45,7 @@ export default async function AuthLayout({
           <ul className="flex gap-2">
             <li className="flex items-center gap-2 after:size-0.5 after:rounded-full after:bg-muted-foreground last:after:hidden">
               <a
-                href={`mailto:${NEXT_PUBLIC_EMAIL}`}
+                href={`mailto:${env.NEXT_PUBLIC_EMAIL}`}
                 className="after:-inset-x-1 after:-inset-y-0.5 relative rounded-sm text-muted-foreground text-sm after:absolute after:rounded-sm after:border-2 after:border-primary after:opacity-0 hover:text-foreground focus-visible:after:opacity-100"
               >
                 Support
@@ -53,7 +53,7 @@ export default async function AuthLayout({
             </li>
             <li className="flex items-center gap-2 after:size-0.5 after:rounded-full after:bg-muted-foreground last:after:hidden">
               <Link
-                href="/privacy"
+                href={`${webUrl}/privacy`}
                 className="after:-inset-x-1 after:-inset-y-0.5 relative rounded-sm text-muted-foreground text-sm after:absolute after:rounded-sm after:border-2 after:border-primary after:opacity-0 hover:text-foreground focus-visible:after:opacity-100"
               >
                 Privacy
@@ -61,7 +61,7 @@ export default async function AuthLayout({
             </li>
             <li className="flex items-center gap-2">
               <Link
-                href="/terms"
+                href={`${webUrl}/terms`}
                 className="after:-inset-x-1 after:-inset-y-0.5 relative rounded-sm text-muted-foreground text-sm after:absolute after:rounded-sm after:border-2 after:border-primary after:opacity-0 hover:text-foreground focus-visible:after:opacity-100"
               >
                 Terms

@@ -1,5 +1,6 @@
 import { ArrowUpRight } from 'lucide-react';
 
+import { env } from '@lamp/env';
 import {
   Accordion,
   AccordionContent,
@@ -74,7 +75,7 @@ const FAQ = () => {
             </p>
             <div className="flex flex-row items-center gap-0.5">
               <Link
-                href={`mailto:${NEXT_PUBLIC_EMAIL}`}
+                href={`mailto:${env.NEXT_PUBLIC_EMAIL}`}
                 className="hover:!text-foreground text-muted-foreground"
               >
                 Contact us

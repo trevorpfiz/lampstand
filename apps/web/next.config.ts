@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === 'production') {
   const redirects: NextConfig['redirects'] = async () => [
     {
       source: '/legal',
-      destination: '/legal/privacy',
+      destination: '/privacy',
       statusCode: 301,
     },
   ];
