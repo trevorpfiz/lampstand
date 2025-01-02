@@ -889,9 +889,6 @@ importers:
         specifier: ^17.5.0
         version: 17.5.0
     devDependencies:
-      '@lamp/db':
-        specifier: workspace:*
-        version: link:../db
       '@lamp/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/typescript

@@ -1,5 +1,3 @@
-import type { Price } from '@lamp/db/schema';
-
 export type BillingInterval = 'year' | 'month' | 'week' | 'day';
 
 export interface PricingPlan {
@@ -15,7 +13,8 @@ export interface PricingPlan {
   }>;
   popular?: boolean;
   isCurrentPlan?: boolean;
-  currentPrice?: Price;
+  // biome-ignore lint/suspicious/noExplicitAny: resolve cyclic dependency to use Price type
+  currentPrice?: any;
   isFree?: boolean;
   isIncluded?: boolean;
 }

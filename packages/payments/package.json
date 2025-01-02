@@ -31,7 +31,6 @@
     "stripe": "^17.5.0"
   },
   "devDependencies": {
-    "@lamp/db": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
     "typescript": "catalog:"
   }
