@@ -41,7 +41,7 @@ export const Hero = () => {
               </h1>
               <p className="max-w-2xl text-center text-lg text-muted-foreground leading-relaxed tracking-tight md:text-xl">
                 <Balancer>
-                  Quickly find verses, simplify complex topics, write with AI
+                  Quickly find verses, simplify complex topics, write with AI,
                   and keep everything organized.
                 </Balancer>
               </p>

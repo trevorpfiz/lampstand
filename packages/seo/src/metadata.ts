@@ -5,6 +5,7 @@ type MetadataGenerator = Omit<Metadata, 'description' | 'title'> & {
   title: string;
   description: string;
   image?: string;
+  applicationFirst?: boolean;
 };
 
 const applicationName = 'Lampstand';
@@ -19,9 +20,12 @@ export const createMetadata = ({
   title,
   description,
   image,
+  applicationFirst = false,
   ...properties
 }: MetadataGenerator): Metadata => {
-  const parsedTitle = `${title} | ${applicationName}`;
+  const parsedTitle = applicationFirst
+    ? `${applicationName} | ${title}`
+    : `${title} | ${applicationName}`;
   const defaultMetadata: Metadata = {
     title: parsedTitle,
     description,

@@ -12,8 +12,8 @@ import { updateSession } from '@lamp/supabase/middleware';
 // Clerk matcher: https://clerk.com/docs/references/nextjs/auth-middleware
 export const config = {
   matcher: [
-    // Skip Next.js internals and all static files, unless found in search params. Also skip Sentry tunnel route and Posthog ingest.
-    '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)|monitoring|ingest).*)',
+    // Skip Next.js internals and all static files, unless found in search params. Also skip Sentry tunnel route, Posthog ingest, and Arcjet healthz route.
+    '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)|monitoring|ingest|healthz).*)',
     // Always run for API routes
     '/(api|trpc)(.*)',
   ],

@@ -69,7 +69,7 @@
     "react-textarea-autosize": "^8.5.6",
     "recharts": "^2.15.0",
     "sonner": "^1.7.1",
-    "tailwind-merge": "^2.5.5",
+    "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "catalog:tailwind",
     "vaul": "^1.1.2"
   },

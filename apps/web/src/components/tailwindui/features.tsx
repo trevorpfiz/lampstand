@@ -1,5 +1,10 @@
 import { Container, Section } from '~/components/craft';
 
+// 1. Bible viewer
+// 2. Immediately navigate to verses
+// 3. Take notes
+// 4. Chat with AI
+
 function Features() {
   return (
     <Section>

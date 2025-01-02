@@ -13,7 +13,7 @@ import PricingTables from '~/components/pricing-tables';
 
 const meta = {
   title: 'Pricing',
-  description: 'Pricing for Lampstand',
+  description: 'Pricing for Lampstand.',
 };
 
 export const metadata: Metadata = createMetadata(meta);

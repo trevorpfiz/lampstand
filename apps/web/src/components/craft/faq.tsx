@@ -12,38 +12,53 @@ import { Container, Section } from '~/components/craft';
 
 type FAQItem = {
   question: string;
-  answer: string;
+  answer: string[];
   link?: string;
 };
 
 const content: FAQItem[] = [
   {
-    question: 'Lorem ipsum dolor sit amet?',
-    answer:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    link: 'https://google.com',
+    question: 'What is Lampstand?',
+    answer: ['Lampstand is an AI-powered Bible study platform that helps '],
   },
   {
-    question: 'Ut enim ad minim veniam?',
-    answer:
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    question: 'Is there a free trial?',
+    answer: [
+      `While we don't offer a free trial, we provide a 7-day grace period from the date of your first payment. If you're unsatisfied, you can request a full refund within this period.`,
+    ],
   },
   {
-    question: 'Duis aute irure dolor in reprehenderit?',
-    answer:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    question: 'Why the BSB?',
+    answer: [
+      'The Berean Standard Bible (BSB) is a completely new English translation of the Holy Bible based on the best available manuscripts and sources.',
+      'What sets it apart is its open license, which allows use without restrictions. Its combination of quality and accessibility makes it an ideal foundation for Lampstand.',
+    ],
+    link: 'https://berean.bible/licensing.htm',
   },
   {
-    question: 'Excepteur sint occaecat cupidatat non proident?',
-    answer:
-      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    question: 'Can I use other versions of the Bible?',
+    answer: [
+      'Currently, we only support the BSB, with the KJV coming soon. However, we are actively working on licensing agreements for other popular translations, such as the NIV, ESV, NKJV, NASB, and more.',
+    ],
+  },
+  {
+    question: 'What is your refund policy?',
+    answer: [
+      'We offer a 7-day grace period from the date of your first payment. To request a refund, send us a message at support@lampstand.com.',
+    ],
+  },
+  {
+    question: 'Is Lampstand available in other languages than English?',
+    answer: [
+      'Our interface is in English, but the AI can understand and respond in over 90 languages. Feel free to ask questions in your preferred language.',
+    ],
   },
 ];
 
 const FAQ = () => {
   return (
     <Section id="faq">
-      <Container className="craft flex flex-col items-center gap-4 md:gap-8">
+      <Container className="flex flex-col items-center gap-4 md:gap-8">
         <h3 className="!mt-0 !text-4xl !font-semibold">Questions?</h3>
 
         <div className="flex w-full flex-col gap-8">
@@ -51,18 +66,30 @@ const FAQ = () => {
             {content.map((item, index) => (
               <Accordion key={index} type="single" collapsible>
                 <AccordionItem value={item.question}>
-                  <AccordionTrigger className="text-left">
+                  <AccordionTrigger className="text-left font-medium">
                     {item.question}
                   </AccordionTrigger>
-                  <AccordionContent className="text-base md:w-3/4">
-                    {item.answer}
+                  <AccordionContent className="text-base text-muted-foreground md:w-3/4">
+                    {item.answer.map((paragraph, i) => (
+                      <p key={i} className={i > 0 ? 'mt-4' : ''}>
+                        {paragraph}
+                      </p>
+                    ))}
                     {item.link && (
-                      <a
+                      <Link
                         href={item.link}
-                        className="mt-2 flex w-full items-center opacity-60 transition-all hover:opacity-100"
+                        className="mt-2 flex w-full items-center text-foreground underline underline-offset-2 opacity-60 transition-all hover:opacity-100"
+                        target={
+                          item.link.includes('http') ? '_blank' : undefined
+                        }
+                        rel={
+                          item.link.includes('http')
+                            ? 'noopener noreferrer'
+                            : undefined
+                        }
                       >
                         Learn more <ArrowUpRight className="ml-1" size="16" />
-                      </a>
+                      </Link>
                     )}
                   </AccordionContent>
                 </AccordionItem>
@@ -76,7 +103,7 @@ const FAQ = () => {
             <div className="flex flex-row items-center gap-0.5">
               <Link
                 href={`mailto:${env.NEXT_PUBLIC_EMAIL}`}
-                className="hover:!text-foreground text-muted-foreground"
+                className="underline underline-offset-2 opacity-60 transition-all hover:opacity-100"
               >
                 Contact us
               </Link>

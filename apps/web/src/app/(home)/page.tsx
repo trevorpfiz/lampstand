@@ -15,6 +15,7 @@ const meta = {
   title: 'Bible study for the next generation',
   description:
     'Lampstand is a Bible study app for the next generation. It helps you study the Bible faster and easier.',
+  applicationFirst: true,
 };
 
 export const metadata: Metadata = createMetadata(meta);

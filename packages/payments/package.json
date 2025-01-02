@@ -15,6 +15,10 @@
     "./utils": {
       "types": "./dist/utils.d.ts",
       "default": "./src/utils.ts"
+    },
+    "./constants": {
+      "types": "./dist/constants.d.ts",
+      "default": "./src/constants.ts"
     }
   },
   "scripts": {
@@ -27,6 +31,7 @@
     "stripe": "^17.5.0"
   },
   "devDependencies": {
+    "@lamp/db": "workspace:*",
     "@lamp/tsconfig": "workspace:*",
     "typescript": "catalog:"
   }

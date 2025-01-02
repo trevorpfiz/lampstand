@@ -4,6 +4,7 @@ import { Check, Info, Sparkles } from 'lucide-react';
 import { useState } from 'react';
 
 import type { Price, ProductWithDetails } from '@lamp/db/schema';
+import { type BillingInterval, mockPlans } from '@lamp/payments/constants';
 import { Badge } from '@lamp/ui/components/badge';
 import { Button } from '@lamp/ui/components/button';
 import {
@@ -21,86 +22,14 @@ import {
 } from '@lamp/ui/components/tooltip';
 import { cn } from '@lamp/ui/lib/utils';
 import { useTheme } from '@lamp/ui/providers/theme';
+
 import { api } from '~/trpc/react';
-
-type BillingInterval = 'year' | 'month' | 'week' | 'day';
-
-interface PricingPlan {
-  name: string;
-  description: string;
-  monthlyPrice: number;
-  yearlyPrice: number;
-  buttonText: string;
-  order: number;
-  features: Array<{
-    name: string;
-    tooltip: string;
-  }>;
-  popular?: boolean;
-  isCurrentPlan?: boolean;
-  currentPrice?: Price;
-  isFree?: boolean;
-  isIncluded?: boolean;
-}
 
 interface PricingTablesProps {
   products: ProductWithDetails[];
   priceIdLoading?: string;
   onPriceSelect: (price: Price) => void;
 }
-
-// Mock plans as fallback
-const mockPlans: PricingPlan[] = [
-  {
-    name: 'Free',
-    description: 'Great for just getting started with Bible study',
-    monthlyPrice: 0,
-    yearlyPrice: 0,
-    buttonText: 'Start for Free',
-    order: 1,
-    features: [
-      {
-        name: 'Up to 5 team members',
-        tooltip: 'Add up to 5 team members to your workspace',
-      },
-      {
-        name: '10GB storage space',
-        tooltip: '10GB of secure storage for your files',
-      },
-      {
-        name: 'Basic analytics',
-        tooltip: 'Access to basic usage analytics',
-      },
-    ],
-  },
-  {
-    name: 'Pro',
-    description: 'Perfect for small group leaders and in-depth study',
-    monthlyPrice: 20,
-    yearlyPrice: 192,
-    buttonText: 'Get Started',
-    order: 2,
-    popular: true,
-    features: [
-      {
-        name: 'Up to 20 team members',
-        tooltip: 'Add up to 20 team members to your workspace',
-      },
-      {
-        name: '50GB storage space',
-        tooltip: '50GB of secure storage for your files',
-      },
-      {
-        name: 'Advanced analytics',
-        tooltip: 'Access to advanced analytics and reporting',
-      },
-      {
-        name: 'Priority support',
-        tooltip: 'Get priority access to our support team',
-      },
-    ],
-  },
-];
 
 export default function PricingTables({
   products,
@@ -152,18 +81,21 @@ export default function PricingTables({
             // Get features based on plan name
             const defaultFeatures = mockPlans[0]?.features || [];
 
-            const getFeatures = (productName: string) => {
+            const getMatchingMockPlan = (productName: string) => {
               if (!productName) {
-                return defaultFeatures;
+                return mockPlans[0];
               }
 
               const planName = productName.toLowerCase();
-              const matchingPlan = mockPlans.find((plan) =>
+              return mockPlans.find((plan) =>
                 planName.includes(plan.name.toLowerCase())
               );
-
-              return matchingPlan?.features || defaultFeatures;
             };
+
+            const matchingMockPlan = getMatchingMockPlan(product.name || '');
+
+            // Get features from mock plan
+            const features = matchingMockPlan?.features || defaultFeatures;
 
             // Get sort order from metadata or default to 99
             const order =
@@ -215,7 +147,8 @@ export default function PricingTables({
 
             return {
               name: (product.name || '').split(' ').at(-1) || '',
-              description: product.description || '',
+              description:
+                product.description || matchingMockPlan?.description || '',
               monthlyPrice: monthlyPrice
                 ? (monthlyPrice.unitAmount || 0) / 100
                 : 0,
@@ -225,7 +158,7 @@ export default function PricingTables({
               buttonText: isCurrentPlan
                 ? 'Your current plan'
                 : `Get ${(product.name || '').split(' ').at(-1)}`,
-              features: getFeatures(product.name || ''),
+              features,
               popular:
                 product.metadata && typeof product.metadata === 'object'
                   ? (product.metadata as { popular?: string })?.popular ===
@@ -286,12 +219,12 @@ export default function PricingTables({
 
       <div
         className={cn(
-          'grid gap-8',
+          'mx-auto grid max-w-5xl gap-8',
           plans.length === 2 ? 'md:grid-cols-2' : 'md:grid-cols-3'
         )}
       >
         {plans.map((plan) => (
-          <Card key={plan.name} className="flex flex-col">
+          <Card key={plan.name} className="flex max-w-80 flex-col">
             <CardHeader className="gap-2">
               <div className="flex items-center justify-between">
                 <CardTitle className="text-xl">{plan.name}</CardTitle>
@@ -357,7 +290,7 @@ export default function PricingTables({
                   {plan.features.map((feature) => (
                     <li
                       key={feature.name}
-                      className="flex items-center justify-between"
+                      className="flex items-center justify-between gap-4"
                     >
                       <div className="flex items-center gap-2">
                         <Check
@@ -369,20 +302,22 @@ export default function PricingTables({
                         <span className="text-sm">{feature.name}</span>
                       </div>
 
-                      <Tooltip>
-                        <TooltipTrigger>
-                          <Info className="h-4 w-4 text-muted-foreground opacity-60" />
-                        </TooltipTrigger>
-                        <TooltipContent
-                          showArrow={true}
-                          className={cn(
-                            '',
-                            resolvedTheme === 'light' && 'dark'
-                          )}
-                        >
-                          <p className="text-sm">{feature.tooltip}</p>
-                        </TooltipContent>
-                      </Tooltip>
+                      {feature.tooltip && (
+                        <Tooltip>
+                          <TooltipTrigger>
+                            <Info className="h-4 w-4 text-muted-foreground opacity-60" />
+                          </TooltipTrigger>
+                          <TooltipContent
+                            showArrow={true}
+                            className={cn(
+                              '',
+                              resolvedTheme === 'light' && 'dark'
+                            )}
+                          >
+                            <p className="text-sm">{feature.tooltip}</p>
+                          </TooltipContent>
+                        </Tooltip>
+                      )}
                     </li>
                   ))}
                 </ul>

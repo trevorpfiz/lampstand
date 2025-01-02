@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "pnpm with-env next dev -p 3001 --turbopack",
     "build": "pnpm with-env next build",
-    "start": "pnpm with-env next start",
+    "start": "pnpm with-env next start -p 3001",
     "analyze": "ANALYZE=true pnpm build",
     "clean": "git clean -xdf .cache .turbo dist node_modules",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false",
@@ -24,6 +24,7 @@
     "@lamp/feature-flags": "workspace:*",
     "@lamp/next-config": "workspace:*",
     "@lamp/observability": "workspace:*",
+    "@lamp/payments": "workspace:*",
     "@lamp/rate-limit": "workspace:*",
     "@lamp/security": "workspace:*",
     "@lamp/seo": "workspace:*",
