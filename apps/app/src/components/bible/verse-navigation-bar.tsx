@@ -2,26 +2,22 @@
 
 import { BibleSelect } from '~/components/bible/bible-select';
 import { ReferenceSelect } from '~/components/bible/reference-select';
+import type { ReferenceData } from '~/utils/bible/reference';
 
 interface VerseNavigationBarProps {
-  getChapterIndex: (book: string, chapter: number) => number;
-  scrollToChapterAndVerse: (chapterIndex: number, verseId?: string) => void;
+  scrollToReference: (reference: ReferenceData) => void;
 }
 
 export function VerseNavigationBar({
-  scrollToChapterAndVerse,
-  getChapterIndex,
+  scrollToReference,
 }: VerseNavigationBarProps) {
   return (
     <div className="flex items-center gap-2 border-gray-200 border-b p-2">
       <div className="w-16">
         <BibleSelect />
       </div>
-      <div className="w-full max-w-44">
-        <ReferenceSelect
-          getChapterIndex={getChapterIndex}
-          scrollToChapterAndVerse={scrollToChapterAndVerse}
-        />
+      <div className="min-w-44 flex-shrink">
+        <ReferenceSelect scrollToReference={scrollToReference} />
       </div>
     </div>
   );

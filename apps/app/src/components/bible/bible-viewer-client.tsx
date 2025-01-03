@@ -1,15 +1,21 @@
-"use client";
+'use client';
 
-import { useVirtualizer } from "@tanstack/react-virtual";
-import { useCallback, useEffect, useLayoutEffect, useRef } from "react";
+import { useVirtualizer } from '@tanstack/react-virtual';
+import { useCallback, useEffect, useLayoutEffect, useRef } from 'react';
 
-import { VerseNavigationBar } from "~/components/bible/verse-navigation-bar";
-import { useVerseTracking } from "~/hooks/use-verse-tracking";
-import { useBibleStore } from "~/providers/bible-store-provider";
-import { useLayoutStore } from "~/providers/layout-store-provider";
-import type { IRChapter } from "~/utils/bible/formatting-assembly";
-import { renderChapter } from "~/utils/bible/formatting-assembly";
-import { verseId } from "~/utils/bible/verse";
+import { VerseNavigationBar } from '~/components/bible/verse-navigation-bar';
+import { useVerseTracking } from '~/hooks/use-verse-tracking';
+import { useBibleStore } from '~/providers/bible-store-provider';
+import { useLayoutStore } from '~/providers/layout-store-provider';
+import type { IRChapter } from '~/types/bible';
+import { renderChapter } from '~/utils/bible/formatting-assembly';
+import {
+  type ReferenceData,
+  formatReference,
+  formatReferenceForCopy,
+  makeReferenceId,
+  parseReferenceId,
+} from '~/utils/bible/reference';
 
 interface BibleViewerClientProps {
   chapters: IRChapter[];
@@ -17,7 +23,7 @@ interface BibleViewerClientProps {
 
 function BibleViewerClient({ chapters }: BibleViewerClientProps) {
   const parentRef = useRef<HTMLDivElement>(null);
-  const currentVerse = useBibleStore((state) => state.currentVerse);
+  const currentReference = useBibleStore((state) => state.currentReference);
 
   const isHydrated = useLayoutStore((state) => state.isHydrated);
   const initialScrollDone = useLayoutStore((state) => state.initialScrollDone);
@@ -35,21 +41,54 @@ function BibleViewerClient({ chapters }: BibleViewerClientProps) {
 
   useVerseTracking({ containerRef: parentRef });
 
-  const scrollToChapterAndVerse = useCallback(
-    (chapterIndex: number, verse?: string, initial?: boolean) => {
-      virtualizer.scrollToIndex(chapterIndex, { align: "start" });
+  /**
+   * Scroll to a given reference.
+   * Steps:
+   *  1) Find the chapter index by matching (ch.bookName & ch.number) to ref.book & ref.chapter
+   *  2) virtualizer.scrollToIndex(chapterIndex)
+   *  3) after load, if ref.verse => querySelector(`[data-reference="${makeReferenceId(ref)}"]`) and scroll smoothly
+   */
+  const scrollToReference = useCallback(
+    (ref: ReferenceData, initial?: boolean) => {
+      console.log('scrollToReference', ref, initial);
+      // We must have a chapter to do anything. If no chapter, maybe scroll to the first?
+      if (!ref.chapter) {
+        // If no chapter, maybe we do nothing or just scroll to index 0.
+        if (initial) {
+          setInitialScrollDone(true);
+        }
+        return;
+      }
 
+      // find the chapter index by comparing book codes directly
+      const chapterIndex = chapters.findIndex((ch) => {
+        const matches = ch.bookName === ref.book && ch.number === ref.chapter;
+        return matches;
+      });
+      if (chapterIndex < 0) {
+        // Not found
+        if (initial) {
+          setInitialScrollDone(true);
+        }
+        return;
+      }
+
+      // First, ensure the virtualizer loads that chapter at the top:
+      virtualizer.scrollToIndex(chapterIndex, { align: 'start' });
+
+      // Then, if there's a verse, scroll inside the chapter
       setTimeout(() => {
-        if (verse && parentRef.current) {
+        if (ref.verse && parentRef.current) {
+          const refId = makeReferenceId(ref); // e.g. "GEN-1-1"
           const el = parentRef.current.querySelector(
-            `[data-verse-id='${verse}']`
+            `[data-reference="${refId}"]`
           );
           if (el instanceof HTMLElement) {
             const parentRect = parentRef.current.getBoundingClientRect();
             const elRect = el.getBoundingClientRect();
             const offset =
               elRect.top - parentRect.top + parentRef.current.scrollTop;
-            parentRef.current.scrollTo({ top: offset, behavior: "smooth" });
+            parentRef.current.scrollTo({ top: offset, behavior: 'smooth' });
           }
         }
       }, 200);
@@ -58,7 +97,7 @@ function BibleViewerClient({ chapters }: BibleViewerClientProps) {
         setInitialScrollDone(true);
       }
     },
-    [setInitialScrollDone, virtualizer]
+    [chapters, setInitialScrollDone, virtualizer]
   );
 
   // Perform initial scroll after hydration and only if not done already
@@ -67,27 +106,9 @@ function BibleViewerClient({ chapters }: BibleViewerClientProps) {
       return;
     }
     requestAnimationFrame(() => {
-      const chapterIndex = chapters.findIndex(
-        (ch) =>
-          ch.bookName.toLowerCase() === currentVerse.book.toLowerCase() &&
-          ch.number === currentVerse.chapter
-      );
-
-      if (chapterIndex !== -1) {
-        const verse = verseId(currentVerse);
-        scrollToChapterAndVerse(chapterIndex, verse, true);
-      } else {
-        setInitialScrollDone(true);
-      }
+      scrollToReference(currentReference, true);
     });
-  }, [
-    chapters,
-    currentVerse,
-    initialScrollDone,
-    isHydrated,
-    scrollToChapterAndVerse,
-    setInitialScrollDone,
-  ]);
+  }, [currentReference, initialScrollDone, isHydrated, scrollToReference]);
 
   useEffect(() => {
     const handleCopy = (e: ClipboardEvent) => {
@@ -99,7 +120,7 @@ function BibleViewerClient({ chapters }: BibleViewerClientProps) {
       const range = selection.getRangeAt(0);
 
       const verseEls = Array.from(
-        parentRef.current?.querySelectorAll("[data-verse-id]") ?? []
+        parentRef.current?.querySelectorAll('[data-ref-type="verse"]') ?? []
       );
 
       const selectedVerseEls = verseEls.filter((el) =>
@@ -120,109 +141,103 @@ function BibleViewerClient({ chapters }: BibleViewerClientProps) {
         if (isPartial) {
           const partialFragment = range.cloneContents();
           for (const fn of Array.from(
-            partialFragment.querySelectorAll("sup")
+            partialFragment.querySelectorAll('sup')
           )) {
             fn.remove();
           }
 
-          const partialText = partialFragment.textContent?.trim() ?? "";
-          const verseId = verseEl?.getAttribute("data-verse-id") ?? "";
-          const [bookRaw = "Genesis", chapterStr, verseNum] = verseId.split(
-            "-",
-            3
-          );
-          const bookName =
-            bookRaw.charAt(0).toUpperCase() + bookRaw.slice(1).toLowerCase();
-          const referenceLine = `— ${bookName} ${chapterStr}:${verseNum}`;
+          const partialText = partialFragment.textContent?.trim() ?? '';
+          const verseEl = selectedVerseEls[0];
+          if (!verseEl) {
+            return;
+          }
 
-          const finalText = `${partialText}\n${referenceLine}`;
-          e.clipboardData?.setData("text/plain", finalText);
+          const refId = verseEl.getAttribute('data-reference') ?? '';
+          const ref = parseReferenceId(refId);
+          if (!ref) {
+            return;
+          }
+
+          const finalText = `${partialText}\n— ${formatReference(ref)}`;
+          e.clipboardData?.setData('text/plain', finalText);
           return;
         }
+
         const verseClone = verseEl.cloneNode(true) as HTMLElement;
-        for (const fn of Array.from(verseClone.querySelectorAll("sup"))) {
+        for (const fn of Array.from(verseClone.querySelectorAll('sup'))) {
           fn.remove();
         }
 
-        const verseText = verseClone.textContent?.trim() ?? "";
-        const verseId = verseEl.getAttribute("data-verse-id") ?? "";
-        const [bookRaw = "Genesis", chapterStr, verseNum] = verseId.split(
-          "-",
-          3
-        );
-        const bookName =
-          bookRaw.charAt(0).toUpperCase() + bookRaw.slice(1).toLowerCase();
-        const referenceLine = `— ${bookName} ${chapterStr}:${verseNum}`;
+        const verseText = verseClone.textContent?.trim() ?? '';
+        const refId = verseEl.getAttribute('data-reference') ?? '';
+        const ref = parseReferenceId(refId);
+        if (!ref) {
+          return;
+        }
 
-        const finalText = `${verseText}\n${referenceLine}`;
-
-        e.clipboardData?.setData("text/plain", finalText);
+        const finalText = `${verseText}\n— ${formatReference(ref)}`;
+        e.clipboardData?.setData('text/plain', finalText);
         return;
       }
 
       // Multiple verses or partial selection across verses
       const selectedRangeFragment = range.cloneContents();
       for (const fn of Array.from(
-        selectedRangeFragment.querySelectorAll("sup")
+        selectedRangeFragment.querySelectorAll('sup')
       )) {
         fn.remove();
       }
 
       const fragmentVerseEls = Array.from(
-        selectedRangeFragment.querySelectorAll("[data-verse-id]")
+        selectedRangeFragment.querySelectorAll('[data-ref-type="verse"]')
       );
 
       if (fragmentVerseEls.length === 0) {
         const rawSelectedText = selection.toString().trim();
-        e.clipboardData?.setData("text/plain", rawSelectedText);
+        e.clipboardData?.setData('text/plain', rawSelectedText);
+        return;
+      }
+
+      // Get first and last verse references
+      const firstVerseEl = selectedVerseEls[0];
+      const lastVerseEl = selectedVerseEls.at(-1);
+
+      const firstRefId = firstVerseEl?.getAttribute('data-reference');
+      const lastRefId = lastVerseEl?.getAttribute('data-reference');
+
+      if (!firstRefId || !lastRefId) {
+        return;
+      }
+
+      const firstRef = parseReferenceId(firstRefId);
+      const lastRef = parseReferenceId(lastRefId);
+
+      if (!firstRef || !lastRef) {
         return;
       }
 
       const verseTexts: string[] = [];
-      let startVerse = Number.POSITIVE_INFINITY;
-      let endVerse = Number.NEGATIVE_INFINITY;
-
       for (const vEl of fragmentVerseEls) {
-        const vId = vEl.getAttribute("data-verse-id") ?? "";
-        const parts = vId.split("-");
-        const verseNum = Number.parseInt(parts[2] ?? "0", 10);
-        if (verseNum < startVerse) {
-          startVerse = verseNum;
-        }
-        if (verseNum > endVerse) {
-          endVerse = verseNum;
-        }
-
-        const verseText = vEl.textContent?.trim() ?? "";
+        const verseText = vEl.textContent?.trim() ?? '';
         if (verseText) {
           verseTexts.push(verseText);
         }
       }
 
       if (verseTexts.length === 0) {
-        verseTexts.push("");
+        verseTexts.push('');
       }
 
-      const firstId = fragmentVerseEls[0]?.getAttribute("data-verse-id") ?? "";
-      const [bookRaw = "", chapterStr = ""] = firstId.split("-", 3);
-      const bookName =
-        bookRaw.charAt(0).toUpperCase() + bookRaw.slice(1).toLowerCase();
+      const combinedText = verseTexts.join(' ');
+      const finalText = `${combinedText}\n— ${formatReferenceForCopy(firstRef, lastRef)}`;
 
-      let referenceLine = `— ${bookName} ${chapterStr}:${startVerse}`;
-      if (endVerse > startVerse) {
-        referenceLine += `-${endVerse}`;
-      }
-
-      const combinedText = verseTexts.join(" ");
-      const finalText = `${combinedText}\n${referenceLine}`;
-
-      e.clipboardData?.setData("text/plain", finalText);
+      e.clipboardData?.setData('text/plain', finalText);
     };
 
     const container = parentRef.current;
-    container?.addEventListener("copy", handleCopy);
+    container?.addEventListener('copy', handleCopy);
     return () => {
-      container?.removeEventListener("copy", handleCopy);
+      container?.removeEventListener('copy', handleCopy);
     };
   }, []);
 
@@ -230,34 +245,25 @@ function BibleViewerClient({ chapters }: BibleViewerClientProps) {
 
   return (
     <div className="flex h-full flex-col">
-      <VerseNavigationBar
-        scrollToChapterAndVerse={scrollToChapterAndVerse}
-        getChapterIndex={(book, chapter) =>
-          chapters.findIndex(
-            (ch) =>
-              ch.bookName.toLowerCase() === book.toLowerCase() &&
-              ch.number === chapter
-          )
-        }
-      />
+      <VerseNavigationBar scrollToReference={scrollToReference} />
       <div
         ref={parentRef}
         className="default-scrollbar flex-1 overflow-auto px-3 pb-28"
-        style={{ contain: "strict" }}
+        style={{ contain: 'strict' }}
       >
         <div
           style={{
-            position: "relative",
+            position: 'relative',
             height: virtualizer.getTotalSize(),
-            width: "100%",
+            width: '100%',
           }}
         >
           <div
             style={{
-              position: "absolute",
+              position: 'absolute',
               top: 0,
               left: 0,
-              width: "100%",
+              width: '100%',
               transform: `translateY(${virtualItems[0]?.start ?? 0}px)`,
             }}
           >

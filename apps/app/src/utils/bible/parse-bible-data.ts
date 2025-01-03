@@ -1,5 +1,4 @@
-import type { Root } from '~/types/bible';
-import type { IRChapter } from '~/utils/bible/formatting-assembly';
+import type { IRChapter, Root } from '~/types/bible';
 import { parseUSJToIR } from '~/utils/bible/usj-to-semantic-ir';
 
 export function parseBibleData(data: Root): IRChapter[] {

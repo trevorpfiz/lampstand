@@ -23,43 +23,68 @@ import { cn } from '@lamp/ui/lib/utils';
 
 import { BIBLE_VERSE_REFERENCES } from '~/lib/constants';
 import { useBibleStore } from '~/providers/bible-store-provider';
-import { parseReference, verseId } from '~/utils/bible/verse';
+import {
+  type ReferenceData,
+  formatReference,
+  parseReferenceId,
+} from '~/utils/bible/reference';
 
 interface ReferenceSelectProps {
-  getChapterIndex: (book: string, chapter: number) => number;
-  scrollToChapterAndVerse: (chapterIndex: number, verseId?: string) => void;
+  scrollToReference: (ref: ReferenceData) => void;
 }
 
-interface Option {
-  value: string;
-  label: string;
+/**
+ * Convert "GEN-1-2" => "Genesis 1:2"
+ */
+function buildDisplayLabel(id: string): string | null {
+  const ref = parseReferenceId(id);
+  if (!ref || !ref.chapter) {
+    return null; // skip if parse fails or if it's only a book-level ID
+  }
+  return formatReference(ref); // e.g. "Genesis 1:2"
 }
 
-function ReferenceSelect({
-  getChapterIndex,
-  scrollToChapterAndVerse,
-}: ReferenceSelectProps) {
+export function ReferenceSelect({ scrollToReference }: ReferenceSelectProps) {
   const [open, setOpen] = useState(false);
-  const currentVerse = useBibleStore((state) => state.currentVerse);
-  const setCurrentVerse = useBibleStore((state) => state.setCurrentVerse);
 
-  const currentValue = `${currentVerse.book} ${currentVerse.chapter}${
-    currentVerse.verse ? `:${currentVerse.verse}` : ''
-  }`;
-
-  const [searchValue, setSearchValue] = useState('');
-  const options: Option[] = useMemo(
-    () =>
-      BIBLE_VERSE_REFERENCES.map((item) => ({
-        value: item.value,
-        label: item.value,
-      })),
-    []
+  const currentReference = useBibleStore((state) => state.currentReference);
+  const setCurrentReference = useBibleStore(
+    (state) => state.setCurrentReference
   );
 
-  const [filteredOptions, setFilteredOptions] = useState(options);
-  const parentRef = useRef<HTMLDivElement>(null);
+  // The label shown on the button, e.g. "Genesis 1:1"
+  const displayValue = useMemo(
+    () => formatReference(currentReference),
+    [currentReference]
+  );
 
+  // Build a string ID we can look for, e.g. "GEN-1-1"
+  const currentReferenceId = useMemo(() => {
+    if (!currentReference.chapter) {
+      return currentReference.book.toUpperCase();
+    }
+    if (!currentReference.verse) {
+      return `${currentReference.book.toUpperCase()}-${currentReference.chapter}`;
+    }
+    return `${currentReference.book.toUpperCase()}-${currentReference.chapter}-${currentReference.verse}`;
+  }, [currentReference]);
+
+  const [searchValue, setSearchValue] = useState('');
+
+  // Build the list of references from BIBLE_VERSE_REFERENCES, skipping
+  // anything that lacks a chapter. We'll store them as { value, label }.
+  const options = useMemo(() => {
+    return BIBLE_VERSE_REFERENCES.map((item) => {
+      const label = buildDisplayLabel(item.value);
+      if (!label) return null;
+      return { value: item.value, label };
+    }).filter((x): x is { value: string; label: string } => !!x);
+  }, []);
+
+  const [filteredOptions, setFilteredOptions] = useState(options);
+
+  // Virtual list
+  const parentRef = useRef<HTMLDivElement>(null);
   const virtualizer = useVirtualizer({
     count: filteredOptions.length,
     getScrollElement: () => parentRef.current,
@@ -67,76 +92,61 @@ function ReferenceSelect({
     overscan: 5,
   });
 
+  // On user selection
   const handleSelect = (value: string) => {
-    const reference = parseReference(value);
-    if (!reference) {
-      return;
-    }
-
-    setCurrentVerse(reference);
-
-    const chapterIndex = getChapterIndex(reference.book, reference.chapter);
-    if (chapterIndex === -1) {
-      return;
-    }
-
-    scrollToChapterAndVerse(chapterIndex, verseId(reference));
+    const refData = parseReferenceId(value);
+    if (!refData) return;
+    setCurrentReference(refData);
+    scrollToReference(refData);
     setOpen(false);
   };
 
   const handleSearch = (search: string) => {
     setSearchValue(search);
     if (search) {
-      const newFilteredOptions = matchSorter(options, search, {
+      const newFiltered = matchSorter(options, search, {
         keys: ['label'],
         threshold: matchSorter.rankings.MATCHES,
       });
-      setFilteredOptions(newFilteredOptions);
+      setFilteredOptions(newFiltered);
     } else {
       setFilteredOptions(options);
     }
   };
 
-  // State to know when the virtualizer has been measured after popover opens
   const [hasMeasured, setHasMeasured] = useState(false);
 
-  // 1. On open, measure layout
   useLayoutEffect(() => {
-    if (!open || hasMeasured) {
-      return;
-    }
-
+    if (!open || hasMeasured) return;
     requestAnimationFrame(() => {
       virtualizer.measure();
       setHasMeasured(true);
     });
-  }, [open, virtualizer, hasMeasured]);
+  }, [open, hasMeasured, virtualizer]);
 
-  // 2. After measurement, scroll accordingly
-  // Use useLayoutEffect to avoid flicker since we're adjusting layout
   useEffect(() => {
-    if (!open || !hasMeasured) {
+    if (!open || !hasMeasured) return;
+
+    if (searchValue) {
+      virtualizer.scrollToOffset(0);
       return;
     }
 
-    // If searching, scroll to top
-    // If not searching, scroll to currentValue if found, else top
-    if (searchValue) {
-      virtualizer.scrollToOffset(0);
+    // If no search, scroll to currentReferenceId if we have it
+    const idx = filteredOptions.findIndex(
+      (o) => o.value === currentReferenceId
+    );
+    if (idx >= 0) {
+      virtualizer.scrollToIndex(idx, { align: 'start' });
     } else {
-      const index = filteredOptions.findIndex((o) => o.value === currentValue);
-      if (index >= 0) {
-        virtualizer.scrollToIndex(index, { align: 'start' });
-      } else {
-        virtualizer.scrollToOffset(0);
-      }
+      virtualizer.scrollToOffset(0);
     }
   }, [
     open,
     hasMeasured,
     searchValue,
     filteredOptions,
-    currentValue,
+    currentReferenceId,
     virtualizer,
   ]);
 
@@ -148,11 +158,11 @@ function ReferenceSelect({
           // biome-ignore lint/a11y/useSemanticElements: <explanation>
           role="combobox"
           aria-expanded={open}
-          className="h-8 w-full justify-between bg-background px-3 font-normal outline-offset-0 hover:bg-background focus-visible:border-ring focus-visible:outline-[3px] focus-visible:outline-ring/20"
+          className="h-8 w-full justify-between gap-2 bg-background px-3 font-normal outline-offset-0 hover:bg-background"
         >
-          {currentValue ? (
+          {displayValue ? (
             <span className="flex min-w-0 items-center gap-2">
-              <span className="truncate">{currentValue}</span>
+              <span className="truncate">{displayValue}</span>
             </span>
           ) : (
             <span className="text-muted-foreground">Reference</span>
@@ -165,6 +175,7 @@ function ReferenceSelect({
           />
         </Button>
       </PopoverTrigger>
+
       <PopoverContent
         className="w-full min-w-[var(--radix-popper-anchor-width)] border-input p-0"
         align="start"
@@ -193,9 +204,7 @@ function ReferenceSelect({
               >
                 {virtualizer.getVirtualItems().map((virtualItem) => {
                   const option = filteredOptions[virtualItem.index];
-                  if (!option) {
-                    return null;
-                  }
+                  if (!option) return null;
 
                   return (
                     <CommandItem
@@ -215,8 +224,7 @@ function ReferenceSelect({
                         size={16}
                         strokeWidth={2}
                         className={cn(
-                          '',
-                          currentValue === option.value
+                          option.value === currentReferenceId
                             ? 'opacity-100'
                             : 'opacity-0'
                         )}
@@ -233,5 +241,3 @@ function ReferenceSelect({
     </Popover>
   );
 }
-
-export { ReferenceSelect };
