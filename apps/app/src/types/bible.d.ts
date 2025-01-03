@@ -129,3 +129,10 @@ export interface BookTitle {
   type: 'book_title';
   text: string;
 }
+
+/** A slimmed down version of IRChapter without elements for virtualization */
+export interface SlimChapter {
+  chapterId: string;
+  bookName: string;
+  number: number;
+}

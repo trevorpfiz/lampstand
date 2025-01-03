@@ -1,19 +1,19 @@
 'use client';
 
 import { useVirtualizer } from '@tanstack/react-virtual';
-import { useCallback, useEffect, useLayoutEffect, useRef } from 'react';
+import { useEffect, useLayoutEffect, useRef } from 'react';
 
 import { VerseNavigationBar } from '~/components/bible/verse-navigation-bar';
+import { useScrollToReference } from '~/hooks/use-scroll-to-reference';
 import { useVerseTracking } from '~/hooks/use-verse-tracking';
 import { useBibleStore } from '~/providers/bible-store-provider';
+import { useBibleViewerStore } from '~/providers/bible-viewer-store-provider';
 import { useLayoutStore } from '~/providers/layout-store-provider';
 import type { IRChapter } from '~/types/bible';
 import { renderChapter } from '~/utils/bible/formatting-assembly';
 import {
-  type ReferenceData,
   formatReference,
   formatReferenceForCopy,
-  makeReferenceId,
   parseReferenceId,
 } from '~/utils/bible/reference';
 
@@ -24,6 +24,10 @@ interface BibleViewerClientProps {
 function BibleViewerClient({ chapters }: BibleViewerClientProps) {
   const parentRef = useRef<HTMLDivElement>(null);
   const currentReference = useBibleStore((state) => state.currentReference);
+  const setContainerRef = useBibleViewerStore((state) => state.setContainerRef);
+  const setVirtualizer = useBibleViewerStore((state) => state.setVirtualizer);
+  const setSlimChapters = useBibleViewerStore((state) => state.setChapters);
+  const slimChapters = useBibleViewerStore((state) => state.chapters);
 
   const isHydrated = useLayoutStore((state) => state.isHydrated);
   const initialScrollDone = useLayoutStore((state) => state.initialScrollDone);
@@ -31,74 +35,39 @@ function BibleViewerClient({ chapters }: BibleViewerClientProps) {
     (state) => state.setInitialScrollDone
   );
 
+  // Create slim version for virtualization and set in store once
+  useEffect(() => {
+    const newSlimChapters = chapters.map((ch) => ({
+      chapterId: ch.chapterId,
+      bookName: ch.bookName,
+      number: ch.number,
+    }));
+    setSlimChapters(newSlimChapters);
+  }, [chapters, setSlimChapters]);
+
   const virtualizer = useVirtualizer({
-    count: chapters.length,
+    count: slimChapters.length,
     getScrollElement: () => parentRef.current,
     estimateSize: () => 1800,
     overscan: 1,
     enabled: true,
   });
 
+  // Store refs in global store
+  useEffect(() => {
+    console.log('setting refs in global store');
+    setContainerRef(parentRef);
+    setVirtualizer(virtualizer);
+  }, [setContainerRef, setVirtualizer, virtualizer]);
+
   useVerseTracking({ containerRef: parentRef });
 
-  /**
-   * Scroll to a given reference.
-   * Steps:
-   *  1) Find the chapter index by matching (ch.bookName & ch.number) to ref.book & ref.chapter
-   *  2) virtualizer.scrollToIndex(chapterIndex)
-   *  3) after load, if ref.verse => querySelector(`[data-reference="${makeReferenceId(ref)}"]`) and scroll smoothly
-   */
-  const scrollToReference = useCallback(
-    (ref: ReferenceData, initial?: boolean) => {
-      console.log('scrollToReference', ref, initial);
-      // We must have a chapter to do anything. If no chapter, maybe scroll to the first?
-      if (!ref.chapter) {
-        // If no chapter, maybe we do nothing or just scroll to index 0.
-        if (initial) {
-          setInitialScrollDone(true);
-        }
-        return;
-      }
-
-      // find the chapter index by comparing book codes directly
-      const chapterIndex = chapters.findIndex((ch) => {
-        const matches = ch.bookName === ref.book && ch.number === ref.chapter;
-        return matches;
-      });
-      if (chapterIndex < 0) {
-        // Not found
-        if (initial) {
-          setInitialScrollDone(true);
-        }
-        return;
-      }
-
-      // First, ensure the virtualizer loads that chapter at the top:
-      virtualizer.scrollToIndex(chapterIndex, { align: 'start' });
-
-      // Then, if there's a verse, scroll inside the chapter
-      setTimeout(() => {
-        if (ref.verse && parentRef.current) {
-          const refId = makeReferenceId(ref); // e.g. "GEN-1-1"
-          const el = parentRef.current.querySelector(
-            `[data-reference="${refId}"]`
-          );
-          if (el instanceof HTMLElement) {
-            const parentRect = parentRef.current.getBoundingClientRect();
-            const elRect = el.getBoundingClientRect();
-            const offset =
-              elRect.top - parentRect.top + parentRef.current.scrollTop;
-            parentRef.current.scrollTo({ top: offset, behavior: 'smooth' });
-          }
-        }
-      }, 200);
-
-      if (initial) {
-        setInitialScrollDone(true);
-      }
-    },
-    [chapters, setInitialScrollDone, virtualizer]
-  );
+  const scrollToReference = useScrollToReference({
+    chapters: slimChapters,
+    virtualizer,
+    containerRef: parentRef,
+    setInitialScrollDone,
+  });
 
   // Perform initial scroll after hydration and only if not done already
   useLayoutEffect(() => {

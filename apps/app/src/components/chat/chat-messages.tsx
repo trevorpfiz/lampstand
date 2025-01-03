@@ -4,12 +4,13 @@ import Image from 'next/image';
 import { useEffect } from 'react';
 
 import type { Message } from '@lamp/ai';
-import { Markdown } from '@lamp/ai/components';
+import { Markdown as SimpleMarkdown } from '@lamp/ai/components';
 import { ScrollArea } from '@lamp/ui/components/scroll-area';
 import { Spinner } from '@lamp/ui/components/spinner';
 import { cn } from '@lamp/ui/lib/utils';
 
 import { useScrollToBottom } from '~/hooks/use-scroll-to-bottom';
+import { Markdown } from '~/lib/markdown';
 
 interface ChatMessagesProps {
   messages: Message[];
@@ -77,7 +78,11 @@ export function ChatMessages({
                   <span>{message.role === 'user' ? 'You' : 'Lampstand'}</span>
                 </div>
                 <div className="flex flex-col gap-4 px-4 py-0 text-sm">
-                  <Markdown>{message.content}</Markdown>
+                  {message.role === 'user' ? (
+                    <SimpleMarkdown>{message.content}</SimpleMarkdown>
+                  ) : (
+                    <Markdown>{message.content}</Markdown>
+                  )}
                 </div>
               </div>
             ))}

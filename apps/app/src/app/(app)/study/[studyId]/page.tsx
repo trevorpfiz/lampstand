@@ -5,12 +5,12 @@ import { getParsedChapters } from '~/utils/bible/server-bible';
 
 export default function StudyPage() {
   // Pre-fetch parsed bible chapters on the server
-  const chapters = getParsedChapters();
+  const fullChapters = getParsedChapters();
 
   return (
     <main className="h-full">
       <Suspense fallback={<BibleViewerSkeleton />}>
-        <BibleViewerClient chapters={chapters} />
+        <BibleViewerClient chapters={fullChapters} />
       </Suspense>
     </main>
   );

@@ -1,16 +1,17 @@
 import { notFound } from 'next/navigation';
+import { type ReactNode, cache } from 'react';
 
 import {
   getChatsByStudyId,
   getNotesByStudyId,
   getStudyById,
 } from '@lamp/db/queries';
+import { getUser } from '@lamp/supabase/queries';
 import { createClient } from '@lamp/supabase/server';
 
-import { getUser } from '@lamp/supabase/queries';
-import { type ReactNode, cache } from 'react';
 import { AppHeader } from '~/components/app-header';
 import { PanelsLayout } from '~/components/panels-layout';
+import { BibleViewerStoreProvider } from '~/providers/bible-viewer-store-provider';
 
 export default async function StudyLayout({
   children,
@@ -46,9 +47,11 @@ export default async function StudyLayout({
     <>
       <AppHeader isStudyRoute={true} studyTitle={study.study.title} />
       <div className="flex-1 overflow-auto">
-        <PanelsLayout chats={chats.chats} notes={notes.notes}>
-          {children}
-        </PanelsLayout>
+        <BibleViewerStoreProvider>
+          <PanelsLayout chats={chats.chats} notes={notes.notes}>
+            {children}
+          </PanelsLayout>
+        </BibleViewerStoreProvider>
       </div>
     </>
   );

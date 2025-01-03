@@ -1,6 +1,5 @@
 import { persist } from 'zustand/middleware';
 import { createStore } from 'zustand/vanilla';
-
 import type { ReferenceData } from '~/utils/bible/reference';
 
 export type BibleVersion = 'BSB' | 'KJV';

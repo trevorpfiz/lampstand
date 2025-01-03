@@ -1,0 +1,27 @@
+{
+  "name": "@lamp/remark-tag-verses",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "clean": "git clean -xdf .cache .turbo dist node_modules",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gemoji": "^8.1.0",
+    "mdast-util-find-and-replace": "^3.0.2",
+    "remark": "^15.0.1",
+    "unist-util-flatmap": "^1.0.0"
+  },
+  "devDependencies": {
+    "@lamp/tsconfig": "workspace:*",
+    "typescript": "catalog:"
+  }
+}
