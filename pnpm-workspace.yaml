@@ -32,7 +32,7 @@ catalogs:
   sentry:
     "@sentry/nextjs": ^8.47.0
   supabase:
-    supabase: ^2.1.1
+    supabase: ^2.2.1
     "@supabase/supabase-js": ^2.47.10
     "@supabase/ssr": ^0.5.2
   tailwind:

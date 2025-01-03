@@ -1,0 +1,22 @@
+name: Apply schema migrations
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  apply_migrations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup
+        uses: ./tooling/github/setup
+
+      - name: Apply migrations
+        run: pnpm db:migrate
+        env:
+          POSTGRES_URL: ${{ secrets.POSTGRES_URL }}
+
+# @link https://clerk.com/blog/automate-neon-schema-changes-with-drizzle-and-github-actions

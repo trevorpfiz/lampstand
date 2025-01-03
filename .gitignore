@@ -40,6 +40,7 @@ yarn-error.log*
 # local env files
 .env
 .env*.local
+.env*.production
 
 # vercel
 .vercel
@@ -60,6 +61,17 @@ dist/
 
 # Sentry
 .sentryclirc
+
+# Storybook
+storybook-static
+tailwind.css
+
+# Supabase
+.branches
+.temp
+
+# Trigger
+.trigger
 
 # BaseHub
 .basehub
