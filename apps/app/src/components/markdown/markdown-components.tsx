@@ -17,7 +17,7 @@ export const baseClasses = {
   ol: 'ml-4 list-outside list-decimal',
   ul: 'ml-4 list-outside list-decimal',
   li: 'py-1',
-  strong: 'font-semibold inline-flex items-center',
+  strong: 'font-semibold inline-flex',
   a: 'text-blue-500 hover:underline',
   h1: 'mb-2 mt-6 text-3xl font-semibold',
   h2: 'mb-2 mt-6 text-2xl font-semibold',
@@ -25,6 +25,7 @@ export const baseClasses = {
   h4: 'mb-2 mt-6 text-lg font-semibold',
   h5: 'mb-2 mt-6 text-base font-semibold',
   h6: 'mb-2 mt-6 text-sm font-semibold',
+  p: '',
 };
 
 // Define regex at module level for better performance
@@ -147,5 +148,10 @@ export const markdownComponents: Partial<Components> = {
     <h6 className={twMerge(baseClasses.h6, className)} {...props}>
       {children}
     </h6>
+  ),
+  p: ({ node, children, className, ...props }) => (
+    <p className={twMerge(baseClasses.p, className)} {...props}>
+      {children}
+    </p>
   ),
 };

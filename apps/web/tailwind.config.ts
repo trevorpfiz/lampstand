@@ -22,6 +22,13 @@ export default {
         'main-hover': {
           raw: '(hover: hover)',
         },
+        // FIXME: Why are max-* modifiers not working out-of-the-box?
+        // @link https://tailwindcss.com/docs/responsive-design#targeting-a-breakpoint-range
+        'max-sm': { max: '639px' },
+        'max-md': { max: '767px' },
+        'max-lg': { max: '1023px' },
+        'max-xl': { max: '1279px' },
+        'max-2xl': { max: '1535px' },
       },
       animation: {
         gradient: 'gradient 8s linear infinite',
