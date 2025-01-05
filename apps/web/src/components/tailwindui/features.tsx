@@ -3,7 +3,7 @@ import { Container, Section } from '~/components/craft';
 
 import ChatDemo from '~/public/images/chat-demo-305.png';
 import NotesDemo from '~/public/images/notes-demo-447.png';
-import ReaderDemo from '~/public/images/reader-demo-slim.png';
+import ReaderDemo from '~/public/images/reader-demo-slim-cropped.jpg';
 import VerseDemo from '~/public/images/verse-demo.png';
 
 // 1. Chat with AI
@@ -41,7 +41,6 @@ function Features() {
                     alt="Chat demo"
                     priority
                     className="size-full object-contain"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 </div>
               </div>
@@ -59,13 +58,12 @@ function Features() {
                   Find verses quickly, and navigate to them right away.
                 </p>
               </div>
-              <div className="flex flex-1 items-center justify-center px-4">
+              <div className="flex flex-1 items-center justify-center px-8">
                 <Image
                   src={VerseDemo}
                   alt="Verse navigation demo"
                   priority
                   className="h-[min(152px,50cqw)] object-contain"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
             </div>
@@ -88,7 +86,6 @@ function Features() {
                   alt="Take notes demo"
                   priority
                   className="h-[min(152px,50cqw)] object-contain"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
             </div>
@@ -114,7 +111,6 @@ function Features() {
                       alt="Bible reader demo"
                       priority
                       className="w-full object-cover"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                   </div>
                 </div>

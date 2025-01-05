@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 
 import { showBetaFeature } from '@lamp/feature-flags';
 import { createMetadata } from '@lamp/seo/metadata';
@@ -8,8 +9,9 @@ import { Container, Section } from '~/components/craft';
 import CTA from '~/components/craft/cta';
 import FAQ from '~/components/craft/faq';
 import { Hero } from '~/components/hero';
-import { HeroVideoDialog } from '~/components/hero-video';
 import { Features } from '~/components/tailwindui/features';
+
+import HeroDemoImage from '~/public/images/hero-demo-image.png';
 
 const meta = {
   title: 'Bible study for the next generation',
@@ -35,10 +37,19 @@ const Home = async () => {
         <Hero />
 
         <Container>
-          <HeroVideoDialog
+          <div className="rounded-2xl bg-muted p-1 sm:p-2">
+            <Image
+              src={HeroDemoImage}
+              alt="Hero video thumbnail"
+              priority
+              className="w-full rounded-xl object-contain"
+            />
+          </div>
+
+          {/* <HeroVideoDialog
             videoSrc="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             thumbnailSrc="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
-          />
+          /> */}
         </Container>
       </Section>
 
