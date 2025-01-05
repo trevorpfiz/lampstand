@@ -2,20 +2,15 @@
 import Link from 'next/link';
 
 // Third-party library imports
+import { MoveRight } from 'lucide-react';
 import Balancer from 'react-wrap-balancer';
 
 // UI component imports
 import { Button } from '@lamp/ui/components/button';
 
-import { env } from '@lamp/env';
-import { MoveRight } from 'lucide-react';
 // Custom components
 import { Container, Section } from '~/components/craft';
-
-const appUrl =
-  env.NODE_ENV === 'development'
-    ? 'http://localhost:3000'
-    : env.NEXT_PUBLIC_APP_URL;
+import { appUrl } from '~/lib/constants';
 
 const CTA = () => {
   return (

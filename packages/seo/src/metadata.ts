@@ -17,6 +17,7 @@ const publisher = 'Lampstand';
 const twitterHandle = '@lampstand_ai';
 
 export const createMetadata = ({
+  metadataBase,
   title,
   description,
   image,
@@ -27,6 +28,7 @@ export const createMetadata = ({
     ? `${applicationName} | ${title}`
     : `${title} | ${applicationName}`;
   const defaultMetadata: Metadata = {
+    metadataBase,
     title: parsedTitle,
     description,
     applicationName,

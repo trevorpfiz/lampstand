@@ -2,10 +2,16 @@ import type { Metadata } from 'next';
 
 import { createMetadata } from '@lamp/seo/metadata';
 
+import { env } from '@lamp/env';
 import { CardWrapper } from '~/components/auth/card-wrapper';
 import { SignInForm } from '~/components/auth/sign-in-form';
 
 export const metadata: Metadata = createMetadata({
+  metadataBase: new URL(
+    env.NODE_ENV === 'production'
+      ? env.NEXT_PUBLIC_APP_URL
+      : 'http://localhost:3000'
+  ),
   title: 'Welcome back',
   description: 'Welcome back! Please sign in to continue.',
 });

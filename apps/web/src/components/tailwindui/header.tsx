@@ -2,22 +2,19 @@
 
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import { env } from '@lamp/env';
-import { Button } from '@lamp/ui/components/button';
-import { Separator } from '@lamp/ui/components/separator';
-import { cn } from '@lamp/ui/lib/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
+import { Button } from '@lamp/ui/components/button';
+import { Separator } from '@lamp/ui/components/separator';
+import { cn } from '@lamp/ui/lib/utils';
+
+import { appUrl } from '~/lib/constants';
+
 import LogoFull from '~/public/lampstand-logo-full.svg';
 
 const navigation = [{ name: 'Pricing', href: '/pricing' }];
-
-const appUrl =
-  env.NODE_ENV === 'development'
-    ? 'http://localhost:3000'
-    : env.NEXT_PUBLIC_APP_URL;
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

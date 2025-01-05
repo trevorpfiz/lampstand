@@ -1,8 +1,12 @@
-import { createMetadata } from '@lamp/seo/metadata';
 import type { Metadata } from 'next';
 import { redirect } from 'next/navigation';
 
+import { createMetadata } from '@lamp/seo/metadata';
+
+import { webUrl } from '~/lib/constants';
+
 const meta = {
+  metadataBase: new URL(webUrl),
   title: 'Terms & Conditions',
   description:
     'Lampstand is a Bible study app for the next generation. It helps you study the Bible faster and easier.',

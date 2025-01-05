@@ -10,8 +10,10 @@ import { Container, Section } from '~/components/craft';
 import CTA from '~/components/craft/cta';
 import FAQ from '~/components/craft/faq';
 import PricingTables from '~/components/pricing-tables';
+import { webUrl } from '~/lib/constants';
 
 const meta = {
+  metadataBase: new URL(webUrl),
   title: 'Pricing',
   description: 'Pricing for Lampstand.',
 };

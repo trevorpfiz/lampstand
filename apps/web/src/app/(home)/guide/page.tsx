@@ -4,8 +4,10 @@ import type { Metadata } from 'next';
 
 import { Container, Section } from '~/components/craft';
 import CTA from '~/components/craft/cta';
+import { webUrl } from '~/lib/constants';
 
 const meta = {
+  metadataBase: new URL(webUrl),
   title: 'Guide',
   description: 'Guide for getting the most out of Lampstand.',
 };

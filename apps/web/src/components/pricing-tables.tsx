@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 import type { ProductWithDetails } from '@lamp/db/schema';
-import { env } from '@lamp/env';
+import { mockPlans } from '@lamp/payments/constants';
 import { Badge } from '@lamp/ui/components/badge';
 import { Button } from '@lamp/ui/components/button';
 import {
@@ -23,12 +23,7 @@ import {
 import { cn } from '@lamp/ui/lib/utils';
 import { useTheme } from '@lamp/ui/providers/theme';
 
-import { mockPlans } from '@lamp/payments/constants';
-
-const appUrl =
-  env.NODE_ENV === 'development'
-    ? 'http://localhost:3000'
-    : env.NEXT_PUBLIC_APP_URL;
+import { appUrl } from '~/lib/constants';
 
 export default function PricingTables(props: {
   products: ProductWithDetails[];

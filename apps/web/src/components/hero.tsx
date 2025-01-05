@@ -1,15 +1,12 @@
-import { env } from '@lamp/env';
-import { Button } from '@lamp/ui/components/button';
-import { cn } from '@lamp/ui/lib/utils';
 import { MoveRight } from 'lucide-react';
 import Link from 'next/link';
 import Balancer from 'react-wrap-balancer';
-import { AnimatedGradientText } from '~/components/magicui/animated-gradient-text';
 
-const appUrl =
-  env.NODE_ENV === 'development'
-    ? 'http://localhost:3000'
-    : env.NEXT_PUBLIC_APP_URL;
+import { Button } from '@lamp/ui/components/button';
+import { cn } from '@lamp/ui/lib/utils';
+
+import { AnimatedGradientText } from '~/components/magicui/animated-gradient-text';
+import { appUrl } from '~/lib/constants';
 
 export const Hero = () => {
   return (
