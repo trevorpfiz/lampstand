@@ -1,18 +1,15 @@
-import { createMetadata } from '@lamp/seo/metadata';
-import { Separator } from '@lamp/ui/components/separator';
 import type { Metadata } from 'next';
+
+import { Separator } from '@lamp/ui/components/separator';
 
 import { Container, Section } from '~/components/craft';
 import CTA from '~/components/craft/cta';
-import { webUrl } from '~/lib/constants';
 
-const meta = {
-  metadataBase: new URL(webUrl),
-  title: 'Guide',
-  description: 'Guide for getting the most out of Lampstand.',
+export const metadata: Metadata = {
+  title: 'Guide | Lampstand',
+  description:
+    'Guide for getting the most out of Lampstand, the AI-powered Bible study app for the next generation of believers.',
 };
-
-export const metadata: Metadata = createMetadata(meta);
 
 const Guide = () => {
   return (

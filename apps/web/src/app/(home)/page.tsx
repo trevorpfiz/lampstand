@@ -1,7 +1,5 @@
 import { showBetaFeature } from '@lamp/feature-flags';
-import { createMetadata } from '@lamp/seo/metadata';
 import { Separator } from '@lamp/ui/components/separator';
-import type { Metadata } from 'next';
 import Image from 'next/image';
 
 import { Container, Section } from '~/components/craft';
@@ -9,19 +7,7 @@ import CTA from '~/components/craft/cta';
 import FAQ from '~/components/craft/faq';
 import { Hero } from '~/components/hero';
 import { Features } from '~/components/tailwindui/features';
-
-import { webUrl } from '~/lib/constants';
 import HeroDemoImage from '~/public/images/hero-demo-image.png';
-
-const meta = {
-  metadataBase: new URL(webUrl),
-  title: 'Bible study for the next generation',
-  description:
-    'Lampstand is an AI-powered Bible study app for the next generation of believers. Quickly find verses, simplify complex topics, write with AI, and keep everything organized.',
-  applicationFirst: true,
-};
-
-export const metadata: Metadata = createMetadata(meta);
 
 const Home = async () => {
   const betaFeature = await showBetaFeature();

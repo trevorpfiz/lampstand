@@ -45,9 +45,10 @@ export const createMetadata = ({
     openGraph: {
       title: parsedTitle,
       description,
-      type: 'website',
+      url: metadataBase?.toString() ?? 'https://lampstand.ai',
       siteName: applicationName,
       locale: 'en_US',
+      type: 'website',
     },
     publisher,
     twitter: {

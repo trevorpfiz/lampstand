@@ -3,22 +3,18 @@ import { cache } from 'react';
 import Balancer from 'react-wrap-balancer';
 
 import { getProducts } from '@lamp/db/queries';
-import { createMetadata } from '@lamp/seo/metadata';
 import { Separator } from '@lamp/ui/components/separator';
 
 import { Container, Section } from '~/components/craft';
 import CTA from '~/components/craft/cta';
 import FAQ from '~/components/craft/faq';
 import PricingTables from '~/components/pricing-tables';
-import { webUrl } from '~/lib/constants';
 
-const meta = {
-  metadataBase: new URL(webUrl),
-  title: 'Pricing',
-  description: 'Pricing for Lampstand.',
+export const metadata: Metadata = {
+  title: 'Pricing | Lampstand',
+  description:
+    'Pricing for Lampstand, the AI-powered Bible study app for the next generation of believers.',
 };
-
-export const metadata: Metadata = createMetadata(meta);
 
 export default async function Pricing() {
   const productsData = cache(getProducts)();
