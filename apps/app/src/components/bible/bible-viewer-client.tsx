@@ -247,7 +247,7 @@ function BibleViewerClient({ chapters }: BibleViewerClientProps) {
                   key={virtualRow.key}
                   data-index={virtualRow.index}
                   ref={virtualizer.measureElement}
-                  className="p-2"
+                  className="p-2 font-source-sans"
                 >
                   {renderChapter(chapter)}
                 </div>

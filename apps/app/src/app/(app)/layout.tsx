@@ -48,7 +48,7 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
                 <BibleStoreProvider>
                   <ChatStoreProvider>
                     <AppSidebar />
-                    <SidebarInset className="h-screen">
+                    <SidebarInset className="h-dvh">
                       {children}
                       <SettingsDialog
                         userEmail={user?.email ?? ''}

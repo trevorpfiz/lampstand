@@ -2,6 +2,7 @@ import typography from '@tailwindcss/typography';
 import scrollbar from 'tailwind-scrollbar-hide';
 import type { Config } from 'tailwindcss';
 import animate from 'tailwindcss-animate';
+import plugin from 'tailwindcss/plugin';
 
 import base from './base';
 
@@ -77,5 +78,31 @@ export default {
       },
     },
   },
-  plugins: [animate, typography, scrollbar],
+  plugins: [
+    animate,
+    typography,
+    scrollbar,
+    // Fallback for Safari 14
+    plugin(({ addUtilities }) => {
+      const fallbackHeightUtilities = {
+        '@supports not (height: 100dvh)': {
+          '.h-dvh': { height: '100vh' },
+          '.min-h-dvh': { 'min-height': '100vh' },
+          '.max-h-dvh': { 'max-height': '100vh' },
+        },
+        '@supports not (height: 100lvh)': {
+          '.h-lvh': { height: '100vh' },
+          '.min-h-lvh': { 'min-height': '100vh' },
+          '.max-h-lvh': { 'max-height': '100vh' },
+        },
+        '@supports not (height: 100svh)': {
+          '.h-svh': { height: '100vh' },
+          '.min-h-svh': { 'min-height': '100vh' },
+          '.max-h-svh': { 'max-height': '100vh' },
+        },
+      };
+
+      addUtilities(fallbackHeightUtilities);
+    }),
+  ],
 } satisfies Config;

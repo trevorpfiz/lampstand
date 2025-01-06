@@ -22,11 +22,7 @@ import type {
 
 export function renderChapter(chap: IRChapter) {
   return (
-    <div
-      data-reference={chap.chapterId}
-      data-ref-type="chapter"
-      style={{ marginBottom: '2rem' }}
-    >
+    <div data-reference={chap.chapterId} data-ref-type="chapter">
       {chap.elements.map((el, idx) => {
         switch (el.type) {
           case 'book_title':

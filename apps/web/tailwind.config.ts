@@ -17,6 +17,7 @@ export default {
       fontFamily: {
         sans: ['var(--font-geist-sans)', ...fontFamily.sans],
         mono: ['var(--font-geist-mono)', ...fontFamily.mono],
+        'source-sans': ['var(--font-source-sans-3)', ...fontFamily.sans],
       },
       screens: {
         'main-hover': {

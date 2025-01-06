@@ -4,7 +4,7 @@ import { Container, Section } from '~/components/craft';
 import ChatDemo from '~/public/images/chat-demo-305.png';
 import NotesDemo from '~/public/images/notes-demo-447.png';
 import ReaderDemo from '~/public/images/reader-demo-slim-cropped.jpg';
-import VerseDemo from '~/public/images/verse-demo.png';
+import VerseDemo from '~/public/images/verse-demo-4x.png';
 
 // 1. Chat with AI
 // 2. Immediately navigate to verses
@@ -58,7 +58,7 @@ function Features() {
                   Find verses quickly, and navigate to them right away.
                 </p>
               </div>
-              <div className="flex flex-1 items-center justify-center px-8">
+              <div className="flex flex-1 items-center justify-center px-8 pt-4 pb-2 sm:pt-0 sm:pb-0">
                 <Image
                   src={VerseDemo}
                   alt="Verse navigation demo"

@@ -8,7 +8,7 @@ export default function Loading() {
   return (
     <SidebarProvider defaultOpen={false}>
       <AppSidebar />
-      <SidebarInset className="h-screen">
+      <SidebarInset className="h-dvh">
         <AppHeader />
         <div className="flex flex-1 items-center justify-center">
           <div className="flex flex-1 items-center justify-center overflow-hidden">

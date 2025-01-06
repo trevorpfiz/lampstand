@@ -65,17 +65,19 @@ export function ChatMessages({
         {!isLoading &&
           !showWatermark &&
           messages.map((message, index) => (
-            <div key={index} className="flex flex-col gap-1">
-              <div className="flex items-center gap-2 text-muted-foreground text-sm">
+            <div key={index} className="flex flex-col gap-1 text-sm">
+              <div className="flex items-center gap-2 text-muted-foreground">
                 <div
                   className={cn(
                     'h-2 w-2 rounded-full',
                     message.role === 'user' ? 'bg-blue-500' : 'bg-orange-500'
                   )}
                 />
-                <span>{message.role === 'user' ? 'You' : 'Lampstand'}</span>
+                <span className="text-sm">
+                  {message.role === 'user' ? 'You' : 'Lampstand'}
+                </span>
               </div>
-              <div className="flex flex-col gap-4 px-4 py-0 text-sm">
+              <div className="flex flex-col gap-4 px-4 py-0">
                 {message.role === 'user' ? (
                   <SimpleMarkdown>{message.content}</SimpleMarkdown>
                 ) : (

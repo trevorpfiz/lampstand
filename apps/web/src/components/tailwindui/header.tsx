@@ -103,7 +103,7 @@ export default function Header() {
           className="lg:hidden"
         >
           <div className="fixed inset-0 z-20" />
-          <DialogPanel className="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-background px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <DialogPanel className="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-background px-6 py-5 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <Link
                 href="/"

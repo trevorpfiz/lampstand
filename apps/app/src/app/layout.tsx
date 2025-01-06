@@ -31,7 +31,7 @@ export const viewport: Viewport = {
 export default function RootLayout(props: { children: ReactNode }) {
   return (
     <html lang="en" className={fonts} suppressHydrationWarning>
-      <body className="h-screen w-full bg-background text-foreground">
+      <body className="h-dvh w-full bg-background text-foreground">
         <DesignSystemProvider>
           <TRPCReactProvider>
             <NuqsAdapter>{props.children}</NuqsAdapter>

@@ -19,7 +19,9 @@ type FAQItem = {
 const content: FAQItem[] = [
   {
     question: 'What is Lampstand?',
-    answer: ['Lampstand is an AI-powered Bible study platform that helps '],
+    answer: [
+      'Lampstand is an AI-powered Bible study platform that helps you quickly grow in your understanding of the Word so you can better share the gospel with others.',
+    ],
   },
   {
     question: 'Is there a free trial?',
@@ -44,7 +46,7 @@ const content: FAQItem[] = [
   {
     question: 'What is your refund policy?',
     answer: [
-      'We offer a 7-day grace period from the date of your first payment. To request a refund, send us a message at support@lampstand.com.',
+      'We offer a 7-day grace period from the date of your first payment. To request a refund, send us a message at team@lampstand.com.',
     ],
   },
   {

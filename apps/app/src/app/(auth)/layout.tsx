@@ -19,8 +19,8 @@ export default async function AuthLayout({
   }
 
   return (
-    <div className="relative flex min-h-screen flex-col items-center overflow-hidden bg-background px-4 py-6">
-      <div className="absolute top-8 left-8">
+    <div className="relative flex min-h-dvh flex-col items-center overflow-hidden bg-background px-4 py-6">
+      <div className="absolute top-8 left-8 z-10">
         <Button asChild className="group" variant="ghost">
           <Link href={webUrl ?? '/'}>
             <ArrowLeft
