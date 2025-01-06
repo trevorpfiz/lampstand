@@ -26,11 +26,12 @@
     --accent-foreground: 240 5.9% 10%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 0 0% 100%;
 
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 240 10% 3.9%;
+    /* --input: 240 4.9% 83.9%; */
+    --ring: 240 5% 64.9%;
 
     --radius: 0.5rem;
 
@@ -72,12 +73,12 @@
     --accent: 240 3.7% 15.9%;
     --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
 
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
+    --ring: 240 3.8% 46.1%;
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
@@ -111,7 +112,7 @@
     --accent: 240 4.8% 95.9%;
     --accent-foreground: 240 5.9% 10%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 0 0% 100%;
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
     --ring: 240 10% 3.9%;
@@ -124,7 +125,8 @@
     --brand: 217.2 91.2% 59.8%;
     --highlight: 47.9 95.8% 53.1%;
   }
-  [data-registry="plate"].dark {
+
+  .dark [data-registry="plate"] {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
     --card: 240 10% 3.9%;
@@ -139,8 +141,8 @@
     --muted-foreground: 240 5% 64.9%;
     --accent: 240 3.7% 15.9%;
     --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
@@ -234,14 +236,14 @@
   }
   /* biome-ignore lint/nursery/noUnknownPseudoClass: <explanation> */
   .default-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: color-mix(in hsl, hsl(var(--border)), black 20%);
+    background: color-mix(in hsl, hsl(var(--border)), hsl(var(--foreground)) 20%);
   }
   .default-scrollbar {
     scrollbar-width: auto;
     scrollbar-color: hsl(var(--border)) transparent;
   }
   .default-scrollbar:hover {
-    scrollbar-color: color-mix(in hsl, hsl(var(--border)), black 10%)
+    scrollbar-color: color-mix(in hsl, hsl(var(--border)), hsl(var(--foreground)) 10%)
       transparent;
   }
 }

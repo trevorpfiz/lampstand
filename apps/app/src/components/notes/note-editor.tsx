@@ -149,7 +149,7 @@ export function NoteEditor(props: NoteEditorProps) {
       </div>
 
       {/* Body */}
-      <div className="flex-1 overflow-auto" data-registry="plate">
+      <div className="flex-1 overflow-auto bg-background">
         {isPending ? (
           <div className="flex h-full items-center justify-center">
             <Spinner />
@@ -168,7 +168,7 @@ export function NoteEditor(props: NoteEditorProps) {
             </div>
 
             {/* Editable content */}
-            <div className="flex-1 pt-2">
+            <div className="flex-1 pt-2" data-registry="plate">
               <PlateEditor
                 initialContent={data?.note?.content}
                 onChange={handleBodyChange}

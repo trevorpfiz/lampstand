@@ -38,12 +38,16 @@ export default function Header() {
         )}
       >
         <nav aria-label="Global" className="flex items-center justify-between">
-          <Link href="/" className="-m-1.5 p-1.5">
+          <Link
+            href="/"
+            className="-m-1.5 p-1.5"
+            onClick={() => setMobileMenuOpen(false)}
+          >
             <span className="sr-only">Lampstand</span>
             <Image
               alt="Lampstand"
               src={LogoFull}
-              className="h-6 w-auto"
+              className="h-6 w-auto dark:invert"
               priority
             />
           </Link>
@@ -101,7 +105,11 @@ export default function Header() {
           <div className="fixed inset-0 z-20" />
           <DialogPanel className="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-background px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <Link href="/" className="-m-1.5 p-1.5">
+              <Link
+                href="/"
+                className="-m-1.5 p-1.5"
+                onClick={() => setMobileMenuOpen(false)}
+              >
                 <span className="sr-only">Lampstand</span>
                 <Image alt="Lampstand" src={LogoFull} className="h-6 w-auto" />
               </Link>
@@ -123,6 +131,7 @@ export default function Header() {
                       asChild
                       key={item.name}
                       className="-mx-3 rounded-lg px-3 py-2 font-semibold text-base/7"
+                      onClick={() => setMobileMenuOpen(false)}
                     >
                       <Link href={item.href}>{item.name}</Link>
                     </Button>

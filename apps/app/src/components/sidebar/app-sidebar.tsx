@@ -53,7 +53,7 @@ export function AppSidebar(props: React.ComponentProps<typeof Sidebar>) {
                 <Image
                   src={LogoFull}
                   alt="Lampstand"
-                  className="h-6 w-auto"
+                  className="h-6 w-auto dark:invert"
                   priority
                 />
               </div>
