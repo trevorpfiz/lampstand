@@ -17,6 +17,7 @@ export const env = createEnv({
     POSTGRES_URL: z.string().min(1).url(),
     ANALYZE: z.string().optional(),
     OPENAI_API_KEY: z.string().min(1).startsWith('sk-').optional(),
+    GEMINI_API_KEY: z.string().min(1).optional(),
     STRIPE_SECRET_KEY: z.string().min(1).startsWith('sk_'),
     STRIPE_WEBHOOK_SECRET: z.string().min(1).startsWith('whsec_').optional(),
     RESEND_TOKEN: z.string().min(1).startsWith('re_'),

@@ -22,6 +22,7 @@ import {
 } from '@lamp/ui/components/tooltip';
 import { handleError } from '@lamp/ui/lib/utils';
 
+import Link from 'next/link';
 import { NavFooter } from '~/components/sidebar/nav-footer';
 import { NavMain } from '~/components/sidebar/nav-main';
 import {
@@ -50,12 +51,14 @@ export function AppSidebar(props: React.ComponentProps<typeof Sidebar>) {
           <SidebarMenuItem>
             <div className="flex w-full items-center justify-between">
               <div className="flex flex-col gap-0.5 pl-2 leading-none">
-                <Image
-                  src={LogoFull}
-                  alt="Lampstand"
-                  className="h-6 w-auto dark:invert"
-                  priority
-                />
+                <Link href="/">
+                  <Image
+                    src={LogoFull}
+                    alt="Lampstand"
+                    className="h-6 w-auto dark:invert"
+                    priority
+                  />
+                </Link>
               </div>
 
               <Tooltip>

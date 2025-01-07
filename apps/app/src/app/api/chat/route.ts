@@ -158,7 +158,7 @@ export async function POST(req: Request) {
 
   // 9. Stream the text; onFinish to do cost usage + analytics + usage increment
   const result = streamText({
-    model: customModel(model.apiIdentifier),
+    model: customModel(model.id),
     system: systemPrompt,
     messages: coreMessages,
     maxSteps: 5,
@@ -197,7 +197,7 @@ export async function POST(req: Request) {
           event: 'chat_completion',
           distinctId: user.id,
           properties: {
-            model: model.apiIdentifier,
+            model: model.id,
             prompt: userMessageContent,
             prompt_tokens: usage.promptTokens,
             completion_tokens: usage.completionTokens,

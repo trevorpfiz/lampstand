@@ -2,6 +2,7 @@
 
 import { Check, Info, Sparkles } from 'lucide-react';
 import Link from 'next/link';
+import type React from 'react';
 import { useState } from 'react';
 
 import type { ProductWithDetails } from '@lamp/db/schema';
@@ -24,6 +25,45 @@ import { cn } from '@lamp/ui/lib/utils';
 import { useTheme } from '@lamp/ui/providers/theme';
 
 import { appUrl } from '~/lib/constants';
+
+const Tip = ({
+  content,
+  children,
+  className,
+}: React.PropsWithChildren<{
+  content: string | React.ReactNode;
+  className?: string;
+}>) => {
+  const [open, setOpen] = useState(false);
+  const { resolvedTheme } = useTheme();
+
+  return (
+    <Tooltip open={open}>
+      <TooltipTrigger asChild>
+        <button
+          type="button"
+          className={cn('cursor-pointer', className)}
+          onClick={() => setOpen(!open)}
+          onMouseEnter={() => setOpen(true)}
+          onMouseLeave={() => setOpen(false)}
+          onTouchStart={() => setOpen(!open)}
+          onKeyDown={(e) => {
+            e.preventDefault();
+            e.key === 'Enter' && setOpen(!open);
+          }}
+        >
+          {children}
+        </button>
+      </TooltipTrigger>
+      <TooltipContent
+        showArrow={true}
+        className={cn('', resolvedTheme === 'light' && 'dark')}
+      >
+        <p className="text-sm">{content}</p>
+      </TooltipContent>
+    </Tooltip>
+  );
+};
 
 export default function PricingTables(props: {
   products: ProductWithDetails[];
@@ -219,20 +259,12 @@ export default function PricingTables(props: {
                       </div>
 
                       {feature.tooltip && (
-                        <Tooltip>
-                          <TooltipTrigger>
-                            <Info className="h-4 w-4 text-muted-foreground opacity-60" />
-                          </TooltipTrigger>
-                          <TooltipContent
-                            showArrow={true}
-                            className={cn(
-                              '',
-                              resolvedTheme === 'light' && 'dark'
-                            )}
-                          >
-                            <p className="text-sm">{feature.tooltip}</p>
-                          </TooltipContent>
-                        </Tooltip>
+                        <Tip
+                          content={feature.tooltip}
+                          className="text-muted-foreground opacity-60"
+                        >
+                          <Info className="h-4 w-4" />
+                        </Tip>
                       )}
                     </li>
                   ))}

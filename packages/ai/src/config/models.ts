@@ -1,7 +1,7 @@
 // @link https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
 
 export interface Model {
-  id: 'gpt-4o-mini' | 'gpt-4o';
+  id: 'openai:gpt-4o-mini' | 'openai:gpt-4o' | 'google:gemini-2.0-flash-exp';
   label: string;
   apiIdentifier: string;
   description: string;
@@ -22,11 +22,18 @@ export interface Model {
   supportsVision: boolean;
   supportsPromptCaching: boolean;
   supportsSystemMessages: boolean;
+  supportsAudioOutput?: boolean;
+  maxImagesPerPrompt?: number;
+  maxVideosPerPrompt?: number;
+  maxVideoLength?: number;
+  maxAudioLengthHours?: number;
+  maxAudioPerPrompt?: number;
+  maxPdfSizeMb?: number;
 }
 
 export const models: Model[] = [
   {
-    id: 'gpt-4o-mini',
+    id: 'openai:gpt-4o-mini',
     label: 'GPT-4o mini',
     apiIdentifier: 'gpt-4o-mini',
     description: 'Small model for fast, lightweight tasks',
@@ -49,7 +56,7 @@ export const models: Model[] = [
     supportsSystemMessages: true,
   },
   {
-    id: 'gpt-4o',
+    id: 'openai:gpt-4o',
     label: 'GPT-4o',
     apiIdentifier: 'gpt-4o',
     description: 'For complex, multi-step tasks',
@@ -71,8 +78,38 @@ export const models: Model[] = [
     supportsPromptCaching: true,
     supportsSystemMessages: true,
   },
+  // {
+  //   id: 'google:gemini-2.0-flash-exp',
+  //   label: 'Gemini 2.0 Flash',
+  //   apiIdentifier: 'gemini-2.0-flash-exp',
+  //   description: 'Fast, efficient model with multimodal capabilities',
+  //   premium: false,
+  //   maxTokens: 8192,
+  //   maxInputTokens: 1048576,
+  //   maxOutputTokens: 8192,
+  //   inputCostPerToken: 0,
+  //   outputCostPerToken: 0,
+  //   inputCostPerTokenBatches: 0,
+  //   outputCostPerTokenBatches: 0,
+  //   cacheReadInputTokenCost: 0,
+  //   litellmProvider: 'vertex_ai-language-models',
+  //   mode: 'chat',
+  //   supportsFunctionCalling: true,
+  //   supportsParallelFunctionCalling: false,
+  //   supportsResponseSchema: true,
+  //   supportsVision: true,
+  //   supportsPromptCaching: false,
+  //   supportsSystemMessages: true,
+  //   supportsAudioOutput: true,
+  //   maxImagesPerPrompt: 3000,
+  //   maxVideosPerPrompt: 10,
+  //   maxVideoLength: 1,
+  //   maxAudioLengthHours: 8.4,
+  //   maxAudioPerPrompt: 1,
+  //   maxPdfSizeMb: 30,
+  // },
 ] as const;
 
-export const DEFAULT_MODEL_NAME = 'gpt-4o-mini';
+export const DEFAULT_MODEL_NAME = 'openai:gpt-4o-mini';
 export const FREE_USAGE_LIMIT = 15;
 export const PREMIUM_USAGE_LIMIT = 5;
