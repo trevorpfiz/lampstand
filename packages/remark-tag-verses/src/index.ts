@@ -50,8 +50,6 @@ export function remarkBibleReferences(
       let match: RegExpExecArray | null;
       match = referenceRegex.exec(oldText);
 
-      console.log('match', match);
-
       while (match !== null) {
         const matchedText = match[0];
         const matchIndex = match.index;
@@ -66,8 +64,6 @@ export function remarkBibleReferences(
 
         // Attempt to parse the reference
         const refData = parseReadableReference(matchedText);
-
-        console.log('refData', refData);
 
         if (refData) {
           // Insert a text node for the matched text itself
@@ -89,8 +85,6 @@ export function remarkBibleReferences(
               },
             ],
           };
-
-          console.log('linkNode', linkNode);
 
           newNodes.push(linkNode as Node);
         } else {

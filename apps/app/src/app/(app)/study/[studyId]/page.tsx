@@ -1,30 +1,22 @@
+import { Spinner } from '@lamp/ui/components/spinner';
 import { Suspense } from 'react';
 
-import { BibleViewerClient } from '~/components/bible/bible-viewer-client';
-import { getParsedChapters } from '~/utils/bible/server-bible';
+import { BibleReaderWrapper } from '~/components/bible/bible-reader-wrapper';
 
 export default function StudyPage() {
-  // Pre-fetch parsed bible chapters on the server
-  const fullChapters = getParsedChapters();
-
   return (
     <main className="h-full">
-      <Suspense fallback={<BibleViewerSkeleton />}>
-        <BibleViewerClient chapters={fullChapters} />
+      <Suspense fallback={<BibleReaderSkeleton />}>
+        <BibleReaderWrapper />
       </Suspense>
     </main>
   );
 }
 
-// A simple skeleton that resembles the structure of BibleViewer
-function BibleViewerSkeleton() {
+function BibleReaderSkeleton() {
   return (
-    <div className="flex h-full flex-col">
-      <div className="mb-4 h-10 bg-muted" />{' '}
-      {/* Placeholder for VerseNavigationBar */}
-      <div className="flex-1 overflow-auto px-3">
-        <div className="h-full bg-muted" />
-      </div>
+    <div className="flex flex-1 items-center justify-center">
+      <Spinner />
     </div>
   );
 }

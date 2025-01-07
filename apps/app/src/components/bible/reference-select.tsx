@@ -97,6 +97,7 @@ export function ReferenceSelect({ scrollToReference }: ReferenceSelectProps) {
     const refData = parseReferenceId(value);
     if (!refData) return;
     setCurrentReference(refData);
+    console.log('setting current reference', refData);
     scrollToReference(refData);
     setOpen(false);
   };

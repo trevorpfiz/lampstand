@@ -9,23 +9,17 @@ interface UseScrollToReferenceProps {
   chapters: SlimChapter[];
   virtualizer?: Virtualizer<HTMLDivElement, Element> | null;
   containerRef: RefObject<HTMLDivElement | null> | null;
-  setInitialScrollDone?: (done: boolean) => void;
 }
 
 export function useScrollToReference({
   chapters,
   virtualizer,
   containerRef,
-  setInitialScrollDone,
 }: UseScrollToReferenceProps) {
   const scrollToReference = useCallback(
-    (ref: ReferenceData, initial?: boolean) => {
+    (ref: ReferenceData) => {
       // We must have a chapter to do anything. If no chapter, maybe scroll to the first?
       if (!ref.chapter) {
-        // If no chapter, maybe we do nothing or just scroll to index 0.
-        if (initial && setInitialScrollDone) {
-          setInitialScrollDone(true);
-        }
         return;
       }
 
@@ -35,10 +29,6 @@ export function useScrollToReference({
         return matches;
       });
       if (chapterIndex < 0) {
-        // Not found
-        if (initial && setInitialScrollDone) {
-          setInitialScrollDone(true);
-        }
         return;
       }
 
@@ -65,12 +55,8 @@ export function useScrollToReference({
           containerRef.current.scrollTo({ top: offset, behavior: 'smooth' });
         }
       }, 200);
-
-      if (initial && setInitialScrollDone) {
-        setInitialScrollDone(true);
-      }
     },
-    [chapters, setInitialScrollDone, virtualizer, containerRef]
+    [chapters, virtualizer, containerRef]
   );
 
   return scrollToReference;

@@ -14,6 +14,7 @@ const appSpecificConfig: NextConfig = {
   reactStrictMode: true,
   experimental: {
     taint: true,
+    // dynamicIO: true,
   },
 
   /** Enables hot reloading for local packages without a build step */

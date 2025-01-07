@@ -9,14 +9,17 @@ import { type ReferenceData, parseReferenceId } from '~/utils/bible/reference';
 
 interface UseVerseTrackingProps {
   containerRef: RefObject<HTMLDivElement | null>;
+  shouldUpdateStore?: boolean;
 }
 
-export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
+export function useVerseTracking({
+  containerRef,
+  shouldUpdateStore = true,
+}: UseVerseTrackingProps) {
   const setCurrentReference = useBibleStore(
     (state) => state.setCurrentReference
   );
   const isHydrated = useLayoutStore((state) => state.isHydrated);
-  const initialScrollDone = useLayoutStore((state) => state.initialScrollDone);
 
   const [lastVisibleReference, setLastVisibleReference] =
     useState<ReferenceData | null>(null);
@@ -27,10 +30,10 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
    * update the currentReference in the store.
    */
   useEffect(() => {
-    if (debouncedReference && isHydrated && initialScrollDone) {
+    if (debouncedReference && isHydrated && shouldUpdateStore) {
       setCurrentReference(debouncedReference);
     }
-  }, [debouncedReference, setCurrentReference, isHydrated, initialScrollDone]);
+  }, [debouncedReference, setCurrentReference, isHydrated, shouldUpdateStore]);
 
   /**
    * Called on scroll (or mount) to figure out which verse is at the top.
@@ -38,7 +41,7 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
    */
   const updateCurrentReference = useCallback(() => {
     const container = containerRef.current;
-    if (!container || !isHydrated || !initialScrollDone) {
+    if (!container || !isHydrated) {
       return;
     }
 
@@ -75,7 +78,7 @@ export function useVerseTracking({ containerRef }: UseVerseTrackingProps) {
     if (JSON.stringify(lastVisibleReference) !== JSON.stringify(newRef)) {
       setLastVisibleReference(newRef);
     }
-  }, [containerRef, isHydrated, initialScrollDone, lastVisibleReference]);
+  }, [containerRef, isHydrated, lastVisibleReference]);
 
   useEffect(() => {
     const container = containerRef.current;

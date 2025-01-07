@@ -3,37 +3,34 @@
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { useEffect, useLayoutEffect, useRef } from 'react';
 
-import { VerseNavigationBar } from '~/components/bible/verse-navigation-bar';
 import { useScrollToReference } from '~/hooks/use-scroll-to-reference';
 import { useVerseTracking } from '~/hooks/use-verse-tracking';
-import { useBibleStore } from '~/providers/bible-store-provider';
 import { useBibleViewerStore } from '~/providers/bible-viewer-store-provider';
 import { useLayoutStore } from '~/providers/layout-store-provider';
 import type { IRChapter } from '~/types/bible';
 import { renderChapter } from '~/utils/bible/formatting-assembly';
 import {
+  type ReferenceData,
   formatReference,
   formatReferenceForCopy,
   parseReferenceId,
 } from '~/utils/bible/reference';
 
-interface BibleViewerClientProps {
+interface BibleReaderProps {
   chapters: IRChapter[];
+  currentReference: ReferenceData;
 }
 
-function BibleViewerClient({ chapters }: BibleViewerClientProps) {
+export function BibleReader({ chapters, currentReference }: BibleReaderProps) {
   const parentRef = useRef<HTMLDivElement>(null);
-  const currentReference = useBibleStore((state) => state.currentReference);
+  const initialScrollRef = useRef(false);
+
   const setContainerRef = useBibleViewerStore((state) => state.setContainerRef);
   const setVirtualizer = useBibleViewerStore((state) => state.setVirtualizer);
   const setSlimChapters = useBibleViewerStore((state) => state.setChapters);
   const slimChapters = useBibleViewerStore((state) => state.chapters);
 
   const isHydrated = useLayoutStore((state) => state.isHydrated);
-  const initialScrollDone = useLayoutStore((state) => state.initialScrollDone);
-  const setInitialScrollDone = useLayoutStore(
-    (state) => state.setInitialScrollDone
-  );
 
   // Create slim version for virtualization and set in store once
   useEffect(() => {
@@ -55,29 +52,32 @@ function BibleViewerClient({ chapters }: BibleViewerClientProps) {
 
   // Store refs in global store
   useEffect(() => {
-    console.log('setting refs in global store');
     setContainerRef(parentRef);
     setVirtualizer(virtualizer);
   }, [setContainerRef, setVirtualizer, virtualizer]);
 
-  useVerseTracking({ containerRef: parentRef });
+  useVerseTracking({
+    containerRef: parentRef,
+    shouldUpdateStore: initialScrollRef.current, // Only update store after initial scroll
+  });
 
   const scrollToReference = useScrollToReference({
     chapters: slimChapters,
     virtualizer,
     containerRef: parentRef,
-    setInitialScrollDone,
   });
 
-  // Perform initial scroll after hydration and only if not done already
+  // Perform initial scroll after hydration
   useLayoutEffect(() => {
-    if (initialScrollDone || !isHydrated) {
+    if (!isHydrated || initialScrollRef.current) {
       return;
     }
+
     requestAnimationFrame(() => {
-      scrollToReference(currentReference, true);
+      scrollToReference(currentReference);
+      initialScrollRef.current = true;
     });
-  }, [currentReference, initialScrollDone, isHydrated, scrollToReference]);
+  }, [currentReference, isHydrated, scrollToReference]);
 
   useEffect(() => {
     const handleCopy = (e: ClipboardEvent) => {
@@ -213,51 +213,46 @@ function BibleViewerClient({ chapters }: BibleViewerClientProps) {
   const virtualItems = virtualizer.getVirtualItems();
 
   return (
-    <div className="flex h-full flex-col">
-      <VerseNavigationBar scrollToReference={scrollToReference} />
+    <div
+      ref={parentRef}
+      className="default-scrollbar flex-1 overflow-auto px-3 pb-28"
+      style={{ contain: 'strict' }}
+    >
       <div
-        ref={parentRef}
-        className="default-scrollbar flex-1 overflow-auto px-3 pb-28"
-        style={{ contain: 'strict' }}
+        style={{
+          position: 'relative',
+          height: virtualizer.getTotalSize(),
+          width: '100%',
+        }}
       >
         <div
           style={{
-            position: 'relative',
-            height: virtualizer.getTotalSize(),
+            position: 'absolute',
+            top: 0,
+            left: 0,
             width: '100%',
+            transform: `translateY(${virtualItems[0]?.start ?? 0}px)`,
           }}
         >
-          <div
-            style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              transform: `translateY(${virtualItems[0]?.start ?? 0}px)`,
-            }}
-          >
-            {virtualItems.map((virtualRow) => {
-              const chapter = chapters[virtualRow.index];
-              if (!chapter) {
-                return null;
-              }
+          {virtualItems.map((virtualRow) => {
+            const chapter = chapters[virtualRow.index];
+            if (!chapter) {
+              return null;
+            }
 
-              return (
-                <div
-                  key={virtualRow.key}
-                  data-index={virtualRow.index}
-                  ref={virtualizer.measureElement}
-                  className="p-2 font-source-sans"
-                >
-                  {renderChapter(chapter)}
-                </div>
-              );
-            })}
-          </div>
+            return (
+              <div
+                key={virtualRow.key}
+                data-index={virtualRow.index}
+                ref={virtualizer.measureElement}
+                className="p-2 font-source-sans"
+              >
+                {renderChapter(chapter)}
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
   );
 }
-
-export { BibleViewerClient };

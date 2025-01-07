@@ -2,15 +2,20 @@
 
 import { BibleSelect } from '~/components/bible/bible-select';
 import { ReferenceSelect } from '~/components/bible/reference-select';
-import type { ReferenceData } from '~/utils/bible/reference';
+import { useScrollToReference } from '~/hooks/use-scroll-to-reference';
+import { useBibleViewerStore } from '~/providers/bible-viewer-store-provider';
 
-interface VerseNavigationBarProps {
-  scrollToReference: (reference: ReferenceData) => void;
-}
+export function VerseNavigationBar() {
+  const containerRef = useBibleViewerStore((state) => state.containerRef);
+  const virtualizer = useBibleViewerStore((state) => state.virtualizer);
+  const chapters = useBibleViewerStore((state) => state.chapters);
 
-export function VerseNavigationBar({
-  scrollToReference,
-}: VerseNavigationBarProps) {
+  const scrollToReference = useScrollToReference({
+    chapters,
+    virtualizer,
+    containerRef,
+  });
+
   return (
     <div className="flex items-center gap-2 border-gray-200 border-b p-2">
       <div className="w-16">
