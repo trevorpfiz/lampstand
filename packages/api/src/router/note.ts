@@ -44,6 +44,12 @@ export const noteRouter = {
     const { db, user } = ctx;
 
     const notes = await db.query.Note.findMany({
+      columns: {
+        id: true,
+        title: true,
+        createdAt: true,
+        updatedAt: true,
+      },
       where: eq(Note.profileId, user.id),
       orderBy: desc(Note.createdAt),
     });

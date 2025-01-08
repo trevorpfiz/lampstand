@@ -27,16 +27,15 @@ export function NotesList(props: NotesListProps) {
   const utils = api.useUtils();
 
   // Query notes with initialData from server
-  const { data: notesData } = api.note.byStudy.useQuery(
-    { studyId },
-    { initialData: { notes: initialNotes } }
-  );
+  const { data: notesData } = api.note.byUser.useQuery(undefined, {
+    initialData: { notes: initialNotes },
+  });
 
   // Create note mutation
   const createNoteMutation = api.note.create.useMutation({
     onSuccess: (data) => {
       if (data.note) {
-        utils.note.byStudy.invalidate({ studyId });
+        utils.note.byUser.invalidate();
       }
     },
     onError: (error) => {

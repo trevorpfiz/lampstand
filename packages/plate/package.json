@@ -14,7 +14,7 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^1.0.14",
+    "@ai-sdk/openai": "^1.0.15",
     "@ariakit/react": "^0.4.15",
     "@faker-js/faker": "^9.3.0",
     "@hookform/resolvers": "^3.9.1",

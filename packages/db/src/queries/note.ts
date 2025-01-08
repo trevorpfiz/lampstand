@@ -45,6 +45,12 @@ export async function getNoteById({
 
 export async function getNotesByUserId({ id }: { id: ProfileId }) {
   const notes = await db.query.Note.findMany({
+    columns: {
+      id: true,
+      title: true,
+      createdAt: true,
+      updatedAt: true,
+    },
     where: eq(Note.profileId, id),
     orderBy: desc(Note.createdAt),
   });

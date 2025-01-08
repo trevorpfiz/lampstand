@@ -44,7 +44,7 @@ export function NoteEditor(props: NoteEditorProps) {
   const renameMutation = api.note.rename.useMutation({
     onSuccess: () => {
       utils.note.byId.invalidate({ id: noteId });
-      utils.note.byStudy.invalidate();
+      utils.note.byUser.invalidate();
     },
     onError: (error) => {
       handleError(error);
@@ -83,7 +83,7 @@ export function NoteEditor(props: NoteEditorProps) {
   // Delete note mutation
   const deleteNoteMutation = api.note.delete.useMutation({
     onSuccess: () => {
-      utils.note.byStudy.invalidate();
+      utils.note.byUser.invalidate();
       onBack();
     },
     onError: (error) => {

@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@ai-sdk/google": "^1.0.13",
-    "@ai-sdk/openai": "^1.0.14",
+    "@ai-sdk/openai": "^1.0.15",
     "@lamp/env": "workspace:*",
     "@lamp/logger": "workspace:*",
     "ai": "catalog:",

@@ -19,7 +19,7 @@ export const Note = createTable(
     studyId: t
       .uuid()
       .notNull()
-      .references(() => Study.id, { onDelete: 'cascade' }),
+      .references(() => Study.id),
     title: t.varchar({ length: 256 }).notNull().default(''),
     content: t.jsonb().notNull().default(sql`'[]'::jsonb`), // Storing the Slate/Markdown content here
 

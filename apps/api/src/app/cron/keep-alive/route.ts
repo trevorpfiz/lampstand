@@ -10,7 +10,7 @@ function generateUUID(): string {
   });
 }
 
-export const POST = async () => {
+export const GET = async () => {
   const [newProfile] = await db
     .insert(Profile)
     .values({

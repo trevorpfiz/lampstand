@@ -66,14 +66,15 @@ function addToolMessageToChat({
 export function convertToUIMessages(messages: DBMessage[]): Message[] {
   return messages.reduce((chatMessages: Message[], message) => {
     if (message.role === 'tool') {
+      const toolMessage = message as unknown as CoreToolMessage;
       return addToolMessageToChat({
-        toolMessage: message as CoreToolMessage,
+        toolMessage,
         messages: chatMessages,
       });
     }
 
     let textContent = '';
-    const toolInvocations: ToolInvocation[] = [];
+    let toolInvocations: ToolInvocation[] | undefined;
 
     if (typeof message.content === 'string') {
       textContent = message.content;
@@ -82,6 +83,9 @@ export function convertToUIMessages(messages: DBMessage[]): Message[] {
         if (content.type === 'text') {
           textContent += content.text;
         } else if (content.type === 'tool-call') {
+          if (!toolInvocations) {
+            toolInvocations = [];
+          }
           toolInvocations.push({
             state: 'call',
             toolCallId: content.toolCallId,
@@ -96,7 +100,7 @@ export function convertToUIMessages(messages: DBMessage[]): Message[] {
       id: message.id,
       role: message.role as Message['role'],
       content: textContent,
-      toolInvocations,
+      ...(toolInvocations ? { toolInvocations } : {}),
     });
 
     return chatMessages;

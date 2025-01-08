@@ -2,7 +2,7 @@ import { db } from '@lamp/db/client';
 import { Profile } from '@lamp/db/schema';
 import { parseError } from '@lamp/observability/error';
 
-export const POST = async () => {
+export const GET = async () => {
   // Set both usage fields back to zero for all users
   try {
     await db.update(Profile).set({

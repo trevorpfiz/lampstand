@@ -3,7 +3,7 @@ import { type ReactNode, cache } from 'react';
 
 import {
   getChatsByStudyId,
-  getNotesByStudyId,
+  getNotesByUserId,
   getStudyById,
 } from '@lamp/db/queries';
 import { getUser } from '@lamp/supabase/queries';
@@ -31,7 +31,7 @@ export default async function StudyLayout({
 
   const studyData = cache(getStudyById)({ studyId, userId: user.id });
   const chatsData = getChatsByStudyId({ studyId, userId: user.id });
-  const notesData = getNotesByStudyId({ studyId, userId: user.id });
+  const notesData = getNotesByUserId({ id: user.id });
 
   const [study, chats, notes] = await Promise.all([
     studyData,

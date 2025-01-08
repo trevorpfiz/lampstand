@@ -162,7 +162,10 @@ export async function POST(req: Request) {
     system: systemPrompt,
     messages: coreMessages,
     maxSteps: 5,
-    experimental_transform: smoothStream(),
+    experimental_transform: smoothStream({
+      delayInMs: 20, // TODO: defaults to 10ms, but not working with useScrollToBottom, is jumping around
+      chunking: 'word',
+    }),
     onFinish: async ({ response, usage }) => {
       try {
         // 9.a) Save assistant messages
@@ -220,7 +223,43 @@ export async function POST(req: Request) {
   });
 
   // 10. Return streaming data
-  return result.toDataStreamResponse({ data: streamingData });
+  return result.toDataStreamResponse({
+    data: streamingData,
+    // getErrorMessage: (error: unknown): string => {
+    //   // Log the full error for debugging
+    //   console.error('Full stream error:', error);
+
+    //   if (error == null) {
+    //     return 'unknown error';
+    //   }
+
+    //   // If it's an object with additional error details, log and return them
+    //   if (typeof error === 'object' && error !== null) {
+    //     const fullError = JSON.stringify(error, null, 2);
+    //     console.error('Detailed error:', fullError);
+
+    //     // If it has a message property, return that
+    //     if ('message' in error && typeof error.message === 'string') {
+    //       return error.message;
+    //     }
+
+    //     // Return the full error string for maximum debugging info
+    //     return fullError;
+    //   }
+
+    //   if (typeof error === 'string') {
+    //     return error;
+    //   }
+
+    //   if (error instanceof Error) {
+    //     // Log the full error object including stack trace
+    //     console.error('Error stack:', error.stack);
+    //     return error.message;
+    //   }
+
+    //   return String(error);
+    // },
+  });
 }
 
 export async function DELETE(request: Request) {

@@ -50,6 +50,13 @@
       "when": 1735587652882,
       "tag": "0006_fair_thena",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1736378618295,
+      "tag": "0007_curvy_talkback",
+      "breakpoints": true
     }
   ]
 }

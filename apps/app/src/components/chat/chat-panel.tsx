@@ -68,7 +68,7 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
       modelId,
       isFreePlan,
     },
-    initialMessages: [],
+    initialMessages: undefined,
     onFinish() {
       utils.message.byChatId.invalidate({
         chatId: selectedChatId ?? '',

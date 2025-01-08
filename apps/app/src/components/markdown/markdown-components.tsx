@@ -17,7 +17,7 @@ export const baseClasses = {
   ol: 'ml-4 list-outside list-decimal',
   ul: 'ml-4 list-outside list-decimal',
   li: 'py-1',
-  strong: 'font-semibold inline-flex',
+  strong: 'font-semibold',
   a: 'text-blue-500 hover:underline',
   h1: 'mb-2 mt-6 text-3xl font-semibold',
   h2: 'mb-2 mt-6 text-2xl font-semibold',
