@@ -3,7 +3,6 @@ import {
   StreamData,
   convertToCoreMessages,
   customModel,
-  smoothStream,
   streamText,
 } from '@lamp/ai';
 import {
@@ -162,10 +161,10 @@ export async function POST(req: Request) {
     system: systemPrompt,
     messages: coreMessages,
     maxSteps: 5,
-    experimental_transform: smoothStream({
-      delayInMs: 20, // TODO: defaults to 10ms, but not working with useScrollToBottom, is jumping around
-      chunking: 'word',
-    }),
+    // experimental_transform: smoothStream({
+    //   delayInMs: 20, // TODO: defaults to 10ms, but not working with useScrollToBottom, is jumping around
+    //   chunking: 'word',
+    // }),
     onFinish: async ({ response, usage }) => {
       try {
         // 9.a) Save assistant messages

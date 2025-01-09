@@ -2,7 +2,7 @@
 
 import { Info, Sparkles } from 'lucide-react';
 
-import { FREE_USAGE_LIMIT, PREMIUM_USAGE_LIMIT } from '@lamp/ai/models';
+import { FREE_USAGE_LIMIT } from '@lamp/ai/models';
 import { Badge } from '@lamp/ui/components/badge';
 import { Button } from '@lamp/ui/components/button';
 import {
@@ -40,8 +40,8 @@ export function UsageStats() {
 
   // Calculate usage percentages
   const usagePercentage = ((profile?.llmUsage || 0) / FREE_USAGE_LIMIT) * 100;
-  const premiumUsagePercentage =
-    ((profile?.premiumLlmUsage || 0) / PREMIUM_USAGE_LIMIT) * 100;
+  // const premiumUsagePercentage =
+  //   ((profile?.premiumLlmUsage || 0) / PREMIUM_USAGE_LIMIT) * 100;
 
   return (
     <Card className="shadow-none">
@@ -100,6 +100,7 @@ export function UsageStats() {
           />
         </div>
 
+        {/* Premium usage stats temporarily removed
         <div className="space-y-2">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -141,6 +142,7 @@ export function UsageStats() {
             )}
           />
         </div>
+        */}
 
         <Button
           variant="secondary"

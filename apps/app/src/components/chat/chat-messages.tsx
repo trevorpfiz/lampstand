@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { useEffect } from 'react';
 
 import type { Message } from '@lamp/ai';
-import { Markdown as SimpleMarkdown } from '@lamp/ai/components';
 import { Spinner } from '@lamp/ui/components/spinner';
 import { cn } from '@lamp/ui/lib/utils';
 
@@ -79,7 +78,7 @@ export function ChatMessages({
               </div>
               <div className="flex flex-col gap-4 px-4 py-0">
                 {message.role === 'user' ? (
-                  <SimpleMarkdown>{message.content}</SimpleMarkdown>
+                  <div className="whitespace-pre-wrap">{message.content}</div>
                 ) : (
                   <Markdown>{message.content}</Markdown>
                 )}

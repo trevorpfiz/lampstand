@@ -1,7 +1,3 @@
-/* ---------------------------------------------------------------------------
- * A sample “formatting” or “rendering” file
- * --------------------------------------------------------------------------- */
-
 import {
   Tooltip,
   TooltipContent,
@@ -19,6 +15,7 @@ import type {
   ReferenceLine,
   VerseBlock,
 } from '~/types/bible';
+import { formatReference, parseReferenceId } from '~/utils/bible/reference';
 
 export function renderChapter(chap: IRChapter) {
   return (
@@ -136,6 +133,30 @@ const VerseSpan: React.FC<VerseSpanProps> = ({
 }) => {
   const { resolvedTheme } = useTheme();
 
+  // Extract verse text without footnotes
+  const getVerseText = () => {
+    const verseText = verse.parts
+      .map((part) => part.text)
+      .join('')
+      .trim();
+    const ref = parseReferenceId(verse.verseId);
+    if (!ref) {
+      return verseText;
+    }
+    return `${verseText}\n— ${formatReference(ref)}`;
+  };
+
+  // Handle click on verse number
+  const handleVerseClick = (e: React.MouseEvent | React.KeyboardEvent) => {
+    e.preventDefault();
+    const text = getVerseText();
+    // Dispatch custom event that will be handled by ChatPanel
+    const event = new CustomEvent('addVerseToChat', {
+      detail: { text },
+    });
+    window.dispatchEvent(event);
+  };
+
   return (
     <span
       data-reference={verse.verseId}
@@ -144,11 +165,25 @@ const VerseSpan: React.FC<VerseSpanProps> = ({
     >
       {blockType === 'verse_block' &&
         (isFirstVerse ? (
-          <span className="align-middle font-bold text-2xl">
+          // biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
+          <span
+            className="cursor-pointer align-middle font-bold text-2xl hover:text-blue-500"
+            onClick={handleVerseClick}
+            // biome-ignore lint/a11y/useSemanticElements: <explanation>
+            role="button"
+            tabIndex={0}
+          >
             {chapterNumber}{' '}
           </span>
         ) : (
-          <span className="align-text-top font-medium text-[11px]">
+          // biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
+          <span
+            className="cursor-pointer align-text-top font-medium text-[11px] hover:text-blue-500"
+            onClick={handleVerseClick}
+            // biome-ignore lint/a11y/useSemanticElements: <explanation>
+            role="button"
+            tabIndex={0}
+          >
             {verse.verseNumber}{' '}
           </span>
         ))}

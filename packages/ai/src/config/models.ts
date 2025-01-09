@@ -111,5 +111,6 @@ export const models: Model[] = [
 ] as const;
 
 export const DEFAULT_MODEL_NAME = 'google:gemini-2.0-flash-exp';
+export const DEFAULT_NAMING_MODEL = 'google:gemini-2.0-flash-exp';
 export const FREE_USAGE_LIMIT = 15;
 export const PREMIUM_USAGE_LIMIT = 5;

@@ -84,7 +84,7 @@ export function ChatInput({
               type="submit"
               variant="default"
               size="icon"
-              disabled={isLoading || !input.trim()}
+              disabled={isLoading || !input?.trim()}
               className="size-7"
             >
               <ArrowUp size={16} strokeWidth={2.25} />

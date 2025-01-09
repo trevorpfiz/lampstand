@@ -60,6 +60,7 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
     append,
     isLoading,
     stop,
+    setInput,
   } = useChat({
     api: '/api/chat',
     body: {
@@ -93,6 +94,28 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
     selectedChatId,
     setMessages,
   ]);
+
+  // Add event listener for verse clicks
+  useEffect(() => {
+    const handleVerseClick = (e: CustomEvent<{ text: string }>) => {
+      const verseText = e.detail.text;
+      // Use functional update to access latest input state
+      setInput((currentInput) =>
+        currentInput ? `${currentInput}\n${verseText}` : verseText
+      );
+    };
+
+    window.addEventListener(
+      'addVerseToChat',
+      handleVerseClick as EventListener
+    );
+    return () => {
+      window.removeEventListener(
+        'addVerseToChat',
+        handleVerseClick as EventListener
+      );
+    };
+  }, [setInput]); // Only depend on setInput which is stable
 
   const [isToolbarVisible, setIsToolbarVisible] = useState(false);
   const [chatInputHeight, setChatInputHeight] = useState(0);
@@ -210,6 +233,8 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
                 stop={stop}
                 setMessages={setMessages}
                 chatInputHeight={chatInputHeight}
+                input={input}
+                setInput={setInput}
               />
             </AnimatePresence>
             <div ref={chatInputRef} className="rounded-b-xl">

@@ -32,10 +32,6 @@ export const mockPlans: PricingPlan[] = [
         name: '15 AI text generations / day',
       },
       {
-        name: '5 premium AI text generations / day',
-        tooltip: 'GPT-4o is counted as a premium model.',
-      },
-      {
         name: 'Unlimited notes',
       },
     ],
@@ -53,7 +49,7 @@ export const mockPlans: PricingPlan[] = [
         name: 'Unlimited AI text generations',
       },
       {
-        name: 'Unlimited premium AI text generations',
+        name: 'Access to our premium models',
         tooltip: 'GPT-4o is counted as a premium model.',
       },
       {

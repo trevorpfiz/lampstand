@@ -1,15 +1,16 @@
 'use server';
 
+import { flattenValidationErrors } from 'next-safe-action';
 import { cookies } from 'next/headers';
 import { z } from 'zod';
 
 import type { CoreUserMessage } from '@lamp/ai';
 import { customModel, generateText } from '@lamp/ai';
+import { DEFAULT_NAMING_MODEL } from '@lamp/ai/models';
 import { updateChatVisiblityById } from '@lamp/db/queries';
 import { chatIdSchema, chatVisibilitySchema } from '@lamp/db/schema';
 import { createClient } from '@lamp/supabase/server';
 
-import { flattenValidationErrors } from 'next-safe-action';
 import { actionClient } from '~/lib/safe-action';
 
 export const saveModelId = actionClient
@@ -29,7 +30,7 @@ export async function generateTitleFromUserMessage({
   message: CoreUserMessage;
 }) {
   const { text: title } = await generateText({
-    model: customModel('gpt-4o-mini'),
+    model: customModel(DEFAULT_NAMING_MODEL),
     system: `\n
       - you will generate a short title based on the first message a user begins a conversation with
       - ensure it is not more than 80 characters long

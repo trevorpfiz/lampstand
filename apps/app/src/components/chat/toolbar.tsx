@@ -5,8 +5,9 @@ import equal from 'fast-deep-equal';
 import {
   ArrowDownNarrowWide,
   ArrowUp,
-  MessageCircle,
-  PenTool,
+  Languages,
+  Link,
+  MessageSquareText,
   Square,
 } from 'lucide-react';
 import {
@@ -31,7 +32,7 @@ import { cn } from '@lamp/ui/lib/utils';
 import { sanitizeUIMessages } from '~/lib/utils';
 
 interface ToolProps {
-  type: 'final-polish' | 'request-suggestions' | 'adjust-reading-level';
+  type: 'explain' | 'language-analysis' | 'cross-references';
   description: string;
   icon: JSX.Element;
   selectedTool: string | null;
@@ -43,6 +44,8 @@ interface ToolProps {
     message: Message | CreateMessage,
     chatRequestOptions?: ChatRequestOptions
   ) => Promise<string | null | undefined>;
+  input?: string;
+  setInput?: Dispatch<SetStateAction<string>>;
 }
 
 const Tool = ({
@@ -55,6 +58,8 @@ const Tool = ({
   setIsToolbarVisible,
   isAnimating,
   append,
+  input,
+  setInput,
 }: ToolProps) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -70,30 +75,44 @@ const Tool = ({
       return;
     }
 
-    if (!selectedTool) {
-      setIsHovered(true);
-      setSelectedTool(type);
+    if (type === 'explain' || type === 'language-analysis') {
+      if (!selectedTool) {
+        setIsHovered(true);
+        setSelectedTool(type);
+      } else if (selectedTool !== type) {
+        setSelectedTool(type);
+      }
       return;
     }
 
-    if (selectedTool !== type) {
-      setSelectedTool(type);
-    } else if (type === 'final-polish') {
-      append({
-        role: 'user',
-        content:
-          'Please add final polish and check for grammar, add section titles for better structure, and ensure everything reads smoothly.',
-      });
+    if (type === 'cross-references') {
+      if (!selectedTool) {
+        setIsHovered(true);
+        setSelectedTool(type);
+        return;
+      }
 
-      setSelectedTool(null);
-    } else if (type === 'request-suggestions') {
-      append({
-        role: 'user',
-        content:
-          'Please add suggestions you have that could improve the writing.',
-      });
+      if (selectedTool !== type) {
+        setSelectedTool(type);
+        return;
+      }
 
-      setSelectedTool(null);
+      if (selectedTool === type && setInput) {
+        let message = '';
+        if (input?.trim()) {
+          message = `${input.trim()}\n\nWhat are the cross references to this?`;
+        } else {
+          message = 'What are the cross references to this?';
+        }
+
+        append({
+          role: 'user',
+          content: message,
+        });
+
+        setInput('');
+        setSelectedTool(null);
+      }
     }
   };
 
@@ -144,12 +163,14 @@ const Tool = ({
   );
 };
 
-const randomArr = [...new Array(6)].map((_x) => nanoid(5));
+const randomArr = [...new Array(4)].map((_x) => nanoid(5));
 
-const ReadingLevelSelector = ({
+const ExplainLevelSelector = ({
   setSelectedTool,
   append,
   isAnimating,
+  input,
+  setInput,
 }: {
   setSelectedTool: Dispatch<SetStateAction<string | null>>;
   isAnimating: boolean;
@@ -157,27 +178,42 @@ const ReadingLevelSelector = ({
     message: Message | CreateMessage,
     chatRequestOptions?: ChatRequestOptions
   ) => Promise<string | null | undefined>;
+  input?: string;
+  setInput?: Dispatch<SetStateAction<string>>;
 }) => {
+  // Display labels for the UI
   const LEVELS = [
-    'Elementary',
-    'Middle School',
-    'Keep current level',
-    'High School',
-    'College',
-    'Graduate',
+    'In simple terms',
+    'Choose level',
+    'Normally',
+    'In great depth',
   ];
 
-  const y = useMotionValue(-40 * 2);
-  const dragConstraints = 5 * 40 + 2;
-  const yToLevel = useTransform(y, [0, -dragConstraints], [0, 5]);
+  // Corresponding messages for each level
+  const getLevelMessage = (level: number) => {
+    switch (level) {
+      case 0: // In simple terms
+        return 'Please explain this in simple terms.';
+      case 2: // Normally
+        return 'Please explain this.';
+      case 3: // In great depth
+        return 'Please explain this in great depth.';
+      default:
+        return '';
+    }
+  };
 
-  const [currentLevel, setCurrentLevel] = useState(2);
+  const y = useMotionValue(-40);
+  const dragConstraints = 3 * 40 + 2;
+  const yToLevel = useTransform(y, [0, -dragConstraints], [0, 3]);
+
+  const [currentLevel, setCurrentLevel] = useState(1);
   const [hasUserSelectedLevel, setHasUserSelectedLevel] =
     useState<boolean>(false);
 
   useEffect(() => {
     const unsubscribe = yToLevel.on('change', (latest) => {
-      const level = Math.min(5, Math.max(0, Math.round(Math.abs(latest))));
+      const level = Math.min(3, Math.max(0, Math.round(Math.abs(latest))));
       setCurrentLevel(level);
     });
 
@@ -206,8 +242,8 @@ const ReadingLevelSelector = ({
               className={cn(
                 'absolute flex flex-row items-center rounded-full border bg-background p-3',
                 {
-                  'bg-primary text-primary-foreground': currentLevel !== 2,
-                  'bg-background text-foreground': currentLevel === 2,
+                  'bg-primary text-primary-foreground': currentLevel !== 1,
+                  'bg-background text-foreground': currentLevel === 1,
                 }
               )}
               style={{ y }}
@@ -222,24 +258,36 @@ const ReadingLevelSelector = ({
                 setHasUserSelectedLevel(false);
               }}
               onDragEnd={() => {
-                if (currentLevel === 2) {
+                if (currentLevel === 1) {
                   setSelectedTool(null);
                 } else {
                   setHasUserSelectedLevel(true);
                 }
               }}
               onClick={() => {
-                if (currentLevel !== 2 && hasUserSelectedLevel) {
+                if (currentLevel !== 1 && hasUserSelectedLevel) {
+                  let message = '';
+                  const levelMessage = getLevelMessage(currentLevel);
+
+                  if (input?.trim()) {
+                    message = `${input.trim()}\n\n${levelMessage}`;
+                  } else {
+                    message = levelMessage;
+                  }
+
                   append({
                     role: 'user',
-                    content: `Please adjust the reading level to ${LEVELS[currentLevel]} level.`,
+                    content: message,
                   });
 
+                  if (setInput) {
+                    setInput('');
+                  }
                   setSelectedTool(null);
                 }
               }}
             >
-              {currentLevel === 2 ? (
+              {currentLevel === 1 ? (
                 <ArrowDownNarrowWide size={16} />
               ) : (
                 <ArrowUp size={16} />
@@ -259,6 +307,126 @@ const ReadingLevelSelector = ({
   );
 };
 
+const LanguageAnalysisSelector = ({
+  setSelectedTool,
+  append,
+  isAnimating,
+  input,
+  setInput,
+}: {
+  setSelectedTool: Dispatch<SetStateAction<string | null>>;
+  isAnimating: boolean;
+  append: (
+    message: Message | CreateMessage,
+    chatRequestOptions?: ChatRequestOptions
+  ) => Promise<string | null | undefined>;
+  input?: string;
+  setInput?: Dispatch<SetStateAction<string>>;
+}) => {
+  const OPTIONS = ['Greek', 'Choose language', 'Hebrew'];
+
+  const y = useMotionValue(-40);
+  const dragConstraints = 2 * 40 + 2;
+  const yToOption = useTransform(y, [0, -dragConstraints], [0, 2]);
+
+  const [currentOption, setCurrentOption] = useState(1);
+  const [hasUserSelectedOption, setHasUserSelectedOption] =
+    useState<boolean>(false);
+
+  useEffect(() => {
+    const unsubscribe = yToOption.on('change', (latest) => {
+      const option = Math.min(2, Math.max(0, Math.round(Math.abs(latest))));
+      setCurrentOption(option);
+    });
+
+    return () => unsubscribe();
+  }, [yToOption]);
+
+  return (
+    <div className="relative flex flex-col items-center justify-end">
+      {[...new Array(3)].map((_, i) => (
+        <motion.div
+          key={i}
+          className="flex size-[40px] flex-row items-center justify-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ delay: 0.1 }}
+        >
+          <div className="size-2 rounded-full bg-muted-foreground/40" />
+        </motion.div>
+      ))}
+
+      <TooltipProvider>
+        <Tooltip open={!isAnimating}>
+          <TooltipTrigger asChild>
+            <motion.div
+              className={cn(
+                'absolute flex flex-row items-center rounded-full border bg-background p-3',
+                {
+                  'bg-primary text-primary-foreground': currentOption !== 1,
+                  'bg-background text-foreground': currentOption === 1,
+                }
+              )}
+              style={{ y }}
+              drag="y"
+              dragElastic={0}
+              dragMomentum={false}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ duration: 0.1 }}
+              dragConstraints={{ top: -dragConstraints, bottom: 0 }}
+              onDragStart={() => {
+                setHasUserSelectedOption(false);
+              }}
+              onDragEnd={() => {
+                if (currentOption === 1) {
+                  setSelectedTool(null);
+                } else {
+                  setHasUserSelectedOption(true);
+                }
+              }}
+              onClick={() => {
+                if (currentOption !== 1 && hasUserSelectedOption) {
+                  let message = '';
+                  if (input?.trim()) {
+                    message = `${input.trim()}\n\nPlease analyze the ${OPTIONS[currentOption]} and its significance in this passage.`;
+                  } else {
+                    message = `Please analyze the ${OPTIONS[currentOption]} and its significance in this passage.`;
+                  }
+
+                  append({
+                    role: 'user',
+                    content: message,
+                  });
+
+                  if (setInput) {
+                    setInput('');
+                  }
+                  setSelectedTool(null);
+                }
+              }}
+            >
+              {currentOption === 1 ? (
+                <ArrowDownNarrowWide size={16} />
+              ) : (
+                <ArrowUp size={16} />
+              )}
+            </motion.div>
+          </TooltipTrigger>
+          <TooltipContent
+            side="left"
+            sideOffset={16}
+            className="rounded-2xl bg-foreground p-3 px-4 text-background text-sm"
+          >
+            {OPTIONS[currentOption]}
+          </TooltipContent>
+        </Tooltip>
+      </TooltipProvider>
+    </div>
+  );
+};
+
 export const Tools = ({
   isToolbarVisible,
   selectedTool,
@@ -266,6 +434,8 @@ export const Tools = ({
   append,
   isAnimating,
   setIsToolbarVisible,
+  input,
+  setInput,
 }: {
   isToolbarVisible: boolean;
   selectedTool: string | null;
@@ -276,7 +446,23 @@ export const Tools = ({
   ) => Promise<string | null | undefined>;
   isAnimating: boolean;
   setIsToolbarVisible: Dispatch<SetStateAction<boolean>>;
+  input?: string;
+  setInput?: Dispatch<SetStateAction<string>>;
 }) => {
+  // Define the tools configuration for the expandable toolbar
+  const tools = [
+    {
+      type: 'cross-references',
+      description: 'Cross references',
+      icon: <Link size={16} />,
+    },
+    {
+      type: 'language-analysis',
+      description: 'Original language',
+      icon: <Languages size={16} />,
+    },
+  ] as const;
+
   return (
     <motion.div
       className="flex flex-col"
@@ -285,41 +471,35 @@ export const Tools = ({
       exit={{ opacity: 0, scale: 0.95 }}
     >
       <AnimatePresence>
-        {isToolbarVisible && (
-          <>
+        {isToolbarVisible &&
+          tools.map((tool) => (
             <Tool
-              type="adjust-reading-level"
-              description="Adjust reading level"
-              icon={<ArrowDownNarrowWide size={16} />}
+              key={tool.type}
+              type={tool.type}
+              description={tool.description}
+              icon={tool.icon}
               selectedTool={selectedTool}
               setSelectedTool={setSelectedTool}
               append={append}
               isAnimating={isAnimating}
+              input={input}
+              setInput={setInput}
             />
-
-            <Tool
-              type="request-suggestions"
-              description="Request suggestions"
-              icon={<MessageCircle size={16} />}
-              selectedTool={selectedTool}
-              setSelectedTool={setSelectedTool}
-              append={append}
-              isAnimating={isAnimating}
-            />
-          </>
-        )}
+          ))}
       </AnimatePresence>
 
       <Tool
-        type="final-polish"
-        description="Add final polish"
-        icon={<PenTool size={16} />}
+        type="explain"
+        description="Explain this"
+        icon={<MessageSquareText size={16} />}
         selectedTool={selectedTool}
         setSelectedTool={setSelectedTool}
         isToolbarVisible={isToolbarVisible}
         setIsToolbarVisible={setIsToolbarVisible}
         append={append}
         isAnimating={isAnimating}
+        input={input}
+        setInput={setInput}
       />
     </motion.div>
   );
@@ -333,6 +513,8 @@ const PureToolbar = ({
   stop,
   setMessages,
   chatInputHeight,
+  input,
+  setInput,
 }: {
   isToolbarVisible: boolean;
   setIsToolbarVisible: Dispatch<SetStateAction<boolean>>;
@@ -344,6 +526,8 @@ const PureToolbar = ({
   stop: () => void;
   setMessages: Dispatch<SetStateAction<Message[]>>;
   chatInputHeight: number;
+  input?: string;
+  setInput?: Dispatch<SetStateAction<string>>;
 }) => {
   const toolbarRef = useRef<HTMLDivElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout>>(null);
@@ -351,7 +535,7 @@ const PureToolbar = ({
   const [selectedTool, setSelectedTool] = useState<string | null>(null);
   const [isAnimating, setIsAnimating] = useState(false);
 
-  useOnClickOutside(toolbarRef, () => {
+  useOnClickOutside(toolbarRef as React.RefObject<HTMLElement>, () => {
     setIsToolbarVisible(false);
     setSelectedTool(null);
   });
@@ -391,16 +575,27 @@ const PureToolbar = ({
     if (!isToolbarVisible) {
       return { opacity: 1, x: 0, y: 0, height: 54, transition: { delay: 0 } };
     }
-    if (selectedTool === 'adjust-reading-level') {
+    if (selectedTool === 'explain') {
       return {
         opacity: 1,
         x: 0,
         y: 0,
-        height: 6 * 43,
+        height: 4 * 43,
         transition: { delay: 0 },
         scale: 0.95,
       };
     }
+    if (selectedTool === 'language-analysis') {
+      return {
+        opacity: 1,
+        x: 0,
+        y: 0,
+        height: 3 * 43,
+        transition: { delay: 0 },
+        scale: 0.95,
+      };
+    }
+
     return {
       opacity: 1,
       x: 0,
@@ -430,13 +625,28 @@ const PureToolbar = ({
       );
     }
 
-    if (selectedTool === 'adjust-reading-level') {
+    if (selectedTool === 'explain') {
       return (
-        <ReadingLevelSelector
-          key="reading-level-selector"
+        <ExplainLevelSelector
+          key="explain-level-selector"
           append={append}
           setSelectedTool={setSelectedTool}
           isAnimating={isAnimating}
+          input={input}
+          setInput={setInput}
+        />
+      );
+    }
+
+    if (selectedTool === 'language-analysis') {
+      return (
+        <LanguageAnalysisSelector
+          key="language-analysis-selector"
+          append={append}
+          setSelectedTool={setSelectedTool}
+          isAnimating={isAnimating}
+          input={input}
+          setInput={setInput}
         />
       );
     }
@@ -450,6 +660,8 @@ const PureToolbar = ({
         selectedTool={selectedTool}
         setIsToolbarVisible={setIsToolbarVisible}
         setSelectedTool={setSelectedTool}
+        input={input}
+        setInput={setInput}
       />
     );
   };
