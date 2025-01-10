@@ -1,3 +1,3 @@
-# Lampstand - The Simplest Bible Study Platform
+# Lampstand - Bible study for the next generation
 
 This is the web platform for Lampstand.

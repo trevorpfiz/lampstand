@@ -7,10 +7,10 @@
     <img src="https://github.com/user-attachments/assets/da556967-553c-428a-b00a-687ed78a63c5" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Lampstand - The Simplest Bible Study Platform</h3>
+<h3 align="center">Lampstand - Bible study for the next generation</h3>
 
   <p align="center">
-    This is the simplest and most powerful Bible study platform. Use it to grow in your relationship with Christ and others.
+    Quickly find verses, simplify complex topics, write with AI, and keep everything organized.
   </p>
 </div>
 
@@ -18,7 +18,7 @@
 <details open>
   <summary><strong>Table of Contents</strong></summary>
   <ol>
-    <li><a href="#demo">Demo</a></li>
+    <li><a href="#guide">Guide</a></li>
     <li><a href="#project-details">Project Details</a></li>
     <li><a href="#technical-details">Technical Details</a></li>
     <li><a href="#installation-and-usage">Installation and Usage</a></li>
@@ -29,11 +29,11 @@
   </ol>
 </details>
 
-<!-- DEMO -->
+<!-- Guide -->
 
-## Demo
+## Guide
 
-Coming soon.
+https://lampstand.ai/guide
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -41,17 +41,7 @@ Coming soon.
 
 ## Project Details
 
-### Apps
-
-- **Next.js** web platform for B-cell and T-cell epitope predictions powered by ESM-3.
-- **FastAPI** for hosting ESM-3 and predicting epitopes.
-- **Tools FastAPI** for hosting DTU Health Tech tools.
-
-### Features
-
-- **Authentication:** Anonymous Sign-Ins with Supabase Auth.
-- **Epitope Predictions:** ESM-3 for linear B-cell, conformational B-cell, MHC-I, and MHC-II epitope predictions.
-- **Web Dashboard:** Next.js app for managing epitope predictions.
+PRD.md
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,63 +49,7 @@ Coming soon.
 
 ## Technical Details
 
-### Tech Stack
-
-- [ESM-3](https://www.evolutionaryscale.ai/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [tRPC](https://trpc.io/)
-- [Drizzle ORM](https://orm.drizzle.team/)
-- [Supabase](https://supabase.com/)
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [Turborepo](https://turbo.build/repo/docs)
-
-```text
-.github
-  └─ workflows
-        └─ CI with pnpm cache setup
-.vscode
-  ├─ Recommended extensions and settings for VSCode users
-  └─ Multi-root Workspaces for smoother python experience in monorepo
-apps
-  ├─ nextjs
-  |   ├─ Next.js 14
-  |   ├─ React 18
-  |   ├─ Tailwind CSS
-  |   └─ E2E Typesafe API Server & Client
-  ├─ fastapi
-  |   ├─ FastAPI for uploading and processing protein sequences
-  |   ├─ ESM-3 for epitope predictions
-  └─ tools-fastapi
-      └─ FastAPI to call DTU Health Tech tools hosted on EC2
-
-notebooks
-  └─ working with the models
-packages
-  ├─ api
-  |   ├─ tRPC v11 router definition.
-  |   └─ Generated TypeScript client from FastAPI OpenAPI spec.
-  ├─ db
-  |   └─ Typesafe db calls using Drizzle & Amazon RDS
-  ├─ ui
-  |   └─ shadcn/ui.
-  └─ validators
-      └─ Zod schemas for repo-wide type-safety and validation.
-tooling
-  ├─ eslint
-  |   └─ shared, fine-grained, eslint presets
-  ├─ prettier
-  |   └─ shared prettier configuration
-  ├─ tailwind
-  |   └─ shared tailwind configuration
-  ├─ github
-  |   └─ shared github actions
-  └─ typescript
-      └─ shared tsconfig you can extend from
-```
-
-> In this project, we use `@lamp` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@lamp` to something like `@my-company` or `@project-name`.
+.cursorrules
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -267,12 +201,12 @@ Distributed under the [MIT License](https://github.com/trevorpfiz/lampstand/blob
 
 ## References
 
-This repo originates from [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo). Feel free to check out the project if you are running into issues with running/deploying the starter.
+This repo originates from [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo) and [next-forge](https://github.com/haydenbleasel/next-forge).
 
 Thanks as well to the following:
 
-- [SEMA 2.0](https://sema.airi.net/) for fueling the original idea of this project.
+- [Logos](https://www.logos.com/) for fueling the original idea.
 
-- [next-fast-turbo](https://github.com/cording12/next-fast-turbo) for the learnings on how to bring FastAPI into the project.
+- [Unriddle](https://www.unriddle.ai/) for inspiring the design on the product.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

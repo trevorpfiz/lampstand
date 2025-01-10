@@ -1,9 +1,6 @@
 import type { Metadata } from 'next';
 
-import { Separator } from '@lamp/ui/components/separator';
-
-import { Container, Section } from '~/components/craft';
-import CTA from '~/components/craft/cta';
+import { redirect } from 'next/navigation';
 
 export const metadata: Metadata = {
   title: 'Guide | Lampstand',
@@ -12,22 +9,8 @@ export const metadata: Metadata = {
 };
 
 const Guide = () => {
-  return (
-    <>
-      <Section className="!pt-0">
-        <Container className="flex min-h-[50vh] items-center justify-center">
-          <h1 className="text-center font-semibold text-4xl">
-            Guide coming soon!
-          </h1>
-        </Container>
-      </Section>
-
-      <Container>
-        <Separator className="bg-muted" />
-      </Container>
-
-      <CTA />
-    </>
+  redirect(
+    'https://lampstand-ai.notion.site/Welcome-Guide-1776e386179380aabaa2f03a9c91634e?pvs=4'
   );
 };
 

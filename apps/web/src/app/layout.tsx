@@ -38,7 +38,7 @@ const RootLayout = ({ children }: RootLayoutProperties) => (
     <body className="bg-background text-foreground">
       <DesignSystemProvider>
         <Header />
-        {children}
+        <main className="min-h-dvh">{children}</main>
         <Container>
           <Separator className="bg-muted" />
         </Container>
