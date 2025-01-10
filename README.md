@@ -4,7 +4,7 @@
 <br>
 <div align="center">
   <a href="https://github.com/trevorpfiz/lampstand">
-    <img src="https://github.com/user-attachments/assets/75fa5507-721d-4c0a-92ee-92a9002aff0c" alt="Logo" width="80" height="80">
+    <img src="https://github.com/user-attachments/assets/da556967-553c-428a-b00a-687ed78a63c5" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Lampstand - The Simplest Bible Study Platform</h3>
