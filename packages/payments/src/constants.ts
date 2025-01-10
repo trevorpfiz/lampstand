@@ -29,7 +29,7 @@ export const mockPlans: PricingPlan[] = [
     order: 1,
     features: [
       {
-        name: '15 AI text generations / day',
+        name: '30 AI text generations / day',
       },
       {
         name: 'Unlimited notes',

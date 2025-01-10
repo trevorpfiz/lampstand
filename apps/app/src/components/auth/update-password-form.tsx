@@ -19,6 +19,7 @@ import { Input } from '@lamp/ui/components/input';
 import type { UpdatePassword } from '@lamp/validators/auth';
 import { UpdatePasswordSchema } from '@lamp/validators/auth';
 
+import { Spinner } from '@lamp/ui/components/spinner';
 import { FormError } from '~/components/auth/form-error';
 import { updatePassword } from '~/lib/actions/auth';
 
@@ -200,6 +201,7 @@ export const UpdatePasswordForm = () => {
           type="submit"
           disabled={isExecuting || strengthScore < 4}
         >
+          {isExecuting && <Spinner className="-ms-1 me-2" />}
           Update password
           <ArrowRight
             className="-me-1 ms-2 opacity-60 transition-transform group-hover:translate-x-0.5"

@@ -17,6 +17,7 @@ import {
   FormMessage,
 } from '@lamp/ui/components/form';
 import { Input } from '@lamp/ui/components/input';
+import { Spinner } from '@lamp/ui/components/spinner';
 import type { RequestPasswordReset } from '@lamp/validators/auth';
 import { RequestPasswordResetSchema } from '@lamp/validators/auth';
 import { FormError } from '~/components/auth/form-error';
@@ -85,6 +86,7 @@ export const ForgotPasswordForm = () => {
           type="submit"
           disabled={isExecuting}
         >
+          {isExecuting && <Spinner className="-ms-1 me-2" />}
           Send reset link
           <ArrowRight
             className="-me-1 ms-2 opacity-60 transition-transform group-hover:translate-x-0.5"

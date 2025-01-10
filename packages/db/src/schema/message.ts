@@ -28,8 +28,8 @@ export const Message = createTable(
       .$onUpdateFn(() => new Date()),
   }),
   (table) => [
-    index('message_chat_id_idx').on(table.chatId),
-    index('message_created_at_idx').on(table.createdAt),
+    index('message_chat_created_idx').on(table.chatId, table.createdAt.asc()),
+    index('message_id_chat_idx').on(table.id, table.chatId),
   ]
 );
 

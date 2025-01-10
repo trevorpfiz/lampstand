@@ -18,6 +18,7 @@ import { Input } from '@lamp/ui/components/input';
 import type { SignUp } from '@lamp/validators/auth';
 import { SignUpSchema } from '@lamp/validators/auth';
 
+import { Spinner } from '@lamp/ui/components/spinner';
 import { FormError } from '~/components/auth/form-error';
 import { FormSuccess } from '~/components/auth/form-success';
 import { signUp } from '~/lib/actions/auth';
@@ -122,6 +123,7 @@ export const SignUpForm = () => {
           type="submit"
           disabled={isExecuting}
         >
+          {isExecuting && <Spinner className="-ms-1 me-2" />}
           Continue with Email
           <ArrowRight
             className="-me-1 ms-2 opacity-60 transition-transform group-hover:translate-x-0.5"

@@ -48,14 +48,44 @@ export function NavStudies() {
   const [name, setName] = useState('');
 
   const renameMutation = api.study.rename.useMutation({
-    onSuccess: async (data) => {
-      utils.study.byUser.invalidate();
-      await revalidateStudy(data.study?.id);
+    onMutate: async (updatedStudy) => {
+      // Cancel any outgoing refetches
+      await utils.study.byUser.cancel();
+
+      // Snapshot the previous value
+      const previousStudies = utils.study.byUser.getData();
+
+      // Optimistically update to the new value
+      utils.study.byUser.setData(undefined, (old) => {
+        if (!old) return { studies: [] };
+        return {
+          studies: old.studies.map((study) => {
+            if (study.id === updatedStudy.id) {
+              return {
+                ...study,
+                title: updatedStudy.title || study.title,
+              };
+            }
+            return study;
+          }),
+        };
+      });
+
       setOpen(false);
-      setSelectedStudy(null);
+      return { previousStudies };
     },
-    onError: (error) => {
+    onError: (error, updatedStudy, context) => {
+      // Rollback to the previous value
+      if (context?.previousStudies) {
+        utils.study.byUser.setData(undefined, context.previousStudies);
+      }
+
       handleError(error);
+    },
+    onSettled: async () => {
+      await revalidateStudy(selectedStudy?.id);
+      await utils.study.byUser.invalidate();
+      setSelectedStudy(null);
     },
   });
 

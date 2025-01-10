@@ -16,10 +16,7 @@ export const Note = createTable(
       .uuid()
       .notNull()
       .references(() => Profile.id, { onDelete: 'cascade' }),
-    studyId: t
-      .uuid()
-      .notNull()
-      .references(() => Study.id),
+    studyId: t.uuid().references(() => Study.id, { onDelete: 'set null' }),
     title: t.varchar({ length: 256 }).notNull().default(''),
     content: t.jsonb().notNull().default(sql`'[]'::jsonb`), // Storing the Slate/Markdown content here
 
@@ -29,9 +26,19 @@ export const Note = createTable(
       .$onUpdateFn(() => new Date()),
   }),
   (table) => [
-    index('note_profile_id_idx').on(table.profileId),
-    index('note_study_id_idx').on(table.studyId),
-    index('note_created_at_idx').on(table.createdAt),
+    // For byStudyId queries
+    index('note_study_profile_created_idx').on(
+      table.studyId,
+      table.profileId,
+      table.createdAt.desc()
+    ),
+    // For byUserId queries
+    index('note_profile_created_idx').on(
+      table.profileId,
+      table.createdAt.desc()
+    ),
+    // For ownership verification
+    index('note_id_profile_idx').on(table.id, table.profileId),
   ]
 );
 

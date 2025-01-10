@@ -25,8 +25,11 @@ export const Study = createTable(
       .$onUpdateFn(() => new Date()),
   }),
   (table) => [
-    index('study_profile_id_idx').on(table.profileId),
-    index('study_created_at_idx').on(table.createdAt),
+    index('study_profile_created_idx').on(
+      table.profileId,
+      table.createdAt.desc()
+    ),
+    index('study_id_profile_idx').on(table.id, table.profileId),
   ]
 );
 

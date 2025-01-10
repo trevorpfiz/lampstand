@@ -36,9 +36,16 @@ export const Chat = createTable(
       .$onUpdateFn(() => new Date()),
   }),
   (table) => [
-    index('chat_profile_id_idx').on(table.profileId),
-    index('chat_study_id_idx').on(table.studyId),
-    index('chat_created_at_idx').on(table.createdAt),
+    index('chat_id_profile_idx').on(table.id, table.profileId),
+    index('chat_study_profile_created_idx').on(
+      table.studyId,
+      table.profileId,
+      table.createdAt.desc()
+    ),
+    index('chat_profile_created_idx').on(
+      table.profileId,
+      table.createdAt.desc()
+    ),
   ]
 );
 

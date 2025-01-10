@@ -18,6 +18,7 @@ import {
 } from 'motion/react';
 import { nanoid } from 'nanoid';
 import type { Dispatch, JSX, SetStateAction } from 'react';
+import type React from 'react';
 import { memo, useEffect, useRef, useState } from 'react';
 import { useOnClickOutside } from 'usehooks-ts';
 
@@ -163,7 +164,7 @@ const Tool = ({
   );
 };
 
-const randomArr = [...new Array(4)].map((_x) => nanoid(5));
+const randomArr = [...new Array(3)].map((_x) => nanoid(5));
 
 const ExplainLevelSelector = ({
   setSelectedTool,
@@ -182,21 +183,16 @@ const ExplainLevelSelector = ({
   setInput?: Dispatch<SetStateAction<string>>;
 }) => {
   // Display labels for the UI
-  const LEVELS = [
-    'In simple terms',
-    'Choose level',
-    'Normally',
-    'In great depth',
-  ];
+  const LEVELS = ['In simple terms', 'Explain', 'In great depth'];
 
   // Corresponding messages for each level
   const getLevelMessage = (level: number) => {
     switch (level) {
       case 0: // In simple terms
         return 'Please explain this in simple terms.';
-      case 2: // Normally
+      case 1: // Normally
         return 'Please explain this.';
-      case 3: // In great depth
+      case 2: // In great depth
         return 'Please explain this in great depth.';
       default:
         return '';
@@ -204,16 +200,16 @@ const ExplainLevelSelector = ({
   };
 
   const y = useMotionValue(-40);
-  const dragConstraints = 3 * 40 + 2;
-  const yToLevel = useTransform(y, [0, -dragConstraints], [0, 3]);
+  const dragConstraints = 2 * 40 + 2;
+  const yToLevel = useTransform(y, [0, -dragConstraints], [0, 2]);
 
   const [currentLevel, setCurrentLevel] = useState(1);
   const [hasUserSelectedLevel, setHasUserSelectedLevel] =
-    useState<boolean>(false);
+    useState<boolean>(true);
 
   useEffect(() => {
     const unsubscribe = yToLevel.on('change', (latest) => {
-      const level = Math.min(3, Math.max(0, Math.round(Math.abs(latest))));
+      const level = Math.min(2, Math.max(0, Math.round(Math.abs(latest))));
       setCurrentLevel(level);
     });
 
@@ -239,13 +235,7 @@ const ExplainLevelSelector = ({
         <Tooltip open={!isAnimating}>
           <TooltipTrigger asChild>
             <motion.div
-              className={cn(
-                'absolute flex flex-row items-center rounded-full border bg-background p-3',
-                {
-                  'bg-primary text-primary-foreground': currentLevel !== 1,
-                  'bg-background text-foreground': currentLevel === 1,
-                }
-              )}
+              className="absolute flex flex-row items-center rounded-full border bg-primary p-3 text-primary-foreground"
               style={{ y }}
               drag="y"
               dragElastic={0}
@@ -258,14 +248,10 @@ const ExplainLevelSelector = ({
                 setHasUserSelectedLevel(false);
               }}
               onDragEnd={() => {
-                if (currentLevel === 1) {
-                  setSelectedTool(null);
-                } else {
-                  setHasUserSelectedLevel(true);
-                }
+                setHasUserSelectedLevel(true);
               }}
               onClick={() => {
-                if (currentLevel !== 1 && hasUserSelectedLevel) {
+                if (hasUserSelectedLevel) {
                   let message = '';
                   const levelMessage = getLevelMessage(currentLevel);
 
@@ -287,11 +273,7 @@ const ExplainLevelSelector = ({
                 }
               }}
             >
-              {currentLevel === 1 ? (
-                <ArrowDownNarrowWide size={16} />
-              ) : (
-                <ArrowUp size={16} />
-              )}
+              <ArrowUp size={16} />
             </motion.div>
           </TooltipTrigger>
           <TooltipContent
@@ -580,7 +562,7 @@ const PureToolbar = ({
         opacity: 1,
         x: 0,
         y: 0,
-        height: 4 * 43,
+        height: 3 * 43,
         transition: { delay: 0 },
         scale: 0.95,
       };

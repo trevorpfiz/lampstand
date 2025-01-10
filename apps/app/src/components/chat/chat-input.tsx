@@ -1,4 +1,4 @@
-import { ArrowUp } from 'lucide-react';
+import { ArrowUp, Square } from 'lucide-react';
 import type { ChangeEvent, FormEvent } from 'react';
 import { useEffect, useMemo, useRef } from 'react';
 
@@ -16,6 +16,7 @@ interface ChatInputProps {
   onChange: (e: ChangeEvent<HTMLTextAreaElement>) => void;
   onHeightChange: (height: number) => void;
   onSubmit: (e: FormEvent) => void;
+  stop: () => void;
 }
 
 export function ChatInput({
@@ -24,6 +25,7 @@ export function ChatInput({
   onChange,
   onHeightChange,
   onSubmit,
+  stop,
 }: ChatInputProps) {
   const modelId = useChatStore((state) => state.modelId);
   const setModelId = useChatStore((state) => state.setModelId);
@@ -84,11 +86,23 @@ export function ChatInput({
               type="submit"
               variant="default"
               size="icon"
-              disabled={isLoading || !input?.trim()}
+              disabled={!isLoading && !input?.trim()}
               className="size-7"
+              onClick={(e) => {
+                if (isLoading) {
+                  e.preventDefault();
+                  stop();
+                }
+              }}
             >
-              <ArrowUp size={16} strokeWidth={2.25} />
-              <span className="sr-only">Send Message</span>
+              {isLoading ? (
+                <Square size={16} strokeWidth={2.25} />
+              ) : (
+                <ArrowUp size={16} strokeWidth={2.25} />
+              )}
+              <span className="sr-only">
+                {isLoading ? 'Stop Generation' : 'Send Message'}
+              </span>
             </Button>
           </div>
         </div>

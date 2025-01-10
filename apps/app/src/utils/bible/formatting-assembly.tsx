@@ -17,6 +17,8 @@ import type {
 } from '~/types/bible';
 import { formatReference, parseReferenceId } from '~/utils/bible/reference';
 
+const VERSE_NUMBER_REGEX = /^\d+\s*/;
+
 export function renderChapter(chap: IRChapter) {
   return (
     <div data-reference={chap.chapterId} data-ref-type="chapter">
@@ -135,15 +137,32 @@ const VerseSpan: React.FC<VerseSpanProps> = ({
 
   // Extract verse text without footnotes
   const getVerseText = () => {
-    const verseText = verse.parts
-      .map((part) => part.text)
-      .join('')
+    // Find all verse spans with the same reference
+    const verseEls = Array.from(
+      document.querySelectorAll(`[data-reference="${verse.verseId}"]`)
+    );
+
+    // Clone each element and remove footnotes
+    const verseTexts = verseEls.map((el) => {
+      const clone = el.cloneNode(true) as HTMLElement;
+      // Remove footnotes
+      for (const fn of Array.from(clone.querySelectorAll('sup'))) {
+        fn.remove();
+      }
+      return clone.textContent?.trim() || '';
+    });
+
+    // Filter out verse numbers and join the text
+    const verseText = verseTexts
+      .map((text) => text.replace(VERSE_NUMBER_REGEX, '')) // Remove verse numbers
+      .join(' ')
       .trim();
+
     const ref = parseReferenceId(verse.verseId);
     if (!ref) {
       return verseText;
     }
-    return `${verseText}\n— ${formatReference(ref)}`;
+    return `${verse.verseNumber} ${verseText}\n— ${formatReference(ref)}\n`;
   };
 
   // Handle click on verse number

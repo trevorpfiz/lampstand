@@ -119,19 +119,11 @@ export async function POST(req: Request) {
   const chat = chatData.chat;
   const userMessageId = generateUUID();
 
-  // If this is first message, generate and update title
+  // If this is first message, we'll handle title generation in onFinish callback
   const { message: firstMessage } = await getFirstMessageByChatId({
     id: chat.id,
   });
   const isFirstMessage = !firstMessage;
-  if (isFirstMessage) {
-    const title = await generateTitleFromUserMessage({ message: userMessage });
-    await updateChatTitleById({
-      chatId: chat.id,
-      title,
-      userId: user.id,
-    });
-  }
 
   // Save user's new message
   await saveMessages({
@@ -167,6 +159,18 @@ export async function POST(req: Request) {
     // }),
     onFinish: async ({ response, usage }) => {
       try {
+        // Generate and update title for first message after response is streamed
+        if (isFirstMessage) {
+          const title = await generateTitleFromUserMessage({
+            message: userMessage,
+          });
+          await updateChatTitleById({
+            chatId: chat.id,
+            title,
+            userId: user.id,
+          });
+        }
+
         // 9.a) Save assistant messages
         const cleaned = sanitizeResponseMessages(response.messages);
         await saveMessages({

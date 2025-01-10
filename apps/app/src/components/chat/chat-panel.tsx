@@ -25,6 +25,8 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
   const utils = api.useUtils();
   const modelId = useChatStore((state) => state.modelId);
 
+  const DRAFT_CHAT_ID = 'draft';
+
   // Get subscription status to determine if we need to check usage
   const [{ subscription }] =
     api.stripe.getActiveSubscriptionByUser.useSuspenseQuery();
@@ -41,13 +43,28 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
   const [selectedChatId, setSelectedChatId] = useState<string | undefined>(
     chats[0]?.id
   );
+  const isDraftChat = selectedChatId === DRAFT_CHAT_ID;
+
+  // Create a draft chat object for the UI
+  const draftChat = {
+    id: DRAFT_CHAT_ID,
+    profileId: '',
+    studyId,
+    title: 'New Chat',
+    createdAt: new Date(),
+    updatedAt: null,
+    visibility: 'private' as const,
+  };
+
+  // Add draft chat to the list when in draft mode
+  const displayChats = isDraftChat ? [draftChat, ...chats] : chats;
 
   // Use onSuccess to handle message updates rather than a useEffect
   const { data: messageData, isLoading: isLoadingMessages } =
     api.message.byChatId.useQuery(
       { chatId: selectedChatId ?? '' },
       {
-        enabled: !!selectedChatId,
+        enabled: !!selectedChatId && !isDraftChat, // Don't query messages for draft chat
       }
     );
 
@@ -65,16 +82,31 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
     api: '/api/chat',
     body: {
       studyId,
-      chatId: selectedChatId,
+      chatId: isDraftChat ? undefined : selectedChatId,
       modelId,
       isFreePlan,
     },
     initialMessages: undefined,
     onFinish() {
-      utils.message.byChatId.invalidate({
-        chatId: selectedChatId ?? '',
-      });
+      if (!isDraftChat) {
+        utils.message.byChatId.invalidate({
+          chatId: selectedChatId ?? '',
+        });
+      }
       utils.chat.byStudy.invalidate({ studyId });
+      // After the first message in draft mode, switch to the new chat
+      if (isDraftChat) {
+        utils.chat.byStudy.invalidate().then(() => {
+          // Get the latest chats data
+          const latestChats =
+            utils.chat.byStudy.getData({ studyId })?.chats ?? [];
+          // The newest chat should be first
+          const newChat = latestChats[0];
+          if (newChat) {
+            setSelectedChatId(newChat.id);
+          }
+        });
+      }
       // Invalidate usage data if on free plan
       if (isFreePlan) {
         utils.profile.byUser.invalidate();
@@ -82,8 +114,14 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
     },
   });
 
+  // Update messages when we get new ones from the database
   useEffect(() => {
-    if (!isLoadingMessages && messageData?.messages && selectedChatId) {
+    if (
+      !isLoadingMessages &&
+      messageData?.messages &&
+      selectedChatId &&
+      !isDraftChat
+    ) {
       const newMsgs = convertToUIMessages(messageData.messages);
       setMessages(newMsgs);
     }
@@ -93,6 +131,7 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
     messageData?.messages,
     selectedChatId,
     setMessages,
+    isDraftChat,
   ]);
 
   // Add event listener for verse clicks
@@ -117,6 +156,84 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
     };
   }, [setInput]); // Only depend on setInput which is stable
 
+  const isLoadingAny = isLoadingMessages && !isDraftChat;
+  const hasNoMessages =
+    (messages.length === 0 && !isLoadingAny) ||
+    (isDraftChat && messages.length === 0);
+
+  // Simplified new chat handler - just switches to draft mode
+  const handleNewChat = () => {
+    setSelectedChatId(DRAFT_CHAT_ID);
+    setMessages([]);
+  };
+
+  const handleSelectChat = (chatId: string) => {
+    setSelectedChatId(chatId);
+    setMessages([]); // Clear messages immediately when switching
+  };
+
+  const handleDeleteChat = () => {
+    if (!selectedChatId || selectedChatId === DRAFT_CHAT_ID) {
+      return;
+    }
+
+    deleteChatMutation.mutate({ id: selectedChatId });
+  };
+
+  // Keep delete chat mutation with optimistic updates
+  const deleteChatMutation = api.chat.delete.useMutation({
+    onMutate: async (deleteVars) => {
+      // Cancel any outgoing refetches
+      await utils.chat.byStudy.cancel();
+
+      // Snapshot the previous value
+      const previousChats = utils.chat.byStudy.getData({ studyId });
+      const previousSelectedId = selectedChatId;
+
+      // Find the next chat to select before we delete
+      const currentChats = previousChats?.chats ?? [];
+      const idx = currentChats.findIndex((c) => c.id === deleteVars.id);
+      const nextChat =
+        idx >= 0 && idx < currentChats.length - 1
+          ? currentChats[idx + 1]
+          : currentChats[idx - 1];
+
+      // Optimistically remove the chat
+      utils.chat.byStudy.setData({ studyId }, (old) => {
+        if (!old) return { chats: [] };
+        return {
+          chats: old.chats.filter((chat) => chat.id !== deleteVars.id),
+        };
+      });
+
+      // Immediately update the selected chat and clear messages if needed
+      if (deleteVars.id === selectedChatId) {
+        setMessages([]);
+        setSelectedChatId(nextChat?.id);
+      }
+
+      // Return context for potential rollback
+      return { previousChats, previousSelectedId };
+    },
+    onError: (error, variables, context) => {
+      // Rollback on error
+      if (context?.previousChats) {
+        utils.chat.byStudy.setData({ studyId }, context.previousChats);
+        setSelectedChatId(context.previousSelectedId);
+      }
+      handleError(error);
+    },
+    onSettled: async () => {
+      await utils.chat.byStudy.invalidate();
+    },
+  });
+
+  useEffect(() => {
+    if (chats.length > 0 && !selectedChatId) {
+      setSelectedChatId(chats[0]?.id);
+    }
+  }, [chats, selectedChatId]);
+
   const [isToolbarVisible, setIsToolbarVisible] = useState(false);
   const [chatInputHeight, setChatInputHeight] = useState(0);
   const chatInputRef = useRef<HTMLDivElement>(null);
@@ -133,86 +250,15 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
     setChatInputHeight(height);
   };
 
-  const isLoadingAny = isLoadingMessages;
-  const hasNoMessages = messages.length === 0 && !isLoadingAny;
-
-  // Add create chat mutation
-  const createChatMutation = api.chat.create.useMutation({
-    onSuccess: (data) => {
-      // Invalidate the chat list query to refresh the data
-      utils.chat.byStudy.invalidate();
-      // Select the newly created chat
-      setSelectedChatId(data.chat?.id);
-      // Reset messages for the new chat
-      setMessages([]);
-    },
-    onError: (error) => {
-      handleError(error);
-    },
-  });
-
-  // Add delete chat mutation
-  const deleteChatMutation = api.chat.delete.useMutation({
-    onSuccess: async () => {
-      await utils.chat.byStudy.invalidate({ studyId });
-      // After deletion, pick the next chat
-      const updatedChats = utils.chat.byStudy.getData({ studyId })?.chats ?? [];
-      if (updatedChats.length > 0) {
-        // Find the closest chat to the deleted one, or default to first
-        const idx = updatedChats.findIndex((c) => c.id === selectedChatId);
-        // If not found, selectedChatId was deleted, pick next one
-        const nextChat =
-          idx >= 0 && idx < updatedChats.length
-            ? updatedChats[idx]
-            : updatedChats[0];
-        setSelectedChatId(nextChat?.id);
-      } else {
-        setSelectedChatId(undefined);
-        setMessages([]);
-      }
-    },
-    onError: (error) => {
-      handleError(error);
-    },
-  });
-
-  // Handlers for new chat and delete chat
-  const handleNewChat = () => {
-    createChatMutation.mutate({
-      studyId,
-      title: 'New Chat',
-    });
-  };
-
-  const handleDeleteChat = () => {
-    if (!selectedChatId) {
-      return;
-    }
-
-    if (
-      window.confirm(
-        'Are you sure you want to delete this chat? This action cannot be undone.'
-      )
-    ) {
-      deleteChatMutation.mutate({ id: selectedChatId });
-    }
-  };
-
-  useEffect(() => {
-    if (chats.length > 0 && !selectedChatId) {
-      setSelectedChatId(chats[0]?.id);
-    }
-  }, [chats, selectedChatId]);
-
   return (
     <div className="flex h-full flex-col">
       <ChatHeader
-        initialChats={chats}
+        initialChats={displayChats}
         selectedChatId={selectedChatId}
-        onSelectChat={(chatId) => setSelectedChatId(chatId)}
+        onSelectChat={handleSelectChat}
         onNewChat={handleNewChat}
         onDeleteChat={handleDeleteChat}
-        isNewChatPending={createChatMutation.isPending}
+        isNewChatPending={false}
       />
 
       <ChatMessages
@@ -240,10 +286,11 @@ export function ChatPanel({ initialChats }: ChatPanelProps) {
             <div ref={chatInputRef} className="rounded-b-xl">
               <ChatInput
                 input={input}
-                isLoading={isLoading || isLoadingAny}
+                isLoading={isLoading}
                 onChange={handleInputChange}
                 onSubmit={handleSubmit}
                 onHeightChange={handleInputHeightChange}
+                stop={stop}
               />
             </div>
           </div>
